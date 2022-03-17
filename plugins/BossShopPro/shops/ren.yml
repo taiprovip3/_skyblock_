@@ -1,0 +1,61 @@
+ShopName: ren
+DisplayName: '&cServer&6♦&8 Rèn&e☫'
+Command: trainee:ren:training
+Sound:
+  Shop:
+    Open: ENTITY_PLAYER_LEVELUP:1:1
+    ChangeShop: ENTITY_PLAYER_LEVELUP:1:1
+shop:
+  purge:
+    MenuItem:
+    - type:450
+    - name:&aTẩy luyện đồ
+    - 'lore2:&aғᴀǫ:&7 tùy loại trang bị mà có thuộc tính tẩy luyện khác nhau. Ex: kiếm có &e&l+&7 tấn công, tốc đánh và giáp có &e&l+&7 giáp chính và giảm thương'
+    - 'lore4:&aғᴀǫ:&7 sử dụng đá rèn để tẩy luyện thuộc tính cho trang bị yêu thích của bạn'
+    - 'lore6:&8&l(!)&7 Trang bị đã tẩy sẽ ko thể tiếp tục, giao dịch với NPC'
+    - 'lore8:&aClickable&7 vào giao diện Tẩy'
+    RewardType: shop
+    Reward: ren_purge
+    InventoryLocation: 1
+  unbre:
+    MenuItem:
+    - type:405
+    - name:&aĐục unbreakable
+    - 'lore2:&aғᴀǫ:&7 khảm lên trang bị yêu thích độ bề&e vô cực&7 để ko làm phiên bạn sữa chửa'
+    - 'lore4:&aғᴀǫ:&7 sử dụng đá rèn để đục. Đục có rate &asuccess&7/&4fail'
+    - 'lore6:&8&l(!)&7 Cầm trang bị trên tay trước khi click vào đây'
+    - 'lore8:&aClickable&7 đục Unbreakble'
+    RewardType: shop
+    Reward: ren_unbreakable
+    InventoryLocation: 2
+  PA:
+    MenuItem:
+    - type:449
+    - name:&aPhong ấn Item
+    - 'lore2:&aғᴀǫ:&7 khảm lên trang bị&6&l MỌI TRANG BỊ&7 phong ấn'
+    - 'lore4:&a&lPHONG ẤN:&7 trang bị mang tên chủ sỡ hữu, ko thể bán, giao dịch NPC, trade và ko thể bị nhặt bởi người khác'
+    - 'lore6:&8&l(!)&7 Cầm &6&lTRANG BỊ&7 trên tay trước khi click vào đây'
+    - 'lore8:&aClickable&7 vào để khảm Phong Ấn'
+    RewardType: shop
+    Reward: ren_PA
+    InventoryLocation: 3
+  drill:
+    MenuItem:
+    - type:318
+    - name:&aKhoan (đục lỗ) &etrang bị
+    - 'lore2:&aғᴀǫ:&7 đục lên trang bị tay cầm 1 lỗ thạch rỗng'
+    - 'lore4:&a&lLỖ THẠCH:&7 có thể khảm ngọc thạch lên trang bị đó'
+    - 'lore6:&eNo Litmited:&7 ko giới hạn đục lỗ trên 1 trang bị'
+    - 'lore8:&8&l(!)&7 Cầm &6&lTRANG BỊ&7 trên tay trước khi click đục thạch'
+    - 'lore10:&aClickable&7 vào để xác nhận đục'
+    RewardType: shop
+    Reward: ren_drill
+    InventoryLocation: 4
+  menu:
+    MenuItem:
+    - type:54
+    - 'name:&9&lGiao Diện MENU'
+    - 'lore2:&7Click vào quay lại menu'
+    RewardType: shop
+    Reward: menu
+    InventoryLocation: 50

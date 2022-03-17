@@ -1,0 +1,204 @@
+menu-settings:
+  name: '&cMáy Chủ&6♦&8 Quà lên cấp☘'
+  rows: 1
+  command: 'qlc; boxup; qtc'
+1:
+  LEVELS: 30
+  COMMAND: 'console:pex user {player} remove minecraft.levelup.30; console:pex user {player} add minecraft.levelup.50; console:bc &e&l{player}&e vừa nhận quà trưởng thành &7&lLv30; console:voucher give {player} chestdiamond 1; console:voucher give {player} chestemerald 1; console:voucher give {player} chestgold 1; console:mm i give {player} rpg_daren 100; console:mm i give {player} rpg_dacuonghoa 20; console:p give {player} 20; console:pex user {player} add gadgetsmenu.cloaks.frosty; console:pex user {player} add gadgetsmenu.pets.babywolf; console:class exp {player} 11360; console:gmenu equip cloak Frosty {player}; console:gmenu equip pet Baby_Wolf {player}'
+  NAME: '&2Quà level 30 &f[&a☘&f]'
+  LORE:
+    - '&8(chỉ claim 1 lần duy nhất)'
+    - '&a ●&71 rương kim cương'
+    - '&a ●&71 rương lục bảo'
+    - '&a ●&71 rương vàng rồng'
+    - '&a ●&7100 Đá rèn'
+    - '&a ●&720 Đá cường hóa'
+    - '&a ●&720 PixelCoins (&e⛁&7)'
+    - '&a ●&7mở khóa niên thú &alv1'
+    - '&a ●&7mở khóa cánh &alv1'
+    - '&2&oYêu cầu: &7&lLv30'
+    - ''
+    - '&aCLICKABLE&7 vào để nhận'
+  ID: 340
+  KEEP-OPEN: true
+  PERMISSION: 'minecraft.levelup.30'
+  PERMISSION-MESSAGE: '&c&oBạn chưa đạt &7&l&olvl-30'
+  AMOUNT: 3
+  POSITION-X: 1
+  POSITION-Y: 1
+2:
+  LEVELS: 50
+  COMMAND: 'console:pex user {player} remove minecraft.levelup.50; console:pex user {player} add minecraft.levelup.70; console:bc &e&l{player}&e vừa nhận quà trưởng thành &7&lLv50; console:voucher give {player} chestdiamond 1; console:voucher give {player} chestemerald 2; console:voucher give {player} chestgold 2; console:mm i give {player} rpg_daren 150; console:mm i give {player} rpg_dacuonghoa 25; console:p give {player} 50'
+  NAME: '&2Quà level 50 &f[&a☘&f]'
+  LORE:
+    - '&8(chỉ claim 1 lần duy nhất)'
+    - '&a ●&72 rương kim cương'
+    - '&a ●&72 rương lục bảo'
+    - '&a ●&72 rương vàng rồng'
+    - '&a ●&7150 Đá rèn'
+    - '&a ●&725 Đá cường hóa'
+    - '&a ●&750 PixelCoins (&e⛁&7)'
+    - '&2&oYêu cầu: &7&lLv50'
+    - ''
+    - '&aCLICKABLE&7 vào để nhận'
+  ID: 340
+  KEEP-OPEN: true
+  PERMISSION: 'minecraft.levelup.50'
+  PERMISSION-MESSAGE: '&c&oBạn chưa đạt &7&l&olvl-50'
+  AMOUNT: 5
+  POSITION-X: 2
+  POSITION-Y: 1
+3:
+  LEVELS: 70
+  COMMAND: 'console:pex user {player} remove minecraft.levelup.70; console:pex user {player} add minecraft.levelup.90; console:bc &e&l{player}&e vừa nhận quà trưởng thành &7&lLv70; console:voucher give {player} chestdiamond 1; console:voucher give {player} chestemerald 3; console:voucher give {player} chestgold 3; console:mm i give {player} rpg_daren 200; console:mm i give {player} rpg_dacuonghoa 30; console:p give {player} 100'
+  NAME: '&2Quà level 70 &f[&a☘&f]'
+  LORE:
+    - '&8(chỉ claim 1 lần duy nhất)'
+    - '&a ●&73 rương kim cương'
+    - '&a ●&73 rương lục bảo'
+    - '&a ●&73 rương vàng rồng'
+    - '&a ●&7200 Đá rèn'
+    - '&a ●&730 Đá cường hóa'
+    - '&a ●&7100 PixelCoins (&e⛁&7)'
+    - '&2&oYêu cầu: &7&lLv70'
+    - ''
+    - '&aCLICKABLE&7 vào để nhận'
+  ID: 340
+  KEEP-OPEN: true
+  PERMISSION: 'minecraft.levelup.70'
+  PERMISSION-MESSAGE: '&c&oBạn chưa đạt &7&l&olvl-70'
+  AMOUNT: 7
+  POSITION-X: 3
+  POSITION-Y: 1
+4:
+  LEVELS: 90
+  COMMAND: 'console:pex user {player} remove minecraft.levelup.90; console:pex user {player} add minecraft.levelup.100; console:bc &e&l{player}&e vừa nhận quà trưởng thành &7&lLv90; console:voucher give {player} chestdiamond 1; console:voucher give {player} chestemerald 4; console:voucher give {player} chestgold 4; console:mm i give {player} rpg_daren 250; console:mm i give {player} rpg_dacuonghoa 35; console:p give {player} 200'
+  NAME: '&2Quà level 90 &f[&a☘&f]'
+  LORE:
+    - '&8(chỉ claim 1 lần duy nhất)'
+    - '&a ●&74 rương kim cương'
+    - '&a ●&74 rương lục bảo'
+    - '&a ●&74 rương vàng rồng'
+    - '&a ●&7250 Đá rèn'
+    - '&a ●&735 Đá cường hóa'
+    - '&a ●&7200 PixelCoins (&e⛁&7)'
+    - '&2&oYêu cầu: &7&lLv90'
+    - ''
+    - '&aCLICKABLE&7 vào để nhận'
+  ID: 340
+  KEEP-OPEN: true
+  PERMISSION: 'minecraft.levelup.90'
+  PERMISSION-MESSAGE: '&c&oBạn chưa đạt &7&l&olvl-90'
+  AMOUNT: 9
+  POSITION-X: 4
+  POSITION-Y: 1
+5:
+  LEVELS: 100
+  COMMAND: 'console:pex user {player} remove minecraft.levelup.100; console:pex user {player} add minecraft.levelup.120; console:bc &e&l{player}&e vừa nhận quà trưởng thành &7&lLv100; console:voucher give {player} chestdiamond 1; console:voucher give {player} chestemerald 5; console:voucher give {player} chestgold 5; console:mm i give {player} rpg_daren 300; console:mm i give {player} rpg_dacuonghoa 40; console:p give {player} 400'
+  NAME: '&2Quà level 100 &f[&a☘&f]'
+  LORE:
+    - '&8(chỉ claim 1 lần duy nhất)'
+    - '&a ●&75 rương kim cương'
+    - '&a ●&75 rương lục bảo'
+    - '&a ●&75 rương vàng rồng'
+    - '&a ●&7300 Đá rèn'
+    - '&a ●&740 Đá cường hóa'
+    - '&a ●&7400 PixelCoins (&e⛁&7)'
+    - '&2&oYêu cầu: &7&lLv100'
+    - ''
+    - '&aCLICKABLE&7 vào để nhận'
+  ID: 340
+  KEEP-OPEN: true
+  PERMISSION: 'minecraft.levelup.100'
+  PERMISSION-MESSAGE: '&c&oBạn chưa đạt &7&l&olvl-100'
+  AMOUNT: 10
+  POSITION-X: 5
+  POSITION-Y: 1
+6:
+  LEVELS: 120
+  COMMAND: 'console:pex user {player} remove minecraft.levelup.120; console:pex user {player} add minecraft.levelup.140; console:bc &e&l{player}&e vừa nhận quà trưởng thành &7&lLv120; console:voucher give {player} chestdiamond 1; console:voucher give {player} chestemerald 6; console:voucher give {player} chestgold 6; console:mm i give {player} rpg_daren 350; console:mm i give {player} rpg_dacuonghoa 45; console:p give {player} 500'
+  NAME: '&2Quà level 120 &f[&a☘&f]'
+  LORE:
+    - '&8(chỉ claim 1 lần duy nhất)'
+    - '&a ●&76 rương kim cương'
+    - '&a ●&76 rương lục bảo'
+    - '&a ●&76 rương vàng rồng'
+    - '&a ●&7350 Đá rèn'
+    - '&a ●&745 Đá cường hóa'
+    - '&a ●&7500 PixelCoins (&e⛁&7)'
+    - '&2&oYêu cầu: &7&lLv120'
+    - ''
+    - '&aCLICKABLE&7 vào để nhận'
+  ID: 340
+  KEEP-OPEN: true
+  PERMISSION: 'minecraft.levelup.120'
+  PERMISSION-MESSAGE: '&c&oBạn chưa đạt &7&l&olvl-120'
+  AMOUNT: 12
+  POSITION-X: 6
+  POSITION-Y: 1
+7:
+  LEVELS: 140
+  COMMAND: 'console:pex user {player} remove minecraft.levelup.140; console:pex user {player} add minecraft.levelup.160; console:bc &e&l{player}&e vừa nhận quà trưởng thành &7&lLv140; console:voucher give {player} chestdiamond 1; console:voucher give {player} chestemerald 7; console:voucher give {player} chestgold 7; console:mm i give {player} rpg_daren 400; console:mm i give {player} rpg_dacuonghoa 50; console:p give {player} 800'
+  NAME: '&2Quà level 140 &f[&a☘&f]'
+  LORE:
+    - '&8(chỉ claim 1 lần duy nhất)'
+    - '&a ●&77 rương kim cương'
+    - '&a ●&77 rương lục bảo'
+    - '&a ●&77 rương vàng rồng'
+    - '&a ●&7400 Đá rèn'
+    - '&a ●&750 Đá cường hóa'
+    - '&a ●&7800 PixelCoins (&e⛁&7)'
+    - '&2&oYêu cầu: &7&lLv140'
+    - ''
+    - '&aCLICKABLE&7 vào để nhận'
+  ID: 340
+  KEEP-OPEN: true
+  PERMISSION: 'minecraft.levelup.140'
+  PERMISSION-MESSAGE: '&c&oBạn chưa đạt &7&l&olvl-140'
+  AMOUNT: 14
+  POSITION-X: 7
+  POSITION-Y: 1
+8:
+  LEVELS: 160
+  COMMAND: 'console:pex user {player} remove minecraft.levelup.160; console:pex user {player} add minecraft.levelup.180; console:bc &e&l{player}&e vừa nhận quà trưởng thành &7&lLv160; console:voucher give {player} chestdiamond 1; console:voucher give {player} chestemerald 8; console:voucher give {player} chestgold 8; console:mm i give {player} rpg_daren 450; console:mm i give {player} rpg_dacuonghoa 55; console:p give {player} 1000'
+  NAME: '&2Quà level 160 &f[&a☘&f]'
+  LORE:
+    - '&8(chỉ claim 1 lần duy nhất)'
+    - '&a ●&78 rương kim cương'
+    - '&a ●&78 rương lục bảo'
+    - '&a ●&78 rương vàng rồng'
+    - '&a ●&7450 Đá rèn'
+    - '&a ●&755 Đá cường hóa'
+    - '&a ●&71000 PixelCoins (&e⛁&7)'
+    - '&2&oYêu cầu: &7&lLv160'
+    - ''
+    - '&aCLICKABLE&7 vào để nhận'
+  ID: 340
+  KEEP-OPEN: true
+  PERMISSION: 'minecraft.levelup.160'
+  PERMISSION-MESSAGE: '&c&oBạn chưa đạt &7&l&olvl-160'
+  AMOUNT: 16
+  POSITION-X: 8
+  POSITION-Y: 1
+9:
+  LEVELS: 180
+  COMMAND: 'console:pex user {player} remove minecraft.levelup.180; console:bc &e&l{player}&e vừa nhận quà trưởng thành &7&lLv180; console:voucher give {player} chestdiamond 1; console:voucher give {player} chestemerald 9; console:voucher give {player} chestgold 9; console:mm i give {player} rpg_daren 500; console:mm i give {player} rpg_dacuonghoa 60; console:p give {player} 1200'
+  NAME: '&2Quà level 180 &f[&a☘&f]'
+  LORE:
+    - '&8(chỉ claim 1 lần duy nhất)'
+    - '&a ●&79 rương kim cương'
+    - '&a ●&79 rương lục bảo'
+    - '&a ●&79 rương vàng rồng'
+    - '&a ●&7500 Đá rèn'
+    - '&a ●&760 Đá cường hóa'
+    - '&a ●&71200 PixelCoins (&e⛁&7)'
+    - '&2&oYêu cầu: &7&lLv180'
+    - ''
+    - '&aCLICKABLE&7 vào để nhận'
+  ID: 340
+  KEEP-OPEN: true
+  PERMISSION: 'minecraft.levelup.180'
+  PERMISSION-MESSAGE: '&c&oBạn chưa đạt &7&l&olvl-180'
+  AMOUNT: 18
+  POSITION-X: 9
+  POSITION-Y: 1

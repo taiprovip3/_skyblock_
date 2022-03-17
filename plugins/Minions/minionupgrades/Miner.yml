@@ -1,0 +1,22 @@
+#MaxLevel: 2 #The minion can go to whatever level you want, just make sure you do the settings below correct
+MaxLevel: 6
+
+Levels:
+  CostToUpgradeToLevel2: 3000000 #The cost to upgrade to level 2
+  CostToUpgradeToLevel3: 9000000 #The cost to upgrade to level 2
+  CostToUpgradeToLevel4: 15000000
+  CostToUpgradeToLevel5: 33000000
+  CostToUpgradeToLevel6: 10000000
+Settings:
+  SettingsAtLevel1: 1             #1 = mine 1 block infront, putting higher number will mean thats the number of blocks mined
+  SettingsAtLevel2: 2         #SMELT = Ores will automatically be smelted
+  SettingsAtLevel3: 3    # Smelt and mine 2 blocks infront
+  SettingsAtLevel4: 4
+  SettingsAtLevel5: 5
+  SettingsAtLevel6: SMELT | 5
+Messages:
+  MessageOnUpgradeTo2: '&aBạn vừa năng cấp thành công &eᴍɪɴɪᴏɴ&a đến ʟᴠ2!'
+  MessageOnUpgradeTo3: '&aBạn vừa năng cấp thành công &eᴍɪɴɪᴏɴ&a đến ʟᴠ3!'
+  MessageOnUpgradeTo4: '&aBạn vừa năng cấp thành công &eᴍɪɴɪᴏɴ&a đến ʟᴠ4!'
+  MessageOnUpgradeTo5: '&aBạn vừa năng cấp thành công &eᴍɪɴɪᴏɴ&a đến ʟᴠ5!'
+  MessageOnUpgradeTo6: '&aBạn vừa năng cấp thành công &eᴍɪɴɪᴏɴ&a đến ʟᴠ6!'

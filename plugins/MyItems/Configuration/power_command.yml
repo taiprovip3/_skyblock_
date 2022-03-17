@@ -1,0 +1,32 @@
+#Note: 
+#Please use [Space] instead of [Tab]
+#Forgot to add open and close string statement ["] causing not load properly!
+#1 Seconds = 20 Ticks
+
+#-----=====[ Command Option ]=====-----#
+
+#keylore: Identifier in lore item
+#command: Command that will be executed
+
+#-----=====[ PlaceHolder ]=====-----#
+
+# <player>: Player that hold the item
+
+#-----=====[ Command List ]=====-----#
+
+Suicide:
+  keylore: "Tự sát"
+  command: "suicide"
+  
+Speed:
+  keylore: "Tăng 300%*Tốc di chuyển (15s)"
+  command: "effect <player> 1 15 2"
+  
+Boost:
+  keylore: "Nhận được full BUFF tối thượng (60s)"
+  command:
+  - "effect <player> 1 60 2"
+  - "effect <player> 3 60 1"
+  - "effect <player> 5 60 1"
+  - "effect <player> 8 60 2"
+  - "effect <player> 10 60 2"

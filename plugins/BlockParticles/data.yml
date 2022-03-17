@@ -1,0 +1,43 @@
+locations:
+  '1':
+    world: world
+    x: 31
+    y: 98
+    z: -2
+    particle: Flame
+  bw:
+    world: world
+    x: -43
+    y: 64
+    z: 41
+    particle: FlameWheel
+  pvp:
+    world: pvp
+    x: -32
+    y: 4
+    z: 11
+    particle: DoubleWitch
+  switch:
+    world: world
+    x: 30
+    y: 65
+    z: -84
+    particle: Spiral
+  hqba:
+    world: world
+    x: 33
+    y: 65
+    z: -84
+    particle: Spiral
+  titan:
+    world: world
+    x: 36
+    y: 65
+    z: -84
+    particle: Spiral
+  ymir:
+    world: world
+    x: 39
+    y: 65
+    z: -84
+    particle: Spiral

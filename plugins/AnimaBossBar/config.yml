@@ -1,0 +1,142 @@
+####################################
+#                                  #
+#    BossBar Made By Dutchwilco    #
+#           Version 4.3            #
+####################################
+#     Don't remove the '' or #     #
+####################################
+
+#Title and subtitle
+WelcomeTitle: true
+Title: '&aChào mừng &f%player_name%&a quay lại máy chủ.'
+SubTitle: '&f/napthe&a để duy trì máy chủ bạn nhé.'
+
+#WelcomeMessages
+WelcomeMessage: false
+FirstJoin: '&a✌ &dChào mừng &5%player_name%&d lần đầu đến với máy chủ.'
+WelcomeBack: '&f%player_name% &2Đảo &c[%askyblock_level%&c]&2 Lv.&c[%player_level%] &2Tiền &c[%vault_eco_balance_formatted%] &2Px &c[%playerpoints_points%] &2BTC &c[%gadgetsmenu_mystery_dust%]'
+
+#BossBar
+BossBar: true
+BossBar-Interval: 10 # in seconds
+
+bossbars:
+  '1':
+    text: '&aKhai trương server, tặng &6/fly&a vui cả ngày.'
+    color: 'RED'
+    type: 'SOLID'
+  '2':
+    text: '&eNạp thẻ &a100.000 &ecard nhận ngay rìu builder vĩnh hằng.'
+    color: 'WHITE'
+    type: 'SOLID'
+  '3':
+    text: '&aMáy chủ được thành lập từ tháng /12 năm 2019.'
+    color: 'GREEN'
+    type: 'SOLID'
+  '4':
+    text: '&aBạn đã chơi quá &f180 phút&a, hãy vận động cổ tay.'
+    color: 'BLUE'
+    type: 'SOLID'
+  '5':
+    text: '&aWebsite duy nhất & chính thức: &f&n&ngrassmc.rf.gd&a.'
+    color: 'PINK'
+    type: 'SOLID'
+  '6':
+    text: '&aMáy chủ đang hoàn thiện. Nếu có bug, lỗi vui lòng báo cáo ngay!'
+    color: 'YELLOW'
+    type: 'SOLID'
+#AutoBroadcast
+ChatMessages: true
+Chat-Interval: 60
+
+chatmessages:
+  '1':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 /napthe bất kì mệnh giá đều nhận gói quà nạp lần đầu.'
+  '2':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 /qnt xem gói quà nạp thẻ lần đầu.'
+  '3':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Tham gia fanpage fb để theo dõi tình trạng máy chủ.'
+  '4':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Code đc phát vào mỗi tối CN trên group máy chủ.'
+  '5':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Đồ Sát người yêu hòa bình sẽ bị truy nã nha.'
+  '6':
+    text: '&e(&7Lời nhắc&e) &5&l>> &e /qnt2&7 xem gói quà nạp tích lũy'
+  '7':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Tham gia diệt bossworld để rơi đồ khủng'
+  '8':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Trinh sát/thảo phạt thường rơi trang bị xác suất.'
+  '9':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Phát hiện bug/lỗi vui lòng báo cáo cho admin thân thiện nhận thưởng.'
+  '10':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Có hệ thống jail & nhà tù & phát hiện & police, vui lòng ko sử dụng cheat, hack bạn nhé.'
+  '11':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Hãy giới thiệu server đến bạn bè để cùng trải nghiệm chế độ skyblock.'
+  '12':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Chấp nhận &egói RSP&7 để có trải nghiệm chơi tốt nhất.'
+  '13':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Máy chủ sử dụng /kho quặng khi farm chính thức.'
+  '14':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Hopper có giới hạn tối đa.'
+  '15':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Bấm tab để xem điểm sức mạnh toàn cụm online.'
+  '16':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Trang web server chính thức: &f&nɢʀᴀssᴍᴄ.ʀғ.ɢᴅ'
+  '17':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 /menu mở tiện ích toàn bộ máy chủ.'
+  '18':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Hòm viện trợ skyworld xuất hiện tại khu &eᴘᴠᴘ.'
+  '19':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Offical website: &nɢʀᴀssᴍᴄ.ʀғ.ɢᴅ&7.'
+  '20':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Download OPTIFINE giúp giảm lag đáng kể. Link (fullver): &e&nhttps://optifine.net/downloads&7 <- nhấp vào đây'
+  '21':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Ghi nhớ các ký hiệu tiền tệ: &a&l$&a-money &e&l⛀&e-pixelcoin &e&l⛁&e-coins &6⚓&f:&7 sức mạnh'
+  '22':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Bấm &aSHIFT &7+ &aChuột trái/ch.phải &7hoặc &achuột-giữa&7 để xếp rương + xếp túi &e&lE'
+  '23':
+    text: '&e(&7Lời nhắc&e) &5&l>> &e /faq&7 để xem tất cả các hướng dẫn, bảng lệnh cmd, lệnh tắt /'
+  '24':
+    text: '&e(&7Lời nhắc&e) &5&l>> &e /nangcap&7 để nâng cấp máy farm đá.'
+  '25':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Nạp thẻ&e 100.000 vnđ&7 nhận ngay xẻng builder vĩnh viễn.'
+  '26':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Khoe item trên tay bằng cách gõ boxchat &e[item]'
+  '27':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Sữa chữa tool trainee để có thể nâng cấp (chuột phải)'
+  '28':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Đừng giết con bò island.'
+  '29':
+    text: '&e(&7Lời nhắc&e) &5&l>> &e /is ms&7 có bán trứng cừu, bò giá rẽ (&e⛀&7).'
+  '30':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Điểm danh trên website có thể xảy ra các lỗi phát sinh nên hãy điểm danh trước khi vào game.'
+  '31':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Máy có sử dụng thùng chứa (stack), /kho'
+  '32':
+    text: '&e(&7Lời nhắc&e) &5&l>> &e /stacker toggle&7 bật/tắt chức năng gộp khối (stacker) đối với blockfarm'
+  '33':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Bấm &e&lSHIFT &7+ &e&lCHUỘT-PHẢI&7 vào thùng chứa để bỏ tài nguyên vào'
+  '34':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Hỏi bạn bè hoặc các bạn lão luyện cùng máy chủ cách chơi để pro hơn.'
+  '35':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Giới hạn thùng chứa (stacker) gộp blockfarm là 99.999'
+  '36':
+    text: '&e(&7Lời nhắc&e) &5&l>> &e /pets&7 hướng dẫn cách bắt pet và sử dụng cực kỳ đơn giản.'
+  '37':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Điểm danh nhận &aHQBA&7 chỉ claim được sau 24h.'
+  '38':
+    text: '&e(&7Lời nhắc&e) &5&l>> &e /skin&7 đổi skin yêu thích.'
+  '39':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Vui lòng chơi đủ 180p rồi nghĩ để tránh gây tổn hại đến sức khỏe'
+  '40':
+    text: '&e(&7Lời nhắc&e) &5&l>> &e /cf&7 để không làm mà vẫn có ăn.'
+  '41':
+    text: '&e(&7Lời nhắc&e) &5&l>> &7 Truy cập &egrassmc.rf.gd&7 để báo cáo ẩn danh những lỗi của sv, ý kiến cá nhân, chia sẽ, góp ý. ADMIN sẽ đọc thường xuyên!'
+# * for every world on the server
+bossbar-worlds:
+  - 'world'
+  - 'world_nether'
+  - 'world_the_end'
+  - 'ASkyBlock'
+  - 'ASkyBlock_nether'
+  - '*'

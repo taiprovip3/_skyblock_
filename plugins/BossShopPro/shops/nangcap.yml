@@ -1,0 +1,398 @@
+ShopName: nangcap
+DisplayName: '&9Server ()&8 Nâng cấp✶'
+Command: nangcap:upgrade
+Sound:
+  Shop:
+    Open: ENTITY_WITHER_SPAWN:1:1
+    ChangeShop: ENTITY_WITHER_SPAWN:1:1
+shop:
+  1:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM4NzhkZDgxNjk4MTQ5M2VkODgxNjZiNzUyYjJiN2I5ZjRkMTNiZDk4ZWQzOTM4NDc3YjhhYjhlZWRjIn19fQ===
+    - 'name:&aKhởi tạo &7(đã có)'
+    - 'lore1:&eNước + anything = block farm'
+    - 'lore3:&7&lĐá:&7  15.0%'
+    - 'lore4:&8Than:&7  10.5%'
+    - 'lore5:&fSắt:&7  10.5%'
+    - 'lore6:&eVàng:&7  10.5%'
+    - 'lore7:&cĐá đỏ:&7 10.5%'
+    - 'lore8:&9Lưu li:&7 10.5%'
+    - 'lore9:&2Lục bảo:&7 10.5%'
+    - 'lore10:&bKim cương:&7 10.5%'
+    - 'lore11:&fBone:&7 10.5%'
+    - 'lore12:&dHắc thạch:&7 0.9%'
+    - 'lore13:&eKhối may mắn:&7 0.1%'
+    - 'lore15:&7(đây là mặc định)'
+    InventoryLocation: 1
+  2:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWE4NjYzOGU4OGI0M2E5NDZiZWE0NmYzYjE1ZWZhNWZlY2M2NjY0YTY2NWJkMzNjZjg5OTZhM2IxZDQ4MTMifX19=
+    - 'name:&eMáy farm vàng'
+    - 'lore1:&4y/c:&7 không có'
+    - 'lore3:&7&lĐá:&7  10.0% &c⇩'
+    - 'lore4:&8Than:&7  9.5%'
+    - 'lore5:&fSắt:&7  10.5%'
+    - 'lore6:&e&lVàng:&e  16.5% &a&l⇧'
+    - 'lore7:&cĐá đỏ:&7 10.5%'
+    - 'lore8:&9Lưu li:&7 9.5%'
+    - 'lore9:&2Lục bảo:&7 10.5%'
+    - 'lore10:&bKim cương:&7 10.5%'
+    - 'lore11:&fBone:&7 10.5%'
+    - 'lore12:&dHắc thạch:&7 1.0%'
+    - 'lore13:&eKhối may mắn:&7 0.1%'
+    - 'lore15:&eGIÁ nâng cấp: 5 củ ⛀'
+    - 'lore16:&7Click vào nâng cấp'
+    PriceType: money
+    Price: 5000000
+    RewardType: command
+    Reward:
+    - pex user %player% add test.vip
+    - bc &2♠&e&l%player%&f nâng cấp sᴜᴄᴄᴇss máy farm thành máy farm &e&lGOLD.
+    - bb broadcast 20 &2♠&e&l%player%&f nâng cấp sᴜᴄᴄᴇss máy farm thành máy farm &e&lGOLD&2. Chúc mừng!
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 4
+  3:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2EzYmI4NWRlYzEzMjlmZTgyOWNjNmNkY2QzNGUxYmQ2MGVlODMyZjU3MjYyOTY1MWYxNGI1ZTE0NTU1ZGJiMSJ9fX0==
+    - 'name:&bMáy farm kim cương'
+    - 'lore1:&4y/c:&e máy farm vàng'
+    - 'lore3:&7&lĐá:&7  10.0% &c⇩'
+    - 'lore4:&8Than:&7  9.5%'
+    - 'lore5:&fSắt:&7  10.5%'
+    - 'lore6:&eVàng:&7  10.5%'
+    - 'lore7:&cĐá đỏ:&7 10.5%'
+    - 'lore8:&9Lưu li:&7 9.5%'
+    - 'lore9:&2Lục bảo:&7 10.5%'
+    - 'lore10:&bKim cương:&7 16.5% &a&l⇧'
+    - 'lore11:&fBone:&7 10.5%'
+    - 'lore12:&dHắc thạch:&7 1.0%'
+    - 'lore13:&eKhối may mắn:&7 0.1%'
+    - 'lore15:&eGIÁ nâng cấp: 15 củ ⛀'
+    - 'lore16:&7Click vào nâng cấp'
+    PriceType: money
+    Price: 15000000
+    RewardType: command
+    Reward:
+    - pex user %player% remove test.vip
+    - pex user %player% add test.mvp
+    - bc &2♠&b&l%player%&f nâng cấp sᴜᴄᴄᴇss máy farm thành máy farm &b&lDIAMOND.
+    - bb broadcast 20 &2♠&b&l%player%&f nâng cấp sᴜᴄᴄᴇss máy farm thành máy farm &b&lDIAMOND&2. Chúc mừng!
+    ExtraPermission: 'test.vip'
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 5
+  4:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWMxYzkyNWE2MmM0YjcyYWNhMjVhZmJkNDcxZjViOGIxYjg2ZjNjNjZhZGJjMWE5YjlhMmU5NmIyNDkxMWI5YiJ9fX0==
+    - 'name:&2Máy farm lục bảo'
+    - 'lore1:&4y/c:&e máy farm diamond'
+    - 'lore3:&7&lĐá:&7  10.0% &c⇩'
+    - 'lore4:&8Than:&7  9.5%'
+    - 'lore5:&fSắt:&7  10.5%'
+    - 'lore6:&eVàng:&7  10.5%'
+    - 'lore7:&cĐá đỏ:&7 10.5%'
+    - 'lore8:&9Lưu li:&7 9.5%'
+    - 'lore9:&2Lục bảo:&7 16.5% &a&l⇧'
+    - 'lore10:&bKim cương:&7 10.5%'
+    - 'lore11:&fBone:&7 10.5%'
+    - 'lore12:&dHắc thạch:&7 1.0%'
+    - 'lore13:&eKhối may mắn:&7 0.1%'
+    - 'lore15:&eGIÁ nâng cấp: 39 củ ⛀'
+    - 'lore16:&7Click vào nâng cấp'
+    PriceType: money
+    Price: 39000000
+    RewardType: command
+    Reward:
+    - pex user %player% remove test.mvp
+    - pex user %player% add test.king
+    - bc &2♠&2&l%player%&f nâng cấp sᴜᴄᴄᴇss máy farm thành máy farm &2&lEMERALD.
+    - bb broadcast 20 &2♠&l%player%&f nâng cấp sᴜᴄᴄᴇss máy farm thành máy farm &2&lEMERALD&e. Chúc mừng!
+    ExtraPermission: 'test.mvp'
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 6
+  slot5:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk1ZDM3OTkzZTU5NDA4MjY3ODQ3MmJmOWQ4NjgyMzQxM2MyNTBkNDMzMmEyYzdkOGM1MmRlNDk3NmIzNjIifX19
+    - name:&2&lNâng Cấp&f◘&2 thành viên đảo 5
+    - 'lore1:&6'
+    - 'lore3:&74 player ⇴ &a5 player'
+    - 'lore5:&c&l(&e&l!&c&l)&7Loại nâng cấp này dành cho chủ đảo'
+    - 'lore6:&c-100.000 &a⛁'
+    - 'lore7:&7(nhấp nâng cấp)'
+    RewardType: command
+    Reward:
+    - pex user %player% add askyblock.team.maxsize.5
+    - bc &2%player%&7 nâng cấp slot thành viên đảo đến 5. &2&nTham gia&2!
+    - bs close %player%
+    PriceType: MONEY
+    Price: 100000
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 12
+  slot6:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - amount:2
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQ5YzYzYmM1MDg3MjMzMjhhMTllNTk3ZjQwODYyZDI3YWQ1YzFkNTQ1NjYzYWMyNDQ2NjU4MmY1NjhkOSJ9fX0=
+    - name:&2&lNâng Cấp&f◘&2 thành viên đảo 6
+    - 'lore1:&6'
+    - 'lore3:&75 player ⇴ &a6 player'
+    - 'lore5:&c&l(&e&l!&c&l)&7Loại nâng cấp này dành cho chủ đảo'
+    - 'lore6:&c-300.000 &a⛁'
+    - 'lore7:&7(nhấp nâng cấp)'
+    RewardType: command
+    Reward:
+    - pex user %player% remove askyblock.team.maxsize.5
+    - pex user %player% add askyblock.team.maxsize.6
+    - bc &2%player%&7 nâng cấp slot thành viên đảo đến 6. &2&nTham gia&2!
+    - bs close %player%
+    PriceType: MONEY
+    Price: 300000
+    ExtraPermission: 'askyblock.team.maxsize.5'
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 13
+  slot7:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - amount:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFkYWY5NjE1NTI3OWU4YjdkNjE5NmVjN2MzNjU5MjEyOTY3NWJhMTdhODBlMmQ2MTJlYzYzNmEyYzJiIn19fQ==
+    - name:&2&lNâng Cấp&f◘&2 thành viên đảo 7
+    - 'lore1:&6'
+    - 'lore3:&76 player ⇴ &a7 player'
+    - 'lore5:&c&l(&e&l!&c&l)&7Loại nâng cấp này dành cho chủ đảo'
+    - 'lore6:&c-500.000 &a⛁'
+    - 'lore7:&7(nhấp nâng cấp)'
+    RewardType: command
+    Reward:
+    - pex user %player% remove askyblock.team.maxsize.6
+    - pex user %player% add askyblock.team.maxsize.7
+    - bc &2%player%&7 nâng cấp slot thành viên đảo đến 7. &2&nTham gia&2!
+    - bs close %player%
+    PriceType: MONEY
+    Price: 500000
+    ExtraPermission: 'askyblock.team.maxsize.6'
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 15
+  slot8:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - amount:4
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODEyYjk0MDJlMThkZTgzYzVkZmUzZWJmYzhmODhiNzUyOTRhZGZiMWM5MDVlNTY3N2ViZDU1NzUyNGZlMDE0In19fQ==
+    - name:&2&lNâng Cấp&f◘&2 thành viên đảo 8
+    - 'lore1:&6'
+    - 'lore3:&77 player ⇴ &a8 player'
+    - 'lore5:&c&l(&e&l!&c&l)&7Loại nâng cấp này dành cho chủ đảo'
+    - 'lore6:&c-999.999 &a⛁'
+    - 'lore7:&7(nhấp nâng cấp)'
+    RewardType: command
+    Reward:
+    - pex user %player% remove askyblock.team.maxsize.7
+    - pex user %player% add askyblock.team.maxsize.8
+    - bc &2%player%&7 nâng cấp slot thành viên đảo đến 8. &2&nTham gia&2!
+    - bs close %player%
+    PriceType: MONEY
+    Price: 999999
+    ExtraPermission: 'askyblock.team.maxsize.7'
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 16
+    ############ end ###
+  home2:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmEyODI5OTg5NmY0MTNmZTVkYjg0YTM4NTQ2MjQ1OGY3YmQxNjQ2ZTg2MjVjMjViMjY2M2UxMmE2YiJ9fX0=
+    - name:&2&lNâng Cấp&f◘&2 số home 2
+    - 'lore1:&6'
+    - 'lore3:&71 home ⇴ &a2 home'
+    - 'lore5:&c&l(&e&l!&c&l)&7Loại nâng cấp này dành cho tất cả. nâng cấp home là tăng điểm sao lưu trên đảo của bạn'
+    - 'lore6:&c-499.999 &a⛁'
+    - 'lore7:&7(nhấp nâng cấp)'
+    RewardType: command
+    Reward:
+    - pex user %player% add askyblock.island.maxhomes.2
+    - w %player% &6nâng cấp thàng công home 2&2✓.&6 Chúc mừng!
+    - bs close %player%
+    PriceType: MONEY
+    Price: 499999
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 22
+  home3:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - amount:2
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGYxN2E2YTlhZmFhN2IwN2U0MjE4ZmU1NTVmMjgyM2IwMjg0Y2Q2OWI0OWI2OWI5N2ZhZTY3ZWIyOTc2M2IifX19
+    - name:&2&lNâng Cấp&f◘&2 số home 3
+    - 'lore1:&6'
+    - 'lore3:&72 home ⇴ &a3 home'
+    - 'lore5:&c&l(&e&l!&c&l)&7Loại nâng cấp này dành cho tất cả. nâng cấp home là tăng điểm sao lưu trên đảo của bạn'
+    - 'lore6:&c-999.999 &a⛁'
+    - 'lore7:&7(nhấp nâng cấp)'
+    RewardType: command
+    Reward:
+    - pex user %player% remove askyblock.island.maxhomes.2
+    - pex user %player% add askyblock.island.maxhomes.3
+    - w %player% &6nâng cấp thàng công home 3&2✓.&6 Chúc mừng!
+    - bs close %player%
+    PriceType: MONEY
+    Price: 999999
+    ExtraPermission: 'askyblock.island.maxhomes.2'
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 23
+  home4:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - amount:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmZiM2EwZTVkZWE5MTVhMjI0Zjg2YzUyOGQ0MTRlYzBmMWRiNmY0N2NkYjk3MTg3NzVhZDNhOTM0MThmZTI0In19fQ==
+    - name:&2&lNâng Cấp&f◘&2 số home 4
+    - 'lore1:&6'
+    - 'lore3:&73 home ⇴ &a4 home'
+    - 'lore5:&c&l(&e&l!&c&l)&7Loại nâng cấp này dành cho tất cả. nâng cấp home là tăng điểm sao lưu trên đảo của bạn'
+    - 'lore6:&c-399.999.999 &a⛁'
+    - 'lore7:&7(nhấp nâng cấp)'
+    RewardType: command
+    Reward:
+    - pex user %player% remove askyblock.island.maxhomes.3
+    - pex user %player% add askyblock.island.maxhomes.4
+    - w %player% &6nâng cấp thàng công home 4&2✓.&6 Chúc mừng!
+    - bs close %player%
+    PriceType: MONEY
+    Price: 3999999
+    ExtraPermission: 'askyblock.island.maxhomes.3'
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 24
+  5ex:
+    MenuItem:
+    - type:SIGN
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&c&lQuay lại
+    Reward: island
+    RewardType: shop
+    InventoryLocation: 36
+  a:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 1
+  b:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 2
+  c:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 3
+  f:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 7
+  g:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 8
+  h:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 9
+  i:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 10
+  j:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 11
+  k:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 14
+  l:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 17
+  m:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 18
+  n:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 19
+  o:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 20
+  p:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 21
+  q:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 25
+  r:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 26
+  s:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 27
+  t:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 28
+  u:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 29
+  v:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 30
+  w:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 31
+  x:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 32
+  y:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 33
+  z:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 34
+  za:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 35

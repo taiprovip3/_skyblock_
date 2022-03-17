@@ -1,0 +1,90 @@
+limit: 3
+active: 1
+health: 41.880001068115234
+mana: 174.0
+accounts: 
+  acc1: 
+    classes: 
+      class: 
+        level: 8
+        points: 0
+        exp: 469.0
+    skills: 
+      nauy2: 
+        level: 0
+        points: 0
+      zenitsu: 
+        level: 0
+        points: 0
+      netherit2: 
+        level: 0
+        points: 0
+      nauy: 
+        level: 0
+        points: 0
+      wukong: 
+        level: 0
+        points: 0
+      crazydiamond2: 
+        level: 0
+        points: 0
+      crazydiamond: 
+        level: 0
+        points: 0
+      naruto: 
+        level: 0
+        points: 0
+      gcl: 
+        level: 0
+        points: 0
+      naruto2: 
+        level: 0
+        points: 0
+      gcl2: 
+        level: 0
+        points: 0
+      netherit: 
+        level: 0
+        points: 0
+      barebear: 
+        level: 0
+        points: 0
+      wukong2: 
+        level: 0
+        points: 0
+      barebear2: 
+        level: 0
+        points: 0
+      crazydiamond3: 
+        level: 0
+        points: 0
+      zenitsu2: 
+        level: 0
+        points: 0
+      attack: 
+        level: 1
+        points: 0
+      rhitta2: 
+        level: 0
+        points: 0
+      thanos2: 
+        level: 0
+        points: 0
+      trinity2: 
+        level: 0
+        points: 0
+      thanos: 
+        level: 0
+        points: 0
+      trinity: 
+        level: 0
+        points: 0
+      rhitta: 
+        level: 0
+        points: 0
+    binds:  {}
+    attrib-points: 1
+    attribs: 
+      strength: 4
+      vitality: 5
+      spirit: 4

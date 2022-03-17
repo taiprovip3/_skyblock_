@@ -1,0 +1,266 @@
+ShopName: dq
+DisplayName: '&8Server &6❖ &8nhiệm vụ ngày' 
+Command: dq
+Sound:
+  Shop:
+    Open: ENTITY_PLAYER_LEVELUP:1:1
+    ChangeShop: ENTITY_PLAYER_LEVELUP:1:1
+shop:
+  1:
+    MenuItem:
+    - type:SIGN
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&aWooden builder &7nv1
+    - 'lore2:&emô tả nv:#&7 xây dựng 1 công trình có sử dụng 20 gỗ sồi'
+    - 'lore4:&ephần thưởng:#&7 - x2 đá rèn#&7 - x1 đá cường hóa#&7 - 5.0 &e&l⛀#&7 - 200 tinh hoa#&7 - x1 tích lũy quest'
+    - 'lore6:&2CLICK NHẬN NHIỆM VỤ'
+    RewardType: playercommand
+    Reward:
+    - qs take dirt mining
+    InventoryLocation: 1
+  2:
+    MenuItem:
+    - type:SIGN
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&aThe hunter &7nv2
+    - 'lore2:&emô tả nv:#&7 tiêu diệt 32 con zombie đang quẩy ở bất kì đâu'
+    - 'lore4:&ephần thưởng:#&7 - x2 đá rèn#&7 - x1 đá cường hóa#&7 - 5.0 &e&l⛀#&7 - 200 tinh hoa#&7 - x1 tích lũy quest'
+    - 'lore6:&2CLICK NHẬN NHIỆM VỤ'
+    RewardType: playercommand
+    Reward:
+    - qs take the hunter
+    InventoryLocation: 2
+  3:
+    MenuItem:
+    - type:SIGN
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&aPastry Chef &7nv3
+    - 'lore2:&emô tả nv:#&7 bếp trưởng hãy chế tạo 2 bánh kem'
+    - 'lore4:&ephần thưởng:#&7 - x2 đá rèn#&7 - x1 đá cường hóa#&7 - 5.0 &e&l⛀#&7 - 200 tinh hoa#&7 - x1 tích lũy quest'
+    - 'lore6:&2CLICK NHẬN NHIỆM VỤ'
+    RewardType: playercommand
+    Reward:
+    - qs take pastry chef
+    InventoryLocation: 3
+  4:
+    MenuItem:
+    - type:SIGN
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&aGone Fishing &7nv4
+    - 'lore2:&emô tả nv:#&7 câu cá 2 con (ko tính cá nóc)'
+    - 'lore4:&ephần thưởng:#&7 - x2 đá rèn#&7 - x1 đá cường hóa#&7 - 5.0 &e&l⛀#&7 - 200 tinh hoa#&7 - x1 tích lũy quest'
+    - 'lore6:&2CLICK NHẬN NHIỆM VỤ'
+    RewardType: playercommand
+    Reward:
+    - qs take fone fishing
+    InventoryLocation: 4
+  5:
+    MenuItem:
+    - type:SIGN
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&aKiller Clown &7nv5
+    - 'lore2:&emô tả nv:#&7 tiêu diệt 2 người chơi bố láo'
+    - 'lore4:&ephần thưởng:#&7 - x1 Phụ kiện gia hạn item#&7 - 5.0 &e&l⛀#&7 - 200 tinh hoa#&7 - x1 tích lũy quest'
+    - 'lore6:&2CLICK NHẬN NHIỆM VỤ'
+    RewardType: playercommand
+    Reward:
+    - qs take killer clown
+    InventoryLocation: 5
+  6:
+    MenuItem:
+    - type:SIGN
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&aFarmerzy &7nv6
+    - 'lore2:&emô tả nv:#&7 thu hoạch 64 block dưa hấu tại nông trại của bạn'
+    - 'lore4:&ephần thưởng:#&7 - x2 đá rèn#&7 - x1 đá cường hóa#&7 - 5.0 &e&l⛀#&7 - 200 tinh hoa#&7 - x1 tích lũy quest'
+    - 'lore6:&2CLICK NHẬN NHIỆM VỤ'
+    RewardType: playercommand
+    Reward:
+    - qs take farmerzy
+    InventoryLocation: 6
+  7:
+    MenuItem:
+    - type:SIGN
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&aSmelting Cactus &7nv7
+    - 'lore2:&emô tả nv:#&7 nung 64 xương rồng'
+    - 'lore4:&ephần thưởng:#&7 - x2 đá rèn#&7 - x1 đá cường hóa#&7 - 5.0 &e&l⛀#&7 - 200 tinh hoa#&7 - x1 tích lũy quest'
+    - 'lore6:&2CLICK NHẬN NHIỆM VỤ'
+    RewardType: playercommand
+    Reward:
+    - qs take smelting cactus
+    InventoryLocation: 7
+  8:
+    MenuItem:
+    - type:SIGN
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&aShaun The Sheep &7nv8
+    - 'lore2:&emô tả nv:#&7 tỉa len 8 con cừu trắng'
+    - 'lore4:&ephần thưởng:#&7 - x2 đá rèn#&7 - x1 đá cường hóa#&7 - 5.0 &e&l⛀#&7 - 200 tinh hoa#&7 - x1 tích lũy quest'
+    - 'lore6:&2CLICK NHẬN NHIỆM VỤ'
+    RewardType: playercommand
+    Reward:
+    - qs take shaun the sheep
+    InventoryLocation: 8
+  9:
+    MenuItem:
+    - type:SIGN
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&aKungpow &7nv9
+    - 'lore2:&emô tả nv:#&7 vắt sữa bò 10 xô'
+    - 'lore4:&ephần thưởng:#&7 - x2 đá rèn#&7 - x1 đá cường hóa#&7 - 5.0 &e&l⛀#&7 - 200 tinh hoa#&7 - x1 tích lũy quest'
+    - 'lore6:&2CLICK NHẬN NHIỆM VỤ'
+    RewardType: playercommand
+    Reward:
+    - qs take kungpow
+    InventoryLocation: 9
+  bak:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzMzYWEyNDkxNmM4ODY5NmVlNzFkYjdhYzhjZDMwNmFkNzMwOTZiNWI2ZmZkODY4ZTFjMzg0YjFkNjJjZmIzYyJ9fX0==
+    - name:&c&lQUAY LẠI
+    RewardType: shop
+    Reward: menu
+    InventoryLocation: 23
+  oo:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 1
+  i:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 10
+  j:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 11
+  jj:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 12
+  k:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 13
+  addk:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 14
+  l:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 15
+  ll:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 16
+  m:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 17
+  n:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 18
+  o:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 19
+  p:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 20
+  q:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 21
+  r:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 22
+  s:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 23
+  t:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 24
+  u:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 25
+  v:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 26
+  w:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 27

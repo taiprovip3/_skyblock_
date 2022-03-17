@@ -1,0 +1,90 @@
+ShopName: buff4
+DisplayName: '&8Server&6♠&8BUFF &l+4'
+Sound:
+  Shop:
+    Open: ENTITY_ITEM_PICKUP:1:1
+    ChangeShop: ENTITY_ITEM_PICKUP:1:1
+shop:
+  speed:
+    MenuItem:
+    - type:gold_boots
+    - name:&6&lThần Tốc 4
+    - 'lore2:&a Hiệu quả:&7 cho hiệu ứng Tăng Tốc lv3 trong thời gian tối đa 40 minutes.'
+    - 'lore4:&a Trừng phạt:&7 khi bạn thoát máy chủ, chết, hiệu quả tiêu biến'
+    - 'lore6:&7Click vào để sử dụng'
+    RewardType: opcommand
+    Reward:
+    - effect %player% 1 2400 3
+    - bs close %player%
+    Message: '&aBạn vừa bufferred &ethần tốc&a 40m.'
+    InventoryLocation: 1
+  haste:
+    MenuItem:
+    - type:iron_pickaxe
+    - name:&6&lThợ Mỏ 4
+    - 'lore2:&aHiệu quả:&7 cho hiệu ứng Đào Nhanh lv3 trong thời gian tối đa 40 minutes.'
+    - 'lore4:&a Trừng phạt:&7 khi bạn thoát máy chủ, chết, hiệu quả tiêu biến'
+    - 'lore6:&7Click vào để sử dụng'
+    RewardType: opcommand
+    Reward:
+    - effect %player% 3 2400 3
+    - bs close %player%
+    Message: '&aBạn vừa bufferred &ethợ mỏ&a 40m.'
+    InventoryLocation: 2
+  strength:
+    MenuItem:
+    - type:gold_sword
+    - name:&6&lSức Mạnh 4
+    - 'lore2:&aHiệu quả:&7 cho hiệu ứng Tăng Dame lv3 trong thời gian tối đa 40 minutes.'
+    - 'lore4:&a Trừng phạt:&7 khi bạn thoát máy chủ, chết, hiệu quả tiêu biến'
+    - 'lore6:&7Click vào để sử dụng'
+    RewardType: opcommand
+    Reward:
+    - effect %player% 5 2400 3
+    - bs close %player%
+    Message: '&aBạn vừa bufferred &esức mạnh&a 40m.'
+    InventoryLocation: 3
+  regeneration:
+    MenuItem:
+    - type:397:3
+    - amount:4
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJlOGUwYjQ0ZDFlYzFhYTY2ODRjNTQxMTI4ODczOGM5M2E5OTdjZmViZDE1ZmI3NmJmODZhOWVlZGE3NTMifX19=
+    - name:&6&lThần Dược 4
+    - 'lore2:&aHiệu quả:&7 cho hiệu ứng Hồi Máu lv3 trong thời gian tối đa 40 minutes.'
+    - 'lore4:&a Trừng phạt:&7 khi bạn thoát máy chủ, chết, hiệu quả tiêu biến'
+    - 'lore6:&7Click vào để sử dụng'
+    RewardType: opcommand
+    Reward:
+    - effect %player% 10 2400 3
+    - bs close %player%
+    Message: '&aBạn vừa bufferred &ethần dược&a 40m.'
+    InventoryLocation: 4
+  fire:
+    MenuItem:
+    - type:377
+    - amount:4
+    - name:&6&lHỏa Thần 4
+    - 'lore2:&aHiệu quả:&7 cho hiệu ứng Kháng Lửa lv3 trong thời gian tối đa 40 minutes.'
+    - 'lore4:&a Trừng phạt:&7 khi bạn thoát máy chủ, chết, hiệu quả tiêu biến'
+    - 'lore6:&7Click vào để sử dụng'
+    RewardType: opcommand
+    Reward:
+    - effect %player% 12 2400 3
+    - bs close %player%
+    Message: '&aBạn vừa bufferred &ehỏa thần&a 40m.'
+    InventoryLocation: 5
+  invisibility:
+    MenuItem:
+    - type:441
+    - amount:4
+    - name:&6&lNgụy Trang 4
+    - 'lore2:&aHiệu quả:&7 cho hiệu ứng Tàng Hình trong thời gian tối đa 40 minutes.'
+    - 'lore4:&a Trừng phạt:&7 khi bạn thoát máy chủ, chết, hiệu quả tiêu biến'
+    - 'lore6:&aThông tin khác:&7 tàng hình nhưng vẫn packet (nếu bạn có mặc giáp, trang bị tay cầm chúng sẽ bị lộ)'
+    - 'lore8:&7Click vào để sử dụng'
+    RewardType: opcommand
+    Reward:
+    - effect %player% 14 2400
+    - bs close %player%
+    Message: '&aBạn vừa bufferred &esát thủ vô hình&a 40m.'
+    InventoryLocation: 6

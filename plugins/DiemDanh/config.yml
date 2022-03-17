@@ -1,0 +1,740 @@
+Settings:
+  #Khi DenySameIP được chỉnh thành true, thì chỉ 1 người chơi trong
+  #cùng 1 ip mới có thể điểm danh được, vd: nếu ip 127.0.0.1 có 3 người chơi tên a, b và c
+  #thì nếu a điểm danh rồi thì b và c sẽ không điểm danh được và tương tự
+  #Tính năng này không áp dụng với điểm danh bù
+  DenySameIP: false
+  #Tên của gui điểm danh
+  Title: "&8Điểm danh&2 ☘&8 Nhận quà"
+  Item:
+    NgayDiemDanh: #Icon khi chưa tới ngày điểm danh
+      ID: wool
+      Data: 7
+      Name: "&eNgày &l<date> &7sau này"
+      #Lore:
+      #- ""
+      #- "&c&lTƯƠNG LAI:&7 bạn ko thể điểm danh cho ngày mai"
+      #- ""
+      #- "&eChờ ngày mai hãy click icon này"
+      Glow: false
+    DiemDanh: #Icon khi tới ngày điểm danh
+      ID: wool
+      Data: 13
+      Name: "&e&lNGÀY &7<date> &2&l✔"
+      #Lore:
+      #- ""
+      #- "&a&lĐIỂM DANH:&7 bạn có thể điểm danh"
+      #- ""
+      #- "&aClickable &7vào nhận quà"
+      Glow: true
+    ChuaDiemDanh: #Icon khi bỏ điểm danh
+      ID: wool
+      Data: 14
+      Name: "&cNgày &l<date> &7Chưa Điểm Danh"
+      Glow: false
+    DaDiemDanh: #Icon khi đã điểm danh
+      ID: wool
+      Data: 5
+      Name: "&a&lNGÀY &2<date> &7Đã Điểm Danh"
+      Glow: false
+    TrangTruoc:
+      ID: arrow
+      Data: 0
+      Name: "&6Trang Trước"
+      Lore:
+      - "&fBấm để quay trở lại trang trước"
+      Glow: false
+    TrangSau:
+      ID: arrow
+      Data: 0
+      Name: "&6Trang sau"
+      Lore:
+      - "&fBấm để đi đến trang sau"
+      Glow: false
+    Trang:
+      ID: book
+      Data: 0
+      Name: "&fTrang hiện tại: &b<page>"
+      Glow: false
+    SoNgayDiemDanh:
+      ID: book
+      Data: 0
+      Name: "&6✍ &e&lNHẬT KÝ &2✎"
+      Lore:
+      - ""
+      - "&7 Số ngày bạn đã vào máy chủ và"
+      - '&7 điểm danh nhận phần thưởng.'
+      - ""
+      - "&a&lTÍCH LŨY: &7<diemdanh> ngày"
+      Glow: false
+    Ticket:
+      ID: map
+      Data: 0
+      Name: "&2✿ &e&lThẻ ĐIỂM DANH bù &2✿"
+      Lore:
+      - ""
+      - " &7Thẻ này giúp bạn điểm danh bù lại"
+      - " &7những ngày offline. Vẫn &2&l+ &7tích lũy"
+      - ""
+      - "&a&lSỐ THẺ: &7<ticket> thẻ"
+      Glow: false
+
+TichLuy:
+  3ngay: #Quà tích luỹ khi điểm danh đủ số ngày
+    Icon:
+      ChuaNhanQua: #Icon khi chưa đủ số ngày
+        ID: storage_minecart
+        Data: 0
+        Name: "&a&lQuà Tích Lũy&d 3 ngày"
+        Lore:
+        - ""
+        - "&a&lPHẦN THƯỞNG&7:"
+        - ""
+        - "&7 +100 pixelcoins &e⛃"
+        - "&2 +1 rương lục bảo"
+        - ""
+        - "&c&lSTATUS:&7 chưa đủ &4✗"
+        - ""
+        - "&a&lCLICK VÀO &ađể nhận cái đầu cắt moi"
+        Glow: false
+      NhanQua: #Icon khi đủ số ngày nhận quà
+        ID: storage_minecart
+        Data: 0
+        Name: "&a&lQuà Tích Lũy&d 3 ngày"
+        Lore:
+        - ""
+        - "&a&lPHẦN THƯỞNG&7:"
+        - ""
+        - "&7 +100 pixelcoins &e⛃"
+        - "&2 +1 rương lục bảo"
+        - ""
+        - "&c&lSTATUS:&2&l ✔"
+        - ""
+        - "&a&lCLICK VÀO &ađể nhận quà"
+        Glow: true
+      DaNhanQua: #Icon khi đã nhận quà
+        ID: minecart
+        Data: 0
+        Name: "&a&lQuà Tích Lũy&d 3 ngày"
+        Lore:
+        - ""
+        - "&a&lPHẦN THƯỞNG&7:"
+        - ""
+        - "&7 +100 pixelcoins &e⛃"
+        - "&2 +1 rương lục bảo"
+        - ""
+        - "&c&lSTATUS:&7 đã nhận"
+        Glow: false
+    #Yêu cầu điểm danh 3 ngày để có thể nhận
+    Require: 3
+    #Phần thưởng khi đủ yêu cầu
+    Reward:
+    - p give <player> 100
+    - voucher give <player> chestemerald 1
+  12ngay:
+    Icon:
+      ChuaNhanQua:
+        ID: storage_minecart
+        Data: 0
+        Name: "&a&lQuà Tích Lũy&d 12 ngày"
+        Lore:
+        - ""
+        - "&a&lPHẦN THƯỞNG&7:"
+        - ""
+        - "&7 +500 pixelcoins &e⛃"
+        - "&2 +2 rương lục bảo"
+        - ""
+        - "&c&lSTATUS:&7 chưa đủ &4✗"
+        - ""
+        - "&a&lCLICK VÀO &ađể nhận cái đầu cắt moi"
+        Glow: false
+      NhanQua:
+        ID: storage_minecart
+        Data: 0
+        Name: "&a&lQuà Tích Lũy&d 12 ngày"
+        Lore:
+        - ""
+        - "&a&lPHẦN THƯỞNG&7:"
+        - ""
+        - "&7 +500 pixelcoins &e⛃"
+        - "&2 +2 rương lục bảo"
+        - ""
+        - "&c&lSTATUS:&2&l ✔"
+        - ""
+        - "&a&lCLICK VÀO &ađể nhận phần thưởng"
+        Glow: true
+      DaNhanQua:
+        ID: minecart
+        Data: 0
+        Name: "&a&lQuà Tích Lũy&d 12 ngày"
+        Lore:
+        - ""
+        - "&a&lPHẦN THƯỞNG&7:"
+        - ""
+        - "&7 +500 pixelcoins &e⛃"
+        - "&2 +2 rương lục bảo"
+        - ""
+        - "&c&lSTATUS:&7 đã claim &4✗"
+        Glow: false
+    Require: 12
+    Reward:
+    - p give <player> 500
+    - voucher give <player> chestemerald 2
+  21ngay:
+    Icon:
+      ChuaNhanQua:
+        ID: storage_minecart
+        Data: 0
+        Name: "&a&lQuà Tích Lũy&d 12 ngày"
+        Lore:
+        - ""
+        - "&a&lPHẦN THƯỞNG&7:"
+        - ""
+        - "&7 +1000 pixelcoins &e⛃"
+        - "&7 +1 quyển &f&lSách Gai &7tối thượng"
+        - "&2 +3 rương lục bảo"
+        - ""
+        - "&c&lSTATUS:&7 chưa đủ &4✗"
+        - ""
+        - "&a&lCLICK VÀO &ađể nhận cái đầu cắt moi"
+        Glow: false
+      NhanQua:
+        ID: storage_minecart
+        Data: 0
+        Name: "&a&lQuà Tích Lũy&d 12 ngày"
+        Lore:
+        - ""
+        - "&a&lPHẦN THƯỞNG&7:"
+        - ""
+        - "&7 +500 pixelcoins &e⛃"
+        - "&2 +2 rương lục bảo"
+        - ""
+        - "&c&lSTATUS:&2&l ✔"
+        - ""
+        - "&a&lCLICK VÀO &ađể nhận cái đầu cắt moi"
+        Glow: true
+      DaNhanQua:
+        ID: minecart
+        Data: 0
+        Name: "&a&lQuà Tích Lũy&d 12 ngày"
+        Lore:
+        - ""
+        - "&a&lPHẦN THƯỞNG&7:"
+        - ""
+        - "&7 +500 pixelcoins &e⛃"
+        - "&2 +2 rương lục bảo"
+        - ""
+        - "&c&lSTATUS:&7 đã claimed &4✗"
+        Glow: false
+    Require: 21
+    Reward:
+    - p give <player> 1000
+    - voucher give <player> chestemerald 3
+    - kit gaiiii <player>
+
+Day:
+  1:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  2:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  3:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  4:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  5:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  6:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  7:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  8:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  9:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  10:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  11:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  12:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  13:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  14:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  15:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  16:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  17:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  18:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  19:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  20:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  21:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  22:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  23:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  24:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  25:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  26:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  27:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  28:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  29:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  30:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+  31:
+    Lore:
+    - ""
+    - "&7PHẦN THƯỞNG &e⚖"
+    - ""
+    - "&e+1 rương vàng rồng"
+    - "&b+1 rương kim cương"
+    - "&2+1 tích lũy"
+    - ""
+    - "&a&lCLICKABLE &avào để điểm danh"
+    Reward:
+    - voucher give <player> chestgold 1
+    - voucher give <player> chestdiamond 1
+
+Message:
+  DiemDanh: "&aBạn đã điểm danh thành công"
+  DaDiemDanh: "&cBạn đã điểm danh ngày này rồi"
+  NgayDiemDanh: "&cNgày này chưa tới"
+  NotRequire: "&cBạn không đủ số ngày yêu cầu"
+  NotPlayer: "&cBạn không phải là người chơi"
+  NoPermission: "&cBạn không có quyền để sử dụng lệnh này"
+  IsClaimed: "&cBạn đã nhận quà này rồi"
+  Claiming: "&aHôm nay bạn chưa điểm danh, bấm /diemdanh để điểm danh"
+  NotEnoughTicket: "&cBạn không có đủ phiếu điểm danh bù"
+  GiveTicket: "&aBạn đã trao cho người chơi <player> <ticket> phiếu điểm danh bù"
+  SyntaxError: "&cLỗi cú pháp"
+  SameIP: "&cĐiểm danh không thành công do đã có người chơi khác cùng ip với bạn đã điểm danh rồi"
+
+SpecialDay:
+  test:
+    Icon:
+      NgayDiemDanh:
+        ID: magma_cream
+        Data: 0
+        Name: "&7&lTest Special Day"
+        Lore:
+        - "&fNgày này méo có thật đâu chỉ test thôi"
+        - "&fPhần thưởng gồm:"
+        - "&f - Đất x1"
+        Glow: false
+      DiemDanh:
+        ID: magma_cream
+        Data: 0
+        Name: "&e&lTest Special Day Điểm Danh"
+        Lore:
+        - "&fNgày này méo có thật đâu chỉ test thôi"
+        - "&fPhần thưởng gồm:"
+        - "&f - Đất x1"
+        Glow: true
+      ChuaDiemDanh:
+        ID: magma_cream
+        Data: 0
+        Name: "&c&lTest Special Day Chưa Điểm Danh"
+        Lore:
+        - "&fNgày này méo có thật đâu chỉ test thôi"
+        - "&fPhần thưởng gồm:"
+        - "&f - Đất x1"
+        Glow: false
+      DaDiemDanh:
+        ID: magma_cream
+        Data: 0
+        Name: "&a&lTest Special Day Đã Điểm Danh"
+        Lore:
+        - "&fNgày này méo có thật đâu chỉ test thôi"
+        - "&fPhần thưởng gồm:"
+        - "&f - Đất x1"
+        Glow: false
+    Require:
+      Date: 8
+      Month: 7
+    Reward:
+    - give <player> dirt 1
+  quockhanh:
+    Icon:
+      NgayDiemDanh:
+        ID: magma_cream
+        Data: 0
+        Name: "&7&lQuốc Khánh"
+        Lore:
+        - "&fSắp tới ngày này rồi :))"
+        - "&fPhần thưởng gồm:"
+        - "&f - Khối cỏ x1"
+        Glow: false
+      DiemDanh:
+        ID: magma_cream
+        Data: 0
+        Name: "&e&lQuốc Khánh Điểm Danh"
+        Lore:
+        - "&fHôm này là ngày quốc khánh 2/9"
+        - "&fPhần thưởng gồm:"
+        - "&f - Khối cỏ x1"
+        Glow: true
+      ChuaDiemDanh:
+        ID: magma_cream
+        Data: 0
+        Name: "&c&lQuốc Khánh Chưa Điểm Danh"
+        Lore:
+        - "&fBạn đã bỏ lỡ ngày này rồi :(("
+        - "&fPhần thưởng gồm:"
+        - "&f - Khối cỏ x1"
+        Glow: false
+      DaDiemDanh:
+        ID: magma_cream
+        Data: 0
+        Name: "&a&lQuốc Khánh Đã Điểm Danh"
+        Lore:
+        - "&fBạn đã điểm danh ngày này :))"
+        - "&fPhần thưởng gồm:"
+        - "&f - Khối cỏ x1"
+        Glow: false
+    Require:
+      Date: 2
+      Month: 9
+    Reward:
+    - give <player> grass 1

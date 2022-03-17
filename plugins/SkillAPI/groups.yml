@@ -1,0 +1,12 @@
+class: 
+  default: 'false'
+  permission: 'none'
+  profess-reset: 'true'
+  can-reset: 'true'
+  friendly: 'false'
+  show-scoreboard: 'false'
+  exp-lost-on-death: 0.008
+  starting-points: 0
+  points-per-level: 0.0
+  starting-attribs: 0
+  attribs-per-level: 1.0

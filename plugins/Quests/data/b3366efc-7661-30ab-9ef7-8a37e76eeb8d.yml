@@ -1,0 +1,18 @@
+currentQuests:
+- quest3
+currentStages:
+- 0
+quest-points: 7
+questData:
+  quest3:
+    blocks-placed-names:
+    - COBBLESTONE
+    blocks-placed-amounts:
+    - 0
+    blocks-placed-durability:
+    - 0
+completed-Quests:
+- quest2
+- quest1
+hasJournal: true
+lastKnownName: taiproduaxe

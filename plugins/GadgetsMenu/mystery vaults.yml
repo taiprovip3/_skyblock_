@@ -1,0 +1,8 @@
+Mystery-Vaults:
+  hqba:
+    BlockFace: SOUTH
+    Location:
+      world: world
+      x: 33.0
+      y: 66.0
+      z: -84.0

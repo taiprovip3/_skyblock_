@@ -1,0 +1,10 @@
+global_pre: ''
+global_suf: ''
+
+item_name: '&b#pre##name##suf#'
+item_name_stacked: '&b#pre##name##suf# &cx#count#'
+display_all: false
+display_withname: true
+display_withlore: true
+display_withenchant: true
+trust_item_name: true

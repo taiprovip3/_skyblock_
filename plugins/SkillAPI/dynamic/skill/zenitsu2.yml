@@ -1,0 +1,150 @@
+zenitsu2: 
+  name: 'zenitsu2'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req: 'zenitsu'
+  skill-req-lvl: 1
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '0'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '30'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'JACK_O_LANTERN'
+  icon-data: 0
+  desc:  []
+  components: 
+    Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'True'
+        cooldown: 'False'
+        target: 'True'
+        type: 'Melee'
+        dmg-min: '2'
+        dmg-max: '999'
+        indicator: '2D'
+      children: 
+        Single-b: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            range-base: '4'
+            range-scale: '0'
+            tolerance-base: '4'
+            tolerance-scale: '0'
+            group: 'Enemy'
+            wall: 'False'
+            indicator: '2D'
+            caster: 'false'
+          children: 
+            Damage-c: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Damage'
+                value-base: '3.9'
+                value-scale: '0'
+                true: 'False'
+                classifier: 'default'
+                indicator: '2D'
+              children:  {}
+            Chance-d: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                chance-base: '5'
+                chance-scale: '0'
+                indicator: '2D'
+              children: 
+                Damage-e: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Damage'
+                    value-base: '999'
+                    value-scale: '0'
+                    true: 'False'
+                    classifier: 'default'
+                    indicator: '2D'
+                  children:  {}
+    Skill Damage-f: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'False'
+        cooldown: 'False'
+        target: 'True'
+        dmg-min: '1'
+        dmg-max: '999'
+        category: 
+        - 'default'
+        indicator: '2D'
+      children: 
+        Single-g: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            range-base: '4'
+            range-scale: '0'
+            tolerance-base: '4'
+            tolerance-scale: '0'
+            group: 'Enemy'
+            wall: 'False'
+            indicator: '2D'
+            caster: 'false'
+          children: 
+            Damage-h: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Damage'
+                value-base: '3.5'
+                value-scale: '0'
+                true: 'False'
+                classifier: 'default'
+                indicator: '2D'
+              children:  {}
+            Chance-i: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                chance-base: '2'
+                chance-scale: '0'
+                indicator: '2D'
+              children: 
+                Damage-j: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Damage'
+                    value-base: '999'
+                    value-scale: '0'
+                    true: 'False'
+                    classifier: 'default'
+                    indicator: '2D'
+                  children:  {}

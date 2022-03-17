@@ -1,0 +1,17 @@
+currentQuests:
+- quest2
+currentStages:
+- 0
+quest-points: 1
+questData:
+  quest2:
+    blocks-placed-names:
+    - STONE
+    blocks-placed-amounts:
+    - 0
+    blocks-placed-durability:
+    - 0
+completed-Quests:
+- quest1
+hasJournal: false
+lastKnownName: jojo3

@@ -1,0 +1,2472 @@
+#-----------------------------------------------------------------------------------------------------------#
+#							  MyCommand Commands config file (last update v5.5.0)							#
+#																											#
+#  BukkitDev Help page : https://dev.bukkit.org/projects/mycommand/pages/getstarted    						#
+#																											#
+#	How to make a command :	(See an example command below)													#
+#		For first, put your command name on first line  													#
+#		Now put your command_line name after the "command:" line. Don't forget the '/' before your command.	#
+#		So, now select your command type from a predefined list putting it after "type" line				#
+#	COMMAND TYPE LIST :																						#
+#		TEXT , ALIAS , RUN_COMMAND , BROADCAST_TEXT , RUN_COMMAND_TEXT , RUN_COMMAND_BROADCAST_TEXT			#
+#		ADD_PERMISSION , WARMUP , COOLDOWN , RUN_CONSOLE , RUN_CONSOLE_RANDOM , SPOUT_TEXT					#
+#       RUN_COMMAND_RANDOM , RUN_ASOPERATOR , ICON_MENU , SCOREBOARD , BUNGEE_TP , SPOUT_NOTIFICATION		#
+#		BAR_API_TEXT , BAR_API_BROADCAST_TEXT , CALL_URL, TITLE, BROADCAST_TITLE, ACTION_BAR				#
+#																											#
+#	If your command is "TEXT" type, you can put multiple line of text below this parameter					#
+#	You can do the same thing with the "RUNCOMMAND" type, but instead of text, puts commands in this list	#
+#	For delayed command(s) add $delay$ before the command in runcmd Example : - $delay$/list				#
+#	Set delay time with delaytimer: 5 (5 = seconds) | 														#
+#   If you are using the Vault plugin, you can put the "cost: 123.0" with this line. 						#
+#	You can customize your permission node by placing "permission-node:" field in a command					#
+#	Also,you can change the permission error message with "permission-error:"								#
+#   Custom error-message for invalid args ,put "error-message:" line in a command.							#
+#   You can use itemcost : 'ID:AMOUNT' for set a cost with items. 											#
+#   Register REAL commands putting "register: true" below the command.     									#
+#   With register commands you can use the "tab_completer: - Hi - Hello!"									#
+#   For Scripts and more features, find more on the bukkitdev page											#
+#---------------------------------------------------------------------------------------------------------
+spawn:
+  command: /spawn
+  type: RUN_CONSOLE
+  runcmd:
+  - '/mv tp $player world'
+  permission-required: false
+####
+balo1:
+  command: /balo1
+  type: ALIAS
+  alias: '/morevault vault 1'
+  permission-required: false
+balo2:
+  command: /balo2
+  type: ALIAS
+  alias: '/morevault vault 2'
+  permission-required: false
+balo3:
+  command: /balo3
+  type: ALIAS
+  alias: '/morevault vault 3'
+  permission-required: false
+balo4:
+  command: /balo4
+  type: ALIAS
+  alias: '/morevault vault 4'
+  permission-required: false
+balo5:
+  command: /balo5
+  type: ALIAS
+  alias: '/morevault vault 5'
+  permission-required: false
+balo6:
+  command: /balo6
+  type: ALIAS
+  alias: '/morevault vault 6'
+  permission-required: false
+balo7:
+  command: /balo7
+  type: ALIAS
+  alias: '/morevault vault 7'
+  permission-required: false
+balo8:
+  command: /balo8
+  type: ALIAS
+  alias: '/morevault vault 8'
+  permission-required: false
+balo9:
+  command: /balo9
+  type: ALIAS
+  alias: '/morevault vault 9'
+  permission-required: false
+balo10:
+  command: /balo10
+  type: ALIAS
+  alias: '/morevault vault 10'
+  permission-required: false
+####
+homthu:
+  command: /homthu
+  type: RUN_COMMAND
+  runcmd: 
+  - '/itembox open'
+  permission-required: false
+##
+sharekho:
+  command: /sharekho
+  type: ALIAS
+  alias: '/kho allows'
+  permission-required: false
+unsharekho:
+  command: /unsharekho
+  type: ALIAS
+  alias: '/kho disallow'
+  permission-required: false
+k:
+  command: /k
+  type: ALIAS
+  alias: '/kho'
+  permission-required: false
+######
+dungedone:
+  command: /dungedone
+  type: RUN_CONSOLE
+  runcmd:
+  - '/mv tp $player world'
+  warmup: 5
+  permission-required: false
+####
+stands:
+  command: /stands
+  type: RUN_COMMAND
+  runcmd:
+  - '/class skill'
+  permission-required: false
+uniques:
+  command: /uniques
+  type: RUN_COMMAND
+  runcmd:
+  - '/class skill'
+  permission-required: false
+########
+btc:
+  command: /btc
+  #type: RUN_COMMAND
+  #runcmd:
+  #- '/dust'
+  #permission-required: false
+  type: ALIAS
+  alias: '/dust' 
+  permission-required: false
+px:
+  command: /px
+  type: ALIAS
+  alias: '/p' 
+  permission-required: false
+########
+it_socket1:
+  command: /it_socket1
+  type: RUN_COMMAND
+  runcmd:
+  - "$world=%world%/it_socket1_world"
+  - "$world=%world_nether%/it_socket1_world-nether"
+  - "$world=%world_the_end%/it_socket1_world-the-end"
+  - "$world=%ASkyBlock%/it_socket1_askyblock"
+  - "$world=%ASkyBlock_nether%/it_socket1_askyblock-nether"
+  - "$world=%nzstorm%/it_socket1_nzstorm"
+  - "$world=%pvp%/it_socket1_pvp"
+  permission-required: false
+it_socket1_world:
+  command: /it_socket1_world
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 1 world ~ ~ ~ 1'
+  - '/socket drop Gems Brok 1 world ~ ~ ~ 1'
+  - '/socket drop Gems Crital 1 world ~ ~ ~ 1'
+  - '/socket drop Gems Limt 1 world ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 1 world ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 1 world ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 1 world ~ ~ ~ 1'
+  - '/socket drop Gems Warr 1 world ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 1 world ~ ~ ~ 1'
+  permission-required: false
+it_socket1_world-nether:
+  command: /it_socket1_world-nether
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 1 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Brok 1 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Crital 1 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Limt 1 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 1 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 1 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 1 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Warr 1 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 1 world_nether ~ ~ ~ 1'
+  permission-required: false
+it_socket1_world-the-end:
+  command: /it_socket1_world-the-end
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 1 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Brok 1 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Crital 1 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Limt 1 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 1 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 1 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 1 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Warr 1 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 1 world_the_end ~ ~ ~ 1'
+  permission-required: false
+it_socket1_askyblock:
+  command: /it_socket1_askyblock
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 1 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Brok 1 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Crital 1 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Limt 1 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 1 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 1 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 1 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Warr 1 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 1 ASkyBlock ~ ~ ~ 1'
+  permission-required: false
+it_socket1_askyblock-nether:
+  command: /it_socket1_askyblock-nether
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 1 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Brok 1 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Crital 1 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Limt 1 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 1 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 1 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 1 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Warr 1 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 1 ASkyBlock_nether ~ ~ ~ 1'
+  permission-required: false
+it_socket1_nzstorm:
+  command: /it_socket1_nzstorm
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 1 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Brok 1 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Crital 1 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Limt 1 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 1 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 1 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 1 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Warr 1 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 1 nzstorm ~ ~ ~ 1'
+  permission-required: false
+it_socket1_pvp:
+  command: /it_socket1_pvp
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 1 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Brok 1 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Crital 1 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Limt 1 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 1 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 1 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 1 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Warr 1 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 1 pvp ~ ~ ~ 1'
+  permission-required: false
+#lv2
+it_socket2:
+  command: /it_socket2
+  type: RUN_COMMAND
+  runcmd:
+  - "$world=%world%/it_socket2_world"
+  - "$world=%world_nether%/it_socket2_world-nether"
+  - "$world=%world_the_end%/it_socket2_world-the-end"
+  - "$world=%ASkyBlock%/it_socket2_askyblock"
+  - "$world=%ASkyBlock_nether%/it_socket2_askyblock-nether"
+  - "$world=%nzstorm%/it_socket2_nzstorm"
+  - "$world=%pvp%/it_socket2_pvp"
+  permission-required: false
+it_socket2_world:
+  command: /it_socket2_world
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 2 world ~ ~ ~ 1'
+  - '/socket drop Gems Brok 2 world ~ ~ ~ 1'
+  - '/socket drop Gems Crital 2 world ~ ~ ~ 1'
+  - '/socket drop Gems Limt 2 world ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 2 world ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 2 world ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 2 world ~ ~ ~ 1'
+  - '/socket drop Gems Warr 2 world ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 2 world ~ ~ ~ 1'
+  permission-required: false
+it_socket2_world-nether:
+  command: /it_socket2_world-nether
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 2 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Brok 2 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Crital 2 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Limt 2 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 2 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 2 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 2 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Warr 2 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 2 world_nether ~ ~ ~ 1'
+  permission-required: false
+it_socket2_world-the-end:
+  command: /it_socket2_world-the-end
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 2 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Brok 2 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Crital 2 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Limt 2 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 2 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 2 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 2 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Warr 2 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 2 world_the_end ~ ~ ~ 1'
+  permission-required: false
+it_socket2_askyblock:
+  command: /it_socket2_askyblock
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 2 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Brok 2 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Crital 2 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Limt 2 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 2 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 2 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 2 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Warr 2 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 2 ASkyBlock ~ ~ ~ 1'
+  permission-required: false
+it_socket2_askyblock-nether:
+  command: /it_socket2_askyblock-nether
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 2 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Brok 2 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Crital 2 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Limt 2 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 2 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 2 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 2 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Warr 2 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 2 ASkyBlock_nether ~ ~ ~ 1'
+  permission-required: false
+it_socket2_nzstorm:
+  command: /it_socket2_nzstorm
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 2 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Brok 2 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Crital 2 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Limt 2 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 2 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 2 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 2 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Warr 2 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 2 nzstorm ~ ~ ~ 1'
+  permission-required: false
+it_socket2_pvp:
+  command: /it_socket2_pvp
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 2 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Brok 2 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Crital 2 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Limt 2 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 2 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 2 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 2 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Warr 2 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 2 pvp ~ ~ ~ 1'
+  permission-required: false
+#lv3
+it_socket3:
+  command: /it_socket3
+  type: RUN_COMMAND
+  runcmd:
+  - "$world=%world%/it_socket3_world"
+  - "$world=%world_nether%/it_socket3_world-nether"
+  - "$world=%world_the_end%/it_socket3_world-the-end"
+  - "$world=%ASkyBlock%/it_socket3_askyblock"
+  - "$world=%ASkyBlock_nether%/it_socket3_askyblock-nether"
+  - "$world=%nzstorm%/it_socket3_nzstorm"
+  - "$world=%pvp%/it_socket3_pvp"
+  permission-required: false
+it_socket3_world:
+  command: /it_socket3_world
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 3 world ~ ~ ~ 1'
+  - '/socket drop Gems Brok 3 world ~ ~ ~ 1'
+  - '/socket drop Gems Crital 3 world ~ ~ ~ 1'
+  - '/socket drop Gems Limt 3 world ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 3 world ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 3 world ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 3 world ~ ~ ~ 1'
+  - '/socket drop Gems Warr 3 world ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 3 world ~ ~ ~ 1'
+  permission-required: false
+it_socket3_world-nether:
+  command: /it_socket3_world-nether
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 3 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Brok 3 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Crital 3 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Limt 3 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 3 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 3 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 3 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Warr 3 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 3 world_nether ~ ~ ~ 1'
+  permission-required: false
+it_socket3_world-the-end:
+  command: /it_socket3_world-the-end
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 3 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Brok 3 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Crital 3 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Limt 3 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 3 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 3 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 3 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Warr 3 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 3 world_the_end ~ ~ ~ 1'
+  permission-required: false
+it_socket3_askyblock:
+  command: /it_socket3_askyblock
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 3 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Brok 3 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Crital 3 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Limt 3 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 3 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 3 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 3 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Warr 3 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 3 ASkyBlock ~ ~ ~ 1'
+  permission-required: false
+it_socket3_askyblock-nether:
+  command: /it_socket3_askyblock-nether
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 3 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Brok 3 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Crital 3 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Limt 3 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 3 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 3 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 3 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Warr 3 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 3 ASkyBlock_nether ~ ~ ~ 1'
+  permission-required: false
+it_socket3_nzstorm:
+  command: /it_socket3_nzstorm
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 3 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Brok 3 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Crital 3 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Limt 3 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 3 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 3 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 3 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Warr 3 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 3 nzstorm ~ ~ ~ 1'
+  permission-required: false
+it_socket3_pvp:
+  command: /it_socket3_pvp
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 3 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Brok 3 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Crital 3 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Limt 3 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 3 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 3 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 3 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Warr 3 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 3 pvp ~ ~ ~ 1'
+  permission-required: false
+#lv4
+it_socket4:
+  command: /it_socket4
+  type: RUN_COMMAND
+  runcmd:
+  - "$world=%world%/it_socket4_world"
+  - "$world=%world_nether%/it_socket4_world-nether"
+  - "$world=%world_the_end%/it_socket4_world-the-end"
+  - "$world=%ASkyBlock%/it_socket4_askyblock"
+  - "$world=%ASkyBlock_nether%/it_socket4_askyblock-nether"
+  - "$world=%nzstorm%/it_socket4_nzstorm"
+  - "$world=%pvp%/it_socket4_pvp"
+  permission-required: false
+it_socket4_world:
+  command: /it_socket4_world
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 4 world ~ ~ ~ 1'
+  - '/socket drop Gems Brok 4 world ~ ~ ~ 1'
+  - '/socket drop Gems Crital 4 world ~ ~ ~ 1'
+  - '/socket drop Gems Limt 4 world ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 4 world ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 4 world ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 4 world ~ ~ ~ 1'
+  - '/socket drop Gems Warr 4 world ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 4 world ~ ~ ~ 1'
+  permission-required: false
+it_socket4_world-nether:
+  command: /it_socket4_world-nether
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 4 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Brok 4 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Crital 4 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Limt 4 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 4 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 4 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 4 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Warr 4 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 4 world_nether ~ ~ ~ 1'
+  permission-required: false
+it_socket4_world-the-end:
+  command: /it_socket4_world-the-end
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 4 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Brok 4 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Crital 4 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Limt 4 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 4 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 4 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 4 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Warr 4 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 4 world_the_end ~ ~ ~ 1'
+  permission-required: false
+it_socket4_askyblock:
+  command: /it_socket4_askyblock
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 4 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Brok 4 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Crital 4 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Limt 4 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 4 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 4 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 4 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Warr 4 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 4 ASkyBlock ~ ~ ~ 1'
+  permission-required: false
+it_socket4_askyblock-nether:
+  command: /it_socket4_askyblock-nether
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 4 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Brok 4 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Crital 4 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Limt 4 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 4 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 4 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 4 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Warr 4 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 4 ASkyBlock_nether ~ ~ ~ 1'
+  permission-required: false
+it_socket4_nzstorm:
+  command: /it_socket4_nzstorm
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 4 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Brok 4 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Crital 4 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Limt 4 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 4 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 4 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 4 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Warr 4 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 4 nzstorm ~ ~ ~ 1'
+  permission-required: false
+it_socket4_pvp:
+  command: /it_socket4_pvp
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 4 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Brok 4 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Crital 4 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Limt 4 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 4 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 4 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 4 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Warr 4 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 4 pvp ~ ~ ~ 1'
+  permission-required: false
+#lv5
+it_socket5:
+  command: /it_socket5
+  type: RUN_COMMAND
+  runcmd:
+  - "$world=%world%/it_socket5_world"
+  - "$world=%world_nether%/it_socket5_world-nether"
+  - "$world=%world_the_end%/it_socket5_world-the-end"
+  - "$world=%ASkyBlock%/it_socket5_askyblock"
+  - "$world=%ASkyBlock_nether%/it_socket5_askyblock-nether"
+  - "$world=%nzstorm%/it_socket5_nzstorm"
+  - "$world=%pvp%/it_socket5_pvp"
+  permission-required: false
+it_socket5_world:
+  command: /it_socket5_world
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 5 world ~ ~ ~ 1'
+  - '/socket drop Gems Brok 5 world ~ ~ ~ 1'
+  - '/socket drop Gems Crital 5 world ~ ~ ~ 1'
+  - '/socket drop Gems Limt 5 world ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 5 world ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 5 world ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 5 world ~ ~ ~ 1'
+  - '/socket drop Gems Warr 5 world ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 5 world ~ ~ ~ 1'
+  permission-required: false
+it_socket5_world-nether:
+  command: /it_socket5_world-nether
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 5 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Brok 5 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Crital 5 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Limt 5 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 5 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 5 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 5 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Warr 5 world_nether ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 5 world_nether ~ ~ ~ 1'
+  permission-required: false
+it_socket5_world-the-end:
+  command: /it_socket5_world-the-end
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 5 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Brok 5 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Crital 5 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Limt 5 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 5 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 5 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 5 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Warr 5 world_the_end ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 5 world_the_end ~ ~ ~ 1'
+  permission-required: false
+it_socket5_askyblock:
+  command: /it_socket5_askyblock
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 5 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Brok 5 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Crital 5 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Limt 5 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 5 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 5 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 5 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Warr 5 ASkyBlock ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 5 ASkyBlock ~ ~ ~ 1'
+  permission-required: false
+it_socket5_askyblock-nether:
+  command: /it_socket5_askyblock-nether
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 5 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Brok 5 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Crital 5 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Limt 5 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 5 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 5 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 5 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Warr 5 ASkyBlock_nether ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 5 ASkyBlock_nether ~ ~ ~ 1'
+  permission-required: false
+it_socket5_nzstorm:
+  command: /it_socket5_nzstorm
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 5 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Brok 5 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Crital 5 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Limt 5 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 5 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 5 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 5 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Warr 5 nzstorm ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 5 nzstorm ~ ~ ~ 1'
+  permission-required: false
+it_socket5_pvp:
+  command: /it_socket5_pvp
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/socket drop Gems Amethyst 5 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Brok 5 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Crital 5 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Limt 5 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Onyx 5 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Ruby 5 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Sapphire 5 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Warr 5 pvp ~ ~ ~ 1'
+  - '/socket drop Gems Zobi 5 pvp ~ ~ ~ 1'
+  permission-required: false
+###
+jp:
+  command: /jp gui
+  type: RUN_COMMAND
+  runcmd:
+  - '/lottery gui'
+  permission-required: false
+######
+dn1:
+  command: /dn
+  type: ALIAS
+  alias: '/login' 
+  permission-required: false
+dn2:
+  command: /dn
+  type: ALIAS
+  alias: '/l' 
+  permission-required: false
+#######
+tmegg:
+  command: /eggtm
+  type: RUN_COMMAND_RANDOM
+  runcmd: 
+  - '/eggtms'
+  - '/eggtmf'
+  - '/eggtmf'
+  - '/eggtmf'
+  - '/eggtmf'
+  - '/eggtmf'
+  - '/eggtmf'
+  - '/eggtmf'
+  - '/eggtmf'
+  - '/eggtmf'
+  - '/eggtmf'
+  - '/eggtmf'
+  - '/eggtmf'
+  - '/eggtmf'
+  - '/eggtmf'
+  - '/eggtmf'
+  - '/eggtmf'
+  - '/eggtmf'
+  - '/eggtmf'
+eggtms:
+  command: /eggtms
+  type: RUN_CONSOLE
+  runcmd: 
+  - '/title @a subtitle ["",{"text":"$player","color":"dark_green"},{"text":" nh\u1eadn \u0111\u01b0\u1ee3c Cúp Th\u1edf M\u1ecf Vay"}]'
+  - '/title @a title {"text":"Chúc m\u1eebng","bold":true,"color":"dark_green"}'
+  - '/kit cuptmvay $player'
+  - '/bc &a☘ &2$player&e mở thành công &6&l"Cúp thợ Mỏ vay" &etừ đập &2Eggs! &a&nJoin now!'
+eggtmf:
+  command: /eggtmf
+  type: RUN_CONSOLE
+  runcmd: 
+  - '/title @a subtitle {"text":"$player \u0111\u1eadp tr\u1ee9ng TM th\u1ea5t b\u1ea1i","color":"red"}'
+  - '/title @a title {"text":"B\u1ea2NG TIN","bold":true}'
+  - '/bc &6$player&e mở thất bại "Cúp thợ Mỏ vay" từ đập &lEggbreaker&e.'
+  - '/diemdanh giveticket 1 $player'
+  - '/w $player &abạn claimed được &e1&a thẻ điểm danh bù.'
+#######
+napthe:
+  command: /napthe
+  type: RUN_CONSOLE
+  runcmd: 
+  - '/title $player subtitle ["",{"text":"tham kh\u1ea3o cách n\u1ea1p: "},{"text":"\u0262\u0280\u1d00ss\u1d0d\u1d04.\u0280\u0493.\u0262\u1d05","bold":true,"underlined":true,"color":"gray"}]'
+  - '/title $player title ["",{"text":"b\u1ea1n v\u1eeba b\u1ea5m","color":"dark_green"},{"text":" N\u1ea0P TH\u1eba","bold":true,"color":"green"}]'
+  - '/w $player &eCám ơn bạn đã ghé thăm &6&lNẠP THẺ &2&l✔'
+  - '/w $player &eOffical website: &2&nɢʀᴀssᴍᴄ.ʀғ.ɢᴅ&e sẽ hướng dẫn bạn'
+  - '/w $player &eᴄách nạp thẻ an toàn và chi tiết nhất.'
+  - '/w $player &2&lNẠP THẺ TỐI ƯU: &enếu được bạn hãy donate bằng'
+  - '/w $player &ecard &2&lZING&e hoặc thẻ &2&lVIETTEL &eđể giúp máy chủ'
+  - '/w $player &ecó doanh thu tốt nhất. Tốt hơn nữa là chuyển tiền'
+  - '/w $player &eMOMO hoặc tài khoản ngân hàng. Bạn sẽ claim ưu đãi%'
+  - '/w $player &2&lMOMO:&e 0338188506'
+  - '/w $player &2&lSTK BANK:&e 0338188506 MB.BANK, PHAN TAN TAI'
+  - '/w $player &eToàn bộ số tiền bạn donate đều chi 1 cách'
+  - '/w $player &etiết kiệm và đầu tư 100% vào server để phục'
+  - '/w $player &evụ cho chính các bạn.'
+  - '/mycmd-runas player $player /napthebl'
+napthebl:
+  command: /napthebl
+  type: RAW_TEXT
+  text:
+  - '$RUN_COMMAND$&2&l&o&nCHỌN LOẠI THẺ NẠP&e ⇤ click vào đây; &bRê chuột vào đây để nạp thẻ ingame;/donate'
+######
+vto1:
+  command: /vto1
+  type: RUN_CONSOLE
+  runcmd:
+  - '/w $player &6ɴhậm tiêu &bBắc Cực&6 đã hoàn thành. &aɴhận thưởng&2✔'
+  - '/class exp $player 500'
+  - '/mc give $player 500'
+  - '/xp give $player 10'
+  - '/eco give $player 500'
+  - '/pex user $player add minecraft.vt.vto2'
+  permission-required: false
+  cooldown: 86400
+  warmup: 1800
+vto2:
+  command: /vto2
+  type: RUN_CONSOLE
+  runcmd:
+  - '/w $player &6ɴhậm tiêu &esa mạc&6 đã hoàn thành. &aɴhận thưởng&2✔'
+  - '/class exp $player 800'
+  - '/mc give $player 800'
+  - '/xp give $player 20'
+  - '/eco give $player 1000'
+  - '/pex user $player remove minecraft.vt.vto2'
+  - '/pex user $player add minecraft.vt.vto3'
+  permission-required: false
+  cooldown: 86400
+  warmup: 3600
+vto3:
+  command: /vto3
+  type: RUN_CONSOLE
+  runcmd:
+  - '/w $player &6ɴhậm tiêu &2ᴡᴜʜᴀɴ&6 đã hoàn thành. &aɴhận thưởng&2✔'
+  - '/class exp $player 1000'
+  - '/voucher give $player noinang1 1'
+  - '/mc give $player 1000'
+  - '/xp give $player 30'
+  - '/eco give $player 1500'
+  - '/pex user $player remove minecraft.vt.vto3'
+  permission-required: false
+  cooldown: 86400
+  warmup: 7200
+#####purge sword###
+purgesword:
+  command: /purgesword
+  type: RUN_COMMAND_RANDOM
+  runcmd: 
+  - '/purgesword1'
+  - '/purgesword2'
+  - '/purgesword3'
+  - '/purgesword4'
+  - '/purgesword5'
+  - '/purgesword6'
+  - '/purgesword7'
+  - '/purgesword8'
+  - '/purgesword9'
+  - '/purgesword10'
+  - '/purgesword11'
+  - '/purgesword12'
+  - '/purgesword13'
+  - '/purgesword14'
+  - '/purgesword15'
+  - '/purgesword16'
+  - '/purgesword17'
+  - '/purgesword18'
+  - '/purgesword19'
+  - '/purgesword20'
+  permission-required: false
+purgesword1:
+  command: /purgesword1
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT ATTACK_DAMAGE 0.5'
+  - '/att NBT ATTACK_RATE 0.5'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle witchMagic ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ1:'
+  - '/addlore &7 &7 ♰5.0% sᴍᴄᴋ'
+  - '/addlore &7 &7 +5.0% ᴛốᴄ độ đáɴᴅ'
+  permission-required: false
+purgesword2:
+  command: /purgesword2
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT ATTACK_DAMAGE 1'
+  - '/att NBT ATTACK_RATE 1'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle witchMagic ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ2:'
+  - '/addlore &7 &7 ♰10.0% sᴍᴄᴋ'
+  - '/addlore &7 &7 +10.0% ᴛốᴄ độ đáɴᴅ'
+  permission-required: false
+purgesword3:
+  command: /purgesword3
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT ATTACK_DAMAGE 1.5'
+  - '/att NBT ATTACK_RATE 1.5'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle witchMagic ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ3:'
+  - '/addlore &7 &7 ♰15.0% sᴍᴄᴋ'
+  - '/addlore &7 &7 +15.0% ᴛốᴄ độ đáɴᴅ'
+  permission-required: false
+purgesword4:
+  command: /purgesword4
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT ATTACK_DAMAGE 2'
+  - '/att NBT ATTACK_RATE 2'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle witchMagic ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ4:'
+  - '/addlore &7 &7 ♰20.0% sᴍᴄᴋ'
+  - '/addlore &7 &7 +20.0% ᴛốᴄ độ đáɴᴅ'
+  permission-required: false
+purgesword5:
+  command: /purgesword5
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT ATTACK_DAMAGE 2.5'
+  - '/att NBT ATTACK_RATE 2.5'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle witchMagic ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ5:'
+  - '/addlore &7 &7 ♰25.0% sᴍᴄᴋ'
+  - '/addlore &7 &7 +25.0% ᴛốᴄ độ đáɴᴅ'
+  permission-required: false
+purgesword6:
+  command: /purgesword6
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT ATTACK_DAMAGE 3'
+  - '/att NBT ATTACK_RATE 3'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle witchMagic ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ6:'
+  - '/addlore &7 &7 ♰30.0% sᴍᴄᴋ'
+  - '/addlore &7 &7 +30.0% ᴛốᴄ độ đáɴᴅ'
+  permission-required: false
+purgesword7:
+  command: /purgesword7
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT ATTACK_DAMAGE 3.5'
+  - '/att NBT ATTACK_RATE 3.5'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle witchMagic ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ7:'
+  - '/addlore &7 &7 ♰35.0% sᴍᴄᴋ'
+  - '/addlore &7 &7 +35.0% ᴛốᴄ độ đáɴᴅ'
+  permission-required: false
+purgesword8:
+  command: /purgesword8
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT ATTACK_DAMAGE 4'
+  - '/att NBT ATTACK_RATE 4'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle witchMagic ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ8:'
+  - '/addlore &7 &7 ♰40.0% sᴍᴄᴋ'
+  - '/addlore &7 &7 +40.0% ᴛốᴄ độ đáɴᴅ'
+  permission-required: false
+purgesword9:
+  command: /purgesword9
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT ATTACK_DAMAGE 4.5'
+  - '/att NBT ATTACK_RATE 4.5'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle witchMagic ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ9:'
+  - '/addlore &7 &7 ♰45.0% sᴍᴄᴋ'
+  - '/addlore &7 &7 +45.0% ᴛốᴄ độ đáɴᴅ'
+  permission-required: false
+purgesword10:
+  command: /purgesword10
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT ATTACK_DAMAGE 5'
+  - '/att NBT ATTACK_RATE 5'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle witchMagic ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ10:'
+  - '/addlore &7 &7 ♰50.0% sᴍᴄᴋ'
+  - '/addlore &7 &7 +50.0% ᴛốᴄ độ đáɴᴅ'
+  permission-required: false
+purgesword11:
+  command: /purgesword11
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT ATTACK_DAMAGE 5.5'
+  - '/att NBT ATTACK_RATE 5.5'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle witchMagic ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ11:'
+  - '/addlore &7 &7 ♰55.0% sᴍᴄᴋ'
+  - '/addlore &7 &7 +55.0% ᴛốᴄ độ đáɴᴅ'
+  permission-required: false
+purgesword12:
+  command: /purgesword12
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT ATTACK_DAMAGE 6'
+  - '/att NBT ATTACK_RATE 6'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle witchMagic ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ12:'
+  - '/addlore &7 &7 ♰60.0% sᴍᴄᴋ'
+  - '/addlore &7 &7 +60.0% ᴛốᴄ độ đáɴᴅ'
+  permission-required: false
+purgesword13:
+  command: /purgesword13
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT ATTACK_DAMAGE 6.5'
+  - '/att NBT ATTACK_RATE 6.5'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle witchMagic ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ13:'
+  - '/addlore &7 &7 ♰65.0% sᴍᴄᴋ'
+  - '/addlore &7 &7 +65.0% ᴛốᴄ độ đáɴᴅ'
+  permission-required: false
+purgesword14:
+  command: /purgesword14
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT ATTACK_DAMAGE 7'
+  - '/att NBT ATTACK_RATE 7'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle witchMagic ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ14:'
+  - '/addlore &7 &7 ♰70.0% sᴍᴄᴋ'
+  - '/addlore &7 &7 +70.0% ᴛốᴄ độ đáɴᴅ'
+  permission-required: false
+purgesword15:
+  command: /purgesword15
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT ATTACK_DAMAGE 7.5'
+  - '/att NBT ATTACK_RATE 7.5'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle witchMagic ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ15:'
+  - '/addlore &7 &7 ♰75.0% sᴍᴄᴋ'
+  - '/addlore &7 &7 +75.0% ᴛốᴄ độ đáɴᴅ'
+  permission-required: false
+purgesword16:
+  command: /purgesword16
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT ATTACK_DAMAGE 8'
+  - '/att NBT ATTACK_RATE 8'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle witchMagic ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ16:'
+  - '/addlore &7 &7 ♰80.0% sᴍᴄᴋ'
+  - '/addlore &7 &7 +80.0% ᴛốᴄ độ đáɴᴅ'
+  permission-required: false
+purgesword17:
+  command: /purgesword17
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT ATTACK_DAMAGE 8.5'
+  - '/att NBT ATTACK_RATE 8.5'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle witchMagic ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ17:'
+  - '/addlore &7 &7 ♰85.0% sᴍᴄᴋ'
+  - '/addlore &7 &7 +85.0% ᴛốᴄ độ đáɴᴅ'
+  permission-required: false
+purgesword18:
+  command: /purgesword18
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT ATTACK_DAMAGE 9'
+  - '/att NBT ATTACK_RATE 9'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle witchMagic ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ18:'
+  - '/addlore &7 &7 ♰90.0% sᴍᴄᴋ'
+  - '/addlore &7 &7 +90.0% ᴛốᴄ độ đáɴᴅ'
+  permission-required: false
+purgesword19:
+  command: /purgesword19
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT ATTACK_DAMAGE 9.5'
+  - '/att NBT ATTACK_RATE 9.5'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle witchMagic ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ19:'
+  - '/addlore &7 &7 ♰95.0% sᴍᴄᴋ'
+  - '/addlore &7 &7 +95.0% ᴛốᴄ độ đáɴᴅ'
+  permission-required: false
+purgesword20:
+  command: /purgesword20
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT ATTACK_DAMAGE 10'
+  - '/att NBT ATTACK_RATE 10'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle witchMagic ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ20:'
+  - '/addlore &7 &7 ♰100.0% sᴍᴄᴋ'
+  - '/addlore &7 &7 +100.0% ᴛốᴄ độ đáɴᴅ'
+  permission-required: false
+###purgearmor#####
+purgearmor:
+  command: /purgearmor
+  type: RUN_COMMAND_RANDOM
+  runcmd: 
+  - '/purgearmor1'
+  - '/purgearmor2'
+  - '/purgearmor3'
+  - '/purgearmor4'
+  - '/purgearmor5'
+  - '/purgearmor6'
+  - '/purgearmor7'
+  - '/purgearmor8'
+  - '/purgearmor9'
+  - '/purgearmor10'
+  - '/purgearmor11'
+  - '/purgearmor12'
+  - '/purgearmor13'
+  - '/purgearmor14'
+  - '/purgearmor15'
+  - '/purgearmor16'
+  - '/purgearmor17'
+  - '/purgearmor18'
+  - '/purgearmor19'
+  - '/purgearmor20'
+  permission-required: false
+purgearmor1:
+  command: /purgearmor1
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT DEFENSE 0.5'
+  - '/att NBT HEALTH 1'
+  - '/att NBT KNOCKBACK 0.05'
+  - '/att NBT SHIELD 5'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle dripWater ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ1:'
+  - '/addlore &7 &7 ♰5.0% ɢɪáᴘ ᴄʜíɴʜ'
+  - '/addlore &7 &7 +0.5&c♥&7 Sinh lực tối đa'
+  - '/addlore &7 &7 ♰5.0% ᴋʜáɴɢ ʟùɪ'
+  - '/addlore &7 &7 ♰5.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgearmor2:
+  command: /purgearmor2
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT DEFENSE 1'
+  - '/att NBT HEALTH 2'
+  - '/att NBT KNOCKBACK 0.1'
+  - '/att NBT SHIELD 10'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle dripWater ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ2:'
+  - '/addlore &7 &7 ♰10.0% ɢɪáᴘ ᴄʜíɴʜ'
+  - '/addlore &7 &7 +1.0&c♥&7 Sinh lực tối đa'
+  - '/addlore &7 &7 ♰10.0% ᴋʜáɴɢ ʟùɪ'
+  - '/addlore &7 &7 ♰10.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgearmor3:
+  command: /purgearmor3
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT DEFENSE 1.5'
+  - '/att NBT HEALTH 3'
+  - '/att NBT KNOCKBACK 0.15'
+  - '/att NBT SHIELD 15'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle dripWater ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ3:'
+  - '/addlore &7 &7 ♰15.0% ɢɪáᴘ ᴄʜíɴʜ'
+  - '/addlore &7 &7 +1.5&c♥&7 Sinh lực tối đa'
+  - '/addlore &7 &7 ♰15.0% ᴋʜáɴɢ ʟùɪ'
+  - '/addlore &7 &7 ♰15.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgearmor4:
+  command: /purgearmor4
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT DEFENSE 2'
+  - '/att NBT HEALTH 4'
+  - '/att NBT KNOCKBACK 0.2'
+  - '/att NBT SHIELD 20'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle dripWater ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ4:'
+  - '/addlore &7 &7 ♰20.0% ɢɪáᴘ ᴄʜíɴʜ'
+  - '/addlore &7 &7 +2.0&c♥&7 Sinh lực tối đa'
+  - '/addlore &7 &7 ♰20.0% ᴋʜáɴɢ ʟùɪ'
+  - '/addlore &7 &7 ♰20.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgearmor5:
+  command: /purgearmor5
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT DEFENSE 2.5'
+  - '/att NBT HEALTH 5'
+  - '/att NBT KNOCKBACK 0.25'
+  - '/att NBT SHIELD 25'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle dripWater ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ5:'
+  - '/addlore &7 &7 ♰25.0% ɢɪáᴘ ᴄʜíɴʜ'
+  - '/addlore &7 &7 +2.5&c♥&7 Sinh lực tối đa'
+  - '/addlore &7 &7 ♰25.0% ᴋʜáɴɢ ʟùɪ'
+  - '/addlore &7 &7 ♰25.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgearmor6:
+  command: /purgearmor6
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT DEFENSE 3'
+  - '/att NBT HEALTH 6'
+  - '/att NBT KNOCKBACK 0.3'
+  - '/att NBT SHIELD 30'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle dripWater ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ6:'
+  - '/addlore &7 &7 ♰30.0% ɢɪáᴘ ᴄʜíɴʜ'
+  - '/addlore &7 &7 +3.0&c♥&7 Sinh lực tối đa'
+  - '/addlore &7 &7 ♰30.0% ᴋʜáɴɢ ʟùɪ'
+  - '/addlore &7 &7 ♰30.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgearmor7:
+  command: /purgearmor7
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT DEFENSE 3.5'
+  - '/att NBT HEALTH 7'
+  - '/att NBT KNOCKBACK 0.35'
+  - '/att NBT SHIELD 35'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle dripWater ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ7:'
+  - '/addlore &7 &7 ♰35.0% ɢɪáᴘ ᴄʜíɴʜ'
+  - '/addlore &7 &7 +3.5&c♥&7 Sinh lực tối đa'
+  - '/addlore &7 &7 ♰35.0% ᴋʜáɴɢ ʟùɪ'
+  - '/addlore &7 &7 ♰35.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgearmor8:
+  command: /purgearmor8
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT DEFENSE 4'
+  - '/att NBT HEALTH 8'
+  - '/att NBT KNOCKBACK 0.4'
+  - '/att NBT SHIELD 40'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle dripWater ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ8:'
+  - '/addlore &7 &7 ♰40.0% ɢɪáᴘ ᴄʜíɴʜ'
+  - '/addlore &7 &7 +4.0&c♥&7 Sinh lực tối đa'
+  - '/addlore &7 &7 ♰40.0% ᴋʜáɴɢ ʟùɪ'
+  - '/addlore &7 &7 ♰40.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgearmor9:
+  command: /purgearmor9
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT DEFENSE 4.5'
+  - '/att NBT HEALTH 9'
+  - '/att NBT KNOCKBACK 0.45'
+  - '/att NBT SHIELD 45'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle dripWater ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ9:'
+  - '/addlore &7 &7 ♰45.0% ɢɪáᴘ ᴄʜíɴʜ'
+  - '/addlore &7 &7 +4.5&c♥&7 Sinh lực tối đa'
+  - '/addlore &7 &7 ♰45.0% ᴋʜáɴɢ ʟùɪ'
+  - '/addlore &7 &7 ♰45.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgearmor10:
+  command: /purgearmor10
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT DEFENSE 5'
+  - '/att NBT HEALTH 10'
+  - '/att NBT KNOCKBACK 0.5'
+  - '/att NBT SHIELD 50'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle dripWater ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ10:'
+  - '/addlore &7 &7 ♰50.0% ɢɪáᴘ ᴄʜíɴʜ'
+  - '/addlore &7 &7 +5.0&c♥&7 Sinh lực tối đa'
+  - '/addlore &7 &7 ♰50.0% ᴋʜáɴɢ ʟùɪ'
+  - '/addlore &7 &7 ♰50.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgearmor11:
+  command: /purgearmor11
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT DEFENSE 5.5'
+  - '/att NBT HEALTH 11'
+  - '/att NBT KNOCKBACK 0.55'
+  - '/att NBT SHIELD 55'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle dripWater ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ11:'
+  - '/addlore &7 &7 ♰55.0% ɢɪáᴘ ᴄʜíɴʜ'
+  - '/addlore &7 &7 +5.5&c♥&7 Sinh lực tối đa'
+  - '/addlore &7 &7 ♰55.0% ᴋʜáɴɢ ʟùɪ'
+  - '/addlore &7 &7 ♰55.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgearmor12:
+  command: /purgearmor12
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT DEFENSE 6'
+  - '/att NBT HEALTH 12'
+  - '/att NBT KNOCKBACK 0.6'
+  - '/att NBT SHIELD 60'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle dripWater ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ12:'
+  - '/addlore &7 &7 ♰60.0% ɢɪáᴘ ᴄʜíɴʜ'
+  - '/addlore &7 &7 +6.0&c♥&7 Sinh lực tối đa'
+  - '/addlore &7 &7 ♰60.0% ᴋʜáɴɢ ʟùɪ'
+  - '/addlore &7 &7 ♰60.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgearmor13:
+  command: /purgearmor13
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT DEFENSE 6.5'
+  - '/att NBT HEALTH 13'
+  - '/att NBT KNOCKBACK 0.65'
+  - '/att NBT SHIELD 65'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle dripWater ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ13:'
+  - '/addlore &7 &7 ♰65.0% ɢɪáᴘ ᴄʜíɴʜ'
+  - '/addlore &7 &7 +6.5&c♥&7 Sinh lực tối đa'
+  - '/addlore &7 &7 ♰65.0% ᴋʜáɴɢ ʟùɪ'
+  - '/addlore &7 &7 ♰65.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgearmor14:
+  command: /purgearmor14
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT DEFENSE 7'
+  - '/att NBT HEALTH 14'
+  - '/att NBT KNOCKBACK 0.7'
+  - '/att NBT SHIELD 70'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle dripWater ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ14:'
+  - '/addlore &7 &7 ♰70.0% ɢɪáᴘ ᴄʜíɴʜ'
+  - '/addlore &7 &7 +7.0&c♥&7 Sinh lực tối đa'
+  - '/addlore &7 &7 ♰70.0% ᴋʜáɴɢ ʟùɪ'
+  - '/addlore &7 &7 ♰70.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgearmor15:
+  command: /purgearmor15
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT DEFENSE 7.5'
+  - '/att NBT HEALTH 15'
+  - '/att NBT KNOCKBACK 0.75'
+  - '/att NBT SHIELD 75'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle dripWater ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ15:'
+  - '/addlore &7 &7 ♰75.0% ɢɪáᴘ ᴄʜíɴʜ'
+  - '/addlore &7 &7 +7.5&c♥&7 Sinh lực tối đa'
+  - '/addlore &7 &7 ♰75.0% ᴋʜáɴɢ ʟùɪ'
+  - '/addlore &7 &7 ♰75.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgearmor16:
+  command: /purgearmor16
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT DEFENSE 8'
+  - '/att NBT HEALTH 16'
+  - '/att NBT KNOCKBACK 0.8'
+  - '/att NBT SHIELD 80'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle dripWater ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ16:'
+  - '/addlore &7 &7 ♰80.0% ɢɪáᴘ ᴄʜíɴʜ'
+  - '/addlore &7 &7 +8.0&c♥&7 Sinh lực tối đa'
+  - '/addlore &7 &7 ♰80.0% ᴋʜáɴɢ ʟùɪ'
+  - '/addlore &7 &7 ♰80.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgearmor17:
+  command: /purgearmor17
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT DEFENSE 8.5'
+  - '/att NBT HEALTH 17'
+  - '/att NBT KNOCKBACK 0.85'
+  - '/att NBT SHIELD 85'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle dripWater ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ17:'
+  - '/addlore &7 &7 ♰85.0% ɢɪáᴘ ᴄʜíɴʜ'
+  - '/addlore &7 &7 +8.5&c♥&7 Sinh lực tối đa'
+  - '/addlore &7 &7 ♰85.0% ᴋʜáɴɢ ʟùɪ'
+  - '/addlore &7 &7 ♰85.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgearmor18:
+  command: /purgearmor18
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT DEFENSE 9'
+  - '/att NBT HEALTH 18'
+  - '/att NBT KNOCKBACK 0.9'
+  - '/att NBT SHIELD 90'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle dripWater ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ18:'
+  - '/addlore &7 &7 ♰90.0% ɢɪáᴘ ᴄʜíɴʜ'
+  - '/addlore &7 &7 +9.0&c♥&7 Sinh lực tối đa'
+  - '/addlore &7 &7 ♰90.0% ᴋʜáɴɢ ʟùɪ'
+  - '/addlore &7 &7 ♰90.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgearmor19:
+  command: /purgearmor19
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT DEFENSE 9.5'
+  - '/att NBT HEALTH 19'
+  - '/att NBT KNOCKBACK 0.95'
+  - '/att NBT SHIELD 95'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle dripWater ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ19:'
+  - '/addlore &7 &7 ♰95.0% ɢɪáᴘ ᴄʜíɴʜ'
+  - '/addlore &7 &7 +9.5&c♥&7 Sinh lực tối đa'
+  - '/addlore &7 &7 ♰95.0% ᴋʜáɴɢ ʟùɪ'
+  - '/addlore &7 &7 ♰95.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgearmor20:
+  command: /purgearmor20
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT DEFENSE 10'
+  - '/att NBT HEALTH 20'
+  - '/att NBT KNOCKBACK 1'
+  - '/att NBT SHIELD 100'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle dripWater ~ ~ ~ 8 8 8 1 900'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ20:'
+  - '/addlore &7 &7 ♰100.0% ɢɪáᴘ ᴄʜíɴʜ'
+  - '/addlore &7 &7 +10.0&c♥&7 Sinh lực tối đa'
+  - '/addlore &7 &7 ♰100.0% ᴋʜáɴɢ ʟùɪ'
+  - '/addlore &7 &7 ♰100.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+######purge boots #####
+purgeboots:
+  command: /purgeboots
+  type: RUN_COMMAND_RANDOM
+  runcmd: 
+  - '/purgeboots1'
+  - '/purgeboots2'
+  - '/purgeboots3'
+  - '/purgeboots4'
+  - '/purgeboots5'
+  - '/purgeboots6'
+  - '/purgeboots7'
+  - '/purgeboots8'
+  - '/purgeboots9'
+  - '/purgeboots10'
+  - '/purgeboots11'
+  - '/purgeboots12'
+  - '/purgeboots13'
+  - '/purgeboots14'
+  - '/purgeboots15'
+  - '/purgeboots16'
+  - '/purgeboots17'
+  - '/purgeboots18'
+  - '/purgeboots19'
+  - '/purgeboots20'
+  permission-required: false
+purgeboots1:
+  command: /purgeboots1
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT SPEED 0.05'
+  - '/att NBT HORSE_JUMP 0.16'
+  - '/att NBT FOLLOW_RANGE 41'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle explode ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ20:'
+  - '/addlore &7 &7 ♰0.5% ᴛốᴄ ᴅɪ ᴄʜᴜʏểɴ'
+  - '/addlore &7 &7 +0.16 sứᴄ ɴʜảʏ ɴɢựᴀ'
+  - '/addlore &7 &7 -1.0m ᴘʜạᴍ ᴠɪ ᴛʀáɴʜ ǫᴜáɪ ᴛʜú'
+  permission-required: false
+purgeboots2:
+  command: /purgeboots2
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT SPEED 0.1'
+  - '/att NBT HORSE_JUMP 0.32'
+  - '/att NBT FOLLOW_RANGE 42'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle explode ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ2:'
+  - '/addlore &7 &7 ♰1.0% ᴛốᴄ ᴅɪ ᴄʜᴜʏểɴ'
+  - '/addlore &7 &7 +0.32 sứᴄ ɴʜảʏ ɴɢựᴀ'
+  - '/addlore &7 &7 -2.0m ᴘʜạᴍ ᴠɪ ᴛʀáɴʜ ǫᴜáɪ ᴛʜú'
+  permission-required: false
+purgeboots3:
+  command: /purgeboots3
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT SPEED 0.15'
+  - '/att NBT HORSE_JUMP 0.64'
+  - '/att NBT FOLLOW_RANGE 43'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle explode ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ3:'
+  - '/addlore &7 &7 ♰1.5% ᴛốᴄ ᴅɪ ᴄʜᴜʏểɴ'
+  - '/addlore &7 &7 +0.64 sứᴄ ɴʜảʏ ɴɢựᴀ'
+  - '/addlore &7 &7 -3.0m ᴘʜạᴍ ᴠɪ ᴛʀáɴʜ ǫᴜáɪ ᴛʜú'
+  permission-required: false
+purgeboots4:
+  command: /purgeboots4
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT SPEED 0.2'
+  - '/att NBT HORSE_JUMP 1.28'
+  - '/att NBT FOLLOW_RANGE 44'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle explode ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ4:'
+  - '/addlore &7 &7 ♰2.0% ᴛốᴄ ᴅɪ ᴄʜᴜʏểɴ'
+  - '/addlore &7 &7 +1.28 sứᴄ ɴʜảʏ ɴɢựᴀ'
+  - '/addlore &7 &7 -4.0m ᴘʜạᴍ ᴠɪ ᴛʀáɴʜ ǫᴜáɪ ᴛʜú'
+  permission-required: false
+purgeboots5:
+  command: /purgeboots5
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT SPEED 0.25'
+  - '/att NBT HORSE_JUMP 1.5'
+  - '/att NBT FOLLOW_RANGE 45'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle explode ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ5:'
+  - '/addlore &7 &7 ♰2.5% ᴛốᴄ ᴅɪ ᴄʜᴜʏểɴ'
+  - '/addlore &7 &7 +1.5 sứᴄ ɴʜảʏ ɴɢựᴀ'
+  - '/addlore &7 &7 -5.0m ᴘʜạᴍ ᴠɪ ᴛʀáɴʜ ǫᴜáɪ ᴛʜú'
+  permission-required: false
+purgeboots6:
+  command: /purgeboots6
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT SPEED 0.3'
+  - '/att NBT HORSE_JUMP 1.7'
+  - '/att NBT FOLLOW_RANGE 46'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle explode ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ6:'
+  - '/addlore &7 &7 ♰3.0% ᴛốᴄ ᴅɪ ᴄʜᴜʏểɴ'
+  - '/addlore &7 &7 +1.7 sứᴄ ɴʜảʏ ɴɢựᴀ'
+  - '/addlore &7 &7 -6.0m ᴘʜạᴍ ᴠɪ ᴛʀáɴʜ ǫᴜáɪ ᴛʜú'
+  permission-required: false
+purgeboots7:
+  command: /purgeboots7
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT SPEED 0.35'
+  - '/att NBT HORSE_JUMP 2'
+  - '/att NBT FOLLOW_RANGE 47'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle explode ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ7:'
+  - '/addlore &7 &7 ♰3.5% ᴛốᴄ ᴅɪ ᴄʜᴜʏểɴ'
+  - '/addlore &7 &7 +2.0 sứᴄ ɴʜảʏ ɴɢựᴀ'
+  - '/addlore &7 &7 -7.0m ᴘʜạᴍ ᴠɪ ᴛʀáɴʜ ǫᴜáɪ ᴛʜú'
+  permission-required: false
+####purge rod####
+purgerod:
+  command: /purgerod
+  type: RUN_COMMAND_RANDOM
+  runcmd: 
+  - '/purgerod1'
+  - '/purgerod2'
+  - '/purgerod3'
+  - '/purgerod4'
+  - '/purgerod5'
+  - '/purgerod6'
+  - '/purgerod7'
+  - '/purgerod8'
+  - '/purgerod9'
+  - '/purgerod10'
+  - '/purgerod11'
+  - '/purgerod12'
+  - '/purgerod13'
+  - '/purgerod14'
+  - '/purgerod15'
+  - '/purgerod16'
+  - '/purgerod17'
+  - '/purgerod18'
+  - '/purgerod19'
+  - '/purgerod20'
+  permission-required: false
+purgerod1:
+  command: /purgerod1
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT LUCK 1'
+  - '/att NBT SHIELD 5'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle fallingdust ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ1:'
+  - '/addlore &7 &7 ♰1.0 ᴍᴀʏ ᴍắɴ'
+  - '/addlore &7 &7 ♰5.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgerod2:
+  command: /purgerod2
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT LUCK 3'
+  - '/att NBT SHIELD 10'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle fallingdust ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ2:'
+  - '/addlore &7 &7 ♰3.0 ᴍᴀʏ ᴍắɴ'
+  - '/addlore &7 &7 ♰10.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgerod3:
+  command: /purgerod3
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT LUCK 5'
+  - '/att NBT SHIELD 15'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle fallingdust ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ3:'
+  - '/addlore &7 &7 ♰5.0 ᴍᴀʏ ᴍắɴ'
+  - '/addlore &7 &7 ♰15.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgerod4:
+  command: /purgerod4
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT LUCK 7'
+  - '/att NBT SHIELD 20'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle fallingdust ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ4:'
+  - '/addlore &7 &7 ♰7.0 ᴍᴀʏ ᴍắɴ'
+  - '/addlore &7 &7 ♰20.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgerod5:
+  command: /purgerod5
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT LUCK 9'
+  - '/att NBT SHIELD 25'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle fallingdust ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ5:'
+  - '/addlore &7 &7 ♰9.0 ᴍᴀʏ ᴍắɴ'
+  - '/addlore &7 &7 ♰25.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgerod6:
+  command: /purgerod6
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT LUCK 11'
+  - '/att NBT SHIELD 30'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle fallingdust ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ6:'
+  - '/addlore &7 &7 ♰11.0 ᴍᴀʏ ᴍắɴ'
+  - '/addlore &7 &7 ♰30.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgerod7:
+  command: /purgerod7
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT LUCK 13'
+  - '/att NBT SHIELD 35'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle fallingdust ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ7:'
+  - '/addlore &7 &7 ♰13.0 ᴍᴀʏ ᴍắɴ'
+  - '/addlore &7 &7 ♰35.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgerod8:
+  command: /purgerod8
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT LUCK 15'
+  - '/att NBT SHIELD 40'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle fallingdust ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ8:'
+  - '/addlore &7 &7 ♰15.0 ᴍᴀʏ ᴍắɴ'
+  - '/addlore &7 &7 ♰40.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgerod9:
+  command: /purgerod9
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT LUCK 17'
+  - '/att NBT SHIELD 45'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle fallingdust ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ9:'
+  - '/addlore &7 &7 ♰17.0 ᴍᴀʏ ᴍắɴ'
+  - '/addlore &7 &7 ♰45.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgerod10:
+  command: /purgerod10
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT LUCK 19'
+  - '/att NBT SHIELD 50'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle fallingdust ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ10:'
+  - '/addlore &7 &7 ♰19.0 ᴍᴀʏ ᴍắɴ'
+  - '/addlore &7 &7 ♰50.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgerod11:
+  command: /purgerod11
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT LUCK 21'
+  - '/att NBT SHIELD 55'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle fallingdust ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ11:'
+  - '/addlore &7 &7 ♰21.0 ᴍᴀʏ ᴍắɴ'
+  - '/addlore &7 &7 ♰55.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgerod12:
+  command: /purgerod12
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT LUCK 23'
+  - '/att NBT SHIELD 60'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle fallingdust ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ12:'
+  - '/addlore &7 &7 ♰23.0 ᴍᴀʏ ᴍắɴ'
+  - '/addlore &7 &7 ♰60.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgerod13:
+  command: /purgerod13
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT LUCK 25'
+  - '/att NBT SHIELD 65'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle fallingdust ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ13:'
+  - '/addlore &7 &7 ♰25.0 ᴍᴀʏ ᴍắɴ'
+  - '/addlore &7 &7 ♰65.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgerod14:
+  command: /purgerod14
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT LUCK 27'
+  - '/att NBT SHIELD 70'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle fallingdust ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ14:'
+  - '/addlore &7 &7 ♰27.0 ᴍᴀʏ ᴍắɴ'
+  - '/addlore &7 &7 ♰70.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgerod15:
+  command: /purgerod15
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT LUCK 29'
+  - '/att NBT SHIELD 75'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle fallingdust ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ15:'
+  - '/addlore &7 &7 ♰29.0 ᴍᴀʏ ᴍắɴ'
+  - '/addlore &7 &7 ♰75.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgerod16:
+  command: /purgerod16
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT LUCK 31'
+  - '/att NBT SHIELD 80'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle fallingdust ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ16:'
+  - '/addlore &7 &7 ♰31.0 ᴍᴀʏ ᴍắɴ'
+  - '/addlore &7 &7 ♰80.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgerod17:
+  command: /purgerod17
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT LUCK 33'
+  - '/att NBT SHIELD 85'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle fallingdust ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ17:'
+  - '/addlore &7 &7 ♰33.0 ᴍᴀʏ ᴍắɴ'
+  - '/addlore &7 &7 ♰85.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgerod18:
+  command: /purgerod18
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT LUCK 35'
+  - '/att NBT SHIELD 90'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle fallingdust ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ18:'
+  - '/addlore &7 &7 ♰35.0 ᴍᴀʏ ᴍắɴ'
+  - '/addlore &7 &7 ♰90.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgerod19:
+  command: /purgerod19
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT LUCK 37'
+  - '/att NBT SHIELD 95'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle fallingdust ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ19:'
+  - '/addlore &7 &7 ♰37.0 ᴍᴀʏ ᴍắɴ'
+  - '/addlore &7 &7 ♰95.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+purgerod20:
+  command: /purgerod20
+  type: RUN_COMMAND
+  runcmd: 
+  - '/att NBT LUCK 39'
+  - '/att NBT SHIELD 100'
+  - '/w $player &2sᴜᴄᴄᴇss&7..'
+  - '/particle fallingdust ~ ~ ~ 8 8 8 1 500'
+  - '/addlore &2ᴛẩʏ ʟᴜʏệɴ &fʟᴠ20:'
+  - '/addlore &7 &7 ♰39.0 ᴍᴀʏ ᴍắɴ'
+  - '/addlore &7 &7 ♰100.0 độ ʙềɴ ᴛốɪ đᴀ'
+  permission-required: false
+###purge pickaxe####
+purgepickaxe:
+  command: /purgepickaxe
+  type: RUN_COMMAND_RANDOM
+  runcmd: 
+  - '/purgepickaxe1'
+  - '/purgepickaxe2'
+  - '/purgepickaxe3'
+  - '/purgepickaxe4'
+  - '/purgepickaxe5'
+  - '/purgepickaxe6'
+  - '/purgepickaxe7'
+  - '/purgepickaxe8'
+  - '/purgepickaxe9'
+  - '/purgepickaxe10'
+  - '/purgepickaxe11'
+  - '/purgepickaxe12'
+  - '/purgepickaxe13'
+  - '/purgepickaxe14'
+  - '/purgepickaxe15'
+  - '/purgepickaxe16'
+  - '/purgepickaxe17'
+  - '/purgepickaxe18'
+  - '/purgepickaxe19'
+  - '/purgepickaxe20'
+  - '/purgepickaxe21'
+  - '/purgepickaxe22'
+  - '/purgepickaxe23'
+  - '/purgepickaxe24'
+  - '/purgepickaxe25'
+  - '/purgepickaxef'
+  - '/purgepickaxef'
+  - '/purgepickaxef'
+  - '/purgepickaxef'
+  - '/purgepickaxef'
+  - '/purgepickaxef'
+  permission-required: false
+purgepickaxe1:
+  command: /purgepickaxe1
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 4'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe2:
+  command: /purgepickaxe2
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 8'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe3:
+  command: /purgepickaxe3
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 12'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe4:
+  command: /purgepickaxe4
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 16'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe5:
+  command: /purgepickaxe5
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 20'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe6:
+  command: /purgepickaxe6
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 24'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe7:
+  command: /purgepickaxe7
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 28'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe8:
+  command: /purgepickaxe8
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 32'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe9:
+  command: /purgepickaxe9
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 36'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe10:
+  command: /purgepickaxe10
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 40'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe11:
+  command: /purgepickaxe11
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 44'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe12:
+  command: /purgepickaxe12
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 48'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe13:
+  command: /purgepickaxe13
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 52'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe14:
+  command: /purgepickaxe14
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 56'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe15:
+  command: /purgepickaxe15
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 60'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe16:
+  command: /purgepickaxe16
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 64'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe17:
+  command: /purgepickaxe17
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 68'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe18:
+  command: /purgepickaxe18
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 72'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe19:
+  command: /purgepickaxe19
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 76'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe20:
+  command: /purgepickaxe20
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 80'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe21:
+  command: /purgepickaxe21
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 84'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe22:
+  command: /purgepickaxe22
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 88'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe23:
+  command: /purgepickaxe23
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 92'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe24:
+  command: /purgepickaxe24
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 96'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxe25:
+  command: /purgepickaxe25
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 100'
+  - '/playsound minecraft:entity.player.levelup ambient $player'
+  - '/w $player &2₮hành công&7..'
+  - '/particle happyVillager ~ ~ ~ 2 2 2 1 500'
+purgepickaxef:
+  command: /purgepickaxe
+  type: RUN_COMMAND
+  runcmd: 
+  - '/kho luck 0'
+  - '/playsound minecraft:entity.zombie.attack_door_wood ambient king5google ambient $player'
+  - '/particle blockcrack ~ ~ ~ 2 2 2 1 500'
+  
+  
+
+
+
+gamemode_alias:
+  command: /gm
+  type: ALIAS
+  alias: /gamemode
+  permission-required: true
+simple_dice:
+  command: /mycmd-dice
+  type: TEXT
+  text:
+  - '&0[&6Dice&0] &eYou got &6$rnd6 !'
+  permission-required: true
+  permission-node: mycommand.cmd.dice
+  permission-error: "&a$player! , &2You can't use this command!"
+tab_completer:
+  command: /greets 
+  type: RUN_COMMAND
+  runcmd:
+  - '$broadcasttext$&0[&e$player&0]&r $multiargs'
+  required_args: 1
+  register: true
+  tab_completer:
+  - Hi
+  - Hello!
+  - Well Met!
+# shortcut:
+#   command: /l
+#   type: RUN_COMMAND
+#   runcmd:
+#   - '/list'
+#   cost: 0
+mycmd_colors:
+  command: /mycmd-colors
+  type: TEXT
+  text:
+  - "&11 &22 &33 &44 &55 &66 &77 &88 &99 &00 &aa &bb &cc &dd &ee &ff"
+  - "&nn&r &mm&r &ll&r &oo&r $random_color :D"
+  permission-required: false
+shortcut_with_arguments:
+  command: /t
+  type: RUN_COMMAND
+  runcmd:
+  - '/time $arg1 $arg2'
+  cost: 0
+  error-message: '&cType &e/t set day'
+  require_all_arguments: true
+delay_example:
+  command: /mycmd-countdown
+  type: RUN_COMMAND
+  runcmd:
+  - '$delay$$broadcasttext$&0[&eCountdown&0] $random_color3..'
+  - '$delay$$broadcasttext$&0[&eCountdown&0] $random_color2..'
+  - '$delay$$broadcasttext$&0[&eCountdown&0] $random_color1..'
+  - '$delay$$broadcasttext$&0[&eCountdown&0] &eGO!!'
+  cost: 0
+  delaytimer: 1
+  delaytimer_format: SECONDS
+broadcast_example:
+  command: /mycmd-broadcast
+  type: BROADCAST_TEXT
+  text:
+  - '&0[&e$player&0]&r $multiargs'
+  required_args: 1
+run_by_console:
+  command: /mycmd-runconsole
+  type: RUN_CONSOLE
+  runcmd:
+  - /say This message is getting performed by the console.
+  cost: 0
+warmups_cooldowns_info:
+  command: /warmupsandcooldowns
+  type: TEXT
+  text:
+  - 'Put your command over /warmupsandcooldowns'
+  - 'And change type : from text to WARMUP for Warmups and COOLDOWN for Cooldowns'
+  - 'adjust the warmup and cooldowns time with delaytimer'
+  delaytimer: 5
+add_permission:
+  command: /command-to-override
+  type: ADD_PERMISSION
+  text:
+  - '$6Add an extra permission to another existing command'
+  permission-node: permission.name
+  cost: 0
+some_placeholders:
+  command: /mycmd-playerinfo
+  type: TEXT
+  text:
+  - '&2Player name : &a$player'
+  - '&2World : &a$world'
+  - '&2Health : &a$health &2Food : &a$food'
+  - '&2Exp : &a$exp &2Level : &a$level'
+  - '&2Gamemode : &a$gamemode'
+  - '&2LastDamage : &a$lastdamage'
+mycmd_list_command:
+  command: /mycmd-online
+  type: TEXT
+  text:
+  - '&2There are &a$online &2players online.'
+  - '&a $ponline'
+clear_chat:
+  command: /clearchat
+  type: BROADCAST_TEXT
+  text:
+  - '%Repeat%30% '
+  - '&f[&eGRASSMC.COM&f]&6 Chat clared &f☺'
+shortcut_with_multiargs:
+  command: /mycmd-shortcut
+  type: RUN_COMMAND
+  runcmd:
+  - '/say $multiargs'
+random_example:
+  command: /rockpaperscissors
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/me Rock!'
+  - '/me Paper!'
+  - '/me Scissors!'
+iconmenu_page1:
+  command: /iconmenu
+  type: ICON_MENU
+  text:
+  - 'POSITION:ITEM_NAME:ITEMDATA:COMMAND/MESSAGE:TITLE:DESCRIPTION;MULTILINES'
+  - 'ITEM_NAME can also be ITEM_NAME;ENCHANTMENT_NAME;LEVEL'
+  iconmenu_title: '&cMyCommand &4ItemMenu'
+  iconmenu_size: 27
+  iconmenu_commands:
+  - 0:GOLDEN_APPLE:0:/help:&2Help:&aOpen the help menu
+  - 1:COMPASS;DAMAGE_ALL;1:0:/mycmd:Menu:MyCommand menu
+  - 9:EMERALD:0:/list:Player List:&bShow online players
+  - 10:LEGACY_WATCH:0:/time set 0:Day:Turn day
+  - 11:PLAYER_HEAD%$player:0:/command:Title:Description
+  - 26:LEGACY_WOOL:11:%openiconmenu%/iconmenu2:Next Page:&cChange IconMenu Page;&a--------->
+  cost: 0
+  delaytimer: 5
+iconmenu_page2:
+  command: /iconmenu2
+  type: ICON_MENU
+  iconmenu_title: 'Page 2'
+  iconmenu_size: 9
+  iconmenu_commands:
+  - '0:LEGACY_GOLDEN_APPLE:0:Do something:Hello!:=)'
+  - '8:LEGACY_WOOL:13:%openiconmenu%/iconmenu:Return Back:&cChange IconMenu Page;&a<---------'
+  cost: 0
+  delaytimer: 5
+help_page_0:
+  command: /mycmd-help
+  type: TEXT
+  text:
+  - '&a ---- &6MyCommand Help &eMain Page &a----'
+  - '&e This is the Main page of the help '
+  - '&e Type &6/mycmd-help 2 &efor see the second page'
+help_page_1:
+  command: /mycmd-help 2
+  type: TEXT
+  text:
+  - '&a ---- &6MyCommand Help &ePage two &a----'
+  - '&e And this is the page two of the help'
+itemcost_example:
+  command: /itemcostexample
+  type: TEXT
+  text:
+  - '$random_colorYou have spent 5 Cobblestone for see this message.'
+  itemcost: 'COBBLESTONE:5'
+scoreboard_example:
+  command: /sbexample
+  type: SCOREBOARD
+  text:
+  - The Scoreboard will get removed after DelayTimer(sec). If 0 don't remove
+  - Use $marquee$ as a prefix of the scoreboard name for scroll the text.
+  - Use scoreboard_refresh_ticks, for determinate how frequent the plugin have to update the scoreboard.
+  scoreboard_name: "$marquee$&1M&2y&3C&4o&5m&6m&7a&8n&9d &aS&bc&co&dr&ee&fb&0o&1a&2r&3d &nExample&r "
+  scoreboard_text:
+  - "4;&c&lCoordinates:"
+  - "3;&6X:&e $locX &6Y:&e $locY &6Z:&e $locZ "
+  - "2;&c&lPlayer Info:"
+  - "1;&6Health: &e$health"
+  - "0;&6Food: &e$food"
+  scoreboard_refresh_ticks: 5
+  delaytimer: 10
+bungeecord_example:
+  command: /bungeetest
+  type: BUNGEE_TP
+  server_name: hub
+allowed_worlds_example:
+  command: /onlynether
+  type: TEXT
+  text:
+  - "&cYea,The Nether!"
+  allowed_worlds:
+  - world_nether
+per_world_commands:
+  command: /perworldcommand
+  type: RUN_COMMAND
+  runcmd:
+  - "$world=%world%/me This command will be performed only if you are in the world"
+  - "$world=%world_nether%/me And this only if you are in the nether"
+  permission-required: false
+executefor_example:
+  command: /executeforall
+  type: RUN_CONSOLE
+  executefor: ONLINE_PLAYERS
+  runcmd:
+  - "/tp $player 0 64 0"
+  permission-required: false
+ouch:
+  command: /ouch
+  type: RUN_COMMAND
+  runcmd:
+  - '%PlayerOptions%damage: 4'
+  - '$text$&c<3'
+  permission-required: false
+heal_me:
+  command: /mycmd-heal
+  type: RUN_COMMAND
+  runcmd:
+  - '%PlayerOptions%setHealth: 20'
+  - '%PlayerOptions%setFoodLevel: 20'
+  - '%PlayerOptions%sendMessage: &aHealed!'
+  permission-required: false
+world_guard_example:
+  command: /checkregion
+  type: TEXT
+  text:
+  - 'You are in $wgregionname region!'
+  allowed_wg_region:
+  - 'region_name_here'
+custom_cmd_cooldown:
+  command: /cooldown-example
+  type: TEXT
+  text:
+  - '&aBla bla bla, type the command again for see the cooldown effect.'
+  cooldown: 5
+custom_cmd_warmup:
+  command: /warmup-example
+  type: TEXT
+  text:
+  - '&aYou have waited 5 second for see this command performed'
+  warmup: 5
+call_url:
+  command: /call-url
+  type: CALL_URL
+  url: 'http://localhost/yourscript.php?variable=$arg1&player=$player'
+  get_output : true
+  show_output_ingame : true
+  save_output_as : httpResponse
+script_example_420:
+  command: /example420
+  type: RUN_COMMAND
+  runcmd:
+  - $Script$%if%$arg1==password
+  - $text$&eRight!
+  - $Script$%if%$arg1==420
+  - $text$&aBLAZE IT
+  - $Script$%else%
+  - $text$Password not correct
+bar_text:
+  command: /bar_example
+  type: BAR_API_TEXT
+  text:
+  - '&aHello $random_color$player'
+  bar_seconds: 5
+  bar_percentage: 8
+  bar_style: SEGMENTED_20
+  bar_flag: DARKEN_SKY
+  bar_color: PINK
+rawmessage_example:
+  command: /sb
+  type: RAW_TEXT
+  text:
+  - '&aChào bạn nhỏ, &b$player! &aRê chuột vào đây để thiết lập giao diện Game!; &dTỐT HƠN'
+  - '&7'
+  - '$RUN_COMMAND$&0[&d*&0]&7 Bật/tắt bảng thông tin (bên phải); &eClick vào để ẩn bảng info;/tm sb toggle'
+  - '&7'
+  - '$OPEN_URL$&0[&e*&0]&7 Vào website Grassmc.com; &eClick để vào trang web offical;http://grass.rf.gd/index.php'
+  - '&7'
+  - '$RUN_COMMAND$&0[&e*&0]&7 Treo máy; &eClick vào để treo máy;/afk'
+  - '&7'
+  - '$RUN_COMMAND$&0[&e*&0]&7 Tự sát; &eClick vào để tự giết bản thân;/suicide'
+  - '&7'
+  - '$RUN_COMMAND$&0[&e*&0]&7 Xem class bản thân; &eClick vào để xem thông tin về bạn;/class info'
+  - '&7'
+  - '$RUN_COMMAND$&0[&e*&0]&7 Bo đảo; &eClick vào để mở giao diện BO đảo;/islandborder gui'
+  - '&7'
+  - '$RUN_COMMAND$&0[&e*&0]&7 Stacker (thùng chứa) tài nguyên; &eClick vào để &abật/tắt&e tính năng thùng chứa;/stacker toggle'
+  - '&7'
+  - '$RUN_COMMAND$&0[&e*&0]&7 Tắt tất cả hiệu ứng RPG; &eClick vào để &abật&e tính năng rpg chung nhất;/gmenu reset all $player'
+lottery_example:
+  command: /vqnc
+  type: RUN_COMMAND
+  runcmd:
+  - '%PlayerOptions%playSound: BLOCK_LEVER_CLICK:1.0F:1'
+  - '$text$&6Welcome to &eGrassmc &6Lottery!'
+  - '$delay$'
+  - '$text$&b+------------------------------------'
+  - '$text$&b| &2Prize of today :'
+  - '$text$&b| &aCOBBLESTONE, BREAD, APPLE, GOLD_INGOT or DIAMOND! '
+  - '$text$&b+------------------------------------'
+  - '$text$&ePlease wait for the results!'
+  - '$delay$$delay$$delay$'
+  - '$delay$$text$&0[$random_colorLottery&0] &65...'
+  - '%PlayerOptions%playSound: BLOCK_LEVER_CLICK:1.0F:1'
+  - '$delay$$text$&0[$random_colorLottery&0] &64...'
+  - '%PlayerOptions%playSound: BLOCK_LEVER_CLICK:1.0F:1'
+  - '$delay$$text$&0[$random_colorLottery&0] &63...'
+  - '%PlayerOptions%playSound: BLOCK_LEVER_CLICK:1.0F:1'
+  - '$delay$$text$&0[$random_colorLottery&0] &62...'
+  - '%PlayerOptions%playSound: BLOCK_LEVER_CLICK:1.0F:1'
+  - '$delay$$text$&0[$random_colorLottery&0] &61...'
+  - '%PlayerOptions%playSound: BLOCK_LEVER_CLICK:1.0F:1'
+  - '$delay$'
+  - '%PlayerOptions%playSound: ENTITY_EXPERIENCE_ORB_PICKUP:1.0F:1'
+  - '$Script$%PlayerData%lotteryprize=$GetRandomStringFromList%COBBLESTONE;DIAMOND;LEGACY_GOLD_INGOT;BREAD;APPLE%'
+  - '$Script$%PlayerData%amount_lotteryprize=$randomnumber%3%'
+  - '$delay$'
+  - '$text$&b+------------------------------------'
+  - '$text$&b| &6Congratulation! You won : &e $PlayerData%amount_lotteryprize% $PlayerData%lotteryprize%! ' 
+  - '$text$&b+------------------------------------'
+  - '%PlayerOptions%addItem: $PlayerData%lotteryprize%:$PlayerData%amount_lotteryprize%'
+  delaytimer: 1
+  permission-required: false
+dailybonus:
+  command: /dailybonus
+  type: RUN_COMMAND
+  runcmd:
+  - "$Script$%if%$todaydate!=$PlayerData%DailyBonus%"
+  - "$text$&0[&6Daily&eBonus&0]&b Hello $player! Here, your daily reward!"
+  - "$text$&0[&6Daily&eBonus&0]&b Received &a1 DIAMOND!"
+  - "%PlayerOptions%addItem: DIAMOND:1"
+  - "$Script$%PlayerData%DailyBonus=$todaydate"
+  - "$text$&0[&6Daily&eBonus&0]&b Come back tomorrow!"
+  - "$Script$%else%"
+  - "$text$&0[&6Daily&eBonus&0]&b That's enough for today! Come back tomorrow!"
+  permission-required: false
+broadcast_message_with_perm:
+  command: /brmsgwithperm
+  type: BROADCAST_TEXT
+  text:
+  - "Only the player with the correct permission can see this message"
+  broadcast_message_permission_node: permission.for.see.this.message
+dynamiciconmenu:
+  command: /dynamiciconmenu
+  type: ICON_MENU
+  iconmenu_size: 36
+  iconmenu_mode: DYNAMIC
+  permission-required: false
+  iconmenu_commands:
+  - "0:LIME_WOOL<next>YELLOW_WOOL:5:%stayopen%: : "
+  - "1:YELLOW_WOOL<next>LIME_WOOL:4:%stayopen%: : "
+  - "2:LIME_WOOL<next>YELLOW_WOOL:5:%stayopen%: : "
+  - "3:YELLOW_WOOL<next>LIME_WOOL:4:%stayopen%: : "
+  - "4:LIME_WOOL<next>YELLOW_WOOL:5:%stayopen%: : "
+  - "5:YELLOW_WOOL<next>LIME_WOOL:4:%stayopen%: : "
+  - "6:LIME_WOOL<next>YELLOW_WOOL:5:%stayopen%: : "
+  - "7:YELLOW_WOOL<next>LIME_WOOL:4:%stayopen%: : "
+  - "8:LIME_WOOL<next>YELLOW_WOOL:5:%stayopen%: : "
+  - "9:YELLOW_WOOL<next>LIME_WOOL:4:%stayopen%: : "
+  - "11:CLOCK:0:%stayopen%:&aServer time - $random_color$time:&bToday Date - &6 $todaydate"
+  - "13:BEACON:0:/mycmd:&6MyCommand:&eLaunch MyCommand"
+  - "15:ENDER_PEARL<next>ENDER_EYE<next>AIR:0:%stayopen%:???<next>!!!<next>AIR: "
+  - "17:YELLOW_WOOL<next>LIME_WOOL:4:/command_example: : "
+  - "18:LIME_WOOL<next>YELLOW_WOOL:5:/command_example: : "
+  - "19:BOOK<next>2,BOOK<next>3,BOOK:0:%stayopen%:$random_colorPage 1<next>$random_colorPage 2<next>$random_colorPage 3:1<next>2<next>3"
+  - "22:1,IRON_CHESTPLATE<next>GOLDEN_CHESTPLATE;PROTECTION_ENVIRONMENTAL;1<next>DIAMOND_CHESTPLATE;PROTECTION_EXPLOSIONS;3:0:/command_example::Description;Line 2..."
+  - "25:BARRIER:0:%close%:Close this menu:&cClick here;&cto close"
+  - "26:LIME_WOOL<next>YELLOW_WOOL:5:%stayopen%: : "
+  - "27:YELLOW_WOOL<next>LIME_WOOL:4:%stayopen%: : "
+  - "28:LIME_WOOL<next>YELLOW_WOOL:5:%stayopen%: : "
+  - "29:YELLOW_WOOL<next>LIME_WOOL:4:%stayopen%: : "
+  - "30:LIME_WOOL<next>YELLOW_WOOL:5:%stayopen%: : "
+  - "31:YELLOW_WOOL<next>LIME_WOOL:4:%stayopen%: : "
+  - "32:LIME_WOOL<next>YELLOW_WOOL:5:%stayopen%: : "
+  - "33:YELLOW_WOOL<next>LIME_WOOL:4:%stayopen%: : "
+  - "34:LIME_WOOL<next>YELLOW_WOOL:5:%stayopen%: : "
+  - "35:YELLOW_WOOL<next>LIME_WOOL:4:%stayopen%: : "
+  delaytimer: 2
+holographic_example:
+  command: /holoexample
+  type: HOLOGRAPHIC_TEXT
+  text:
+  - "&eHello $player, how are you?"
+  - "$random_coloryeah, i'm fineeeee thanks!"
+  - "&dCurrent time &5$time"
+  delaytimer: 3
+merchant_example:
+  command: /mymerchant
+  type: MERCHANT
+  merchant_title: '&3Hello &b$player'
+  merchant_items:
+  - STONE_SWORD:1:0:DAMAGE_ALL;1;FIRE_ASPECT;1:&3Old Sword:&bA very old sword<cost>GOLD_INGOT:20<max_uses>2
+  - STONE_SWORD:1<cost>EMERALD:5<max_uses>4
+  - IRON_BLOCK:1<cost>EMERALD:1<cost>GOLD_INGOT:1
+  - GOLD_BLOCK:1<cost>IRON_INGOT:10
+  - EMERALD_BLOCK:1<cost>GOLD_INGOT:50
+  - DIAMOND_BLOCK:1<cost>GOLD_INGOT:50<cost>EMERALD:50
+  - LEVER:1
+  - COBBLESTONE:1

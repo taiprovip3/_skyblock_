@@ -1,0 +1,74 @@
+Command_Only_Players:
+- '&cOnly players can use this command!'
+Command_ClaimAll_Success:
+- '&c[%amt%] box items claimed!'
+Command_Send_Success:
+- '&aĐã gửi quà cho người chơi %player%!'
+Command_Send_Receive:
+- '&aBạn vừa nhận được 1 món quà từ %player%! Gõ /homthu để kiểm tra!'
+Command_Send_Cannot_Send_Yourself:
+- '&cBạn ko thể tự quay tay!'
+Command_Send_Player_Doesnt_Exist:
+- '&cThe specified player doesn''t exist!'
+Command_Send_Hand_Empty:
+- '&cBạn chưa cầm bất kì vật phẩm nào trên tay!'
+Command_Send_Usage:
+- /itembox send [player]
+Command_Send_Description:
+- Sends the item in your hand to the specified player. Player name is case sensitive
+Command_SendAll_Usage:
+- /itembox sendall
+Command_SendAll_Description:
+- Sends the item in your hand to all players
+Command_GiveDynamicBox_Unknown_Box:
+- '&cThat dynamic box does not exist. Existing boxes:'
+Command_ClaimAll_Usage:
+- /itembox claimall
+Command_ClaimAll_Description:
+- Claims all items from your itembox. If your inventory is full, they will drop on
+  the floor
+Command_Open_Usage:
+- /itembox open
+Command_Open_Description:
+- Opens your Itembox
+Command_GiveDynamicBox_Usage:
+- /itembox givedynamicbox [player] [boxname]
+Command_GiveDynamicBox_Description:
+- Gives the specified player the specified dynamic box in config.
+Command_GiveAllDynamicBox_Usage:
+- /itembox givealldynamicbox [boxname]
+Command_GiveAllDynamicBox_Description:
+- Gives the specified dynamic box to every player that joined the server before
+Command_AddItemToDynamicBox_Usage:
+- /itembox additemtodynamicbox [boxname] [chance out of 100]
+Command_AddItemToDynamicBox_Description:
+- Adds the item in your hand to the dynamic boxc with the specified name with the
+  specified chance of appearing. Amount and attributes not taken into account
+Command_AddItemToDynamicBox_Success:
+- '&aSuccessfully added item to dynamic box!'
+Command_Reload_Usage:
+- /itembox reload
+Command_Reload_Description:
+- Use to load dynamicboxes from config again
+Command_No_Permissions:
+- '&cYou don''t have the permission to use this command!'
+GUI_ItemBox_Title:
+- '&2☫ &8Hòm thư &2☫'
+GUI_ItemBox_Others:
+- '&b%player%''s &6Hộp thư ✉'
+GUI_ItemBox_Durability:
+- '&6[durability: %durabiliy%]'
+GUI_ItemBox_ClickToClaim:
+- '&aClick để nhận các vật phẩm.'
+GUI_ItemBox_ClickToDelete:
+- '&cClick để xóa các vật phẩm.'
+GUI_ItemBox_EmptySpaceNeeded:
+- '&aKhông đủ không gian trong túi!'
+GUI_ItemBox_InventoryFull:
+- '&cTúi đầy. Hãy dọn túi rồi nhận nhé!'
+DynamicBox_Contains:
+- '&aThis box contains up to:'
+DynamicBox_Space_Warning:
+- '&cTui đồ &e&lE&c của bạn đã đầy, vật phẩm bạn vừa nhận được sẽ rơi xuống dưới chân.'
+Misc_Join_Notif:
+- '&aHòm thư của bạn đang có %amt% vật phẩm lạ. Gõ lệnh &e/homthu&a để claim chúng.'

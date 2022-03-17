@@ -1,0 +1,23 @@
+prefix: '&8&l[&6&lGrassmc.com&8&l] &7'
+
+help:
+  - '&7&l&m-----------------------'
+  - '&6&lGrassmc Commands:'
+  - '&6&l * &e/grassmc help - &7Displays this message'
+  - '&6&l * &e/grassmc reload - &7Reloads the configuration files'
+  - '&6&l * &e/grassmc list - &7Lists all created vouchers'
+  - '&6&l * &e/grassmc give <player> <voucher> [amount] - &7Gives a'
+  - '&7&l&m-----------------------'
+
+err-bad-amount: "The amount specified must be a number!"
+err-bad-sound: "The sound specified for the voucher &e%voucher% &7doesn't exist!"
+err-missing-item: "The voucher &e%voucher% &7doesn't have an item set to it!"
+err-no-permission: "You need the permission &e%permission% &7to use this command!"
+err-offline: "&e%player% &7đã offline hoặc ko tồn tại!"
+err-specify-player: "You must specify a player!"
+err-specify-voucher: "You must specify a voucher!"
+err-unknown-voucher: "Unknown voucher &e%voucher%&7!"
+
+config-reloaded: "Configuration files reloaded (Took &e%time%ms&7)!"
+voucher-given: "&a%player% &7vừa nhận được &ax%amount% %voucher%&7 phần quà."
+vouchers: "%vouchers%"

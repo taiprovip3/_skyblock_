@@ -1,0 +1,149 @@
+explrd:
+  command: /dungeonrd
+  type: RUN_COMMAND_RANDOM
+  runcmd:
+  - '/expl1'
+  - '/expl1'
+  - '/expl1'
+  - '/expl1'
+  - '/expl1'
+  - '/expl2'
+  - '/expl3'
+  - '/expl4'
+  - '/expl5'
+  - '/expl6'
+  - '/expl7'
+  - '/expl8'
+  - '/expl9'
+  - '/expl10'
+  cooldown: 600
+expl1:
+  command: /expl1
+  type: RUN_CONSOLE
+  runcmd:
+  - '/w $player &6Đang tải map...Chờ tí nhé ^^.'
+  - '$delay$/w $player &2Chuẩn bị xuất thành, công kích &f&l⚔'
+  - '$delay$/mv tp $player pvp'
+  - '/mm m kill ttdb'
+  - '$delay$/tp $player -39.5 3 -92.5'
+  - '/title $player subtitle ["",{"text":"Là Titan ","color":"green"},{"text":"\u0110\u1ed8T BI\u1ebeN","bold":true,"color":"white"},{"text":". Tiêu di\u1ec7t ngay!","color":"green"}]'
+  - '/title $player title ["",{"text":"Máy dò tìm","color":"green"},{"text":" Trinh Sát:","color":"yellow"}]}'
+  - '/mm m spawn ttdb 1 pvp,-40.5,3,-75.5'
+  delaytimer: 2
+expl2:
+  command: /expl2
+  type: RUN_CONSOLE
+  runcmd:
+  - '/w $player &6Đang tải map...Chờ tí nhé ^^.'
+  - '$delay$/w $player &2Chuẩn bị xuất thành, công kích &f&l⚔'
+  - '$delay$/mv tp $player pvp'
+  - '/mm m kill tths'
+  - '$delay$/tp $player 66.5 9 -78.5'
+  - '/title @a subtitle ["",{"text":"Là Titan ","color":"green"},{"text":"Hàm S\u1eaft","bold":true,"color":"dark_blue"},{"text":". Tiêu di\u1ec7t ngay!","color":"green"}]'
+  - '/title $player title ["",{"text":"Máy dò tìm","color":"green"},{"text":" Trinh Sát:","color":"yellow"}]}'
+  - '/mm m spawn tths 1 pvp,66.5,4,-62.5'
+  delaytimer: 2
+expl3:
+  command: /expl3
+  type: RUN_CONSOLE
+  runcmd:
+  - '/w $player &6Đang tải map...Chờ tí nhé ^^.'
+  - '$delay$/w $player &2Chuẩn bị xuất thành, công kích &f&l⚔'
+  - '$delay$/mv tp $player pvp'
+  - '/mm m kill tthp'
+  - '$delay$/tp $player -79.5 8 -19.5'
+  - '/title @a subtitle ["",{"text":"Là Titan ","color":"green"},{"text":"H\u1ed8 PHÁP","bold":true,"color":"dark_green"},{"text":". Tiêu di\u1ec7t ngay!","color":"green"}]'
+  - '/title $player title ["",{"text":"Máy dò tìm","color":"green"},{"text":" Trinh Sát:","color":"yellow"}]}'
+  - '/mm m spawn tthp 1 pvp,-78.5,3,-38.5'
+  delaytimer: 2
+expl4:
+  command: /expl4
+  type: RUN_CONSOLE
+  runcmd:
+  - '/w $player &6Đang tải map...Chờ tí nhé ^^.'
+  - '$delay$/w $player &2Chuẩn bị xuất thành, công kích &f&l⚔'
+  - '$delay$/mv tp $player pvp'
+  - '/mm m kill ttnh'
+  - '$delay$/tp $player -102.5 1 78.5'
+  - '/title @a subtitle ["",{"text":"Là Titan ","color":"green"},{"text":"N\u1eef Hình","bold":true,"color":"dark_aqua"},{"text":". Tiêu di\u1ec7t ngay!","color":"green"}]'
+  - '/title $player title ["",{"text":"Máy dò tìm","color":"green"},{"text":" Trinh Sát:","color":"yellow"}]}'
+  - '/mm m spawn ttnh 1 pvp,-83.5,3,82.5'
+  delaytimer: 2
+expl5:
+  command: /expl5
+  type: RUN_CONSOLE
+  runcmd:
+  - '/w $player &6Đang tải map...Chờ tí nhé ^^.'
+  - '$delay$/w $player &2Chuẩn bị xuất thành, công kích &f&l⚔'
+  - '$delay$/mv tp $player pvp'
+  - '/mm m kill ttth'
+  - '$delay$/tp $player 69.5 17 73.5'
+  - '/title @a subtitle ["",{"text":"Là Titan ","color":"green"},{"text":"Thú Hình","bold":true,"color":"dark_red"},{"text":". Tiêu di\u1ec7t ngay!","color":"green"}]'
+  - '/title $player title ["",{"text":"Máy dò tìm","color":"green"},{"text":" Trinh Sát:","color":"yellow"}]}'
+  - '/mm m spawn ttth 1 pvp,70.5,3,74.5'
+  delaytimer: 2
+expl6:
+  command: /expl6
+  type: RUN_CONSOLE
+  runcmd:
+  - '/w $player &6Đang tải map...Chờ tí nhé ^^.'
+  - '$delay$/w $player &2Chuẩn bị xuất thành, công kích &f&l⚔'
+  - '$delay$/mv tp $player pvp'
+  - '/mm m kill ttbc'
+  - '$delay$/tp $player -139.5 1 54.5'
+  - '/title @a subtitle ["",{"text":"Là Titan ","color":"green"},{"text":"Búa Chi\u1ebfn","bold":true,"color":"dark_purple"},{"text":". Tiêu di\u1ec7t ngay!","color":"green"}]'
+  - '/title $player title ["",{"text":"Máy dò tìm","color":"green"},{"text":" Trinh Sát:","color":"yellow"}]}'
+  - '/mm m spawn ttbc 1 pvp,-156.5,1,54.5'
+  delaytimer: 2
+expl7:
+  command: /expl7
+  type: RUN_CONSOLE
+  runcmd:
+  - '/w $player &6Đang tải map...Chờ tí nhé ^^.'
+  - '$delay$/w $player &2Chuẩn bị xuất thành, công kích &f&l⚔'
+  - '$delay$/mv tp $player pvp'
+  - '/mm m kill tttc'
+  - '$delay$/tp $player -125.5 4 28.5'
+  - '/title @a subtitle ["",{"text":"Là Titan ","color":"green"},{"text":"Ti\u1ebfn Công","bold":true,"color":"gold"},{"text":". Tiêu di\u1ec7t ngay!","color":"green"}]'
+  - '/title $player title ["",{"text":"Máy dò tìm","color":"green"},{"text":" Trinh Sát:","color":"yellow"}]}'
+  - '/mm m spawn tttc 1 pvp,-125.5,1,28.5'
+  delaytimer: 2
+expl8:
+  command: /expl8
+  type: RUN_CONSOLE
+  runcmd:
+  - '/w $player &6Đang tải map...Chờ tí nhé ^^.'
+  - '$delay$/w $player &2Chuẩn bị xuất thành, công kích &f&l⚔'
+  - '$delay$/mv tp $player pvp'
+  - '/mm m kill tttg'
+  - '$delay$/tp $player -159.5 8 -0.5'
+  - '/title @a subtitle ["",{"text":"Là Titan ","color":"green"},{"text":"Thi\u1ebft Giáp","bold":true,"color":"gray"},{"text":". Tiêu di\u1ec7t ngay!","color":"green"}]'
+  - '/title $player title ["",{"text":"Máy dò tìm","color":"green"},{"text":" Trinh Sát:","color":"yellow"}]}'
+  - '/mm m spawn tttg 1 pvp,-147.5,1,-10.5'
+  delaytimer: 2
+expl9:
+  command: /expl9
+  type: RUN_CONSOLE
+  runcmd:
+  - '/w $player &6Đang tải map...Chờ tí nhé ^^.'
+  - '$delay$/w $player &2Chuẩn bị xuất thành, công kích &f&l⚔'
+  - '$delay$/mv tp $player pvp'
+  - '/mm m kill tttt'
+  - '$delay$/tp $player 0.5 27 -88.5'
+  - '/title @a subtitle ["",{"text":"Là Titan ","color":"green"},{"text":"Th\u1ee7y T\u1ed5","bold":true,"color":"dark_gray"},{"text":". Tiêu di\u1ec7t ngay!","color":"green"}]'
+  - '/title $player title ["",{"text":"Máy dò tìm","color":"green"},{"text":" Trinh Sát:","color":"yellow"}]}'
+  - '/mm m spawn tttt 1 pvp,-3.5,1,-93.5'
+  delaytimer: 2
+expl10:
+  command: /expl10
+  type: RUN_CONSOLE
+  runcmd:
+  - '/w $player &6Đang tải map...Chờ tí nhé ^^.'
+  - '$delay$/w $player &2Chuẩn bị xuất thành, công kích &f&l⚔'
+  - '$delay$/mv tp $player pvp'
+  - '/mm m kill ttdh'
+  - '$delay$/tp $player 9.5 1 104.5'
+  - '/title @a subtitle ["",{"text":"Là Titan ","color":"green"},{"text":"\u0110\u1ea0I HÌNH","bold":true,"color":"blue"},{"text":". Tiêu di\u1ec7t ngay!","color":"green"}]'
+  - '/title $player title ["",{"text":"Máy dò tìm","color":"green"},{"text":" Trinh Sát:","color":"yellow"}]}'
+  - '/mm m spawn ttdh 1 pvp,-9.5,2,104.5'
+  delaytimer: 2

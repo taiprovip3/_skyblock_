@@ -1,0 +1,654 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+SkeletalKnight:
+  Type: WITHER_SKELETON
+  Display: '&aSkeletal Knight'
+  Health: 40
+  Damage: 8
+  Equipment:
+  - IRON_HELMET HEAD
+  - IRON_CHESTPLATE CHEST
+  - IRON_LEGGINGS LEGS
+  - IRON_BOOTS FEET
+  - IRON_SWORD HAND
+  - SHIELD OFFHAND
+  Drops:
+  - GOLD_NUGGET{display="Gold Coin"} 1to2 0.5
+  LevelModifiers:
+  - health 5
+  - damage 0.5
+  Options:
+    MovementSpeed: 0.1
+SkeletonKing:
+  Type: WITHER_SKELETON
+  Display: '&6Skeleton King'
+  Health: 500
+  Damage: 10
+  Skills:
+  - message{cooldown=20;m="<mob.name><&co> None may challenge the Skeleton King!"}
+    @PlayersInRadius{r=40} ~onCombat >0 0.2
+  - message{m="<mob.name><&co> Ahahahahah! Die, <trigger.name>!"} @PlayersInRadius{r=40}
+    ~onPlayerKill >0 1
+  - skill{s=SummonSkeletons} @self 0.1
+  - skill{s=SmashAttack} @target >0 0.2
+  Equipment:
+  - KingsCrown HEAD
+  - SkeletonKingSword HAND
+  Drops:
+  - SkeletonKingDrops
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+SkeletalMinion:
+  Type: SKELETON
+  Display: '&2Skeletal Minion'
+  Health: 10
+  Damage: 2
+  Options:
+    MovementSpeed: 0.1
+StaticallyChargedSheep:
+  Type: SHEEP
+  Display: '&aStatically Charged Sheep'
+  Health: 100
+  Damage: 2
+  Options:
+    MovementSpeed: 0.3
+  DamageModifiers:
+  - LIGHTNING 0
+  - FIRE 0.5
+  Skills:
+  - lightning @LivingInRadius{r=10} ~onTimer:100
+AngrySludge:
+  Type: SLIME
+  Display: '&aAngry Sludge'
+  Health: 100
+  Damage: 2
+  Options:
+    Size: 20
+    MovementSpeed: 0.1
+    PreventSlimeSplit: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+    KnockbackResistance: 1
+  Skills:
+  - skill{s=AngrySludgePoison} 0.2
+  - blockmask{material=SLIME_BLOCK;r=1;duration=100} @self ~onTimer:20
+ ###########-newest-############
+tmm:
+  Type: ZOMBIE_VILLAGER
+  Display: '&7Thợ mỏ ma &e⚉'
+  Health: 20
+  Equipment:
+  - GOLD_PICKAXE OFFHAND
+  - LEATHER_HELMET HEAD
+  Skills:
+  - effect:particles{p=cloud;a=50;s=0.05} @self ~onDeath
+  - command{c="class exp <trigger.name> 5"} @PIR{r=10} ~onDeath
+  - command{c="mc give <trigger.name> 5"} @PIR{r=10} ~onDeath
+  Drops:
+  - da_cuonghoa 1 5%
+  - da_ren 1 5%
+  - exp 2 1
+  - it_switchkey 1 1%
+  Options:
+    PreventOtherDrops: true
+    KnockbackResistance: 0.5
+kecuop:
+  Type: VINDICATOR
+  Display: '&7Kẻ cướp eme &2⚉'
+  Health: 23
+  Skills:
+  - effect:particles{p=cloud;a=50;s=0.05} @self ~onDeath
+  - command{c="class exp <trigger.name> 6"} @PIR{r=10} ~onDeath
+  - command{c="mc give <trigger.name> 6"} @PIR{r=10} ~onDeath
+  Drops:
+  - da_cuonghoa 1 6%
+  - da_ren 1 6%
+  - it_switchkey 1 1%
+  Options:
+    PreventOtherDrops: true
+    KnockbackResistance: 0.6
+ghostrider:
+  Type: BLAZE
+  Display: '&7Ghost Rider &6⚉'
+  Health: 24
+  Skills:
+  - effect:particles{p=cloud;a=50;s=0.05} @self ~onDeath
+  - command{c="class exp <trigger.name> 7"} @PIR{r=10} ~onDeath
+  - command{c="mc give <trigger.name> 7"} @PIR{r=10} ~onDeath
+  Drops:
+  - da_cuonghoa 1 7%
+  - da_ren 1 7%
+  - it_switchkey 1 1%
+  Options:
+    PreventOtherDrops: true
+    KnockbackResistance: 0.7
+hulk:
+  Type: HUSK
+  Display: '&2HULK&7 (KLX) &f⚉'
+  Health: 26
+  Equipment:
+  - DIAMOND_SPADE OFFHAND
+  - DIAMOND_CHESTPLATE CHEST
+  Skills:
+  - effect:particles{p=cloud;a=50;s=0.05} @self ~onDeath
+  - command{c="class exp <trigger.name> 8"} @PIR{r=10} ~onDeath
+  - command{c="mc give <trigger.name> 8"} @PIR{r=10} ~onDeath
+  Drops:
+  - da_cuonghoa 1 8%
+  - da_ren 1 8%
+  - it_switchkey 1 1%
+  Options:
+    PreventOtherDrops: true
+    KnockbackResistance: 0.8
+blackpanther:
+  Type: WITHER_SKELETON
+  Display: '&7Black panther &5⚉'
+  Health: 28
+  Equipment:
+  - STONE_SWORD HAND
+  - DIAMOND_CHESTPLATE CHEST
+  Skills:
+  - effect:particles{p=cloud;a=50;s=0.05} @self ~onDeath
+  - command{c="class exp <trigger.name> 9"} @PIR{r=10} ~onDeath
+  - command{c="mc give <trigger.name> 9"} @PIR{r=10} ~onDeath
+  Drops:
+  - da_cuonghoa 1 9%
+  - da_ren 1 9%
+  - it_switchkey 1 1%
+  Options:
+    PreventOtherDrops: true
+    KnockbackResistance: 0.9
+satthu:
+  Type: WITHER_SKELETON
+  Display: '&4S�t Th? ?en'
+  Health: 600
+  Damage: 3
+  Skills:
+  - message{cooldown=20;m="<mob.name><&co> Ta l� b?n c?a heo peppa. ?t ?t ~ ~"}
+    @PlayersInRadius{r=40} ~onCombat >0 0.2
+  - effect:smoke @self ~onAttack
+  - command{c="bc &8�� &9<trigger.name> &8�� &7v?a c�n qu�t xong th?o ph?t &9<mob.name>.&7 Thu v? chi?n ph?m. &a&nJoin now!"} ~onDeath
+  Equipment:
+  - GOLD_BLOCK HEAD
+  - DIAMOND_SWORD HAND
+  - STONE_SWORD OFFHAND
+  Options:
+    PreventOtherDrops: true
+    KnockbackResistance: 0.5
+afk:
+  Type: SILVERFISH
+  Display: '&eཿ&fBọ chet cổ đại'
+  Health: 1
+  Drops:
+  - da_ren 1 3%
+  - da_cuonghoa 1 3%
+  - vk_trash1 1 1%
+  - vk_trash2 1 1%
+  - vk_trash3 1 1%
+  - vk_trash4 1 1%
+  - vk_trash5 1 1%
+  - vk_trash6 1 1%
+  Options:
+    MovementSpeed: 0.2
+#####boss stage########
+ttdb:
+  Type: ZOMBIE
+  Display: '&6Titan đột biến &e&l☠'
+  Health: 500
+  Damage: 10
+  Skills:
+  - message{m="<mob.name><&co> Ta sẽ đưa ngươi vào tử địa, <target.name>!"} @PlayersInRadius{r=40}
+    ~onPlayerKill >0 1
+  - command{c="bc &c[&2⚔&c] &6<trigger.name> vừa hạ gục 1 con &e&lTITAN ĐỘT BIẾN.&e Nhận chiến lợi phẩm, các chiến binh hãy tham chiến tại /dungeon để cùng nhận phần thưởng"} ~onDeath
+  - command{c="p give <trigger.name> 5"} ~onDeath
+  - command{c="mycmd-runas player <trigger.name> /dungedone"} ~onDeath
+  Equipment:
+  - WOOD_SWORD OFFHAND
+  - WOOD_SWORD HAND
+  - LEATHER_HELMET HEAD
+  - LEATHER_CHESTPLATE CHEST
+  - LEATHER_LEGGINGS LEGS
+  - LEATHER_BOOTS FEET
+  Options:
+    Despawn: false
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+    MovementSpeed: 0.15
+  Drops:
+  - it_expclass100
+  - it_expclass100 2 50%
+  - it_exp100 1 50%
+  - da_ren
+  - da_ren 2 50%
+  - da_cuonghoa
+  - da_cuonghoa 2 50%
+  - vk_rbt 1 3%
+  - vk_riuda 1 3%
+  - vk_rtc 1 3%
+  - vk_rnn 1 3%
+  - vk_embrace 1 3%
+tths:
+  Type: ZOMBIE
+  Display: '&7Titan hàm sắt &e&l☠'
+  Health: 550
+  Damage: 11
+  Skills:
+  - message{m="<mob.name><&co> Ta sẽ đưa ngươi vào tử địa, <target.name>!"} @PlayersInRadius{r=40}
+    ~onPlayerKill >0 1
+  - command{c="bc &c[&2⚔&c] &6<trigger.name> vừa hạ gục 1 con &f&lTITAN HÀM SẮT&9 lv2.&e Nhận chiến lợi phẩm, các chiến binh hãy tham chiến tại /dungeon để cùng nhận phần thưởng"} ~onDeath
+  - command{c="p give <trigger.name> 5"} ~onDeath
+  - command{c="mycmd-runas player <trigger.name> /dungedone"} ~onDeath
+  Equipment:
+  - WOOD_SWORD OFFHAND
+  - WOOD_SWORD HAND
+  - CHAINMAIL_HELMET HEAD
+  - CHAINMAIL_CHESTPLATE CHEST
+  - CHAINMAIL_LEGGINGS LEGS
+  - CHAINMAIL_BOOTS FEET
+  Options:
+    Despawn: false
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+    MovementSpeed: 0.15
+  Drops:
+  - it_expclass100
+  - it_expclass100 3 50%
+  - it_exp100 1 50%
+  - da_ren
+  - da_ren 3 50%
+  - da_cuonghoa
+  - da_cuonghoa 3 50%
+  - vk_darius 1 3%
+  - vk_rcd 1 3%
+  - vk_sscalar 1 3%
+  - vk_rtp 1 3%
+tthp:
+  Type: HUSK
+  Display: '&7&lTitan hộ pháp &e&l☠'
+  Health: 600
+  Damage: 12
+  Skills:
+  - message{m="<mob.name><&co> Ta sẽ đưa ngươi vào tử địa, <target.name>!"} @PlayersInRadius{r=40}
+    ~onPlayerKill >0 1
+  - command{c="bc &c[&2⚔&c] &6<trigger.name> vừa hạ gục 1 con &7&lTITAN HỘ PHÁP&9 lv3.&e Nhận chiến lợi phẩm, các chiến binh hãy tham chiến tại /dungeon để cùng nhận phần thưởng"} ~onDeath
+  - command{c="p give <trigger.name> 5"} ~onDeath
+  - command{c="mycmd-runas player <trigger.name> /dungedone"} ~onDeath
+  Equipment:
+  - WOOD_SWORD OFFHAND
+  - WOOD_SWORD HAND
+  - CHAINMAIL_HELMET HEAD
+  - CHAINMAIL_CHESTPLATE CHEST
+  - CHAINMAIL_LEGGINGS LEGS
+  - CHAINMAIL_BOOTS FEET
+  Options:
+    Despawn: false
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+    MovementSpeed: 0.15
+  Drops:
+  - it_expclass100 2
+  - it_expclass100 4 50%
+  - it_exp100 1 50%
+  - da_ren 2
+  - da_ren 4 50%
+  - da_cuonghoa 2
+  - da_cuonghoa 4 50%
+  - vk_illegal 1 3%
+  - vk_kdcd 1 3%
+  - vk_kkl2 1 3%
+  - vk_kg 1 3%
+  - vk_cartoon 1 3%
+ttnh:
+  Type: SKELETON
+  Display: '&5&lTitan hộ pháp &e&l☠'
+  Health: 700
+  Damage: 14
+  Skills:
+  - message{m="<mob.name><&co> Ta sẽ đưa ngươi vào tử địa, <target.name>!"} @PlayersInRadius{r=40}
+    ~onPlayerKill >0 1
+  - command{c="bc &c[&2⚔&c] &6<trigger.name> vừa hạ gục 1 con &5&lTITAN NỮ HÌNH&9 lv4.&e Nhận chiến lợi phẩm, các chiến binh hãy tham chiến tại /dungeon để cùng nhận phần thưởng"} ~onDeath
+  - command{c="p give <trigger.name> 5"} ~onDeath
+  - command{c="mycmd-runas player <trigger.name> /dungedone"} ~onDeath
+  Equipment:
+  - BOW OFFHAND
+  - CHAINMAIL_HELMET HEAD
+  - CHAINMAIL_CHESTPLATE CHEST
+  - CHAINMAIL_LEGGINGS LEGS
+  - CHAINMAIL_BOOTS FEET
+  Options:
+    Despawn: false
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+    MovementSpeed: 0.15
+  Drops:
+  - it_expclass100 2
+  - it_expclass100 5 50%
+  - it_exp100 1 50%
+  - da_ren 2
+  - da_ren 5 50%
+  - da_cuonghoa 2
+  - da_cuonghoa 5 50%
+  - vk_gdq 1 3%
+  - vk_camille 1 3%
+  - vk_shoij 1 3%
+  - vk_dragao 1 3%
+ttth:
+  Type: PIG_ZOMBIE
+  Display: '&6Titan thú hình &e&l☠'
+  Health: 750
+  Damage: 15
+  Skills:
+  - message{m="<mob.name><&co> Ta sẽ đưa ngươi vào tử địa, <target.name>!"} @PlayersInRadius{r=40}
+    ~onPlayerKill >0 1
+  - command{c="bc &c[&2⚔&c] &6<trigger.name> vừa hạ gục 1 con &6&lTITAN THÚ HÌNH&9 lv5.&e Nhận chiến lợi phẩm, các chiến binh hãy tham chiến tại /dungeon để cùng nhận phần thưởng"} ~onDeath
+  - command{c="p give <trigger.name> 5"} ~onDeath
+  - command{c="mycmd-runas player <trigger.name> /dungedone"} ~onDeath
+  Equipment:
+  - GOLD_SWORD HAND
+  - GOLD_SWORD OFFHAND
+  - GOLD_HELMET HEAD
+  - GOLD_CHESTPLATE CHEST
+  - GOLD_LEGGINGS LEGS
+  - GOLD_BOOTS FEET
+  Options:
+    Despawn: false
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+    MovementSpeed: 0.15
+  Drops:
+  - it_expclass100 3
+  - it_expclass100 6 50%
+  - it_exp100 2 50%
+  - da_ren 3
+  - da_ren 6 50%
+  - da_cuonghoa 3
+  - da_cuonghoa 6 50%
+  - vk_laylalay 1 3%
+  - vk_vermouth 1 3%
+  - vk_nqd 1 3%
+  - vk_trending 1 3%
+  - vk_mtp 1 3%
+ttbc:
+  Type: ZOMBIE
+  Display: '&aTitan Búa Chiến &f|☽'
+  Health: 800
+  Damage: 16
+  Skills:
+  - message{m="<mob.name><&co> Ta sẽ đưa ngươi vào tử địa, <target.name>!"} @PlayersInRadius{r=40}
+    ~onPlayerKill >0 1
+  - command{c="bc &c[&2⚔&c] &6<trigger.name> vừa hạ gục 1 con &a&lTITAN BÚA CHIẾN&9 lv6.&e Nhận chiến lợi phẩm, các chiến binh hãy tham chiến tại &2/dungeon&e để cùng nhận phần thưởng"} ~onDeath
+  - command{c="p give <trigger.name> 5"} ~onDeath
+  - command{c="mycmd-runas player <trigger.name> /dungedone"} ~onDeath
+  Equipment:
+  - STONE_AXE HAND
+  - STONE_AXE OFFHAND
+  - IRON_HELMET HEAD
+  - IRON_CHESTPLATE CHEST
+  - IRON_LEGGINGS LEGS
+  - IRON_BOOTS FEET
+  Options:
+    Despawn: false
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+    MovementSpeed: 0.15
+  Drops:
+  - it_expclass100 3
+  - it_expclass100 7 50%
+  - it_exp100 2 50%
+  - da_ren 3
+  - da_ren 7 50%
+  - da_cuonghoa 3
+  - da_cuonghoa 7 50%
+  - vk_nhtl 1 3%
+  - vk_clcc 1 3%
+  - vk_ksxx 1 3%
+  - vk_kcn 1 3%
+tttc:
+  Type: ZOMBIE
+  Display: '&2Titan tiến công &e&l乂'
+  Health: 850
+  Damage: 17
+  Skills:
+  - message{m="<mob.name><&co> Ta sẽ công thành, <target.name>!"} @PlayersInRadius{r=40}
+    ~onPlayerKill >0 1
+  - command{c="bc &c[&2⚔&c] &6<trigger.name> vừa hạ gục 1 con &2&lTITAN TIẾN CÔNG&9 lv7.&e Nhận chiến lợi phẩm, các chiến binh hãy tham chiến tại &2/dungeon&e để cùng nhận phần thưởng"} ~onDeath
+  - command{c="p give <trigger.name> 5"} ~onDeath
+  - command{c="mycmd-runas player <trigger.name> /dungedone"} ~onDeath
+  Equipment:
+  - DIAMOND_SWORD HAND
+  - DIAMOND_SWORD OFFHAND
+  - DIAMOND_HELMET HEAD
+  - DIAMOND_CHESTPLATE CHEST
+  - DIAMOND_LEGGINGS LEGS
+  - DIAMOND_BOOTS FEET
+  Options:
+    Despawn: false
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+    MovementSpeed: 0.15
+  Drops:
+  - it_expclass100 3
+  - it_expclass100 7 50%
+  - it_exp100 2 50%
+  - da_ren 3
+  - da_ren 7 50%
+  - da_cuonghoa 3
+  - da_cuonghoa 7 50%
+  - vk_kdq2 1 3%
+  - vk_kks 1 3%
+  - vk_bphd 1 3%
+  - vk_kks2 1 3%
+  - vk_kaneki 1 3%
+tttg:
+  Type: HUSK
+  Display: '&2Titan&f&l THIẾT GIÁP &e&l☠'
+  Health: 900
+  Damage: 18
+  Skills:
+  - message{m="<mob.name><&co> Ta sẽ đưa ngươi vào tử địa, <target.name>!"} @PlayersInRadius{r=40}
+    ~onPlayerKill >0 1
+  - command{c="bc &c[&2⚔&c] &6<trigger.name> vừa hạ gục 1 con &f&lTITAN THIẾT GIÁP&9 lv8.&e Nhận chiến lợi phẩm, các chiến binh hãy tham chiến tại &2/dungeon&e để cùng nhận phần thưởng"} ~onDeath
+  - command{c="p give <trigger.name> 5"} ~onDeath
+  - command{c="mycmd-runas player <trigger.name> /dungedone"} ~onDeath
+  Equipment:
+  - DIAMOND_SWORD HAND
+  - DIAMOND_SWORD OFFHAND
+  - DIAMOND_HELMET HEAD
+  - DIAMOND_CHESTPLATE CHEST
+  - DIAMOND_LEGGINGS LEGS
+  - DIAMOND_BOOTS FEET
+  Options:
+    Despawn: false
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+    MovementSpeed: 0.15
+  Drops:
+  - it_expclass100 4
+  - it_expclass100 8 50%
+  - it_exp100 3 50%
+  - da_ren 4
+  - da_ren 8 50%
+  - da_cuonghoa 4
+  - da_cuonghoa 8 50%
+  - vk_qctt 1 3%
+  - vk_tlcc 1 3%
+  - vk_dkvt 1 3%
+  - vk_kdr 1 3%
+tttt:
+  Type: WITHER_SKELETON
+  Display: '&9&lTitan Thủy Tổ &e&l☠'
+  Health: 2000
+  Damage: 18
+  Skills:
+  - message{m="<mob.name><&co> Ta sẽ đưa ngươi vào tử địa, <target.name>!"} @PlayersInRadius{r=40}
+    ~onPlayerKill >0 1
+  - command{c="bc &c[&2⚔&c] &6<trigger.name> vừa hạ gục 1 con &9&lTITAN THỦY TỔ&9 lv9.&e Nhận chiến lợi phẩm, các chiến binh hãy tham chiến tại &2/dungeon&e để cùng nhận phần thưởng"} ~onDeath
+  - command{c="p give <trigger.name> 5"} ~onDeath
+  - command{c="mycmd-runas player <trigger.name> /dungedone"} ~onDeath
+  Equipment:
+  - IRON_SWORD HAND
+  - IRON_SWORD OFFHAND
+  - IRON_HELMET HEAD
+  - IRON_CHESTPLATE CHEST
+  - IRON_LEGGINGS LEGS
+  - IRON_BOOTS FEET
+  Options:
+    Despawn: false
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+    MovementSpeed: 0.15
+  Drops:
+  - it_expclass100 4
+  - it_expclass100 9 50%
+  - it_exp100 3 50%
+  - da_ren 4
+  - da_ren 9 50%
+  - da_cuonghoa 4
+  - da_cuonghoa 9 50%
+  - vk_hgtp 1 3%
+  - vk_tpbc 1 3%
+  - vk_rpq 1 3%
+  - vk_rqn 1 3%
+  - vk_mcx 1 3%
+ttdh:
+  Type: WITHER_SKELETON
+  Display: '&2☀ &e&lTITAN &cĐẠI HÌNH &5♚'
+  Health: 1500
+  Damage: 20
+  Skills:
+  - message{m="<mob.name><&co> Ta sẽ đưa ngươi vào tử địa, <target.name>!"} @PlayersInRadius{r=40}
+    ~onPlayerKill >0 1
+  - command{c="bc &c[&2⚔&c] &6<trigger.name> vừa hạ gục 1 con &3&lTITAN ĐẠI HÌNH&9 lv10.&e Nhận chiến lợi phẩm, các chiến binh hãy tham chiến tại &2/dungeon&e để cùng nhận phần thưởng"} ~onDeath
+  - command{c="p give <trigger.name> 10"} ~onDeath
+  - command{c="mycmd-runas player <trigger.name> /dungedone"} ~onDeath
+  Equipment:
+  - DIAMOND_SWORD HAND
+  - DIAMOND_SWORD OFFHAND
+  - DIAMOND_HELMET HEAD
+  - DIAMOND_CHESTPLATE CHEST
+  - DIAMOND_LEGGINGS LEGS
+  - DIAMOND_BOOTS FEET
+  Options:
+    Despawn: false
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+    MovementSpeed: 0.15
+  Drops:
+  - it_expclass100 5
+  - it_expclass100 5 50%
+  - it_exp100 4 50%
+  - da_ren 5
+  - da_ren 5 50%
+  - da_cuonghoa 5
+  - da_cuonghoa 5 50%
+  - vk_tlb 1 3%
+  - vk_enhancer 1 3%
+  - vk_bct 1 3%
+  - vk_rdr 1 3%
+bw:
+  Type: WITHER_SKELETON
+  Display: '&eSuper &2Ultra &5Ultimate &fBoss'
+  Health: 6500
+  Damage: 45
+  Equipment:
+  - DIAMOND_SWORD HAND
+  - SHIELD OFFHAND
+  - DIAMOND_HELMET HEAD
+  - DIAMOND_CHESTPLATE CHEST
+  - DIAMOND_LEGGINGS LEGS
+  - DIAMOND_BOOTS FEET
+  Skills:
+  - sendtitle{title="BOSSWORLD &chp<50%";subtitle="mau đến tiêu diệt";d=60} @Server ~onDamaged =50%
+  - sendtitle{title="BOSSWORLD &chp<25%";subtitle="mau đến tiêu diệt";d=60} @Server ~onDamaged =25%
+  - sendtitle{title="BOSSWORLD &4hp<10%";subtitle="mau đến tiêu diệt";d=60} @Server ~onDamaged =10%
+  - skill{s=summondetu} @self =0.8
+  - skill{s=summondetu} @self =0.5
+  - skill{s=summondetu} @self =0.2
+  - command{c="bc &2☘ &6&l<trigger.name>&e là người end kill <mob.name>. Phúc lợi boss: tất cả người chơi có tham chiến nhận thưởng bonus!"} ~onDeath
+  - command{c="bb broadcast 10 &2☘ &6&l<trigger.name>&9 là người end kill BossWord <mob.name>"} ~onDeath
+  - command{c="eco give <target.name> 2000"} @PIR{r=30} ~onDeath
+  - command{c="p give <target.name> 10"} @PIR{r=40} ~onDeath
+  - sendtitle{title="BOSS THẾ GIỚI đã chết";subtitle="&e<trigger.name>&f là người tiêu diệt";d=80} @Server ~onDeath
+  Drops:
+  - it_expclass100
+  - it_expclass100
+  - it_expclass100
+  - it_expclass100
+  - it_expclass100
+  - it_exp100
+  - it_switchkey 1 40%
+  - exp 30
+  - da_ren 15
+  - da_cuonghoa 10
+  - bp_nauy
+  - bp_gcl
+  - bp_thk
+  - bp_escanor
+  - bp_barebear
+  - bp_naruto
+  - bp_wukong
+  - bp_thanos
+  - chestdiamond
+  - chestemerald
+  - chestgold
+  - chestiron
+  - chestobsidian
+  - chestcoal
+  - chestlapis
+  - chestredstone
+  - chestbone
+  - vk_dht 1 3%
+  - vk_ddc 1 3%
+  - vk_rifle 1 3%
+  - vk_kiemgo 1 3%
+  - vk_hhd 1 3%
+  - vk_dino 1 3%
+  - vk_kkl 1 3%
+  - vk_sao 1 3%
+  - vk_sw 1 3%
+  Options:
+    Despawn: false
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+    MovementSpeed: 0.18
+decorate:
+  Type: GIANT
+  Display: '&cNg??i G�c C?ng&3?'
+  Health: 30000
+  Damage: 1
+  Equipment:
+  - SkeletonKingSword OFFHAND
+  Options:
+    Despawn: false
+    Invincible: true
+    Collidable: false
+    Persistent: true
+decorate2:
+  Type: GIANT
+  Display: '&cNg??i G�c C?ng&3?'
+  Health: 30000
+  Damage: 1
+  Equipment:
+  - SkeletonKingSword HAND
+  Options:
+    Despawn: false
+    Invincible: true
+    Collidable: false
+    Persistent: true
+cs0:
+  Type: BABY_ZOMBIE
+  Display: '&eCảm tử quân'
+  Health: 1
+  Damage: 1
+  Skills:
+  - skill{s=selfdestruct} ~onDeath
+  Options:
+    Despawn: false
+    KnockbackResistance: 1
+    PreventOtherDrops: true
+    MovementSpeed: 0.2

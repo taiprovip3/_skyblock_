@@ -1,0 +1,135 @@
+PREFIX: '&aGrassmc > &f'
+LANG:
+  CONSOLE: Console
+MSG:
+  AND: ' and '
+  ERROR: Error occurred, please contact the server owner.
+  INGAMEONLY: This command can be used only in the game.
+  NOACCESS: You don't have access to do this.
+  RELOADED: Configuration reloaded!
+  USAGE:
+    SUBCOMMAND: 'Invalid command usage. Correct usage: %usage%'
+  CMD:
+    SHOP:
+      ADDMODIFIER:
+        ITEM:
+          USAGE: /shop addmodifier item <player> <shop> <item> <value> [buy|sell]
+          ADDED: You set &c%player%&f's %type% price modifier for the %item% item
+            in %shop% shop to &c%modifier%&f.
+          ADDEDBY: Your %type% price modifier for the %item% item in %shop% shop was
+            set to &c%modifier%&f by &c%player%&f.
+        SHOP:
+          USAGE: /shop addmodifier shop <player> <shop> <value> [buy|sell]
+          ADDED: You set &c%player%&f's %type% price modifier for all items in %shop%
+            shop to &c%modifier%&f.
+          ADDEDBY: Your %type% price modifier for all items in %shop% shop was set
+            to &c%modifier%&f by &c%player%&f.
+        GLOBAL:
+          USAGE: /shop addmodifier global <player> <value> [buy|sell]
+          ADDED: You set &c%player%&f's %type% price modifier to &c%modifier%&f.
+          ADDEDBY: Your %type% price modifier was set to &c%modifier%&f by &c%player%&f.
+      CHECKMODIFIERS:
+        VIEW:
+          VIEW: |-
+            &c%player%&f's modifiers:
+            Global modifiers:
+            %global%
+            Shop modifiers:
+            %shop%
+            Item modifiers:
+            %item%
+          ENTRY:
+            ITEM: 'Item: &c%item%&f, shop: &c%shop%&f, buy: &c%buy%&f, sell: &c%sell%&f'
+            SHOP: 'Shop: &c%shop%&f, buy: &c%buy%&f, sell: &c%sell%&f'
+            GLOBAL: 'Buy: &c%buy%&f, sell: &c%sell%&f'
+      RESETMODIFIER:
+        ITEM:
+          USAGE: /shop resetmodifier item <player> <shop> <item> [buy|sell]
+          RESET: You reset &c%player%&f's %type% price modifier for the %item% item
+            in %shop% shop.
+          RESETBY: Your %type% price modifier for the %item% item in %shop% shop was
+            reset by &c%player%&f.
+        SHOP:
+          USAGE: /shop resetmodifier shop <player> <shop> [buy|sell]
+          RESET: You reset &c%player%&f's %type% price modifier for all items in %shop%
+            shop.
+          RESETBY: Your %type% price modifier for all items in %shop% shop was set
+            to by &c%player%&f.
+        GLOBAL:
+          USAGE: /shop resetmodifier global <player> [buy|sell]
+          RESET: You reset &c%player%&f's %type% price modifier.
+          RESETBY: Your %type% price modifier was set to &c%modifier%&f by &c%player%&f.
+  MODIFIER:
+    INVALIDAMOUNT: Invalid modifier value specified. Valid values are for instance
+      0.50 which is 50%, 2.0 which is 200% etc.
+    INVALIDTYPE: Invalid modifier type specified. Valid values are buy, sell and both.
+    BUY: buy
+    SELL: sell
+    BOTH: buy & sell
+  INVALIDPLAYER: Invalid player name specified.
+  INVALIDSHOP: Shop with ID &c%shop%&f not found.
+  INVALIDITEM: Item with ID &c%item%&f not found in &c%shop%&f.
+  NOACCESSTOSHOP: You don't have access to &c%shop%&f shop.
+  NODIRECTACCESSTOSHOP: You can't access the &c%shop%&f shop.
+  MAINMENUDISABLED: You can't use this command. Please use /shop <id> instead.
+  WORLDBLACKLISTED: You can't access %shop% in this world.
+  WORLDBANNED: You can't access the shop in this world.
+  WORLDBANNEDTARGET: '%player% can''t access the shop in that world.'
+  GAMEMODEBANNED: You can't access the shop when in gamemode %gamemode%.
+  GAMEMODEBANNEDTARGET: '%player% can''t access the shop when in gamemode %gamemode%.'
+  ITEM:
+    FULLINVENTORY: Vui lòng dọn dẹp túi đồ.
+    CANNOTAFFORD: Còn thiếu &c%price%&f để mua VP &c%amount% x %item%&f.
+    CANNOTBUY: Bạn đéo thể mua vật phẩm này.
+    CANNOTSELL: You can't sell this item.
+    BOUGHT: Bạn đã mua &c%amount% x %item%&f với số tiền &c%price%&f.
+    BOUGHTFREE: Bạn vừa nhận được &c%amount% x %item%&f.
+    NOTENOUGH: Bạn ko có đủ &c%amount% x %item%&f để bán.
+    SOLD: Bán thành công &a%amount% x %item%&f với giá &a%price%&f.
+    SOLDFREE: You gave away &a%amount% x %item%&f.
+    SOLDALL: Đã bán hết &a%item%&f (&a%amount% x %item%&f) với giá &a%price%&f.
+    SOLDALLFREE: You gave away all &a%item%&f (&a%amount% x %item%&f).
+    NOACCESS: You don't have access to this item.
+  ENCHANT:
+    CANNOTAPPLY: Enchantment &c%enchantment%&f cannot be applied to the item you're
+      holding.
+    ALREADYAPPLIED: This item already has &c%enchantment%&f applied.
+    LEVELDIFF: You need an item with at least &c%enchantment% %level%&f applied.
+    CANNOTAFFORD: You need &c%price%&f to buy &c%enchantment%&f.
+    MAX: This item already has the maximum amount of enchantments (%amount%).
+    TOOMANY: You can't enchant more than %amount% items at once.
+    BOUGHT: You bought &c%enchantment%&f enchantment for &c%price%&f.
+  PERMISSION:
+    PERMISSIONSDISABLED: Permissions are disabled, please contact server's owner.
+    ALREADYHAVE: You already have the &c%permission%&f permission.
+    CANNOTAFFORD: You need &c%price%&f to buy &c%permission%&f.
+    BOUGHT: You bought &c%permission%&f permission for &c%price%&f.
+  COMMAND:
+    BOUGHT: Bạn vừa mua &c%command%&f với giá &c%price%&f.
+    CANNOTAFFORD: You need &c%price%&f to buy this command.
+  SELLHAND:
+    NOITEM: You have to hold an item in your hand in order to sell it.
+    INVALIDQUANTITY: Invalid quantity specified. Must be between 1 and %max%.
+    CANNOTSELL: Bạn đéo thể bán VP này.
+    MULTIPLEQUANTITYONLY: You can't sell that quantity. Only multiples of %quantity%
+      are allowed for this item.
+  SELLHANDALL:
+    SOLD: You sold &a%quantity% x %item%&f for a total of &a%price%&f.
+  SELLALL:
+    NOITEMS: You don't have any items you can sell.
+    SOLD: You sold &a%quantity% items&f for a total of &a%price%&f.
+    INVALIDSHOP: Invalid shop specified.
+DIALOG:
+  AMOUNTSELECTION:
+    BUY:
+      NAME: '&2Buying %item%'
+    SELL:
+      NAME: '&cSelling %item%'
+    BULKBUY:
+      NAME: '&cBuying stacks of %item%'
+    BULKSELL:
+      NAME: '&cSelling stacks of %item%'
+SHOP:
+  PERMISSION:
+    ALREADYOWNED: '&4(Already owned)'
+    NOTOWNED: '&a(Not owned)'

@@ -1,0 +1,152 @@
+ShopName: ren_PA
+DisplayName: '&cServer&6♦&8 Khảm "P.Ấn"&e☫'
+Command: khampa:pa
+Sound:
+  Shop:
+    Open: ENTITY_PLAYER_LEVELUP:1:1
+    ChangeShop: ENTITY_PLAYER_LEVELUP:1:1
+shop:
+  1:
+    MenuItem:
+    - type:35:13
+    - name:&2&lCONFIRM
+    - 'lore2:&7"I accept the terms of this feature". &eHành động&7 ngu ngốc này có thể khiến bạn mất: 1 &6&lTOTEM CỔ ĐẠI&7. Bạn có muốn tiếp tục ko?'
+    - 'lore4:&a&lCHẤP THUẬN'
+    RewardType: playercommandop
+    Reward:
+    - lock
+    - class exp %player% 1000
+    - mc give %player% 1000
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:449
+      - 'name:&3&lTOTEM &2☪ &cCổ Đại &2☿&7locking&2☿'
+      - 'lore2:&7 Dùng để phong ấn trang bị tay cầm.'
+      - 'lore3:&e&l PHONG ẤN:&7 trang bị mang tên bạn, ko'
+      - 'lore4:&7 thể /trade, giao dịch, nâng cấp, treo bán.'
+      - 'lore5:&7 và ko thể bị nhặt bởi người khác.'
+      - 'lore7:&a&l CÁCH DÙNG&7: vào giao diện RPG -> phong ấn'
+      - 'lore8:&7 và nhớ cầm item muốn niêm phong trên tay.'
+      - 'lore10:&e LOẠI VẬT PHẨM&a clickable'
+    InventoryLocation: 1
+  2:
+    MenuItem:
+    - type:35:13
+    - name:&2&lCONFIRM
+    - 'lore2:&7"I accept the terms of this feature". &eHành động&7 ngu ngốc này có thể khiến bạn mất: 1 &6&lTOTEM CỔ ĐẠI&7. Bạn có muốn tiếp tục ko?'
+    - 'lore4:&a&lCHẤP THUẬN'
+    RewardType: playercommandop
+    Reward:
+    - lock
+    - class exp %player% 1000
+    - mc give %player% 1000
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:449
+      - amount:1
+      - 'name:&3&lTOTEM &2☪ &cCổ Đại &2☿&7locking&2☿'
+      - 'lore2:&7 Dùng để phong ấn trang bị tay cầm.'
+      - 'lore3:&e&l PHONG ẤN:&7 trang bị mang tên bạn, ko'
+      - 'lore4:&7 thể /trade, giao dịch, nâng cấp, treo bán.'
+      - 'lore5:&7 và ko thể bị nhặt bởi người khác.'
+      - 'lore7:&a&l CÁCH DÙNG&7: vào giao diện RPG -> phong ấn'
+      - 'lore8:&7 và nhớ cầm item muốn niêm phong trên tay.'
+      - 'lore10:&e LOẠI VẬT PHẨM&a clickable'
+    InventoryLocation: 2
+  3:
+    MenuItem:
+    - type:35:13
+    - name:&2&lCONFIRM
+    - 'lore2:&7"I accept the terms of this feature". &eHành động&7 ngu ngốc này có thể khiến bạn mất: 1 &6&lTOTEM CỔ ĐẠI&7. Bạn có muốn tiếp tục ko?'
+    - 'lore4:&a&lCHẤP THUẬN'
+    RewardType: playercommandop
+    Reward:
+    - lock
+    - class exp %player% 1000
+    - mc give %player% 1000
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:449
+      - amount:1
+      - 'name:&3&lTOTEM &2☪ &cCổ Đại &2☿&7locking&2☿'
+      - 'lore2:&7 Dùng để phong ấn trang bị tay cầm.'
+      - 'lore3:&e&l PHONG ẤN:&7 trang bị mang tên bạn, ko'
+      - 'lore4:&7 thể /trade, giao dịch, nâng cấp, treo bán.'
+      - 'lore5:&7 và ko thể bị nhặt bởi người khác.'
+      - 'lore7:&a&l CÁCH DÙNG&7: vào giao diện RPG -> phong ấn'
+      - 'lore8:&7 và nhớ cầm item muốn niêm phong trên tay.'
+      - 'lore10:&e LOẠI VẬT PHẨM&a clickable'
+    InventoryLocation: 3
+  4:
+    MenuItem:
+    - type:35:13
+    - name:&2&lCONFIRM
+    - 'lore2:&7"I accept the terms of this feature". &eHành động&7 ngu ngốc này có thể khiến bạn mất: 1 &6&lTOTEM CỔ ĐẠI&7. Bạn có muốn tiếp tục ko?'
+    - 'lore4:&a&lCHẤP THUẬN'
+    RewardType: playercommandop
+    Reward:
+    - lock
+    - class exp %player% 1000
+    - mc give %player% 1000
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:449
+      - amount:1
+      - 'name:&3&lTOTEM &2☪ &cCổ Đại &2☿&7locking&2☿'
+      - 'lore2:&7 Dùng để phong ấn trang bị tay cầm.'
+      - 'lore3:&e&l PHONG ẤN:&7 trang bị mang tên bạn, ko'
+      - 'lore4:&7 thể /trade, giao dịch, nâng cấp, treo bán.'
+      - 'lore5:&7 và ko thể bị nhặt bởi người khác.'
+      - 'lore7:&a&l CÁCH DÙNG&7: vào giao diện RPG -> phong ấn'
+      - 'lore8:&7 và nhớ cầm item muốn niêm phong trên tay.'
+      - 'lore10:&e LOẠI VẬT PHẨM&a clickable'
+    InventoryLocation: 4
+  5:
+    MenuItem:
+    - type:35:14
+    - name:&c&lNOWAY
+    - 'lore2:&7"I don''t accept the terms of this feature". &eHành động&7 ngu ngốc này có thể khiến tôi mất ngu &6&lTOTEM CỔ ĐẠI&7 và ko mang lại lợi ích gì cả. Nên tôi éo đồng ý và muốn thoát giao diện này'
+    - 'lore4:&4&lTỪ CHỐI'
+    RewardType: shop
+    Reward: ren
+    InventoryLocation: 5
+  6:
+    MenuItem:
+    - type:35:14
+    - name:&c&lNOWAY
+    - 'lore2:&7"I don''t accept the terms of this feature". &eHành động&7 ngu ngốc này có thể khiến tôi mất ngu &6&lTOTEM CỔ ĐẠI&7 và ko mang lại lợi ích gì cả. Nên tôi éo đồng ý và muốn thoát giao diện này'
+    - 'lore4:&4&lTỪ CHỐI'
+    RewardType: shop
+    Reward: ren
+    InventoryLocation: 6
+  7:
+    MenuItem:
+    - type:35:14
+    - name:&c&lNOWAY
+    - 'lore2:&7"I don''t accept the terms of this feature". &eHành động&7 ngu ngốc này có thể khiến tôi mất ngu &6&lTOTEM CỔ ĐẠI&7 và ko mang lại lợi ích gì cả. Nên tôi éo đồng ý và muốn thoát giao diện này'
+    - 'lore4:&4&lTỪ CHỐI'
+    RewardType: shop
+    Reward: ren
+    InventoryLocation: 7
+  8:
+    MenuItem:
+    - type:35:14
+    - name:&c&lNOWAY
+    - 'lore2:&7"I don''t accept the terms of this feature". &eHành động&7 ngu ngốc này có thể khiến tôi mất ngu &6&lTOTEM CỔ ĐẠI&7 và ko mang lại lợi ích gì cả. Nên tôi éo đồng ý và muốn thoát giao diện này'
+    - 'lore4:&4&lTỪ CHỐI'
+    RewardType: shop
+    Reward: ren
+    InventoryLocation: 8
+  9:
+    MenuItem:
+    - type:35:14
+    - name:&c&lNOWAY
+    - 'lore2:&7"I don''t accept the terms of this feature". &eHành động&7 ngu ngốc này có thể khiến tôi mất ngu &6&lTOTEM CỔ ĐẠI&7 và ko mang lại lợi ích gì cả. Nên tôi éo đồng ý và muốn thoát giao diện này'
+    - 'lore4:&4&lTỪ CHỐI'
+    RewardType: shop
+    Reward: ren
+    InventoryLocation: 9

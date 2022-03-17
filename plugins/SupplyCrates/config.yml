@@ -1,0 +1,462 @@
+SupplyCrates:
+  time:
+    auto_end_after_start: 120
+    interval_start: 1800
+    min_players: 10
+  options:
+    use_inventory: false
+    use_falling_block: true
+  hologram:
+    message:
+    - '&7We CALLED: &4"cái bịch đen đen"'
+  particle:
+    type: ''
+    offsetX: 0.25
+    offsetY: 0.25
+    offsetZ: 0.25
+    speed: 0.05
+    amount: 20
+  crate:
+    amount_of_items: 5
+    type: ENDER_CHEST
+    falling_block: BEACON
+    random_locations:
+      enabled: true
+      amount: 20
+    locations:
+    - pvp;-17;3;-12
+    - pvp;-42;6;-17
+    - pvp;-48;11;-7
+    - pvp;-57;12;15
+    - pvp;-59;13;19
+    - pvp;-53;14;26
+    - pvp;-55;17;30
+    - pvp;-57;17;32
+    - pvp;-57;25;26
+    - pvp;-57;28;19
+    - pvp;-56;29;15
+    - pvp;-57;18;10
+    - pvp;-63;17;5
+    - pvp;-65;17;12
+    - pvp;-65;17;19
+    - pvp;-72;17;13
+    - pvp;-74;17;2
+    - pvp;-50;5;4
+    - pvp;-35;4;11
+    - pvp;-28;4;16
+    - pvp;-25;8;20
+    - pvp;-29;6;23
+    - pvp;-34;4;30
+    - pvp;-32;4;39
+    - pvp;-23;3;48
+    - pvp;-15;3;50
+    - pvp;-2;3;39
+    - pvp;3;4;29
+    - pvp;2;7;23
+    - pvp;0;11;18
+    - pvp;-2;15;18
+    - pvp;-5;19;16
+    - pvp;-10;20;13
+    - pvp;-15;20;7
+    - pvp;-11;20;4
+    - pvp;-6;14;2
+    - pvp;1;6;3
+    - pvp;6;5;-3
+    - pvp;4;4;-11
+    - pvp;-4;3;-20
+    - pvp;-8;3;-28
+    - pvp;-13;2;-31
+    - pvp;-17;2;-36
+    - pvp;-19;3;-42
+    - pvp;-18;3;-52
+    - pvp;-11;3;-60
+    - pvp;-1;3;-51
+    - pvp;7;3;-55
+    - pvp;15;3;-59
+    - pvp;22;3;-51
+    - pvp;21;3;-35
+    - pvp;33;5;-35
+    - pvp;34;7;-27
+    - pvp;41;9;-19
+    - pvp;44;11;-12
+    - pvp;43;11;-7
+    - pvp;48;12;-3
+    - pvp;52;15;0
+    - pvp;50;14;15
+    - pvp;51;16;29
+    - pvp;48;17;36
+    - pvp;53;25;44
+    - pvp;45;22;47
+    - pvp;36;22;51
+    - pvp;26;20;52
+    - pvp;22;21;54
+    - pvp;14;22;55
+    - pvp;7;23;58
+    - pvp;1;22;59
+    - pvp;-6;23;61
+    - pvp;-13;24;63
+    - pvp;-13;22;57
+    - pvp;-15;4;32
+    - pvp;-39;3;53
+    - pvp;-34;4;50
+    - pvp;-46;8;39
+    - pvp;-52;15;40
+    - pvp;-58;17;39
+    - pvp;-64;21;37
+    - pvp;-29;4;2
+    - pvp;-34;3;-5
+    - pvp;-37;17;-30
+    - pvp;-46;17;-30
+    - pvp;-51;16;-26
+    - pvp;-58;18;-19
+    - pvp;-57;20;-13
+    - pvp;-56;23;-8
+    - pvp;-60;26;-7
+    - pvp;-67;30;-7
+    - pvp;-65;31;1
+    - pvp;-71;34;3
+    - pvp;-74;32;-16
+    - pvp;-70;31;-26
+    - pvp;-63;31;-27
+    - pvp;-61;30;-37
+    - pvp;-53;25;-40
+    - pvp;-41;24;-43
+    - pvp;-32;24;-38
+    - pvp;-23;24;-32
+    - pvp;-13;26;-35
+    - pvp;-4;28;-35
+    - pvp;12;25;-40
+    - pvp;17;25;-44
+    - pvp;27;25;-52
+    - pvp;32;22;-51
+    - pvp;44;21;-53
+    - pvp;47;20;-48
+    - pvp;49;18;-44
+    - pvp;43;11;-38
+    - pvp;50;15;-31
+    - pvp;59;20;-25
+    - pvp;60;19;-19
+    - pvp;65;23;-14
+    - pvp;35;9;2
+    - pvp;30;8;4
+    - pvp;14;4;21
+    - pvp;15;3;36
+    - pvp;14;3;50
+    - pvp;6;3;57
+    - pvp;-6;3;59
+    - pvp;-17;3;42
+    - pvp;56;31;-59
+    - pvp;59;31;-55
+    - pvp;64;31;-49
+    - pvp;71;35;-18
+    - pvp;66;29;-1
+    - pvp;66;29;21
+    - pvp;65;27;30
+    - pvp;33;33;64
+    items:
+      '1':
+        material: GOLDEN_APPLE:1
+        amount: 1
+        name: '&fSupply Crate Gapple'
+        lore:
+        - '&dExclusive &e&nGapple&d from a Hòm tiếp tế'
+        chance: 90
+      '2':
+        commands:
+        - eco give {player} 500
+        chance: 90
+      '3':
+        amount: 64
+        chance: 90.0
+        material: DIAMOND_BLOCK
+      '4':
+        amount: 64
+        chance: 90.0
+        material: GOLD_BLOCK
+      '5':
+        amount: 64
+        chance: 90.0
+        material: EMERALD_BLOCK
+      '6':
+        amount: 64
+        chance: 90.0
+        material: IRON_BLOCK
+      '7':
+        amount: 64
+        chance: 90.0
+        material: OBSIDIAN
+      '8':
+        amount: 64
+        chance: 90.0
+        material: COAL_BLOCK
+      '9':
+        amount: 64
+        chance: 90.0
+        material: LAPIS_BLOCK
+      '10':
+        amount: 64
+        chance: 90.0
+        material: REDSTONE_BLOCK
+      '11':
+        amount: 64
+        chance: 90.0
+        material: BONE_BLOCK
+      '12':
+        amount: 2
+        chance: 50.0
+        material: APPLE
+      '13':
+        amount: 2
+        chance: 50.0
+        material: BEETROOT
+      '14':
+        amount: 2
+        chance: 50.0
+        material: CARROT_ITEM
+      '15':
+        amount: 2
+        chance: 50.0
+        material: BAKED_POTATO
+      '16':
+        amount: 2
+        chance: 50.0
+        material: POISONOUS_POTATO
+      '17':
+        amount: 1
+        chance: 100.0
+        material: LIGHT_BLUE_SHULKER_BOX
+        lore:
+        - ''
+        - ' &e&l*&f Chứa bên trong 27st khối kim cương'
+        - ' &e&l*&f Cầm & click phải để dùng!'
+        - ''
+        - '&cWARNING &e&l*'
+        - '&7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất'
+        - ''
+        - '&a[VẬT PHẨM CHỦ ĐỘNG]'
+        name: '&b&lRương kim cương'
+      '18':
+        amount: 1
+        chance: 100.0
+        material: LIME_SHULKER_BOX
+        lore:
+        - ''
+        - ' &e&l*&f Chứa bên trong 27st khối lục bảo'
+        - ' &e&l*&f Cầm & click phải để dùng!'
+        - ''
+        - '&cWARNING &e&l*'
+        - '&7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất'
+        - ''
+        - '&a[VẬT PHẨM CHỦ ĐỘNG]'
+        name: '&2&lRương lục bảo'
+      '19':
+        amount: 1
+        chance: 100.0
+        material: YELLOW_SHULKER_BOX
+        lore:
+        - ''
+        - ' &e&l*&f Chứa bên trong 27st khối vàng rồng'
+        - ' &e&l*&f Cầm & click phải để dùng!'
+        - ''
+        - '&cWARNING &e&l*'
+        - '&7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất'
+        - ''
+        - '&a[VẬT PHẨM CHỦ ĐỘNG]'
+        name: '&e&lRương vàng rồng'
+      '20':
+        amount: 1
+        chance: 100.0
+        material: WHITE_SHULKER_BOX
+        lore:
+        - ''
+        - ' &e&l*&f Chứa bên trong 27st khối sắt xịn'
+        - ' &e&l*&f Cầm & click phải để dùng!'
+        - ''
+        - '&cWARNING &e&l*'
+        - '&7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất'
+        - ''
+        - '&a[VẬT PHẨM CHỦ ĐỘNG]'
+        name: '&f&lRương sắt xịn'
+      '21':
+        amount: 1
+        chance: 100.0
+        material: GRAY_SHULKER_BOX
+        lore:
+        - ''
+        - ' &e&l*&f Chứa bên trong 27st khối hắc diện thạch'
+        - ' &e&l*&f Cầm & click phải để dùng!'
+        - ''
+        - '&cWARNING &e&l*'
+        - '&7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất'
+        - ''
+        - '&a[VẬT PHẨM CHỦ ĐỘNG]'
+        name: '&d&lRương hắc diện thạch'
+      '22':
+        amount: 1
+        chance: 100.0
+        material: BLACK_SHULKER_BOX
+        lore:
+        - ''
+        - ' &e&l*&f Chứa bên trong 27st khối than đen'
+        - ' &e&l*&f Cầm & click phải để dùng!'
+        - ''
+        - '&cWARNING &e&l*'
+        - '&7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất'
+        - ''
+        - '&a[VẬT PHẨM CHỦ ĐỘNG]'
+        name: '&8&lRương than đen'
+      '23':
+        amount: 1
+        chance: 100.0
+        material: BLUE_SHULKER_BOX
+        lore:
+        - ''
+        - ' &e&l*&f Chứa bên trong 27st khối lưu li'
+        - ' &e&l*&f Cầm & click phải để dùng!'
+        - ''
+        - '&cWARNING &e&l*'
+        - '&7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất'
+        - ''
+        - '&a[VẬT PHẨM CHỦ ĐỘNG]'
+        name: '&9&lRương lưu li'
+      '24':
+        amount: 1
+        chance: 100.0
+        material: RED_SHULKER_BOX
+        lore:
+        - ''
+        - ' &e&l*&f Chứa bên trong 27st khối đá đỏ'
+        - ' &e&l*&f Cầm & click phải để dùng!'
+        - ''
+        - '&cWARNING &e&l*'
+        - '&7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất'
+        - ''
+        - '&a[VẬT PHẨM CHỦ ĐỘNG]'
+        name: '&c&lRương đá đỏ'
+      '25':
+        amount: 1
+        chance: 100.0
+        material: SILVER_SHULKER_BOX
+        lore:
+        - ''
+        - ' &e&l*&f Chứa bên trong 27st khối xương t-rex'
+        - ' &e&l*&f Cầm & click phải để dùng!'
+        - ''
+        - '&cWARNING &e&l*'
+        - '&7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất'
+        - ''
+        - '&a[VẬT PHẨM CHỦ ĐỘNG]'
+        name: '&7&lRương xương t-rex'
+      '26':
+        amount: 1
+        chance: 100.0
+        material: EXP_BOTTLE
+        lore:
+        - ''
+        - '&7 +100 điểm expclass vào nhân vật'
+        - '&7 main. /sb để xem chi tiết.'
+        - ''
+        - '&e LOẠI VẬT PHẨM &aclickable'
+        name: '&2Tinh hoa (&f100&2)'
+      '27':
+        amount: 1
+        chance: 100.0
+        material: SKULL_ITEM:3
+        lore:
+        - ''
+        - '&7 Hồi lại 100% máu (&c♥&7), 100% thức ăn.'
+        - '&7 Xóa bỏ tất cả buff, độc tố'
+        - ''
+        - '&e LOẠI VẬT PHẨM &aclickable'
+        name: '&f&l&o❤ &6Kim SÁNG DƯỢC&7 pharmacity'
+      '28':
+        amount: 1
+        chance: 100.0
+        material: EXP_BOTTLE
+        lore:
+        - ''
+        - '&7 +100 điểm exp vanilla vào nhân vật'
+        - '&7 main. /sb để xem chi tiết.'
+        - ''
+        - '&e LOẠI VẬT PHẨM &aclickable'
+        name: '&7Exp Vanilla (&3100&7)'
+      '29':
+        amount: 1
+        chance: 100.0
+        material: LINGERING_POTION
+        lore:
+        - ''
+        - '&7 +1 điểm Tâm Linh vào nhân vật'
+        - '&7 Điểm dùng để tăng thuộc tính cho main.'
+        - ''
+        - '&aCầm và CLICK-PHẢI để tiêu thụ'
+        name: '&2bình TÂM LINH'
+      '30':
+        enchants:
+        - DURABILITY:1
+        amount: 1
+        chance: 100.0
+        material: WOOD_HOE
+        lore:
+        - '&730 &eremaining uses'
+        - ''
+        - '&7 Dùng để bán tài nguyên trong rương'
+        - ''
+        - '&e&l TÀI NGUYÊN:&7 diamond, emerald, gold,...'
+        - ''
+        - '&2&l SỬ DỤNG:&7 bỏ blockfarm vào 1 cái'
+        - '&7 rương, cầm cuốc click phải vào rương'
+        - ''
+        - '&e LOẠI VẬT PHẨM&a unclickable&e and&a passive'
+        name: '&e♠&2Cuốc Triệu Đô&a&l ⛁&3&d&2&b&e'
+      '31':
+        amount: 1
+        chance: 100.0
+        material: STONE_SPADE
+        lore:
+        - '&6♦&7Click.phải để sử dụng. &f(&e10&f)'
+        name: '&e&lXẺNG BUILDER &2♠&7 bản demo'
+      '32':
+        amount: 8
+        chance: 50.0
+        material: EXP_BOTTLE
+        lore:
+        - ''
+        - '&7 +100 điểm expclass vào nhân vật'
+        - '&7 main. /sb để xem chi tiết.'
+        - ''
+        - '&e LOẠI VẬT PHẨM &aclickable'
+        name: '&2Tinh hoa (&f100&2)'
+      '33':
+        amount: 16
+        chance: 40.0
+        material: EXP_BOTTLE
+        lore:
+        - ''
+        - '&7 +100 điểm expclass vào nhân vật'
+        - '&7 main. /sb để xem chi tiết.'
+        - ''
+        - '&e LOẠI VẬT PHẨM &aclickable'
+        name: '&2Tinh hoa (&f100&2)'
+      '34':
+        amount: 32
+        chance: 30.0
+        material: EXP_BOTTLE
+        lore:
+        - ''
+        - '&7 +100 điểm expclass vào nhân vật'
+        - '&7 main. /sb để xem chi tiết.'
+        - ''
+        - '&e LOẠI VẬT PHẨM &aclickable'
+        name: '&2Tinh hoa (&f100&2)'
+      '35':
+        amount: 64
+        chance: 20.0
+        material: EXP_BOTTLE
+        lore:
+        - ''
+        - '&7 +100 điểm expclass vào nhân vật'
+        - '&7 main. /sb để xem chi tiết.'
+        - ''
+        - '&e LOẠI VẬT PHẨM &aclickable'
+        name: '&2Tinh hoa (&f100&2)'

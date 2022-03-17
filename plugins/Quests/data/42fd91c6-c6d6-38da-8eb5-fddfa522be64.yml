@@ -1,0 +1,11 @@
+currentQuests:
+- killer clown
+currentStages:
+- 0
+quest-points: 0
+questData:
+  killer clown:
+    players-killed: 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: troll12345

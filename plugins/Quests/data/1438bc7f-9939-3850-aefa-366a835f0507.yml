@@ -1,0 +1,16 @@
+currentQuests:
+- dirt mining
+currentStages:
+- 0
+quest-points: 0
+questData:
+  dirt mining:
+    blocks-broken-names:
+    - GRASS
+    blocks-broken-amounts:
+    - 0
+    blocks-broken-durability:
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: lightwolf

@@ -1,0 +1,260 @@
+ShopName: kits
+DisplayName: '&a☘&2&lServer&a☘&8 Các kits'
+Command: kit
+Sound:
+  Shop:
+    Open: ENTITY_ITEM_PICKUP:1:1
+    ChangeShop: ENTITY_ITEM_PICKUP:1:1
+shop:
+  0:
+    MenuItem:
+    - type:166
+    - name:&a
+    - 'lore1:&aKit khởi đầu &c&mKO THỂ NHẬN LẠI'
+    - 'lore2:&2 Bao gồm:&7 quyển sách nguồn gốc sức mạnh &8(đã nhận)'
+    - 'lore3:&a'
+    InventoryLocation: 10
+  1:
+    MenuItem:
+    - type:166
+    - name:&a
+    - 'lore1:&aKit dụng cụ &c&mKO THỂ NHẬN LẠI'
+    - 'lore2:&2 Bao gồm:&7 cúp trainee, kiếm trainee, rìu trainee. Bộ dụng cụ này có thể nâng cấp&8 (đã nhận)'
+    - 'lore3:&a'
+    InventoryLocation: 11
+  2:
+    MenuItem:
+    - type:217
+    - name:&a
+    - 'lore1:&aQuà online &7&l((&2Nhận Auto&7&l))'
+    - 'lore2:&2 Bao gồm:&7 các viên đá RPG, thẻ chăm chỉ'
+    - 'lore4:&2 Nhận lại: &786400 giây ⌛'
+    - 'lore5:&2 Trạng thái:&7 clickable'
+    - 'lore6:&aQuà này tự động gửi vào túi bạn khi bạn online hoặc treo máy trong server.'
+    - 'lore7:&a'
+    InventoryLocation: 12
+  3:
+    MenuItem:
+    - type:342
+    - name:&a
+    - 'lore1:&aKit đăng nhập'
+    - 'lore2:&2 Bao gồm:&7 diamond, emerald, gold và 1 vài lọ thuốc sóc lọ và các thứ linh tinh khác..'
+    - 'lore4:&2 Nhận lại: &786400 giây ⌛'
+    - 'lore5:&2 Trạng thái:&7 clickable'
+    - 'lore6:&aClick vào nhận kits..'
+    - 'lore7:&a'
+    RewardType: playercommand
+    Reward:
+    - kits dangnhap
+    InventoryLocation: 13
+  4:
+    MenuItem:
+    - type:342
+    - amount:2
+    - name:&a
+    - 'lore1:&aQuà lên cấp'
+    - 'lore2:&2 Bao gồm:&7 coins, rương tài nguyên, Pixel Coins..'
+    - 'lore4:&2 Nhận lại:&7 ∞ giây ⌛'
+    - 'lore5:&2 Trạng thái:&7 clickable'
+    - 'lore6:&aClick vào để xem chi tiết &6⇥'
+    - 'lore7:&a'
+    RewardType: command
+    Reward:
+    - chestcommands open qualencap %player%
+    InventoryLocation: 14
+  5:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWI2NzMwZGU3ZTViOTQxZWZjNmU4Y2JhZjU3NTVmOTQyMWEyMGRlODcxNzU5NjgyY2Q4ODhjYzRhODEyODIifX19=
+    - amount:3
+    - name:&a
+    - 'lore1:&aQuà like Fanpage &f&&a Youtube'
+    - 'lore2:&f⚫&nNotes:&f đây là phần quà dành cho những bạn yêu thích server và chơi lâu dài!'
+    - 'lore4:&2B1:&7 Tham gia vào group fb Ｇrassmc.com thông qua &2Link 1'
+    - 'lore5:&2B2:&7 Truy cập kênh Ｙoutube &2Link 2'
+    - 'lore6:&2B3:&7 Subcribe (đăng ký)'
+    - 'lore7:&2B4:&7 Chụp lải ảnh bạn đã đăng ký kênh'
+    - 'lore8:&2B5:&7 Pos ảnh đã chụp lên group (đừng lo đó chỉ là 1 cộng đồng thiếu nhi & mình rất thích các bài viết). Nhớ để lại tên ingame!'
+    - 'lore9:&2B6:&7 Chờ phần quà gửi đến trong &2/homthu'
+    - 'lore10:&f▶&2Link 1&f &&2 Link 2&7 nhấp vào icon này'
+    - 'lore11:&a(nhấp vào)'
+    - 'lore12:&a'
+    InventoryLocation: 15
+  vip:
+    MenuItem:
+    - type:343
+    - name:&c
+    - 'lore1:&eKit vip'
+    - 'lore2:&2 Bao gồm:&7 các thùng tài nguyên bự, các lọ thuốc lắc và các thứ linh tinh khác..'
+    - 'lore3:&2 Nhận lại:&7 ∞ giây ⌛'
+    - 'lore4:&2 Yêu cầu:&7 cần sỡ hửu &eᴠɪᴘ'
+    - 'lore5:&f(nhấp nhận)'
+    - 'lore6:&7'
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - kits vip
+    - bs close %player%
+    ExtraPermission: 'vip.ownrank.vip'
+    InventoryLocation: 28
+  vip+:
+    MenuItem:
+    - type:343
+    - amount:2
+    - name:&c
+    - 'lore1:&e&lKit vip+'
+    - 'lore2:&2 Bao gồm:&7 các thùng tài nguyên bự, các lọ thuốc lắc và các thứ linh tinh khác..'
+    - 'lore3:&2 Nhận lại:&7 ∞ giây ⌛'
+    - 'lore4:&2 Yêu cầu:&7 cần sỡ hữ &e&lvip+'
+    - 'lore5:&f(nhấp nhận)'
+    - 'lore6:&7'
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - kits vip+
+    - bs close %player%
+    ExtraPermission: 'vip.ownrank.vip+'
+    InventoryLocation: 29
+  mvp:
+    MenuItem:
+    - type:343
+    - amount:3
+    - name:&c
+    - 'lore1:&3&lKit MVP'
+    - 'lore2:&2 Bao gồm:&7 các thùng tài nguyên bự, các lọ thuốc lắc và các thứ linh tinh khác..'
+    - 'lore3:&2 Nhận lại:&7 ∞ giây ⌛'
+    - 'lore4:&2 Yêu cầu:&7 cần sỡ hữ vip MVP'
+    - 'lore5:&f(nhấp nhận)'
+    - 'lore6:&7'
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - kits mvp
+    - bs close %player%
+    ExtraPermission: 'vip.ownrank.mvp'
+    InventoryLocation: 30
+  mvp+:
+    MenuItem:
+    - type:343
+    - amount:4
+    - name:&c
+    - 'lore1:&b&lKit MVP+'
+    - 'lore2:&2 Bao gồm:&7 các thùng tài nguyên bự, các lọ thuốc lắc và các thứ linh tinh khác..'
+    - 'lore3:&2 Nhận lại:&7 ∞ giây ⌛'
+    - 'lore4:&2 Yêu cầu:&7 cần sỡ hữ vip MVP+'
+    - 'lore5:&f(nhấp nhận)'
+    - 'lore6:&7'
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - kits mvp+
+    - bs close %player%
+    ExtraPermission: 'vip.ownrank.mvp+'
+    InventoryLocation: 31
+  king:
+    MenuItem:
+    - type:343
+    - amount:5
+    - name:&c
+    - 'lore1:&c&lKit KING'
+    - 'lore2:&2 Bao gồm:&7 các thùng tài nguyên bự, các lọ thuốc lắc và các thứ linh tinh khác..'
+    - 'lore3:&2 Nhận lại:&7 ∞ giây ⌛'
+    - 'lore4:&2 Yêu cầu:&7 cần sỡ hữ vip KING'
+    - 'lore5:&f(nhấp nhận)'
+    - 'lore6:&7'
+    RewardType: PLAYERCOMMAND
+    Reward:
+    - kits king
+    - bs close %player%
+    ExtraPermission: 'vip.ownrank.king'
+    InventoryLocation: 32
+  a1:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 1
+  a2:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 2
+  a3:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 3
+  a4:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 4
+  a5:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 5
+  a6:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 6
+  a7:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 7
+  a8:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 8
+  a9:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 9
+  a10:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 46
+  a11:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 47
+  a12:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 48
+  a13:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 49
+  a14:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 51
+  a15:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 52
+  a16:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 53
+  a17:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 54
+  back:
+    MenuItem:
+    - type:399
+    - name:&a
+    - 'lore1:&2 Quay lại'
+    - 'lore2:&f'
+    RewardType: shop
+    Reward: menu
+    InventoryLocation: 50

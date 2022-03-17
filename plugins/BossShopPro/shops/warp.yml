@@ -1,0 +1,272 @@
+ShopName: warp
+DisplayName: '&cMÁY CHỦ&6♦&8 Các warps☫'
+Command: warp:khu
+Sound:
+  Shop:
+    Open: ENTITY_ITEM_PICKUP:1:1
+    ChangeShop: ENTITY_PLAYER_LEVELUP:1:1
+shop:
+  1:
+    MenuItem:
+    - type:2
+    - name:&a&lĐại Sảnh
+    - 'lore2:&2• &a Nơi đầu tiên bạn vào game. Đại sảnh chứa đựng rất nhiều NPC sinh sống. Dịch chuyển ko tốn time + phí'
+    - 'lore4:&7CLICK vào để dịch chuyển &2&l✔'
+    RewardType: COMMAND
+    Reward:
+    - mv tp %player% world
+    - title %player% title {"text":"Khu dai sanh","bold":true,"color":"green"}
+    - title %player% subtitle ["",{"text":"d\u1ecbch chuy\u1ec3n hoàn t\u1ea5t","color":"white"},{"text":"\u2714","color":"aqua"}]
+    InventoryLocation: 2
+  2:
+    MenuItem:
+    - type:296
+    - name:&a&lKhu Trao đổi
+    - 'lore2:&2• &a Nơi giao dịch các vật phẩm giữa bạn với NPC. Chỉ có item đổi ra item ko có tiền tệ và trung gian. Dịch chuyển ko tốn time + phí'
+    - 'lore4:&7CLICK vào để dịch chuyển &2&l✔'
+    RewardType: COMMAND
+    Reward:
+    - ewarp trade %player%
+    - title %player% title {"text":"Khu trao \u0110\u1ed5i","bold":true,"color":"green"}
+    - title %player% subtitle ["",{"text":"d\u1ecbch chuy\u1ec3n hoàn t\u1ea5t","color":"white"},{"text":"\u2714","color":"aqua"}]
+    InventoryLocation: 4
+  3:
+    MenuItem:
+    - type:388
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a&lKhu đồ Vip
+    - 'lore2:&2• &a Nơi trao đổi ra các trang bị &acực vip. Chủ yếu đổi từ&a hàn băng&7 mua tại &a/cshop. Dịch chuyển ko tốn time + phí'
+    - 'lore4:&7CLICK vào để dịch chuyển &2&l✔'
+    RewardType: COMMAND
+    Reward:
+    - ewarp donate %player%
+    - title %player% title {"text":"Khu donate","bold":true,"color":"green"}
+    - title %player% subtitle ["",{"text":"d\u1ecbch chuy\u1ec3n hoàn t\u1ea5t","color":"white"},{"text":"\u2714","color":"aqua"}]
+    InventoryLocation: 6
+  4:
+    MenuItem:
+    - type:351:4
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a&lKhu phù phép
+    - 'lore2:&2• &a Nơi phù phép TB bằng exp và &9lapis&a. Exp bạn có thể kiếm từ giết quái. Dịch chuyển ko tốn time + phí'
+    - 'lore4:&7CLICK vào để dịch chuyển &2&l✔'
+    RewardType: COMMAND
+    Reward:
+    - ewarp enchant %player%
+    - title %player% title {"text":"Khu phu phep","bold":true,"color":"green"}
+    - title %player% subtitle ["",{"text":"d\u1ecbch chuy\u1ec3n hoàn t\u1ea5t","color":"white"},{"text":"\u2714","color":"aqua"}]
+    InventoryLocation: 8
+  5:
+    MenuItem:
+    - type:268
+    - name:&a&lKhu PvP&f /&a&l PK
+    - 'lore2:&2• &a Nơi đọ sức kiếm, thỏa thích ăn &akill. Chết ko mất đồ. Dịch chuyển ko tốn time + phí'
+    - 'lore4:&7CLICK vào để dịch chuyển &2&l✔'
+    RewardType: COMMAND
+    Reward:
+    - ewarp pvp %player%
+    - title %player% title {"text":"Khu \u0110\u1ed3 Sát","bold":true,"color":"green"}
+    - title %player% subtitle ["",{"text":"d\u1ecbch chuy\u1ec3n hoàn t\u1ea5t","color":"white"},{"text":"\u2714","color":"aqua"}
+    InventoryLocation: 11
+  6:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JjOWQ4ODE2MmY4NzRiNDY3NzAxMzJmNTk5YjcyYTIwZmIyMjgyNGVmMDllYzdkMzU4NTA0OThiNDAxNiJ9fX0==
+    - name:&a&lKhu fram quái
+    - 'lore2:&2• &a Nơi farm quái rơi rồ như: pixelcoins. Rơi phẩm vật hiếm như: thạch cổ đại (trade), exp..., tiền và các thứ linh tinh khác. Dịch chuyển ko tốn time + phí'
+    - 'lore4:&7CLICK vào để chọn cave &2&l✔'
+    RewardType: shop
+    Reward: caves
+    InventoryLocation: 13
+  7:
+    MenuItem:
+    - type:346
+    - name:&a&lKhu câu cá
+    - 'lore2:&2• &a Nơi có sẵn 1 hồ nước. Cá cắn câu nhanh hơn, câu cá khi event câu xảy ra. Dịch chuyển ko tốn time + phí'
+    - 'lore4:&7CLICK vào để dịch chuyển &2&l✔'
+    RewardType: COMMAND
+    Reward:
+    - ewarp fish %player%
+    - title %player% title {"text":"Khu cau ca","bold":true,"color":"green"}
+    - title %player% subtitle ["",{"text":"d\u1ecbch chuy\u1ec3n hoàn t\u1ea5t","color":"white"},{"text":"\u2714","color":"aqua"}
+    InventoryLocation: 15
+  8:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjhmNjU2MTU0MWNmMzYyYzJkNTMxMzI4NGFjZTkxN2U5NDA1OWEwNTU4YzlhYzY1YTlkNmUyNzcxYjg3YWIifX19=
+    - name:&a&lKhu quay rương
+    - 'lore2:&2• &a Tìm kiếm chìa khóa báu vật để quay. Chìa khóa từ: mine, online, boss rơi!. Dịch chuyển ko tốn time + phí'
+    - 'lore4:&7CLICK vào để dịch chuyển &2&l✔'
+    RewardType: COMMAND
+    Reward:
+    - ewarp crates %player%
+    - title %player% title {"text":"Khu quay bau vat","bold":true,"color":"green"}
+    - title %player% subtitle ["",{"text":"d\u1ecbch chuy\u1ec3n hoàn t\u1ea5t","color":"white"},{"text":"\u2714","color":"aqua"}
+    InventoryLocation: 17
+  9:
+    MenuItem:
+    - type:384
+    - name:&a&lTreo máy
+    - 'lore2:&2• &a Treo máy có 2 loại: 1.ko làm gì cả. nhận free xp. 2.Treo máy đánh quái, đề nghị: giáp gai > I. Rơi 1 vài vật phẩm hiếm, exp, exp class, đá rpg. Dịch chuyển ko tốn time + phí'
+    - 'lore4:&7CLICK vào để dịch chuyển &2&l✔'
+    RewardType: command
+    Reward: 
+    - ewarp afk %player%
+    - title %player% title {"text":"Khu treo may","bold":true,"color":"green"}
+    - title %player% subtitle ["",{"text":"d\u1ecbch chuy\u1ec3n hoàn t\u1ea5t","color":"white"},{"text":"\u2714","color":"aqua"}]
+    InventoryLocation: 20
+  10:
+    MenuItem:
+    - type:397:5
+    - name:&2NHÀ MÁY CHẤT THẢI
+    - 'lore2:&2• &a Nơi dơ bẩn, chất dơ tụ tập hình thành sinh vật khổng lồ trên thế giới skyworld. Đó gọi là BOssWOrld, tất cả hãy cùng tham gia tiêu diệt, rơi đồ siêu phẩm. Dưới đây là thuộc tính BOSS. Boss mạnh dần theo thời gian.'
+    - 'lore3:&c • HP: 3.000 HP'
+    - 'lore4:&c • DMG: 5.0'
+    - 'lore6:&7Dịch chuyển ko tốn time + phí'
+    RewardType: COMMAND
+    Reward: 
+    - ewarp bw %player%
+    - title %player% title {"text":"CHIẾN BINH SA MẠC","bold":true,"color":"green"}
+    - title %player% subtitle ["",{"text":"d\u1ecbch chuy\u1ec3n hoàn t\u1ea5t","color":"white"},{"text":"\u2714","color":"aqua"}]
+    InventoryLocation: 22
+  11:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTVkZDU2ZDJiNWNmMTliNDlkZWU5OGEwNzE2YjIxNWU4ODZkNjExOGQ3NzFjMmQ4N2YzNGQ3Y2I1M2RlZWEwIn19fQ===
+    - name:&aQuà Đua Top &7(Giải thưởng + Thời gian)
+    - 'lore2:&a Top Season I đã bắt đầu. Giải trưởng trao cho các bạn khá là rộng. Hãy nhanh chóng dành ngay. Thật ra đua top khá là dễ nếu như bạn biết chơi và có 1 vài mẹo. Nên có thể ko nạp mà vẫn dành TOP đấy nhưng mà làm ơn nạp đi được ko coi như duy trì server ^^!'
+    - 'lore3:&aDịch chuyển ko tốn time + phí'
+    - 'lore5:&7CLICK vào để dịch chuyển &2&l✔'
+    RewardType: COMMAND
+    Reward: 
+    - ewarp top %player%
+    - title %player% title {"text":"ĐUA TOP","bold":true,"color":"green"}
+    - title %player% subtitle ["",{"text":"d\u1ecbch chuy\u1ec3n hoàn t\u1ea5t","color":"white"},{"text":"\u2714","color":"aqua"}]
+    InventoryLocation: 24
+  12:
+    MenuItem:
+    - type:285
+    - enchantment:durability#1
+    - hideflags:hide_enchants
+    - name:&aKhu Mine (farm đá)
+    - 'lore2:&2• &a Trải nhiệm cúp mới tại đây. Hoặc tới đây afk nếu ở nhà quá chật chội và ngợp ngạt :)'
+    - 'lore4:&7CLICK vào để dịch chuyển &2&l✔'
+    RewardType: COMMAND
+    Reward: 
+    - ewarp mine %player%
+    - title %player% title {"text":"Khu Dao da","bold":true,"color":"green"}
+    - title %player% subtitle ["",{"text":"d\u1ecbch chuy\u1ec3n hoàn t\u1ea5t","color":"white"},{"text":"\u2714","color":"aqua"}]
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 26
+  back:
+    MenuItem:
+    - type:351:8
+    - enchantment:durability#1
+    - hideflags:hide_enchants
+    - name:&a
+    - 'lore1:&2Quay lại'
+    - 'lore2:&2• &a...'
+    RewardType: SHOP
+    Reward: menu
+    InventoryLocation: 27
+  d1:
+    MenuItem:
+    - type:160:15
+    - enchantment:durability#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 1
+  d2:
+    MenuItem:
+    - type:160:15
+    - enchantment:durability#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 3
+  d3:
+    MenuItem:
+    - type:160:15
+    - enchantment:durability#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 5
+  d4:
+    MenuItem:
+    - type:160:15
+    - enchantment:durability#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 7
+  d5:
+    MenuItem:
+    - type:160:15
+    - enchantment:durability#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 9
+  d6:
+    MenuItem:
+    - type:160:15
+    - enchantment:durability#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 10
+  d7:
+    MenuItem:
+    - type:160:15
+    - enchantment:durability#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 12
+  d8:
+    MenuItem:
+    - type:160:15
+    - enchantment:durability#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 14
+  d9:
+    MenuItem:
+    - type:160:15
+    - enchantment:durability#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 16
+  d10:
+    MenuItem:
+    - type:160:15
+    - enchantment:durability#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 18
+  d11:
+    MenuItem:
+    - type:160:15
+    - enchantment:durability#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 19
+  d12:
+    MenuItem:
+    - type:160:15
+    - enchantment:durability#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 21
+  d13:
+    MenuItem:
+    - type:160:15
+    - enchantment:durability#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 23
+  d14:
+    MenuItem:
+    - type:160:15
+    - enchantment:durability#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 25

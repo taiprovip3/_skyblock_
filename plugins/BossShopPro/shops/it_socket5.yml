@@ -1,0 +1,118 @@
+ShopName: it_socket5
+DisplayName: '&6♦ &8Túi thạch đá &aLV5 &6♦'
+Sound:
+  Shop:
+    Open: ENTITY_PLAYER_LEVELUP:1:1
+    ChangeShop: ENTITY_PLAYER_LEVELUP:1:1
+shop:
+  a:
+    MenuItem:
+    - type:35:13
+    - name:&a&lXác nhận
+    RewardType: playercommandop
+    Reward:
+    - it_socket5
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - 'name:&e&lTÚI &6Thạch đá - {gems} Ｌｖ&f.&65 &e&lRANDOM'
+      - 'lore2:&f ⇱ &e&l thông tin &f ⇲'
+      - 'lore3:&a This is &7thạch đá lv.{grade}'
+      - 'lore4:&a Khảm lên&7 {typeitem},&8 công cụ'
+      - 'lore5:&a Tỉ lệ &7{successrate}%&a⇧ &7{failurerate}%&4⇩ '
+      - 'lore7:&f (( &2 hiệu quả &a/&2 cách dùng &f ))'
+      - 'lore8:&f (&a༜&f) &2+{maxhealth}%&7 Sinh lực tối đa'
+      - 'lore9:&aCÁCH DÙNG &ekéo thả thạch vào tr.bị'
+      - 'lore11:&eLOẠI VẬT PHẨM&a clickable'
+    InventoryLocation: 1
+  b:
+    MenuItem:
+    - type:35:13
+    - name:&a&lXác nhận
+    RewardType: playercommandop
+    Reward:
+    - it_socket5
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - 'name:&e&lTÚI &6Thạch đá - {gems} Ｌｖ&f.&65 &e&lRANDOM'
+      - 'lore2:&f ⇱ &e&l thông tin &f ⇲'
+      - 'lore3:&a This is &7thạch đá lv.{grade}'
+      - 'lore4:&a Khảm lên&7 {typeitem},&8 công cụ'
+      - 'lore5:&a Tỉ lệ &7{successrate}%&a⇧ &7{failurerate}%&4⇩ '
+      - 'lore7:&f (( &2 hiệu quả &a/&2 cách dùng &f ))'
+      - 'lore8:&f (&a༜&f) &2+{maxhealth}%&7 Sinh lực tối đa'
+      - 'lore9:&aCÁCH DÙNG &ekéo thả thạch vào tr.bị'
+      - 'lore11:&eLOẠI VẬT PHẨM&a clickable'
+    InventoryLocation: 2
+  c:
+    MenuItem:
+    - type:35:13
+    - name:&a&lXác nhận
+    RewardType: playercommandop
+    Reward:
+    - it_socket5
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - 'name:&e&lTÚI &6Thạch đá - {gems} Ｌｖ&f.&65 &e&lRANDOM'
+      - 'lore2:&f ⇱ &e&l thông tin &f ⇲'
+      - 'lore3:&a This is &7thạch đá lv.{grade}'
+      - 'lore4:&a Khảm lên&7 {typeitem},&8 công cụ'
+      - 'lore5:&a Tỉ lệ &7{successrate}%&a⇧ &7{failurerate}%&4⇩ '
+      - 'lore7:&f (( &2 hiệu quả &a/&2 cách dùng &f ))'
+      - 'lore8:&f (&a༜&f) &2+{maxhealth}%&7 Sinh lực tối đa'
+      - 'lore9:&aCÁCH DÙNG &ekéo thả thạch vào tr.bị'
+      - 'lore11:&eLOẠI VẬT PHẨM&a clickable'
+    InventoryLocation: 3
+  d:
+    MenuItem:
+    - type:35:13
+    - name:&a&lXác nhận
+    RewardType: playercommandop
+    Reward:
+    - it_socket5
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - 'name:&e&lTÚI &6Thạch đá - {gems} Ｌｖ&f.&65 &e&lRANDOM'
+      - 'lore2:&f ⇱ &e&l thông tin &f ⇲'
+      - 'lore3:&a This is &7thạch đá lv.{grade}'
+      - 'lore4:&a Khảm lên&7 {typeitem},&8 công cụ'
+      - 'lore5:&a Tỉ lệ &7{successrate}%&a⇧ &7{failurerate}%&4⇩ '
+      - 'lore7:&f (( &2 hiệu quả &a/&2 cách dùng &f ))'
+      - 'lore8:&f (&a༜&f) &2+{maxhealth}%&7 Sinh lực tối đa'
+      - 'lore9:&aCÁCH DÙNG &ekéo thả thạch vào tr.bị'
+      - 'lore11:&eLOẠI VẬT PHẨM&a clickable'
+    InventoryLocation: 4
+  e:
+    MenuItem:
+    - type:35:13
+    - name:&a&lXác nhận
+    RewardType: playercommandop
+    Reward:
+    - it_socket5
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - 'name:&e&lTÚI &6Thạch đá - {gems} Ｌｖ&f.&65 &e&lRANDOM'
+      - 'lore2:&f ⇱ &e&l thông tin &f ⇲'
+      - 'lore3:&a This is &7thạch đá lv.{grade}'
+      - 'lore4:&a Khảm lên&7 {typeitem},&8 công cụ'
+      - 'lore5:&a Tỉ lệ &7{successrate}%&a⇧ &7{failurerate}%&4⇩ '
+      - 'lore7:&f (( &2 hiệu quả &a/&2 cách dùng &f ))'
+      - 'lore8:&f (&a༜&f) &2+{maxhealth}%&7 Sinh lực tối đa'
+      - 'lore9:&aCÁCH DÙNG &ekéo thả thạch vào tr.bị'
+      - 'lore11:&eLOẠI VẬT PHẨM&a clickable'
+    InventoryLocation: 5
+  6:
+    MenuItem:
+    - type:35:14
+    - name:&c&lCancel
+    RewardType: close
+    InventoryLocation: 6

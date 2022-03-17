@@ -1,0 +1,69 @@
+Prefix: '&8[&aJackpot&8]&r '
+NoPermission: '&c&lBạn không có quyền!'
+Buy: '&aMua thành công &e&l%tickets% &ajackpot (&e-100⛀/1jack&a)'
+GlobalBuy: '&a%player% đã mua vào %tickets% jackpot. Tổng số tiền jack (POT x3) &e⚖'
+NoMoney: '&c&lBạn không đủ tiền để mua &6&l%tickets% &c&ljackpot. Bạn cần thêm &6&l%money%
+  &c&ltiền để mua &6&l%tickets% &c&ljackpot.'
+TicketLimit: '&c&lBạn không thể mua thêm jackpot!'
+Cooldown: '&c&lVui lòng mua chậm lại! Vui lòng đợi &6%draw% &c&lgiây'
+Win: '&aCongratulations! &6%player% &amay mắn jackpot và nhận được &6%money% &a⛁'
+NoWinnerText: '&cKo có ai :('
+NoPlayers: '&cJackpot không thể xổ. Số lượng người tham gia đợt này ko đủ &22&c người
+  chơi'
+FewPlayers: '&c&lKhông đủ người chơi để công bố jackpot!'
+NotOnline: '&c&lNgười chơi %player% đã chúng jackpot số nhưng không online nên hủy
+  nhận thưởng.'
+LoginWinMessage: '&aChúc mừng bạn! Bạn nhận đc &c%moneygot% &a(Ko tính VAT %moneynotax%)
+  &acho lần trúng jackpot đã từng tham gia!'
+BlockedWorld: '&c&lNgười chơi %player% đang ở trong &4&LWORLD CẤM&c&l nên không thể
+  nhận thưởng.'
+BackToPot: '&6&lKo ai ăn được jackpot! &c&l%newpot% &6&lwas added back to the pot!'
+Reminder: '&eJackpot sẽ được công bố sau: &6%draw% &ephút! Tổng số tiền: &6%pot%&e⛀&e.
+  Tham gia mua jackpot ngay tại&6 /jp gui&e để có cơ hội nhận được Jack và các hộp
+  quà hấp dẫn khác dành cho người may mắn nhất. &2&nChơi ngay!'
+ToggleOFFBuyMessage: '&cBạn sẽ không nhận được bất kì tin nhắn lúc ngời chơi mua jackpot
+  số nữa!'
+ToggleONBuyMessage: '&aBạn đã có thể nhận được tin nhắn lúc người chơi mua jackpot
+  số!'
+ToggleOFFReminderMessage: '&cBạn sẽ không nhận được tin nhắn nhắc nhở jackpot số nào
+  nữa!'
+ToggleONReminderMessage: '&aBạn đã có thể nhận được tin nhắn nhắc nhở jackpot số!'
+TimeTillDrawFormat: '&f%h%h:&f%m%m:&f%s%s'
+WaitingForDraw: '&cWaiting for current Draw..'
+Status:
+- '       &c༿&2Jackpot&c༾'
+- ' '
+- '&ajackpot của bạn: &7%ptickets%'
+- ' '
+- '&aĐã bán được: &7%gtickets% jackpot'
+- ' '
+- '&aSố jackpot Đã mua: &7%pot%'
+- ' '
+- '&aXổ số Sau: &7%draw% &aphút'
+- ' '
+- '&aNgười trúng jackpot lần trước: &7%winner%'
+HelpPage:
+  Users:
+  - §7===================================
+  - §8[§bJackpot§8]
+  - §8[§bJackpot§8] §e§l§o/jp buy (jackpot)
+  - §8[§bJackpot§8]
+  - §8[§bJackpot§8] §e§l§o/jp status (Thông Tin)
+  - §8[§bJackpot§8]
+  - §8[§bJackpot§8] §e§l§o/jp gui (Mở shop)
+  - §8[§bJackpot§8]
+  - §8[§bJackpot§8] §e§l§o/jp toggleremindmsg
+  - §8[§bJackpot§8]
+  - §8[§bJackpot§8] §e§l§o/jp togglebuymsg
+  - §8[§bJackpot§8]
+  - §7===================================
+  Admins:
+  - §7===================================
+  - §8[§bJackpot§8]
+  - §8[§bJackpot§8] §e§l§o/jp draw (Bắt Đầu Lắc xổ số)
+  - §8[§bJackpot§8]
+  - §8[§bJackpot§8] §e§l§o/jp reload (rs plugins)
+  - §8[§bJackpot§8]
+  - §8[§bJackpot§8] §e§l§o/jp addpot <Số Tiền>
+  - §8[§bJackpot§8]
+  - §7===================================

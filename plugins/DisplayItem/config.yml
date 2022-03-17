@@ -1,0 +1,9 @@
+displayitem:
+  itemformat: '&f[%item%&f x%amount%&f]&r'
+  format: '&c%displayname%&f: %message%'
+  cooldown: 5
+  permission-required: true
+  messages:
+    permission: '&cYou do not have permission &7item.hold&c.'
+    cooldown: '&cVui lòng chờ &7%cooldown%s &cđể khoe lại.'
+    not-item: '&cBạn đéo có cầm cái gì trên tay.'

@@ -1,0 +1,168 @@
+ShopName: shop
+DisplayName: '&8Server &5&l✦&8 Shop'
+Command: shop
+Sound:
+  Shop:
+    Open: ENTITY_PLAYER_LEVELUP:1:1
+    ChangeShop: ENTITY_PLAYER_LEVELUP:1:1
+shop:
+  1:
+    MenuItem:
+    - 'name:&a&lBách hóa &2không xanh'
+    - 'lore2:&6Mô tả:&7 là nơi mua / bán các vật phẩm thông dụng, sử dụng ở island nhiều nhất và cần thiết nhất như nước,xô.lava'
+    - 'lore4:&7Toàn bộ mọi thứ trong shop này sử dụng đơn vị tiền tệ &a$'
+    - 'lore6:&7Ghé vào!'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQ5NjU4OWZiNWMxZjY5Mzg3YjdmYjE3ZDkyMzEyMDU4ZmY2ZThlYmViM2ViODllNGY3M2U3ODE5NjExM2IifX19=
+    RewardType: playercommand
+    Reward:
+    - shopgui shopee
+    InventoryLocation: 22
+  2:
+    MenuItem:
+    - 'name:&e&lCửa hàng &ethợ mỏ &f/ tài nguyên'
+    - 'lore2:&6Mô tả:&7 bán các loại đá farm (mined được) ở trong shop này'
+    - 'lore4:&7Thu mua vật phẩm trả giá bằng &a$'
+    - 'lore6:&6Các đá farm là các đá mine ở island = &3nước &6+ &clava'
+    - 'lore8:&7Ghé vào!'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWMxYzkyNWE2MmM0YjcyYWNhMjVhZmJkNDcxZjViOGIxYjg2ZjNjNjZhZGJjMWE5YjlhMmU5NmIyNDkxMWI5YiJ9fX0==
+    RewardType: playercommand
+    Reward: sell
+    InventoryLocation: 23
+  3:
+    MenuItem:
+    - 'name:&e&lCửa hàng &epixelcoin'
+    - 'lore2:&e&lMô tả:'
+    - 'lore3:&7 bán các vật phẩm hiếm bằng tiền tệ Pixelcoin &e&l⛀'
+    - 'lore5:&aClickable &7vào ghé thăm shop!'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZmYzljZjA2ZWE5OWJhOGIwM2FhYzZjNzAzNjIwM2E4YTIzMzZkODQyOTBhMDc4M2ZlZTQ2ZmQ2OGI0ZDIifX19=
+    RewardType: command
+    Reward:
+    - chestcommands open shoppx %player%
+    InventoryLocation: 24
+  4:
+    MenuItem:
+    - 'name:&e&lSHOP &eđạo cụ khác'
+    - 'lore2:&e&lMô tả shop:'
+    - 'lore3:&7 bán các vật phẩm hỗ trợ chiến đấu'
+    - 'lore4:&7 khác như boom, bẫy'
+    - 'lore6:&eSử dụng: &2&l$'
+    - 'lore8:&AClickable&e vào shop'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTRlOGJhMGFiOWUzOTU0Yjc5NGZiMjlmOTNjNmY2ODk0NjEzNmJiY2Q0MDIzMDg3ZTM4YTk3ZjY4ODIzIn19fQ===
+    RewardType: shop
+    Reward: shopboom
+    InventoryLocation: 32
+  back:
+    MenuItem:
+    - 'name:&c&lQuay lại'
+    - 'lore2:&6trở về menu chính'
+    - 'lore4:&7Click vào!'
+    - type:355:14
+    - enchantment:dig_speed#3
+    - hideflags:hide_enchants
+    RewardType: shop
+    Reward: menu
+    InventoryLocation: 50
+  dec1:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 1
+  dec2:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 2
+  dec3:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 3
+  dec4:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 4
+  dec5:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 5
+  dec6:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 6
+  dec7:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 7
+  dec8:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 8
+  dec9:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 9
+  dec99:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 10
+  dec999:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 18
+  dec100:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 37
+  dec1000:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 45
+  dec10:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 46
+  dec11:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 47
+  dec12:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 48
+  dec15:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 52
+  dec16:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 53
+  dec17:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 54
+
+
+
+
+

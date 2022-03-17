@@ -1,0 +1,451 @@
+ShopName: qnt2
+DisplayName: '&8Server &9&l&k||&6 Nạp tích lũy'
+Command: qnt2
+Sound:
+  Shop:
+    Open: ENTITY_ITEM_PICKUP:1:1
+    ChangeShop: ENTITY_ITEM_PICKUP:1:1
+shop:
+  0a:
+    MenuItem:
+    - type:diamond_spade
+    - name:&2☘ &eXẻng Builder&2☘&f ☾&aᴛối ᴛhượng&f☽ &1♠&cMốc&6♦&c100.000vnđ&1♠
+    - 'lore2:&eĐánh giá: &a✫✫✫✫✫✫✫✫✫&7✫'
+    - 'lore4:&eCông dụng:&7 build nhà cực nhanh'
+    - 'lore6:&eCách dùng:&7 cầm trên tay và chĩa chuột theo hướng muốn build. Sỡ hữu nó ngay bạn sẽ biết cách sử dụng nó chi tiết và cực kỳ dẽ dàng!'
+    - 'lore8:&eThông tin:&7 &6♦&7Click.phải để sử dụng. &f(&e{durability}&f)'
+    - 'lore10:&7Click vào đây để nạp thẻ!'
+    RewardType: playercommand
+    Reward:
+    - bs close %player%
+    - napthe
+    InventoryLocation: 11
+  0:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTMxODY3YTY5ODgwZGMxMjRjZjE3MzViZGVlZDI3ODhiZWM0ZjI2YjUyYjdkMzFhZWY5NjAxYzgwZjA4ODhlIn19fQ===
+    - name:&6&lMinion &1♠&cMốc&6♦&c200.000vnđ&1♠
+    - 'lore2:&eĐánh giá: &a✫✫✫✫✫✫✫✫&7✫✫'
+    - 'lore4:&eCông dụng:&7 tự động farm đá'
+    - 'lore6:&eCách dùng:&7 đặt ở island trước máy farm sao cho mặt nó hướng về block farm, nó sẽ tự đào͙'
+    - 'lore8:&eThông tin:&7 sau khi sở hữu, phải đục hopper ảo vào 1 cái rương để nó farm bỏ vào'
+    - 'lore10:&eThông tin khác:&7 mỗi island giới hạn 2 con duy nhất.'
+    - 'lore12:&7Click vào đây để nạp thẻ!'
+    RewardType: playercommand
+    Reward:
+    - bs close %player%
+    - napthe
+    InventoryLocation: 14
+  1:
+    MenuItem:
+    - type:278
+    - name:&6&lCúp ElonMusk &1♠&cMốc&6♦&c500.000vnđ&1♠
+    - 'lore2:&eĐánh giá: &a✫✫✫✫✫✫✫&7✫✫✫'
+    - 'lore4:&eSức mạnh đào:&7 +2000.0%'
+    - 'lore6:&eĐộ bền:&7 10000.0%͙'
+    - 'lore8:&eGia tài:&7 +6.0'
+    - 'lore10:&eNội tại:&7 gia tăng tốc độ di chuyển (20%) khi cầm.'
+    - 'lore12:&rSức mạnh đào gia tăng thời gian phá hủy blocks. Độ bền giúp cúp sài lâu hơn (nhưng vẫn hỏng). Gia tài giúp rơi các quặng ore duy nhất!'
+    - 'lore14:&eThông tin khác: &7[&cđã phong ấn&7]'
+    - 'lore16:&7Click vào đây để nạp thẻ!'
+    - enchantment:DIG_SPEED#20
+    - hideflags:all
+    RewardType: playercommand
+    Reward:
+    - bs close %player%
+    - napthe
+    InventoryLocation: 17
+  2:
+    MenuItem:
+    - type:397:3
+    - amount:10
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGIzMjU5ZmM3NGM1NmNmMTk1NDg3ZDgyM2NjNDZkNTEyM2M2NzFhM2E3MTIzMWU2NjljZmYzYmMxNzllNCJ9fX0==
+    - name:&6Đá &8&lNetherit Souls &1♠&cMốc&6♦&c1.000.000vnđ&1♠
+    - 'lore2:&eĐánh giá: &a✫✫✫✫✫✫✫✫&7✫✫'
+    - 'lore4:&eCông dụng:&7 mở khóa 1 trong thất đại Bảo Pháp (unique) mạnh nhất'
+    - 'lore6:&eCách sử dụng:&7 sau khi sở hữu, cầm đá & thao thác chuột phải hoặc đến giao diện bảo pháp để mở khóa͙'
+    - 'lore8:&eThông tin khác: &7[&cđã phong ấn&7]'
+    - 'lore10:&7Click vào đây để nạp thẻ!'
+    RewardType: playercommand
+    Reward:
+    - bs close %player%
+    - napthe
+    InventoryLocation: 38
+  a1:
+    MenuItem:
+    - type:160:1
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 1
+  a2:
+    MenuItem:
+    - type:160:1
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 2
+  a3:
+    MenuItem:
+    - type:160:1
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 3
+  a4:
+    MenuItem:
+    - type:160:1
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 12
+  a5:
+    MenuItem:
+    - type:160:1
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 21
+  a6:
+    MenuItem:
+    - type:160:1
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 20
+  a7:
+    MenuItem:
+    - type:160:1
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 19
+  a8:
+    MenuItem:
+    - type:160:1
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 10
+  b1:
+    MenuItem:
+    - type:160:2
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 4
+  b2:
+    MenuItem:
+    - type:160:2
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 5
+  b3:
+    MenuItem:
+    - type:160:2
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 6
+  b4:
+    MenuItem:
+    - type:160:2
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 15
+  b5:
+    MenuItem:
+    - type:160:2
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 24
+  b6:
+    MenuItem:
+    - type:160:2
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 23
+  b7:
+    MenuItem:
+    - type:160:2
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 22
+  b8:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 13
+####
+  za:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 7
+  zb:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 8
+  zc:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 9
+  zd:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 16
+  ze:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 18
+  zf:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 27
+  zg:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 26
+  zh:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 25
+  zi:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 28
+  zj:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 29
+  zk:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 30
+  zl:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 31
+  zm:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 32
+  zn:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 33
+  zo:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 34
+  zp:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 35
+  zq:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 36
+  zr:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 37
+  zs:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 39
+  zt:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 40
+  zu:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 42
+  zv:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 43
+  zw:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 45
+  zx:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 47
+  zy:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 48
+  zz:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 49
+  z1:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 50
+  z2:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 51
+  z3:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 52
+  z4:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 53
+  z5:
+    MenuItem:
+    - type:160:15
+    - amount:2
+    - name:&f
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    InventoryLocation: 54
+  back:
+    MenuItem:
+    - type:map
+    - name:&f
+    - 'lore1:&cQuay lại (back)'
+    - 'lore2:&7...'
+    RewardType: playercommand
+    Reward: qnt
+    InventoryLocation: 46

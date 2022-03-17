@@ -1,0 +1,14 @@
+currentQuests:
+- code
+currentStages:
+- 0
+quest-points: 1
+questData:
+  code:
+    passwords:
+    - '&aVui lòng nhập mã code ra màn hình (ko cần dấu /)'
+    passwords-said:
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: Salted_Lemon

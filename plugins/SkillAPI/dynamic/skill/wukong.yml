@@ -1,0 +1,38 @@
+wukong: 
+  name: 'wukong'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req-lvl: 0
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '1'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'BLAZE_ROD'
+  icon-data: 0
+  icon-lore: 
+  - '&e&lGẬY WUKONG &7Lv{level}'
+  - '&f-10mana   -0⌛'
+  - ''
+  - '&e+1.4 DPS&7 (sát thương vật lý)'
+  - ''
+  - '&f&o"Nhấp trái" &7&ovào đây để mặc Unique'
+  desc:  []
+  components: 
+    Cast: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children:  {}

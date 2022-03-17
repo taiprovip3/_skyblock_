@@ -1,0 +1,24 @@
+# Chat prefix, shown in front of plugin messages and notifications
+chatprefix: '§8'
+
+# Chat format, must at least contain the following placeholders
+# {Player}  the player executing the command
+# {Command} the command itself
+#
+# Colors are supported, use §, not &
+#
+# Players that have the 'commandlog.notice' permission can see these messages
+chatformat: '{Player}: §8{Command}'
+
+# Enable/Disable Log to File
+filelog: false
+
+# List of ignored commands, these will not be in the chat or the log file
+ignoredcommands:
+  - login
+  - help
+  - dn
+  - dk
+  - reg
+  - register
+  

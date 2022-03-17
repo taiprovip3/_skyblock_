@@ -1,0 +1,490 @@
+ShopName: stage
+DisplayName: '&6☿&8Server&c♦&8 Trinh Sát (Stage)'
+Sound:
+  Shop:
+    Open: ENTITY_PLAYER_LEVELUP:1:1
+    ChangeShop: ENTITY_PLAYER_LEVELUP:1:1
+shop:
+  1:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjU5ODE5NDViZDlhOTE3OWZiODI5N2EwNjYxYmViMjMxYmNmZGE4M2E0ZGRlZTZiMjA4N2NmZDdiNGNiZDk5OSJ9fX0==
+    - name:&aSTAGE 1
+    - 'lore1:&aKẺ HỦY DIỆT &f【&7CS1&f】'
+    - 'lore3:&7DMG: 5.0'
+    - 'lore4:&7HP: 500&c♥'
+    - 'lore5:&7Speed: 0.2'
+    - 'lore7:&aPHẦN THƯỞNG RƠI'
+    - 'lore8:&7 - ?x Xu khóa, xu'
+    - 'lore9:&7 - ?x Bản vẽ công trình'
+    - 'lore10:&7 - ?x Diamond, Gold, Emerald,...'
+    - 'lore11:&7 - ?x Đá các loại...'
+    - 'lore12:&4Đề xuất vào:'
+    - 'lore13:&7- Full set kim cương enchant'
+    - 'lore14:&7- Level class: 10'
+    - 'lore16:  &a (nhấp) &2Trinh Sát'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - fl1
+    PriceType: NOTHING
+    InventoryLocation: 1
+    ExtraPermission: 'minecraft.stage.1'
+  2:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODYzNGM0ZjE5NjRhZGM3ZjMyNmQ5ZTBmNjQwMWRmM2ZiYTVmMjkzYTg0OWNkOTVmZDkyMTE5MjBhNWI2MCJ9fX0==
+    - amount:2
+    - name:&aSTAGE 2
+    - 'lore1:&aSOJI TENDO &f【&7CS1&f】'
+    - 'lore3:&7DMG: 10.0'
+    - 'lore4:&7HP: 1000&c♥'
+    - 'lore5:&7Speed: 0.2'
+    - 'lore7:&aPHẦN THƯỞNG RƠI'
+    - 'lore8:&7 - ?x Xu khóa, xu'
+    - 'lore9:&7 - ?x Bản vẽ công trình'
+    - 'lore10:&7 - ?x Diamond, Gold, Emerald,...'
+    - 'lore11:&7 - ?x Đá các loại...'
+    - 'lore12:&4Đề xuất vào:'
+    - 'lore13:&7- Full set kim cương enchant'
+    - 'lore14:&7- Level class: 15'
+    - 'lore16:  &a (nhấp) &2Trinh Sát'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - fl2
+    PriceType: NOTHING
+    InventoryLocation: 2
+    ExtraPermission: 'minecraft.stage.2'
+  3:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTdlYzVkNDNiNGY3NTcxY2E1ZWMyYWZkMThkZjI4NjhkZGM0ZDgxZGQzOWVkODk2ZTc2YTE1MzllODIifX19=
+    - amount:3
+    - name:&aSTAGE 3
+    - 'lore1:&aKỊ SỸ BÓNG ĐÊM &f【&7CS1&f】'
+    - 'lore3:&7DMG: 20.0'
+    - 'lore4:&7HP: 2000&c♥'
+    - 'lore5:&7Speed: 0.2'
+    - 'lore7:&aPHẦN THƯỞNG RƠI'
+    - 'lore8:&7 - ?x Xu khóa, xu'
+    - 'lore9:&7 - ?x Bản vẽ công trình'
+    - 'lore10:&7 - ?x Diamond, Gold, Emerald,...'
+    - 'lore11:&7 - ?x Đá các loại...'
+    - 'lore12:&4Đề xuất vào:'
+    - 'lore13:&7- Full set kim cương enchant'
+    - 'lore14:&7- Level class: 20'
+    - 'lore16:  &a (nhấp) &2Trinh Sát'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - fl3
+    PriceType: NOTHING
+    InventoryLocation: 3
+    ExtraPermission: 'minecraft.stage.3'
+  4:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ4MTc3YWE3OWIzMjMyZDhjOWMyMzE3ZmFjYzBlMDY3NWYxOWVhMzQxOGJkOGJjMTZkZTZjMjJiZGZmOTgifX19=
+    - amount:4
+    - name:&aSTAGE 4
+    - 'lore1:&aDemon &f【&7CS1&f】'
+    - 'lore3:&7DMG: 30.0'
+    - 'lore4:&7HP: 3000&c♥'
+    - 'lore5:&7Speed: 0.2'
+    - 'lore7:&aPHẦN THƯỞNG RƠI'
+    - 'lore8:&7 - ?x Xu khóa, xu'
+    - 'lore9:&7 - ?x Bản vẽ công trình'
+    - 'lore10:&7 - ?x Diamond, Gold, Emerald,...'
+    - 'lore11:&7 - ?x Đá các loại...'
+    - 'lore12:&4Đề xuất vào:'
+    - 'lore13:&7- Full set kim cương enchant'
+    - 'lore14:&7- Level class: 25'
+    - 'lore16:  &a (nhấp) &2Trinh Sát'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - fl4
+    PriceType: NOTHING
+    InventoryLocation: 4
+    ExtraPermission: 'minecraft.stage.4'
+  5:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk4ZGY0MmY0NzdmMjEzZmY1ZTlkN2ZhNWE0Y2M0YTY5ZjIwZDljZWYyYjkwYzRhZTRmMjliZDE3Mjg3YjUifX19=
+    - amount:5
+    - name:&aSTAGE 5
+    - 'lore1:&aPIGGY &f【&7CS1&f】'
+    - 'lore3:&7DMG: 40.0'
+    - 'lore4:&7HP: 4000&c♥'
+    - 'lore5:&7Speed: 0.2'
+    - 'lore7:&aPHẦN THƯỞNG RƠI'
+    - 'lore8:&7 - ?x Xu khóa, xu'
+    - 'lore9:&7 - ?x Bản vẽ công trình'
+    - 'lore10:&7 - ?x Diamond, Gold, Emerald,...'
+    - 'lore11:&7 - ?x Đá các loại...'
+    - 'lore12:&4Đề xuất vào:'
+    - 'lore13:&7- Full set kim cương enchant'
+    - 'lore14:&7- Level class: 30'
+    - 'lore16:  &a (nhấp) &2Trinh Sát'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - fl5
+    PriceType: NOTHING
+    InventoryLocation: 5
+    ExtraPermission: 'minecraft.stage.5'
+  6:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI1MDViZTc3OTZiN2Q3OGE3MTdjM2U2NWVhNDJiZjIxMTQ0OWZkYjZkOTNmMmI0MDZhODhhYjcxYjcwIn19fQ===
+    - amount:6
+    - name:&aSTAGE 6
+    - 'lore1:&aGHOST RIDER &f【&7CS1&f】'
+    - 'lore3:&7DMG: 50.0'
+    - 'lore4:&7HP: 5000&c♥'
+    - 'lore5:&7Speed: 0.2'
+    - 'lore7:&aPHẦN THƯỞNG RƠI'
+    - 'lore8:&7 - ?x Xu khóa, xu'
+    - 'lore9:&7 - ?x Bản vẽ công trình'
+    - 'lore10:&7 - ?x Diamond, Gold, Emerald,...'
+    - 'lore11:&7 - ?x Đá các loại...'
+    - 'lore12:&4Đề xuất vào:'
+    - 'lore13:&7- Full set kim cương enchant'
+    - 'lore14:&7- Level class: 35'
+    - 'lore16:  &a (nhấp) &2Trinh Sát'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - fl6
+    PriceType: NOTHING
+    InventoryLocation: 6
+    ExtraPermission: 'minecraft.stage.6'
+  7:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFjNTRiMWI5ZjFhNzNiMGRjMDlmMWZlYjhiYmZkNDhjYzA5MzVkYzJjNDkzMDdmMWMxNTQ3Y2FiZDk2YiJ9fX0==
+    - amount:7
+    - name:&aSTAGE 7
+    - 'lore1:&aWICKED VENOM &f【&7CS1&f】'
+    - 'lore3:&7DMG: 60.0'
+    - 'lore4:&7HP: 6000&c♥'
+    - 'lore5:&7Speed: 0.2'
+    - 'lore7:&aPHẦN THƯỞNG RƠI'
+    - 'lore8:&7 - ?x Xu khóa, xu'
+    - 'lore9:&7 - ?x Bản vẽ công trình'
+    - 'lore10:&7 - ?x Diamond, Gold, Emerald,...'
+    - 'lore11:&7 - ?x Đá các loại...'
+    - 'lore12:&4Đề xuất vào:'
+    - 'lore13:&7- Full set kim cương enchant'
+    - 'lore14:&7- Level class: 40'
+    - 'lore16:  &a (nhấp) &2Trinh Sát'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - fl7
+    PriceType: NOTHING
+    InventoryLocation: 7
+    ExtraPermission: 'minecraft.stage.7'
+  8:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzIzZDU4ODU5YTFhYTIyYmYwZWY5NjZiYjI5NDVjYzM5NjJiYjRiZTVmZWQ0ZTM2OWU3ZjExMjg1NzM1MWYyMiJ9fX0==
+    - amount:8
+    - name:&aSTAGE 8
+    - 'lore1:&aELDER &f【&7CS1&f】'
+    - 'lore3:&7DMG: 70.0'
+    - 'lore4:&7HP: 7000&c♥'
+    - 'lore5:&7Speed: 0.2'
+    - 'lore7:&aPHẦN THƯỞNG RƠI'
+    - 'lore8:&7 - ?x Xu khóa, xu'
+    - 'lore9:&7 - ?x Bản vẽ công trình'
+    - 'lore10:&7 - ?x Diamond, Gold, Emerald,...'
+    - 'lore11:&7 - ?x Đá các loại...'
+    - 'lore12:&4Đề xuất vào:'
+    - 'lore13:&7- Full set kim cương enchant'
+    - 'lore14:&7- Level class: 45'
+    - 'lore16:  &a (nhấp) &2Trinh Sát'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - fl8
+    PriceType: NOTHING
+    InventoryLocation: 8
+    ExtraPermission: 'minecraft.stage.8'
+  9:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmYzNmVkNDhiNWNiZjZiNTMzZDMxNzZhOGRkZjcwOWFmM2ZlMzU3ZjY5YmUzYWUyMzlmZTU5OGE4MWFlODNlIn19fQ===
+    - amount:9
+    - name:&aSTAGE 9
+    - 'lore1:&aPARASITE &f【&7CS1&f】'
+    - 'lore3:&7DMG: 80.0'
+    - 'lore4:&7HP: 8000&c♥'
+    - 'lore5:&7Speed: 0.2'
+    - 'lore7:&aPHẦN THƯỞNG RƠI'
+    - 'lore8:&7 - ?x Xu khóa, xu'
+    - 'lore9:&7 - ?x Bản vẽ công trình'
+    - 'lore10:&7 - ?x Diamond, Gold, Emerald,...'
+    - 'lore11:&7 - ?x Đá các loại...'
+    - 'lore12:&4Đề xuất vào:'
+    - 'lore13:&7- Full set kim cương enchant'
+    - 'lore14:&7- Level class: 50'
+    - 'lore16:  &a (nhấp) &2Trinh Sát'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - fl9
+    PriceType: NOTHING
+    InventoryLocation: 9
+    ExtraPermission: 'minecraft.stage.9'
+  10:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTk3MTg0NjRkYWIwNDljMDY0OGE3MTYwYzZlMzRmMzc1MjIzN2NjMTlhMTljYzcyZDA0MDFiNTE3ZjZjMjQifX19=
+    - amount:10
+    - name:&aSTAGE 10
+    - 'lore1:&aEVOCATION ILLAGER &f【&7CS1&f】'
+    - 'lore3:&7DMG: 90.0'
+    - 'lore4:&7HP: 9000&c♥'
+    - 'lore5:&7Speed: 0.2'
+    - 'lore7:&aPHẦN THƯỞNG RƠI'
+    - 'lore8:&7 - ?x Xu khóa, xu'
+    - 'lore9:&7 - ?x Bản vẽ công trình'
+    - 'lore10:&7 - ?x Diamond, Gold, Emerald,...'
+    - 'lore11:&7 - ?x Đá các loại...'
+    - 'lore12:&4Đề xuất vào:'
+    - 'lore13:&7- Full set kim cương enchant'
+    - 'lore14:&7- Level class: 55'
+    - 'lore16:  &a (nhấp) &2Trinh Sát'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - fl10
+    PriceType: NOTHING
+    InventoryLocation: 10
+    ExtraPermission: 'minecraft.stage.10'
+  11:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJjMTdlM2M0NDMzNmU0ZTZjOTVjNDZhMDE4YWVkNGY2NDMxMGIyMmYxNTE3Njg2YTRiZWU5ODI3ZjliM2FhIn19fQ===
+    - amount:11
+    - name:&aSTAGE 11
+    - 'lore1:&aGUARDIAN &f【&7CS2&f】'
+    - 'lore3:&7DMG: 100.0'
+    - 'lore4:&7HP: 10.000&c♥'
+    - 'lore5:&7Speed: 0.2'
+    - 'lore7:&aPHẦN THƯỞNG RƠI'
+    - 'lore8:&7 - ?x Xu khóa, xu'
+    - 'lore9:&7 - ?x Bản vẽ công trình'
+    - 'lore10:&7 - ?x Diamond, Gold, Emerald,...'
+    - 'lore11:&7 - ?x Đá các loại...'
+    - 'lore12:&4Đề xuất vào:'
+    - 'lore13:&7- Full set kim cương enchant'
+    - 'lore14:&7- Level class: 60'
+    - 'lore16:  &a (nhấp) &2Trinh Sát'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - fl11
+    PriceType: NOTHING
+    InventoryLocation: 11
+    ExtraPermission: 'minecraft.stage.11'
+  12:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODVmZWEyZTM3NWZhMTFiNWM1NjU0MWNlYTBhYjNjYjZkZGZhNmYyMTZkMzhiMTUxM2QxNDFiN2ZkYTE5NGQifX19=
+    - amount:12
+    - name:&aSTAGE 12
+    - 'lore1:&aLÍNH ĐÁNH THUÊ &f【&7CS2&f】'
+    - 'lore3:&7DMG: 110.0'
+    - 'lore4:&7HP: 11.000&c♥'
+    - 'lore5:&7Speed: 0.2'
+    - 'lore7:&aPHẦN THƯỞNG RƠI'
+    - 'lore8:&7 - ?x Xu khóa, xu'
+    - 'lore9:&7 - ?x Bản vẽ công trình'
+    - 'lore10:&7 - ?x Diamond, Gold, Emerald,...'
+    - 'lore11:&7 - ?x Đá các loại...'
+    - 'lore12:&4Đề xuất vào:'
+    - 'lore13:&7- Full set kim cương enchant'
+    - 'lore14:&7- Level class: 65'
+    - 'lore16:  &a (nhấp) &2Trinh Sát'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - fl12
+    PriceType: NOTHING
+    InventoryLocation: 12
+    ExtraPermission: 'minecraft.stage.12'
+  13:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM1MDk5NWNkNmY4ODY1MWMxN2Q5ZWJhOTM1NTg1NDg5NTY5ODM4ODZiNTY4YTEwOWRmOTMyZTBiODhjNWVhMSJ9fX0==
+    - amount:13
+    - name:&aSTAGE 13
+    - 'lore1:&aVOLLIBEAR &f【&7CS2&f】'
+    - 'lore3:&7DMG: 120.0'
+    - 'lore4:&7HP: 12.000&c♥'
+    - 'lore5:&7Speed: 0.2'
+    - 'lore7:&aPHẦN THƯỞNG RƠI'
+    - 'lore8:&7 - ?x Xu khóa, xu'
+    - 'lore9:&7 - ?x Bản vẽ công trình'
+    - 'lore10:&7 - ?x Diamond, Gold, Emerald,...'
+    - 'lore11:&7 - ?x Đá các loại...'
+    - 'lore12:&4Đề xuất vào:'
+    - 'lore13:&7- Full set kim cương enchant'
+    - 'lore14:&7- Level class: 70'
+    - 'lore16:  &a (nhấp) &2Trinh Sát'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - fl13
+    PriceType: NOTHING
+    InventoryLocation: 13
+    ExtraPermission: 'minecraft.stage.13'
+  14:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODA1NGJlYzVlMDliNjU5ZTYzYmU1MDk2ZGNhN2ZiZDExODhjYjE4M2FkODU3YzFlYzEwMzdjYzE4MTI5ODUifX19=
+    - amount:14
+    - name:&aSTAGE 14
+    - 'lore1:&aPARASITE &f【&7CS2&f】'
+    - 'lore3:&7DMG: 130.0'
+    - 'lore4:&7HP: 13.000&c♥'
+    - 'lore5:&7Speed: 0.2'
+    - 'lore7:&aPHẦN THƯỞNG RƠI'
+    - 'lore8:&7 - ?x Xu khóa, xu'
+    - 'lore9:&7 - ?x Bản vẽ công trình'
+    - 'lore10:&7 - ?x Diamond, Gold, Emerald,...'
+    - 'lore11:&7 - ?x Đá các loại...'
+    - 'lore12:&4Đề xuất vào:'
+    - 'lore13:&7- Full set kim cương enchant'
+    - 'lore14:&7- Level class: 75'
+    - 'lore16:  &a (nhấp) &2Trinh Sát'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - fl14
+    PriceType: NOTHING
+    InventoryLocation: 14
+    ExtraPermission: 'minecraft.stage.14'
+  15:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNkNzEzYzVmNWU0NmRhNDM2YThmNTRiNTIzZDQzYWYyOWY3YWU4ZmIxODQ3OTJjY2E3M2IxNzE3ZmVhYTYxIn19fQ===
+    - amount:15
+    - name:&aSTAGE 15
+    - 'lore1:&aSKELETON KING &f【&7CS2&f】'
+    - 'lore3:&7DMG: 140.0'
+    - 'lore4:&7HP: 14.000&c♥'
+    - 'lore5:&7Speed: 0.2'
+    - 'lore7:&aPHẦN THƯỞNG RƠI'
+    - 'lore8:&7 - ?x Xu khóa, xu'
+    - 'lore9:&7 - ?x Bản vẽ công trình'
+    - 'lore10:&7 - ?x Diamond, Gold, Emerald,...'
+    - 'lore11:&7 - ?x Đá các loại...'
+    - 'lore12:&4Đề xuất vào:'
+    - 'lore13:&7- Full set kim cương enchant'
+    - 'lore14:&7- Level class: 80'
+    - 'lore16:  &a (nhấp) &2Trinh Sát'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - fl15
+    PriceType: NOTHING
+    InventoryLocation: 15
+    ExtraPermission: 'minecraft.stage.15'
+  16:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMGQwYWM5NjY1ZDg4MDNjY2IyOWViMjhjMjVjZWY2ZDE5MzY1YmI1ODE2OGFlM2FkMTlmNjI3ZWUzYTllZCJ9fX0==
+    - amount:16
+    - name:&aSTAGE 16
+    - 'lore1:&aARANEAE &f【&7CS2&f】'
+    - 'lore3:&7DMG: 150.0'
+    - 'lore4:&7HP: 15.000&c♥'
+    - 'lore5:&7Speed: 0.2'
+    - 'lore7:&aPHẦN THƯỞNG RƠI'
+    - 'lore8:&7 - ?x Xu khóa, xu'
+    - 'lore9:&7 - ?x Bản vẽ công trình'
+    - 'lore10:&7 - ?x Diamond, Gold, Emerald,...'
+    - 'lore11:&7 - ?x Đá các loại...'
+    - 'lore12:&4Đề xuất vào:'
+    - 'lore13:&7- Full set kim cương enchant'
+    - 'lore14:&7- Level class: 85'
+    - 'lore16:  &a (nhấp) &2Trinh Sát'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - fl16
+    PriceType: NOTHING
+    InventoryLocation: 16
+    ExtraPermission: 'minecraft.stage.16'
+  17:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU4YzEyZWYyNTNkOWM2M2QyMzFmYTZmM2ZiYmYxNzlkYTkxYTkyZjNmYjRjY2VkYzZjNjYxZGEyNmM1YSJ9fX0==
+    - amount:17
+    - name:&aSTAGE 17
+    - 'lore1:&aNORAGAMI &f【&7CS2&f】'
+    - 'lore3:&7DMG: 160.0'
+    - 'lore4:&7HP: 16.000&c♥'
+    - 'lore5:&7Speed: 0.2'
+    - 'lore7:&aPHẦN THƯỞNG RƠI'
+    - 'lore8:&7 - ?x Xu khóa, xu'
+    - 'lore9:&7 - ?x Bản vẽ công trình'
+    - 'lore10:&7 - ?x Diamond, Gold, Emerald,...'
+    - 'lore11:&7 - ?x Đá các loại...'
+    - 'lore12:&4Đề xuất vào:'
+    - 'lore13:&7- Full set kim cương enchant'
+    - 'lore14:&7- Level class: 90'
+    - 'lore16:  &a (nhấp) &2Trinh Sát'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - fl17
+    PriceType: NOTHING
+    InventoryLocation: 17
+    ExtraPermission: 'minecraft.stage.17'
+  18:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRlZGJlZTQyYmU0NzJlM2ViNzkxZTdkYmRmYWYxOGM4ZmU1OTNjNjM4YmExMzk2YzllZjY4ZjU1NWNiY2UifX19=
+    - amount:18
+    - name:&aSTAGE 18
+    - 'lore1:&aVINDICATOR &f【&7CS2&f】'
+    - 'lore3:&7DMG: 170.0'
+    - 'lore4:&7HP: 17.000&c♥'
+    - 'lore5:&7Speed: 0.2'
+    - 'lore7:&aPHẦN THƯỞNG RƠI'
+    - 'lore8:&7 - ?x Xu khóa, xu'
+    - 'lore9:&7 - ?x Bản vẽ công trình'
+    - 'lore10:&7 - ?x Diamond, Gold, Emerald,...'
+    - 'lore11:&7 - ?x Đá các loại...'
+    - 'lore12:&4Đề xuất vào:'
+    - 'lore13:&7- Full set kim cương enchant'
+    - 'lore14:&7- Level class: 95'
+    - 'lore16:  &a (nhấp) &2Trinh Sát'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - fl18
+    PriceType: NOTHING
+    InventoryLocation: 18
+    ExtraPermission: 'minecraft.stage.18'
+  19:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDEyMmI1NjQ2MzRjYzdiMDMwNTg4MTMzNmRhYjYzZGJiNmQzMTFjNWFjZjFmNjA0ZWFlMTc5NTk3ZjIzNjQifX19=
+    - amount:19
+    - name:&aSTAGE 19
+    - 'lore1:&aWIZARD &f【&7CS3&f】'
+    - 'lore3:&7DMG: 180.0'
+    - 'lore4:&7HP: 18.000&c♥'
+    - 'lore5:&7Speed: 0.2'
+    - 'lore7:&aPHẦN THƯỞNG RƠI'
+    - 'lore8:&7 - ?x Xu khóa, xu'
+    - 'lore9:&7 - ?x Bản vẽ công trình'
+    - 'lore10:&7 - ?x Diamond, Gold, Emerald,...'
+    - 'lore11:&7 - ?x Đá các loại...'
+    - 'lore12:&4Đề xuất vào:'
+    - 'lore13:&7- Full set kim cương enchant'
+    - 'lore14:&7- Level class: 5'
+    - 'lore16:  &a (nhấp) &2Trinh Sát'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - fl19
+    PriceType: NOTHING
+    InventoryLocation: 19
+    ExtraPermission: 'minecraft.stage.19'
+  back:
+    MenuItem:
+    - type:arrow
+    - name:&a
+    - 'lore1:&c&lBe back'
+    - 'lore2:&7'
+    RewardType: shop
+    Reward: menu
+    InventoryLocation: 50

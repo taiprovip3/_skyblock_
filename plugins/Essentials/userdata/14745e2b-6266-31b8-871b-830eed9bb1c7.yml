@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 125.235.239.51
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1646563136921
+  login: 1646563101141
+money: '0'
+last-account-name: taiprovip3
+logoutlocation:
+  world: 7e03b946-e203-4bc3-9f47-39f77aa9145a
+  world-name: world
+  x: 31.5
+  y: 98.0
+  z: -1.0697686567437055
+  yaw: 6.653129821643233E-4
+  pitch: -1.3499990701675415

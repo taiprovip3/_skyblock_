@@ -1,0 +1,288 @@
+#Note: 
+#Please use [Space] instead of [Tab]
+#Forgot to add open and close string statement ["] causing not load properly!
+#If data value is invalid, the item will not be created!
+#1 Seconds = 20 Ticks
+
+#-----=====[ Main Data ]=====-----#
+
+#Keylore: Identifier in lore item.
+#Display_Name: Display name of the item socket.
+#Material: Material will be used for item socket.
+#Data: Data of type material.
+#Shiny: Add shiny effect to the item.
+#Lores: Lore of items socket.
+#Max_Grade: Max grade of the item socket.
+#Type_Item: Type item that allowed to use the socket
+#Base_Success_Rate: Base success rate to apply the socket.
+#Scale_Success_Rate: Scale success rate to apply the socket.
+#Effect: Bonus effect that will be applied.
+
+#-----=====[ Type Item ]=====-----#
+
+#Weapon: All type of weapon
+#Armor: All type of armor
+#Universal: All type of material
+
+#-----=====[ Bonus Effect ]=====-----#
+
+#Bonus_Base_Additional_Damage: Bonus base additional damage.
+#Bonus_Scale_Additional_Damage: Bonus scale additional damage.
+#Bonus_Base_Percent_Damage: Bonus base percent damage based on base damage.
+#Bonus_Scale_Percent_Damage: Bonus scale percent damage based on base damage.
+#Bonus_Base_Penetration: Bonus base penetration to ignore enemy armor.
+#Bonus_Scale_Penetration: Bonus scale penetration to ignore enemy armor.
+#Bonus_Base_PvP_Damage: Bonus base percent damage when attack Player.
+#Bonus_Scale_PvP_Damage: Bonus scale percent damage when attack Player.
+#Bonus_Base_PvE_Damage: Bonus base percent damage when attack Non-Player.
+#Bonus_Scale_PvE_Damage: Bonus scale percent damage when attack Non-Player.
+#Bonus_Base_Additional_Defense: Bonus base additional defense.
+#Bonus_Scale_Additional_Defense: Bonus scale additional defense.
+#Bonus_Base_Percent_Defense: Bonus base percent defense based on base defense.
+#Bonus_Scale_Percent_Defense: Bonus scale percent defense based on base defense.
+#Bonus_Base_Max_Health: Bonus base max health when wearing armor.
+#Bonus_Scale_Max_Health: Bonus scale max health when wearing armor.
+#Bonus_Base_PvP_Defense: Bonus base percent defense when attacked by Player.
+#Bonus_Scale_PvP_Defense: Bonus scale percent defense when attacked by Player.
+#Bonus_Base_PvE_Defense: Bonus base percent defense when attacked by Non-Player.
+#Bonus_Scale_PvE_Defense: Bonus scale percent defense when attacked by Non-Player.
+#Bonus_Base_Critical_Chance: Add base chance of critical hit.
+#Bonus_Scale_Critical_Chance: Add scale chance of critical hit.
+#Bonus_Base_Critical_Damage: Add base critical damage in percent.
+#Bonus_Scale_Critical_Damage: Add scale critical damage in percent.
+#Bonus_Base_Block_Amount: Add base amount value of block damage.
+#Bonus_Scale_Block_Amount: Add scale amount value of block damage.
+#Bonus_Base_Block_Rate: Add base chance of block in percent.
+#Bonus_Scale_Block_Rate: Add scale chance of block in percent.
+#Bonus_Base_Hit_Rate: Add base chance of hit rate in percent.
+#Bonus_Scale_Hit_Rate: Add scale chance of hit rate in percent.
+#Bonus_Base_Dodge_Rate: Add base chance of dodge in percent.
+#Bonus_Scale_Dodge_Rate: Add scale chance of dodge in percent.
+
+#-----=====[ Attributes Placeholder ]=====-----#
+
+#- {gems} = Name of item socket
+#- {grade} = Grade of the item socket.
+#- {type_item} = Type item that allowed to use the socket
+#- {success_rate} = Success rate to apply the socket
+#- {failure_rate} = Failure rate when apply the socket
+#- {additional_damage} = Total bonus additional damage
+#- {percent_damage} = Total bonus percent damage
+#- {penetration} = Total bonus penetration
+#- {pvp_damage} = Total bonus pvp damage
+#- {pve_damage} = Total bonus pve damage
+#- {additional_defense} = Total bonus additional defense
+#- {percent_defense} = Total bonus percent defense
+#- {max_health} = Total bonus max health
+#- {pvp_defense} = Total bonus pvp defense
+#- {pve_defense} = Total bonus pve defense
+#- {critical_chance} = Total bonus critical chance
+#- {critical_damage} = Total bonus critical damage
+#- {block_amount} = Total bonus block amount
+#- {block_rate} = Total bonus block rate
+#- {hit_rate} = Total bonus hit rate
+#- {dodge_rate} = Total bonus dodge rate
+
+#-----=====[ Socket Gems Configuration ]=====-----#
+
+Amethyst:
+  Keylore: "&f (&a༜&f) &2+{max_health}%&7 Sinh lực tối đa"
+  Display_Name: "&6Thạch đá - {gems} Ｌｖ&f.&6{grade}"
+  Material: "Emerald"
+  Shiny: true
+  Max_Grade: 5
+  Type_Item: "Armor"
+  Base_Success_Rate: 75
+  Scale_Success_Rate: -8
+  Effect:
+    Bonus_Base_Max_Health: 1
+    Bonus_Scale_Max_Health: 0.4
+  Lores:
+  - ""
+  - " &f ⇱ &e&l thông tin &f ⇲"
+  - "&a This is: &7thạch đá lv.{grade}"
+  - "&a Khảm lên:&7 {type_item},&8 công cụ"
+  - "&a Tỉ lệ: &7{success_rate}%&a⇧ &7{failure_rate}%&4⇩"
+  - ""
+  - " &f (( &2 hiệu quả &a/&2 cách dùng &f ))"
+  - "&f (&a༜&f) &2+{max_health}%&7 Sinh lực tối đa"
+  - "&aCÁCH DÙNG: &ekéo thả thạch vào tr.bị"
+  
+Ruby:
+  Keylore: "&f (&a༜&f) &2+{percent_damage}%&7 Sát thương vật lí"
+  Display_Name: "&6Thạch đá - {gems} Ｌｖ&f.&6{grade}"
+  Material: "Blaze_Rod"
+  Shiny: false
+  Max_Grade: 5
+  Type_Item: "Weapon"
+  Base_Success_Rate: 75
+  Scale_Success_Rate: -8
+  Effect:
+    Bonus_Base_Percent_Damage: 5
+    Bonus_Scale_Percent_Damage: 1.25
+  Lores:
+  - ""
+  - " &f ⇱ &e&l thông tin &f ⇲"
+  - "&a This is: &7thạch đá lv.{grade}"
+  - "&a Khảm lên:&7 {type_item},&8 công cụ"
+  - "&a Tỉ lệ: &7{success_rate}%&a⇧ &7{failure_rate}%&4⇩"
+  - ""
+  - " &f (( &2 hiệu quả &a/&2 cách dùng &f ))"
+  - "&f (&a༜&f) &2+{percent_damage}%&7 Sát thương vật lí"
+  - "&aCÁCH DÙNG: &ekéo thả thạch vào tr.bị"
+  
+Sapphire:
+  Keylore: "&f (&a༜&f) &2+{critical_chance}%&7 Tỉ lệ chí mạng"
+  Display_Name: "&6Thạch đá - {gems} Ｌｖ&f.&6{grade}"
+  Material: "Prismarine_Shard"
+  Shiny: false
+  Max_Grade: 5
+  Type_Item: "Weapon"
+  Base_Success_Rate: 75
+  Scale_Success_Rate: -8
+  Effect:
+    Bonus_Base_Critical_Chance: 4
+    Bonus_Scale_Critical_Chance: 1.5
+  Lores:
+  - ""
+  - " &f ⇱ &e&l thông tin &f ⇲"
+  - "&a This is: &7thạch đá lv.{grade}"
+  - "&a Khảm lên:&7 {type_item},&8 công cụ"
+  - "&a Tỉ lệ: &7{success_rate}%&a⇧ &7{failure_rate}%&4⇩"
+  - ""
+  - " &f (( &2 hiệu quả &a/&2 cách dùng &f ))"
+  - "&f (&a༜&f) &2+{critical_chance}%&7 Tỉ lệ chí mạng"
+  - "&aCÁCH DÙNG: &ekéo thả thạch vào tr.bị"
+  
+Onyx:
+  Keylore: "&f (&a༜&f) &2+{critical_damage}%&7 Sát thương chí mạng"
+  Display_Name: "&6Thạch đá - {gems} Ｌｖ&f.&6{grade}"
+  Material: "Coal"
+  Data: 1
+  Shiny: false
+  Max_Grade: 5
+  Type_Item: "Weapon"
+  Base_Success_Rate: 75
+  Scale_Success_Rate: -8
+  Effect:
+    Bonus_Base_Critical_Damage: 10
+    Bonus_Scale_Critical_Damage: 2.5
+  Lores:
+  - ""
+  - " &f ⇱ &e&l thông tin &f ⇲"
+  - "&a This is: &7thạch đá lv.{grade}"
+  - "&a Khảm lên:&7 {type_item},&8 công cụ"
+  - "&a Tỉ lệ: &7{success_rate}%&a⇧ &7{failure_rate}%&4⇩"
+  - ""
+  - " &f (( &2 hiệu quả &a/&2 cách dùng &f ))"
+  - "&f (&a༜&f) &2+{critical_damage}%&7 Sát thương chí mạng"
+  - "&aCÁCH DÙNG: &ekéo thả thạch vào tr.bị"
+Limt:
+  Keylore: "&f (&a༜&f) &2+{additional_damage}x&7 Sát thương vật lí"
+  Display_Name: "&6Ngọc thường &7-&e {gems} {grade}"
+  Material: "Diamond"
+  Shiny: false
+  Max_Grade: 5
+  Type_Item: "Weapon"
+  Base_Success_Rate: 80
+  Scale_Success_Rate: -9
+  Effect:
+    Bonus_Base_Additional_Damage: 1
+    Bonus_Scale_Additional_Damage: 1
+  Lores:
+  - ""
+  - " &f ⇱ &e&l thông tin &f ⇲"
+  - "&a This is: &7thạch đá lv.{grade}"
+  - "&a Khảm lên:&7 {type_item},&8 công cụ"
+  - "&a Tỉ lệ: &7{success_rate}%&a⇧ &7{failure_rate}%&4⇩"
+  - ""
+  - " &f (( &2 hiệu quả &a/&2 cách dùng &f ))"
+  - "&f (&a༜&f) &2+{additional_damage}x&7 Sát thương vật lí"
+  - "&aCÁCH DÙNG: &ekéo thả thạch vào tr.bị"
+Zobi:
+  Keylore: "&f (&a༜&f) &2+{pve_damage}x&7 Sát thương PvE"
+  Display_Name: "&6Ngọc hiếm&7 -&e {gems} {grade}"
+  Material: "Emerald"
+  Shiny: true
+  Max_Grade: 5
+  Type_Item: "Weapon"
+  Base_Success_Rate: 75
+  Scale_Success_Rate: -5
+  Effect:
+    Bonus_Base_PvE_Damage: 0.4
+    Bonus_Scale_PvE_Damage: 0.4
+  Lores:
+  - ""
+  - " &f ⇱ &e&l thông tin &f ⇲"
+  - "&a This is: &7thạch đá lv.{grade}"
+  - "&a Khảm lên:&7 {type_item},&8 công cụ"
+  - "&a Tỉ lệ: &7{success_rate}%&a⇧ &7{failure_rate}%&4⇩"
+  - ""
+  - " &f (( &2 hiệu quả &a/&2 cách dùng &f ))"
+  - "&f (&a༜&f) &2+{pve_damage}x&7 Sát thương PvE"
+  - "&aCÁCH DÙNG: &ekéo thả thạch vào tr.bị"
+Warr:
+  Keylore: "&f (&a༜&f) &2+{pvp_damage}x&7 Sát thương PvP"
+  Display_Name: "&6Ngọc hiếm&7 -&e {gems} {grade}"
+  Material: "Emerald"
+  Shiny: true
+  Max_Grade: 5
+  Type_Item: "Weapon"
+  Base_Success_Rate: 75
+  Scale_Success_Rate: -5
+  Effect:
+    Bonus_Base_PvP_Damage: 0.3
+    Bonus_Scale_PvP_Damage: 0.3
+  Lores:
+  - ""
+  - " &f ⇱ &e&l thông tin &f ⇲"
+  - "&a This is: &7thạch đá lv.{grade}"
+  - "&a Khảm lên:&7 {type_item},&8 công cụ"
+  - "&a Tỉ lệ: &7{success_rate}%&a⇧ &7{failure_rate}%&4⇩"
+  - ""
+  - " &f (( &2 hiệu quả &a/&2 cách dùng &f ))"
+  - "&f (&a༜&f) &2+{pvp_damage}x&7 Sát thương PvP"
+  - "&aCÁCH DÙNG: &ekéo thả thạch vào tr.bị"
+Crital:
+  Keylore: "&f (&a༜&f) &2+{critical_chance}%&7 Tỉ lệ chí mạng"
+  Display_Name: "&6Ngọc thường&7 -&e {gems} {grade}"
+  Material: "Name_Tag"
+  Shiny: true
+  Max_Grade: 5
+  Type_Item: "Weapon"
+  Base_Success_Rate: 65
+  Scale_Success_Rate: -4.25
+  Effect:
+    Bonus_Base_Critical_Chance: 10
+    Bonus_Scale_Critical_Chance: 5
+  Lores:
+  - ""
+  - " &f ⇱ &e&l thông tin &f ⇲"
+  - "&a This is: &7thạch đá lv.{grade}"
+  - "&a Khảm lên:&7 {type_item},&8 công cụ"
+  - "&a Tỉ lệ: &7{success_rate}%&a⇧ &7{failure_rate}%&4⇩"
+  - ""
+  - " &f (( &2 hiệu quả &a/&2 cách dùng &f ))"
+  - "&f (&a༜&f) &2+{critical_chance}%&7 Tỉ lệ chí mạng"
+  - "&aCÁCH DÙNG: &ekéo thả thạch vào tr.bị"
+Brok:
+  Keylore: "&f (&a༜&f) &2+{penetration}x&7 Điểm xuyên giáp"
+  Display_Name: "&6Ngọc hiếm&7-&e {gems} {grade}"
+  Material: "BOOK"
+  Shiny: true
+  Max_Grade: 5
+  Base_Success_Rate: 75
+  Scale_Success_Rate: -9
+  Effect:
+    Bonus_Base_Penetration: 0.5
+    Bonus_Scale_Penetration: 0.5
+  Lores:
+  - ""
+  - " &f ⇱ &e&l thông tin &f ⇲"
+  - "&a This is: &7thạch đá lv.{grade}"
+  - "&a Khảm lên:&7 {type_item},&8 công cụ"
+  - "&a Tỉ lệ: &7{success_rate}%&a⇧ &7{failure_rate}%&4⇩"
+  - ""
+  - " &f (( &2 hiệu quả &a/&2 cách dùng &f ))"
+  - "&f (&a༜&f) &2+{penetration}x&7 Điểm xuyên giáp"
+  - "&aCÁCH DÙNG: &ekéo thả thạch vào tr.bị"

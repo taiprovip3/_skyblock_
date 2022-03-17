@@ -1,0 +1,13 @@
+limit: 3
+active: 1
+health: 21.0
+mana: 0.0
+accounts: 
+  acc1: 
+    classes:  {}
+    skills:  {}
+    binds:  {}
+    attrib-points: 0
+    attribs: 
+      strength: 2
+      vitality: 1

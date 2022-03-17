@@ -1,0 +1,11 @@
+Speed: 1.0
+&eSpawn in &c&l10&e seconds!
+&eSpawn in &c&l9&e seconds!
+&eSpawn in &c&l8&e seconds!
+&eSpawn in &c&l7&e seconds!
+&eSpawn in &c&l6&e seconds!
+&eSpawn in &c&l5&e seconds!
+&eSpawn in &c&l4&e seconds!
+&eSpawn in &c&l3&e seconds!
+&eSpawn in &c&l2&e seconds!
+&eSpawn in &c&l1&e seconds!

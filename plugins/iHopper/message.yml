@@ -1,0 +1,106 @@
+PREFIX: '&8[&e&lTúi farm&8]&r '
+
+STATUS:
+  unknown: '&ckhông rõ'
+
+HELP:
+  header: '&6&l------=====[ &b&lTúi ғarm &a&lv{version} &6&l]=====------'
+  help: '&8 > &c/{label} <help|?> &f: &7Hiển thị trợ giúp này.'
+  open: '&8 > &c/{label} [người chơi] &f: &7Mở túi túiáng sản.'
+  allows: '&8 > &c/{label} allows [người chơi] &f: &7Cho người chơi dùng túi chứa của bạn.'
+  disallow: '&8 > &c/{label} disallow [người chơi] &f: &7Không cho người chơi dùng túi chứa.'
+  withdraw: '&8 > &c/{label} withdraw <vật liệu> <số lượng> &f: &7Rút vật phẩm.'
+  luck: '&8 > &c/{label} luck <tỉ lệ> [dòng] &f: &7Thêm tỉ lệ may mắn.'
+  add: '&8 > &c/{label} add <vật liệu> <số lượng> [người chơi] &f: &7Thêm vật liệu.'
+  take: '&8 > &c/{label} take <vật liệu> <số lượng> [người chơi] &f: &7Bớt vật liệu.'
+  set: '&8 > &c/{label} set <vật liệu> <số lượng> [người chơi] &f: &7Đặt số vật liệu.'
+  reset: '&8 > &c/{label} reset <vật liệu> [người chơi] &f: &7Làm mới số vật liệu.'
+  reload: '&8 > &c/{label} reload &f: &7Làm mới tập tin.'
+  footer: '&6&l--------------------------------------'
+
+SUCCESS:
+  config-reload: '{prefix}&aHoàn tất làm mới lại tập tin!'
+  luck-added: '&2+{chance}%&7 tỉ lệ &eғᴏʀᴛᴜɴᴇ &2x2 &6⚖ &7(&fpickaxe&7)'
+  luck-removed: '&ctỉ lệ &e&lғᴏʀᴛᴜɴᴇ &2x2 &e⚖&4 ⇩&c:&f 0%'
+  gui-opened: '&aBạn vừa mở kho blockfarm &2&l✔'
+  withdraw: '{prefix}&7Đã rút thành công &bx{amount} &r{material}&7. Còn lại: &b{amount-left}'
+  withdraw-optional:
+  - '&8 » &7Rút vật liệu: &r{material}'
+  - '&8 » &7Hiện có: &ex{current}'
+  - '&8 » &7Nhập &8(&6cancel&8) &7hoặc &8(&6exit&8) &7nếu muốn thoát quá trình này!'
+  - '&8[&f!&8] &aNhập số lượng mà bạn muốn rút vào boxchat:'
+  exit-withdraw: '{prefix}&7Đã thoát quá trình rút vật phẩm!'
+  
+  player-allowed: '{prefix}&7Những người chơi được phép: &8[&6{list}&8]'
+  add-allowed: '{prefix}&7Bạn vừa cho phép người chơi &e{player} &7sử dụng túi chứa &2&l✔'
+  take-allowed: '{prefix}&7Bạn vừa không cho phép người chơi &e{player} &7dùng túi chứa nữa!'
+  clear-allowed: '{prefix}&7Đã xoá tất cả người chơi mà bạn cho phép sử dụng túi chứa!'
+  
+  Add:
+    self: '{prefix}&7Đã thêm &b+{amount} &r{material}&7. Hiện có: &ax{current}&7.'
+    sender: '{prefix}&7Đã thêm &b+{amount} &r{material} &7cho &e{player}&7. Hiện có: &ax{current}&7.'
+    target: '{prefix}&b+{amount} &r{material}'
+    
+  Take:
+    self: '{prefix}&7Đã bớt &b-{amount} &r{material}&7. Hiện có: &ax{current}&7.'
+    sender: '{prefix}&7Đã bớt &b-{amount} &r{material} &7của &e{player}&7. Hiện có: &ax{current}&7.'
+    target: '{prefix}&7Đã bớt &b-{amount} &r{material} &7bởi &e{sender}&7. Hiện có: &ax{current}&7.'
+  
+  Set:
+    self: '{prefix}&7Đã đặt &bx{amount} &r{material}&7.'
+    sender: '{prefix}&7Đã đặt &bx{amount} &r{material} &7của &e{player}&7.'
+    target: '{prefix}&7Đã được đặt &bx{amount} &r{material} &7bởi &e{sender}&7.'
+  
+  Reset:
+    self: '{prefix}&7Đã làm mới vật liệu &r{material}&7. Hiện có: &ax{current}&7.'
+    sender: '{prefix}&7Đã làm mới vật liệu &r{material} &7của &e{player}&7. Hiện có: &ax{current}&7.'
+    target: '{prefix}&7Đã được làm mới vật liệu &r{material} &7bởi &e{sender}&7. Hiện có: &ax{current}&7.'
+  
+  #Thông báo khi người chơi đào được:
+  #Các ký hiệu có thể dùng được cho cả 'title', 'sub-title' và 'action-bar'.
+  # * KÝ HIỆU:
+  #  {material} - vật liệu mà người chơi đào được.
+  #  {amount} - số lượng vật liệu đào được.
+  #  {current} - số lượng vật liệu hiện có của người chơi.
+  Broadcast:
+    #Cho phép sử dụng tính năng gửi 'title' ?
+    enable: true
+    title: '&6&l+{amount} {material} &6&lvào kho'
+    sub-title: '&2• &fTồn kho: &d{current} &2•'
+    fade-in: 0
+    stay: 10
+    fade-out: 10
+  # * LƯU Ý: 'action-bar' sẽ chỉ hoạt động nếu 'enable' của 'Broadcast' được đặt thành false.
+  #Nếu không sử dụng 'action-bar', hãy đặt nó thành 'none' hoặc để trống.
+  action-bar: '&6&l+{amount} {material} &6&lvào kho. Quantity: &7{current}/99999'
+
+FAIL:
+  no-permission: '{prefix}&cBạn không có quyền để có thể làm điều này!'
+  too-many-args: '{prefix}&cBạn đã nhập quá nhiều đối tượng của câu lệnh!'
+  only-player: '{prefix}&cChỉ người chơi mới có thể sử dụng câu lệnh này!'
+  must-choose-player: '{prefix}&cVui lòng chỉ định một người chơi đang trực tuyến!'
+  player-not-found: '{prefix}&cNgười chơi &e{value} &ckhông tồn tại hoặc đang ngoại tuyến!'
+  item-not-found: '{prefix}&cKhông thể tìm thấy vật phẩm nào trên tay chính!'
+  invalid-tools: '{prefix}&cKhông thể thêm thuộc tính may mắn vì công cụ không hợp lệ!'
+  must-type-chance: '{prefix}&cVui lòng nhập tỉ lệ mà bạn muốn!'
+  not-number: '{prefix}&cGiá trị &e{value} &ckhông phải là một con số hợp lệ!'
+  slot-too-big: '{prefix}&cDòng số &e{value} &clà quá lớn!'
+  slot-too-small: '{prefix}&cDòng số &e{value} &clà quá nhỏ!'
+  must-type-material: '{prefix}&cVui lòng nhập vật liệu mà bạn muốn!'
+  invalid-material: '{prefix}&cVật liệu &e{value} &ckhông hợp lệ, vui lòng kiểm tra lại!'
+  must-type-amount: '{prefix}&cVui lòng nhập số lượng mà bạn muốn!'
+  will-out-of-min: '{prefix}&cGiới hạn số lượng của vật liệu &e{value} &csẽ vượt giới hạn tối thiểu!'
+  will-out-of-max: '{prefix}&cGiới hạn số lượng của vật liệu &e{value} &csẽ vượt giới hạn tối đa!'
+  amount-too-big: '{prefix}&cSố lượng &e{value} &clà quá lớn, tối đa: &e{max}&c!'
+  amount-too-small: '{prefix}&cSố lượng &e{value} &clà quá nhỏ, tối thiểu: &e{min}&c!'
+  no-player-allowed: '{prefix}&cChưa có người chơi nào được phép sử dụng túi chứa của bạn!'
+  player-already-allowed: '{prefix}&cNgười chơi &e{value} &cđã được cho phép trước đó!'
+  player-not-allowed: '{prefix}&cNgười chơi &e{value} &cchưa được phép sử dụng túi chứa!'
+  not-allowed: '{prefix}&cBạn không được phép sử dụng túi chứa của &e{value}&c!'
+
+ERROR:
+  unknown-error: '{prefix}&cĐã xảy ra một lỗi, vui lòng báo cho tác giả để sớm được khắc phục!'
+  material-is-full: '{prefix}&cKhông thể chứa thêm vật liệu &e{material} &cvì đã đầy!'
+  not-enough-material: '{prefix}&cBạn không có đủ vật liệu &e{material}&c!'
+  inventory-is-full: '{prefix}&cTúi đồ của bạn đã đầy!'
+  must-exit-withdraw: '{prefix}&cKhông thể thực hiện, vui lòng thoát quá trình rút vật phẩm trước!'

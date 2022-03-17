@@ -1,0 +1,115 @@
+crazydiamond2: 
+  name: 'crazydiamond2'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req: 'crazydiamond'
+  skill-req-lvl: 1
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '0'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '100'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'JACK_O_LANTERN'
+  icon-data: 0
+  desc:  []
+  components: 
+    Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'True'
+        cooldown: 'False'
+        target: 'False'
+        type: 'Melee'
+        dmg-min: '2'
+        dmg-max: '18'
+        indicator: '2D'
+      children: 
+        Cone-b: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            range-base: '6'
+            range-scale: '0'
+            angle-base: '90'
+            angle-scale: '0'
+            group: 'Enemy'
+            wall: 'False'
+            caster: 'False'
+            max-base: '6'
+            max-scale: '0'
+            indicator: '2D'
+          children: 
+            Damage-c: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Multiplier'
+                value-base: '20'
+                value-scale: '0'
+                true: 'False'
+                classifier: 'default'
+                indicator: '2D'
+              children:  {}
+            Particle Animation-d: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                steps: '1'
+                frequency: '0.05'
+                angle: '0'
+                start: '0'
+                duration-base: '0.5'
+                duration-scale: '0'
+                h-translation-base: '0'
+                h-translation-scale: '0'
+                v-translation-base: '0'
+                v-translation-scale: '0'
+                h-cycles: '1'
+                v-cycles: '1'
+                particle: 'Angry Villager'
+                arrangement: 'Sphere'
+                radius-base: '1'
+                radius-scale: '0'
+                particles-base: '20'
+                particles-scale: '0'
+                visible-radius: '25'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                speed: '1'
+                amount: '1'
+                forward: '0'
+                upward: '2'
+                right: '0'
+                indicator: '2D'
+              children:  {}
+            Sound-e: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                sound: 'Entity Vex Hurt'
+                volume-base: '100'
+                volume-scale: '0'
+                pitch-base: '1'
+                pitch-scale: '0'
+                indicator: '2D'
+              children:  {}

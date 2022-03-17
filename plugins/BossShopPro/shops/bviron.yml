@@ -1,0 +1,97 @@
+ShopName: bviron
+DisplayName: '&2☘ &8Bản vẽ &firon'
+Sound:
+  Shop:
+    Open: ENTITY_ITEM_PICKUP:1:1
+    ChangeShop: ENTITY_ITEM_PICKUP:1:1
+shop:
+  1:
+    MenuItem:
+    - type:145:2
+    - 'name:&7Thiết kế bản vẽ &f&liron'
+    - 'lore2:&8[&c&l!&8]&e công trình sẽ bao bọc quanh bạn và ghi đè lên các khối xung quanh (&7nếu có&e).#&8[&c&l!&8]&e bản vẽ chủ yếu dùng để đua top island level, và không thể undo nếu xảy ra sai sót và admin ko chịu tránh nhiệm.'
+    - 'lore3:&f  tiêu hao 0 nguyên liệu'
+    - 'lore5:&2Click vào để xây dựng!'
+    RewardType: opcommand
+    Reward:
+    - /schem load bviron
+    - /paste
+    - bs close %player%
+    - bc &2✱%player% &e▹&8&l vừa xây dựng công trình lập phương &f&lIron
+    Condition:
+    - type:world
+    - match:ASkyBlock 
+    - dontmatch:world
+    InventoryLocation: 5
+  2:
+    MenuItem:
+    - 'name:&7'
+    - type:160:15
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  3:
+    MenuItem:
+    - 'name:&7'
+    - type:160:15
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  4:
+    MenuItem:
+    - 'name:&7'
+    - type:160:15
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  5:
+    MenuItem:
+    - 'name:&7'
+    - type:160:15
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  6:
+    MenuItem:
+    - 'name:&7'
+    - type:160:15
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  7:
+    MenuItem:
+    - 'name:&7'
+    - type:160:15
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  8:
+    MenuItem:
+    - 'name:&7'
+    - type:160:15
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+  9:
+    MenuItem:
+    - 'name:&7'
+    - type:160:15
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9

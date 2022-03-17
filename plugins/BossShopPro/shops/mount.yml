@@ -1,0 +1,389 @@
+ShopName: mount
+DisplayName: '&8Server&1 ♠&8 Niên thú'
+Command: mount
+Sound:
+  Shop:
+    Open: ENTITY_PLAY_LEVELUP:1:1
+    ChangeShop: ENTITY_PLAY_LEVELUP:1:1
+shop:
+  1:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzM1NDhiZGYzODZlOWZhODMzODE5ZWFmY2M3YjEyYjc3OWNmZmIyZTIyZDFiY2E2YTYzYjUwYWZlNzdjNyJ9fX0==
+    - 'name:&6&lBẬC I &7Lang Vương'
+    - 'lore2:&e +2.880 &7điểm Sức mạnh'
+    - 'lore4:&eThu thập:&7 quà tăng cấp 30.'
+    - 'lore6:&eGiới thiệu:&7 là sứ giả của 1 tộc sói được cử theo để bảo vệ người đã giúp đỡ tộc sói.'
+    - 'lore8:&aCLICKABLE&7 vào để mặc'
+    RewardType: command
+    Reward:
+    - gadgetsmenu equip pet Baby_Wolf %player%
+    ExtraPermission: 'gadgetsmenu.pets.babywolf'
+    InventoryLocation: 13
+  2:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - amount:2
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNkNzEzYzVmNWU0NmRhNDM2YThmNTRiNTIzZDQzYWYyOWY3YWU4ZmIxODQ3OTJjY2E3M2IxNzE3ZmVhYTYxIn19fQ===
+    - 'name:&6&lBẬC II&7 Ngựa Thor'
+    - 'lore2:&e +6.100 &7điểm Sức mạnh'
+    - 'lore4:&eThu thập:&7 tiến hóa từ niên thú I.'
+    - 'lore6:&eGiới thiệu:&7 là sứ giả của thiên nhiên (sấm sét).'
+    - 'lore8:&aCLICKABLE&7 vào để mặc'
+    RewardType: command
+    Reward:
+    - gadgetsmenu equip pet Baby_Skeleton_Horse %player%
+    ExtraPermission: 'gadgetsmenu.pets.babyskeletonhorse'
+    InventoryLocation: 15
+  3:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - amount:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJhYmJhNTNkOWFiNDgxNDI0MTViNjUwYzA4ZTc5ZTQ1MmY1ZDA5ZTgwYzJmNTgzM2UzNTc0MmYwNmQ1NGM5In19fQ===
+    - 'name:&6&lBẬC III &7Mewtwo'
+    - 'lore2:&e +15.200 &7điểm Sức mạnh'
+    - 'lore4:&eThu thập:&7 tiến hóa từ niên thú II.'
+    - 'lore6:&eGiới thiệu:&7 là bản sao của mew con. Được nhân bản vô tính bởi bàn tay độc ác của con người.'
+    - 'lore8:&aCLICKABLE&7 vào để mặc'
+    RewardType: command
+    Reward:
+    - gadgetsmenu equip pet Baby_Siamese_Cat %player%
+    ExtraPermission: 'gadgetsmenu.pets.babysiamesecat'
+    InventoryLocation: 21
+  4:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - amount:4
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzVjMGYyOWJhYWJlN2JkNDEyODA4ODMzMzU2NGQ2Y2RmOGVkMzQ4NjZlYzlkZTllZDQ4MTJlNjRmODIyZGQifX19=
+    - 'name:&6&lBẬC IV &7Killer Bunny'
+    - 'lore2:&e +30.000 &7điểm Sức mạnh'
+    - 'lore4:&eThu thập:&7 tiến hóa từ niên thú III.'
+    - 'lore6:&eGiới thiệu:&7 mang hình dạng dễ thương của 1 con thỏ đáng yêu nhưng giết người ko cảm xúc.'
+    - 'lore8:&aCLICKABLE&7 vào để mặc'
+    RewardType: command
+    Reward:
+    - gadgetsmenu equip pet Baby_White_Rabbit %player%
+    ExtraPermission: 'gadgetsmenu.pets.babywhiterabbit'
+    InventoryLocation: 31
+  5:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - amount:5
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGZiNmMzYzA1MmNmNzg3ZDIzNmEyOTE1ZjgwNzJiNzdjNTQ3NDk3NzE1ZDFkMmY4Y2JjOWQyNDFkODhhIn19fQ===
+    - 'name:&6&lBẬC V &7Lạc đà Tiên'
+    - 'lore2:&e +62.000 &7điểm Sức mạnh'
+    - 'lore4:&eThu thập:&7 tiến hóa từ niên thú IV.'
+    - 'lore6:&eGiới thiệu:&7 là 1 con vật trong truyền thuyết ai thấy được nó tức sẽ gặp vạn điều may mắn'
+    - 'lore8:&aCLICKABLE&7 vào để mặc'
+    RewardType: command
+    Reward:
+    - gadgetsmenu equip pet Baby_White_Llama %player%
+    ExtraPermission: 'gadgetsmenu.pets.babywhitellama'
+    InventoryLocation: 33
+  6:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - amount:6
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY4MTI5NjIzZmZkZTIyY2JjNTM0OTE1YWUzOGE1ZDYwZjMyZGFlZGJjNGZkNWQyYzMxMGZlYTUzN2VkIn19fQ===
+    - 'name:&6&lBẬC VI &7Kẻ Cắp Giáng Sinh'
+    - 'lore2:&e +128.000 &7điểm Sức mạnh'
+    - 'lore4:&eThu thập:&7 tiến hóa từ niên thú V.'
+    - 'lore6:&eGiới thiệu:&7 hắn là 1 trong những đồng bọn phá hoại buỗi lễ phát quà của ông già noel.'
+    - 'lore8:&aCLICKABLE&7 vào để mặc'
+    RewardType: command
+    Reward:
+    - gadgetsmenu equip pet Snowman %player%
+    ExtraPermission: 'gadgetsmenu.pets.snowman'
+    InventoryLocation: 25
+  7:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - amount:7
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzljYWQ5MmQ0MzliMmE0MmQzNWU5MDllNmM1OWUzNzQ5YzE5OTZiNDk4NzMwZDdmMzkzYjA3NGRmNTI5MDc3In19fQ===
+    - 'name:&6&lBẬC VII &7Bọ Tiền Sử'
+    - 'lore2:&e +245.000 &7điểm Sức mạnh'
+    - 'lore4:&eThu thập:&7 tiến hóa từ niên thú VI.'
+    - 'lore6:&eGiới thiệu:&7 là 1 trong những sinh vật cổ đại còn sống sót cho đến thời điểm hiện tại. Tuổi đời: 6tr năm'
+    - 'lore8:&aCLICKABLE&7 vào để mặc'
+    RewardType: command
+    Reward:
+    - gadgetsmenu equip pet Silverfish %player%
+    ExtraPermission: 'gadgetsmenu.pets.silverfish'
+    InventoryLocation: 14
+  8:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - amount:8
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTA2NjgyYjJiMjBiY2U2NTE4NDBlZmQ0YjIxY2U4N2ZkM2M1OGQ3ZGM1ODgyODhjZDEyYTY3YTYzNTU3YSJ9fX0==
+    - 'name:&6&lBẬC VIII &7Parasite 2019'
+    - 'lore2:&e +510.000 &7điểm Sức mạnh'
+    - 'lore4:&eThu thập:&7 tiến hóa từ niên thú VII.'
+    - 'lore6:&eGiới thiệu:&7 là loại hút máu kí sinh trên tất cả loại vật chủ có máu'
+    - 'lore8:&aCLICKABLE&7 vào để mặc'
+    RewardType: command
+    Reward:
+    - gadgetsmenu equip pet Endermite %player%
+    ExtraPermission: 'gadgetsmenu.pets.endermite'
+    InventoryLocation: 22
+  9:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - amount:9
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQ2MWI3Y2NmZjFkZmY4ZWI5MTRhNDQ1ZjUxMjBiZjI4NjUyZTk1M2E4M2FmOGRlYWNjZjIyYmUyYjk1NWI5In19fQ===
+    - 'name:&6&lBẬC IX &7Tội đồ Golem'
+    - 'lore2:&e +1.000.000 &7điểm Sức mạnh'
+    - 'lore4:&eThu thập:&7 tiến hóa từ niên thú VIII.'
+    - 'lore6:&eGiới thiệu:&7 là 1 kẻ sát nhân, gặp ma giết ma, gặp thần giết thần.'
+    - 'lore8:&aCLICKABLE&7 vào để mặc'
+    RewardType: command
+    Reward:
+    - gadgetsmenu equip pet Golem %player%
+    ExtraPermission: 'gadgetsmenu.pets.golem'
+    InventoryLocation: 32
+  10:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - amount:10
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM1MDk5NWNkNmY4ODY1MWMxN2Q5ZWJhOTM1NTg1NDg5NTY5ODM4ODZiNTY4YTEwOWRmOTMyZTBiODhjNWVhMSJ9fX0==
+    - 'name:&6&lBẬC X &7Gấu Điên'
+    - 'lore2:&e +2.000.000 &7điểm Sức mạnh'
+    - 'lore4:&eThu thập:&7 tiến hóa từ niên thú IX.'
+    - 'lore6:&eGiới thiệu:&7 là loại sinh vật đột biến khổng lồ sau khi hít phải 1 loại khí từ thiên thạch ngoài trái đất.'
+    - 'lore8:&aCLICKABLE&7 vào để mặc'
+    RewardType: command
+    Reward:
+    - gadgetsmenu equip pet Polar_Bear %player%
+    ExtraPermission: 'gadgetsmenu.pets.polarbear'
+    InventoryLocation: 24
+  back:
+    MenuItem:
+    - type:348
+    - name:&a&lQUAY LẠI &7menu
+    - 'lore2:&7Click vào để quay lại'
+    RewardType: shop
+    Reward: menu
+    InventoryLocation: 49
+  rs:
+    MenuItem:
+    - type:404
+    - name:&c&lTHÁO NIÊN THÚ
+    - 'lore2:&creset niên thú đang mang (ẩn niên thú) nếu nó gây lag hoặc làm giảm &aFPS&c của bạn. Xem &aFPS&c bằng ấn phím &aF3'
+    - 'lore4:&aCLICKABLE&7 vào để tắt niên thú'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - gadgetsmenu reset pets
+    InventoryLocation: 50
+  newt:
+    MenuItem:
+    - type:145
+    - name:&2&lNÂNG CẤP&7 Niên Thú
+    - 'lore2:&7Giao diện tiếp theo sẽ giúp bạn nâng &6&lBẬC&7 niên thú lên tầm cao mới' 
+    - 'lore4:&aCLICKABLE&7 vào giao diện'
+    RewardType: shop
+    Reward: mounts
+    InventoryLocation: 51
+  a:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 1
+  b:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 2
+  c:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 3
+  d:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 4
+  e:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 5
+  f:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 6
+  g:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 7
+  h:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 8
+  i:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 9
+  j:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 10
+  k:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 11
+  l:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 12
+  n:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 16
+  o:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 17
+  p:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 18
+  q:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 19
+  r:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 20
+  t:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 23
+  v:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 26
+  w:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 27
+  x:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 28
+  y:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 29
+  z:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 30
+  zb:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 34
+  zc:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 35
+  zd:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 36
+  ze:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 37
+  zf:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 38
+  zg:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 39
+  zh:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 40
+  zi:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 41
+  zj:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 42
+  zk:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 43
+  zl:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 44
+  zm:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 45
+  zn:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 46
+  zo:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 47
+  zp:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 48
+  zq:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 52
+  zr:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 53
+  as:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 54

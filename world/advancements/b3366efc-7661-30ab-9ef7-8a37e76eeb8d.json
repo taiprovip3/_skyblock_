@@ -1,0 +1,14 @@
+{
+  "minecraft:recipes/misc/light_gray_dye_from_gray_bonemeal": {
+    "criteria": {
+      "has_gray_dye": "2022-03-06 07:55:05 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "jungle": "2022-03-06 07:55:05 -0500"
+    },
+    "done": false
+  }
+}

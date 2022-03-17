@@ -1,0 +1,67 @@
+messages:
+  usage: '&a&l[!]&7 /%command%'
+  no-permission: '&c&l[!]&c Bạn không có quyền lệnh này yotta.'
+  config-reloaded: '&a&l[!]&7 You reloaded the &aconfig.yml&7!'
+  crafting-denied: '&c&l[!]&c Chế tạo &a%item%&c bị cấm!'
+  smithing-denied: '&c&l[!]&c Tạo ra &a%item%&c bị cấm!'
+  anvil-denied: '&c&l[!]&c Sử dụng &a%item%&c với cái đe bị cấm!'
+  crafting-bypassed: '&a&l[!]&7 You bypassed the anti-crafting for&a %item%&7.'
+  smithing-bypassed: '&a&l[!]&7 You bypassed the anti-smithing for&a %item%&7.'
+  anvil-bypassed: '&a&l[!]&7 You bypassed the anti-anvil for&a %item%&7.'
+  empty-hand: '&c&l[!]&c Bạn cần cầm cái gì đó trên tay!'
+  already-blacklisted: '&c&l[!]&c This item is already blacklisted!'
+  already-unloaded: '&c&l[!]&c This item is already unloaded!'
+  cannot-blacklist: '&c&l[!]&c Couldn''t remove that item from the blacklist!'
+  cannot-unload: '&c&l[!]&c Couldn''t unload that item!'
+  blacklisted-item: '&a&l[!]&7 You''ve added &a%item% &7to the blacklist.'
+  unloaded-item: '&a&l[!]&7 You''ve unloaded &a%item% &7crafting recipe.'
+  blacklist-item-remove: '&a&l[!]&7 You''ve removed &a%item% &7from the blacklist.'
+  unload-item-remove: '&a&l[!]&7 You''ve loaded &a%item% &7crafting recipe.'
+settings:
+  permission:
+    reload-command: yottabyte.anticraft.reload
+    blacklist-command: yottabyte.anticraft.blacklist
+    unload-command: yottabyte.anticraft.unload
+    craft-bypass: yottabyte.anticraft.bypass
+    smithing-bypass: yottabyte.anticraft.smithing.bypass
+    anvil-bypass: yottabyte.anticraft.anvil.bypass
+disable-all-crafting: false
+disable-all-smithing: false
+disable-all-anvils: false
+unload-all-recipes: false
+anti-crafting:
+  enabled: true
+  disabled-worlds:
+  - nameofworld
+  blacklisted-items:
+  - GOLDEN_APPLE:1
+  - PRISMARINE
+  - PRISMARINE:1
+  - PRISMARINE:2
+  - TNT
+  - OBSERVER
+  - BEACON
+  - ENCHANTMENT_TABLE
+  - PISTON_STICKY_BASE
+  - PISTON_BASE
+  - DISPENSER
+  - DIODE
+  - REDSTONE_COMPARATOR
+  - ITEM_FRAME
+  - EYE_OF_ENDER
+  - DAYLIGHT_DETECTOR
+unload-recipes:
+- HOPPER
+misc:
+  anvil:
+    enabled: false
+    disabled-worlds:
+    - nameofworld
+    blacklisted-items:
+    - DIAMOND_SWORD
+  smithing:
+    enabled: false
+    disabled-worlds:
+    - nameofworld
+    blacklisted-items:
+    - NETHERITE_HOE

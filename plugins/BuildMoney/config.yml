@@ -1,0 +1,28 @@
+## BuildMoney 3.x Config
+Enabled: true
+Rewards:
+    Money: true
+    XP: true
+    Commands: true
+MinReward:
+    Money: 1.0
+    XP: 1
+MaxReward: 
+    Money: 2.0
+    XP: 1
+DayLimit:
+    Money: 100000.0
+    XP: 500
+GameMode: ALL
+ChatMessages: true
+ActionbarMessages: false
+NoticeInterval: 20
+NoticeSound:
+    Enabled: true
+    SoundName: ENTITY_PLAYER_LEVELUP
+    Volume: 1.0
+    Pitch: 0.85
+DisabledWorlds:
+- exampleworld
+GroupRewardBonusPercent:
+  vip: 25

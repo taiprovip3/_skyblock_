@@ -1,0 +1,64 @@
+# ---------------------------------------------- #
+#             Language Configuration             #
+# ---------------------------------------------- #
+# If you are unsure of how to use this file,     #
+# but would like to change how the plugin shows  #
+# text, visit the BukkitDev page at:             #
+# http://dev.bukkit.org/bukkit-plugins/skillapi/ #
+# and look at the tutorials section for the      #
+# configuration tutorials.                       #
+# ---------------------------------------------- #
+Notifications: 
+  cast: '&6'
+  gain-exp: '&6+{exp} &2điểm Sức mạnh &f&l⚓&2.'
+  gain-lvl: '&6Bạn vừa lên cấp &2CLASS NHÂN VẬT &6thành công đến lv{level}&2. ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ ᴏɴ!'
+  lose-exp: '&cBạn vừa đánh mất &6{exp} tinh hoa &c{class}'
+Errors: 
+  on-cooldown: '&cHồi chiêu:&7&o {cooldown}s'
+  no-mana: '&4Bạn cần thêm &6{missing} &4ma năng nữa'
+  no-skills: '&4That class does not have any skills'
+  cannot-use: '&4You cannot equip that item'
+GUI: 
+  attribute-title: '&cĐiểm tâm linh (&e&l{points} điểm&c)'
+  skill-tree: '&eSTAND &avà &eUNIQUE &a{class}'
+  skill-class-list: '{player}'
+Skill Tree: 
+  title: '{name} ({level}/{max})'
+  type: '&2Skill Type: &6{name}'
+  requirement: 
+    met: '&2'
+    not-met: '&4'
+  attribute: 
+    changing: '&6{value} ⇥ {new}'
+    not-changing: '&6{value}'
+  layout: 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:lvl}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Ma năng: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  - '&2Range: {attr:range}'
+  - ''
+  - '&2Details: &7{desc:1}'
+  - '&7{desc:2-x}'
+Stats: 
+  health: '&2Máu'
+  points: '&2Nội năng'
+  level: '&2Lvl class'
+  exp: '&2Exp'
+  attrib: '&2AP'
+Status: 
+  silenced: '&4YBạn đang bị câm lặng: &6{duration}s'
+  stunned: '&4Bạn đang bị choáng: &6{duration}s'
+  rooted: '&4Bạn đang bị trói chân: &6{duration}s'
+  disarmed: '&4Bạn đang bị cướp vũ khí: &6{duration}s'
+  invincible: '&4That target is invincible for another &6{duration} &4seconds'
+  absorbed: '&4That target is absorbing attacks to gain health for another &6{duration} &4seconds'
+  channeling: '&4Tụ khí &6{duration}&4s'
+Combo: 
+  left: '&6Trái'
+  right: '&6Phải'
+  shift: '&6Shift'

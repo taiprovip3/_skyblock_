@@ -1,0 +1,168 @@
+ShopName: ren_luck_confirm
+DisplayName: '&8Server&a ☘&8 Xác nhận'
+Sound:
+  Shop:
+    Open: ENTITY_PLAY_LEVELUP:1:1
+    ChangeShop: ENTITY_PLAY_LEVELUP:1:1
+shop:
+  2:
+    MenuItem:
+    - type:160:5
+    - name:&2&lCONFIRM
+    - 'lore2:&7"I accept the terms of this feature". &eHành động&7 ngu ngốc này có thể khiến bạn mất: 32 đá rèn và trang bị sẽ không thể tiếp tục nâng cấp hay trao đổi với villager. Bạn có muốn tiếp tục ko?'
+    - 'lore4:&a&lCHẤP THUẬN'
+    RewardType: playercommandop
+    Reward:
+    - purgeluck
+    - class exp %player% 500
+    - mc give %player% 500
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:32
+      - 'name:&8◁&2✦ &e&lĐá Rèn &2✦&8▷'
+      - 'lore2:&7 Dùng để rèn trang bị bằng nhiều tính'
+      - 'lore3:&7 như: tẩy luyện, rèn cúp, khảm unbreakble..'
+      - 'lore5:&a&l SỬ DỤNG:&7 tích trữ đủ số lượng vào túi'
+      - 'lore6:&e&l E&7 và đến giao diện &eRÈN&7 nâng cấp'
+      - 'lore8:&e Groupding:&7 item mất giá trị khi đặt xuống'
+      - 'lore9:&7 đất vì biến dạng &9&l(!)'
+      - 'lore11:&eLOẠI VẬT PHẨM&a storage&e and&a clickable'
+    InventoryLocation: 1
+  3:
+    MenuItem:
+    - type:160:5
+    - name:&2&lCONFIRM
+    - 'lore2:&7"I accept the terms of this feature". &eHành động&7 ngu ngốc này có thể khiến bạn mất: 32 đá rèn và trang bị sẽ không thể tiếp tục nâng cấp hay trao đổi với villager. Bạn có muốn tiếp tục ko?'
+    - 'lore4:&a&lCHẤP THUẬN'
+    RewardType: playercommandop
+    Reward:
+    - purgeluck
+    - class exp %player% 500
+    - mc give %player% 500
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:32
+      - 'name:&8◁&2✦ &e&lĐá Rèn &2✦&8▷'
+      - 'lore2:&7 Dùng để rèn trang bị bằng nhiều tính'
+      - 'lore3:&7 như: tẩy luyện, rèn cúp, khảm unbreakble..'
+      - 'lore5:&a&l SỬ DỤNG:&7 tích trữ đủ số lượng vào túi'
+      - 'lore6:&e&l E&7 và đến giao diện &eRÈN&7 nâng cấp'
+      - 'lore8:&e Groupding:&7 item mất giá trị khi đặt xuống'
+      - 'lore9:&7 đất vì biến dạng &9&l(!)'
+      - 'lore11:&eLOẠI VẬT PHẨM&a storage&e and&a clickable'
+    InventoryLocation: 2
+  4:
+    MenuItem:
+    - type:160:5
+    - name:&2&lCONFIRM
+    - 'lore2:&7"I accept the terms of this feature". &eHành động&7 ngu ngốc này có thể khiến bạn mất: 32 đá rèn và trang bị sẽ không thể tiếp tục nâng cấp hay trao đổi với villager. Bạn có muốn tiếp tục ko?'
+    - 'lore4:&a&lCHẤP THUẬN'
+    RewardType: playercommandop
+    Reward:
+    - purgeluck
+    - class exp %player% 500
+    - mc give %player% 500
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:32
+      - 'name:&8◁&2✦ &e&lĐá Rèn &2✦&8▷'
+      - 'lore2:&7 Dùng để rèn trang bị bằng nhiều tính'
+      - 'lore3:&7 như: tẩy luyện, rèn cúp, khảm unbreakble..'
+      - 'lore5:&a&l SỬ DỤNG:&7 tích trữ đủ số lượng vào túi'
+      - 'lore6:&e&l E&7 và đến giao diện &eRÈN&7 nâng cấp'
+      - 'lore8:&e Groupding:&7 item mất giá trị khi đặt xuống'
+      - 'lore9:&7 đất vì biến dạng &9&l(!)'
+      - 'lore11:&eLOẠI VẬT PHẨM&a storage&e and&a clickable'
+    InventoryLocation: 3
+  5:
+    MenuItem:
+    - type:160:5
+    - name:&2&lCONFIRM
+    - 'lore2:&7"I accept the terms of this feature". &eHành động&7 ngu ngốc này có thể khiến bạn mất: 32 đá rèn và trang bị sẽ không thể tiếp tục nâng cấp hay trao đổi với villager. Bạn có muốn tiếp tục ko?'
+    - 'lore4:&a&lCHẤP THUẬN'
+    RewardType: playercommandop
+    Reward:
+    - purgeluck
+    - class exp %player% 500
+    - mc give %player% 500
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:32
+      - 'name:&8◁&2✦ &e&lĐá Rèn &2✦&8▷'
+      - 'lore2:&7 Dùng để rèn trang bị bằng nhiều tính'
+      - 'lore3:&7 như: tẩy luyện, rèn cúp, khảm unbreakble..'
+      - 'lore5:&a&l SỬ DỤNG:&7 tích trữ đủ số lượng vào túi'
+      - 'lore6:&e&l E&7 và đến giao diện &eRÈN&7 nâng cấp'
+      - 'lore8:&e Groupding:&7 item mất giá trị khi đặt xuống'
+      - 'lore9:&7 đất vì biến dạng &9&l(!)'
+      - 'lore11:&eLOẠI VẬT PHẨM&a storage&e and&a clickable'
+    InventoryLocation: 4
+  6:
+    MenuItem:
+    - type:160:5
+    - name:&2&lCONFIRM
+    - 'lore2:&7"I accept the terms of this feature". &eHành động&7 ngu ngốc này có thể khiến bạn mất: 32 đá rèn và trang bị sẽ không thể tiếp tục nâng cấp hay trao đổi với villager. Bạn có muốn tiếp tục ko?'
+    - 'lore4:&a&lCHẤP THUẬN'
+    RewardType: playercommandop
+    Reward:
+    - purgeluck
+    - class exp %player% 500
+    - mc give %player% 500
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:32
+      - 'name:&8◁&2✦ &e&lĐá Rèn &2✦&8▷'
+      - 'lore2:&7 Dùng để rèn trang bị bằng nhiều tính'
+      - 'lore3:&7 như: tẩy luyện, rèn cúp, khảm unbreakble..'
+      - 'lore5:&a&l SỬ DỤNG:&7 tích trữ đủ số lượng vào túi'
+      - 'lore6:&e&l E&7 và đến giao diện &eRÈN&7 nâng cấp'
+      - 'lore8:&e Groupding:&7 item mất giá trị khi đặt xuống'
+      - 'lore9:&7 đất vì biến dạng &9&l(!)'
+      - 'lore11:&eLOẠI VẬT PHẨM&a storage&e and&a clickable'
+    InventoryLocation: 5
+  6sad:
+    MenuItem:
+    - type:160:14
+    - name:&c&lNOWAY
+    - 'lore2:&7"I don''t accept the terms of this feature". &eHành động&7 ngu ngốc này có thể khiến tôi mất ngu đá rèn và ko mang lại lợi ích gì cả. Nên tôi éo đồng ý và muốn thoát giao diện này'
+    - 'lore4:&4&lTỪ CHỐI'
+    RewardType: shop
+    Reward: ren
+    InventoryLocation: 6
+  7:
+    MenuItem:
+    - type:160:14
+    - name:&c&lNOWAY
+    - 'lore2:&7"I don''t accept the terms of this feature". &eHành động&7 ngu ngốc này có thể khiến tôi mất ngu đá rèn và ko mang lại lợi ích gì cả. Nên tôi éo đồng ý và muốn thoát giao diện này'
+    - 'lore4:&4&lTỪ CHỐI'
+    RewardType: shop
+    Reward: ren
+    InventoryLocation: 7
+  8:
+    MenuItem:
+    - type:160:14
+    - name:&c&lNOWAY
+    - 'lore2:&7"I don''t accept the terms of this feature". &eHành động&7 ngu ngốc này có thể khiến tôi mất ngu đá rèn và ko mang lại lợi ích gì cả. Nên tôi éo đồng ý và muốn thoát giao diện này'
+    - 'lore4:&4&lTỪ CHỐI'
+    RewardType: shop
+    Reward: ren
+    InventoryLocation: 8
+  9:
+    MenuItem:
+    - type:160:14
+    - name:&c&lNOWAY
+    - 'lore2:&7"I don''t accept the terms of this feature". &eHành động&7 ngu ngốc này có thể khiến tôi mất ngu đá rèn và ko mang lại lợi ích gì cả. Nên tôi éo đồng ý và muốn thoát giao diện này'
+    - 'lore4:&4&lTỪ CHỐI'
+    RewardType: shop
+    Reward: ren
+    InventoryLocation: 9

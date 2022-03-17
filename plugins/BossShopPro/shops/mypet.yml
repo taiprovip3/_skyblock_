@@ -1,0 +1,252 @@
+ShopName: mypet
+DisplayName: '&8Server &1&l() &8Catch Pet'
+Command: pets:helppet:pethelp
+Sound:
+  Shop:
+    Open: ENTITY_ITEM_PICKUP:1:1
+    ChangeShop: ENTITY_WITHER_SPAWN:1:1
+shop:
+  one:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNiYjgwNjI2Y2NlNjZhNDkyMmY0MjJiZmY0N2E0MWEzMzdkMWM3ZjNlMGNhYmU5MTUyMzdiNzgwNDM4MzZlIn19fQ===
+    - 'name:&aHướng dẫn thu phục pet (đơn giản)'
+    - 'lore1:&a ⚫&7Cần có 1 sợi dây (leash, có thể mua tại /shop)'
+    - 'lore2:&a ⚫&7Tìm 1 con vật'
+    - 'lore3:&a ⚫&7Cầm sợi dây đánh nó chết'
+    - 'lore4:&a ⚫&7/petcall để gọi nó ra.'
+    InventoryLocation: 13
+  two:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmE5MDUzZDIxNjNkMGY1NjExNDVkMzNhNTEzMTQ1ZDRhYzFmOGE0NThiYWE3OTZiZTM4M2U3NTI1YTA1ZjQ1In19fQ===
+    - 'name:&aLệnh sài khi có pet'
+    - 'lore1:&a ⚫&f /pc&7 gọi pet'
+    - 'lore2:&a ⚫&f /psa&7 tắt pet'
+    - 'lore3:&a ⚫&f /petname tên&7 đổi tên pet'
+    - 'lore4:&a ⚫&f /pcst&7 chọn kĩ năng cho pet (tấn công, cưỡi..)'
+    - 'lore5:&a ⚫&f /pst &7thu pet về túi pet'
+    - 'lore6:&a ⚫&f /pswitch&7 mở túi pet của bạn'
+    - 'lore7:&a ⚫&f /petrelease&7 thả về tự nhiên'
+    - 'lore8:&a ⚫&f /pi&7 mở túi &e&lE&7 riêng của pet (nếu có)'
+    InventoryLocation: 31
+  back:
+    MenuItem:
+    - type:SIGN
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - 'name:&cQuay trở lại menu'
+    - 'lore&7...'
+    RewardType: SHOP
+    Reward: menu
+    InventoryLocation: 24
+  a:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 1
+  b:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 2
+  c:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 3
+  d:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 4
+  e:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 5
+  f:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 6
+  g:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 7
+  h:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 8
+  i:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 9
+  j:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 10
+  k:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 11
+  l:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 12
+  m:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 14
+  n:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 15
+  o:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 16
+  p:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 17
+  pp:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 18
+  r:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 19
+  s:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 20
+  t:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 21
+  u:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 22
+  v:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 23
+  w:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 25
+  x:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 26
+  y:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 27
+  z:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 28
+  aa:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 29
+  ab:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 30
+  ac:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 32
+  ad:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 33
+  add:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 34
+  ae:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 35
+  af:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 36
+  ag:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 37
+  ah:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 38
+  ai:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 39
+  aj:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 40
+  ak:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 41
+  al:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 42
+  am:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 43
+  an:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 44
+  ao:
+    MenuItem:
+    - type:160:15
+    - 'name:&c'
+    InventoryLocation: 45

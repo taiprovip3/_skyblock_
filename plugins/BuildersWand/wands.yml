@@ -1,0 +1,79 @@
+wands:
+  '1':
+    name: '&e&lXẺNG BUILDER &2♠&7 bản demo'
+    material: STONE_SPADE
+    maxSize: 3
+    consumeItems: true
+    durability:
+      amount: 10
+      enabled: true
+      text: '&6♦&7Click.phải để sử dụng. &f(&e{durability}&f)'
+    crafting:
+      enabled: false
+      shapeless: false
+      recipe:
+      - xxd
+      - xbx
+      - bxx
+      ingredient:
+        d: DIAMOND
+        b: BLAZE_ROD
+    particles:
+      enabled: true
+      type: REDSTONE
+      count: 3
+    storage:
+      enabled: true
+      size: 27
+  '2':
+    name: '&2♠&6Xẻng &eBuilder&2♠'
+    material: WOOD_SPADE
+    maxSize: 3
+    consumeItems: true
+    durability:
+      amount: 999
+      enabled: true
+      text: '&6♦&7Click.phải để sử dụng. &f(&e{durability}&f)'
+    crafting:
+      enabled: false
+      shapeless: false
+      recipe:
+      - xxd
+      - xbx
+      - bxx
+      ingredient:
+        d: DIAMOND
+        b: BLAZE_ROD
+    particles:
+      enabled: true
+      type: REDSTONE
+      count: 3
+    storage:
+      enabled: true
+      size: 27
+  '3':
+    name: '&2☘ &eXẻng Builder&2☘&f ☾&aᴛối ᴛhượng&f☽'
+    material: DIAMOND_SPADE
+    maxSize: 3
+    consumeItems: true
+    durability:
+      amount: 9999
+      enabled: true
+      text: '&6♦&7Click.phải để sử dụng. &f(&e{durability}&f)'
+    crafting:
+      enabled: false
+      shapeless: false
+      recipe:
+      - xxd
+      - xbx
+      - bxx
+      ingredient:
+        d: DIAMOND
+        b: BLAZE_ROD
+    particles:
+      enabled: true
+      type: FALLING_DUST
+      count: 2
+    storage:
+      enabled: true
+      size: 27

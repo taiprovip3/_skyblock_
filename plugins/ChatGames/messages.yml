@@ -1,0 +1,6 @@
+PREFIX: '&a[Đoán số] &8//'
+NO_PERMISSION: '%prefix% &7Bạn không có quyền này!'
+WINNER: '%prefix% &e%player% &7đã đoán được con số chính xác!'
+FORCE_END: '%prefix% &7Không có người đoán được con số.: &e%number%&7!'
+NEW_GAME: '%prefix% &7Giải phép toán &e%sum%&7. Nhập đáp án ra boxchat để đoán!'
+MONEY_REWARD: '%prefix% &7Bạn đã đoán con số đúng. Phần thưởng &e+$%amount%&7!'

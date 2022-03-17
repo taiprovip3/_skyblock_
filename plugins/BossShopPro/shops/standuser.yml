@@ -1,0 +1,91 @@
+ShopName: standuser
+DisplayName: '&a☘ &8Server &a☘&eStand'
+Command: stand
+Sound:
+  Shop:
+    Open: ENTITY_ITEM_PICKUP:1:1
+    ChangeShop: ENTITY_PLAY_LEVELUP:1:1
+shop:
+  1:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThhNGIxOGMxY2Y5OTU3NzdmNGFiMjhmYzczOTE1Nzg2NmM5YmY5NGJiMzYyYjhjOWZlOWIwMTA5YWIzNDYifX19=
+    - name:&6&lSTAND&7 Kỵ Sĩ Bóng Đêm
+    - 'lore2:&eĐánh giá:&a ☆☆☆☆&7☆☆☆☆☆☆'
+    - 'lore4:&2     +25.000 điểm sức mạnh'
+    - 'lore6:&eKỹ năng:&7 gia tăng &e10%&7 sát thương khi chiến đấu vào buổi tối (rạng sáng/sáng hiệu quả tăng dame biến mất)'
+    - 'lore8:&aTiêu hao:&7 1 quả đầu KSBĐ (có trong túi &e&lE&7)'
+    - 'lore10:&aClickable&e vào để thức tỉnh Stand'
+    RewardType: command
+    Reward:
+    - class points %player% 1
+    - class exp %player% 25000
+    - mc give %player% 25000
+    - pex user %player% add skillapi.skill.ksbd
+    - bc &6&l%player% &eđã thức tỉnh năng lực Stand KSBD trở thành &6&lStand User&2&l ✔
+    - bb broadcast 20 &8&l(&5࿄&8&l) &6&l%player% &eđã thức tỉnh năng lực Stand trở thành &6&lStand User&2&l ✔
+    - 'w %player% &aBạn đã hoàn thành bước 1/2:'
+    - 'w %player% &a1. Thức tỉnh Stand'
+    - 'w %player% &72. Kích hoạt Stand.'
+    - 'w %player% &eGiờ hãy gõ lệnh: &a/stands&e để kích hoạt Stand nhé &4(༗)'
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:1
+      - name:&a[Stand User]&8 Kỵ Sỹ &2❣❣ &7Bóng Đêm &2❣❣
+      - 'lore2:&6 Đánh giá: &a☆☆☆☆&8☆☆☆☆☆☆'
+      - 'lore4:&e Stand users:&7 chiến thần bên trong cơ thể'
+      - 'lore5:&7 bạn, gia tăng sức mạnh, hổ trợ giao tranh'
+      - 'lore6:&7 boss, player...'
+      - 'lore8:&e Kỹ sĩ bóng đêm:&7 +25.000 điểm sức mạnh &f&l⚓'
+      - 'lore10:&e Kỹ năng Stand by:&7 gia tăng &2(+10%)&7 sát thương'
+      - 'lore11:&7 khi chiến đấu vào buổi tối.'
+      - 'lore13:&e LOẠI VẬT PHẨM &aclickable'
+    InventoryLocation: 2
+  2:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzA2ZWFmNWFlNzBkNGNkNDExZDM2NTNmZDc1NDc4MmQyYWY3NzJlZWI1YTI2YTY4MjhhZjg5Y2VkOWExOSJ9fX0==
+    - name:&6&lSTAND&7 Crazy Diamond
+    - 'lore2:&eĐánh giá: &a☆☆☆☆☆&7☆☆☆☆☆'
+    - 'lore4:&2     +30.000 điểm sức mạnh'
+    - 'lore6:&eKỹ năng:&7 phát đấm chí mạng tạo kỹ năng phát &eGATLING PUNCH&7 gây &220%&c*map♥&7 sát thương lên các đv bạn đang ngắm đến'
+    - 'lore8:&aTiêu hao:&7 1 quả đầu CD (có trong túi &e&lE&7)'
+    - 'lore10:&aClickable&e vào để thức tỉnh Stand'
+    RewardType: command
+    Reward:
+    - class points %player% 1
+    - class exp %player% 30000
+    - mc give %player% 30000
+    - pex user %player% add skillapi.skill.crazydiamond
+    - bc &6&l%player% &eđã thức tỉnh năng lực Stand CrazyDiamond trở thành &6&lStand User&2&l ✔
+    - bb broadcast 20 &8&l(&5࿄&8&l) &6&l%player% &eđã thức tỉnh năng lực Stand trở thành &6&lStand User&2&l ✔
+    - 'w %player% &aBạn đã hoàn thành bước 1/2:'
+    - 'w %player% &a1. Thức tỉnh Stand'
+    - 'w %player% &72. Kích hoạt Stand.'
+    - 'w %player% &eGiờ hãy gõ lệnh: &a/stands&e để kích hoạt Stand nhé &4(༗)'
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:1
+      - name:&b&lCrazy Diamond &6[Stand User]
+      - 'lore2:&eĐánh giá: &a✫✫✫✫✫&7✫✫✫✫✫'
+      - 'lore4:&eStand users:&7 chiến thần bên trong cơ thể'
+      - 'lore5:&7bạn, gia tăng sức mạnh, hổ trợ giao tranh'
+      - 'lore6:&7boss, player...'
+      - 'lore8:&eCray Diamond:&7 +30.000 điểm sức mạnh &f&l⚓'
+      - 'lore10:&eKỹ năng:&f GALTING PUNCH:&7 phát đánh chí mạng'
+      - 'lore11:&7tạo ra phát đấm ngàn cân. Gây thêm &2150%'
+      - 'lore12:&7sát thương (15&c♥&7) lên đv trước mặt.'
+      - 'lore14:&eLOẠI VẬT PHẨM &aclickable'
+    InventoryLocation: 3
+  bak:
+    MenuItem:
+    - type:348
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&6&lQUAY LẠI
+    - 'lore2:&7Click vào để quay lại menu'
+    RewardType: shop
+    Reward: menu
+    InventoryLocation: 8

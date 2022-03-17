@@ -1,0 +1,14 @@
+currentQuests:
+- the hunter
+currentStages:
+- 0
+quest-points: 0
+questData:
+  the hunter:
+    mobs-killed:
+    - Zombie
+    mobs-killed-amounts:
+    - 3
+completed-Quests: none
+hasJournal: false
+lastKnownName: noname

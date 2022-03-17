@@ -1,0 +1,15 @@
+guiName: '&c&lKHU CÁ ĐỘ VUI CHƠI'
+guiAnimationName: '&cResult of the CoinFlip'
+prefix: '&e[&6Cá Độ&e]'
+messageInvalidArgument: '&cInvalid argument.'
+messageSpecifySide: '&cPlease choose a valid side (Tails or Heads).'
+limitofgame: 5
+messageNotEnoughMoney: '&ckhông đủ tiền đòi cá độ à  '
+limitMoneyCreate: 10
+messageLimitMoney: '&cYou can create a party from %limit% dollars.'
+messageTooManyGames: '&cYou have create too many games.'
+messageCreateGame: '&aBạn đã tốn &e&l%money% &amoney để tạo phòng cá độ &f&l%side%.'
+messageAlreadyGame: '&cThe player %player% is already in a game.'
+messageRemoveGame: '&cYou have removed youre games.'
+messageWin: '&eBạn đã thắng &e&l%price% &6money Bởi Người chơi &f&l%player%'
+messageLost: '&eBạn đã thua &f&l%price% &cmoney bỡi &a&l%player%'

@@ -1,0 +1,133 @@
+#-----=====[ Metrics Message ]=====-----#
+
+Metrics:
+  Success:
+  - "{prefix} Berhasil mengirim data statistik"
+  Failed: 
+  - "{prefix} Gagal mengirim data statistik"
+
+#-----=====[ Hook Message ]=====-----#
+
+Hook:
+  Header: 
+  - "{prefix} &8&l&m=-=-=-=-=-=-=-=-=-=-=&r &2{plugin} Dependensi &8&l&m=-=-=-=-=-=-=-=-=-=-="
+  Footer: 
+  - "{prefix} &8&l&m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+  Soft_Dependency_Header: 
+  - "{prefix} &5Dependensi-Tambahan&f:"
+  Soft_Dependency_List: 
+  - "{prefix} &5- &d{hook} &8[{status}&8]"
+  Hard_Dependency_Header: 
+  - "{prefix} &5Dependensi-Utama&f:"
+  Hard_Dependency_List: 
+  - "{prefix} &5- &d{hook} &8[{status}&8]"
+  Status_Hooked: 
+  - "&4Terhubung"
+  Status_Not_Hook: 
+  - "&4Tidak-Terhubung"
+
+#-----=====[ Plugin Message ]=====-----#
+
+Plugin:
+  Deactivated:
+  - "{prefix} Plugin telah dimatikan dari kontrol panel"
+  Information_Not_Match:
+  - "{prefix} Informasi plugin tidak sesuai"
+  Lack_Dependency:
+  - "{prefix} Kamu harus menginstal plugin &c{dependency}"
+
+#-----=====[ Console Message ]=====-----#
+
+Console:
+  Command_Forbiden: 
+  - "{prefix} Hanya player yang dapat mengakses perintah ini!"
+
+#-----=====[ Character Message ]=====-----#
+
+Character:
+  Special: 
+  - "{prefix} Tidak boleh mengandung karakter spesial!"
+
+#-----=====[ Command Message ]=====-----#
+
+AdvancedIndicator:
+  Reload_Success: 
+  - "{prefix} Berhasil memuat konfigurasi!"
+
+#-----=====[ Argument Message ]=====-----#
+
+Argument:
+  Not_Complete: 
+  - "{prefix} Perintah argumen tidak lengkap!"
+  Invalid_Value: 
+  - "{prefix} Jumlah nilai tidak valid!"
+  Invalid_Command: 
+  - "{prefix} Perintal argumen tidak benar!"
+  AdvancedIndicator_Help: 
+  - "{tooltip_help} &3/indicator help &b[<page>]"
+  AdvancedIndicator_About: 
+  - "{tooltip_about} &3/indicator about"
+  AdvancedIndicator_Reload: 
+  - "{tooltip_reload} &3/indicator reload"
+
+#-----=====[ Tooltip Message ]=====-----#
+
+Tooltip:
+  AdvancedIndicator_Help: "Memperlihatkan semua perintah plugin"
+  AdvancedIndicator_About: "Memperlihatkan semua informasi plugin"
+  AdvancedIndicator_Reload: "Memuat data konfigurasi"
+
+#-----=====[ Help Message ]=====-----#
+
+Help:
+  Header: "&6Bantuan {plugin}:"
+  Page: "&8&l[&6&l{previous}&8&l]&r&8&l&m=======&r&8&l[&r &2Halaman &7(&d{page}&7/&d{maxpage}&7) &8&l]&8&l&m=======&r&8&l[&6&l{next}&8&l]"
+  Previous_Page: "&cHalaman sebelumnya"
+  Next_Page: "&cHalaman selanjutnya"
+
+#-----=====[ List Message ]=====-----#
+
+List:
+  Header: "&7&l&m---&8&l&m==[&r &2Daftar &7(&d{page}&8/&d{maxpage}&7) &8&l&m]==&7&l&m---"
+  Item: "&8&l[&2&l{index}&8&l] &c{item}"
+
+#-----=====[ Permission Message ]=====-----#
+
+Permission:
+  Lack: 
+  - "{prefix} Kamu tidak memiliki izin &c{permission}"
+
+#-----=====[ Player Message ]=====-----#
+
+Player:
+  Target_Offline: 
+  - "{prefix} Target player tidak online!"
+
+#-----=====[ File Message ]=====-----#
+
+File:
+  Not_Exists: 
+  - "{prefix} Target berkas tidak ada!"
+  
+#-----=====[ Item Message ]=====-----#
+
+Item:
+  MainHand_Empty: "Peralatan utama tidak ada!"
+  Not_Exist: "Peralatan dengan nama &c{nameid} &rtidak ada!"
+  Database_Empty: "&cDatabase kosong!"
+  List_Suffix: "&8&l[&c&l?&8&l]"
+  
+#-----=====[ Location Message ]=====-----#
+
+Location:
+  Coordinate: "&7x: &d{x}&7, y: &d{y}&7,z: &d{z}"  
+
+#-----=====[ Time Message ]=====-----#
+
+Time:
+  Years: "tahun"
+  Weeks: "minggu"
+  Days: "hari"
+  Hours: "jam"
+  Minutes: "menit"
+  Seconds: "detik"

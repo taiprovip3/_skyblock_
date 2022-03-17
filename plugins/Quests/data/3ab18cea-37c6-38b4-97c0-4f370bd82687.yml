@@ -1,0 +1,16 @@
+currentQuests:
+- code
+currentStages:
+- 0
+quest-points: 0
+questData:
+  code:
+    passwords:
+    - '&aVui lòng nhập mã code ra màn hình (ko cần dấu /)'
+    - Vui lòng nhập mã code ra màn hình (ko cần dấu /)
+    passwords-said:
+    - false
+    - false
+completed-Quests: none
+hasJournal: false
+lastKnownName: MeikoMenMa

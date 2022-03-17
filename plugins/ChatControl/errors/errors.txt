@@ -1,0 +1,687 @@
+[03.07.2021 18:35:26] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[03.07.2021 18:35:26] String checked: /fky
+[03.07.2021 18:35:26] Regex: ^/ihopper:kho
+[03.07.2021 23:10:17] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[03.07.2021 23:10:17] String checked: /gmc
+[03.07.2021 23:10:17] Regex: ^/plugin
+[03.07.2021 23:25:23] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[03.07.2021 23:25:23] String checked: tutu em
+[03.07.2021 23:25:23] Regex: :\(
+[03.07.2021 23:25:23] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[03.07.2021 23:25:23] String checked: tutu em
+[03.07.2021 23:25:23] Regex: ;\)
+[03.07.2021 23:31:42] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[03.07.2021 23:31:42] String checked: mat het do :)))
+[03.07.2021 23:31:42] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[03.07.2021 23:32:27] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[03.07.2021 23:32:27] String checked: trong kho đồ ấn E ý
+[03.07.2021 23:32:27] Regex: \bdis\b
+[03.07.2021 23:33:28] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[03.07.2021 23:33:28] String checked: giáp rìu đánh boss táo enchant này lọ
+[03.07.2021 23:33:28] Regex: :\(
+[03.07.2021 23:39:29] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[03.07.2021 23:39:29] String checked: /warp
+[03.07.2021 23:39:29] Regex: ^/hopper
+[03.07.2021 23:49:15] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[03.07.2021 23:49:15] String checked: oke có lại đồ rồi
+[03.07.2021 23:49:15] Regex: \bdis\b
+[03.07.2021 23:49:15] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[03.07.2021 23:49:15] String checked: oke có lại đồ rồi
+[03.07.2021 23:49:15] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[03.07.2021 23:49:59] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[03.07.2021 23:49:59] String checked: /warp pvp
+[03.07.2021 23:49:59] Regex: ^/pl
+[03.07.2021 23:52:08] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[03.07.2021 23:52:08] String checked: alo a ơi sao em xài đá cường hóa nó bảo ko đủ tuổi mà lại ko có quest làm ?
+[03.07.2021 23:52:08] Regex: (do|are) you (need|wish|looking for) (any|some|one|good) (op|ops|operators|admins|mods|builders|new people|ateam)
+[03.07.2021 23:52:51] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[03.07.2021 23:52:51] String checked: Omichan_VMN mượn cái phi tiêu
+[03.07.2021 23:52:51] Regex: \bdis\b
+[04.07.2021 00:39:48] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 00:39:48] String checked: /r ơ mà ông đéo nào bảo tôi làm op ;-;
+[04.07.2021 00:39:48] Regex: ^/ihopper:tuido withdraw
+[04.07.2021 00:40:23] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 00:40:23] String checked: de block trong cái này nè
+[04.07.2021 00:40:23] Regex: this server (is (bad|crappy|shitty)|suck)
+[04.07.2021 00:46:26] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 00:46:26] String checked: tat cai canh di = )
+[04.07.2021 00:46:26] Regex: (do|are) you (need|wish|looking for) (any|some|one|good) (op|ops|operators|admins|mods|builders|new people|ateam)
+[04.07.2021 01:00:50] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 01:00:50] String checked: wow
+[04.07.2021 01:00:50] Regex: :\)
+[04.07.2021 01:02:11] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 01:02:11] String checked: /shop
+[04.07.2021 01:02:11] Regex: ^/kho withdraw
+[04.07.2021 01:17:44] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 01:17:44] String checked: /is settings
+[04.07.2021 01:17:44] Regex: ^/ihopper:hopper
+[04.07.2021 01:25:24] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 01:25:24] String checked: mở lấy ec cái
+[04.07.2021 01:25:24] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[04.07.2021 01:44:10] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 01:44:10] String checked: mà cái đó có làm dc j ko
+[04.07.2021 01:44:10] Regex: ;-\)
+[04.07.2021 01:45:50] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 01:45:50] String checked: /is
+[04.07.2021 01:45:50] Regex: ^/ihopper:ihopper
+[04.07.2021 01:53:06] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 01:53:06] String checked: /warp pvp
+[04.07.2021 01:53:06] Regex: ^/ihopper:ihopper withdraw
+[04.07.2021 01:55:05] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 01:55:05] String checked: /s
+[04.07.2021 01:55:05] Regex: ^/ihopper:tuido
+[04.07.2021 02:00:02] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 02:00:02] String checked: /w Salted_Lemon đền bù nạp đó :v
+[04.07.2021 02:00:02] Regex: ^/ihopper:tuido withdraw
+[04.07.2021 02:02:27] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 02:02:27] String checked: /warp
+[04.07.2021 02:02:27] Regex: ^/ihopper:hopper withdraw
+[04.07.2021 02:23:06] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 02:23:06] String checked: con cat
+[04.07.2021 02:23:06] Regex: \-
+[04.07.2021 02:24:11] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 02:24:11] String checked: kiếm đi
+[04.07.2021 02:24:11] Regex: <3\b
+[04.07.2021 02:27:36] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 02:27:36] String checked: Về is
+[04.07.2021 02:27:36] Regex: \bdis\b
+[04.07.2021 02:31:31] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 02:31:31] String checked: JocWink_VN fake
+[04.07.2021 02:31:31] Regex: ((admin|op|ateam|server|owner) (is|are)) + *(dick|cock|duck|noob|kid)
+[04.07.2021 02:33:13] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 02:33:13] String checked: /tpaccept DuyKhang
+[04.07.2021 02:33:13] Regex: ^/ihopper:tuido withdraw
+[04.07.2021 02:33:22] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 02:33:22] String checked: /is top\
+[04.07.2021 02:33:22] Regex: ^/bukkit:helps
+[04.07.2021 02:51:46] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 02:51:46] String checked: /i stc
+[04.07.2021 02:51:46] Regex: ^/pl
+[04.07.2021 02:56:14] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 02:56:14] String checked: /is
+[04.07.2021 02:56:14] Regex: ^/ihopper:ih
+[04.07.2021 02:58:39] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 02:58:39] String checked: /dungeon
+[04.07.2021 02:58:39] Regex: ^/ih withdraw
+[04.07.2021 03:05:04] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 03:05:04] String checked: t chem no cho
+[04.07.2021 03:05:04] Regex: :-\)
+[04.07.2021 03:09:03] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 03:09:03] String checked: PT_WBH leo nhanh ha
+[04.07.2021 03:09:03] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[04.07.2021 03:14:57] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 03:14:57] String checked: /is
+[04.07.2021 03:14:57] Regex: ^/bukkit:helps
+[04.07.2021 03:16:26] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 03:16:26] String checked: /is
+[04.07.2021 03:16:26] Regex: ^/ihopper:hopper withdraw
+[04.07.2021 03:17:58] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 03:17:58] String checked: /nangcap
+[04.07.2021 03:17:58] Regex: ^/plugin
+[04.07.2021 03:28:14] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 03:28:14] String checked: mở fac
+[04.07.2021 03:28:14] Regex: \bdis\b
+[04.07.2021 03:31:21] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 03:31:21] String checked: cmm
+[04.07.2021 03:31:21] Regex: \bdis\b
+[04.07.2021 03:38:22] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 03:38:22] String checked: bunny_PVP
+[04.07.2021 03:38:22] Regex: \-
+[04.07.2021 03:38:54] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 03:38:54] String checked: có cần chăm kh
+[04.07.2021 03:38:54] Regex: :\)
+[04.07.2021 03:41:25] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 03:41:25] String checked: /is top
+[04.07.2021 03:41:25] Regex: ^/ihopper:ihopper withdraw
+[04.07.2021 03:48:19] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 03:48:19] String checked: /shopgui shopee
+[04.07.2021 03:48:19] Regex: ^/ih
+[04.07.2021 03:50:32] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 03:50:32] String checked: hom qua dem ban het 34 chest kc :d
+[04.07.2021 03:50:32] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[04.07.2021 03:55:41] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 03:55:41] String checked: mất thì eurofamily1 đền :D
+[04.07.2021 03:55:41] Regex: <3\b
+[04.07.2021 03:57:13] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 03:57:13] String checked: cũng tạm
+[04.07.2021 03:57:13] Regex: ;-\)
+[04.07.2021 03:57:29] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 03:57:29] String checked: /is
+[04.07.2021 03:57:29] Regex: ^/ihopper:ih withdraw
+[04.07.2021 04:08:12] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 04:08:12] String checked: /dungeon
+[04.07.2021 04:08:12] Regex: ^/ihopper:ihopper
+[04.07.2021 04:16:17] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 04:16:17] String checked: /w JocWink_VN fix nốt tí đưa 2 cây nha
+[04.07.2021 04:16:17] Regex: ^/ihopper:hopper withdraw
+[04.07.2021 04:17:25] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 04:17:25] String checked: /is level
+[04.07.2021 04:17:25] Regex: ^/ihopper:kho
+[04.07.2021 04:18:30] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 04:18:30] String checked: leo top tiếp nào :>
+[04.07.2021 04:18:30] Regex: (do|are) you (need|wish|looking for) (any|some|one|good) (op|ops|operators|admins|mods|builders|new people|ateam)
+[04.07.2021 04:25:34] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 04:25:34] String checked: de dat block kc cái :V
+[04.07.2021 04:25:34] Regex: (do|are) you (need|wish|looking for) (any|some|one|good) (op|ops|operators|admins|mods|builders|new people|ateam)
+[04.07.2021 04:31:23] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 04:31:23] String checked: /is
+[04.07.2021 04:31:23] Regex: ^/ihopper
+[04.07.2021 04:33:41] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 04:33:41] String checked: /dungeon
+[04.07.2021 04:33:41] Regex: ^/ihopper:kho withdraw
+[04.07.2021 04:36:51] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 04:36:51] String checked: /suachua
+[04.07.2021 04:36:51] Regex: ^/ihopper:ih withdraw
+[04.07.2021 04:38:26] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 04:38:26] String checked: giáp tẩy luyện dc chx z
+[04.07.2021 04:38:26] Regex: ((admin|op|ateam|server|owner) (is|are)) + *(dick|cock|duck|noob|kid)
+[04.07.2021 04:42:12] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 04:42:12] String checked: /is tc
+[04.07.2021 04:42:12] Regex: ^/pl
+[04.07.2021 04:42:21] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 04:42:21] String checked: /is tc
+[04.07.2021 04:42:21] Regex: ^/ihopper:kho
+[04.07.2021 04:42:50] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 04:42:50] String checked: /is level
+[04.07.2021 04:42:50] Regex: ^/pl
+[04.07.2021 04:48:19] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 04:48:19] String checked: tks
+[04.07.2021 04:48:19] Regex: \bdis\b
+[04.07.2021 04:49:30] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 04:49:30] String checked: xai` nien thu kieu qq j?
+[04.07.2021 04:49:30] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[04.07.2021 04:49:56] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 04:49:56] String checked: /dungeon
+[04.07.2021 04:49:56] Regex: ^/pl
+[04.07.2021 04:50:18] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 04:50:18] String checked: is càng rộng fps càng cao
+[04.07.2021 04:50:18] Regex: ((admin|op|ateam|server|owner) (is|are)) + *(dick|cock|duck|noob|kid)
+[04.07.2021 04:50:33] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 04:50:33] String checked: gi2 vại
+[04.07.2021 04:50:33] Regex: \bdis\b
+[04.07.2021 04:52:09] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 04:52:09] String checked: :p
+[04.07.2021 04:52:09] Regex: :\(
+[04.07.2021 04:53:23] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 04:53:23] String checked: /warp pvp
+[04.07.2021 04:53:23] Regex: ^/ihopper:hopper withdraw
+[04.07.2021 04:59:34] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 04:59:34] String checked: nãy nó xuống 3 kìa
+[04.07.2021 04:59:34] Regex: \bdis\b
+[04.07.2021 05:00:28] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 05:00:28] String checked: Salted_Lemon
+[04.07.2021 05:00:28] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[04.07.2021 05:01:46] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 05:01:46] String checked: con sì ke ở chùa mà con bắn chủ is
+[04.07.2021 05:01:46] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[04.07.2021 05:02:34] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 05:02:34] String checked: nó đi trong is t nè
+[04.07.2021 05:02:34] Regex: \bdis\b
+[04.07.2021 05:03:19] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 05:03:19] String checked: farm quái
+[04.07.2021 05:03:19] Regex: ((admin|op|ateam|server|owner) (is|are)) + *(dick|cock|duck|noob|kid)
+[04.07.2021 05:04:04] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 05:04:04] String checked: /shop
+[04.07.2021 05:04:04] Regex: ^/ih withdraw
+[04.07.2021 05:04:40] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 05:04:40] String checked: dat block ko biet bao gio len dc 500k bal de up :d
+[04.07.2021 05:04:40] Regex: ((admin|op|ateam|server|owner) (is|are)) + *(dick|cock|duck|noob|kid)
+[04.07.2021 05:13:30] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 05:13:30] String checked: ./balo1 concakchina
+[04.07.2021 05:13:30] Regex: (do|are) you (need|wish|looking for) (any|some|one|good) (op|ops|operators|admins|mods|builders|new people|ateam)
+[04.07.2021 05:15:09] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 05:15:09] String checked: lag quá huhu
+[04.07.2021 05:15:09] Regex: \bdis\b
+[04.07.2021 05:17:06] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 05:17:06] String checked: Salted_Lemon
+[04.07.2021 05:17:06] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[04.07.2021 05:21:03] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 05:21:03] String checked: v sao mà leo
+[04.07.2021 05:21:03] Regex: ((admin|op|ateam|server|owner) (is|are)) + *(dick|cock|duck|noob|kid)
+[04.07.2021 05:23:35] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 05:23:35] String checked: ai kick thang rac voz di :d
+[04.07.2021 05:23:35] Regex: ;-\)
+[04.07.2021 05:24:05] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 05:24:05] String checked: sao n1o đập nhanh v
+[04.07.2021 05:24:05] Regex: ((admin|op|ateam|server|owner) (is|are)) + *(dick|cock|duck|noob|kid)
+[04.07.2021 05:25:30] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 05:25:30] String checked: anh het kc r em WBH :)
+[04.07.2021 05:25:30] Regex: ((admin|op|ateam|server|owner) (is|are)) + *(dick|cock|duck|noob|kid)
+[04.07.2021 05:26:40] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 05:26:40] String checked: ngoan lam em
+[04.07.2021 05:26:40] Regex: ((admin|op|ateam|server|owner) (is|are)) + *(dick|cock|duck|noob|kid)
+[04.07.2021 05:30:21] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 05:30:21] String checked: no có thể đổi dc những thứ như
+[04.07.2021 05:30:21] Regex: (do|are) you (need|wish|looking for) (any|some|one|good) (op|ops|operators|admins|mods|builders|new people|ateam)
+[04.07.2021 05:31:30] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 05:31:30] String checked: /fly
+[04.07.2021 05:31:30] Regex: ^/ihopper:ihopper withdraw
+[04.07.2021 05:39:44] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 05:39:44] String checked: /is
+[04.07.2021 05:39:44] Regex: ^/bukkit:help
+[04.07.2021 05:46:15] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 05:46:15] String checked: /r cho thêm 500 đê :))
+[04.07.2021 05:46:15] Regex: ^/pl
+[04.07.2021 05:50:05] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 05:50:05] String checked: /wing
+[04.07.2021 05:50:05] Regex: ^/pl
+[04.07.2021 05:51:19] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 05:51:19] String checked: /sell
+[04.07.2021 05:51:19] Regex: ^/ih
+[04.07.2021 05:51:51] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 05:51:51] String checked: /w king5google :
+[04.07.2021 05:51:51] Regex: ^/bukkit:plugins
+[04.07.2021 06:00:07] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 06:00:07] String checked: alo
+[04.07.2021 06:00:07] Regex: \bdis\b
+[04.07.2021 15:13:01] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 15:13:01] String checked: = )
+[04.07.2021 15:13:01] Regex: \bdis\b
+[04.07.2021 15:15:29] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 15:15:29] String checked: /dgo
+[04.07.2021 15:15:29] Regex: ^/tuido
+[04.07.2021 15:15:29] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 15:15:29] String checked: /dgo
+[04.07.2021 15:15:29] Regex: ^/ihopper:ihopper withdraw
+[04.07.2021 15:17:50] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 15:17:50] String checked: điểm sức mạnh t đâu JocWink_VN
+[04.07.2021 15:17:50] Regex: \bwanna\b
+[04.07.2021 15:18:33] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 15:18:33] String checked: ??
+[04.07.2021 15:18:33] Regex: :\)
+[04.07.2021 15:22:18] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 15:22:18] String checked: /w JocWink_VN đổi cúp đi
+[04.07.2021 15:22:18] Regex: ^/ihopper:kho withdraw
+[04.07.2021 15:25:20] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 15:25:20] String checked: nhưng do sv ko ổn định nó mới đc 4 block
+[04.07.2021 15:25:20] Regex: \bdis\b
+[04.07.2021 15:28:44] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 15:28:44] String checked: con titan no tự tu tu :((
+[04.07.2021 15:28:44] Regex: \bdis\b
+[04.07.2021 15:32:23] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 15:32:23] String checked: sky h méo còn ai luôn
+[04.07.2021 15:32:23] Regex: :-\(
+[04.07.2021 15:37:08] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 15:37:08] String checked: sao t mất hơn 60k điểm LC rồi
+[04.07.2021 15:37:08] Regex: \bdis\b
+[04.07.2021 15:37:49] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 15:37:49] String checked: vậy thì đền?
+[04.07.2021 15:37:49] Regex: \bdis\b
+[04.07.2021 15:37:58] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 15:37:58] String checked: vch đền đi =)
+[04.07.2021 15:37:58] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[04.07.2021 15:41:33] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 15:41:33] String checked: /w Salted_Lemon quặng chậm
+[04.07.2021 15:41:33] Regex: ^/tuido withdraw
+[04.07.2021 15:44:52] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 15:44:52] String checked: lỗi nó nằm ở hàng rào :v
+[04.07.2021 15:44:52] Regex: \bwanna\b
+[04.07.2021 16:07:00] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 16:07:00] String checked: /dungedone
+[04.07.2021 16:07:00] Regex: ^/ihopper:ihopper withdraw
+[04.07.2021 16:19:40] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 16:19:40] String checked: /qlc
+[04.07.2021 16:19:40] Regex: ^/ihopper:tuido withdraw
+[04.07.2021 16:28:47] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 16:28:47] String checked: /w salted cho em coin anh
+[04.07.2021 16:28:47] Regex: ^/plugin
+[04.07.2021 16:40:02] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 16:40:02] String checked: tao chi biet thang ad
+[04.07.2021 16:40:02] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[04.07.2021 16:40:47] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 16:40:47] String checked: /w eric op con ben nay con fix cho ba lo fix ben faction di
+[04.07.2021 16:40:47] Regex: ^/bukkit:?
+[04.07.2021 16:45:13] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 16:45:13] String checked: solo pvp ko m
+[04.07.2021 16:45:13] Regex: :\)
+[04.07.2021 16:52:19] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 16:52:19] String checked: ban ko du tuoi
+[04.07.2021 16:52:19] Regex: :-\(
+[04.07.2021 16:53:37] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 16:53:37] String checked: PT_WBH
+[04.07.2021 16:53:37] Regex: \bdis\b
+[04.07.2021 16:53:56] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 16:53:56] String checked: chua
+[04.07.2021 16:53:56] Regex: :\)
+[04.07.2021 16:54:26] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 16:54:26] String checked: /is tc
+[04.07.2021 16:54:26] Regex: ^/ihopper:ihopper
+[04.07.2021 16:55:44] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 16:55:44] String checked: duoc rui a
+[04.07.2021 16:55:44] Regex: :-\)
+[04.07.2021 16:57:19] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 16:57:19] String checked: /vto1
+[04.07.2021 16:57:19] Regex: ^/tuido withdraw
+[04.07.2021 17:11:43] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 17:11:43] String checked: dung chan roi
+[04.07.2021 17:11:43] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[04.07.2021 17:22:47] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 17:22:47] String checked: /is go
+[04.07.2021 17:22:47] Regex: ^/ih withdraw
+[04.07.2021 17:28:22] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 17:28:22] String checked: /cshop
+[04.07.2021 17:28:22] Regex: ^/ihopper
+[04.07.2021 17:28:48] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 17:28:48] String checked: /fly
+[04.07.2021 17:28:48] Regex: ^/pl
+[04.07.2021 17:34:19] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 17:34:19] String checked: /money
+[04.07.2021 17:34:19] Regex: ^/ihopper
+[04.07.2021 17:36:35] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 17:36:35] String checked: /suicide
+[04.07.2021 17:36:35] Regex: ^/bukkit:pl
+[04.07.2021 17:50:24] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 17:50:24] String checked: cúp nổ như cẹc
+[04.07.2021 17:50:24] Regex: \bdis\b
+[04.07.2021 17:55:21] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 17:55:21] String checked: /tps
+[04.07.2021 17:55:21] Regex: ^/pl
+[04.07.2021 17:58:47] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 17:58:47] String checked: /kit
+[04.07.2021 17:58:47] Regex: ^/kho withdraw
+[04.07.2021 18:02:00] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:02:00] String checked: /w Omichan_VMN rồi
+[04.07.2021 18:02:00] Regex: ^/ihopper:hopper withdraw
+[04.07.2021 18:04:01] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:04:01] String checked: cai gi vay
+[04.07.2021 18:04:01] Regex: \bwanna\b
+[04.07.2021 18:09:31] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:09:31] String checked: /is coop PT_Wil
+[04.07.2021 18:09:31] Regex: ^/ih
+[04.07.2021 18:11:20] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:11:20] String checked: /r con me
+[04.07.2021 18:11:20] Regex: ^/tuido withdraw
+[04.07.2021 18:13:09] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:13:09] String checked: /r ok
+[04.07.2021 18:13:09] Regex: ^/pl
+[04.07.2021 18:13:53] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:13:53] String checked: chi wil up di
+[04.07.2021 18:13:53] Regex: \bgonna\b
+[04.07.2021 18:13:53] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:13:53] String checked: chi wil up di
+[04.07.2021 18:13:53] Regex: \:star\:
+[04.07.2021 18:15:00] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:15:00] String checked: tk wbh
+[04.07.2021 18:15:00] Regex: ;\)
+[04.07.2021 18:15:11] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:15:11] String checked: warp
+[04.07.2021 18:15:11] Regex: \bdis\b
+[04.07.2021 18:17:24] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:17:24] String checked: /r farm cn silver fish r
+[04.07.2021 18:17:24] Regex: ^/pl
+[04.07.2021 18:17:28] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:17:28] String checked: /r no tu chet me
+[04.07.2021 18:17:28] Regex: ^/ihopper:ihopper withdraw
+[04.07.2021 18:17:28] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:17:28] String checked: /r no tu chet me
+[04.07.2021 18:17:28] Regex: ^/ihopper withdraw
+[04.07.2021 18:19:58] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:19:58] String checked: /is
+[04.07.2021 18:19:58] Regex: ^/ihopper:ih
+[04.07.2021 18:20:12] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:20:12] String checked: /
+[04.07.2021 18:20:12] Regex: ^/ih
+[04.07.2021 18:20:12] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:20:12] String checked: c:
+[04.07.2021 18:20:12] Regex: \-
+[04.07.2021 18:29:34] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:29:34] String checked: /r diem danh 2 acc di
+[04.07.2021 18:29:34] Regex: ^/kho withdraw
+[04.07.2021 18:36:55] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:36:55] String checked: không
+[04.07.2021 18:36:55] Regex: <3\b
+[04.07.2021 18:40:57] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:40:57] String checked: /pc
+[04.07.2021 18:40:57] Regex: ^/ihopper:hopper withdraw
+[04.07.2021 18:42:21] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:42:21] String checked: chứ kiếm dame bth có 40
+[04.07.2021 18:42:21] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[04.07.2021 18:42:40] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:42:40] String checked: =c
+[04.07.2021 18:42:40] Regex: \-
+[04.07.2021 18:42:47] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:42:47] String checked: mới đúng
+[04.07.2021 18:42:47] Regex: \bdis\b
+[04.07.2021 18:43:07] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:43:07] String checked: dc 5 binh` tam linh :d
+[04.07.2021 18:43:07] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[04.07.2021 18:43:07] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:43:07] String checked: dc 5 binh` tam linh :d
+[04.07.2021 18:43:07] Regex: ((admin|op|ateam|server|owner) (is|are)) + *(dick|cock|duck|noob|kid)
+[04.07.2021 18:44:52] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:44:52] String checked: /is
+[04.07.2021 18:44:52] Regex: ^/ihopper:ihopper withdraw
+[04.07.2021 18:46:13] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:46:13] String checked: xai ca tram binh k len 1 cap :d
+[04.07.2021 18:46:13] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[04.07.2021 18:55:37] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:55:37] String checked: /dungedone
+[04.07.2021 18:55:37] Regex: ^/ihopper:ihopper
+[04.07.2021 18:59:03] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:59:03] String checked: =))
+[04.07.2021 18:59:03] Regex: \bdis\b
+[04.07.2021 18:59:32] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 18:59:32] String checked: lẹ coi
+[04.07.2021 18:59:32] Regex: \bdis\b
+[04.07.2021 19:01:04] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:01:04] String checked: /is level
+[04.07.2021 19:01:04] Regex: ^/hopper
+[04.07.2021 19:06:24] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:06:24] String checked: quả kiếm vc :)
+[04.07.2021 19:06:24] Regex: ((admin|op|ateam|server|owner) (is|are)) + *(dick|cock|duck|noob|kid)
+[04.07.2021 19:08:00] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:08:00] String checked: esvc?
+[04.07.2021 19:08:00] Regex: :\(
+[04.07.2021 19:08:16] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:08:16] String checked: t mat het bao phap r
+[04.07.2021 19:08:16] Regex: ((admin|op|ateam|server|owner) (is|are)) + *(dick|cock|duck|noob|kid)
+[04.07.2021 19:08:46] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:08:46] String checked: /donate top
+[04.07.2021 19:08:46] Regex: ^/ihopper:kho
+[04.07.2021 19:09:17] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:09:17] String checked: /is
+[04.07.2021 19:09:17] Regex: ^/ihopper
+[04.07.2021 19:09:55] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:09:55] String checked: du kiem xin the
+[04.07.2021 19:09:55] Regex: ;-\)
+[04.07.2021 19:11:32] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:11:32] String checked: yasuo sword nghe hay ghe :)
+[04.07.2021 19:11:32] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[04.07.2021 19:12:42] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:12:42] String checked: /fly
+[04.07.2021 19:12:42] Regex: ^/bukkit:help
+[04.07.2021 19:12:50] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:12:50] String checked: co moi~ kiem ys co skill thoi ak
+[04.07.2021 19:12:50] Regex: ((admin|op|ateam|server|owner) (is|are)) + *(dick|cock|duck|noob|kid)
+[04.07.2021 19:12:57] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:12:57] String checked: buon ghe :d
+[04.07.2021 19:12:57] Regex: \bdis\b
+[04.07.2021 19:22:01] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:22:01] String checked: /is level
+[04.07.2021 19:22:01] Regex: ^/ihopper:ihopper withdraw
+[04.07.2021 19:29:05] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:29:05] String checked: /dgo
+[04.07.2021 19:29:05] Regex: ^/bukkit:help
+[04.07.2021 19:34:18] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:34:18] String checked: /dungedone
+[04.07.2021 19:34:18] Regex: ^/pl
+[04.07.2021 19:36:13] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:36:13] String checked: /pv
+[04.07.2021 19:36:13] Regex: ^/ihopper:kho withdraw
+[04.07.2021 19:37:08] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:37:08] String checked: cho i concakchina ☺
+[04.07.2021 19:37:08] Regex: :\(
+[04.07.2021 19:37:10] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:37:10] String checked: gz3
+[04.07.2021 19:37:10] Regex: \bdis\b
+[04.07.2021 19:38:00] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:38:00] String checked: Omichan_VMN cx nạp à?
+[04.07.2021 19:38:00] Regex: this server (is (bad|crappy|shitty)|suck)
+[04.07.2021 19:42:03] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:42:03] String checked: /spawn
+[04.07.2021 19:42:03] Regex: ^/pl
+[04.07.2021 19:48:18] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:48:18] String checked: /tpa Omichan_VMN
+[04.07.2021 19:48:18] Regex: ^/hopper
+[04.07.2021 19:56:21] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:56:21] String checked: /is go
+[04.07.2021 19:56:21] Regex: ^/ihopper withdraw
+[04.07.2021 19:56:25] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 19:56:25] String checked: /baltop
+[04.07.2021 19:56:25] Regex: ^/bukkit:helps
+[04.07.2021 20:19:11] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 20:19:11] String checked: /warp bw
+[04.07.2021 20:19:11] Regex: ^/ihopper withdraw
+[04.07.2021 20:25:11] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 20:25:11] String checked: /sell
+[04.07.2021 20:25:11] Regex: ^/tuido
+[04.07.2021 20:58:24] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 20:58:24] String checked: qua sky chi ?
+[04.07.2021 20:58:24] Regex: \-
+[04.07.2021 20:58:58] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 20:58:58] String checked: hero gì ?
+[04.07.2021 20:58:58] Regex: ((admin|op|ateam|server|owner) (is|are)) + *(dick|cock|duck|noob|kid)
+[04.07.2021 20:59:10] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 20:59:10] String checked: /attr
+[04.07.2021 20:59:10] Regex: ^/bukkit:pl
+[04.07.2021 20:59:43] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 20:59:43] String checked: bunny_PVP thấy mà đúng ko
+[04.07.2021 20:59:43] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[04.07.2021 20:59:45] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 20:59:45] String checked: bunny_PVP nó troll đó :v
+[04.07.2021 20:59:45] Regex: ((admin|op|ateam|server|owner) (is|are)) + *(dick|cock|duck|noob|kid)
+[04.07.2021 21:00:52] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 21:00:52] String checked: /is go
+[04.07.2021 21:00:52] Regex: ^/bukkit:helps
+[04.07.2021 21:07:53] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 21:07:53] String checked: sao gop block
+[04.07.2021 21:07:53] Regex: \bdis\b
+[04.07.2021 21:29:15] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 21:29:15] String checked: ☺)
+[04.07.2021 21:29:15] Regex: <3\b
+[04.07.2021 21:32:17] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 21:32:17] String checked: /is tc
+[04.07.2021 21:32:17] Regex: ^/pl
+[04.07.2021 21:35:59] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 21:35:59] String checked: đag coi
+[04.07.2021 21:35:59] Regex: \bdis\b
+[04.07.2021 21:36:34] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 21:36:34] String checked: tps drop ?
+[04.07.2021 21:36:34] Regex: \bdis\b
+[04.07.2021 21:38:20] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 21:38:20] String checked: /r vcl that
+[04.07.2021 21:38:20] Regex: ^/hopper withdraw
+[04.07.2021 21:38:33] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 21:38:33] String checked: /r sia t 2 cuc
+[04.07.2021 21:38:33] Regex: ^/pl
+[04.07.2021 21:49:59] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 21:49:59] String checked: xog r nè
+[04.07.2021 21:49:59] Regex: \-
+[04.07.2021 21:52:10] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 21:52:10] String checked: co bw chua m
+[04.07.2021 21:52:10] Regex: ((admin|op|ateam|server|owner) (is|are)) + *(dick|cock|duck|noob|kid)
+[04.07.2021 21:52:47] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 21:52:47] String checked: thì đó
+[04.07.2021 21:52:47] Regex: \bwanna\b
+[04.07.2021 21:58:11] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 21:58:11] String checked: /quests take 1
+[04.07.2021 21:58:11] Regex: ^/ihopper withdraw
+[04.07.2021 22:01:28] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:01:28] String checked: lẹ coi địt mẹ m
+[04.07.2021 22:01:28] Regex: \bdis\b
+[04.07.2021 22:02:50] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:02:50] String checked: /r làm t rương riêng
+[04.07.2021 22:02:50] Regex: ^/tuido withdraw
+[04.07.2021 22:07:56] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:07:56] String checked: de t xai ☺
+[04.07.2021 22:07:56] Regex: \:star\:
+[04.07.2021 22:09:18] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:09:18] String checked: kick giờ =)))
+[04.07.2021 22:09:18] Regex: \bdis\b
+[04.07.2021 22:11:09] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:11:09] String checked: /pcst
+[04.07.2021 22:11:09] Regex: ^/hopper withdraw
+[04.07.2021 22:11:16] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:11:16] String checked: /warp pvp
+[04.07.2021 22:11:16] Regex: ^/pl
+[04.07.2021 22:16:17] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:16:17] String checked: lag v
+[04.07.2021 22:16:17] Regex: \bdis\b
+[04.07.2021 22:18:32] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:18:32] String checked: is level thử đi Onii_Chann
+[04.07.2021 22:18:32] Regex: (do|are) you (need|wish|looking for) (any|some|one|good) (op|ops|operators|admins|mods|builders|new people|ateam)
+[04.07.2021 22:21:41] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:21:41] String checked: /kit tadien
+[04.07.2021 22:21:41] Regex: ^/bukkit:pl
+[04.07.2021 22:22:32] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:22:32] String checked: /dungedone
+[04.07.2021 22:22:32] Regex: ^/tuido withdraw
+[04.07.2021 22:23:16] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:23:16] String checked: /napthe
+[04.07.2021 22:23:16] Regex: ^/pl
+[04.07.2021 22:24:08] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:24:08] String checked: /r đcm
+[04.07.2021 22:24:08] Regex: ^/bukkit:helps
+[04.07.2021 22:25:41] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:25:41] String checked: this ổng thú zị Vc =))
+[04.07.2021 22:25:41] Regex: this server (is (bad|crappy|shitty)|suck)
+[04.07.2021 22:26:49] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:26:49] String checked: /spawn
+[04.07.2021 22:26:49] Regex: ^/bukkit:helps
+[04.07.2021 22:27:13] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:27:13] String checked: /is go
+[04.07.2021 22:27:13] Regex: ^/plugin
+[04.07.2021 22:29:27] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:29:27] String checked: me hay bi delay ta
+[04.07.2021 22:29:27] Regex: \bdis\b
+[04.07.2021 22:32:02] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:32:02] String checked: t đag tìm hỉu
+[04.07.2021 22:32:02] Regex: \bgonna\b
+[04.07.2021 22:32:24] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:32:24] String checked: de t tim hieu giup cho ☺
+[04.07.2021 22:32:24] Regex: :-\(
+[04.07.2021 22:33:08] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:33:08] String checked: Manh_Sama m ngu Vc
+[04.07.2021 22:33:08] Regex: (do|are) you (need|wish|looking for) (any|some|one|good) (op|ops|operators|admins|mods|builders|new people|ateam)
+[04.07.2021 22:38:42] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:38:42] String checked: Qua fb đi
+[04.07.2021 22:38:42] Regex: \bgonna\b
+[04.07.2021 22:39:59] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:39:59] String checked: /cshop
+[04.07.2021 22:39:59] Regex: ^/ihopper:hopper
+[04.07.2021 22:43:32] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:43:32] String checked: /r m sài cái j
+[04.07.2021 22:43:32] Regex: ^/hopper withdraw
+[04.07.2021 22:44:08] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:44:08] String checked: t coi nốt cái
+[04.07.2021 22:44:08] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[04.07.2021 22:51:26] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:51:26] String checked: eurofamily1 đừng hỏi Vc
+[04.07.2021 22:51:26] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[04.07.2021 22:51:37] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:51:37] String checked: t tìm hiểu đc là bọn top 1 bay màu
+[04.07.2021 22:51:37] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[04.07.2021 22:54:06] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 22:54:06] String checked: GiangPrime vô is ko
+[04.07.2021 22:54:06] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[04.07.2021 23:46:53] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[04.07.2021 23:46:53] String checked: /spawn
+[04.07.2021 23:46:53] Regex: ^/ihopper:hopper withdraw
+[05.07.2021 00:42:26] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[05.07.2021 00:42:26] String checked: /ouch
+[05.07.2021 00:42:26] Regex: ^/tuido withdraw
+[05.07.2021 00:59:58] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[05.07.2021 00:59:58] String checked: Omichan_VMN ơiiii
+[05.07.2021 00:59:58] Regex: (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
+[05.07.2021 01:00:24] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[05.07.2021 01:00:24] String checked: đổi lại kiếm hộ đc k :L
+[05.07.2021 01:00:24] Regex: this server (is (bad|crappy|shitty)|suck)
+[05.07.2021 01:04:51] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[05.07.2021 01:04:51] String checked: /is
+[05.07.2021 01:04:51] Regex: ^/ihopper:ihopper withdraw
+[05.07.2021 01:24:38] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[05.07.2021 01:24:38] String checked: /menu
+[05.07.2021 01:24:38] Regex: ^/bukkit:pl
+[05.07.2021 06:18:48] Regex check timed out (bad regex?) (plugin ver. 5.8.7)!
+[05.07.2021 06:18:48] String checked: /fly
+[05.07.2021 06:18:48] Regex: ^/ihopper:tuido

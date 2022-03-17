@@ -1,0 +1,97 @@
+MainInventory: MainInventory
+Inventorys:
+    MainInventory:
+        Name: "&a☘&8 Jᴀᴄᴋᴘᴏᴛ Menu &a☘"
+        Size: 27
+        Items:
+            DrawTime:
+                ItemType: "watch"
+                Type: INFO
+                Name: "&aCông bố sau: %draw%"
+                Slot: 0
+            InPot:
+                ItemType: "chest"
+                Type: INFO
+                Name: "&aTổng giải thưởng: &7%pot% &f(&e⛀&f)"
+                Slot: 2
+                Lore:
+                - ""
+                - "&aSố ᴊᴀᴄᴋᴘᴏᴛ bạn mua: &7%ptickets%&f ۝"
+                - "&aTổng ᴊᴀᴄᴋᴘᴏᴛ toàn cầu: &7%gtickets%&f ۝"
+            LastWin:
+                ItemType: "sign"
+                Type: INFO
+                Name: "&aNgười trúng lần trước:"
+                Lore:
+                - "&7 %winner%&f ⚇"
+                Slot: 4
+            BuyTickets:
+                ItemType: "map"
+                Type: INVENTORYOPEN
+                InventoryToOpen: BuyInventory
+                Name: "&a&l&k|||&6 Mua thêm nhiều ᴊackᴘᴏᴛ &a&l&k|||"
+                Lore:
+                - "&eMua nhiều trúng càng nhiều."
+                Slot: 6
+            GlobalTickets:
+                ItemType: "totem"
+                Type: INVENTORYOPEN
+                InventoryToOpen: GlobalTickets
+                Name: "&aSố người"
+                Lore:
+                - "&ađang tham đợt xổ &eᴊᴀᴄᴋᴘᴏᴛ&a lần này"
+                Slot: 8
+            ToggleRemind:
+                ItemType: "ink_sack"
+                ItemData: 10
+                Type: COMMANDPLAYER
+                Name: "&aTắt&f/&amở&7 tin nhắn ᴊᴀᴄᴋᴘᴏᴛ"
+                Slot: 21
+                Commands:
+                - "lottery toggleremindmsg"
+            ToggleBuy:
+                ItemType: "ink_sack"
+                ItemData: 10
+                Type: COMMANDPLAYER
+                Name: "&aTắt&f/&amở&7 tin nhắn người mua Jᴀᴄᴋᴘᴏᴛ"
+                Slot: 23
+                Commands:
+                - "lottery togglebuymsg"
+    BuyInventory:
+        Name: "&c✵&8&l Mua Jᴀᴄᴋᴘᴏᴛ"
+        Size: 9
+        Items:
+            Buy1:
+                ItemType: "ghast_tear"
+                Type: COMMANDPLAYER
+                Name: "&2Mua &e1 &2Jᴀᴄᴋᴘᴏᴛ"
+                Slot: 2
+                Commands:
+                - "lottery buy 1"
+            Buy2:
+                ItemType: "ghast_tear"
+                Type: COMMANDPLAYER
+                Name: "&2Mua &e2 &2Jᴀᴄᴋᴘᴏᴛ"
+                Slot: 3
+                Commands:
+                - "lottery buy 2"
+            Buy10:
+                ItemType: "ghast_tear"
+                Type: COMMANDPLAYER
+                Name: "&2Mua &e10 &2Jᴀᴄᴋᴘᴏᴛ"
+                Slot: 4
+                Commands:
+                - "lottery buy 10"
+            Buy20:
+                ItemType: "ghast_tear"
+                Type: COMMANDPLAYER
+                Name: "&2Mua &e20 &2Jᴀᴄᴋᴘᴏᴛ"
+                Slot: 5
+                Commands:
+                - "lottery buy 20"
+            BackButton:
+                ItemType: "structure_void"
+                Type: INVENTORYOPEN
+                InventoryToOpen: MainInventory
+                Name: "&cBack"
+                Slot: 8

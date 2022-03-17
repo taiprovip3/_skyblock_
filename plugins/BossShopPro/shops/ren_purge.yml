@@ -1,0 +1,312 @@
+ShopName: ren_purge
+DisplayName: '&8Server &1☘&8 Tẩy luyện'
+Command: purge
+Sound:
+  Shop:
+    Open: ENTITY_PLAYER_LEVELUP:1:1
+    ChangeShop: ENTITY_PLAYER_LEVELUP:1:1
+shop:
+  1a:
+    MenuItem:
+    - type:268
+    - enchantment:dig_speed#1
+    - hideflags:all
+    - name:&a&lTẨY LUYỆN KIẾM &7(sword)
+    - 'lore2:&7Tiêu hao: &232 đá rèn'
+    - 'lore4:&eStatus: &2&l✔'
+    - 'lore6:&aCLICKABLE&7 vào để rèn'
+    RewardType: PLAYERCOMMANDOP
+    Reward: 
+    - purgesword
+    - class exp %player% 500
+    - mc give %player% 500
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:32
+      - 'name:&8◁&2✦ &e&lĐá Rèn &2✦&8▷'
+      - 'lore2:&7 Dùng để rèn trang bị bằng nhiều tính'
+      - 'lore3:&7 như: tẩy luyện, rèn cúp, khảm unbreakble..'
+      - 'lore5:&a&l SỬ DỤNG:&7 tích trữ đủ số lượng vào túi'
+      - 'lore6:&e&l E&7 và đến giao diện &eRÈN&7 nâng cấp'
+      - 'lore8:&e Groupding:&7 item mất giá trị khi đặt xuống'
+      - 'lore9:&7 đất vì biến dạng &9&l(!)'
+      - 'lore11:&eLOẠI VẬT PHẨM&a storage&e and&a clickable'
+    InventoryLocation: 11
+    Condition:
+    - type:placeholdermatch
+    - '%item_in_hand%:match:WOOD_SWORD,STONE_SWORD,GOLD_SWORD,IRON_SWORD,DIAMOND_SWORD,WOOD_AXE,STONE_AXE,GOLD_AXE,IRON_AXE,DIAMOND_AXE'
+  1fake:
+    MenuItem:
+    - type:268
+    - hideflags:all
+    - name:&a&lTẨY LUYỆN KIẾM &7(sword)
+    - 'lore2:&7Tiêu hao: &232 đá rèn'
+    - 'lore4:&eStatus: &4✗'
+    - 'lore6:&aCLICKABLE&7 vào để rèn'
+    Message: '&c&lLỖI. &cCầm rìu hoặc kiếm trên tay đi thằng ông nội'
+    InventoryLocation: 11
+  2a:
+    MenuItem:
+    - type:299
+    - enchantment:dig_speed#1
+    - hideflags:all
+    - name:&a&lTẨY LUYỆN GIÁP &7(armor)
+    - 'lore2:&7Tiêu hao: &232 đá rèn'
+    - 'lore4:&eStatus: &2&l✔'
+    - 'lore6:&aCLICKABLE&7 vào để rèn'
+    RewardType: PLAYERCOMMANDOP
+    Reward: 
+    - purgearmor
+    - class exp %player% 500
+    - mc give %player% 500
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:32
+      - 'name:&8◁&2✦ &e&lĐá Rèn &2✦&8▷'
+      - 'lore2:&7 Dùng để rèn trang bị bằng nhiều tính'
+      - 'lore3:&7 như: tẩy luyện, rèn cúp, khảm unbreakble..'
+      - 'lore5:&a&l SỬ DỤNG:&7 tích trữ đủ số lượng vào túi'
+      - 'lore6:&e&l E&7 và đến giao diện &eRÈN&7 nâng cấp'
+      - 'lore8:&e Groupding:&7 item mất giá trị khi đặt xuống'
+      - 'lore9:&7 đất vì biến dạng &9&l(!)'
+      - 'lore11:&eLOẠI VẬT PHẨM&a storage&e and&a clickable'
+    InventoryLocation: 12
+    Condition:
+    - type:placeholdermatch
+    - '%item_in_hand%:match:LEATHER_HELMET,CHAINMAIL_HELMET,GOLD_HELMET,IRON_HELMET,DIAMOND_HELMET,LEATHER_CHESTPLATE,CHAINMAIL_CHESTPLATE,GOLD_CHESTPLATE,DIAMOND_CHESTPLATE,LEATHER_LEGGINGS,CHAINMAIL_LEGGINGS,GOLD_LEGGINGS,IRON_LEGGINGS,DIAMOND_LEGGINGS,LEATHER_BOOTS,CHAINMAIL_BOOTS,GOLD_BOOTS,IRON_BOOTS,DIAMOND_BOOTS'
+  2fake:
+    MenuItem:
+    - type:299
+    - hideflags:all
+    - name:&a&lTẨY LUYỆN GIÁP &7(armor)
+    - 'lore2:&7Tiêu hao: &232 đá rèn'
+    - 'lore4:&eStatus: &4✗'
+    - 'lore6:&aCLICKABLE&7 vào để rèn'
+    Message: '&e⚠ &cCầm trang bị (&7giáp&c) trên tay mới có thể tẩy luyện!'
+    InventoryLocation: 12
+  3a:
+    MenuItem:
+    - type:301
+    - enchantment:dig_speed#1
+    - hideflags:all
+    - name:&a&lTẨY LUYỆN ỦNG &7(boots)
+    - 'lore2:&7Tiêu hao: &232 đá rèn'
+    - 'lore4:&eStatus: &2&l✔'
+    - 'lore6:&aCLICKABLE&7 vào để rèn'
+    RewardType: PLAYERCOMMANDOP
+    Reward: 
+    - purgeboots
+    - class exp %player% 500
+    - mc give %player% 500
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:32
+      - 'name:&8◁&2✦ &e&lĐá Rèn &2✦&8▷'
+      - 'lore2:&7 Dùng để rèn trang bị bằng nhiều tính'
+      - 'lore3:&7 như: tẩy luyện, rèn cúp, khảm unbreakble..'
+      - 'lore5:&a&l SỬ DỤNG:&7 tích trữ đủ số lượng vào túi'
+      - 'lore6:&e&l E&7 và đến giao diện &eRÈN&7 nâng cấp'
+      - 'lore8:&e Groupding:&7 item mất giá trị khi đặt xuống'
+      - 'lore9:&7 đất vì biến dạng &9&l(!)'
+      - 'lore11:&eLOẠI VẬT PHẨM&a storage&e and&a clickable'
+    InventoryLocation: 13
+    Condition:
+    - type:placeholdermatch
+    - '%item_in_hand%:match:LEATHER_BOOTS,CHAINMAIL_BOOTS,GOLD_BOOTS,IRON_BOOTS,DIAMOND_BOOTS'
+  3fake:
+    MenuItem:
+    - type:301
+    - hideflags:all
+    - name:&a&lTẨY LUYỆN ỦNG &7(boots)
+    - 'lore2:&7Tiêu hao: &232 đá rèn'
+    - 'lore4:&eStatus: &4✗'
+    - 'lore6:&aCLICKABLE&7 vào để rèn'
+    Message: '&e⚠ &c&lCầm 1 đôi ủng trên tay mới có thể tẩy luyện!'
+    InventoryLocation: 13
+  4a:
+    MenuItem:
+    - type:346
+    - enchantment:dig_speed#1
+    - hideflags:all
+    - name:&a&lTẨY LUYỆN CẦN CÂU &7(fishing rod)
+    - 'lore2:&7Tiêu hao: &25 đá rèn'
+    - 'lore4:&eStatus: &2&l✔'
+    - 'lore6:&aCLICKABLE&7 vào để rèn'
+    RewardType: PLAYERCOMMANDOP
+    Reward: 
+    - purgerod
+    - class exp %player% 500
+    - mc give %player% 500
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:5
+      - 'name:&8◁&2✦ &e&lĐá Rèn &2✦&8▷'
+      - 'lore2:&7 Dùng để rèn trang bị bằng nhiều tính'
+      - 'lore3:&7 như: tẩy luyện, rèn cúp, khảm unbreakble..'
+      - 'lore5:&a&l SỬ DỤNG:&7 tích trữ đủ số lượng vào túi'
+      - 'lore6:&e&l E&7 và đến giao diện &eRÈN&7 nâng cấp'
+      - 'lore8:&e Groupding:&7 item mất giá trị khi đặt xuống'
+      - 'lore9:&7 đất vì biến dạng &9&l(!)'
+      - 'lore11:&eLOẠI VẬT PHẨM&a storage&e and&a clickable'
+    InventoryLocation: 14
+    Condition:
+    - type:placeholdermatch
+    - '%item_in_hand%:match:FISHING_ROD'
+  4fake:
+    MenuItem:
+    - type:346
+    - hideflags:all
+    - name:&a&lTẨY LUYỆN CẦN CÂU &7(fishing rod)
+    - 'lore2:&7Tiêu hao: &25 đá rèn'
+    - 'lore4:&eStatus: &4✗'
+    - 'lore6:&aCLICKABLE&7 vào để rèn'
+    Message: '&e⚠ &c&lCầm 1 cần câu cá trên tay mới có thể tẩy luyện!'
+    InventoryLocation: 14
+  5a:
+    MenuItem:
+    - type:270
+    - enchantment:dig_speed#1
+    - hideflags:all
+    - name:&a&lTẨY LUYỆN CÚP &7(pickaxe)
+    - 'lore2:&7Tiêu hao: &232 đá rèn'
+    - 'lore4:&eStatus: &2&l✔'
+    - 'lore6:&aCLICKABLE&7 vào để rèn'
+    RewardType: shop
+    Reward: ren_luck_confirm
+    InventoryLocation: 15
+    Condition:
+    - type:placeholdermatch
+    - '%item_in_hand%:match:WOOD_PICKAXE,STONE_PICKAXE,GOLD_PICKAXE,IRON_PICKAXE,DIAMOND_PICKAXE'
+  5fake:
+    MenuItem:
+    - type:270
+    - hideflags:all
+    - name:&a&lTẨY LUYỆN CÚP &7(pickaxe)
+    - 'lore2:&7Tiêu hao: &232 đá rèn'
+    - 'lore4:&eStatus: &4✗'
+    - 'lore6:&aCLICKABLE&7 vào để rèn'
+    Message: '&e⚠ &c&lCầm 1 cây cúp trên tay mới có thể tẩy luyện!'
+    InventoryLocation: 15
+  back:
+    MenuItem:
+    - type:SIGN
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a&lQUAY LẠI &7menu
+    - 'lore2:&7Click vào quay lại menu'
+    RewardType: shop
+    Reward: ren
+    InventoryLocation: 16
+  1:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 1
+  2:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 2
+  3:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 3
+  4:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 4
+  5:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 5
+  6:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 6
+  7:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 7
+  8:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 8
+  9:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 9
+  10:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 10
+  17:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 17
+  18:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 18
+  19:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 19
+  20:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 20
+  21:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 21
+  22:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 22
+  23:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 23
+  24:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 24
+  25:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 25
+  26:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 26
+  27:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 27

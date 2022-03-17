@@ -1,0 +1,200 @@
+ShopName: cshop2
+DisplayName: '&6◘&8Server&c♦&8Trang phục'
+Command: cshop2:pshop2:vshop2:coinshop2
+Sound:
+  Shop:
+    Open: ENTITY_PLAY_LEVELUP:1:1
+    ChangeShop: ENTITY_PLAY_LEVELUP:1:1
+shop:
+  1:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTRlNDI0YjE2NzZmZWVjM2EzZjhlYmFkZTllN2Q2YTZmNzFmNzc1NmE4NjlmMzZmN2RmMGZjMTgyZDQzNmUifX19=
+    - name:&cTrang phục Santa Claus &f【&4Huyền Thoại&f】
+    - 'lore2:&8+10.000 exp class'
+    - 'lore3:&8+300 xp'
+    - 'lore4:&8+1 skin Santa Claus vĩnh viễn'
+    - 'lore6:&fMô tả:'
+    - 'lore7:&7Đêm giáng ông già noel cưỡi tuần lộc bay tặng quà cho các kids ngoan bằng cách chui qua các Chimney, bỏ quà vào chiếc sock'
+    - 'lore9:&eGiá mua: &c2000 &e⛀'
+    - 'lore10:&8hoặc    &c&l100&8 card'
+    RewardType: COMMAND
+    Reward:
+    - pex user %player% add minecraft.skin.santaclaus
+    - mobcoins give %player% 100000
+    - class exp %player% 10000
+    - xp give %player% 300
+    PriceType: POINTS
+    Price: 2000
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 2
+  2:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM5YWQyNTA4NmY3NjE5OTk4ZWUwODljZjM2NmNhMTExMmU5NWU4ODc4OTk5YWU4OTFlNTA2ZWNiZjhkYjRkIn19fQ===
+    - name:&4Trang phục Assassin &f【&4Huyền Thoại&f】
+    - 'lore2:&8+10.000 exp class'
+    - 'lore3:&8+300 xp'
+    - 'lore4:&8+1 skin Sát Thủ vĩnh viễn'
+    - 'lore6:&fMô tả:'
+    - 'lore7:&7Kẻ giết người hàng loạt được thuê bởi bạn. Về đêm assassin là 1 người vô hình lướt trong bóng tối mọi kẻ địch đều là con mồi'
+    - 'lore9:&eGiá mua: &c2000 &e⛀'
+    - 'lore10:&8hoặc    &c&l100&8 card'
+    RewardType: COMMAND
+    Reward:
+    - pex user %player% add minecraft.skin.assassin
+    - mobcoins give %player% 100000
+    - class exp %player% 10000
+    - xp give %player% 300
+    PriceType: POINTS
+    Price: 2000
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 3
+  3:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTU1NGEzMTQ2MWZhOTBiNmE3Y2ZjZmRmN2IxNzE2MTg5Y2YzZTdiMTczNDQ0ODg1NmU5YmFhZTc0ZTQ1In19fQ===
+    - name:&3Trang phục Ngạ Quỷ &f【&4Huyền Thoại&f】
+    - 'lore2:&8+10.000 exp class'
+    - 'lore3:&8+300 xp'
+    - 'lore4:&8+1 skin Ngạ Quỷ vĩnh viễn'
+    - 'lore6:&fMô tả:'
+    - 'lore7:&7Dùng chất dinh dưỡng có trong máu của người uống để sống. Mang năng lực của 1 dị nhân, phải trải qua đấu tranh sinh tồn và chọn lọc tự nhiên của Dacuyn'
+    - 'lore9:&eGiá mua: &c2000 &e⛀'
+    - 'lore10:&8hoặc    &c&l100&8 card'
+    RewardType: COMMAND
+    Reward:
+    - pex user %player% add minecraft.skin.ngaquy
+    - mobcoins give %player% 100000
+    - class exp %player% 10000
+    - xp give %player% 300
+    PriceType: POINTS
+    Price: 2000
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 4
+  4:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFlYmM3YWFkNWE2NTZkNTg0MmQ0ODExNjdiNWI3Yjk4ZWFmOWQ5MjRjMmRiYjkzNDhhMzEyMDMzMzAyNjMifX19=
+    - name:&fBộ sưu tập &3&lset Frog &f【&4Huyền Thoại&f】
+    - 'lore2:&8+8.000 exp class'
+    - 'lore3:&8+200 xp'
+    - 'lore4:&8+1 set Fog vĩnh viễn'
+    - 'lore6:&fMô tả:&7 mặc full set Frog cho bạn kỹ năng &cSức Bật&7 Lv1 của cóc có hiệu lực cố định'
+    - 'lore8:&eGiá mua: &c1200 &e⛀'
+    - 'lore9:&8hoặc    &c&l70&8 card'
+    RewardType: COMMAND
+    Reward:
+    - pex user %player% add gadgetsmenu.suits.frog.*
+    - mobcoins give %player% 80000
+    - class exp %player% 8000
+    - xp give %player% 200
+    PriceType: POINTS
+    Price: 1200
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 12
+  5:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWNjZjI2MjkyNmQ4MmNlZWI1MzJjNzU3OTdiMjg0YzdlODkxYWU1MjQxYWIxODM5Yzg4YmNmNGU2YzIzMmMifX19=
+    - name:&fBộ sưu tập &c&lset Ninja &f【&4Huyền Thoại&f】
+    - 'lore2:&8+8.000 exp class'
+    - 'lore3:&8+200 xp'
+    - 'lore4:&8+1 set Ninja vĩnh viễn'
+    - 'lore6:&fMô tả:&7 mặc full set Ninja cho bạn kỹ năng &cPhóng Suriken&7 của các Ninja bóng đêm. Gây 0% ST cho mỗi phi tiêu UUID'
+    - 'lore8:&eGiá mua: &c1200 &e⛀'
+    - 'lore9:&8hoặc    &c&l70&8 card'
+    RewardType: COMMAND
+    Reward:
+    - pex user %player% add gadgetsmenu.suits.ninja.*
+    - mobcoins give %player% 80000
+    - class exp %player% 8000
+    - xp give %player% 200
+    PriceType: POINTS
+    Price: 1200
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 13
+  6:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjk2MjczNzBmZWRiZDBiYWU3YmFlNmQ2Zjg1ODM1NTU3NjM3ODljMWJkOTNmYTYzOWNmYTNkZmQ0OGUzNDg1MCJ9fX0==
+    - name:&fBộ sưu tập &b&lset Masterbird &f【&4Huyền Thoại&f】
+    - 'lore2:&8+8.000 exp class'
+    - 'lore3:&8+200 xp'
+    - 'lore4:&8+1 set Masterbird vĩnh viễn'
+    - 'lore6:&fMô tả:&7 mặc full set Masterbird cho bạn kỹ năng &cTăng Tốc&7 Lv1 của speedbird có hiệu lực cố định'
+    - 'lore8:&eGiá mua: &c1200 &e⛀'
+    - 'lore9:&8hoặc    &c&l70&8 card'
+    RewardType: COMMAND
+    Reward:
+    - pex user %player% add gadgetsmenu.suits.speedster.*
+    - mobcoins give %player% 80000
+    - class exp %player% 8000
+    - xp give %player% 200
+    PriceType: POINTS
+    Price: 1200
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 14
+  7:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGQ1NGRhM2JjMGE5MzdkZGY2MjVlMzM5YjdlMzJhNGIwMjM5NGUzMWQyY2JkODFmYzFjMWYyNWIyNTdmNjkifX19=
+    - name:&fBộ sưu tập &8&lset Ghost &f【&4Huyền Thoại&f】
+    - 'lore2:&8+8.000 exp class'
+    - 'lore3:&8+200 xp'
+    - 'lore4:&8+1 set Ghost vĩnh viễn'
+    - 'lore6:&fMô tả:&7 mặc full set Ghost cho bạn kỹ năng &cTàng Hình&7 của Ghost có hiệu lực cố định'
+    - 'lore8:&eGiá mua: &c1200 &e⛀'
+    - 'lore9:&8hoặc    &c&l70&8 card'
+    RewardType: COMMAND
+    Reward:
+    - pex user %player% add gadgetsmenu.suits.ghostly.*
+    - mobcoins give %player% 80000
+    - class exp %player% 8000
+    - xp give %player% 200
+    PriceType: POINTS
+    Price: 1200
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 15
+  8:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2ZmYzk3N2NjN2UxMGU1NjRhMDk2MzhhNTNiYmM0YzU0YzljOGRhYzc0NTBiYTNkZmEzYzkwOTlkOTRmNSJ9fX0==
+    - name:&fBộ sưu tập &c&lset &eĐ&ba &cS&aắ&5c &f【&4Huyền Thoại&f】
+    - 'lore2:&8+8.000 exp class'
+    - 'lore3:&8+200 xp'
+    - 'lore4:&8+1 set Đa Sắc vĩnh viễn'
+    - 'lore6:&fMô tả:&7 mặc full set Disco cho phép bạn đổi màu skin 7 màu liên tục, có hiệu lực cố định'
+    - 'lore8:&eGiá mua: &c1200 &e⛀'
+    - 'lore9:&8hoặc    &c&l70&8 card'
+    RewardType: COMMAND
+    Reward:
+    - pex user %player% add gadgetsmenu.suits.disco.*
+    - mobcoins give %player% 80000
+    - class exp %player% 8000
+    - xp give %player% 200
+    PriceType: POINTS
+    Price: 1200
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 16
+  back:
+    MenuItem:
+    - type:351:8
+    - name:&a
+    - 'lore1:&cQuay lại'
+    - 'lore2:&a'
+    RewardType: SHOP
+    Reward: cshop
+    Message: ''
+    InventoryLocation: 19
+  nxt:
+    MenuItem:
+    - type:351:10
+    - amount:3
+    - name:&a
+    - 'lore1:&2Trang ⇨'
+    - 'lore2:&a'
+    RewardType: SHOP
+    Reward: cshop3
+    Message: ''
+    InventoryLocation: 27

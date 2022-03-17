@@ -1,0 +1,18 @@
+currentQuests:
+- code
+- kungpow
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  code:
+    passwords:
+    - '&aVui lòng nhập mã code ra màn hình (ko cần dấu /)'
+    passwords-said:
+    - false
+  kungpow:
+    cows-milked: 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: jastaMilo

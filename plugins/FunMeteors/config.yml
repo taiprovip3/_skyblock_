@@ -1,0 +1,27 @@
+#Meteor item
+item:
+  material: MAGMA
+  data: 0
+  glowing: true
+#Offset between spawn location and crash location
+spawn-offset:
+  x: 30
+  y: 50
+  z: 30
+#Falling speed
+speed: 0.4
+#Jump range (in blocks)
+range: 4
+
+particles:
+  enabled: true
+  particle: SMOKE_LARGE
+sound:
+  enabled: true
+  sound: BLOCK_NOTE_PLING
+  volume: 2.0
+  pitch: 0.5
+autospawn:
+  enabled: true
+  #Spawn delay in seconds
+  delay: 30

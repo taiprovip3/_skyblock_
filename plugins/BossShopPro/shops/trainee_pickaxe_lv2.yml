@@ -1,0 +1,89 @@
+ShopName: trainee_pickaxe_lv2
+DisplayName: '&9Cúp &a&l⇧ &9Massive Nâng cấp'
+Command: trainee_pickaxe_lv2
+Sound:
+  Shop:
+    Open: ENTITY_ITEM_PICKUP:1:1
+    ChangeShop: ENTITY_ITEM_PICKUP:1:1
+shop:
+  1:
+    MenuItem:
+    - amount:2
+    - type:278
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a&lʟᴠ2
+    - 'lore2:&2•&a HIỆU XUẤT: &6+1 điểm'
+    - 'lore3:&2•&a ĐỘ BỀN: &6+3 điểm.'
+    - 'lore4:&2•&a GIA TÀI: &6+1 điểm.'
+    - 'lore6:&c• Tiêu thụ (mất):'
+    - 'lore7:&7 -3 tinh hoa đen'
+    - 'lore9:&f<< &aNhấp vào nâng cấp &f>>'
+    RewardType: opcommand
+    Reward:
+    - nbte efficiency 6
+    - nbte unbreaking 6
+    - nbte fortune 2
+    - setname &aᴛân ʙinh &eߧ&a ᴄúp &6&l+2
+    - setlore 3 &6HIỆU XUẤT &e[5] &8[+1]
+    - setlore 4 &6CỨNG CÁP &e[3] &8[+3]
+    - setlore 5 &6GIA TÀI &e[1] &8[+1]
+    - bb broadcast 10 &4[Thời Sự]&6%player% nâng cấp thành công trainee pickaxe, đến Lv2.
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:351
+      - amount:3
+      - name:&6&lTinh hoa &8&lĐen
+      - lore2:&2●&7Đánh giá:&a ☆☆☆☆☆&7☆☆☆☆☆
+      - lore3:&a●&7 Vật phẩm dùng để cường hóa các tr.bị
+      - lore4:&7 khởi đầu. Chỉ sử dụng đc trong giao diện
+      - lore5:&7 cường hóa.
+      - lore7:&c&l[VẬT PHẨM BỊ ĐỘNG]
+    InventoryLocation: 5
+  a:
+    MenuItem:
+    - type:351
+    - amount:3
+    - name:&6&lTinh hoa &8&lĐen
+    - lore2:&2●&7Đánh giá:&a ☆☆☆☆☆&7☆☆☆☆☆
+    - lore3:&a●&7 Vật phẩm dùng để cường hóa các tr.bị
+    - lore4:&7 khởi đầu. Chỉ sử dụng đc trong giao diện
+    - lore5:&7 cường hóa.
+    - lore7:&c&l[VẬT PHẨM BỊ ĐỘNG]
+    InventoryLocation: 1
+  b:
+    MenuItem:
+    - type:160:5
+    - name:&6
+    InventoryLocation: 2
+  c:
+    MenuItem:
+    - type:160:5
+    - name:&6
+    InventoryLocation: 3
+  d:
+    MenuItem:
+    - type:160:5
+    - name:&6
+    InventoryLocation: 4
+  e:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 6
+  f:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 7
+  g:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 8
+  h:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 9

@@ -1,0 +1,496 @@
+ShopName: spawner
+DisplayName: '&8&lServer &1♠ &8&lMua Spawner'
+Command: spawner
+Sound:
+  Shop:
+    Open: ENTITY_PLAYER_LEVELUP:1:1
+    ChangeShop: ENTITY_PLAYER_LEVELUP:1:1
+shop:
+  1:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Gà &7(Chicken)
+    - 'lore2:&a ●&7 Triệu hồi ra bò đỏ có nâm trên lưng. Có thể farm súp, thức ăn vô tận, exp.&a Giá tận: 5m'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner chicken 1
+    PriceType: money
+    Price: 5000000
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 1
+  2:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Bò &7(Cow)
+    - 'lore2:&a ●&7 Triệu hồi ra quái + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 5m'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner cow 1
+    PriceType: money
+    Price: 5000000
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 2
+  3:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Ngựa &7(Horse)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 10m'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner horse 1
+    PriceType: money
+    Price: 10000000
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 3
+  4:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Bò nấm &7(Mushroom Cow)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 5m'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner mushroom_cow 1
+    PriceType: money
+    Price: 5000000
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 4
+  5:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Mèo rừng &7(Ocelot)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 20m'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner ocelot 1
+    PriceType: money
+    Price: 20000000
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 5
+  6:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Chim parrot &7(Parrot)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 20m'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner parrot 1
+    PriceType: money
+    Price: 20000000
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 6
+  7:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Heo &7(Pig)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 5m'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner pig 1
+    PriceType: money
+    Price: 5000000
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 7
+  8:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Thỏ &7(Rabbit)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 5m'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner rabbit 1
+    PriceType: money
+    Price: 5000000
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 8
+  9:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Cừu &7(Sheep)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 5m'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner sheep 1
+    PriceType: money
+    Price: 5000000
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 9
+  10:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Người tuyết &7(Snowman)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 8m'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner snowman 1
+    PriceType: money
+    Price: 8000000
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 12
+  11:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Dân làng &7(Villager)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 20m'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner villager 1
+    PriceType: money
+    Price: 20000000
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 13
+  12:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Iron Golem &7(Người Sắt)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 20m'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner iron_golem 1
+    PriceType: money
+    Price: 20000000
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 14
+  13:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Sói &7(Wolf)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 20m'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner wolf 1
+    PriceType: money
+    Price: 20000000
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 15
+  13-5:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Mực &7(Squirting)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 5m'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner squid 1
+    PriceType: money
+    Price: 5000000
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 16
+################--end
+  14:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Dơi &7(Batman)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 500 &e&l฿ &a(BTC)'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner bat 1
+    PriceType: points
+    Price: 500
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 28
+  15:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Quỹ lửa &7(Blaze)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 500 &e&l฿ &a(BTC)'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner blaze 1
+    PriceType: points
+    Price: 500
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 29
+  16:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Nhện hang &7(Cave Spider)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 500 &e&l฿ &a(BTC)'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner cave_spider 1
+    PriceType: points
+    Price: 500
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 30
+  17:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Creeper &7(Quái nổ)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 500 &e&l฿ &a(BTC)'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner creeper 1
+    PriceType: points
+    Price: 500
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 31
+  18:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Enderman
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 500 &e&l฿ &a(BTC)'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner enderman 1
+    PriceType: points
+    Price: 500
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 32
+  19:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Guardian &7(Người bảo hộ)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 500 &e&l฿ &a(BTC)'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner guardian 1
+    PriceType: points
+    Price: 500
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 33
+  20:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Zombie Sa mạc &7(Husk)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 500 &e&l฿ &a(BTC)'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner husk 1
+    PriceType: points
+    Price: 500
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 34
+  21:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Slime địa ngục &7(Magma Cube)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 500 &e&l฿ &a(BTC)'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner magma_cube 1
+    PriceType: points
+    Price: 500
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 35
+  22:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Gấu &7(Polar Bear)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 1000 &e&l฿ &a(BTC)'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner polar_bear 1
+    PriceType: points
+    Price: 1000
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 36
+  23:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Skeleton &7(Người xương)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 500 &e&l฿ &a(BTC)'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner skeleton 1
+    PriceType: points
+    Price: 500
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 37
+  24:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Ngựa xương &7(Skeleton Horse)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 1000 &e&l฿ &a(BTC)'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner skeleton_horse 1
+    PriceType: points
+    Price: 1000
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 38
+  25:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Slime &7(Quái vật chất nhờn)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 500 &e&l฿ &a(BTC)'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - stacker give %player% spawner slime 1
+    PriceType: points
+    Price: 500
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 39
+  26:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Quái lang thang &7(Stray)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 500 &e&l฿ &a(BTC)'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - spawner give %player% spawner stray 1
+    PriceType: points
+    Price: 500
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 40
+  27:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Kẻ cướp dân làng &7(Vindicator)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 500 &e&l฿ &a(BTC)'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - spawner give %player% spawner vindicator 1
+    PriceType: points
+    Price: 500
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 41
+  28:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Phù thủy &7(Witch)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 500 &e&l฿ &a(BTC)'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - spawner give %player% spawner witch 1
+    PriceType: points
+    Price: 500
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 42
+  29:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Than đen &7(Wither Skeleton)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 500 &e&l฿ &a(BTC)'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - spawner give %player% spawner wither_skeleton 1
+    PriceType: points
+    Price: 500
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 43
+  30:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Zombie &7(Thây Ma)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 500 &e&l฿ &a(BTC)'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - spawner give %player% spawner zombie 1
+    PriceType: points
+    Price: 500
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 44
+  31:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Ngựa Zombie &7(Zombie Horse)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 500 &e&l฿ &a(BTC)'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - spawner give %player% spawner zombie_horse 1
+    PriceType: points
+    Price: 500
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 45
+  32:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Pigman &7(Người Heo)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 500 &e&l฿ &a(BTC)'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - spawner give %player% spawner pig_zombie 1
+    PriceType: points
+    Price: 500
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 46
+  33:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2YmQ5NzI3YWJiNTVkNTQxNTI2NTc4OWQ0ZjI5ODQ3ODFhMzQzYzY4ZGNhZjU3ZjU1NGE1ZTlhYTFjZCJ9fX0==
+    - name:&8&lSpawner Zombie Dân làng &7(Villager Zombie)
+    - 'lore2:&a ●&7 Triệu hồi ra mobs + farm đồ rơi, exp vĩnh viễn.&a Giá tận: 500 &e&l฿ &a(BTC)'
+    - 'lore4:&7(nhấp mua đi bạn)'
+    RewardType: COMMAND
+    Reward:
+    - spawner give %player% spawner zombie_villager 1
+    PriceType: points
+    Price: 500
+    Message: '&aBạn vừa chi &e%price%&a và mua 1 cái lồng spawner &2&l✔'
+    InventoryLocation: 47
+  back:
+    MenuItem:
+    - type:331
+    - name:&a
+    - 'lore1:&cQuay lại'
+    - 'lore2:&a'
+    RewardType: SHOP
+    Reward: menu
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 50

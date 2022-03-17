@@ -1,0 +1,167 @@
+ShopName: drill
+DisplayName: '&8Server &9()&8 Đục lỗ'
+Command: drill:dr
+Sound:
+  Shop:
+    Open: ENTITY_ITEM_PICKUP:1:1
+    ChangeShop: ENTITY_ITEM_PICKUP:1:1
+shop:
+  a:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI3Y2U2ODNkMDg2OGFhNDM3OGFlYjYwY2FhNWVhODA1OTZiY2ZmZGFiNmI1YWYyZDEyNTk1ODM3YTg0ODUzIn19fQ==
+    - 'name:&6&lĐục lỗ thạch'
+    - 'lore2:&aThông tin:&7 tạo ra 1 lỗ thủng lên trang bị'
+    - 'lore4:&aLỗ thủng:&7 có thể ghép bảo thạch vào'
+    - 'lore6:&aBảo thạch:&7 giúp tăng &e&l+&7 thích ứng & thu thập từ các hoạt động khác.'
+    - 'lore8:&aTiêu hao:&7 -1 mũi khoang'
+    - 'lore10:&7Click vào để đục!'
+    RewardType: PLAYERCOMMANDOP
+    Reward: 
+    - socket add empty
+    PriceType: item
+    Price:
+    - - type:318
+      - amount:1
+      - 'name:&6&lMũi Khoang'
+      - 'lore2:&ePhẩm chất: &a@@@@@@@@&7@@'
+      - 'lore4:&eCông dụng:&7 dùng để đục lỗ lên trang bị'
+      - 'lore6:&eLỗ thạch:&7 sau khi đục có thể khảm thạch lên trang bị bằng cách kéo thả'
+      - 'lore8:&eSử dụng:&7 /drill giao diện'
+      - 'lore10:&7 Chuỗi nhiệm vụ chính &c(!)&7, code..'
+      - 'lore8:&7 Có thể trao đổi cho player khác..'
+      - 'lore9:&R &R &R &R &7 ký tên:&2 Grassmc.com.'
+    ExtraPermission: ''
+    InventoryLocation: 1
+  b:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI3Y2U2ODNkMDg2OGFhNDM3OGFlYjYwY2FhNWVhODA1OTZiY2ZmZGFiNmI1YWYyZDEyNTk1ODM3YTg0ODUzIn19fQ==
+    - name:&a
+    - 'lore1:&a        Đục'
+    - 'lore2:&7   -1 mũi khoang &r &r &r &r'
+    - 'lore3:&a'
+    RewardType: PLAYERCOMMANDOP
+    Reward: 
+    - socket add empty
+    PriceType: item
+    Price:
+    - - type:318
+      - amount:1
+      - 'name:&f&l&k|||&2 Mũi khoang &fánh áng &2&l&k|||'
+      - 'lore2:&f⚝&2 công dụng &f⚝'
+      - 'lore3:&7 dùng để dụng lỗ thạch cho trang bị'
+      - 'lore4:&7 tại giao diện Drill trong RPG Personal'
+      - 'lore6:&f⚝&2 Obtained From: &f⚝'
+      - 'lore7:&7 Chuỗi nhiệm vụ chính &c(!)&7, code..'
+      - 'lore8:&7 Có thể trao đổi cho player khác..'
+      - 'lore9:&R &R &R &R &7 ký tên:&2 Grassmc.com.'
+    ExtraPermission: ''
+    InventoryLocation: 2
+  c:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI3Y2U2ODNkMDg2OGFhNDM3OGFlYjYwY2FhNWVhODA1OTZiY2ZmZGFiNmI1YWYyZDEyNTk1ODM3YTg0ODUzIn19fQ==
+    - name:&a
+    - 'lore1:&a        Đục'
+    - 'lore2:&7   -1 mũi khoang &r &r &r &r'
+    - 'lore3:&a'
+    RewardType: PLAYERCOMMANDOP
+    Reward: 
+    - socket add empty
+    PriceType: item
+    Price:
+    - - type:318
+      - amount:1
+      - 'name:&f&l&k|||&2 Mũi khoang &fánh áng &2&l&k|||'
+      - 'lore2:&f⚝&2 công dụng &f⚝'
+      - 'lore3:&7 dùng để dụng lỗ thạch cho trang bị'
+      - 'lore4:&7 tại giao diện Drill trong RPG Personal'
+      - 'lore6:&f⚝&2 Obtained From: &f⚝'
+      - 'lore7:&7 Chuỗi nhiệm vụ chính &c(!)&7, code..'
+      - 'lore8:&7 Có thể trao đổi cho player khác..'
+      - 'lore9:&R &R &R &R &7 ký tên:&2 Grassmc.com.'
+    ExtraPermission: ''
+    InventoryLocation: 3
+  d:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI3Y2U2ODNkMDg2OGFhNDM3OGFlYjYwY2FhNWVhODA1OTZiY2ZmZGFiNmI1YWYyZDEyNTk1ODM3YTg0ODUzIn19fQ==
+    - name:&a
+    - 'lore1:&a        Đục'
+    - 'lore2:&7   -1 mũi khoang &r &r &r &r'
+    - 'lore3:&a'
+    RewardType: PLAYERCOMMANDOP
+    Reward: 
+    - socket add empty
+    PriceType: item
+    Price:
+    - - type:318
+      - amount:1
+      - 'name:&f&l&k|||&2 Mũi khoang &fánh áng &2&l&k|||'
+      - 'lore2:&f⚝&2 công dụng &f⚝'
+      - 'lore3:&7 dùng để dụng lỗ thạch cho trang bị'
+      - 'lore4:&7 tại giao diện Drill trong RPG Personal'
+      - 'lore6:&f⚝&2 Obtained From: &f⚝'
+      - 'lore7:&7 Chuỗi nhiệm vụ chính &c(!)&7, code..'
+      - 'lore8:&7 Có thể trao đổi cho player khác..'
+      - 'lore9:&R &R &R &R &7 ký tên:&2 Grassmc.com.'
+    ExtraPermission: ''
+    InventoryLocation: 4
+  e:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI3Y2U2ODNkMDg2OGFhNDM3OGFlYjYwY2FhNWVhODA1OTZiY2ZmZGFiNmI1YWYyZDEyNTk1ODM3YTg0ODUzIn19fQ==
+    - name:&a
+    - 'lore1:&a        Đục'
+    - 'lore2:&7   -1 mũi khoang &r &r &r &r'
+    - 'lore3:&a'
+    RewardType: PLAYERCOMMANDOP
+    Reward: 
+    - socket add empty
+    PriceType: item
+    Price:
+    - - type:318
+      - amount:1
+      - 'name:&f&l&k|||&2 Mũi khoang &fánh áng &2&l&k|||'
+      - 'lore2:&f⚝&2 công dụng &f⚝'
+      - 'lore3:&7 dùng để dụng lỗ thạch cho trang bị'
+      - 'lore4:&7 tại giao diện Drill trong RPG Personal'
+      - 'lore6:&f⚝&2 Obtained From: &f⚝'
+      - 'lore7:&7 Chuỗi nhiệm vụ chính &c(!)&7, code..'
+      - 'lore8:&7 Có thể trao đổi cho player khác..'
+      - 'lore9:&R &R &R &R &7 ký tên:&2 Grassmc.com.'
+    ExtraPermission: ''
+    InventoryLocation: 5
+  6:
+    MenuItem:
+    - type:160:14
+    - name:&c⇤
+    RewardType: shop
+    Reward: rpg
+    PriceType: NOTHING
+    InventoryLocation: 6
+  7:
+    MenuItem:
+    - type:160:14
+    - name:&c⇤
+    RewardType: shop
+    Reward: rpg
+    PriceType: NOTHING
+    InventoryLocation: 7
+  8:
+    MenuItem:
+    - type:160:14
+    - name:&c⇤
+    RewardType: shop
+    Reward: rpg
+    PriceType: NOTHING
+    InventoryLocation: 8
+  9:
+    MenuItem:
+    - type:160:14
+    - name:&c⇤
+    RewardType: shop
+    Reward: rpg
+    PriceType: NOTHING
+    InventoryLocation: 9

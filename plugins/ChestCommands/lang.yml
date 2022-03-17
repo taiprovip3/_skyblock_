@@ -1,0 +1,11 @@
+no-points: '&cCần &e{points}&l⛀ &cpixelcoin để mua. Bạn thiếu pixelcoin!'
+no-open-permission: '&cBạn không có quyền &e{permission} &cđể sử dụng giao diện này.'
+default-no-icon-permission: '&cYou don''t have permission for this icon.'
+open-menu: ''
+no-exp: '&cCần &6{levels} &cEXP để thực hiện điều này.'
+menu-not-found: '&cKo tìm thầy thực đơn này, vui lòng liên hệ admin nhá.'
+no-money: '&cCần &a{money} &a&l$ &cđể mua.'
+no-required-item: '&cCần có &e{amount}x {material} &c(ID: {id}, data value:
+  {datavalue}) để thực hiện.'
+open-menu-others: ''
+any: any

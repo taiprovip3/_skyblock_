@@ -1,0 +1,20 @@
+currentQuests: none
+currentStages: none
+quest-points: 2
+completed-Quests:
+- kungpow
+- dirt mining
+completedRedoableQuests:
+- dirt mining
+- kungpow
+completedQuestTimes:
+- 1625665097708
+- 1625664300418
+amountsCompletedQuests:
+- dirt mining
+- kungpow
+amountsCompleted:
+- 1
+- 1
+hasJournal: false
+lastKnownName: anhbtm1902

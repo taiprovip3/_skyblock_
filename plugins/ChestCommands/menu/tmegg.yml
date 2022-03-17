@@ -1,0 +1,80 @@
+menu-settings:
+  name: '&cMáy Chủ&6♦&8 Trứng thợ mỏ&a☘'
+  rows: 1
+a:
+  COMMAND: 'op:tmegg; op:lightning; op:playsound minecraft:entity.elder_guardian.curse ambient {player}'
+  NAME: ''
+  LORE:
+    - '&2Đập trứng&f&l✔'
+    - ''
+  ID: '160:5'
+  POSITION-X: 1
+  POSITION-Y: 1
+b:
+  COMMAND: 'op:tmegg; op:lightning; op:playsound minecraft:entity.elder_guardian.curse ambient {player}'
+  NAME: ''
+  LORE:
+    - '&2Đập trứng&f&l✔'
+    - ''
+  ID: '160:5'
+  POSITION-X: 2
+  POSITION-Y: 1
+c:
+  COMMAND: 'op:tmegg; op:lightning; op:playsound minecraft:entity.elder_guardian.curse ambient {player}'
+  NAME: ''
+  LORE:
+    - '&2Đập trứng&f&l✔'
+    - ''
+  ID: '160:5'
+  POSITION-X: 3
+  POSITION-Y: 1
+d:
+  COMMAND: 'op:tmegg; op:lightning; op:playsound minecraft:entity.elder_guardian.curse ambient {player}'
+  NAME: ''
+  LORE:
+    - '&2Đập trứng&f&l✔'
+    - ''
+  ID: '160:5'
+  POSITION-X: 4
+  POSITION-Y: 1
+e:
+  COMMAND: 'op:tmegg; op:lightning; op:playsound minecraft:entity.elder_guardian.curse ambient {player}'
+  NAME: ''
+  LORE:
+    - '&2Đập trứng&f&l✔'
+    - ''
+  ID: '160:5'
+  POSITION-X: 5
+  POSITION-Y: 1
+f:
+  NAME: ''
+  LORE:
+    - '&cNếu bạn ESC = mất trứng&4✘'
+    - ''
+  ID: '160:15'
+  POSITION-X: 6
+  POSITION-Y: 1
+g:
+  NAME: ''
+  LORE:
+    - '&cNếu bạn ESC = mất trứng&4✘'
+    - ''
+  ID: '160:15'
+  POSITION-X: 7
+  POSITION-Y: 1
+h:
+  NAME: ''
+  LORE:
+    - '&cNếu bạn ESC = mất trứng&4✘'
+    - ''
+  ID: '160:15'
+  POSITION-X: 8
+  POSITION-Y: 1
+i:
+  NAME: ''
+  LORE:
+    - '&cNếu bạn ESC = mất trứng&4✘'
+    - ''
+  ID: '160:15'
+  POSITION-X: 9
+  POSITION-Y: 1

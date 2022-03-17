@@ -1,0 +1,216 @@
+#Note: 
+#Please use [Space] instead of [Tab]
+#Forgot to add open and close string statement ["] causing not load properly!
+#If data value is invalid, the item will not be created!
+#1 Seconds = 20 Ticks
+
+#-----=====[ Format Generator ]=====-----#
+
+#Key:
+#  DisplayName
+#  Type:
+#    *ItemType:
+#      Possibility
+#      Description:
+#      - "Desc Line 1"
+#      - "Desc Line 2"
+#      Name:
+#      - "Name 1"
+#      - "Name 2"
+#  Tier:
+#    *ItemTier:
+#      Possibility
+#      Additional_Lores:
+#      - "Additional Lore 1"
+#      - "Additional Lore 2"
+#  Lores:
+#  - "Lore Line 1"
+#  - "Lore Line 2"
+  
+#-----=====[ Local Placeholder ]=====-----#
+
+#Name: Random name from item type.
+#Type_ID: Key id of item type.
+#Tier_ID: Key id of item tier.
+#Tier_Name: Name of item tier.
+#Tier_Prefix: Prefix of item tier.
+
+#-----=====[ Global Placeholder ]=====-----#
+
+#{myitems_text_lorestats:<lorestats>:<min value>:[<max value>]}
+#{myitems_text_ability:<ability>:<grade>:<chance>}
+#{myitems_text_buff:<buff>:<grade>}
+#{myitems_text_power:<power>:<click>:<type>:[<cooldown>]}
+#{myitems_text_socket_empty}
+#{myitems_text_socket_fill:<gems>}
+#{myitems_text_element:<element>:<value>}
+
+#note: use "~" for range value
+
+#-----=====[ Item Generator ]=====-----#
+
+Beginner_Weapon:
+  Display_Name: "&8&l[ {tier_prefix}{name} &8&l]"
+  Type:
+    Normal_Wooden_Sword:
+      Possibility: 1
+      Description:
+      - "&2A dull sword that used by begginers"
+      Name:
+      - "Beginner Sword"
+    Normal_Dagger:
+      Possibility: 1
+      Description:
+      - "&2A dull dagger that used by begginers"
+      Name:
+      - "Beginner Dagger"
+    Normal_Bow:
+      Possibility: 1
+      Description:
+      - "&2A long bow that used by begginers"
+      Name:
+      - "Beginner Bow"
+  Tier:
+    Common:
+      Possibility: 80
+    Uncommon:
+      Possibility: 15
+      Additional_Lores:
+      - "&8&l&m==========&r&8&l[&r &2&lSocket&r &8&l]&r&8&l&m=========="
+      - "{myitems_text_socket_empty}"
+    Magic:
+      Possibility: 5
+      Additional_Lores:
+      - "&8&l&m==========&r&8&l[&r &2&lSocket&r &8&l]&r&8&l&m=========="
+      - "{myitems_text_socket_empty}"
+      - "{myitems_text_socket_empty}"
+  Lores:
+  - "&8&l&m==========&r&8&l[&r &2&lDesc&r &8&l]&r&8&l&m=========="
+  - "{description}"
+  - "&7Tier: {tier_prefix}{tier_name}"
+  - "&8&l&m==========&r&8&l[&r &2&lStatus&r &8&l]&r&8&l&m=========="
+  - "{myitems_text_lorestats:damage:5~7:8~10}"
+  - "{myitems_text_lorestats:critical_chance:5~8}"
+  - "{myitems_text_lorestats:critical_damage:1.2~1.35}"
+  - "{myitems_text_lorestats:durability:1~256:256}"  
+  
+Flame_Weapon:
+  Display_Name: "&8&l[ {tier_prefix}{name} &8&l]"
+  Type:
+    Normal_Wooden_Sword:
+      Possibility: 1
+      Description:
+      - "&2A sword that made by old fire mage"
+      Name:
+      - "Flame Sword"
+    Normal_Dagger:
+      Possibility: 1
+      Description:
+      - "&2A dagger that made by old fire mage"
+      Name:
+      - "Flame Dagger"
+    Normal_Bow:
+      Possibility: 1
+      Description:
+      - "&2A long bow that made by old fire mage"
+      Name:
+      - "Flame Bow"
+  Tier:
+    Common:
+      Possibility: 65
+    Uncommon:
+      Possibility: 22
+      Additional_Lores:
+      - "&8&l&m==========&r&8&l[&r &2&lSocket&r &8&l]&r&8&l&m=========="
+      - "{myitems_text_socket_empty}"
+    Magic:
+      Possibility: 10
+      Additional_Lores:
+      - "&8&l&m==========&r&8&l[&r &2&lSocket&r &8&l]&r&8&l&m=========="
+      - "{myitems_text_socket_empty}"
+      - "{myitems_text_socket_empty}"
+    Epic:
+      Possibility: 3
+      Additional_Lores:
+      - "&8&l&m==========&r&8&l[&r &2&lSocket&r &8&l]&r&8&l&m=========="
+      - "{myitems_text_socket_empty}"
+      - "{myitems_text_socket_empty}"
+      - "{myitems_text_socket_empty}"
+  Lores:
+  - "&8&l&m==========&r&8&l[&r &2&lDesc&r &8&l]&r&8&l&m=========="
+  - "{description}"
+  - "&7Tier: {tier_prefix}{tier_name}"
+  - "&8&l&m==========&r&8&l[&r &2&lStatus&r &8&l]&r&8&l&m=========="
+  - "{myitems_text_lorestats:damage:12~16:20~25}"
+  - "{myitems_text_lorestats:hit_rate:10~15}"
+  - "{myitems_text_lorestats:penetration:20~32}"
+  - "{myitems_text_lorestats:critical_chance:10~13}"
+  - "{myitems_text_lorestats:critical_damage:1.35~1.5}"
+  - "{myitems_text_lorestats:pvp_damage:25~35}"
+  - "{myitems_text_lorestats:pve_damage:30~50}"
+  - "{myitems_text_lorestats:durability:1~2048:2048}"
+  - "&8&l&m==========&r&8&l[&r &2&lBuff&r &8&l]&r&8&l&m=========="
+  - "{myitems_text_buff:jump:1~2}"
+  - "{myitems_text_buff:absorb:1~3}"
+  - "{myitems_text_buff:luck:1~7}"
+  - "&8&l&m==========&r&8&l[&r &2&lAbility&r &8&l]&r&8&l&m=========="
+  - "{myitems_text_ability:blindness:1~2:20~25}"
+  - "{myitems_text_ability:flame:1~3:20~25}"
+  - "{myitems_text_ability:dark_flame:1~5:10~15}"
+  - "&8&l&m==========&r&8&l[&r &2&lPower&r &8&l]&r&8&l&m=========="
+  - "{myitems_text_power:special:shift_left:fissure:12~15}"
+  - "{myitems_text_power:special:shift_right:amaterasu:30~60}"
+  - "&8&l&m==========&r&8&l[&r &2&lElement&r &8&l]&r&8&l&m=========="
+  - "{myitems_text_element:wind:20~30}"
+  - "{myitems_text_element:fire:25~50}"
+  
+  
+Beginner_Armor:
+  Display_Name: "&8&l[ {tier_prefix}{name} &8&l]"
+  Type:
+    Normal_Leather_Helmet:
+      Possibility: 1
+      Description:
+      - "&2A cap that used by begginers"
+      Name:
+      - "Beginner Cap"
+    Normal_Leather_Chestplate:
+      Possibility: 1
+      Description:
+      - "&2A tunic that used by begginers"
+      Name:
+      - "Beginner Tunic"
+    Normal_Leather_Leggings:
+      Possibility: 1
+      Description:
+      - "&2A pants that used by begginers"
+      Name:
+      - "Beginner Pants"
+    Normal_Leather_Boots:
+      Possibility: 1
+      Description:
+      - "&2A boots that used by begginers"
+      Name:
+      - "Beginner Boots"
+  Tier:
+    Common:
+      Possibility: 80
+    Uncommon:
+      Possibility: 15
+      Additional_Lores:
+      - "&8&l&m==========&r&8&l[&r &2&lSocket&r &8&l]&r&8&l&m=========="
+      - "{myitems_text_socket_empty}"
+    Magic:
+      Possibility: 5
+      Additional_Lores:
+      - "&8&l&m==========&r&8&l[&r &2&lSocket&r &8&l]&r&8&l&m=========="
+      - "{myitems_text_socket_empty}"
+      - "{myitems_text_socket_empty}"
+  Lores:
+  - "&8&l&m==========&r&8&l[&r &2&lDesc&r &8&l]&r&8&l&m=========="
+  - "{description}"
+  - "&7Tier: {tier_prefix}{tier_name}"
+  - "&8&l&m==========&r&8&l[&r &2&lStatus&r &8&l]&r&8&l&m=========="
+  - "{myitems_text_lorestats:defense:3~5:5~7}"
+  - "{myitems_text_lorestats:health:2~4}"
+  - "{myitems_text_lorestats:durability:1~256:256}"  

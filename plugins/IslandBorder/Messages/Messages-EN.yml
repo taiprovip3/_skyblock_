@@ -1,0 +1,27 @@
+No-Permission: '&cYou don''t have permission for this command.'
+No-Commands-In-Console: '&cCommands aren''t available in console.'
+Island-Border:
+  Toggle:
+    'On': '&aBạn vừa &2ON&a bo đảo.'
+    'Off': '&cBạn vừa &4TẮT&c bo đảo.'
+  Already-Toggled:
+    'On': '&cBo đảo đã được bật từ trước rồi.'
+    'Off': '&cBo đảo đã tắt trước đó rồi.'
+  Placeholder:
+    Activated: '&aActivated'
+    Deactivated: '&cDeactivated'
+    Not-On-Island: '&7Not on island'
+    No-Cooldown: '&7No cooldown'
+  Reload: '&7Island Border has been reloaded successfully!'
+  Not-On-Island: '&cLệnh này chỉ thực hiện được khi bạn đang đứng trên đảo của mình.'
+  Border-Color:
+    Red: '&cRed'
+    Green: '&aGreen'
+    Blue: '&bBlue'
+    Changed: '&aBạn vừa thay đổi màu sắc bo đảo &2&l✔'
+    Same-Border-Color: '&cBạn đang sử dụng màu này!'
+    No-Permission: '&7You don''t have permission to use this border color.'
+  Cooldown: '&cBạn phải chờ &a%seconds%&c giây để thực hiện lại thao tác này.'
+Time:
+  Second: second
+  Seconds: seconds

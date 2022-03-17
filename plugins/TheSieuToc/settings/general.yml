@@ -1,0 +1,77 @@
+# /!\ Không thay đổi giá trị này
+Config-Version: 2.0.3
+
+########################################################################
+#       ________            _____ _               ______               #
+#      /_  __/ /_  ___     / ___/(____  __  __   /_  ______  _____     #
+#       / / / __ \/ _ \    \__ \/ / _ \/ / / /    / / / __ \/ ___/     #
+#      / / / / / /  __/   ___/ / /  __/ /_/ /    / / / /_/ / /__       #
+#     /_/ /_/ /_/\___/   /____/_/\___/\__._/    /_/  \____/\___/       #
+#                  | Version: 2.0.3 | Author: LXC |                    #
+#               | Copyright (c) 2018-2020 TheSieuToc |                 #
+########################################################################
+
+# /!\ Đừng bật nếu bạn không phải là nhà phát triển
+Debug: false
+
+# /!\ Bắt buộc phải điền, không điền thì chạy bằng niềm tin à? (╯°□°）╯︵ ┻━┻
+# [?] Bạn có thể lấy API key và API Secret tại https://thesieutoc.net/tich-hop-nap-the.html
+TheSieuToc:
+  API-Key: 'OI0SVNil2RmBdvELh1tqHkKGC'
+  API-Secret: 'ZRgva1M0um5OIdVs8Y7U2EAQH'
+
+# [?] Chu kỳ kiểm tra card, những card nào khi gửi đi mà ko nhận dc response ngay thì vào hàng chờ
+# hàng chờ này sẽ được kiểm tra vào mỗi 10s (mặc định)
+# Fact: Bạn có thể dùng các loại đơn vị như tick (không cần ghi gì sau số), milisecond (ms),
+#       second (s), minute (m), hour (h), day (d)
+Card-Check-Period: 1m
+
+# /!\ Phải nhập đúng tên thẻ có trên https://thesieutoc.net, còn không thì cứ để mặc định
+# Fact: Không thích loại thẻ nào thì có thể bỏ bớt
+Card-Enabled:
+  - 'Viettel'
+  - 'Vinaphone'
+  - 'Mobifone'
+  - 'Vietnamobile'
+  - 'Vcoin'
+  - 'Zing'
+  - 'Gate'
+
+# [?] Placeholder có thể dùng:
+#         ● {Player}: Tên người chơi
+#         ● {Amount}: Số tiền người chơi nạp
+#         ● {Player_Rank}: Thứ hạng nạp thẻ của người chơi
+#         ● {Player_Total}: Tổng cộng số tiền đã nạp của người chơi
+#         ● {Total}: Tổng cộng số tiền mà server đã nhận được
+# [?] Có 3 loại đối tượng chạy command:
+#         ● player: chạy dưới quyền có sẵn của người chơi đó
+#         ● op: vẫn chạy dưới dạng người chơi nhưng có quyền của op
+#         ● console: chạy command trên console
+Card-Reward:
+  10000:
+    - 'console:dust add {player} 150'
+    - 'console:broadcast &8»&2{player}&7 vừa donate &210.000 vnđ&7 (&e100 ⛃&7). K/m thêm 50% tổng cộng: &e150 ⛃&7. Các quyền lợi nạp thẻ sẽ được cố gắng sử lý trong khoản thời gian sớm nhất.'
+  20000:
+    - 'console:dust add {player} 300'
+    - 'console:broadcast &8»&2{player}&7 vừa donate &220.000 vnđ&7 (&e200 ⛃&7). K/m thêm 50% tổng cộng: &e300 ⛃&7. Các quyền lợi nạp thẻ sẽ được cố gắng sử lý trong khoản thời gian sớm nhất.'
+  30000:
+    - 'console:dust add {player} 450'
+    - 'console:broadcast &8»&2{player}&7 vừa donate &230.000 vnđ&7 (&e300 ⛃&7). K/m thêm 50% tổng cộng: &e450 ⛃&7. Các quyền lợi nạp thẻ sẽ được cố gắng sử lý trong khoản thời gian sớm nhất.'
+  50000:
+    - 'console:dust add {player} 750'
+    - 'console:broadcast &8»&2{player}&7 vừa donate &250.000 vnđ&7 (&e500 ⛃&7). K/m thêm 50% tổng cộng: &e750 ⛃&7. Các quyền lợi nạp thẻ sẽ được cố gắng sử lý trong khoản thời gian sớm nhất.'
+  100000:
+    - 'console:dust add {player} 1500'
+    - 'console:broadcast &8»&2{player}&7 vừa donate &2100.000 vnđ&7 (&e1000 ⛃&7). K/m thêm 50% tổng cộng: &e1500 ⛃&7. Các quyền lợi nạp thẻ sẽ được cố gắng sử lý trong khoản thời gian sớm nhất.'
+  200000:
+    - 'console:dust add {player} 3000'
+    - 'console:broadcast &8»&2{player}&7 vừa donate &2200.000 vnđ&7 (&e2000 ⛃&7). K/m thêm 50% tổng cộng: &e3000 ⛃&7. Các quyền lợi nạp thẻ sẽ được cố gắng sử lý trong khoản thời gian sớm nhất.'
+  300000:
+    - 'console:dust add {player} 4500'
+    - 'console:broadcast &8»&2{player}&7 vừa donate &2300.000 vnđ&7 (&e3000 ⛃&7). K/m thêm 50% tổng cộng: &e4500 ⛃&7. Các quyền lợi nạp thẻ sẽ được cố gắng sử lý trong khoản thời gian sớm nhất.'
+  500000:
+    - 'console:dust add {player} 7500'
+    - 'console:broadcast &8»&2{player}&7 vừa donate &2500.000 vnđ&7 (&e5000 ⛃&7). K/m thêm 50% tổng cộng: &e7500 ⛃&7. Các quyền lợi nạp thẻ sẽ được cố gắng sử lý trong khoản thời gian sớm nhất.'
+  1000000:
+    - 'console:dust add {player} 15000'
+    - 'console:broadcast &8»&2{player}&7 vừa donate &21.000.000 vnđ&7 (&e10.000 ⛃&7). K/m thêm 50% tổng cộng: &e15.000 ⛃&7. Các quyền lợi nạp thẻ sẽ được cố gắng sử lý trong khoản thời gian sớm nhất.'

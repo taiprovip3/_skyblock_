@@ -1,0 +1,2036 @@
+2020 07-05 at 09:57:42 PM (Thu): |
+  Invalid Configuration! File: /shops/null Cause: while scanning a simple key
+   in 'string', line 22, column 1:
+      type:103
+      ^
+  could not find expected ':'
+   in 'string', line 23, column 20:
+          ExtraPermission: '&2Đã bán tất cả trong túi'
+                         ^
+2020 07-05 at 09:58:52 PM (Thu): |
+  Invalid Configuration! File: /shops/null Cause: while scanning a simple key
+   in 'string', line 22, column 1:
+      type:103
+      ^
+  could not find expected ':'
+   in 'string', line 23, column 20:
+          ExtraPermission: '&2Đã bán tất cả trong túi'
+                         ^
+2020 13-05 at 09:27:49 AM (Wed): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 8, column 3:
+        a:
+        ^
+  expected <block end>, but found BlockMappingStart
+   in 'string', line 31, column 4:
+         ab:
+         ^
+2020 16-05 at 12:53:13 AM (Sat): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 21, column 5:
+          MenuItem:
+          ^
+  expected <block end>, but found Scalar
+   in 'string', line 27, column 8:
+          - 'lore5:&7(nhấp vào)'
+             ^
+2020 16-05 at 12:53:37 AM (Sat): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 21, column 5:
+          MenuItem:
+          ^
+  expected <block end>, but found Scalar
+   in 'string', line 27, column 8:
+          - 'lore5:&7(nhấp vào)'
+             ^
+2020 16-05 at 12:54:45 AM (Sat): For more help please send me a PM at Spigot.
+2020 16-05 at 05:08:43 PM (Sat): Two Shops with the same Name (xp) are loaded. When
+  opening a Shop via Name, only one of this Shops will be opened!
+2020 16-05 at 05:09:19 PM (Sat): Two Shops with the same Name (xp) are loaded. When
+  opening a Shop via Name, only one of this Shops will be opened!
+2020 16-05 at 05:09:35 PM (Sat): Two Shops with the same Name (xp) are loaded. When
+  opening a Shop via Name, only one of this Shops will be opened!
+2020 27-05 at 03:40:25 AM (Wed): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 27-05 at 03:40:26 AM (Wed): 'Mistake in Config: ''452'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 29-05 at 01:09:51 AM (Fri): Two Shops with the same Name (zing) are loaded. When
+  opening a Shop via Name, only one of this Shops will be opened!
+2020 11-06 at 07:31:43 AM (Thu): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 11-06 at 07:31:44 AM (Thu): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 11-06 at 07:31:45 AM (Thu): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 11-06 at 07:39:33 AM (Thu): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 11-06 at 10:15:01 AM (Thu): 'Mistake in Config: ''452'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 11-06 at 10:15:02 AM (Thu): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 11-06 at 01:12:21 PM (Thu): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 11-06 at 01:12:22 PM (Thu): 'Mistake in Config: ''434'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 11-06 at 01:12:23 PM (Thu): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 12-06 at 04:32:54 PM (Fri): 'Mistake in Config: ''198'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 12-06 at 04:32:55 PM (Fri): 'Mistake in Config: ''216'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 13-06 at 02:49:18 AM (Sat): 'Mistake in Config: ''198'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 13-06 at 05:31:08 AM (Sat): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 13-06 at 05:31:09 AM (Sat): 'Mistake in Config: ''434'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 13-06 at 02:15:41 PM (Sat): 'Mistake in Config: ''198'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 13-06 at 02:15:42 PM (Sat): 'Mistake in Config: ''434'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 05:13:00 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 05:13:01 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 07:21:49 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 09:44:29 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 09:49:38 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 09:50:28 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 10:07:06 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 10:17:38 AM (Sun): 'Mistake in Config: ''216'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 10:17:39 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 10:25:28 AM (Sun): 'Mistake in Config: ''216'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 10:25:29 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 10:27:17 AM (Sun): 'Mistake in Config: ''201'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 10:27:18 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 10:31:19 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 10:31:20 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 10:37:50 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 10:37:51 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 10:39:48 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 10:43:07 AM (Sun): 'Mistake in Config: ''198'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 10:43:08 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 10:43:46 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 10:45:25 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 11:02:17 AM (Sun): 'Mistake in Config: ''434'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 11:02:18 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 11:09:11 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 11:17:42 AM (Sun): 'Mistake in Config: ''216'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 11:17:43 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 11:18:18 AM (Sun): 'Mistake in Config: ''434'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 11:18:19 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 14-06 at 11:19:18 AM (Sun): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 20-06 at 03:40:54 PM (Sat): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 20-06 at 03:40:55 PM (Sat): 'Mistake in Config: ''216'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 20-06 at 03:40:56 PM (Sat): 'Mistake in Config: ''434'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 20-06 at 03:41:40 PM (Sat): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 20-06 at 03:41:41 PM (Sat): 'Mistake in Config: ''434'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 20-06 at 03:45:08 PM (Sat): 'Mistake in Config: ''216'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 20-06 at 03:45:09 PM (Sat): 'Mistake in Config: ''434'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 20-06 at 03:50:22 PM (Sat): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 20-06 at 03:50:23 PM (Sat): 'Mistake in Config: ''434'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 20-06 at 04:02:56 PM (Sat): 'Mistake in Config: ''217'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 20-06 at 04:02:57 PM (Sat): 'Mistake in Config: ''434'' is not a valid ''type''.
+  Unable to find a fitting material.'
+2020 22-06 at 05:14:48 AM (Mon): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 83, column 5:
+          MenuItem:
+          ^
+  expected <block end>, but found Scalar
+   in 'string', line 107, column 8:
+          - 'name:&f&lThiên Thần Sa Ngã&6۝ '
+             ^
+2020 26-07 at 11:54:14 AM (Sun): 'Vault was not found... You need it if you want to
+  work with Permissions, Permission Groups or Money! Get it there: http://dev.bukkit.org/server-mods/vault/'
+2020 30-07 at 04:18:15 AM (Thu): 'Was not able to create ShopItem 2! The price object
+  needs to be a valid number. Example: ''4.0'' or ''10''.'
+2020 30-07 at 04:19:19 AM (Thu): 'Was not able to create ShopItem 2! The price object
+  needs to be a valid number. Example: ''4.0'' or ''10''.'
+2020 30-07 at 04:20:15 AM (Thu): 'Was not able to create ShopItem 2s! The price object
+  needs to be a valid number. Example: ''4.0'' or ''10''.'
+2020 31-07 at 05:48:42 AM (Fri): Was not able to create ShopItem 5ex! The reward object
+  needs to be the name of a shop (a single text line).
+2020 07-09 at 08:46:51 AM (Mon): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 184, column 5:
+          MenuItem:
+          ^
+  expected <block end>, but found Scalar
+   in 'string', line 188, column 8:
+          - 'lore2:&7Thần Thú'
+             ^
+2020 07-09 at 10:03:12 AM (Mon): "Invalid Configuration! File: /shops/null Cause:\
+  \ while scanning a simple key\n in 'string', line 20, column 1:\n    name:&6Đá &cLuâ\
+  n Hồi lore:|&f ## ... \n    ^\ncould not find expected ':'\n in 'string', line 21,\
+  \ column 3:\n      2:\n      ^\n"
+2020 08-09 at 03:57:48 PM (Tue): |
+  Invalid Configuration! File: /shops/null Cause: mapping values are not allowed here
+   in 'string', line 41, column 15:
+          - type:425:
+                    ^
+2020 08-09 at 04:14:34 PM (Tue): Two Shops with the same Name (mounts) are loaded.
+  When opening a Shop via Name, only one of this Shops will be opened!
+2020 07-11 at 08:24:56 AM (Sat): "Invalid Configuration! File: /shops/null Cause:\
+  \ expected '<document start>', but found BlockMappingStart\n in 'string', line 2,\
+  \ column 5:\n        Message: '%prefix% Đã tẩy bụi cl ... \n        ^\n"
+2020 14-11 at 06:14:10 AM (Sat): 'Mistake in Config: ''fortune'' is not a valid ''enchantment''.
+  The name/id of the enchantment is not known.'
+2020 29-11 at 04:52:21 AM (Sun): 'Mistake in Config: Unable to read itemdata ''&7
+  - Đá các loại...:null'
+2020 13-12 at 07:22:34 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 13-12 at 08:02:38 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 13-12 at 08:11:18 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 13-12 at 08:17:33 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 13-12 at 08:46:32 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 13-12 at 09:39:53 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 01:08:13 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 85'
+2020 14-12 at 01:08:14 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 01:41:35 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 01:51:13 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 02:09:42 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 02:11:45 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 02:22:05 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 02:36:14 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 02:39:43 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 06:34:36 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 07:34:48 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 07:35:43 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 07:36:07 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 07:36:24 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 07:36:46 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 08:10:17 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 08:10:52 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 08:11:12 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 08:13:52 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 08:34:50 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 08:37:32 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 08:39:27 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 08:39:50 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 08:40:47 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 08:41:06 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 08:41:23 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 08:43:41 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 08:44:09 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 07:19:45 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 07:41:17 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 07:41:29 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 75'
+2020 14-12 at 07:41:30 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 07:42:12 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 40'
+2020 14-12 at 07:42:13 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 07:42:53 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 07:43:08 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 07:43:25 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 07:43:47 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 07:44:04 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 07:47:50 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 07:48:15 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 07:48:29 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 07:49:04 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 50'
+2020 14-12 at 07:49:05 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 07:49:39 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 08:57:54 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 08:58:54 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 08:59:38 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 14-12 at 09:00:16 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lroe14:&7-
+  Level class: 5'
+2020 27-12 at 04:57:58 AM (Sun): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 9, column 3:
+        1:
+        ^
+  expected <block end>, but found BlockMappingStart
+   in 'string', line 143, column 4:
+         9:
+         ^
+2020 27-12 at 04:58:02 AM (Sun): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 9, column 3:
+        1:
+        ^
+  expected <block end>, but found BlockMappingStart
+   in 'string', line 143, column 4:
+         9:
+         ^
+2021 02-01 at 12:22:36 AM (Sat): "Invalid Configuration! File: /shops/null Cause:\
+  \ while scanning for the next token\nfound character '\\t(TAB)' that cannot start\
+  \ any token. (Do not use \\t(TAB) for indentation)\n in 'string', line 523, column\
+  \ 1:\n    \t- 'lore3:&7\t\t+5.0% Hút máu'\n    ^\n"
+2021 02-01 at 12:23:21 AM (Sat): "Invalid Configuration! File: /shops/null Cause:\
+  \ while scanning for the next token\nfound character '\\t(TAB)' that cannot start\
+  \ any token. (Do not use \\t(TAB) for indentation)\n in 'string', line 523, column\
+  \ 1:\n    \t- 'lore3:&7     +5.0% Hút máu'\n    ^\n"
+2021 02-01 at 12:23:55 AM (Sat): "Invalid Configuration! File: /shops/null Cause:\
+  \ while scanning for the next token\nfound character '\\t(TAB)' that cannot start\
+  \ any token. (Do not use \\t(TAB) for indentation)\n in 'string', line 523, column\
+  \ 1:\n    \t- 'lore3:&7+5.0% Hút máu'\n    ^\n"
+2021 02-01 at 12:24:26 AM (Sat): "Invalid Configuration! File: /shops/null Cause:\
+  \ while scanning for the next token\nfound character '\\t(TAB)' that cannot start\
+  \ any token. (Do not use \\t(TAB) for indentation)\n in 'string', line 543, column\
+  \ 1:\n    \t  - 'lore7:&r &2mắt thì cất vào ... \n    ^\n"
+2021 02-01 at 06:12:46 AM (Sat): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 9, column 3:
+        jung:
+        ^
+  expected <block end>, but found BlockMappingStart
+   in 'string', line 751, column 4:
+         midobaneye:
+         ^
+2021 02-01 at 06:13:07 AM (Sat): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 9, column 3:
+        jung:
+        ^
+  expected <block end>, but found BlockMappingStart
+   in 'string', line 751, column 4:
+         midobaneye:
+         ^
+2021 02-01 at 06:13:22 AM (Sat): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 9, column 3:
+        jung:
+        ^
+  expected <block end>, but found BlockMappingStart
+   in 'string', line 751, column 4:
+         midobaneye:
+         ^
+2021 02-01 at 06:13:47 AM (Sat): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 9, column 3:
+        jung:
+        ^
+  expected <block end>, but found BlockMappingStart
+   in 'string', line 751, column 4:
+         midobaneye:
+         ^
+2021 02-01 at 06:14:15 AM (Sat): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 9, column 3:
+        jung:
+        ^
+  expected <block end>, but found BlockMappingStart
+   in 'string', line 751, column 4:
+         midobaneye:
+         ^
+2021 02-01 at 06:14:45 AM (Sat): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 9, column 3:
+        jungle:
+        ^
+  expected <block end>, but found BlockMappingStart
+   in 'string', line 751, column 4:
+         midobaneye:
+         ^
+2021 02-01 at 06:17:06 AM (Sat): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block collection
+   in 'string', line 770, column 7:
+          - - type:397:3
+            ^
+  expected <block end>, but found Scalar
+   in 'string', line 772, column 25:
+            - 'name:&cMidoBan's Eyes'
+                              ^
+2021 07-01 at 07:56:23 AM (Thu): "Invalid Configuration! File: /shops/null Cause:\
+  \ while scanning an anchor\n in 'string', line 23, column 31:\n        - w %player%\
+  \ &eGold Book: &fquyển sách mở ra đc 1000 xu, & ... \n                         \
+  \         ^\nexpected alphabetic or numeric character, but found ể(7875)\n in 'string',\
+  \ line 23, column 36:\n        - w %player% &eGold Book: &fquyển sách mở ra đc 1000\
+  \ xu, &abộ d ... \n                                       ^\n"
+2021 07-01 at 07:56:52 AM (Thu): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 41, column 5:
+          MenuItem:
+          ^
+  expected <block end>, but found Scalar
+   in 'string', line 57, column 8:
+          - 'lore1:&aQuà lên cấp'
+             ^
+2021 07-01 at 07:57:56 AM (Thu): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 41, column 5:
+          MenuItem:
+          ^
+  expected <block end>, but found Scalar
+   in 'string', line 57, column 8:
+          - 'lore1:&aQuà lên cấp'
+             ^
+2021 12-01 at 02:27:45 PM (Tue): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 9, column 3:
+        1:
+        ^
+  expected <block end>, but found Value
+   in 'string', line 163, column 3:
+        :
+        ^
+2021 12-01 at 02:28:31 PM (Tue): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 1, column 1:
+      ShopName: sell
+      ^
+  expected <block end>, but found BlockMappingStart
+   in 'string', line 173, column 2:
+       c:
+       ^
+2021 12-01 at 02:29:06 PM (Tue): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 1, column 1:
+      ShopName: sell
+      ^
+  expected <block end>, but found BlockMappingStart
+   in 'string', line 173, column 2:
+       c:
+       ^
+2021 12-01 at 02:29:28 PM (Tue): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 9, column 3:
+        1:
+        ^
+  expected <block end>, but found Value
+   in 'string', line 233, column 3:
+        :
+        ^
+2021 13-01 at 07:10:52 AM (Wed): "Invalid Configuration! File: /shops/null Cause:\
+  \ while scanning for the next token\nfound character '%' that cannot start any token.\
+  \ (Do not use % for indentation)\n in 'string', line 102, column 87:\n     ... mine_block:DIAMOND_BLOCK%&6\
+  \ : &2%statistic_mine_block:EMERALD_BL ... \n                                  \
+  \       ^\n"
+2021 13-01 at 08:03:24 AM (Wed): "Invalid Configuration! File: /shops/null Cause:\
+  \ while scanning for the next token\nfound character '%' that cannot start any token.\
+  \ (Do not use % for indentation)\n in 'string', line 102, column 87:\n     ... mine_block:DIAMOND_BLOCK%&6\
+  \ : &2%statistic_mine_block:EMERALD_BL ... \n                                  \
+  \       ^\n"
+2021 14-01 at 04:06:03 AM (Thu): "Invalid Configuration! File: /shops/null Cause:\
+  \ while scanning for the next token\nfound character '%' that cannot start any token.\
+  \ (Do not use % for indentation)\n in 'string', line 102, column 44:\n     ... ayer%\
+  \ &fChỉ số block của bạn: &b%statistic_mine_block:DIAMOND_BL ... \n            \
+  \                             ^\n"
+2021 14-01 at 04:06:25 AM (Thu): "Invalid Configuration! File: /shops/null Cause:\
+  \ while scanning for the next token\nfound character '%' that cannot start any token.\
+  \ (Do not use % for indentation)\n in 'string', line 102, column 44:\n     ... ayer%\
+  \ &fChỉ số block của bạn: &b%statistic_mine_block:DIAMOND_BL ... \n            \
+  \                             ^\n"
+2021 14-01 at 04:06:40 AM (Thu): "Invalid Configuration! File: /shops/null Cause:\
+  \ while scanning a simple key\n in 'string', line 102, column 5:\n        '- w %player%\
+  \ &fChỉ số block của ... \n        ^\ncould not find expected ':'\n in 'string',\
+  \ line 103, column 5:\n        - w %player% &7Đừng lo lắng đó c ... \n        ^\n"
+2021 20-03 at 08:01:58 AM (Sat): |
+  Invalid Configuration! File: /shops/null Cause: while scanning a simple key
+   in 'string', line 194, column 5:
+          MenuI
+          ^
+  could not find expected ':'
+   in 'string', line 195, column 3:
+        bxh:
+        ^
+2021 20-03 at 09:20:55 AM (Sat): |
+  Invalid Configuration! File: /shops/null Cause: while scanning a simple key
+   in 'string', line 194, column 5:
+          MenuI
+          ^
+  could not find expected ':'
+   in 'string', line 195, column 3:
+        bxh:
+        ^
+2021 20-03 at 09:21:18 AM (Sat): "Invalid Configuration! File: /shops/null Cause:\
+  \ while parsing a block collection\n in 'string', line 195, column 5:\n        -\
+  \ 'name:&6&lXem top & mức treo t ... \n        ^\nexpected <block end>, but found\
+  \ Key\n in 'string', line 202, column 5:\n        RewardType: shop\n        ^\n"
+2021 28-03 at 05:50:06 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 28-03 at 06:58:18 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 28-03 at 07:00:22 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 28-03 at 07:01:22 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 28-03 at 07:02:20 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 28-03 at 07:10:26 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 28-03 at 03:35:58 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 28-03 at 04:14:50 AM (Sun): 'Mistake in Config: Unable to read itemdata ''enchantments:sharpness#1'
+2021 28-03 at 04:19:49 AM (Sun): 'Mistake in Config: Unable to read itemdata ''enchantments:sharpness#1'
+2021 28-03 at 04:20:12 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 28-03 at 04:21:55 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 28-03 at 04:22:07 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 28-03 at 06:17:01 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 28-03 at 09:02:38 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 29-03 at 06:56:36 AM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 30-03 at 02:06:11 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 30-03 at 02:18:54 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 30-03 at 02:19:13 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 30-03 at 02:20:21 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 30-03 at 02:20:52 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 30-03 at 02:58:46 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 30-03 at 03:00:05 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 02-04 at 08:16:01 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 03-04 at 06:45:12 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 04-04 at 03:30:06 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 04-04 at 09:48:03 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 09-04 at 09:08:39 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 10-04 at 02:20:56 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 10-04 at 08:52:57 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 15-04 at 09:58:46 PM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 17-04 at 02:39:23 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 17-04 at 04:14:24 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 17-04 at 09:21:39 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 17-04 at 10:18:39 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-04 at 04:42:50 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-04 at 06:53:09 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-04 at 06:53:38 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-04 at 06:53:56 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-04 at 05:39:43 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-04 at 06:21:57 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-04 at 06:24:18 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-04 at 06:24:19 AM (Sun): 'Mistake in Config: ''HIDE_ENCHANT'' is not a valid
+  ''hideflags''.'
+2021 18-04 at 06:24:38 AM (Sun): 'Mistake in Config: ''HIDE_ENCHANT'' is not a valid
+  ''hideflags''.'
+2021 18-04 at 06:27:48 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-04 at 06:28:44 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-04 at 06:34:06 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-04 at 07:02:35 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 19-04 at 08:11:18 AM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 19-04 at 08:39:01 AM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 20-04 at 05:53:57 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 20-04 at 09:10:15 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 20-04 at 11:23:04 AM (Tue): |
+  Invalid Configuration! File: /shops/null Cause: while scanning a simple key
+   in 'string', line 31, column 7:
+            '- name:aa'
+            ^
+  could not find expected ':'
+   in 'string', line 32, column 7:
+            '- lore:aa'
+            ^
+2021 20-04 at 11:23:36 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 20-04 at 11:31:49 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 20-04 at 11:32:46 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 20-04 at 11:33:24 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 20-04 at 11:36:32 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 20-04 at 11:39:18 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 20-04 at 11:39:52 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 20-04 at 11:44:46 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 20-04 at 11:46:05 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 20-04 at 11:48:56 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 20-04 at 11:49:39 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 01:33:02 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 01:34:26 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 01:35:22 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 01:37:04 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 01:37:26 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 01:38:16 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 01:38:52 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 01:52:30 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 01:55:56 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 01:58:55 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 02:09:55 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 02:11:13 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 02:17:11 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 02:21:51 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 02:22:31 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 02:22:55 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 04:45:14 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 05:33:35 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 05:49:06 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 05:49:33 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 05:50:02 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 05:53:45 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 02:18:21 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 07:37:57 AM (Wed): Two Shops with the same Name (trainee_sword_lv2)
+  are loaded. When opening a Shop via Name, only one of this Shops will be opened!
+2021 21-04 at 07:37:58 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 08:22:18 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 09:34:44 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 09:37:59 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-04 at 09:41:36 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 22-04 at 02:14:46 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 22-04 at 08:51:02 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 23-04 at 03:57:45 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 23-04 at 08:28:45 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 26-04 at 05:47:15 AM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 26-04 at 05:50:54 AM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 26-04 at 09:42:47 AM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 26-04 at 09:57:46 AM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 27-04 at 06:09:23 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 27-04 at 07:59:06 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 27-04 at 08:27:46 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 27-04 at 08:58:28 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 27-04 at 09:31:37 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 28-04 at 12:10:49 PM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 29-04 at 02:05:31 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 29-04 at 03:34:35 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 29-04 at 03:42:55 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 29-04 at 03:47:04 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 29-04 at 05:07:49 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 30-04 at 09:59:56 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 01-05 at 08:26:10 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 01-05 at 09:10:16 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 01-05 at 09:19:33 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 01-05 at 09:22:43 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 01-05 at 09:23:28 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 01-05 at 09:24:04 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 01-05 at 10:49:21 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 01-05 at 10:54:30 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 02-05 at 02:23:55 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 02-05 at 04:48:14 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 02-05 at 06:53:20 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 02-05 at 05:31:40 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 02-05 at 05:41:02 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 06-05 at 07:33:46 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 07-05 at 12:25:08 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 11-05 at 08:52:04 PM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-05 at 09:07:09 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 05-06 at 05:16:01 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 05-06 at 05:21:29 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 05-06 at 06:04:35 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 05-06 at 06:05:19 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 05-06 at 07:35:30 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 05-06 at 10:21:49 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 06-06 at 01:22:52 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 06-06 at 03:01:36 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 09-06 at 02:17:27 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 11-06 at 05:24:28 PM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 01:31:14 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 01:40:54 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 01:50:26 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 02:45:50 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 04:01:06 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 04:26:11 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 04:48:00 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 04:48:25 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 04:50:29 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:07:43 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:20:25 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:21:08 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:47:09 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:48:14 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:50:13 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:52:09 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:53:17 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:55:10 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 03:24:58 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 04:32:46 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 04:33:10 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 04:34:00 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 04:48:44 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 04:49:17 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:02:10 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:02:36 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:03:19 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:05:43 AM (Sat): 'Mistake in Config: ''digspeed'' is not a valid ''enchantment''.
+  The name/id of the enchantment is not known.'
+2021 12-06 at 05:06:00 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:08:36 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:10:16 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:11:00 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:13:54 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:14:34 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:15:40 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:18:01 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:18:24 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:19:38 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:19:56 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:27:00 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:28:13 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 05:28:52 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 09:59:11 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 11:56:11 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 11:56:12 AM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 12-06 at 11:59:51 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 11:59:52 AM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 12-06 at 12:00:13 PM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 12:00:14 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 12-06 at 12:02:38 PM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 12:02:39 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 12-06 at 12:02:54 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 12-06 at 12:03:47 PM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 12:03:48 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 12-06 at 12:04:59 PM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 12:05:00 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 12-06 at 12:05:30 PM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 12:05:31 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 12-06 at 12:08:53 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 12-06 at 12:09:32 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 12-06 at 12:17:53 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 12-06 at 12:19:08 PM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 12:19:09 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 12-06 at 12:19:28 PM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 12:19:29 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 12-06 at 12:21:47 PM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 12:21:48 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 12-06 at 12:22:31 PM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 12-06 at 12:22:32 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 13-06 at 03:07:51 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 04:41:29 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 13-06 at 09:10:52 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 13-06 at 09:10:53 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 09:24:25 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 09:45:18 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 09:49:29 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 09:50:46 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 09:52:07 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 09:52:40 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 09:53:56 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 09:54:53 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 09:55:30 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 09:56:00 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 09:57:45 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 09:58:06 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 09:58:19 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 10:50:18 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 10:51:11 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 10:51:38 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 10:52:47 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 10:53:03 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 10:57:42 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 13-06 at 10:57:43 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 10:58:14 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 13-06 at 10:03:17 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 13-06 at 10:03:18 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 14-06 at 03:41:11 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 14-06 at 06:00:44 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 14-06 at 11:49:53 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 14-06 at 11:49:54 AM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 14-06 at 12:13:42 PM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 14-06 at 12:15:37 PM (Mon): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 14-06 at 12:15:38 PM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 14-06 at 12:16:52 PM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 14-06 at 12:41:25 PM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 14-06 at 12:41:41 PM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 15-06 at 10:28:37 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 15-06 at 10:28:38 AM (Tue): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 16-06 at 11:00:00 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 16-06 at 11:06:51 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 16-06 at 11:07:43 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 16-06 at 11:08:09 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 16-06 at 11:08:10 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 16-06 at 11:13:01 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 16-06 at 11:59:10 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 16-06 at 09:16:42 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 16-06 at 09:16:43 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 16-06 at 09:50:33 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 16-06 at 09:50:34 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 16-06 at 10:26:39 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 16-06 at 10:35:42 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 16-06 at 10:46:43 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 16-06 at 10:47:21 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 16-06 at 10:47:22 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 16-06 at 10:47:38 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 16-06 at 10:51:45 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 16-06 at 10:52:30 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 16-06 at 10:52:43 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 16-06 at 10:53:03 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 16-06 at 11:17:58 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 17-06 at 03:32:11 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 17-06 at 03:32:12 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 04:02:18 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 04:02:47 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 04:09:56 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 04:43:08 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 04:45:44 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 04:46:23 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 04:47:15 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 05:00:53 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 05:01:46 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 05:43:20 AM (Thu): "Invalid Configuration! File: /shops/null Cause:\
+  \ while scanning a simple key\n in 'string', line 21, column 1:\n    ore:|&7_Dù\
+  ng_để_cường_hóa_tính_n ... \n    ^\ncould not find expected ':'\n in 'string', line\
+  \ 23, column 4:\n      2:\n       ^\n"
+2021 17-06 at 05:43:33 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 05:45:11 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 05:45:57 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 05:47:47 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 05:49:05 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 06:08:58 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 06:09:41 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 06:10:09 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 11:47:37 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 17-06 at 11:47:39 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 12:19:43 PM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 17-06 at 12:19:44 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 12:23:48 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 12:54:21 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 12:59:57 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 17-06 at 01:05:11 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 01:56:38 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-06 at 01:56:39 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 02:16:41 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 02:18:48 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 02:21:12 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-06 at 02:21:13 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 02:21:32 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-06 at 02:21:33 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 02:26:50 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 02:27:20 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-06 at 02:27:21 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 03:00:45 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 03:06:08 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-06 at 03:06:09 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 03:07:31 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-06 at 03:07:32 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 03:14:46 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 03:39:32 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 03:41:17 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 03:42:29 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 10:17:13 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-06 at 10:17:14 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 10:26:38 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 10:27:05 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 10:28:30 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 10:28:54 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-06 at 10:28:55 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 10:32:18 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 10:33:30 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 10:33:51 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-06 at 10:33:52 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 10:34:53 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 10:44:14 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 10:45:18 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 10:45:46 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-06 at 10:45:47 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 10:50:47 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 10:54:55 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 10:56:33 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 10:57:22 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 11:01:04 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 11:07:51 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 11:09:28 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 11:09:50 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 11:20:09 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 18-06 at 11:20:10 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 11:21:45 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 18-06 at 11:25:41 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 19-06 at 02:26:00 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 19-06 at 02:33:42 AM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 19-06 at 02:33:43 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 19-06 at 02:35:54 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 19-06 at 02:36:57 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 19-06 at 02:39:33 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 19-06 at 02:41:26 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 19-06 at 02:41:57 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 19-06 at 03:57:25 AM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 19-06 at 03:57:26 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 19-06 at 03:58:47 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 19-06 at 07:48:39 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 19-06 at 08:04:02 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 19-06 at 08:40:36 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 19-06 at 10:59:23 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 19-06 at 11:17:04 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 20-06 at 02:43:39 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 20-06 at 02:43:40 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 20-06 at 03:28:22 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 20-06 at 04:00:42 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 20-06 at 04:28:30 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 20-06 at 04:52:58 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 20-06 at 04:57:22 AM (Sun): 'Mistake in Config: Unable to read itemdata ''customskull/give
+  @p skull 1 3 {display:{Name:"Gold Ore"},SkullOwner:{Id:"c371f1df-e8a7-443d-909d-a38a995baade",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWE4NjYzOGU4OGI0M2E5NDZiZWE0NmYzYjE1ZWZhNWZlY2M2NjY0YTY2NWJkMzNjZjg5OTZhM2IxZDQ4MTMifX19"}]}}}'
+2021 20-06 at 04:57:23 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 20-06 at 05:06:45 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 20-06 at 05:07:13 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 20-06 at 05:07:57 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 20-06 at 09:29:55 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 20-06 at 09:29:56 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 20-06 at 09:08:41 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 20-06 at 09:34:08 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 20-06 at 09:34:39 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-06 at 02:14:11 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 21-06 at 02:14:12 AM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-06 at 04:26:11 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 21-06 at 04:26:12 AM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-06 at 05:56:17 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 21-06 at 05:56:18 AM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-06 at 10:28:16 AM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-06 at 10:31:42 AM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-06 at 11:21:34 AM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-06 at 11:33:10 AM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-06 at 11:44:44 AM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-06 at 11:45:28 AM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-06 at 11:48:08 AM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-06 at 12:49:01 PM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-06 at 12:49:54 PM (Mon): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 21-06 at 12:49:55 PM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-06 at 12:50:12 PM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-06 at 10:16:25 AM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 21-06 at 10:16:26 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 21-06 at 10:47:12 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 21-06 at 11:32:00 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 22-06 at 02:53:48 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 22-06 at 03:01:59 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 22-06 at 03:03:47 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 22-06 at 03:04:21 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 22-06 at 03:06:13 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 22-06 at 03:48:51 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 22-06 at 03:50:04 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 22-06 at 04:08:15 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 22-06 at 05:13:29 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 22-06 at 11:33:17 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 22-06 at 11:33:18 AM (Tue): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 22-06 at 11:51:46 AM (Tue): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 22-06 at 11:52:43 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 22-06 at 11:52:44 AM (Tue): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 22-06 at 11:53:31 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 22-06 at 11:53:32 AM (Tue): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 22-06 at 11:58:46 AM (Tue): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 22-06 at 12:45:45 PM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 22-06 at 12:45:46 PM (Tue): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 22-06 at 12:51:33 PM (Tue): |
+  Invalid Configuration! File: /shops/null Cause: mapping values are not allowed here
+   in 'string', line 2, column 12:
+      DisplayName: '&8&lServer &a☘&8 Fixing'
+                 ^
+2021 22-06 at 12:51:49 PM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 22-06 at 12:51:50 PM (Tue): |
+  Invalid Configuration! File: /shops/null Cause: mapping values are not allowed here
+   in 'string', line 2, column 12:
+      DisplayName: '&8&lServer &a☘&8 Fixing'
+                 ^
+2021 22-06 at 12:52:24 PM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 22-06 at 12:52:25 PM (Tue): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 22-06 at 12:05:02 PM (Tue): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 22-06 at 12:05:03 PM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 23-06 at 12:42:07 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 23-06 at 04:41:59 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 23-06 at 04:42:00 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 23-06 at 03:11:17 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 23-06 at 03:17:11 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 23-06 at 03:18:03 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 23-06 at 03:18:36 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 23-06 at 04:14:09 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 23-06 at 04:16:56 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 23-06 at 04:24:46 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 23-06 at 06:01:09 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 23-06 at 06:12:47 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 23-06 at 11:16:44 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 23-06 at 11:18:54 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 23-06 at 11:26:56 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 23-06 at 11:26:57 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 23-06 at 11:48:23 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 24-06 at 01:52:56 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 24-06 at 04:04:13 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 24-06 at 04:04:14 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 24-06 at 04:55:53 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 24-06 at 04:55:54 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 24-06 at 12:07:37 PM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 24-06 at 12:07:39 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 24-06 at 02:46:17 PM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 24-06 at 02:46:18 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 24-06 at 02:50:13 PM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 24-06 at 02:50:14 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 25-06 at 03:10:15 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 25-06 at 03:10:16 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 25-06 at 05:42:57 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 25-06 at 08:57:02 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 25-06 at 08:57:03 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 26-06 at 03:06:21 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 26-06 at 09:11:40 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 26-06 at 09:11:41 AM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 26-06 at 02:47:35 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 26-06 at 02:47:36 PM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 27-06 at 02:47:26 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 27-06 at 04:09:00 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 27-06 at 05:21:54 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 27-06 at 05:23:22 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 27-06 at 05:25:13 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 27-06 at 05:25:33 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 27-06 at 05:25:34 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 27-06 at 05:26:31 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 27-06 at 05:27:58 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 27-06 at 09:58:23 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 27-06 at 11:05:12 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 27-06 at 11:13:44 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 27-06 at 11:25:53 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 27-06 at 11:26:42 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 27-06 at 02:24:39 PM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 27-06 at 02:24:40 PM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 28-06 at 01:03:37 AM (Mon): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 28-06 at 12:14:47 PM (Mon): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 28-06 at 01:00:15 PM (Mon): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 28-06 at 01:01:06 PM (Mon): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 28-06 at 01:52:55 PM (Mon): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 28-06 at 03:56:43 PM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 28-06 at 03:56:44 PM (Mon): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 28-06 at 04:09:17 PM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 28-06 at 04:09:18 PM (Mon): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 28-06 at 04:24:51 PM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 28-06 at 04:24:52 PM (Mon): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 28-06 at 04:38:07 PM (Mon): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 28-06 at 04:38:08 PM (Mon): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 29-06 at 10:31:58 AM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 29-06 at 10:31:59 AM (Tue): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 29-06 at 03:00:21 PM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 29-06 at 03:00:22 PM (Tue): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 29-06 at 03:01:24 PM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 29-06 at 03:01:25 PM (Tue): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 29-06 at 03:07:19 PM (Tue): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 29-06 at 03:07:20 PM (Tue): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 30-06 at 01:11:10 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 30-06 at 01:11:11 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 30-06 at 01:36:32 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 30-06 at 01:36:33 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 30-06 at 01:41:04 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 30-06 at 01:41:05 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 30-06 at 01:41:29 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 30-06 at 01:42:30 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 30-06 at 01:44:44 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 30-06 at 03:05:07 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 30-06 at 03:05:08 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 30-06 at 03:12:46 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 30-06 at 03:12:47 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 30-06 at 03:20:48 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 30-06 at 03:43:10 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 30-06 at 04:21:01 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 30-06 at 04:21:02 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 30-06 at 04:22:44 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 30-06 at 04:22:45 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 01-07 at 12:34:08 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 01-07 at 12:34:09 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 01-07 at 01:12:27 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 01-07 at 01:15:51 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 01-07 at 01:15:52 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 01-07 at 01:24:52 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 01-07 at 03:25:35 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 01-07 at 03:25:36 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 01-07 at 03:26:32 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 01-07 at 03:26:33 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 01-07 at 03:28:13 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 01-07 at 09:36:24 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 01-07 at 09:36:25 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 01-07 at 09:43:38 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 01-07 at 12:57:52 PM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 01-07 at 12:57:53 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 01-07 at 01:22:41 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 01-07 at 01:24:55 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 01-07 at 01:26:26 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 01-07 at 11:16:34 PM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 01-07 at 11:16:35 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 01-07 at 11:50:03 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 01-07 at 11:51:24 PM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 01-07 at 11:51:25 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 01-07 at 11:51:35 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 01-07 at 11:55:11 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 02-07 at 01:34:27 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 02-07 at 01:34:28 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 02-07 at 02:13:54 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 02-07 at 02:13:55 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 02-07 at 11:32:17 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 02-07 at 11:44:28 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 02-07 at 11:44:29 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 02-07 at 03:19:14 PM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 02-07 at 03:19:15 PM (Fri): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 9, column 3:
+        1:
+        ^
+  expected <block end>, but found BlockMappingStart
+   in 'string', line 35, column 4:
+         3:
+         ^
+2021 02-07 at 03:19:46 PM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 02-07 at 03:19:47 PM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 02-07 at 03:20:18 PM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 02-07 at 03:20:19 PM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 02-07 at 03:20:50 PM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 02-07 at 03:25:16 PM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 02-07 at 03:30:24 PM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 02-07 at 03:31:13 PM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 02-07 at 03:32:05 PM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 02-07 at 03:32:06 PM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 02-07 at 03:32:27 PM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 02-07 at 03:32:28 PM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 02-07 at 04:05:33 PM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 02-07 at 04:05:34 PM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 02-07 at 04:05:59 PM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 02-07 at 04:33:13 PM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 02-07 at 04:33:14 PM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 02-07 at 11:34:31 PM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 02-07 at 11:34:32 PM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 02-07 at 11:41:10 PM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 03-07 at 04:44:55 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 03-07 at 04:44:56 PM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 03-07 at 05:12:38 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 03-07 at 05:12:39 PM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 03-07 at 06:28:52 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 03-07 at 06:28:53 PM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 03-07 at 06:37:31 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 03-07 at 06:37:32 PM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 03-07 at 11:08:19 PM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 03-07 at 11:08:20 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 03-07 at 11:47:17 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 04-07 at 01:04:45 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 04-07 at 02:37:57 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2021 04-07 at 02:37:58 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2021 04-07 at 02:38:33 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 08:07:43 AM (Wed): 'You defined GadgetsMenu as Points Plugin... BUT
+  IT WAS NOT FOUND?! Please install it or use an alternative like PlayerPoints (http://dev.bukkit.org/server-mods/playerpoints/).
+  If you want BossShopPro to auto-detect your Points plugin simply set ''PointsPlugin:
+  auto-detect''.'
+2022 02-03 at 08:07:44 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 08:07:45 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 02-03 at 08:09:28 AM (Wed): 'You defined GadgetsMenu as Points Plugin... BUT
+  IT WAS NOT FOUND?! Please install it or use an alternative like PlayerPoints (http://dev.bukkit.org/server-mods/playerpoints/).
+  If you want BossShopPro to auto-detect your Points plugin simply set ''PointsPlugin:
+  auto-detect''.'
+2022 02-03 at 08:09:29 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 02-03 at 08:15:26 AM (Wed): 'You defined GadgetsMenu as Points Plugin... BUT
+  IT WAS NOT FOUND?! Please install it or use an alternative like PlayerPoints (http://dev.bukkit.org/server-mods/playerpoints/).
+  If you want BossShopPro to auto-detect your Points plugin simply set ''PointsPlugin:
+  auto-detect''.'
+2022 02-03 at 08:15:27 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 08:15:28 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 02-03 at 08:30:06 AM (Wed): 'You defined GadgetsMenu as Points Plugin... BUT
+  IT WAS NOT FOUND?! Please install it or use an alternative like PlayerPoints (http://dev.bukkit.org/server-mods/playerpoints/).
+  If you want BossShopPro to auto-detect your Points plugin simply set ''PointsPlugin:
+  auto-detect''.'
+2022 02-03 at 08:30:07 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 08:30:08 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 02-03 at 08:36:33 AM (Wed): 'You defined GadgetsMenu as Points Plugin... BUT
+  IT WAS NOT FOUND?! Please install it or use an alternative like PlayerPoints (http://dev.bukkit.org/server-mods/playerpoints/).
+  If you want BossShopPro to auto-detect your Points plugin simply set ''PointsPlugin:
+  auto-detect''.'
+2022 02-03 at 08:36:34 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 08:36:35 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 02-03 at 11:18:53 AM (Wed): 'You defined GadgetsMenu as Points Plugin... BUT
+  IT WAS NOT FOUND?! Please install it or use an alternative like PlayerPoints (http://dev.bukkit.org/server-mods/playerpoints/).
+  If you want BossShopPro to auto-detect your Points plugin simply set ''PointsPlugin:
+  auto-detect''.'
+2022 02-03 at 11:18:54 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 11:29:37 AM (Wed): 'You defined GadgetsMenu as Points Plugin... BUT
+  IT WAS NOT FOUND?! Please install it or use an alternative like PlayerPoints (http://dev.bukkit.org/server-mods/playerpoints/).
+  If you want BossShopPro to auto-detect your Points plugin simply set ''PointsPlugin:
+  auto-detect''.'
+2022 02-03 at 11:29:38 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 07:40:01 PM (Wed): 'You defined GadgetsMenu as Points Plugin... BUT
+  IT WAS NOT FOUND?! Please install it or use an alternative like PlayerPoints (http://dev.bukkit.org/server-mods/playerpoints/).
+  If you want BossShopPro to auto-detect your Points plugin simply set ''PointsPlugin:
+  auto-detect''.'
+2022 02-03 at 07:40:02 PM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 08:04:30 PM (Wed): 'You defined GadgetsMenu as Points Plugin... BUT
+  IT WAS NOT FOUND?! Please install it or use an alternative like PlayerPoints (http://dev.bukkit.org/server-mods/playerpoints/).
+  If you want BossShopPro to auto-detect your Points plugin simply set ''PointsPlugin:
+  auto-detect''.'
+2022 02-03 at 08:04:31 PM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 08:22:08 PM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 02-03 at 08:22:09 PM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 09:20:34 PM (Wed): 'You defined GadgetsMenu as Points Plugin... BUT
+  IT WAS NOT FOUND?! Please install it or use an alternative like PlayerPoints (http://dev.bukkit.org/server-mods/playerpoints/).
+  If you want BossShopPro to auto-detect your Points plugin simply set ''PointsPlugin:
+  auto-detect''.'
+2022 02-03 at 09:20:35 PM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 02-03 at 09:20:36 PM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 09:41:47 PM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 02-03 at 09:41:48 PM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 09:50:03 PM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 02-03 at 09:50:04 PM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 09:53:10 PM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 10:03:38 PM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 10:07:44 PM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 02-03 at 10:07:45 PM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 10:08:06 PM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 10:08:54 PM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 10:09:27 PM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 10:09:57 PM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 10:10:22 PM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 10:13:16 PM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 02-03 at 10:13:53 PM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 01:41:43 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 01:41:44 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 01:46:33 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 01:50:40 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 01:53:55 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 01:55:05 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 01:55:06 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 01:55:53 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 02:03:38 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 02:05:30 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 02:05:45 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 02:06:03 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 02:06:04 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 02:09:47 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 02:12:59 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 02:14:40 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 02:20:32 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 02:25:40 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 02:27:45 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 02:27:46 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 02:29:41 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 02:32:24 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 02:33:54 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 02:33:55 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 02:35:35 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 02:37:15 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 02:37:41 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 02:38:11 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 02:39:23 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 02:53:49 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 02:54:31 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 02:55:26 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 02:55:27 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 03:03:12 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 03:03:24 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 03:07:43 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 03:12:16 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 03:54:32 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 03:54:33 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 05:03:16 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 05:03:17 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 05:19:09 AM (Thu): 'You defined GadgetsMenu as Points Plugin... BUT
+  IT WAS NOT FOUND?! Please install it or use an alternative like PlayerPoints (http://dev.bukkit.org/server-mods/playerpoints/).
+  If you want BossShopPro to auto-detect your Points plugin simply set ''PointsPlugin:
+  auto-detect''.'
+2022 03-03 at 05:19:10 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 05:37:45 AM (Thu): 'You defined GadgetsMenu as Points Plugin... BUT
+  IT WAS NOT FOUND?! Please install it or use an alternative like PlayerPoints (http://dev.bukkit.org/server-mods/playerpoints/).
+  If you want BossShopPro to auto-detect your Points plugin simply set ''PointsPlugin:
+  auto-detect''.'
+2022 03-03 at 05:37:46 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 07:28:41 AM (Thu): 'You defined GadgetsMenu as Points Plugin... BUT
+  IT WAS NOT FOUND?! Please install it or use an alternative like PlayerPoints (http://dev.bukkit.org/server-mods/playerpoints/).
+  If you want BossShopPro to auto-detect your Points plugin simply set ''PointsPlugin:
+  auto-detect''.'
+2022 03-03 at 07:28:42 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 07:28:43 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 08:17:40 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 08:20:32 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 08:20:59 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 08:21:21 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 08:21:49 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 08:21:50 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 08:24:09 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 08:24:36 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 08:24:37 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 08:26:22 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 08:26:23 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 08:26:34 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 08:28:33 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 08:28:34 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 08:29:06 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 09:42:16 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 09:42:17 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 09:46:11 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 03-03 at 09:46:12 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 07:56:19 PM (Thu): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzMzYWEyNDkxNmM4ODY5NmVlNzFkYjdhYzhjZDMwNmFkNzMwOTZiNWI2ZmZkODY4ZTFjMzg0YjFkNjJjZmIzYyJ9fX0==''
+  can not be added to an item with material ''BED''. Don''t worry I''ll automatically
+  transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 03-03 at 07:56:20 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 08:35:00 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 08:40:31 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 08:41:40 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 08:42:47 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 08:44:11 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 08:44:30 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 03-03 at 08:44:31 PM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 04-03 at 01:19:41 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 04-03 at 01:19:42 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 04-03 at 01:28:39 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 04-03 at 01:28:40 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 04-03 at 02:33:50 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 04-03 at 03:28:50 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 04-03 at 08:03:40 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 04-03 at 08:03:41 AM (Fri): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzMzYWEyNDkxNmM4ODY5NmVlNzFkYjdhYzhjZDMwNmFkNzMwOTZiNWI2ZmZkODY4ZTFjMzg0YjFkNjJjZmIzYyJ9fX0==''
+  can not be added to an item with material ''BED''. Don''t worry I''ll automatically
+  transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 04-03 at 08:20:27 AM (Fri): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 04-03 at 08:20:46 AM (Fri): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 04-03 at 08:20:53 AM (Fri): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 04-03 at 08:21:09 AM (Fri): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 04-03 at 08:21:25 AM (Fri): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 04-03 at 08:26:56 AM (Fri): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 04-03 at 08:29:39 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 04-03 at 08:29:40 AM (Fri): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 04-03 at 08:31:12 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 04-03 at 08:31:13 AM (Fri): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 04-03 at 08:31:23 AM (Fri): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 04-03 at 08:31:54 AM (Fri): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 04-03 at 09:24:33 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 04-03 at 09:24:34 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 04-03 at 09:26:09 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 04-03 at 09:31:56 AM (Fri): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 04-03 at 09:31:57 AM (Fri): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 05-03 at 07:28:58 AM (Sat): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 05-03 at 07:28:59 AM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 05-03 at 08:12:33 AM (Sat): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 05-03 at 08:12:34 AM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 05-03 at 08:12:43 AM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 05-03 at 11:02:46 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 05-03 at 11:02:47 AM (Sat): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 05-03 at 11:11:12 AM (Sat): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 05-03 at 11:16:27 AM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 05-03 at 11:16:28 AM (Sat): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 05-03 at 11:25:28 AM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 05-03 at 11:25:29 AM (Sat): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 05-03 at 11:29:20 AM (Sat): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 05-03 at 11:29:55 AM (Sat): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 05-03 at 11:30:38 AM (Sat): |
+  Invalid Configuration! File: /shops/null Cause: while parsing a block mapping
+   in 'string', line 10, column 5:
+          MenuItem:
+          ^
+  expected <block end>, but found Scalar
+   in 'string', line 20, column 8:
+          - 'lore7:&f -3 tinh hoa đen'
+             ^
+2022 05-03 at 11:30:46 AM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 05-03 at 11:30:47 AM (Sat): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 05-03 at 11:30:59 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 05-03 at 11:31:00 AM (Sat): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 05-03 at 11:31:08 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 05-03 at 11:31:09 AM (Sat): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 05-03 at 11:31:17 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 05-03 at 11:31:18 AM (Sat): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 05-03 at 11:31:27 AM (Sat): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 05-03 at 11:31:33 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 05-03 at 11:31:34 AM (Sat): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 05-03 at 11:31:42 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 05-03 at 11:31:43 AM (Sat): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 05-03 at 11:59:17 AM (Sat): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 05-03 at 11:59:53 AM (Sat): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 05-03 at 11:59:54 AM (Sat): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 05-03 at 10:06:00 PM (Sat): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 05-03 at 10:06:01 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 05-03 at 10:14:24 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 05-03 at 10:18:33 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 05-03 at 10:22:20 PM (Sat): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 05-03 at 10:22:21 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 05-03 at 10:43:59 PM (Sat): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 05-03 at 10:44:00 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 05-03 at 11:02:58 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 05-03 at 11:06:32 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 05-03 at 11:07:00 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 05-03 at 11:19:40 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 05-03 at 11:21:13 PM (Sat): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 06-03 at 03:42:21 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 06-03 at 03:42:23 AM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 06-03 at 03:49:00 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 06-03 at 03:49:02 AM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 06-03 at 04:57:11 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 06-03 at 04:57:12 AM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 06-03 at 04:57:18 AM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 06-03 at 05:14:14 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 06-03 at 05:14:15 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 06-03 at 05:14:16 AM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 06-03 at 05:19:52 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 06-03 at 05:19:53 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 06-03 at 05:19:54 AM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 06-03 at 05:28:36 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 06-03 at 05:28:37 AM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 06-03 at 05:28:38 AM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 06-03 at 05:33:39 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 06-03 at 05:33:40 AM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 06-03 at 05:36:09 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 06-03 at 05:36:11 AM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 06-03 at 06:45:19 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 06-03 at 06:45:21 AM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 06-03 at 06:49:13 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 06-03 at 06:49:14 AM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 06-03 at 06:59:23 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 06-03 at 06:59:25 AM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 06-03 at 07:32:10 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 06-03 at 07:32:11 AM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 06-03 at 07:34:23 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 06-03 at 07:34:25 AM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 06-03 at 08:24:35 AM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 06-03 at 08:24:36 AM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 06-03 at 07:51:55 PM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 06-03 at 07:51:56 PM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 06-03 at 08:14:31 PM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 06-03 at 08:16:42 PM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 06-03 at 08:16:43 PM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 06-03 at 08:18:35 PM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 06-03 at 08:19:49 PM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 06-03 at 08:30:22 PM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 06-03 at 08:42:07 PM (Sun): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 06-03 at 08:42:08 PM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 06-03 at 08:47:45 PM (Sun): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 06-03 at 08:47:46 PM (Sun): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 16-03 at 06:37:15 AM (Wed): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 16-03 at 06:37:16 AM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 16-03 at 06:37:17 AM (Wed): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 16-03 at 09:06:55 PM (Wed): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
+2022 16-03 at 09:06:56 PM (Wed): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'

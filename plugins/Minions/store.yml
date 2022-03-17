@@ -1,0 +1,120 @@
+#So in this file you can create & customise the store
+Enabled: false
+Store:
+  Settings:
+    DisplayName: "&eMinion Store"
+    Size: 36 #Must be a multiple of 9
+  FillerItem: #This can be called anything
+    Slot: filler #Either specify a slot ID, or specify filler to fill empty spaces
+    Item: STAINED_GLASS_PANE:7 #Put damage of the material after a :
+    Action: none #Possible Actions: CLOSE, <MinionName> to purchase a minion, or none
+    Cost: 0 #cost - must be integer
+    DisplayName: " "
+    Lore: [] #Possible placeholders - %PLAYERSMINIONS% for the number of minions the player has placed, and %MAXMINIONS% for the maxmimum allowed minions the player can place
+  MinerMinion:
+    Slot: 10
+    Item: SKULL:Miner #If using a Skull, put Skull:<playersname>
+    Action: Miner
+    Cost: 1000000
+    DisplayName: "&eMinion &3Khai Thác"
+    Lore:
+      - "&aMinions"
+      - "&aSau khi đặt sẽ khai thác"
+      - "&akhối trước mặt!"
+      - " "
+      - "&eTiền: $1,000,000"
+      - " "
+      - "&7Bạn đã đặt &c%PLAYERSMINIONS%/%MAXMINIONS% &7Minions"
+  CollectorMinion:
+    Slot: 11
+    Item: SKULL:MCSetups
+    Action: Collector
+    Cost: 2000000
+    DisplayName: "&eMinion &6Sưu Tầm"
+    Lore:
+      - "&aMinions"
+      - "&asẽ thu thập tất cả các mặt hàng"
+      - "&atrong bán kính của nó!"
+      - " "
+      - "&eTiền: $2,000,000"
+      - " "
+      - "&7Bạn đã đặt &c%PLAYERSMINIONS%/%MAXMINIONS% &7Minions"
+  FeederMinion:
+    Slot: 12
+    Item: SKULL:Cow
+    Action: Feeder
+    Cost: 5000000
+    DisplayName: "&eMinon &6Chữa Đói"
+    Lore:
+      - "&aMinions"
+      - "&asẽ nuôi tất cả"
+      - "&aMinions trong bán kính của nó!"
+      - " "
+      - "&eCost: $5,000,000"
+      - " "
+      - "&7Bạn đã đặt &c%PLAYERSMINIONS%/%MAXMINIONS% &7Minions"
+  FisherMinion:
+    Slot: 13
+    Item: SKULL:03z
+    Action: Fisher
+    Cost: 1000000
+    DisplayName: "&eMinion &bCâu Cá"
+    Lore:
+      - "&aMinions"
+      - "&asẽ câu cá trong"
+      - "&ahồ nước trước mặt!"
+      - " "
+      - "&eCost: $1,000,000"
+      - " "
+      - "&7Bạn đã đặt &c%PLAYERSMINIONS%/%MAXMINIONS% &7Minions"
+  FarmerMinion:
+    Slot: 14
+    Item: SKULL:Farmer
+    Action: Farmer
+    Cost: 3000000
+    DisplayName: "&eMinion &2Nông Dân"
+    Lore:
+      - "&aMinions"
+      - "&asẽ trồng tất cả các loại cây trồng"
+      - "&ađược đặt bên cạnh nó"
+      - " "
+      - "&eCost: $3,000,000"
+      - " "
+      - "&7Bạn đã đặt &c%PLAYERSMINIONS%/%MAXMINIONS%&7 Minions"
+  LumberMinion:
+    Slot: 15
+    Item: SKULL:Builder
+    Action: Lumberjack
+    Cost: 3500000
+    DisplayName: "&eMinion &5Chặt Gỗ"
+    Lore:
+      - "&aMinions"
+      - "&asẽ chặt tất cả các cây gần đó"
+      - "&avà trồng lại chúng"
+      - " "
+      - "&eCost: $3,500,000"
+      - " "
+      - "&7Bạn đã đặt &c%PLAYERSMINIONS%/%MAXMINIONS% &7Minions"
+  SlayerMinion:
+    Slot: 16
+    Item: SKULL:1mBatman
+    Action: Slayer
+    Cost: 5000000
+    DisplayName: "&eMinion &cGiết Mobs"
+    Lore:
+      - "&aMinions"
+      - "&asẽ giết tất cả mobs"
+      - "&atrong bán kính của nó!"
+      - " "
+      - "&eCost: $5,000,000"
+      - " "
+      - "&7Bạn đã đặt &c%PLAYERSMINIONS%/%MAXMINIONS% &7Minions"
+  Close:
+    Slot: 31
+    Item: BARRIER:0
+    Action: close
+    Cost: 0
+    DisplayName: "&c&lĐóng"
+    Lore:
+      - "&7Ấn để đóng"
+      - "&7Menu lại"

@@ -1,0 +1,401 @@
+ShopName: menu
+DisplayName: '&8Server &1♠%page% &8Menu chính&2&l ✔'
+Command: menu:mn
+Sound:
+  Shop:
+    Open: ENTITY_PLAYER_LEVELUP:1:1
+    ChangeShop: ENTITY_PLAYER_LEVELUP:1:1
+shop:
+#line-1
+  ifo:
+    MenuItem:
+    - 'name:&7Người chơi &2%player_name%'
+    - 'lore1:&aɪɴғᴏᴍᴀᴛɪᴏɴs:'
+    - 'lore2:&e&l⛁&e: %gadgetsmenu_mystery_dust%'
+    - 'lore3:&e&l⛀&e: %playerpoints_points%'
+    - 'lore4:&aCấp:&e lv.%player_level%'
+    - 'lore5:&a$: %vault_eco_balance_formatted%'
+    - 'lore6:&aʜǫʙᴀ: %gadgetsmenu_mystery_boxes% cái'
+    - 'lore8:&aᴍᴇᴛʀɪᴄ:'
+    - 'lore9:&fUUID:&7 %player_uuid%'
+    - 'lore10:&fNgày đầu tiên chơi:&7 %player_first_join_date%'
+    - 'lore11:&fĐộ lag:&7 %player_ping%ms'
+    - 'lore13:&7(nhấp vào khoe &e-500⛀&7)'
+    - type:397:5
+    RewardType: command
+    Reward:
+    -  bc &e%player%'s ocs chos
+    PriceType: money
+    Price: 500
+    InventoryLocation: 5
+#line-2 hoạt động
+  line-2:
+    MenuItem:
+    - 'name:&2#Hoạt động ngày'
+    - type:160:3
+    - 'enchantment:damage_all#5'
+    - hideflags:hide_enchants
+    InventoryLocation: 10
+  dungeon:
+    MenuItem:
+    - 'name:&e&lTiến Công Dungeon'
+    - 'lore2:&2• &aThâm nhập vào hang động dungeon, chiến đấu để thu tài nguyên về.'
+    - 'lore3:&2• &aHệ thống sẽ ném bạn đến khu dungeon (1-10) ngẫu nhiên để chiến đấu.'
+    - 'lore4:&c&l(!) &cĐặc điểm khu:'
+    - 'lore5:&c • Có thể pvp'
+    - 'lore6:&c • Chết sẽ ko thể quay lại'
+    - 'lore7:&c • Chiến lực đề xuất: 3000+'
+    - 'lore9:&7Nhấp vào &f>>'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjBmYmRhZTJkNzllYjliNTI5NGIyNjY1ZmE1YTdiYzFmMGI0MjEyMzg5OTY1ZmIyYjYyNzExODgzNDFjZjkzIn19fQ===
+    RewardType: shop
+    Reward: dungeon
+    InventoryLocation: 11
+  vt:
+    MenuItem:
+    - 'name:&6&lVận Tiêu'
+    - 'lore2:&2• &aĐẩy xe, vận chuyển hàng hóa nhân ngay phần quà tiêu cục (tiêu bộ)'
+    - 'lore3:&2• &aCoi phim kiếm hiệp mà ko biết cái lày thì chịu. Vận tiêu theo thứ tự nhé!'
+    - 'lore4:&c&l(!) &cĐặc điểm tiêu xa:'
+    - 'lore5:&c • Phần thưởng tự chuyển vào túi &e&lE&c sau khi vận xong'
+    - 'lore6:&c • Nếu sau khoản thời gian tiêu vận mà offline sẽ gửi quà vào lần online kế tiếp trong ngày'
+    - 'lore7:&c • Vận tiêu phải theo thứ tự: tiêu 1->3'
+    - 'lore8:&c • Đề xuất: vận tiêu trong khoản time online'
+    - 'lore10:&7Nhấp vào &f>>'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTA3OWFiYmFmYjk4MWM3OTVhOWEyZjgyYmFiM2ZiZDlmMTY2YjhjMGRiZjlhMTc1MWQ3NjliZWFjNjY3YjYifX19=
+    RewardType: shop
+    Reward: vt
+    InventoryLocation: 12
+  dq:
+    MenuItem:
+    - 'name:&6&lNhiệm vụ hằng ngày'
+    - 'lore2:&2• &aBảng treo nhiệm vụ ngày, nếu dư thời gian rảnh rỗi, muốn kiếm chút thu nhập thì hãy làm nhiệm vụ ngày!'
+    - 'lore3:&2• &9&l(!)&aNhiệm vụ ngày rất đơn giản và không bắt buộc, nhiệp vụ ngày reset mỗi 24h (sau 12h) đêm.'
+    - 'lore5:&7Nhấp vào &f>>'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjkzMjZiNDZiNWNjNjJmYmNkODEyNjc5M2VlOTZkN2ViNjA1ZGFmN2M1MTE3YzgxYmM4OTVjYTlkODRmNzkifX19=
+    RewardType: shop
+    Reward: dq
+    InventoryLocation: 13
+#line-3 Chức năng chung
+  line-3:
+    MenuItem:
+    - 'name:&2#Chức năng chung'
+    - type:160:4
+    - 'enchantment:damage_all#5'
+    - hideflags:hide_enchants
+    InventoryLocation: 19
+  warp:
+    MenuItem:
+    - 'name:&6&lDịch Chuyển'
+    - 'lore2:&2• Server này tồn tại sẵn 1 vài khu vực tính năng riêng được tạo ra trước đó. Mỗi khu vực có tính năng riêng và sẽ giúp ích khác nhau cho bạn.'
+    - 'lore3:&c&l(!)'
+    - 'lore4:&c • Dịch chuyển miễn phí ko tiêu hao money &a$'
+    - 'lore5:&c • Đứng yên khi đang dịch'
+    - 'lore7:&7Nhấp vào &f>>'
+    - type:345
+    RewardType: shop
+    Reward: warp
+    InventoryLocation: 20
+  ah:
+    MenuItem:
+    - 'name:&6&lChợ đấu giá'
+    - 'lore2:&2• &aNơi bán vật phẩm giữa các player với nhau. Bạn bè trong cùng server với bạn sẽ treo đồ bán ở đây.'
+    - 'lore3:&2• &aNơi này sử dụng &a$&a và bạn có thể treo đồ tùy thích lên đây bán với giá cả tùy chọn.'
+    - 'lore4:&c&l(!)&c Hướng dẫn chi tiết dùng lệnh &7/ah&c help'
+    - 'lore6:&7Nhấp vào &f>>'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg4MWYxYWM5MGEwN2JhYmM2ZWRjZmQ4YWVkMDQzODAxMDNlMDk5NTliYzYwNmQ4ZTU2MTRlMmUwN2U2NTU0In19fQ===
+    RewardType: playercommand
+    Reward: 
+    - ah
+    InventoryLocation: 21
+  bxh:
+    MenuItem:
+    - 'name:&6&lMức treo thưởng ĐUA TOP NEWEST 2022 SKYWORLD'
+    - 'lore2:&2• &aBạn muốn biết số tiền dành cho người đứng top và những MVP đang dành top'
+    - 'lore3:&2• &aBảng xếp hạng sẽ liên tục được cập nhật mỗi 5-10 phút. Dành top ngay với trình độ cày cuốc của bạn vì kẻ vào sau chưa chắc đã thua!'
+    - 'lore4:&c&l(!)&c Chú ý:'
+    - 'lore5:&c • Cho phép bạn sử dụng autoclick để cày cuốc.'
+    - 'lore6:&c • Giải thưởng treo chi tiết tại warp event.'
+    - 'lore8:&7Nhấp vào &f>>'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBiMTQ5NGJhYmFkZWQ5OGUyYTZhNzY4NmRkM2MxZjE0YmQ4Y2Y4ZWFiNjJlNTRkZTc4NDdkNDBhOWYzZGI4ZCJ9fX0==
+    RewardType: shop
+    Reward: bxh
+    InventoryLocation: 22
+#line-4 Cửa hàng
+  line-4:
+    MenuItem:
+    - 'name:&2#Shop'
+    - type:160:5
+    - 'enchantment:damage_all#5'
+    - hideflags:hide_enchants
+    InventoryLocation: 28
+  store:
+    MenuItem:
+    - 'name:&a&lBách hoá xanh'
+    - 'lore2:&2• &aNơi bán các mặt hàng được phân loại. Cửa hàng thì cái gì cũng có'
+    - 'lore3:&2• &aSử dụng currency &l$&a. Mua sắm thỏa ga, lộc lá cùng shopee.'
+    - 'lore5:&7Nhấp vào &f>>'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTE0YzI1NjA2Y2M3NzM5ZTk1ODk5YjE2NGFmZmIzYzI4YTJjNWI4M2JiNDlkMzMzNDhiZmM0NzE5ZmUyMjY3In19fQ===
+    RewardType: shop
+    Reward: shop
+    InventoryLocation: 29
+  shopdonate:
+    MenuItem:
+    - 'name:&6&lCửa hàng Donate&7 /cshop'
+    - 'lore2:&2• &aCửa hàng này bán các vật phẩm &5CỰC HIẾM, &eSIÊU HIẾM, &6HUYỀN THOẠI...'
+    - 'lore3:&2• &aSử dụng coins &e⛂&a để mua sắm các mặt hàng trong này.'
+    - 'lore4:&c&l(!)&c Vật phẩm đã mua ko thể y/c refund!'
+    - 'lore6:&7Nhấp vào &f>>'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODI0Yzg4ZGYyZmI1NTZkMjUxNmFiM2E3YzM2MTFjZGZjMmUyNDMyYWFlNjE0OGY4MjA0OTUxODRlMTRlNWIxMiJ9fX0==
+    RewardType: shop
+    Reward: cshop
+    InventoryLocation: 30
+  vip:
+    MenuItem:
+    - 'name:&6&lShop rank+'
+    - 'lore2:&2• &aQuyền lợi giúp bạn trở nên mạnh mẽ hơn thông qua phần quà nhận được và các quyền lệnh dành riêng cho VIP'
+    - 'lore3:&2• &aSử dụng coins &e⛂&a để mua sắm rank theo bậc.'
+    - 'lore4:&c&l(!) &cLời nhắc:'
+    - 'lore5:&c • Rank mua phải theo thứ tự bé -> cao'
+    - 'lore6:&c • Đang ở rank cao, mua rank thấp sẽ bị hạ rank -> tuyệt đối click cẩn thận'
+    - 'lore8:&7Nhấp vào &f>>'
+    - type:279
+    RewardType: shop
+    Reward: vip
+    InventoryLocation: 31
+  shopspawner:
+    MenuItem:
+    - 'name:&6&lSHOP lồng quái thú'
+    - 'lore2:&2• &aNơi bán các lồng spawner. SPAWNER triệu hồi 1 loại quái vĩnh viễn giúp bạn tiêu diệt nó là lấy vật phẩm yêu thích'
+    - 'lore3:&2• &aShop spawner bán lồng được thanh toán bằng cả 2 loại tiền tiện: money và chấp nhận cả &e⛁&a.'
+    - 'lore5:&7Click vào xem shop!'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0==
+    RewardType: shop
+    Reward: spawner
+    InventoryLocation: 32
+  weather:
+    MenuItem:
+    - 'name:&6&lCửa hàng Thời tiết'
+    - 'lore2:&2• &aBạn giàu có và bạn ghét trời tối và trời mưa. Bạn có thể thay đổi thời tiết cho toàn server (các player khác cũng chịu ảnh hưởng của sự thay đổi thời tiết)'
+    - 'lore3:&2• &aThời tiết có các loại: mặt trời mọc, ban đêm, mưa, tuyết, bình thường'
+    - 'lore4:&c&l(!)&c Nhắc nhở:'
+    - 'lore5:&c • Trường hợp kẻ lạm dùng dòng chảy của tự nhiên sẽ bị jail tù.'
+    - 'lore6:&c • Thời tiết, khí hậu, thiên tai chỉ ảnh hưởng ở thể giới kẻ điều khiển.'
+    - 'lore8:&7Nhấp vào &f>>'
+    - type:watch
+    RewardType: shop
+    Reward: weather
+    InventoryLocation: 33
+#line-5 Lợi ích
+  line-5:
+    MenuItem:
+    - 'name:&2#Lợi ích'
+    - type:160:6
+    - 'enchantment:damage_all#5'
+    - hideflags:hide_enchants
+    InventoryLocation: 37
+  dd:
+    MenuItem:
+    - 'name:&6&lQuà điểm danh'
+    - 'lore1:&6ENGLISH:&7 box attendance&6 LỆNH TẮT:&7 /dd'
+    - 'lore3:&7Điểm danh nhận quà mỗi ngày. Báo danh như 1 hình thức kiểm tra độ siêng năng của bạn và quà tặng là các phần thưởng vip'
+    - 'lore5:&7Game rpg nào cũng có điểm danh hết nó được xem là thứ chống p2w.'
+    - 'lore7:&7Nhấp vào &f>>'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA5MDEwMmMxNmMyYWVlZjkxZTNkNzdhNWEzNzUwOTZjYzgyNjVjMzRiZjllMTgyMGI4NzFmNDQ0OWZiNmUifX19=
+    RewardType: playercommand
+    Reward:
+    - diemdanh
+    InventoryLocation: 38
+  kit:
+    MenuItem:
+    - 'name:&6&lNhận kits'
+    - 'lore1:&6ENGLISH:&7 kit&6 LỆNH TẮT:&7 /kit'
+    - 'lore3:&7Các phần quà đặc biệt dành cho bạn claim, bạn có thể xem như đây là tính năng tặng quà ngoại truyện'
+    - 'lore5:&7Server nào cũng có kits, kit nhận theo vòng lặp thời gian hoặc duy nhất 1 lần.'
+    - 'lore7:&7Nhấp vào &f>>'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyY2VlZDA2NDgzNWVhMjMyZTY1NmE3M2Y4MmVkNzYxODI3ODU5YzkxMzQ0OTMxNGI4ZmQyMWIzZDExZDYifX19=
+    RewardType: shop
+    Reward: kits
+    InventoryLocation: 39
+  itembox:
+    MenuItem:
+    - 'name:&6&lHộp thư &e/ hòm thư'
+    - 'lore1:&6ENGLISH:&7 mailbox&6 LỆNH TẮT:&7 /homthu'
+    - 'lore3:&7Chỗ chứa các phần quà do ÔNG TRÙM gửi tặng toàn người chơi server dù bạn offline'
+    - 'lore5:&7Hòm thư là nơi tuyệt vời để chứa các phần quà &cBẢO TRÌ, UPDATE, LỄ, CHỦ NHẬT, CODE &7ngoại truyện.'
+    - 'lore7:&7Nhấp vào &f>>'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjUzY2NhODI4ZDVjOTg1NmJlZTY2ZDE2ODNlZGU2M2E1NDE5Zjk1ZjA2ZmZjOWY0YzhmNWE0ZTQ1ZTNiOTYyIn19fQ===
+    RewardType: playercommand
+    Reward:
+    - itembox open
+    InventoryLocation: 40
+  code:
+    MenuItem:
+    - 'name:&6&lNhập mã code'
+    - 'lore1:&6ENGLISH:&7 code&6 LỆNH TẮT:&7 null'
+    - 'lore3:&7Code là các kí tự chữ cái + số trộn với nhau, ví dụ: DXDIAG123PORNHUB.COM'
+    - 'lore5:&7Mã code được thông báo (tạo) trên group fb GRASSMC.COM vào chủ nhật mỗi tuần. Bạn hãy gia nhập group để copy mã code và dán vào đây nhận quà!'
+    - 'lore7:&7Nhấp vào &f>>'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTliOGQyNTRhZWM1M2M1OWFjYzVmOGQ3MWExOWRiOTc4ZWM4YmUyMzJjZTA3ZWVmNThiY2Y0NjQzMzRkIn19fQ===
+    RewardType: PLAYERCOMMANDOP
+    Reward: 
+    - qs take code
+    - bs close %player%
+    InventoryLocation: 41
+  qnt:
+    MenuItem:
+    - 'name:&6&lQuà nạp thẻ'
+    - 'lore1:&6ENGLISH:&7 box donate&6 LỆNH TẮT:&7 /qnt'
+    - 'lore3:&7Xem các phần quà gửi cho bạn sau khi nạp thẻ &eLẦN ĐẦU'
+    - 'lore5:&7Quà và coins &e⛃&7 tự chuyển vào túi bạn sau khi hệ thống kiểm tra thành công thẻ nạp của bạn.'
+    - 'lore7:&7Nhấp vào &f>>'
+    - type:399
+    RewardType: shop
+    Reward: qnt
+    InventoryLocation: 42
+#line-6 Chức năng riêng
+  line-6:
+    MenuItem:
+    - 'name:&2#Chức năng cá nhân'
+    - type:160:7
+    - 'enchantment:damage_all#5'
+    - hideflags:hide_enchants
+    InventoryLocation: 46
+  training:
+    MenuItem:
+    - 'name:&6&lRèn'
+    - 'lore1:&6ENGLISH:&7 training&6 LỆNH TẮT:&7 /ren'
+    - 'lore3:&7Đây là nơi đập, rèn, mài, dũa, tẩy luyện, nâng cấp trang bị. Nguyên liệu sử dụng chủ yếu là đá thợ rèn'
+    - 'lore5:&9&l(!)&7Các vật phẩm đa phần sau khi rèn thì ko thể tiếp tục trao đổi với NPC (khu trade) vì nó đã bị biến dạng.'
+    - 'lore7:&7Click vào xem shop!'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDc3NWEyNmRiMTI4ZjY4NTAzNzliMjJlMTFiMGQxZGI5YjI1MTczMTdlMjRiYzgxZWQ5YTZkY2U0MTViIn19fQ===
+    RewardType: shop
+    Reward: ren
+    InventoryLocation: 47
+  fix:
+    MenuItem:
+    - 'name:&6&lSửa chữa đồ đạc'
+    - 'lore1:&6ENGLISH:&7 repair&6 LỆNH TẮT:&7 /suachua'
+    - 'lore3:&7Nơi sửa chữa các trang bị mất độ bền, hư hỏng nặng do sài lâu'
+    - 'lore5:&7Sửa chữa đồ theo dạng Thuê Bao (dù hư nặng hay nhẹ click sửa chữa thì giá cả đều như nhau) và bạn sẽ tiêu hao money &a⛃'
+    - 'lore7:&7Nhấp vào &f>>'
+    - type:145:2
+    RewardType: shop
+    Reward: fix
+    InventoryLocation: 48
+  attr:
+    MenuItem:
+    - 'name:&6&lNâng cấp thiên phú &e&l+'
+    - 'lore1:&6ENGLISH:&7 attributes&6 LỆNH TẮT:&7 /class attr'
+    - 'lore3:&7Khi lên được 1 level class, bạn sẽ claim được 1 điểm tâm linh'
+    - 'lore5:&7Sử dụng điểm tâm linh để nâng thuộc tính của nhân vật chính của bạn!'
+    - 'lore7:&7Nhấp vào &f>>'
+    - type:351:10
+    RewardType: playercommandop
+    Reward: 
+    - class attr
+    InventoryLocation: 49
+  nienthu:
+    MenuItem:
+    - 'name:&6&lThần thú'
+    - 'lore1:&6ENGLISH:&7 mount&6 LỆNH TẮT:&7 /mount'
+    - 'lore3:&7Là loài vật linh thiên trong thần thoại. Nếu muốn sở hữu phải hoàn thành chuỗi nhiệm vụ tân binh'
+    - 'lore5:&7Niên thú có thể mặc, năng cấp lên bậc cao hơn giúp tăng &e&l+&7!'
+    - 'lore7:&7Nhấp vào &f>>'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI1MDViZTc3OTZiN2Q3OGE3MTdjM2U2NWVhNDJiZjIxMTQ0OWZkYjZkOTNmMmI0MDZhODhhYjcxYjcwIn19fQ===
+    RewardType: shop
+    Reward: mount
+    InventoryLocation: 50
+  wing:
+    MenuItem:
+    - 'name:&6&lĐôi cánh'
+    - 'lore1:&6ENGLISH:&7 wing&6 LỆNH TẮT:&7 /wing'
+    - 'lore3:&7Cánh là hiện thân của angel trong thần thoại. Nếu muốn sở hữu phải hoàn thành chuỗi nhiệm vụ tân binh'
+    - 'lore5:&7Cánh có thể mặc, năng cấp lên bậc cao hơn giúp tăng &e&l+&7!'
+    - 'lore7:&7Nhấp vào &f>>'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjBlZjgxYzc0NDRlZWVkOGJjZjdiYzM4NTY3MTY3Zjg4NDYxNzU1NjdkNGYwOTllYzc2MzRiMjg5YWExMTIifX19=
+    RewardType: shop
+    Reward: wing
+    InventoryLocation: 51
+  unique:
+    MenuItem:
+    - 'name:&6&lBảo Pháp'
+    - 'lore1:&6ENGLISH:&7 unique&6 LỆNH TẮT:&7 /unique'
+    - 'lore3:&7Thu thập bảo pháp giúp bạn tăng: điểm sức mạnh, &e&l+&7 thuộc tính main'
+    - 'lore5:&7Mở khóa pháp bảo thông qua thu thập và tích lũy "Đá Bảo Pháp" từ hoạt động skyworld.'
+    - 'lore7:&7Nhấp vào &f>>'
+    - type:blaze_rod
+    RewardType: shop
+    Reward: unique
+    InventoryLocation: 52
+#line-7 Khác
+  line-7:
+    MenuItem:
+    - 'name:&2#Khác'
+    - type:160:9
+    - 'enchantment:damage_all#5'
+    - hideflags:hide_enchants
+    InventoryLocation: 55
+  bungee:
+    MenuItem:
+    - 'name:&6&lMáy chủ khác'
+    - 'lore1:&6ENGLISH:&7 another server&6 LỆNH TẮT:&7 /server'
+    - 'lore3:&7Trợ giúp bạn nhảy đến các máy chủ khác mà ko thông qua /login tại lobby'
+    - 'lore5:&7Hiện tại grassmc.com có rất nhiều máy chủ như prison, towny...!'
+    - 'lore7:&7Nhấp vào &f>>'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmUyY2M0MjAxNWU2Njc4ZjhmZDQ5Y2NjMDFmYmY3ODdmMWJhMmMzMmJjZjU1OWEwMTUzMzJmYzVkYjUwIn19fQ===
+    RewardType: shop
+    Reward: bungeecord
+    InventoryLocation: 56
+  pet:
+    MenuItem:
+    - 'name:&6&lCách bắt pets'
+    - 'lore1:&6ENGLISH:&7 catch pet&6 LỆNH TẮT:&7 /howtopet'
+    - 'lore3:&7Ông Trùm sẽ hướng dẫn bạn bắt 1 con pet nhanh nhất mà ko dài dòng tốn thời gian'
+    - 'lore5:&7Pet sẽ đi theo bạn và giúp bạn các lợi ích khác, nhanh sở hữu ngay mỗi người 1 con tùy thích!'
+    - 'lore7:&7Nhấp vào &f>>'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q4Y2RjYTg3Mjk2Njc5Y2EyNmFhZDY3MDQzYmYxZDQ0Yjk4MjYyMTljY2E5ZjRjNDlhNDExM2IxNzZlNGMifX19=
+    RewardType: shop
+    Reward: mypet
+    InventoryLocation: 57
+  faq:
+    MenuItem:
+    - 'name:&6&lFAQ'
+    - 'lore1:&6ENGLISH:&7 fucking asked questions&6 LỆNH TẮT:&7 /faq'
+    - 'lore3:&7Bạn ko biết chơi thể loại skyblock? Bạn ko biết các lệnh sử dụng trong server? Bạn ko biết cách mạnh lên?'
+    - 'lore5:&7Bản ko biết server có tính năng gì? Bạn muốn biết mọi thứ tại Fucking Asked Questions'
+    - 'lore7:&7Nhấp vào &f>>'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE2M2RhZmFjMWQ5MWE4YzkxZGI1NzZjYWFjNzg0MzM2NzkxYTZlMThkOGY3ZjYyNzc4ZmM0N2JmMTQ2YjYifX19=
+    RewardType: shop
+    Reward: faq
+    InventoryLocation: 58
+  setting:
+    MenuItem:
+    - 'name:&6&lThiết lập'
+    - 'lore1:&6ENGLISH:&7 setting&6 LỆNH TẮT:&7 null'
+    - 'lore3:&7Điều chỉnh 1 vài thông số trong game có thể mang lại lợi ích mong muốn cho bạn.'
+    - 'lore5:&7Thiết lập là sự tương tác giữa bạn với giao diện đồ họa (GUI). Tham khảo icon này nếu có thêm thời gian.'
+    - 'lore7:&7Nhấp vào &f>>'
+    - type:404
+    RewardType: playercommand
+    Reward:
+    - bs close %player%
+    - sb
+    InventoryLocation: 59

@@ -1,0 +1,19 @@
+#Item with this lore line will be locked
+#Notice: If you change this, the plugin won't lock items that has old "locked" lore line
+locked: '&4☾&6&lCENSORED &f⚘ &c&lPhong Ấn Vị Kỷ&4☽'
+#Commands that can't be used while holding a locked item
+blocked-cmds:
+- command1
+- command2
+- ah
+- trade
+- '*'
+keep-on-death: true
+block-drop: false
+messages:
+ blocked-command: "&cKhông thể sử dụng lệnh, đang cầm trang bị phong ấn"
+ must-have-name: "&cItem must have a name to be locked."
+ no-item: "&cYou have nothing on your hand."
+ locked: "&aLocked."
+ unlocked: "&aUnlocked."
+ removed: "%item% &cis removed from your inventory because you are not the legal owner."

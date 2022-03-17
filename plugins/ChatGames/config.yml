@@ -1,0 +1,16 @@
+# This will be one of the minimum numbers generated. The integer will not go below the minimum number.
+# Must be positive!
+Minimum-Number: 10
+
+# This will be one of the maximum numbers generated. The integer will not go over the maximum number.
+# Must be positive!
+Maximum-Number: 1000
+
+# The cooldown is the wait in between each game - it is in seconds!
+Cooldown: 600
+
+# The game timer is the length of time the game is active for - it is in seconds!
+Game-Timer: 45
+
+# The reward is the amount of money the user will receive if they win!
+Reward: 1000

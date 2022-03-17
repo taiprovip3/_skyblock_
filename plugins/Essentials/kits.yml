@@ -1,0 +1,140 @@
+kits:
+  tinhthedonator:
+    delay: 1
+    items:
+    - 388 1 name:&f⚚_&c&o&lＣＲＹＳＴＡＬ_&b&o&lＤＯＮＡＴＯＲ_&f⚚ lore:&a_⚜_&fSử_dụng_đổi_ra_các_trang_bị_&dDonate.|&a_⚜_&fVật_phẩm_không_thể_&5refund&f⚠|&a_➛&f_Sử_dụng_tai_&awarp_donate
+  khienbang:
+    delay: 1
+    items:
+    - shield 1 name:&eKhiên_Băng_&bRanduin lore:&6Đánh_giá&f_/&6_phẩm_chất:&f_☆☆☆|&emô_tả:&7chống_ST_cận_chiến/tầm_xa_khá|&7hiệu_quả._Có_thể_mặc_tay_trái_(OFFHAND)||&e-100.0%&7_ST_bên_hông_(cận_chiến/tầm_xà)|&e+320000.0%&7_Độ_bền_tối_đa||&7_⇥&e_Nội_tại_Bất_Biến&f࿏:|&6&0&6&r&6Chuột_phải&0&6&r&6&f&l:_&7&0&9&r&7Chông_băng&0&9&r&7_&8&l[&c&1&2&r&c15.0&1&2&r&c_giây&8&l]|&7Ch.phải_đấm_xuống_mặt_đất_cọc_băng_chạy|&7về_phía_trước_gây_20.0%_ST_và_đẩy_lùi|&7các_kẻ_địch_văng_ra_xa,_max_phạm_vi_10m|&f【&4Có_thể_giao_dịch&f】
+      durability:32000 basecolor:1908001
+  beetle:
+    delay: 1
+    items:
+    - elytra 1 name:&2Cánh_&aBọ_&2Ngựa&f_ʚɞ lore:&6_Đánh_giá_&f/&6_phẩm_chất:&f_☆☆☆☆|&emô_tả:&7là_trang_bị_duy_nhất,_giúp_bạn_tung|&7cánh_bay_lượn_thỏa_thích_trên_bầu_trời|&7_⇥&e_Thuộc_tính_cơ_bản&f:||&e+100.0%&7_Giáp_chính|&e+200.0%&7_Độ_bền_tối_đa|&e+10.0%&7_Giảm_ST_rơi||&6_⇥&e_Thuộc_tính_THẦN_KHÍ&f࿏:|&7&0&1&r&7Tỉ_lệ_né_tránh_(&aツ&7)&0&1&r&7&f&l:_&a+&0&2&r&a15.0%&0&2&r&f&l|&7&0&1&r&7Sức_thủ_PvP_(&e卍&7)&0&1&r&7&f&l:_&a+&0&2&r&a9.5%&0&2&r&f&l|&f【&4Có_thể_giao_dịch&f】
+      protection_environmental:10 durability:20 protection_fall:1 itemflags:HIDE_ENCHANTS
+  tntpickaxe:
+    delay: 1
+    items:
+    - diamondpickaxe 1 name:&c&l&oTNT&f_-&b&l&o_PICKAXE lore:&c+_&bThe_explosion_break_any_block_around|&c+_&bNerver_&fbreaking|&7Explosive_I|&bUse_all_items_of_donate_to_break|&bthere_blocks_have_fortune_make|&bthe_rich_of_!!!|&4☾&6&lCENSORED_&f⚘_&c&lPhong_Ấn_Vị_Kỷ&4☽
+      dig_speed:15 durability:10000 loot_bonus_blocks:10
+    - diamondpickaxe 1 name:&c&l&oTNT_&f-_&b&l&oPICKAXE_&6&l&o+2 lore:&c+_&bThe_explosion_break_any_block_around|&c+_&bNerver_&fbreaking|&7Explosive_II|&bUse_all_items_of_donate_to_break|&bthere_blocks_have_fortune_make|&bthe_rich_of_!!!|&4☾&6&lCENSORED_&f⚘_&c&lPhong_Ấn_Vị_Kỷ&4☽
+      dig_speed:20 durability:20000 loot_bonus_blocks:10
+    - diamondpickaxe 1 name:&c&l&oTNT_&f-_&b&l&oPICKAXE_&5&l&oᴍᴀx lore:&c+_&bThe_explosion_break_any_block_around|&c+_&bNerver_&fbreaking|&7Explosive_III|&bUse_all_items_of_donate_to_break|&bthere_blocks_have_fortune_make|&bthe_rich_of_!!!|&4☾&6&lCENSORED_&f⚘_&c&lPhong_Ấn_Vị_Kỷ&4☽
+      dig_speed:25 durability:30000 loot_bonus_blocks:10
+  dangnhap:
+    delay: 86400
+    items:
+    - rabbitfoot 1 name:&2thuốc_BUFF_&8&llv1 lore:|&7_Cho_phép_bạn_chọn_1_các_loại|&7_buff_hiệu_quả_I_tùy_thích.||_&e&l*_&8&lLV1&7_hiệu_quả_10_phút.|&e_LOẠI_VẬT_PHẨM_&aclickable
+    - glisteringmelon 1 name:&2thuốc_BUFF_&8&llv2 lore:|&7_Cho_phép_bạn_chọn_1_các_loại|&7_buff_hiệu_quả_II_tùy_thích.||_&e&l*_&8&lLV2&7_hiệu_quả_20_phút.|&e_LOẠI_VẬT_PHẨM_&aclickable
+    - goldencarrot 1 name:&2thuốc_BUFF_&8&llv3 lore:|&7_Cho_phép_bạn_chọn_1_các_loại|&7_buff_hiệu_quả_III_tùy_thích.||_&e&l*_&8&lLV3&7_hiệu_quả_30_phút.|&e_LOẠI_VẬT_PHẨM_&aclickable
+    - cauld 1 name:&2thuốc_BUFF_&8&lmaximum lore:|&7_Cho_phép_bạn_chọn_1_các_loại|&7_buff_hiệu_quả_IV_tùy_thích.||_&e&l*_&8&lLV4&7_hiệu_quả_40_phút.|&e_LOẠI_VẬT_PHẨM_&aclickable
+    - goldenapple 2
+    - apple 10 name:&6ISSAC_Newton&7_vạn_vật_hấp_dẫn lore:|&7_ăn_ló_đi_rồi_bạn_sẽ_thông_minh|&7_lên_như_ông_ấy||&7_Hồi_100%_thanh_thức_ăn||&e_LOẠI_VẬT_PHẨM&a_clickable
+    - woodenhoe 1 name:&e♠&2Cuốc_Triệu_Đô&a&l_⛁&1&c&b&d&2 lore:&750_&eremaining_uses||&7_Dùng_để_bán_tài_nguyên_trong_rương||&e&l_TÀI_NGUYÊN:&7_diamond,_emerald,_gold,...||&2&l_SỬ_DỤNG:&7_bỏ_blockfarm_vào_1_cái|&7_rương,_cầm_cuốc_click_phải_vào_rương||&e_LOẠI_VẬT_PHẨM&a_unclickable&e_and&a_passive
+      durability:1 itemflags:HIDE_ENCHANTS
+  online:
+    delay: 999999999
+    items:
+    - diamondpickaxe 1 name:&3⚚_&2&lCúp_lao_động_&aDecade_&3⚚ lore:|&6_Đánh_giá:_&a✩✩✩&7✩✩✩✩✩✩✩||&eSức_mạnh_phá_khối:_&2+20.0_điểm.|&eGia_tài:&2_+3_điểm|&eĐộ_bền:_&2-1200%_điểm.||&a&l_SƯU_TẦM:&7_bộ_dụng_cụ_hỗ_trợ_online||&f〖&2Vật_phẩm_được_gia_hạn&f〗|&2Thời_hạn:_20_phút||&9&l(!)&cHết_time_item_tự_bị_phá_vỡ
+      dig_speed:20 loot_bonus_blocks:3 itemflags:HIDE_ENCHANTS
+    - rabbitfoot 1 name:&2thuốc_BUFF_&8&llv1 lore:|&7_Cho_phép_bạn_chọn_1_các_loại|&7_buff_hiệu_quả_I_tùy_thích.||_&e&l*_&8&lLV1&7_hiệu_quả_10_phút.|&e_LOẠI_VẬT_PHẨM_&aclickable
+    - apple 5 name:&6ISSAC_Newton&7_vạn_vật_hấp_dẫn lore:|&7_ăn_ló_đi_rồi_bạn_sẽ_thông_minh|&7_lên_như_ông_ấy||&7_Hồi_100%_thanh_thức_ăn||&e_LOẠI_VẬT_PHẨM&a_clickable
+    - paper 1 name:&2๑&aEm_bé_khỏe_là_em_bé_ngoan&2๑ lore:&econtinue|&2chỉ_mong_sao_em_lớn_nhanh_từng_ngày|&2Em_bé_khỏe_em_bé_ngoan|&2Em_ca_hát_làm_vui_cả_nhà|&e_Bạn_là_em_bé_gì_??
+  code:
+    delay: 1
+    items:
+    - painting 1 name:&bBản_vẽ_&lDIAMOND lore:|&7_Dùng_để_tự_động_xây_nhà,_bạn_chỉ|&7_cần_tìm_chỗ_trống_và_sử_dụng_nó||&b&l_VẬT_LIỆU|&7_-_Diamond_block_&8(&71329&8)|&b&l_KÍCH_THƯỚC|&7_-_Lập_phương_11_&8(&7dài-rộng-cao_11&8)||&b&l_SỬ_DỤNG|&7_Tìm_1_khu_đất_trống_dài_rộng_cao_11m|&7_ko_có_vật_cản_xung_quanh._Cầm_b.v|&7_click_phải_để_xây_dựng_công_trình.||&eLOẠI_VẬT_PHẨM_&aclickable
+    - painting 1 name:&2Bản_vẽ_&lEMERALD lore:|&7_Dùng_để_tự_động_xây_nhà,_bạn_chỉ|&7_cần_tìm_chỗ_trống_và_sử_dụng_nó||&2&l_VẬT_LIỆU|&7_-_Emerald_block_&8(&71329&8)|&2&l_KÍCH_THƯỚC|&7_-_Lập_phương_11_&8(&7dài-rộng-cao_11&8)||&2&l_SỬ_DỤNG|&7_Tìm_1_khu_đất_trống_dài_rộng_cao_11m|&7_ko_có_vật_cản_xung_quanh._Cầm_b.v|&7_click_phải_để_xây_dựng_công_trình.||&eLOẠI_VẬT_PHẨM_&aclickable
+    - painting 1 name:&eBản_vẽ_&lGOLD lore:|&7_Dùng_để_tự_động_xây_nhà,_bạn_chỉ|&7_cần_tìm_chỗ_trống_và_sử_dụng_nó||&e&l_VẬT_LIỆU|&7_-_Gold_block_&8(&71329&8)|&e&l_KÍCH_THƯỚC|&7_-_Lập_phương_11_&8(&7dài-rộng-cao_11&8)||&e&l_SỬ_DỤNG|&7_Tìm_1_khu_đất_trống_dài_rộng_cao_11m|&7_ko_có_vật_cản_xung_quanh._Cầm_b.v|&7_click_phải_để_xây_dựng_công_trình.||&eLOẠI_VẬT_PHẨM_&aclickable
+    - lightblueshulkerbox 1 name:&b&lRương_kim_cương lore:|_&e&l*&f_Chứa_bên_trong_27st_khối_kim_cương|_&e&l*&f_Cầm_&_click_phải_để_dùng!||&cWARNING_&e&l*|&7Khi_túi_E_đầy._Vật_phẩm_sẽ_rớt_xuống_đất||&a[VẬT_PHẨM_CHỦ_ĐỘNG]
+    - limeshulkerbox 1 name:&2&lRương_lục_bảo lore:|_&e&l*&f_Chứa_bên_trong_27st_khối_lục_bảo|_&e&l*&f_Cầm_&_click_phải_để_dùng!||&cWARNING_&e&l*|&7Khi_túi_E_đầy._Vật_phẩm_sẽ_rớt_xuống_đất||&a[VẬT_PHẨM_CHỦ_ĐỘNG]
+    - yellowshulkerbox 1 name:&e&lRương_vàng_rồng lore:|_&e&l*&f_Chứa_bên_trong_27st_khối_vàng_rồng|_&e&l*&f_Cầm_&_click_phải_để_dùng!||&cWARNING_&e&l*|&7Khi_túi_E_đầy._Vật_phẩm_sẽ_rớt_xuống_đất||&a[VẬT_PHẨM_CHỦ_ĐỘNG]
+    - pris 2 name:&e&lLút_Ki_Bờ_Lóc lore:&2●_&2_Đặt_xuống_đất_bà_break_it|&2●_&2_Something_may_mắn_sẽ_happen
+    - goldenapple 2
+    - enchantedgoldenapple:1 2
+    - bottleofenchanting 10 name:&2Tinh_hoa_(&f100&2) lore:|&7_+100_điểm_expclass_vào_nhân_vật|&7_main._/sb_để_xem_chi_tiết.||&e_LOẠI_VẬT_PHẨM_&aclickable
+    - lead 1
+  jackpot:
+    delay: 1
+    items:
+    - ghasttear 1 name:&r_&r_&r_&r_&r_&r_&r_&r_&r_&r_&r_&r_&r_&2ᴊᴀᴄᴋᴘᴏᴛ&f_⚝ lore:&f&m一一一一一一一一一一一一一一一|&a•&fmô_tả:_&ajackpot_nhận_được_từ_người_ăn|&ahên_duy_nhất_mỗi_lần_sổ_&fᴊᴀᴄᴋᴘᴏᴛ&a._Sử|&adụng_vật_phẩm_này_trao_đổi_tại&f_warp|&ftrade,_uninverse...||&r_&r_&r_&r_&r_&r_&r_&r_&r_&r_&r_&2GRASSMC.COM&f_⚝
+  potatotrapx2:
+    delay: 1
+    items:
+    - goldpressureplate 2 name:&aKhoai_Tây_Cổ_Đại☀ lore:&7&o↡Đặt_xuống_đất|&7&o☄Kẻ_giẫm_vào_lập_tức_phát_nổ_gây|&7&o(500%X_sát_thương)=(15♥)_tối_đa)|&7&o☨Và_nhận_thêm_ST_rơi_từ_cao|&7&o♒Bao_gồm_bản_thân|
+  beartrapx2:
+    delay: 1
+    items:
+    - ironpressureplate 2 name:&7Bẫy_Gấu✄ lore:&7&o⋆Đặt_xuống_đất⇩|&7&o⋆Kẻ_giẫm_vào_bị_chảy_máu_(20%X_sát_thương)|&7&o⋆Kéo_dài_đến_khi_chết_hoặc_trị_liệu!|&7&o⋆Bao_gồm_bản_thân!|
+  fishtrapx2:
+    delay: 1
+    items:
+    - woodenpressureplate 2 name:&bBẫy_Cá✁ lore:&7&o⋆Đặt_xuống_đất⇩|&7&o≛Giẫm_vào_gây_(20%X_sát_thương)|&7&okéo_dài_đến_chết_hoặc_trị_liệu|&7&o≛Càng_gần_trung_tâm_Fizz_càng_đau|&7&o⋆Bao_gồm_bản_thân,_đồng_đội|
+  pandage:
+    delay: 1
+    items:
+    - paper 1 name:&aBăng_Trị_Liệu☤ lore:&7&oChuột_phải_sử_dụng_xóa_tất_cả,|&7&ohiệu_ứng:_chảy_máu,_bẫy,_độc...|&7&oTái_sử_dụng:_50s|
+  signal:
+    delay: 1
+    items:
+    - snow 1 name:&4Bóng_Sigal✵ lore:&7&o|&7&oNội_tại_-_Signal:_ném_chạm_đất_phát_nổ_gây_từ|&7&o20.0%_-_30.0%_ST_(tùy_phạm_vi),_giải_phóng_fire|&7&ocracker_7_màu._Có_thể_dùng_làm_ám_hiệu_hoặc|&7&o_tấn_công_kẻ_địch|&7&o|&7&oNotes:_sát_thương_cũng_gây_nên_chính_bản_thân|
+  signalx64:
+    delay: 1
+    items:
+    - snow 64 name:&4Bóng_Sigal✵ lore:&7&o|&7&oNội_tại_-_Signal:_ném_chạm_đất_phát_nổ_gây_từ|&7&o20.0%_-_30.0%_ST_(tùy_phạm_vi),_giải_phóng_fire|&7&ocracker_7_màu._Có_thể_dùng_làm_ám_hiệu_hoặc|&7&o_tấn_công_kẻ_địch|&7&o|&7&oNotes:_sát_thương_cũng_gây_nên_chính_bản_thân|
+  gaiIII:
+    delay: 1
+    items:
+    - enchantedbook 1 thorns:3
+  cuptmvay:
+    delay: 1
+    items:
+    - diamondpickaxe 1 name:&f྅༣_&2Cúp_Thợ_Mỏ_&c(vay)_&f྅༣ lore:&6ᴛác_ɢiả&f:_ᴋing5google&3✶|&6Phẩm_chất&f_/&6_đánh_giá:&f_☆☆☆☆☆|&cmô_tả:&7_là_trang_bị_vay_mượn_từ_1_thợ|&7mỏ._Có_thời_hạn_dùng,_hết_hạn_biến_mất||&f一一⊰_&aThuộc_tính_cơ_bản_&f⊱一一|&2+200.0%&7_Sức_mạnh_phá_khối|&2+100000%.0%&7_độ_bền_tối_đa|&2+20.0%&7_rơi_bonus_ores||&2NỘI_TẠI_BẤT_BIẾN&f༤:|&f一Vampire:&7_đòn_tấn_công_thường_hút_máu|&f100%_ST&7_gây_ra_(&c1.5♥&7)|&7Huyết_Nguyệt_Vladimir_I||&f〖&2Vật_phẩm_được_gia_hạn&f〗|&2Thời_hạn:_30_ngày|&f〖&4Có_thể_giao_dịch&f〗
+      dig_speed:200 durability:32767 loot_bonus_blocks:2 itemflags:HIDE_ENCHANTS
+  cupchienthan:
+    delay: 1
+    items:
+    - diamondpickaxe 1 name:&a☘☘_&6&lCúp_Chiến_Thần_&e&l[&6&l+1&e&l]_&a☘☘ lore:|&eĐánh_giá:_&a✫✫✫✫✫✫&7✫✫✫✫||&eSức_mạnh_đào:&7_+1500.0%||&eĐộ_bền:&7_1000.0%͙_||&eGia_tài:&7_+5.0||&eNội_tại:&7_gia_tăng_tốc_độ_di_chuyển_(15%)_|&7khi_cầm_(mất_hiệu_quả_khi_đổi_tr.bị).||&f_Sức_mạnh_đào_giảm_thời_gian_phá_hủy|&f_blocks._Độ_bền_giúp_cúp_sài_lâu_hơn|&f_(nhưng_vẫn_hỏng)._Gia_tài_giúp_rơi_các|&f_quặng_ore_duy_nhất.||&4☾&6&lCENSORED_&f⚘_&c&lPhong_Ấn_Vị_Kỷ&4☽
+      dig_speed:15 durability:100 loot_bonus_blocks:5 itemflags:HIDE_ENCHANTS
+  cupelonmusk:
+    delay: 1
+    items:
+    - diamondpickaxe 1 name:&e«&2•&2_ᴄúᴘ_&f&l&k|||&e_ᴇʟᴏɴᴍᴜsᴋ_&2•&e» lore:&r|&eĐánh_Giá:_&a&l✩✩✩✩✩✩✩&7✩✩✩|&r|&eSức_Mạnh_Đào:_&72000.0%|&r|&eGia_Tài:_&7+6.0|&r|&eNội_Tại:_&7Gia_Tăng_Tốc_độ_di_chuyển_(+20%)_|&7Khi_Cầm.|&r|&fSức_Mạnh_Đào_gia_tăng_thời_gian_phá_hủy|&Fblocks._Độ_Bền_cúp_sài_lâu_hơn_(_nhưng|&FVẫn_Hỏng_)._Gia_Tài_giúp_rơi_các_quặng_ore|&fDuy_Nhất||&4☾&6&lCENSORED_&f⚘_&c&lPhong_Ấn_Vị_Kỷ&4☽||&7Khi_ở_tay_chính:|&7_1.2_Tốc_độ_tấn_công|&7_5_Sức_tấn_công
+      dig_speed:20 durability:1000 loot_bonus_blocks:6 itemflags:HIDE_ENCHANTS,HIDE_ATTRIBUTES
+  vip:
+    delay: 999999999
+    items:
+    - darkgraydye:8 1 name:&e⚖_&2Hộp_quà_&f&ltá_điền lore:|&7_Đây_là_hộp_quà_vip_chỉ_mở_và_claim|&7_được_1_lần_duy_nhất_trong_đời.||&eLOẠi_VẬt_PhẨm&a_Clickable.
+  vip+:
+    delay: 999999999
+    items:
+    - dandelionyellow:11 1 name:&e⚖_&2Hộp_quà_&e&lđiền_chủ lore:|&7_Đây_là_hộp_quà_vip_chỉ_mở_và_claim|&7_được_1_lần_duy_nhất_trong_đời.||&eLOẠi_VẬt_PhẨm&a_Clickable.
+  mvp:
+    delay: 999999999
+    items:
+    - lightbluecolour:12 1 name:&e⚖_&2Hộp_quà_&3&lđịa_chủ lore:|&7_Đây_là_hộp_quà_vip_chỉ_mở_và_claim|&7_được_1_lần_duy_nhất_trong_đời.||&eLOẠi_VẬt_PhẨm&a_Clickable.
+  mvp+:
+    delay: 999999999
+    items:
+    - cyandye:6 1 name:&e⚖_&2Hộp_quà_&b&lquý_tộc lore:|&7_Đây_là_hộp_quà_vip_chỉ_mở_và_claim|&7_được_1_lần_duy_nhất_trong_đời.||&eLOẠi_VẬt_PhẨm&a_Clickable.
+  king:
+    delay: 999999999
+    items:
+    - rosered:1 1 name:&e⚖_&2Hộp_quà_&c&ltư_bản lore:|&7_Đây_là_hộp_quà_vip_chỉ_mở_và_claim|&7_được_1_lần_duy_nhất_trong_đời.||&eLOẠi_VẬt_PhẨm&a_Clickable.
+  tools:
+    delay: 999999999
+    items:
+    - book 1 name:&aCốt_truyện_ngắn_(20s) lore:&f•_Cầm_trên_tay_và_nhập_chuột-phải|&f•_Điều_&5Magic&f_sẽ_xảy_ra!
+  starter:
+    delay: 999999999
+    items:
+    - diamondpickaxe 1 name:&aTân_binh_&kߧ_&6cúp lore:|&8_[_&aThuộc_tính_&8]|&6HIỆU_SUẤT_&e[5]|&6CỨNG_CÁP_&e[3]|&6GIA_TÀI_&e[1]
+      dig_speed:5 durability:3 loot_bonus_blocks:1 itemflags:HIDE_ENCHANTS
+    - diamondaxe 1 name:&aTân_binh_&kᚖ_&6rìu lore:|&8_[_&aThuộc_tính_&8]|&6HIỆU_SUẤT_&e[3]|&6CỨNG_CÁP_&e[3]|&6GIA_TÀI_&e[1]
+      dig_speed:3 durability:3 loot_bonus_blocks:1 itemflags:HIDE_ENCHANTS
+    - diamondsword 1 name:&aTân_binh_&k␥_&6kiếm lore:|&8_[_&aThuộc_tính_&8]|&6SẮC_BÉN_&e[1]|&6CỨNG_CÁP_&e[3]|&6DUNG_NHAM_&e[1]
+      damage_all:1 fire_aspect:1 durability:3 itemflags:HIDE_ENCHANTS
+    - woodenhoe 1 name:&e♠&2Cuốc_Triệu_Đô&a&l_⛁&4&e&5&3&8 lore:&7499_&eremaining_uses||&7_Dùng_để_bán_tài_nguyên_trong_rương||&e&l_TÀI_NGUYÊN:&7_diamond,_emerald,_gold,...||&2&l_SỬ_DỤNG:&7_bỏ_blockfarm_vào_1_cái|&7_rương,_cầm_cuốc_click_phải_vào_rương||&e_LOẠI_VẬT_PHẨM&a_unclickable&e_and&a_passive
+      durability:1 itemflags:HIDE_ENCHANTS
+    - chart 1 name:&6Bản_vẽ_&dMÁY_FARM_&6(4_block) lore:|&7_Giúp_bạn_tự_build_1_cái_máy_farm|&7_đơn_giản_trước_mặt||&7_Nếu_quá_lười_biếng_xây_hãy_dùng_nó.|&7_Kích_thước,_hình_dáng_dựa_trên_admin_of_idea.||&e_LOẠI_VẬT_PHẨM&a_clickable

@@ -1,0 +1,266 @@
+ShopName: ren_unbreakable
+DisplayName: '&a☘ &2Server &8Unbreaking &a☘'
+Command: unbreaking:unbreak
+Sound:
+  Shop:
+    Open: ENTITY_ITEM_PICKUP:1:1
+    ChangeShop: ENTITY_ITEM_PICKUP:1:1
+shop:
+  a:
+    MenuItem:
+    - type:268
+    - enchantment:dig_speed#1
+    - hideflags:all
+    - name:&a
+    - 'lore1:&a     Sword&f⚒'
+    - 'lore3:&2  Success: &710%&a⇧'
+    - 'lore4:&2  Fail: &790% &a↹'
+    - 'lore6:&7-10 đá rèn'
+    - 'lore7:&2Status: &2&l✔'
+    - 'lore9:&a   (nhấp đập)'
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:10
+      - 'name:&8◁&2✦ &e&lĐá Rèn &2✦&8▷'
+      - 'lore2:&7 Dùng để rèn trang bị bằng nhiều tính'
+      - 'lore3:&7 như: tẩy luyện, rèn cúp, khảm unbreakble..'
+      - 'lore5:&a&l SỬ DỤNG:&7 tích trữ đủ số lượng vào túi'
+      - 'lore6:&e&l E&7 và đến giao diện &eRÈN&7 nâng cấp'
+      - 'lore8:&e Groupding:&7 item mất giá trị khi đặt xuống'
+      - 'lore9:&7 đất vì biến dạng &9&l(!)'
+      - 'lore11:&eLOẠI VẬT PHẨM&a storage&e and&a clickable'
+    Condition:
+    - type:placeholdermatch
+    - '%item_in_hand%:match:WOOD_SWORD,STONE_SWORD,IRON_SWORD,GOLD_SWORD,DIAMOND_SWORD,WOOD_AXE,STONE_AXE,IRON_AXE,GOLD_AXE,DIAMOND_AXE'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - unbrkablerd
+    - class exp %player% 200
+    - mc give %player% 200
+    InventoryLocation: 13
+  anull:
+    MenuItem:
+    - type:268
+    - hideflags:all
+    - name:&a
+    - 'lore1:&a     Sword&f⚒'
+    - 'lore3:&2  Success: &710%&a⇧'
+    - 'lore4:&2  Fail: &790% &a↹'
+    - 'lore6:&7-10 đá rèn'
+    - 'lore7:&2Status: &4✗'
+    - 'lore9:&a   (nhấp đập)'
+    Message: '&cVui lòng cầm kiếm &f(&3♐) &ctrên tay trước!'
+    InventoryLocation: 13
+  ###  #
+  b:
+    MenuItem:
+    - type:278
+    - enchantment:dig_speed#1
+    - hideflags:all
+    - name:&a
+    - 'lore1:&a     Dụng cụ&f☭'
+    - 'lore3:&2  Success: &710%&a⇧'
+    - 'lore4:&2  Fail: &790% &a↹'
+    - 'lore6:&7-10 đá rèn'
+    - 'lore7:&2Status: &2&l✔'
+    - 'lore9:&a   (nhấp đập)'
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:10
+      - name:&6☀&2đá rèn&e☀
+      - 'lore2:&f ✶ &7lượm đủ đá unbreakale'
+      - 'lore3:&f ✶ &7đến giao diện &2/rpg&7 đập đồ'
+      - 'lore4:&f ✶ &7tỉ lệ &cfail&7 khá là cao'
+      - 'lore5:&6【&eGrassmc&6】 &e〖&6Grassnc&e〗'
+    Condition:
+    - type:placeholdermatch
+    - '%item_in_hand%:match:WOOD_PICKAXE,STONE_PICKAXE,IRON_PICKAXE,GOLD_PICKAXE,DIAMOND_PICKAXE,WOOD_HOE,STONE_HOE,IRON_HOE,GOLD_HOE,DIAMOND_HOE,WOOD_SPADE,STONE_SPADE,IRON_SPADE,GOLD_SPADE,DIAMOND_SPADE'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - unbrkablerd
+    - class exp %player% 200
+    - mc give %player% 200
+    InventoryLocation: 14
+  bnull:
+    MenuItem:
+    - type:278
+    - hideflags:all
+    - name:&a
+    - 'lore1:&a     Dụng cụ&f☭'
+    - 'lore3:&2  Success: &710%&a⇧'
+    - 'lore4:&2  Fail: &790% &a↹'
+    - 'lore6:&7-10 đá rèn'
+    - 'lore7:&2Status: &4✗'
+    - 'lore9:&a   (nhấp đập)'
+    Message: '&cVui lòng cầm cúp &f(&3pickaxe) &ctrên tay trước!'
+    InventoryLocation: 14
+##
+  c:
+    MenuItem:
+    - type:311
+    - enchantment:dig_speed#1
+    - hideflags:all
+    - name:&a
+    - 'lore1:&a     Trang bị&f☀'
+    - 'lore3:&2  Success: &710%&a⇧'
+    - 'lore4:&2  Fail: &790% &a↹'
+    - 'lore6:&7-10 đá rèn'
+    - 'lore7:&2Status: &2&l✔'
+    - 'lore9:&a   (nhấp đập)'
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:10
+      - name:&6☀&2đá rèn&e☀
+      - 'lore2:&f ✶ &7lượm đủ đá unbreakale'
+      - 'lore3:&f ✶ &7đến giao diện &2/rpg&7 đập đồ'
+      - 'lore4:&f ✶ &7tỉ lệ &cfail&7 khá là cao'
+      - 'lore5:&6【&eGrassmc&6】 &e〖&6Grassnc&e〗'
+    Condition:
+    - type:placeholdermatch
+    - '%item_in_hand%:match:LEATHER_HELMET,LEATHER_CHESTPLATE,LEATHER_LEGGINGS,LEATHER_BOOTS,CHAINMAIL_HELMET,CHAINMAIL_CHESTPLATE,CHAINMAIL_LEGGINGS,CHAINMAIL_BOOTS,GOLD_HELMET,GOLD_CHESTPLATE,GOLD_LEGGINGS,GOLD_BOOTS,IRON_HELMET,IRON_CHESTPLATE,IRON_LEGGINGS,IRON_BOOTS,DIAMOND_HELMET,DIAMOND_CHESTPLATE,DIAMOND_LEGGINGS,DIAMOND_BOOTS'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - unbrkablerd
+    - class exp %player% 200
+    - mc give %player% 200
+    InventoryLocation: 15
+  cnull:
+    MenuItem:
+    - type:311
+    - hideflags:all
+    - name:&a
+    - 'lore1:&a     Dụng cụ&f☭'
+    - 'lore3:&2  Success: &710%&a⇧'
+    - 'lore4:&2  Fail: &790% &a↹'
+    - 'lore6:&7-10 đá rèn'
+    - 'lore7:&2Status: &4✗'
+    - 'lore9:&a   (nhấp đập)'
+    Message: '&cVui lòng cầm kiếm &f(&3♐) &ctrên tay trước!'
+    InventoryLocation: 15
+  aa:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 1
+  ba:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 2
+  ca:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 3
+  d:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 4
+  e:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 5
+  f:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 6
+  g:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 7
+  h:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 8
+  i:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 9
+  j:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 10
+  k:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 11
+  l:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 12
+  m:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 16
+  n:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 17
+  o:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 18
+  p:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 19
+  q:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 20
+  r:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 21
+  s:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 22
+  t:
+    MenuItem:
+    - type:SIGN
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&c&lQUAY LẠI
+    RewardType: shop
+    Reward: ren
+    InventoryLocation: 23
+  u:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 24
+  v:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 25
+  w:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 26
+  x:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    InventoryLocation: 27

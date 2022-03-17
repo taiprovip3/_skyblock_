@@ -1,0 +1,25 @@
+currentQuests:
+- code
+- dirt mining
+currentStages:
+- 0
+- 0
+quest-points: 0
+questData:
+  code:
+    passwords:
+    - '&aVui lòng nhập mã code ra màn hình (ko cần dấu /)'
+    - Vui lòng nhập mã code ra màn hình (ko cần dấu /)
+    passwords-said:
+    - false
+    - false
+  dirt mining:
+    blocks-broken-names:
+    - GRASS
+    blocks-broken-amounts:
+    - 7
+    blocks-broken-durability:
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: ManagerMan_

@@ -1,0 +1,15 @@
+# BuildMoney 3.7 Blocks File
+BLOCK_MATERIAL:
+    Money: 1
+    XP: 1;2
+    Commands:
+      1:
+        Command: "anothercommand <player> <randomFloat>"
+        min: 0.5
+        max: 2.0
+        Chance: 100.0 # 100.0 = 100%
+      2:
+        Command: "heal <player>"
+        Chance: 0.5 # 0.5%
+      3:
+        Command: "give <player> diamond 1"

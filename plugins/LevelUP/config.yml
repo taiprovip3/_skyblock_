@@ -1,0 +1,62 @@
+#https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Effect.html - Effect List
+Mysql:
+  active: false
+  host: localhost
+  user: root
+  password: QwErTy
+  database: level
+titlemsg:
+  active: true
+  title: '&2bạn vừa &e&lLên Cấp &6{new-level}'
+  subtitle: '&aclaim mốc quà &f&o/qlc&a lên cấp'
+  worlds:
+    - ASkyBlock
+    - ASkyBlock_nether
+    - world
+    - world_nether
+    - world_the_end
+sound:
+  active: false
+  sounds: ENTITY.PLAYER.LEVELUP
+  float-1: 1
+  float-2: 1
+  worlds:
+    - ASkyBlock
+    - ASkyBlock_nether
+    - world
+    - world_nether
+    - world_the_end
+effect:
+  active: trfalse
+  effects: CLOUD
+  float: 10
+  worlds:
+    - ASkyBlock
+    - ASkyBlock_nether
+    - world
+    - world_nether
+    - world_the_end
+command:
+  active: false
+  commands: 'feed {player}'
+  worlds:
+    - ASkyBlock
+    - ASkyBlock_nether
+    - world
+    - world_nether
+    - world_the_end
+chatmsg:
+  active: true
+  message: |-
+    &a&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    &r &r
+    &2• &aLên cấp nhận mốc quà tại điểm &6&o/qlc&a.
+    &2• &aĐừng nhầm lẫn exp - tinh hoa, Lv - Lv.class&2.
+    &r &r
+    &a&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+  worlds:
+    - ASkyBlock
+    - ASkyBlock_nether
+    - world
+    - world_nether
+    - world_the_end

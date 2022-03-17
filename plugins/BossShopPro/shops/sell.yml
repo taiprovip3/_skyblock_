@@ -1,0 +1,344 @@
+ShopName: sell
+DisplayName: '&8Server &1♠&8 Bạn blockfarm'
+Command: sell:s
+Sound:
+  Shop:
+    Open: ENTITY_ITEM_PICKUP:1:1
+    ChangeShop: ENTITY_ITEM_PICKUP:1:1
+shop:
+  1:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU1YmU4NzM2NTJjYmZkZjRkODhmYTgxMjc2ZDI0OGQyYjdlZWY3YTZkNGYzZWRjYzkyZmU1NzU4NWJmNGQifX19=
+    - name:&a&lSELL ALL&7 (sohen)
+    - 'lore2:&7 Click vào đây ... sẽ bán toàn bộ blocks farm (tài nguyên) trong túi &e&lE&7 của bạn.'
+    - 'lore4:&e&l NHẮC LẠI:&7 ko phân biệt item hiếm hay thường, chỉ cần là tài nguyên farm là bán sạch &e&l(!)'
+    - 'lore6:&a&l GIÁ BÁN THỊ TRƯỜNG:&7 %reward% &e⛀&7/block'
+    - 'lore8:&aCLICKABLE&e vào đây để bán'
+    RewardType: money
+    Reward: 46
+    PriceType: itemall
+    Price:
+    - type:49
+    InventoryLocation: 13
+  2:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU5YjhhYWU3ZjljYzc2ZDYyNWNjYjhhYmM2ODZmMzBkMzhmOWU2YzQyNTMzMDk4YjlhZDU3N2Y5MWMzMzNjIn19fQ===
+    - name:&a&lSELL ALL&7 (sohen)
+    - 'lore2:&7 Click vào đây ... sẽ bán toàn bộ blocks farm (tài nguyên) trong túi &e&lE&7 của bạn.'
+    - 'lore4:&e&l NHẮC LẠI:&7 ko phân biệt item hiếm hay thường, chỉ cần là tài nguyên farm là bán sạch &e&l(!)'
+    - 'lore6:&a&l GIÁ BÁN THỊ TRƯỜNG:&7 %reward% &e⛀&7/block'
+    - 'lore8:&aCLICKABLE&e vào đây để bán'
+    RewardType: money
+    Reward: 9
+    PriceType: itemall
+    Price:
+    - type:1
+    InventoryLocation: 14
+  3:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19=
+    - name:&a&lSELL ALL&7 (sohen)
+    - 'lore2:&7 Click vào đây ... sẽ bán toàn bộ blocks farm (tài nguyên) trong túi &e&lE&7 của bạn.'
+    - 'lore4:&e&l NHẮC LẠI:&7 ko phân biệt item hiếm hay thường, chỉ cần là tài nguyên farm là bán sạch &e&l(!)'
+    - 'lore6:&a&l GIÁ BÁN THỊ TRƯỜNG:&7 %reward% &e⛀&7/block'
+    - 'lore8:&aCLICKABLE&e vào đây để bán'
+    RewardType: money
+    Reward: 10
+    PriceType: itemall
+    Price:
+    - type:173
+    InventoryLocation: 15
+  4:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzZkMDcwMjY1NDJmZDJhYTYyOWQ5MTZmMmUwNzI3NjFhMmZlNjcwZDAxZWMyZGQ3MjdhM2Q2ZWY4YzNlYjk1In19fQ===
+    - name:&a&lSELL ALL&7 (sohen)
+    - 'lore2:&7 Click vào đây ... sẽ bán toàn bộ blocks farm (tài nguyên) trong túi &e&lE&7 của bạn.'
+    - 'lore4:&e&l NHẮC LẠI:&7 ko phân biệt item hiếm hay thường, chỉ cần là tài nguyên farm là bán sạch &e&l(!)'
+    - 'lore6:&a&l GIÁ BÁN THỊ TRƯỜNG:&7 %reward% &e⛀&7/block'
+    - 'lore8:&aCLICKABLE&e vào đây để bán'
+    RewardType: money
+    Reward: 12
+    PriceType: itemall
+    Price:
+    - type:152
+    InventoryLocation: 25
+  5:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmQ4NDhkYzZmNjk0Y2JmMzU0NDE3MjJiMWEyN2ExOTVkYTU2ZTQ5NjAyMzE4MjRmZDdlYzViMTMxNWNjMmEifX19=
+    - name:&a&lSELL ALL&7 (sohen)
+    - 'lore2:&7 Click vào đây ... sẽ bán toàn bộ blocks farm (tài nguyên) trong túi &e&lE&7 của bạn.'
+    - 'lore4:&e&l NHẮC LẠI:&7 ko phân biệt item hiếm hay thường, chỉ cần là tài nguyên farm là bán sạch &e&l(!)'
+    - 'lore6:&a&l GIÁ BÁN THỊ TRƯỜNG:&7 %reward% &e⛀&7/block'
+    - 'lore8:&aCLICKABLE&e vào đây để bán'
+    RewardType: money
+    Reward: 11
+    PriceType: itemall
+    Price:
+    - type:22
+    InventoryLocation: 33
+  6:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmJhODQ1OTE0NWQ4M2ZmYzQ0YWQ1OGMzMjYwZTc0Y2E1YTBmNjM0YzdlZWI1OWExYWQzMjM0ODQ5YzkzM2MifX19=
+    - name:&a&lSELL ALL&7 (sohen)
+    - 'lore2:&7 Click vào đây ... sẽ bán toàn bộ blocks farm (tài nguyên) trong túi &e&lE&7 của bạn.'
+    - 'lore4:&e&l NHẮC LẠI:&7 ko phân biệt item hiếm hay thường, chỉ cần là tài nguyên farm là bán sạch &e&l(!)'
+    - 'lore6:&a&l GIÁ BÁN THỊ TRƯỜNG:&7 %reward% &e⛀&7/block'
+    - 'lore8:&aCLICKABLE&e vào đây để bán'
+    RewardType: money
+    Reward: 14
+    PriceType: itemall
+    Price:
+    - type:42
+    InventoryLocation: 32
+  7:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZkMWNlNjk3ZTlkYmFhNGNjZjY0MjUxNmFhYTU5ODEzMzJkYWMxZDMzMWFmZWUyZWUzZGNjODllZmRlZGIifX19=
+    - name:&a&lSELL ALL&7 (sohen)
+    - 'lore2:&7 Click vào đây ... sẽ bán toàn bộ blocks farm (tài nguyên) trong túi &e&lE&7 của bạn.'
+    - 'lore4:&e&l NHẮC LẠI:&7 ko phân biệt item hiếm hay thường, chỉ cần là tài nguyên farm là bán sạch &e&l(!)'
+    - 'lore6:&a&l GIÁ BÁN THỊ TRƯỜNG:&7 %reward% &e⛀&7/block'
+    - 'lore8:&aCLICKABLE&e vào đây để bán'
+    RewardType: money
+    Reward: 15
+    PriceType: itemall
+    Price:
+    - type:41
+    InventoryLocation: 31
+  8:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzAxNDYxOTczNjM0NTI1MTk2ZWNjNzU3NjkzYjE3MWFkYTRlZjI0YWE5MjgzNmY0MmVhMTFiZDc5YzNhNTAyZCJ9fX0==
+    - name:&a&lSELL ALL&7 (sohen)
+    - 'lore2:&7 Click vào đây ... sẽ bán toàn bộ blocks farm (tài nguyên) trong túi &e&lE&7 của bạn.'
+    - 'lore4:&e&l NHẮC LẠI:&7 ko phân biệt item hiếm hay thường, chỉ cần là tài nguyên farm là bán sạch &e&l(!)'
+    - 'lore6:&a&l GIÁ BÁN THỊ TRƯỜNG:&7 %reward% &e⛀&7/block'
+    - 'lore8:&aCLICKABLE&e vào đây để bán'
+    RewardType: money
+    Reward: 30
+    PriceType: itemall
+    Price:
+    - type:57
+    InventoryLocation: 21
+  9:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2JjZDRmOTM0NzhhODcxMmFhZjVmZWQyMjkyNDgzM2Y2ZTE1ZjU0Y2Y3ZTZkNWFhYWE0NDUyNGM5ZTcifX19=
+    - name:&a&lSELL ALL&7 (sohen)
+    - 'lore2:&7 Click vào đây ... sẽ bán toàn bộ blocks farm (tài nguyên) trong túi &e&lE&7 của bạn.'
+    - 'lore4:&e&l NHẮC LẠI:&7 ko phân biệt item hiếm hay thường, chỉ cần là tài nguyên farm là bán sạch &e&l(!)'
+    - 'lore6:&a&l GIÁ BÁN THỊ TRƯỜNG:&7 %reward% &e⛀&7/block'
+    - 'lore8:&aCLICKABLE&e vào đây để bán'
+    RewardType: money
+    Reward: 32
+    PriceType: itemall
+    Price:
+    - type:133
+    InventoryLocation: 22
+  10:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVhNzcwZTdlNDRiM2ExZTZjM2I4M2E5N2ZmNjk5N2IxZjViMjY1NTBlOWQ3YWE1ZDUwMjFhMGMyYjZlZSJ9fX0==
+    - name:&a&lSELL ALL&7 (sohen)
+    - 'lore2:&7 Click vào đây ... sẽ bán toàn bộ blocks farm (tài nguyên) trong túi &e&lE&7 của bạn.'
+    - 'lore4:&e&l NHẮC LẠI:&7 ko phân biệt item hiếm hay thường, chỉ cần là tài nguyên farm là bán sạch &e&l(!)'
+    - 'lore6:&a&l GIÁ BÁN THỊ TRƯỜNG:&7 %reward% &e⛀&7/block'
+    - 'lore8:&aCLICKABLE&e vào đây để bán'
+    RewardType: money
+    Reward: 13
+    PriceType: itemall
+    Price:
+    - type:216
+    InventoryLocation: 24
+  a:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 1
+  b:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 2
+  c:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 3
+  d:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 4
+  e:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 5
+  f:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 6
+  g:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 7
+  h:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 8
+  i:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 9
+  j:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 10
+  k:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 11
+  l:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 12
+  m:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 16
+  n:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 17
+  o:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 18
+  p:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 19
+  q:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 20
+  r:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 26
+  s:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 27
+  t:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 28
+  u:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 29
+  v:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 30
+  w:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 34
+  x:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 35
+  y:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 36
+  z:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 37
+  za:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 38
+  zb:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 39
+  zd:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 40
+  ze:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 42
+  zf:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 43
+  zg:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 44
+  zh:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 45
+  faq:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE1M2JkZDE1NDU1MzFjOWViYjljNmY4OTViYzU3NjAxMmY2MTgyMGU2ZjQ4OTg4NTk4OGE3ZTg3MDlhM2Y0OCJ9fX0==
+    - name:&9&l(!)&7 Cuốc triệu đô &2$
+    - 'lore2:&9-&7 Cuốc triệu đô có giá bán tương tự với shop này'
+    - 'lore3:&9-&7 Sử dụng shop này nếu bạn quen command'
+    - 'lore4:&9-&7 Dùng cuốc triệu $ nếu bạn lừi biếng'
+    - 'lore5:&9-&7 Cuốc triệu đô sẽ mất lượt sử dụng. Nhưng đừng lo bạn có thể claim 1 cây cuốc triệu đô mới thông qua các hoạt động server.'
+    - 'lore7:&2&lFAQ'
+    InventoryLocation: 23
+  back:
+    MenuItem:
+    - type:SIGN
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&cQuay lại shop
+    - lore:&7...
+    RewardType: SHOP
+    Reward: shop
+    InventoryLocation: 41

@@ -1,0 +1,42 @@
+# LuckyBlock plugin from MrFiliper
+
+LuckyBlock: 168
+AllowWorlds:
+- ASkyBlock
+- world
+EnableCreative: true
+EnableCrafting: false
+Crafting:
+  luckyBlock:
+    block: 19
+    count: 1
+    slot1: glowstone_dust
+    slot2: gold_ingot
+    slot3: glowstone_dust
+    slot4: gold_ingot
+    slot5: gold_ingot
+    slot6: gold_ingot
+    slot7: glowstone_dust
+    slot8: gold_ingot
+    slot9: glowstone_dust
+Chance:
+  enable: false
+  percent: 100
+Particle: POTION_SWIRL_TRANSPARENT
+Items:
+  item0:
+    block: '351'
+    amount: 1
+    name: '&6&lTinh hoa &8&lĐen'
+    lore:
+    - ''
+    - '&2●&7Đánh giá:&a ☆☆☆☆☆&7☆☆☆☆☆'
+    - '&a●&7 Vật phẩm dùng để cường hóa các tr.bị'
+    - '&7 khởi đầu. Chỉ sử dụng đc trong giao diện'
+    - '&7 cường hóa.'
+    - ''
+    - '&c&l[VẬT PHẨM BỊ ĐỘNG]'
+    broadcast: '&6&l%name%&e thu nhặt đc &0&l&nTinh hoa Đen&e khi đang farm!'
+EnableWorlds:
+- world
+- ASkyBlock

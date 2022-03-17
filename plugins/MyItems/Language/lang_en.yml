@@ -1,0 +1,319 @@
+#-----=====[ Prefix Message ]=====-----#
+
+Prefix: "&2【&fGRASSMC&2】 "
+
+#-----=====[ Metrics Message ]=====-----#
+
+Metrics_Success: "Gửi số liệu thống kê thành công"
+Metrics_Failed: "Gửi số liệu thống kê thất bại"
+
+#-----=====[ Hook Message ]=====-----#
+
+Hook_Header: "&8&l&m=-=-=-=-=-=-=-=-=-=-=&r &2{plugin} Dependencies &8&l&m=-=-=-=-=-=-=-=-=-=-="
+Hook_Soft_Dependency_Header: "&5Soft-Dependency&f:"
+Hook_Soft_Dependency_List: "&5- &d{hook} &8[{status}&8]"
+Hook_Hard_Dependency_Header: "&5Hard-Dependency&f:"
+Hook_Hard_Dependency_List: "&5- &d{hook} &8[{status}&8]"
+Hook_Footer: "&8&l&m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+Hook_Status_Hooked: "&4Hooked"
+Hook_Status_Not_Hook: "&4Not-Hooked"
+
+#-----=====[ Updater Message ]=====-----#
+
+Updater_Header: "&8&l&m=-=-=-=-=-=-=-=-=-=-=-=-=-=&r &2Nâng cấp &8&l&m=-=-=-=-=-=-=-=-=-=-=-=-=-="
+Updater_Plugin: "&7Plugin: &6{plugin}"
+Updater_Author: "&7Tác giả: &e{author}"
+Updater_Type: "&7Loại: &8{type}"
+Updater_Version_Now: "&7Phiên bản hiện tại: &8{current}"
+Updater_Version_Latest: "&7Phiên bả mới nhất: &8{latest}"
+Updater_Link: "&7Link: &5{link}"
+Updater_Footer: "&8&l&m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+Updater_Failed: "Tải bản update của plugin thất bại"
+
+
+#-----=====[ Plugin Message ]=====-----#
+
+Plugin_Deactivated: "Plugin đã bị vô hiệu hóa từ bảng điều khiển (Console)"
+Plugin_Information_Not_Match: "Thông tin của plugin không khớp!"
+
+#-----=====[ Console Message ]=====-----#
+
+Console_Command_Forbiden: "Chỉ có người chơi mới có thể thực hiện lệnh này!"
+
+#-----=====[ Character Message ]=====-----#
+
+Contains_Special_Character: "Không thể chứa ký tự đặc biệt!"
+
+#-----=====[ Command Message ]=====-----#
+
+MyItems_Not_Compatible: "Lệnh này không tương thích với phiên bản của máy chủ!"
+MyItems_Category_Not_Exists: "Danh mục &c{category} &rkhông tồn tại!"
+MyItems_World_Not_Exists: "Thế giới &c{world} &rkhông tồn tại!"
+MyItems_Save_Success: "Lưu vật phẩm &c{nameid}&r thành công"
+MyItems_Load_Success_To_Sender: "Bạn đã đưa &c{amount}x {nameid} &rcho &d{target}"
+MyItems_Load_Success_To_Target: "Bạn được nhận &c{amount}x {nameid} &rtừ &d{sender}"
+MyItems_Load_Success_Self: "Bạn nhận được &c{amount}x {nameid}"
+MyItems_Drop_Success: "Đã thả &c{amount}x {nameid} &rtại &d{world}: {x}, {y}, {z}" 
+MyItems_Remove_Success: "Loại bỏ vật phẩm thành công &c{nameid}"
+MyItems_Amount_Success: "Thành công chỉnh số lượng vật phẩm thành &c{amount} cái"
+MyItems_Data_Success: "Đã chỉnh data của vật phẩm thành &c{data}"
+MyItems_Material_Success: "Đã chỉnh ID vật phẩm thành &c{material}"
+MyItems_Material_Not_Existss: "ID &c{material} &rkhông tồn tại!"
+MyItems_Reload_Success: "Tải lại plugin thành công"
+MyItems_Repair_Success: "Vật phẩm bạn cầm đã được sửa"
+MyItems_Repair_Success_To_Sender: "Sửa thành công vật phẩm của {target}"
+MyItems_Repair_Success_To_Target: "Vật phẩm của bạn đã được sửa bởi {sender}"
+MyItems_SetName_Success: ""#Thay đổi tên của vật phẩm đang cầm thành &8[&r{name}&8]
+MyItems_SetLore_Success: ""#Chỉnh lore của &cdòng {line} &rthành &d{lore}
+MyItems_InsertLore_Sucess: "Chèn lore vào &cdòng {line} &rthành &d{lore}"
+MyItems_AddLore_Success: "Thêm lore vào vật phẩm đang cầm thành công"
+MyItems_RemoveLore_Empty: "Vật phẩm bạn đang cầm không có cái lore nào!"
+MyItems_RemoveLore_Success: "Xóa lore ở &cdòng {line}&r thành công"
+MyItems_RemoveLore_Lore_Correction: "Bạn cần nhập chính xác dòng lore cần xóa"
+MyItems_ClearLore_Success: "Xóa tất cả lore của vật phẩm đang cầm thành công"
+MyItems_AddFlag_Success: "Thêm chế độ &c{flag}&r thành công"
+MyItems_RemoveFlag_Success: "Xóa chế độ &c{flag}&r thành công"
+MyItems_ClearFlag_Success: "Xóa tất cả chế độ từ vật phẩm của bạn"
+MyItems_ClearNBT_Success: "Xóa tất cả các thuộc tính NBT của vật phẩm thành công"
+MyItems_AddEnchant_Success: "Thêm enchant &8[&c{enchantment} {grade}&8]&f thành công"
+MyItems_RemoveEnchant_Success: "Loại bỏ enchant &8[&c{enchantment}&8]&r thành công"
+MyItems_ClearEnchant_Success: "Loại bỏ tất cả các enchant của vật phẩm thành công"
+MyItems_Unbreakable_Turn_On: "&2Khảm thành công &7(⚗)&2 unbreakable&f✔"
+MyItems_Unbreakable_Turn_Off: "&cĐã tháo khảm unbreakable."
+MyItems_Attribute_Stats_Success: "Chỉnh số liệu thông tin của &d{stats} &rthành &8&l[&r{value}&8&l]&r thành công"
+MyItems_Attribute_Stats_Not_Exists: "Thông tin &d{stats} &rkhông tồn tại!"
+MyItems_Attribute_Element_Success: "Chỉnh nguyên tố của &d{element} &rthành &8&l[&r{value}&8&l]&r thành công"
+MyItems_Attribute_Element_Not_Exists: "Nguyên tố &d{element} &rkhông tồn tại!"
+MyItems_Attribute_Buffs_Success: "Chỉnh hiệu ứng của &d{buffs} &rthành &8&l[&rGrade {grade}&8&l]&r thành công"
+MyItems_Attribute_Buffs_Not_Exists: "Buff &d{buff} &rkhông tồn tại!"
+MyItems_Attribute_Debuffs_Success: "Chỉnh hiệu ứng của &d{debuff} &rthành &8&l[&rGrade {grade}&8&l]&r thành công"
+MyItems_Attribute_Debuffs_Not_Exists: "Debuff &d{debuff} &rkhông tồn tại!"
+MyItems_Attribute_NBT_Not_Exists: "Thuộc tính NBT của &d{NBT} &rkhông tồn tại!"
+MyItems_Attribute_NBT_Value_Not_Exists: "Giá trị của NBT &d{NBT} &rchưa được thiết lập!"
+MyItems_Attribute_NBT_Value_Invalid: "Giá trị khi chỉnh &d{NBT} là không hợp lệ"
+MyItems_Attribute_NBT_Success: "&r »&2ᴛẩʏ ʟᴜʏệɴ &6+{value}&7 {NBT}"
+MyItems_Attribute_Power_Not_Exists: "Sức mạnh của &d{power} &rkhông tồn tại!"
+MyItems_Attribute_Power_Command_Not_Exists: "Lệnh &d{command} &rkhông tồn tại!"
+MyItems_Attribute_Power_Command_Success: "Chỉnh lệnh cho vật phẩm thành &d{command}&r thành công"
+Myitems_Attribute_Power_Shoot_Not_Exists: "&d{projectile} &rcủa phần SHOOT không tồn tại!"
+Myitems_Attribute_Power_Shoot_Success: "Chỉnh thành công SHOOT thành &d{projectile}"
+MyItems_Attribute_Power_Special_Not_Exists: "Kĩ năng đặc biệt &d{special} &rkhông tồn tại!"
+MyItems_Attribute_Power_Special_Success: "Chỉnh kĩ năng đặc biệt thành &d{special}&r thành công"
+MyItems_Attribute_Ability_Not_Exists: "Kĩ năng &d{ability} &rkhông tồn tại!"
+MyItems_Attribute_Ability_Success: "Chỉnh kĩ năng &d{ability} &rthành &8&l[&rGrade {grade}&8&l]&f thành công"
+MyItems_Socket_Success: "Thêm chỗ ghép thạch đá vào &cdòng {line}&r thành công"
+MyItems_Socket_Success_To_Sender: "Bạn tặng &c{amount}x {nameid} &rcho &d{target}"
+MyItems_Socket_Success_To_Target: "Bạn nhận được &c{amount}x {nameid} &rtừ &d{sender}"
+MyItems_Socket_Success_Self: "Bạn lấy &c{amount}x {nameid}"
+
+#-----=====[ Argument Message ]=====-----#
+
+Argument_Not_Complete: "Lệnh mà bạn ấn không hoàn chỉnh! Kiểm tra lại xem nào!"
+Argument_Invalid_Value: "Số mà bạn gõ không hợp lệ!"
+Argument_Invalid_Command: "Lệnh mà bạn gõ là không hợp lệ! Thử gõ&3 /mi help&r xem"
+Argument_MyItems_Help: "{tooltip_help} &3/myitems help &b[<trang>]"
+Argument_MyItems_Save: "{tooltip_save} &3/myitems save &b<tên>"
+Argument_MyItems_Load: "{tooltip_load} &3/myitems load &b<tên> [<người chơi>] [<số lượng>]"
+Argument_MyItems_Drop: "{tooltip_drop} &3/myitems drop &b<danh mục> <id vật phẩm> <thế giới> <x> <y> <z> [<số lượng>]"
+Argument_MyItems_Remove: "{tooltip_remove} &3/myitems remove &b<tên>"
+Argument_MyItems_Repair: "{tooltip_repair} &3/myitems repair &b[<người chơi>] [<độ bền>]"
+Argument_MyItems_Simulation: "{tooltip_simulation} &3/myitems simulation &b[<sát thương>] [<thủ>] [<khiên>]"
+Argument_MyItems_Amount: "{tooltip_amount} &3/myitems amount &b<số lượng>"
+Argument_MyItems_Data: "{tooltip_data} &3/myitems data &b<data>"
+Argument_MyItems_Material: "{tooltip_material} &3/myitems material &b<ID vật phẩm>"
+Argument_MyItems_About: "{tooltip_about} &3/myitems about"
+Argument_MyItems_List: "{tooltip_list} &3/myitems list &b[<trang>]"
+Argument_MyItems_Reload: "{tooltip_reload} &3/myitems reload"
+Argument_SetName: "{tooltip_setname} &3/setname &b<tên mới>"
+Argument_SetLore: "{tooltip_lore_set} &3/setlore &b<dòng> <lore>"
+Argument_InsertLore: "{tooltip_lore_insert} &3/insertlore &b<dòng> <lore>"
+Argument_AddLore: "{tooltip_lore_add} &3/addlore &b[<lore>]"
+Argument_RemoveLore: "{tooltip_lore_remove} &3/removelore &b<dòng>"
+Argument_ClearLore: "{tooltip_lore_clear} &3/clearlore"
+Argument_AddFlag: "{tooltip_flag_add} &3/addflag &b<chế độ>"
+Argument_RemoveFlag: "{tooltip_flag_remove} &3/removeflag &b<chế độ>"
+Argument_ClearFlag: "{tooltip_flag_clear} &3/clearflag"
+Argument_AddEnchant: "{tooltip_enchant_add} &3/addenchant &b<ID phù phép> <cấp>"
+Argument_RemoveEnchant: "{tooltip_enchant_remove} &3/remenchant &b<ID phù phép>"
+Argument_ClearEnchant: "{tooltip_enchant_clear} &3/clearenchant"
+Argument_Unbreakable: "{tooltip_unbreakable} &3/unbreakable &b[<true|false>]"
+Argument_Attribute_Stats: "{tooltip_att_stats} &3/attribute stats &b<thông tin> <giá trị> [<dòng>]"
+Argument_Attribute_Element: "{tooltip_att_element} &3/attribute element &b<nguyên tố> <giá trị> [<dòng>]"
+Argument_Attribute_Buffs: "{tooltip_att_buffs} &3/attribute buff &b<hiệu ứng> <cấp> [<dòng>]"
+Argument_Attribute_Debuffs: "{tooltip_att_debuffs} &3/attribute debuff &b<hiệu ứng> <cấp> [<dòng>]"
+Argument_Attribute_NBT: "{tooltip_att_nbt} &3/attribute NBT &b<thuộc tính> <giá trị> [<éo biết>]"
+Argument_Attribute_Power: "{tooltip_att_power} &3/attribute power &b<loại power> <cách thi triển> <loại> [<thời gian hồi>] [<dòng>]"  
+Argument_Attribute_Ability: "{tooltip_att_ability} &3/attribute ability &b<kĩ năng> <cấp> <tỉ lệ> [<dòng>]"
+Argument_Socket_Add: "{tooltip_socket_add} &3/socket add &b[<dòng>]"
+Argument_Socket_Load: "{tooltip_socket_load} &3/socket load &b<tên> [<người chơi>] [<số lượng>]"
+Argument_Socket_Drop: "{tooltip_socket_drop} &3/socket drop &b<tên> <cấp> <thế giới> <x> <y> <z> [<số lượng>]"
+Argument_Socket_List: "{tooltip_socket_list} &3/socket list &b[<trang>]"
+
+#-----=====[ Tooltip Message ]=====-----#
+
+Tooltip_MyItems_Help: "Xem tất cả lệnh của plugin.&b Việt hóa by:&a Bảo Kun"
+Tooltip_MyItems_Save: "Lưu vật phẩm vào file dữ liệu (Có thể lấy lại được)"
+Tooltip_MyItems_Load: "Tải vật phẩm từ file dữ liệu"
+Tooltip_MyItems_Drop: "Thả vật phẩm ở vị trí chỉ định"
+Tooltip_MyItems_Remove: "Xóa vật phẩm trong file dữ liệu"
+Tooltip_MyItems_Repair: "Sửa chữa độ bền của MyItems"
+Tooltip_MyItems_Simulation: "Hiển thị mô phỏng thiệt hại nhận"
+Tooltip_MyItems_Amount: "Chỉnh số lượng vật phẩm (Giống /more)"
+Tooltip_MyItems_Data: "Chỉnh data vật phẩm. Ví dụ: 35:3, 3 ở đây là data"
+Tooltip_MyItems_Material: "Chỉnh ID của vật phẩm. Ví dụ: 310 > 311 (Nón thành áo)"
+Tooltip_MyItems_About: "Hiển thị tất cả thông tin về Plugin"
+Tooltip_MyItems_List: "Hiển thị tất cả vật phẩm đã lưu trong file dữ liệu"
+Tooltip_MyItems_Reload: "Tải lại plugin MyItems"
+Tooltip_Setname: "Chỉnh tên hiển thị của vật phẩm"
+Tooltip_Lore_Set: "Chỉnh lore của vật phẩm ở dòng chính xác"
+Tooltip_Lore_Insert: "Chèn lore vào vật phẩm ở dòng chính xác"
+Tooltip_Lore_Add: "Thêm lore vào vật phẩm"
+Tooltip_Lore_Remove: "Xóa lore của vật phẩm"
+Tooltip_Lore_Clear: "Xóa hết tất cả lore của vật phẩm"
+Tooltip_Flag_Add: "Thêm chế độ cho vật phẩm"
+Tooltip_Flag_Remove: "Xóa chế độ cho vật phẩm"
+Tooltip_Flag_Clear: "Xóa tất cả chế độ của vật phẩm"
+Tooltip_Enchant_Add: "Thêm enchant cho vật phẩm"
+Tooltip_Enchant_Remove: "Xóa enchant cho vật phẩm"
+Tooltip_Enchant_Clear: "Xóa tất cả enchant"
+Tooltip_Unbreakable: "Bật/tắt chế độ không bị phá vỡ cho vật phẩm"
+Tooltip_Attribute_Stats: "Thiết lập số liệu thống kê cho vật phẩm trên tay"
+Tooltip_Attribute_Buffs: "Thiết lập buff cho vật phẩm trên tay"
+Tooltip_Attribute_Debuffs: "Thiết lập Debuff cho vật phẩm trên tay"
+Tooltip_Attribute_Ability: "Thiết lập kĩ năng cho vật phẩm trên tay"
+Tooltip_Attribute_Power: "Thiết lập sức mạnh cho vật phẩm trên tay"
+Tooltip_Attribute_Element: "Thiết lập nguyên tố cho vật phẩm trên tay"
+Tooltip_Attribute_NBT: "Thiết lập thuộc tính cho vật phẩm trên tay" 
+Tooltip_Socket_Add: "Đục thêm 1 lỗ thạch đá cho vật phẩm trên tay"
+Tooltip_Socket_Load: "Tải thạch đá từ file dữ liệu"
+Tooltip_Socket_Drop: "Thả thạch đá tại vị trí chỉ định"
+Tooltip_Socket_List: "Hiển thị tất cả thạch đá trong file dữ liệu"
+
+#-----=====[ Help Message ]=====-----#
+
+Help_Header: "&6&l{plugin} Help:"
+Help_Page: "&8&l[&6&l{previous}&8&l]&r&8&l&m=======&r&8&l[&r &2Trang &7(&d{page}&7/&d{maxpage}&7) &8&l]&8&l&m=======&r&8&l[&6&l{next}&8&l]"
+Help_Previous_Page: "&cTrang trước"
+Help_Next_Page: "&cTrang sau" 
+
+#-----=====[ List Message ]=====-----#
+
+List_Header: "&7&l&m---&8&l&m==[&r &2Danh sách vật phẩm &7(&d{page}&8/&d{maxpage}&7) &8&l&m]==&7&l&m---"
+List_Component: "&8&l[&2&l{index}&8&l] &c{component}"
+List_Item: "&8&l[&2&l{index}&8&l] &c{item} {tooltip}" 
+
+#-----=====[ Permission Message ]=====-----#
+
+Permission_Empty: "Bạn không có quyền để dùng!"
+
+#-----=====[ Player Message ]=====-----#
+
+Player_Target_Offline: "Người chơi mà bạn đang chọn đang off rồi!"
+
+#-----=====[ File Message ]=====-----#
+
+File_Not_Exists: "Tệp bạn chọn không tồn tại!"
+
+#-----=====[ Socket Message ]=====-----#
+
+Socket_Slot_Empty: "&cVật phẩm này không có lỗ để khảm thạch đá!"
+Socket_Input_Success: "Thành công ghép thạch đá &7&l[&c&l{socket} {grade}&7&l] &rvào &cdòng {line}"
+Socket_Input_Failure: "Ghép thạch đá thất bại... Thật xui xẻo!"
+Socket_Input_Creative: "&cBạn không thể ghép thạch đá ở chế độ sáng tạo đâu! Lỗi đấy!"
+Socket_Type_Not_Match: "&cLoại thạch đá này không phù hợp với vật phẩm!"
+
+#-----=====[ Item Message ]=====-----#
+
+Item_MainHand_Empty: "Bạn có cầm cái gì trên tay đâu!"
+Item_Not_Exist: "Vật phẩm với tên &c{nameid} &rkhông tồn tại!"
+Item_Lore_Empty: "Vật phẩm này không có dòng lore nào cả!"
+Item_Enchantment_Empty: "Vật phẩm này không có enchant &c{enchantment}&r đâu!"
+Item_Flag_Not_Exist: "Chế độ &c{flag} &rkhông tồn tại!"
+Item_Enchantment_Not_Exist: "Enchant &c{enchantment} &rkhông tồn tại!"
+Item_Save: "Vật phẩm được lưu với id {id}"
+Item_Broken: "&c&lVật phẩm &8&l[&r{item}&8&l] &c&lđã hỏng rồi!"
+Item_Broken_MainHand: "&c&lVật phẩm ở tay chính của bạn hỏng rồi!"
+Item_Broken_Offhand: "&c&lVật phẩm ở tay phụ của bạn hỏng rồi!"
+Item_Broken_Helmet: "&c&lNón của bạn hỏng rồi!"
+Item_Broken_Chestplate: "&c&lGiáp của bạn hỏng rồi!"
+Item_Broken_Leggings: "&c&lQuần của bạn hỏng rồi!"
+Item_Broken_Boots: "&c&lGiày của bạn hỏng rồi!"
+Item_Broken_Bow: "&c&lCung của bạn hỏng rồi"
+Item_Durability_Not_Exist: "Vật phẩm không có độ bền của MyItems"
+Item_NBT_Empty: "&cVật phẩm của bạn không có thuộc tính NBT nào"
+Item_Database_Empty: "&cFile dữ liệu trống trơn :'<"
+Item_List_Suffix: "&8&l[&c&l?&8&l]"
+
+#-----=====[ Simulation Message ]=====-----#
+
+Simulation_Header: "&7&l&m---&8&l&m==[&r &2Mô phỏng thiệt hại &8&l&m]==&7&l&m---"
+Simulation_Player: "&7&l[&2&l+&7&l]&a Người chơi:"
+Simulation_Mob: "&7&l[&2&l+&7&l]&a Quái:"
+Simulation_Damage_Normal_Player: "&7&l[&2&l+&7&l]&a Bình thường &f= &c{player-damage-normal}"
+Simulation_Damage_Critical_Player: "&7&l[&2&l+&7&l]&a Chí mạng &f= &c{player-damage-critical}"
+Simulation_Damage_Normal_Mob: "&7&l[&2&l+&7&l]&a Bình thường &f= &c{mob-damage-normal}"
+Simulation_Damage_Critical_Mob: "&7&l[&2&l+&7&l]&a Chí mạng &f= &c{mob-damage-critical}"
+
+#-----=====[ Detail Message ]=====-----#
+
+Detail_Header: "&7&l&m||----&8&l&m===[&r &2Chi tiết vật phẩm &8&l&m]===&7&l&m----||"
+Detail_Name: "&7&l[&2&l+&7&l]&a Tên&7: &6{name}"
+Detail_Durability: "&7&l[&2&l+&7&l]&a Độ bền&7: &6{durability}"
+Detail_ID: "&7&l[&2&l+&7&l]&a ID&7: &6{id}"
+Detail_Data: "&7&l[&2&l+&7&l]&a Data&7: &6{data}"
+Detail_HashCode: "&7&l[&2&l+&7&l]&a Mã băm&7: &6{hashcode}"
+Detail_Lores_Head: "&7&l[&2&l+&7&l] &6Lores&7:"
+Detail_Lores_List: "&2- &aDòng {line} &7➨ &r{lore}"
+Detail_Enchantment_Head: "&7&l[&2&l+&7&l] &6Phù phép&7:"
+Detail_Enchantment_List: "&2- &a{enchantment} &7➨ &c{grade}"
+Detail_Flags_Head: "&7&l[&2&l+&7&l] &6Chế độ&7:"
+Detail_Flags_List: "&2- &a{flag}"
+
+#-----=====[ Type Item ]=====-----#
+
+Slot_Type_Weapon: "Vũ khí"
+Slot_Type_Armor: "Giáp"
+Slot_Type_Universal: "Tất cả"
+
+#-----=====[ Utility Message ]=====-----#
+
+Utility_Slot_Not_Exists: "Khe &d{slot} &rkhông tồn tại!"
+
+#-----=====[ Attack Message ]=====-----#
+
+Attack_Miss: "&7&l(&6⚒&7&l) &c&lTấn công trượt"
+Attack_Dodge: "&7&l(&6⚓&7&l) &c&lNé tránh bộc phát"
+Attack_Block: "&7&l(&6⚓&7&l) &c&lChặn ST bộc phát"
+Attack_Blocked: "&7&l(&6⚓&7&l) &c&lTấn công bị chặn"
+Attack_Critical: "&8[&4&l乂&8] &7Đòn chí mạng &f&m☣"
+
+#-----=====[ Ability Message ]=====-----#
+
+Ability_Cannibalism_Attacker: "&7&l[&a+{food}&7&l]&r thức ăn"
+Ability_Cannibalism_Victims: "&7&l[&c+{food}&7&l]&r thức ăn"
+Ability_Vampirism_Attacker: "&7&l[&a+{health}&7&l]&r máu"
+Ability_Vampirism_Victims: "&7&l[&c+{health}&7&l]&r máu"
+Ability_Freeze_Attacker: "&cĐóng băng kẻ thù {seconds} ⌛"
+Ability_Freeze_Victims: "&cBạn đã bị đóng băng"
+Ability_Roots_Attacker: "&cTrói chân kẻ thù {seconds} ⌛"
+Ability_Roots_Victims: "&cBạn đã bị chôn"
+Ability_Curse_Attacker: "&cNguyền rủa kẻ thù {seconds} ⌛"
+Ability_Curse_Victims: "&cBị nguyền"
+
+#-----=====[ Power Message ]=====-----#
+
+Power_Command_Cooldown: "Thời gian hồi của lệnh &8&l[&9{power}&8&l]&r còn &c{time}"
+Power_Command_Refresh: "Lệnh &8&l[&9{power}&8&l]&r đã hồi"
+Power_Shoot_Cooldown: "Thời gian hồi của SHOOT &8&l[&9{power}&8&l]&r còn &c{time}"
+Power_Shoot_Refresh: "SHOOT &8&l[&9{power}&8&l]&r đã hồi"
+Power_Special_Cooldown: "Thời gian hồi của kĩ năng đặc biệt &8&l[&9{power}&8&l]&r còn &c{time}"
+Power_Special_Refresh: "Kĩ năng đặc biệt &8&l[&9{power}&8&l]&r đã hồi"
+
+#-----=====[ Time Message ]=====-----#
+
+Time_Years: "năm"
+Time_Weeks: "tuần"
+Time_Days: "ngày"
+Time_Hours: "giờ"
+Time_Minutes: "phút"
+Time_Seconds: "giây"

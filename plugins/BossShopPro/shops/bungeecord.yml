@@ -1,0 +1,83 @@
+ShopName: bungeecord
+DisplayName: '&8Server &6&l()&8 Game khác'
+Command: server:maychu:sv
+Sound:
+  Shop:
+    Open: ENTITY_ITEM_PICKUP:1:1
+    ChangeShop: ENTITY_ITEM_PICKUP:1:1
+shop:
+  prison:
+    MenuItem:
+    - type:257
+    - name:&a&lOP PRISON
+    - 'lore2:&6Phiên bản gốc:&7 1.12.x - 1.16.x'
+    - 'lore4:&6Độ lag:&7 100ms'
+    - 'lore6:&6Mô tả:&7 hiện đang có đua top trong máy chủ prison, đến đó cày cuốc ngay!'
+    - 'lore8:&2(Click vào Tham gia)'
+    RewardType: BUNGEECORDSERVER
+    Reward: prison
+    InventoryLocation: 4
+  faction:
+    MenuItem:
+    - type:336
+    - name:&e&lFACTION
+    - 'lore2:&6Phiên bản gốc:&7 1.12.x - 1.16.x'
+    - 'lore4:&6Độ lag:&7 80ms'
+    - 'lore6:&6Mô tả:&7 sinh tồn, phiêu lưu cùng bạn bè trong thế giới thị trấn là chủ đạo!'
+    - 'lore8:&2(Click vào Tham gia)'
+    RewardType: BUNGEECORDSERVER
+    Reward: faction
+    InventoryLocation: 5
+  back:
+    MenuItem:
+    - type:SIGN
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    - 'lore1:&cQuay lại'
+    - 'lore2:&a'
+    RewardType: SHOP
+    Reward: menu
+    InventoryLocation: 6
+  a:
+    MenuItem:
+    - type:160:15
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 1
+  b:
+    MenuItem:
+    - type:160:15
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 2
+  c:
+    MenuItem:
+    - type:160:15
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 3
+  d:
+    MenuItem:
+    - type:160:15
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 7
+  e:
+    MenuItem:
+    - type:160:15
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 8
+  f:
+    MenuItem:
+    - type:160:15
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 9

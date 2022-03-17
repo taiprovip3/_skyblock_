@@ -1,0 +1,596 @@
+Crate:
+  CrateType: WONDER
+  CrateName: '&5Rương báu vật &lPHÙ THUỶ'
+  Preview-Name: '&eCác báu vật có thể rơi ra'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 23
+  OpeningBroadCast: true
+  BroadCast: '%Prefix%&e%Player% đã mở 1 chiếc hộp thần bí của &f&lPhù Thuỷ'
+  Item: ENDER_CHEST
+  Glowing: true
+  Name: '&7Rương báu vật &5&lPhù Thuỷ'
+  Lore:
+  - ''
+  - '&6Đây là rương báu vật ảo.'
+  - '&a ♦&7 Ẩn chứa vô cùng nhiều báu vật hiếm'
+  - '&a ♦&7 Cần có chìa khóa (key &f⚷&7) để mở rương'
+  - ''
+  - §6» Ch.phải§e để mở
+  - §6» Ch.trái§e để xem quà.
+  Preview:
+    Toggle: true
+    ChestLines: 6
+    Glass:
+      Toggle: true
+      Item: STAINED_GLASS_PANE:7
+  PhysicalKey:
+    Name: '&5Chìa khóa &lphù thuỷ'
+    Lore:
+    - ''
+    - '&7 Dùng mở rương báu vật của pháp sư'
+    - '&7 Sử dụng chìa khóa tại&a warp crates'
+    - ''
+    - '&a&lThu thập:'
+    - '&7 Hoạt động boss hoặc quái rơi đồ..'
+    - ''
+    - '&ELOẠI VẬT PHẨM&a storage'
+    Item: TRIPWIRE_HOOK
+    Glowing: false
+  Hologram:
+    Toggle: true
+    Height: 1.6
+    Message:
+    - '&eRương báu vật &5&lsᴡɪᴛᴄʜ&6⚖'
+    - ''
+    - '&a☘&7Ẩn chứa vô cùng nhiều báu vật'
+    - '&a☘&7Cần có key phù thuỷ để mở'
+    - ''
+    - ''
+    - ''
+    - '&8[&c&l!&8]&6Chuột trái&7 để mở rương'
+    - '&8[&a&l!&8]&6Chuột phải&2 để review báu vật'
+  Prizes:
+    '1':
+      DisplayName: §eNgẫu nhiên §a§l100$ - 10.000$
+      DisplayItem: REDSTONE_TORCH_ON
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §2•§a Nhận ngẫu nhiên 1 số tiền may mắn
+      - §2•§a Vui vẽ ko quạo nha
+      - ''
+      - '&a&lMay mắn: &f85&a/100'
+      MaxRange: 100
+      Chance: 85
+      Firework: true
+      Glowing: true
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkMzVlYmRiMTI1ZmJhNDIxMjk4ZDQyYzIwMmM3N2M3NWI0MmNjOTljOTQ5MzlmNjM3NjQwYWMxODFmIn19fQ===
+      Unbreakable: false
+      Items: []
+      Commands:
+      - 'eco give %player% %random%:100-10000'
+      - bc &6⁂&a%player% nhận được &erandom Money&a khi đang quay báu vật của Switch!
+    '2':
+      DisplayName: §eCấm thư Athos loại §8[§aCổ ngữ§8]
+      DisplayItem: BOOK
+      DisplayAmount: 1
+      Lore:
+      - §a
+      - §a • §7Là loại sách ma thuật đã tồn tại qua
+      - §7 hàng nghìn năm thời cổ đại. Giờ đã đc
+      - §7 các nhà du hành tìm thấy và khai quật.
+      - ''
+      - §a • §7Nhưng trông nó khá bẩn và cần được
+      - §7 thổi bụi
+      - §7
+      - §c=> Cầm và nhấp-phải để tẩy bụi §l(!)
+      - ''
+      - '&a&lMay mắn: &f30&a/100'
+      MaxRange: 100
+      Chance: 30
+      Firework: true
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCấm thư Athos loại §8[§aCổ ngữ§8]
+          lore:
+          - §a
+          - §a • §7Là loại sách ma thuật đã tồn tại qua
+          - §7 hàng nghìn năm thời cổ đại. Giờ đã đc
+          - §7 các nhà du hành tìm thấy và khai quật.
+          - ''
+          - §a • §7Nhưng trông nó khá bẩn và cần được
+          - §7 thổi bụi
+          - §7
+          - §c=> Cầm và nhấp-phải để tẩy bụi §l(!)
+      Commands:
+      - bc &6⁂&a%player% nhận được &fx1 &ecấm thư Cổ Ngữ&a khi đang quay báu vật của Switch!
+#
+#.
+#..
+#...
+#....
+#.....
+#......
+    '3':
+      DisplayName: §eCấm thư Athos loại §8[§5Địa ngục§8]
+      DisplayItem: BOOK
+      DisplayAmount: 1
+      Lore:
+      - §a
+      - §a • §7Là loại sách ma thuật đã tồn tại qua
+      - §7 hàng nghìn năm thời cổ đại. Giờ đã đc
+      - §7 các nhà du hành tìm thấy và khai quật.
+      - ''
+      - §a • §7Nhưng trông nó khá bẩn và cần được
+      - §7 thổi bụi
+      - §7
+      - §c=> Cầm và nhấp-phải để tẩy bụi §l(!)
+      - ''
+      - '&a&lMay mắn: &f10&a/100'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCấm thư Athos loại §8[§5Địa ngục§8]
+          lore:
+          - §a
+          - §a • §7Là loại sách ma thuật đã tồn tại qua
+          - §7 hàng nghìn năm thời cổ đại. Giờ đã đc
+          - §7 các nhà du hành tìm thấy và khai quật.
+          - ''
+          - §a • §7Nhưng trông nó khá bẩn và cần được
+          - §7 thổi bụi
+          - §7
+          - §c=> Cầm và nhấp-phải để tẩy bụi §l(!)
+      Commands:
+      - bc &6⁂&a%player% nhận được &fx1 &ecấm thư Địa Ngục&a khi đang quay báu vật của Switch!
+#
+#.
+#..
+#...
+#....
+#.....
+#......
+    '4':
+      DisplayName: §eCấm thư Athos loại §8[§4Tối thượng§8]
+      DisplayItem: BOOK
+      DisplayAmount: 1
+      Lore:
+      - §a
+      - §a • §7Là loại sách ma thuật đã tồn tại qua
+      - §7 hàng nghìn năm thời cổ đại. Giờ đã đc
+      - §7 các nhà du hành tìm thấy và khai quật.
+      - ''
+      - §a • §7Nhưng trông nó khá bẩn và cần được
+      - §7 thổi bụi
+      - §7
+      - §c=> Cầm và nhấp-phải để tẩy bụi §l(!)
+      - ''
+      - '&a&lMay mắn: &f5&a/100'
+      MaxRange: 100
+      Chance: 5
+      Firework: true
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCấm thư Athos loại §8[§4Tối thượng§8]
+          lore:
+          - §a
+          - §a • §7Là loại sách ma thuật đã tồn tại qua
+          - §7 hàng nghìn năm thời cổ đại. Giờ đã đc
+          - §7 các nhà du hành tìm thấy và khai quật.
+          - ''
+          - §a • §7Nhưng trông nó khá bẩn và cần được
+          - §7 thổi bụi
+          - §7
+          - §c=> Cầm và nhấp-phải để tẩy bụi §l(!)
+      Commands:
+      - bc &6⁂&a%player% nhận được &fx1 &ecấm thư Tối Thượng&a khi đang quay báu vật của Switch!
+#
+#.
+#..
+#...
+#....
+#.....
+#......
+    '5':
+      DisplayName: §8§l§nKhảo cổ Đen
+      DisplayItem: INK_SACK
+      DisplayAmount: 1
+      Lore:
+      - §7Bạn đã phù phép một cuốn sách mà bạn không muốn?
+      - §7Ừ thì, bạn có thể xài Khảo cổ đen để lấy cuốn sách ra khỏi đồ.
+      - §7Tất cả những gì bạn cần chỉ là.
+      - §7kéo và thả khảo cổ vào vật phẩm và BÙM. Tất cả cuốn sách được gỡ
+      - §7Và trở thành một cuốn sách bình thường.
+      - §7§l(§6§l!§7§l) §7Chỉ hoạt động trên sách phù phép.
+      - ''
+      - '&a&lMay mắn: &f73&a/100'
+      MaxRange: 100
+      Chance: 73
+      Firework: true
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §8§l§nKhảo cổ Đen
+          lore:
+          - §7Bạn đã phù phép một cuốn sách mà bạn không muốn?
+          - §7Ừ thì, bạn có thể xài Khảo cổ đen để lấy cuốn sách ra khỏi đồ.
+          - §7Tất cả những gì bạn cần chỉ là.
+          - §7kéo và thả khảo cổ vào vật phẩm và BÙM. Tất cả cuốn sách được gỡ
+          - §7Và trở thành một cuốn sách bình thường.
+          - §7§l(§6§l!§7§l) §7Chỉ hoạt động trên sách phù phép.
+      Commands:
+      - bc &6⁂&a%player% nhận được &fx1 &ekhảo cổ Đen&a khi đang quay báu vật của Switch!
+#
+#.
+#..
+#...
+#....
+#.....
+#......
+    '6':
+      DisplayName: §e§lKhảo cổ trắng
+      DisplayItem: PAPER
+      DisplayAmount: 1
+      Lore:
+      - §7Có một item bạn rất quý nhưng bạn không muốn nó,
+      - §7bị mất vì thất bại? Cuốn khảo cổ này cho phép bạn
+      - §7bảo vệ vật phẩm và không cho bị vỡ. Bạn may mắn đấy,
+      - §7Khảo cổ Trắng thêm một dòng chữ §b§lBẢO VỆ §7để tránh việc,
+      - §7vật phẩm bị mất. Nếu cuốn sách cố làm phá vật phẩm bạn,
+      - §7Chữ §b§lBẢO VỆ §7sẽ biến mất và bạn sẽ phải cần một cuốn khảo cổ mới.
+      - ''
+      - '&a&lMay mắn: &f74&a/100'
+      MaxRange: 100
+      Chance: 74
+      Firework: true
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§lKhảo cổ trắng
+          lore:
+          - §7Có một item bạn rất quý nhưng bạn không muốn nó,
+          - §7bị mất vì thất bại? Cuốn khảo cổ này cho phép bạn
+          - §7bảo vệ vật phẩm và không cho bị vỡ. Bạn may mắn đấy,
+          - §7Khảo cổ Trắng thêm một dòng chữ §b§lBẢO VỆ §7để tránh việc,
+          - §7vật phẩm bị mất. Nếu cuốn sách cố làm phá vật phẩm bạn,
+          - §7Chữ §b§lBẢO VỆ §7sẽ biến mất và bạn sẽ phải cần một cuốn khảo cổ mới.
+      Commands:
+      - bc &6⁂&a%player% nhận được &fx1 &ekhảo cổ Trắng&a khi đang quay báu vật của Switch!
+#
+#.
+#..
+#...
+#....
+#.....
+#......
+    '7':
+      DisplayName: §aMagical Angel Dust
+      DisplayItem: SUGAR
+      DisplayAmount: 1
+      Lore:
+      - §a+14% khả năng thành công
+      - §7Ghép vào một cuốn sách
+      - §7Tăng khả năng thành công §e14%
+      - ''
+      - '&a&lMay mắn: &f75&a/100'
+      MaxRange: 100
+      Chance: 75
+      Firework: true
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SUGAR
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aMagical Angel Dust
+          lore:
+          - §a+14% khả năng thành công
+          - §7Ghép vào một cuốn sách
+          - §7Tăng khả năng thành công §e14%
+      Commands:
+      - bc &6⁂&a%player% nhận được &fx1 &eBụi thiên thần&a khi đang quay báu vật của Switch!
+#
+#.
+#..
+#...
+#....
+#.....
+#......
+    '8':
+      DisplayName: §eBụi phép
+      DisplayItem: REDSTONE
+      DisplayAmount: 1
+      Lore:
+      - §c-9% khả năng thất bại
+      - §7Ghép vào một cuốn sách
+      - §7Giảm khả năng thất bại §e9%
+      - ''
+      - '&a&lMay mắn: &f71&a/100'
+      MaxRange: 100
+      Chance: 71
+      Firework: true
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBụi phép
+          lore:
+          - §c-9% khả năng thất bại
+          - §7Ghép vào một cuốn sách
+          - §7Giảm khả năng thất bại §e9%
+      Commands:
+      - bc &6⁂&a%player% nhận được &fx1 &eBụi phép&a khi đang quay báu vật của Switch!
+#
+#.
+#..
+#...
+#....
+#.....
+#......
+    '9':
+      DisplayName: §aBandit Tunic
+      DisplayItem: LEATHER_CHESTPLATE
+      DisplayAmount: 1
+      Lore:
+      - §6A leather tunic taken from
+      - §6the corpse of a bandit.
+      - ''
+      - '&a&lMay mắn: &f65&a/100'
+      MaxRange: 100
+      Chance: 65
+      Firework: true
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: §aBandit Tunic
+          lore:
+          - §6A leather tunic taken from
+          - §6the corpse of a bandit.
+          color:
+            ==: Color
+            RED: 255
+            BLUE: 40
+            GREEN: 40
+      Commands:
+      - bc &6⁂&a%player% nhận được &fx1 &egiáp Đỏ&a khi đang quay báu vật của Switch!
+#
+#.
+#..
+#...
+#....
+#.....
+#......
+    '10':
+      DisplayName: §dCrown of the King
+      DisplayItem: GOLD_HELMET
+      DisplayAmount: 1
+      Lore:
+      - §6A kingly crowl that grants
+      - §6the wearer unwavering power!
+      - ''
+      - '&a&lMay mắn: &f44&a/100'
+      MaxRange: 100
+      Chance: 44
+      Firework: true
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: GOLD_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §dCrown of the King
+          lore:
+          - §6A kingly crowl that grants
+          - §6the wearer unwavering power!
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            PROTECTION_FIRE: 2
+            PROTECTION_EXPLOSIONS: 2
+            PROTECTION_PROJECTILE: 2
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          internal: H4sI⁂⁂AONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy55vz/o35c0bTYWBk6QkE9qYnHJtf3ZMSlloY/YGNgcc/NL80ocVBjAgIOBJTgnv4SBJSM1MYWDgRduvF9ibiqDYHpqXmpRZrJebmKFR2piTkkGMwOnf0FqUWJJZn4eVD8OlQy0cZI0zKLsvPzk7KTE5Oyg1OLM4pLEvORUXI7Dp4eBAQA2jKvtWAEAAA==
+      Commands:
+      - bc &6⁂&a%player% nhận được &fx1 &eMũ viking&a khi đang quay báu vật của Switch!
+#
+#.
+#..
+#...
+#....
+#.....
+#......
+    '11':
+      DisplayName: §3Greatsword of the Skeleton King
+      DisplayItem: DIAMOND_SWORD
+      DisplayAmount: 1
+      Lore:
+      - §6A powerful sword used by
+      - §6the King of Skeletons.
+      - ''
+      - '&a&lMay mắn: &f46&a/100'
+      MaxRange: 100
+      Chance: 46
+      Firework: true
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Greatsword of the Skeleton King
+          lore:
+          - §6A powerful sword used by
+          - §6the King of Skeletons.
+          enchants:
+            DAMAGE_ALL: 5
+            KNOCKBACK: 2
+            FIRE_ASPECT: 2
+          internal: H4sI⁂⁂AONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy6ZzXhSLPf0XTMWBk6QkE9qYnHJxMvldySSHzWwMbA55uaX5pU4qDCAAQcDS3BOfgkDR25iZl5GYl4KBwMv3Aq/xNxUBsH01LzUosxkvdzECo/UxJySDGYGTv+C1KLEksz8PKgZOFQykOos+50zQWAWYWeJwi3LL0vNTc0rCS5ITU1BcxojzGnYVTMwAADRbAWKVAEAAA==
+      Commands:
+      - bc &6⁂&a%player% nhận được &fx1 &ekiếm Skeleton&a khi đang quay báu vật của Switch!
+#
+#.
+#..
+#...
+#....
+#.....
+#......
+    '12':
+      DisplayName: §6§lEggbreaker §2࿉ §ethợ mỏ vay
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §7 mở ra có cơ hội nhận được §6§lCÚP
+      - §6§l THỢ MỎ VAY§7 vĩnh viễn hoặc nguyên
+      - §7 liệu §ethẻ điểm danh.
+      - ''
+      - §eLOẠI VẬT PHẨM §aclickable
+      - ''
+      - '&a&lMay mắn: &f83&a/100'
+      MaxRange: 100
+      Chance: 83
+      Firework: true
+      Glowing: true
+      Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0=='
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §6§lEggbreaker §2࿉ §ethợ mỏ vay
+          lore:
+          - ''
+          - §7 mở ra có cơ hội nhận được §6§lCÚP
+          - §6§l THỢ MỎ VAY§7 vĩnh viễn hoặc nguyên
+          - §7 liệu §ethẻ điểm danh.
+          - ''
+          - §eLOẠI VẬT PHẨM §aclickable
+          internal: H4sI⁂⁂AE2O326CMByFf1uyxJE9xm5JavnjuNjFYjYtsWUiA9o7KmUIrTMKKj7VHnFc7uYkJ9/5kmMBWPC0aXutP48/1U6rCdyTEp5nDsIvSgY2LsZwpfTtQFalXUw9HPi+9LDrWGCN0kEdu506PcKkU9euP6qTBQB3E3hIC90r+FVDiEReozIP9XYg/tiTDdIRaQ4zsk8HOSc+MSNfvvmrIfi39boi8zR3wlrs1700KVo5sVbLeLo1X2ea8Wu0IB5P1jdm3geGuUsT1tDm2xEZwexGnShLTbT4aLkRLb9tLzwTtWjohS0oophcWSMakbQuM3EbzcOgytHr+B7+AEM7zpUYAQAA
+      Commands:
+      - bc &6⁂&a%player% nhận được &fx1 &etrứng Thợ Mỏ&a khi đang quay báu vật của Switch!
+#
+#.
+#..
+#...
+#....
+#.....
+#......
+    '13':
+      DisplayName: §b§lPhụ kiện gia hạn §6extender
+      DisplayItem: WATCH
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §7 Dùng để gia hạn 1 vật phẩm có
+      - §7 thời hạn sử dụng.
+      - ''
+      - §e§l THỜI GIAN GIA HẠN THÊM:§7 1 ngày.
+      - ''
+      - §a§l CÁCH DÙNG:§7 kéo thả vào item cần
+      - §7 gia hạn (vô hiệu với item ko có timed)
+      - ''
+      - '&a&lMay mắn: &f68&a/100'
+      MaxRange: 100
+      Chance: 68
+      Firework: true
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: WATCH
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §b§lPhụ kiện gia hạn §6extender
+          lore:
+          - ''
+          - §7 Dùng để gia hạn 1 vật phẩm có
+          - §7 thời hạn sử dụng.
+          - ''
+          - §e§l THỜI GIAN GIA HẠN THÊM:§7 1 ngày.
+          - ''
+          - §a§l CÁCH DÙNG:§7 kéo thả vào item cần
+          - §7 gia hạn (vô hiệu với item ko có timed)
+      Commands:
+      - bc &6⁂&a%player% nhận được &fx1 &eđồng hồ Gia hạn&a khi đang quay báu vật của Switch!
+#
+#.
+#..
+#...
+#....
+#.....
+#......

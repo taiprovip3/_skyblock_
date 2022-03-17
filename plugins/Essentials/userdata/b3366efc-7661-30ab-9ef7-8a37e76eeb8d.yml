@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 27.74.241.25
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1646571340018
+  login: 1646571305459
+money: '0'
+last-account-name: taiproduaxe
+logoutlocation:
+  world: 7e03b946-e203-4bc3-9f47-39f77aa9145a
+  world-name: world
+  x: 31.5
+  y: 98.0
+  z: -1.5
+  yaw: -110.84932708740234
+  pitch: 0.44999411702156067

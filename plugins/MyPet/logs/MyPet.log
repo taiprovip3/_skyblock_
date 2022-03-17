@@ -1,0 +1,28 @@
+03-16-2022 21:05 [INFO] [MyPet] Error-Reporter ENABLED
+03-16-2022 21:06 [INFO] [MyPet] Enabling MyPet v3.1
+03-16-2022 21:06 [INFO] [MyPet] No Update available.
+03-16-2022 21:06 [INFO] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_12_R1.util.CustomEntityRegistry
+03-16-2022 21:06 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+03-16-2022 21:06 [WARNING] [MyPet] sweet_berries is not a valid 1.13 item ID! Please check your configs.
+03-16-2022 21:06 [INFO] [MyPet] Exp calculation mode: MyPet
+03-16-2022 21:06 [INFO] [MyPet] Loading WorldGroups...
+03-16-2022 21:06 [INFO] [MyPet]    added 'world' to 'default'
+03-16-2022 21:06 [INFO] [MyPet]    added 'world_nether' to 'default'
+03-16-2022 21:06 [INFO] [MyPet]    added 'world_the_end' to 'default'
+03-16-2022 21:06 [INFO] [MyPet]    added 'nzstorm' to 'default'
+03-16-2022 21:06 [INFO] [MyPet]    added 'pvp' to 'default'
+03-16-2022 21:06 [INFO] [MyPet]    added 'ASkyBlock' to 'default'
+03-16-2022 21:06 [INFO] [MyPet]    added 'ASkyBlock_nether' to 'default'
+03-16-2022 21:06 [INFO] [MyPet] Connect to SQLite database...
+03-16-2022 21:06 [INFO] [MyPet] SQLite connection successful.
+03-16-2022 21:06 [INFO] [MyPet] BossShopPro (1.9.8) hook activated.
+03-16-2022 21:06 [INFO] [MyPet] Citizens (2.0.22-SNAPSHOT (build 1487)) hook activated.
+03-16-2022 21:06 [INFO] [MyPet] MythicMobs (4.6.5-2800) hook activated.
+03-16-2022 21:06 [INFO] [MyPet] NoCheatPlus (3.16.0-RC-sMD5NET-b1134) hook activated.
+03-16-2022 21:06 [INFO] [MyPet] PlaceholderAPI (2.10.9) hook activated.
+03-16-2022 21:06 [INFO] [MyPet] ProtocolLib (4.8.0) hook activated.
+03-16-2022 21:06 [INFO] [MyPet] SkillAPI (3.108) hook activated.
+03-16-2022 21:06 [INFO] [MyPet] Vault (1.7.2-b107) (Economy: EssentialsX Economy) (Permissions: PermissionsEx) hook activated.
+03-16-2022 21:06 [INFO] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+03-16-2022 21:06 [INFO] [MyPet] Version 3.10-b1542 ENABLED
+03-17-2022 03:13 [INFO] [MyPet] Error-Reporter ENABLED

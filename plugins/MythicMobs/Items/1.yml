@@ -1,0 +1,2825 @@
+hopquatanbinh:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §e§l* §aHộp Quà Tân Binh §e§l*
+      lore:
+      - §7From &2⇥&7 ElonMusk
+      - §7To &2⇥&7 you
+      - ''
+      - §2Độ hiếm §a☆☆
+      - §eLOẠI VẬT PHẨM §aclickable
+      internal: H4sIAAAAAAAAAE2PzU6DQBhFP01MkPgYbkmGDiBduCBK6JBS5B9mB2WQjjO1oWCgz+UDytLVzc25Z3FVABWekq9JiI/huzsJpsA9aeF5g1ud2cjWOh0zzbBMptlmrWu4rrvWxtgwG0sFdZUubBhP7PoIysjmcRrYVQWAOwUe8lpMDH7Z4iNa9qgtfXFciLX2NEEiJPzyQs750rwRi8iV7xxrv2z/bc2xLkxRYb+n52hqZI72OBZsF+tHmf3Q92im0hdVKnggozlMHRR4mX7grQxun7gqCDpIslDe98HGnannGrTIeVhEtzAVIpAZqoqYU+7oa/ah5y5V4m+7Er2uD+APcWyAyRwBAAA=
+stand_kysi:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §a[Stand User]§8 Kỵ Sỹ §2❣❣ §7Bóng Đêm §2❣❣
+      lore:
+      - ''
+      - '§6 Đánh giá: §a☆☆☆☆§8☆☆☆☆☆☆'
+      - ''
+      - §e Stand users:§7 chiến thần bên trong cơ thể
+      - §7 bạn, gia tăng sức mạnh, hổ trợ giao tranh
+      - §7 boss, player...
+      - ''
+      - §e Kỹ sĩ bóng đêm:§7 +25.000 điểm sức mạnh §f§l⚓
+      - ''
+      - §e Kỹ năng Stand by:§7 gia tăng §2(+10%)§7 sát thương
+      - §7 khi chiến đấu vào buổi tối.
+      - ''
+      - §e LOẠI VẬT PHẨM §aclickable
+      internal: H4sIAAAAAAAAAE2Oy06DQBhGf01MkPgYbkm4DZdl44UOKYO2FBh2wAwCztSmBQWeykeUpcsv55zkUwFUeDh8jkK8Xb6aTnAFbjGDR2QwrzQQ19ymtDUb1Y5WMcvT/NozXFNvbJsxFdQ1OvPL0PHrPSgDn4bxwq8qANwocJeWYuTwy+dQL/JWZ3ko6hk7604Ouohxf3bxKZ2rJ+xgufLtxtnN/j8XDWWGBLXCtji9j5VM9Z21F3y7N2p5/C6StiUBnuIgmqhJUZwcLbIwSYLXLupbSZd6iZMXgywfJpERopIiEoRdtNCZ9m0fZ4WIM/wTJRtEM7yQZ9o1ueGv7+EPa+m6HxgBAAA=
+stand_crazydiamond:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §b§lCrazy Diamond §6[Stand User]
+      lore:
+      - ''
+      - '§eĐánh giá: §a✫✫✫✫✫§7✫✫✫✫✫'
+      - ''
+      - §eStand users:§7 chiến thần bên trong cơ thể
+      - §7bạn, gia tăng sức mạnh, hổ trợ giao tranh
+      - §7boss, player...
+      - ''
+      - §eCray Diamond:§7 +30.000 điểm sức mạnh §f§l⚓
+      - ''
+      - §eKỹ năng:§f GALTING PUNCH:§7 phát đánh chí mạng
+      - §7tạo ra phát đấm ngàn cân. Gây thêm §2150%
+      - §7sát thương (15§c♥§7) lên đv trước mặt.
+      - ''
+      - §eLOẠI VẬT PHẨM §aclickable
+      internal: H4sIAAAAAAAAAE2Oy06DQBhGf01MkPgYbkmA4RIWLqq0dkgZbEFgZsdlkMJQGwoGeCofUZYuv5xzkk8GkOEpbEchPvrv6iy4BPe4hGcTlTbSkK2UluoohlU6ipMXmpLZplNxbiAzt2SQ1+jK++HMb48gDXwaxp7fZAC4k+AhzsTI4ZfPnsrSWi1TTxQzttYdhaoIcHO18SWe8zds4W7l+411mJ1/rjlkiSko8mp2OY55F6sHdBJ8f9KK7vPHXzY6S3YdSXaCLK8teSctcbcTc32dRKRjbqERtzD87jjThCKyeIIlWKMR1mlEDb+pa9Z8mVSP2yDZTkHoOVWqvqzv4Q+jgpBFGAEAAA==
+da_ren:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §8◁§2✦ §e§lĐá Rèn §2✦§8▷
+      lore:
+      - ''
+      - §7 Dùng để rèn trang bị bằng nhiều tính
+      - '§7 như: tẩy luyện, rèn cúp, khảm unbreakble..'
+      - ''
+      - §a§l SỬ DỤNG:§7 tích trữ đủ số lượng vào túi
+      - §e§l E§7 và đến giao diện §eRÈN§7 nâng cấp
+      - ''
+      - §e Groupding:§7 item mất giá trị khi đặt xuống
+      - §7 đất vì biến dạng §9§l(!)
+      - ''
+      - §eLOẠI VẬT PHẨM§a storage§e and§a clickable
+      internal: H4sIAAAAAAAAAE2Oy06EMBhGf01MkPgYbkmg3MLSiDolQxEGgbLjUsKlHScMOMBT+YiydPnlnJN8MoAMT6dh5vxz/G46ziS4xzU8N2VdIxUVSmnYjmJYCCklMm3FYbXOLMcuNebIIO/RhY1Tx66PIE1smeaRXWUAuJPgISn4zOCXrZ6aZ61aZx6vVmztOz6pPMD9xcbnZC1fsYXFzg8v1nF1/rnmVKQmp7rX5udwLkWiHvWIs0OkVeLrh6Rk8LeoJxteaE+1IA5vQczbXBBB3Pc2cD1B+tDw4wrRbVBpijdfRDyII5H3/i133xYfkYEKavgo6oMP3DWZ5uzv4Q/i9l6ZGAEAAA==
+da_cuonghoa:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §2⇱§a§lĐá Cường Hóa§4⇱
+      lore:
+      - ''
+      - '§7 Dùng để cường hóa tính năng RPG như:'
+      - §7 nâng bậc cánh, niên thú....
+      - ''
+      - §a§l SỬ DỤNG:§7 tích trữ đủ số lượng vào túi
+      - §e§l E§7 và đến giao diện RPG nâng cấp
+      - ''
+      - §e Groupding:§7 item mất giá trị khi đặt xuống
+      - §7 đất vì biến dạng §9§l(!)
+      - ''
+      - §eLOẠI VẬT PHẨM§a storage
+      internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkm4dKAsjUg7pAzaUgZmx2UIA0NtKBjhqXxEcefunHznS44KoMLTqZukfB8+ayG5Ave4guei3rpoW5pagRyubQzT1lwHVVqVWxuDFzYquKWCukpXPoyC3x5BGfn3OA38pgLAnQIPSS4nDj98DnSWNnqVBrKcsb32+KTLCLdXB1+SuXjFNu5Xvn+xD7P7b4vGnCKZWUHDLh9T0Sf6wTpKvj8aZX/+IgueiZdZ2SK7jJ4XQkkTLn7LdqER9n7H4lIn5tvmL0cUL6wNrcjDZrZ0BoulyKjfkZ0vmFeJiCaC9KGoU8Nd38MvJ+gW9hgBAAA=
+bp_nauy:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §3Đá Nauy §a◄§6§lBẢO PHÁP§a►
+      lore:
+      - ''
+      - §a ✩✩✩§8✩✩✩✩✩✩✩
+      - ''
+      - §7 Thu thập đủ SL, mở khóa bảo pháp
+      - §7 cho kỹ thăng và thuộc tính main +.
+      - ''
+      - §a§l SỬ DỤNG:§7 đến giao diện /baophap
+      - §7 hoặc cầm item và §aCLICK-PHẢI.
+      - ''
+      - §e Grounding:§7 nếu đặt item xuống đất sẽ
+      - §7 bị mất hình dáng và công hiệu §9§l(!)
+      - ''
+      - §e LOẠI VẬT PHẨM§a clickable§e and§a storage
+      internal: H4sIAAAAAAAAAE2Pu26DMBhG/1aqRFEfoyuSqWMoQ4aqQYmjGOqEQGDjYsTF0CiBpOa5+oBl7PjpnDN8OoAOL4d2lPLr8l3WUmjwSAt4Ld+cRZFauWGmBTIWBJdGltm28Z6TtFikjoWdQgd9js7iMtTi+gzaIH6G8SKuOgA8aPAUpnIU8CvUFiWnChWnrcwVteYdHJD0aXO2aR+q7JNatJv55sPaKeefS4Y0IjLG2yrp+Zh1IdrhvRSbvZl3x5sfcDNpOE66sPbWHHuRV7OJTX7gorhL2rhpiR+5yF/Jxo/4PQmYYmtuequqY5N791YuiSOO2VS1LDoqb00J7U2n5Mvl/AD+AK6A56QcAQAA
+bp_gcl:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: QUARTZ
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7Phiến giấy §eGCL §8◄§6§lBẢO PHÁP§8►
+      lore:
+      - ''
+      - §a ✩✩✩§8✩✩✩✩✩✩✩
+      - ''
+      - §7 Thu thập đủ SL, mở khóa bảo pháp
+      - §7 cho kỹ thăng và thuộc tính main +.
+      - ''
+      - §a§l SỬ DỤNG:§7 đến giao diện /baophap
+      - §7 hoặc cầm item và §aCLICK-PHẢI.
+      - ''
+      - §e Grounding:§7 nếu đặt item xuống đất sẽ
+      - §7 bị mất hình dáng và công hiệu §9§l(!)
+      - ''
+      - §e LOẠI VẬT PHẨM§a clickable§e and§a storage
+bp_thk:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §aĐá §eTam §9Hợp §8◄§6§lBẢO PHÁP§8►
+      lore:
+      - ''
+      - §a ✩✩✩§8✩✩✩✩✩✩✩
+      - ''
+      - §7 Thu thập đủ SL, mở khóa bảo pháp
+      - §7 cho kỹ thăng và thuộc tính main +.
+      - ''
+      - §a§l SỬ DỤNG:§7 đến giao diện /baophap
+      - §7 hoặc cầm item và §aCLICK-PHẢI.
+      - ''
+      - §e Grounding:§7 nếu đặt item xuống đất sẽ
+      - §7 bị mất hình dáng và công hiệu §9§l(!)
+      - ''
+      - §e LOẠI VẬT PHẨM§a clickable§e and§a storage
+      internal: H4sIAAAAAAAAAE2PzU6DQBhFP01MkPgYbklGhp+ycEEkTYeUQSkCw47C1AFnakNBgefyAWXp8uacs7g6gA4Ph89Rytf+69RKrsEtaeAR165jWZVtuJWHDItvsOHxhht2hayN43K3MbEO+hpdeD+0/HoP2sCnYez5VQeAGw3uskqOHH75HKKyEKgpQlnPxFl3ekAyJt3FJedsPr4Qh6iV73xnP3v/XHuoclsyHIry/DYeVYb2OJF8lzzV6v2bpv5SBsxkKlFxWv9EKhQ0+MB0EYLmoYyDbRcH9UQDf2ELsVlOJqqIyZampd22o0HZRqnoWE5FqSJcqkzSOfROBXpeH8Af9/96VBwBAAA=
+bp_escanor:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §eĐá Mặt Trời §8◄§6§lBẢO PHÁP§8►
+      lore:
+      - ''
+      - §a ✩✩✩§8✩✩✩✩✩✩✩
+      - ''
+      - §7 Thu thập đủ SL, mở khóa bảo pháp
+      - §7 cho kỹ thăng và thuộc tính main +.
+      - ''
+      - §a§l SỬ DỤNG:§7 đến giao diện /baophap
+      - §7 hoặc cầm item và §aCLICK-PHẢI.
+      - ''
+      - §e Grounding:§7 nếu đặt item xuống đất sẽ
+      - §7 bị mất hình dáng và công hiệu §9§l(!)
+      - ''
+      - §e LOẠI VẬT PHẨM§a clickable§e and§a storage
+      internal: H4sIAAAAAAAAAE2Oy06DQBhGf01MkPgYbkkGGG6LLtQhdJoOWEqxsKPDIJehNi1o6VP5iLJ0+eWck3wqgApP226U8v38VTVSKHBPS3jmRmmbyC41W0e6hh2Xa24hSs2pCnxwsUCeWaqgztFJnIdGXB5BGcR1GM/iogLAnQIPaSFHAb9iWqF8X6Nyv5J8ova8ky2SEW1PDj2m0+GN2rSf+fLFXk/eP9caig9LZuaqzo+b8dCnaG3GUixjnfe77+xW93lADXbjRki4EZFPHBE2RcQ3GaGYGRSFQdzkrX8NE67nJO9Yv7EYeW1CI23CNkNRsPthiY9Z22F61L1qs1jM7+EP9NBI/RgBAAA=
+bp_barebear:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §fXương Gấu §8◄§6§lBẢO PHÁP§8►
+      lore:
+      - ''
+      - §a ✩✩✩§8✩✩✩✩✩✩✩
+      - ''
+      - §7 Thu thập đủ SL, mở khóa bảo pháp
+      - §7 cho kỹ thăng và thuộc tính main +.
+      - ''
+      - §a§l SỬ DỤNG:§7 đến giao diện /baophap
+      - §7 hoặc cầm item và §aCLICK-PHẢI.
+      - ''
+      - §e Grounding:§7 nếu đặt item xuống đất sẽ
+      - §7 bị mất hình dáng và công hiệu §9§l(!)
+      - ''
+      - §e LOẠI VẬT PHẨM§a clickable§e and§a storage
+      internal: H4sIAAAAAAAAAE2Py06DQBhGf01MkPgYbkkGyqUsujBC6JAOWEqhsINhkMuADYUqPJcPKEuXJ+d8i08EEOHl1E6cfwxfZc2ZAI+4gNdCNamiK5pEc12VVEPZSmZGC2mro5wiVqqKoYggrqMrG8aa3Z5BGNnPOA3sJgLAgwBPUcYnBr9sdlF6qVBxcTmdsb5yeELcx83VwH005+9Yx93q92/6YTb/tdqYxRpPNm6V9scp7yJ02ASc7QOZdud70mBELPqdLLz2mkT246glTVSTzqtIiBU/tOW0CVrf+pyJk1Zp53HPIrPnRK0f2+rqat+xZWIli2edF2IVHe5lszzudusD+AOsALjoHAEAAA==
+bp_naruto:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §cĐá Cữu Vĩ §8◄§6§lBẢO PHÁP§8►
+      lore:
+      - ''
+      - §a ✩✩✩§8✩✩✩✩✩✩✩
+      - ''
+      - §7 Thu thập đủ SL, mở khóa bảo pháp
+      - §7 cho kỹ thăng và thuộc tính main +.
+      - ''
+      - §a§l SỬ DỤNG:§7 đến giao diện /baophap
+      - §7 hoặc cầm item và §aCLICK-PHẢI.
+      - ''
+      - §e Grounding:§7 nếu đặt item xuống đất sẽ
+      - §7 bị mất hình dáng và công hiệu §9§l(!)
+      - ''
+      - §e LOẠI VẬT PHẨM§a clickable§e and§a storage
+      internal: H4sIAAAAAAAAAE2Oy26DMBREbytVoqif0S2SKa+wrErTGAVoCOHhHQEjbOw0IhCFfFU/sV52OXPOSKMD6PCyH2YhvsefjgmqwSNu4dWrV65po9ZonXZl2I7bGj5tPMP2qGV2deN1nq2DrkZnOk6MXp5Bm+htmkd60QHgQYOnvBYzhV+6hIiUPWrLUDQLdlXO9kgkmJ89fMqX4wd2sVR88+5uF/+f60x14YjKCnty2s1HmaOtlQq6Sc1GHq5Exiwu1rziIa8kRlW2e0u+CE+CnkXB5z0uUp4UMY/4cIuCYYk5Vl1kkyAVcZYPVbZmirNIppzI6E6CA+tK01fv4Q+W8JztGAEAAA==
+bp_wukong:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §7Đá §eMonkey §cD. §8◄§6§lBẢO PHÁP§8►
+      lore:
+      - ''
+      - §a ✩✩✩§8✩✩✩✩✩✩✩
+      - ''
+      - §7 Thu thập đủ SL, mở khóa bảo pháp
+      - §7 cho kỹ thăng và thuộc tính main +.
+      - ''
+      - §a§l SỬ DỤNG:§7 đến giao diện /baophap
+      - §7 hoặc cầm item và §aCLICK-PHẢI.
+      - ''
+      - §e Grounding:§7 nếu đặt item xuống đất sẽ
+      - §7 bị mất hình dáng và công hiệu §9§l(!)
+      - ''
+      - §e LOẠI VẬT PHẨM§a clickable§e and§a storage
+      internal: H4sIAAAAAAAAAE2Oy06DQBhGf01MkPgYbkm4DrA0mtIhBWzLbWbHZQgMQ21asE6fykeUpcsv55zkUwFUeDmOixCfl69uEEyBR9zCa925CLm2qdW2V2u2aTma11VM65DutY3tVy4yVFDX6Mwu88Cuz6DM7GdeLuyqAsCDAk95JRYGv0yGOi17vS1D0UiM1p0edZFgfnbxKZf1O0Z4Wvn2De2k/8915qpwBLHCnp72Sz3l+s46CLY9GM2UfUf3vUyKuE+KyCRpKJIgHKKUyPieWZRnemRuRsKJpAUxkoCYMc/HOMhuNKCcmJlBg80Up/0Y8X6iH2KkEx660vDX9/AHSPKf8BgBAAA=
+bp_thanos:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: NETHER_STAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7Viên Đá Vô Cực §e∞ §8◄§6§lBẢO PHÁP§8►
+      lore:
+      - ''
+      - §a ✩✩✩✩§8✩✩✩✩✩✩
+      - ''
+      - §7 Thu thập đủ SL, mở khóa bảo pháp
+      - §7 cho kỹ thăng và thuộc tính main +.
+      - ''
+      - §a§l SỬ DỤNG:§7 đến giao diện /baophap
+      - §7 hoặc cầm item và §aCLICK-PHẢI.
+      - ''
+      - §e Grounding:§7 nếu đặt item xuống đất sẽ
+      - §7 bị mất hình dáng và công hiệu §9§l(!)
+      - ''
+      - §e LOẠI VẬT PHẨM§a clickable§e and§a storage
+bp_zenitsu:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §7Đá Xung Kích§e⇲ §e∞ §8◄§6§lBẢO PHÁP§8►
+      lore:
+      - ''
+      - §a ✩✩✩✩✩§8✩✩✩✩✩
+      - ''
+      - §7 Thu thập đủ SL, mở khóa bảo pháp
+      - §7 cho kỹ thăng và thuộc tính main +.
+      - ''
+      - §a§l SỬ DỤNG:§7 đến giao diện /baophap
+      - §7 hoặc cầm item và §aCLICK-PHẢI.
+      - ''
+      - §e Grounding:§7 nếu đặt item xuống đất sẽ
+      - §7 bị mất hình dáng và công hiệu §9§l(!)
+      - ''
+      - §e LOẠI VẬT PHẨM§a clickable§e and§a storage
+      internal: H4sIAAAAAAAAAE2Pu26DMBhG/1aqRFEfoyuSqWMoQ4aqQYmjGOqEQGDjYsTF0CiBpOa5+oBl7PjpnDN8OoAOL4d2lPLr8l3WUmjwSAt4Ld+cRZFauWGmBTIWBJdGltm28Z6TtFikjoWdQgd9js7iMtTi+gzaIH6G8SKuOgA8aPAUpnIU8CvUFiWnChWnrcwVteYdHJD0aXO2aR+q7JNatJv55sPaKeefS4Y0IjLG2yrp+Zh1IdrhvRSbvZl3x5sfcDNpOE66sPbWHHuRV7OJTX7gorhL2rhpiR+5yF/Jxo/4PQmYYmtuequqY5N791YuiSOO2VS1LDoqb00J7U2n5Mvl/AD+AK6A56QcAQAA
+it_hp1:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §c§lʙình máu
+      lore:
+      - ''
+      - §7Bình máu thì để hồi máu chứ làm cái gì.
+      - §7Hồi máu dạng tức thì (4§c♥§7)/1 bình
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      internal: H4sIAAAAAAAAAE3Oy06DQBgF4F8TEyQ+hluS4Q5Lo7UdUgZLR247CkO5DLWh0DA8lY8oS5cn53zJkQFkeDl2E+dfw0/VcCbBIy7hNVeRiwrDVQym2YphG47iOrqqlGVZOaalujnSZJBXdGXD2LDbM0gjm8dpYDcZAB4keIpyPjH4ZcJDWVKjMvF4IbC1ZnpEPMDt1caXSJzesYX7td+9WXvh/tuaYx6bPNW9OrscplMfob0ecrYL1aL/vpMt6dKFtz7ldUDPS0A7RChvs/4gAppxom1mvz0bftuZ5ANrJPZn0n82q1tN2Pg9NvwFi7TFS7ZNBYk3TZWo7voe/gCrB7ihGAEAAA==
+it_hp2:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §c§lʙình máu §6§l+2
+      lore:
+      - ''
+      - §7Bình máu thì để hồi máu chứ làm cái gì.
+      - §7Hồi máu dạng tức thì (8§c♥§7)/1 bình
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      internal: H4sIAAAAAAAAAE3Oy06DQBgF4F8TEyQ+hluS4Q5Lo7UdUgZLR247CkO5DLWh0DA8lY8oS5cn53zJkQFkeDl2E+dfw0/VcCbBIy7hNVeRiwrDVQym2YphG47iOrqqlGVZOaalujnSZJBXdGXD2LDbM0gjm8dpYDcZAB4keIpyPjH4ZcJDWVKjMvF4IbC1ZnpEPMDt1caXSJzesYX7td+9WXvh/tuaYx6bPNW9OrscplMfob0ecrYL1aL/vpMt6dKFtz7ldUDPS0A7RChvs/4gAppxom1mvz0bftuZ5ANrJPZn0n82q1tN2Pg9NvwFi7TFS7ZNBYk3TZWo7voe/gCrB7ihGAEAAA==
+it_hp3:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §c§lʙình máu §6§l+3
+      lore:
+      - ''
+      - §7Bình máu thì để hồi máu chứ làm cái gì.
+      - §7Hồi máu dạng tức thì (10§c♥§7)/1 bình
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      internal: H4sIAAAAAAAAAE3Oy06DQBgF4F8TEyQ+hluS4Q5Lo7UdUgZLR247CkO5DLWh0DA8lY8oS5cn53zJkQFkeDl2E+dfw0/VcCbBIy7hNVeRiwrDVQym2YphG47iOrqqlGVZOaalujnSZJBXdGXD2LDbM0gjm8dpYDcZAB4keIpyPjH4ZcJDWVKjMvF4IbC1ZnpEPMDt1caXSJzesYX7td+9WXvh/tuaYx6bPNW9OrscplMfob0ecrYL1aL/vpMt6dKFtz7ldUDPS0A7RChvs/4gAppxom1mvz0bftuZ5ANrJPZn0n82q1tN2Pg9NvwFi7TFS7ZNBYk3TZWo7voe/gCrB7ihGAEAAA==
+it_hp4:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §c§lʙình máu §6§lmax
+      lore:
+      - ''
+      - §7Bình máu thì để hồi máu chứ làm cái gì.
+      - §7Hồi máu dạng tức thì (14§c♥§7)/1 bình
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      internal: H4sIAAAAAAAAAE3Oy06DQBgF4F8TEyQ+hluS4Q5Lo7UdUgZLR247CkO5DLWh0DA8lY8oS5cn53zJkQFkeDl2E+dfw0/VcCbBIy7hNVeRiwrDVQym2YphG47iOrqqlGVZOaalujnSZJBXdGXD2LDbM0gjm8dpYDcZAB4keIpyPjH4ZcJDWVKjMvF4IbC1ZnpEPMDt1caXSJzesYX7td+9WXvh/tuaYx6bPNW9OrscplMfob0ecrYL1aL/vpMt6dKFtz7ldUDPS0A7RChvs/4gAppxom1mvz0bftuZ5ANrJPZn0n82q1tN2Pg9NvwFi7TFS7ZNBYk3TZWo7voe/gCrB7ihGAEAAA==
+it_ksd:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §f§l§o❤ §6Kim SÁNG DƯỢC§7 pharmacity
+      lore:
+      - ''
+      - §7 Hồi lại 100% máu (§c♥§7), 100% thức ăn.
+      - §7 Xóa bỏ tất cả buff, độc tố
+      - ''
+      - §e LOẠI VẬT PHẨM §aclickable
+      internal: H4sIAAAAAAAAAE2OzW6CQBRGb5s0saSP0S0Jf4OwbEujQxyoCiizG2As4B1rFIzwVH3Esuzyyzkn+TQADV62xx7x6/JzaFDO4JFW8ErEXNjewdWFa/m6UwhP9yzH1wtZObawCs82TQ20KTrLS9fI6zPMOnnv+ou8agDwMIOnTGAv4VcOocH3tVHtQywH6k472RoY0/Y8p6dsKD6oS9XEl2/uavD/uaQTO4K5Hdb8tO4LlRkre4NyuTFLld7iABVXn4S11OAqH/givbPkveEBP7Lxm0QtIltEGAepGQV1E7WlzYJK8YSauUoJX+QkDtZOtKMjG7FmY9kc9qY/vYc/O+zeJxgBAAA=
+it_beacon:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: BEACON
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §f✵ §3§lĐèn Th§6§lám Hiểm §f✵
+      lore:
+      - ''
+      - §6Chức năng:§e đặt xuống đất và tạo buff
+      - ''
+      - §6Buff ?:§e lên mạng search "How To Use Beacon
+      - §eIn Minecraft".
+      - ''
+      - §6Mua tại:§e /cshop
+      - ''
+      - §e LOẠI VẬT PHẨM§a passive
+      blockMaterial: BEACON
+it_hanbang:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: PACKED_ICE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e✦ §3Hàn Băng §f§l§k||§3 Donate §e✦
+      lore:
+      - ''
+      - :§e ☀Đánh giá:§6 [siêu phẩm]
+      - ''
+      - :§e ☀Công dụng:§7 trao đổi ra các mặt hàng siêu
+      - §7 phẩm tại khu donate.
+      - ''
+      - :§e Groupding:§7 vật phẩm đặt xuống đất sẽ mất
+      - §7 giá trị vĩnh viễn
+      - ''
+      - :§e ⇥ §6§lVẬT PHẨM ĐƯỢC PHONG ẤN §e⇤
+      enchants:
+        LOOT_BONUS_BLOCKS: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+it_hanbang2:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: ICE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e✦✦ §b§lBăng Bắc Cực §e✦✦
+      lore:
+      - §a§l LV2
+      - ''
+      - §e ☀Đánh giá:§6 [siêu phẩm]
+      - ''
+      - §e ☀Công dụng:§7 trao đổi ra các mặt hàng siêu
+      - §7phẩm tại khu donate.
+      - ''
+      - §e ☀Added:§7 Là sự tiến hóa mới từ hàn băng,
+      - §7băng này rơi từ mưa sao băng trên trời.
+      - ''
+      - §e ⇥ §6§lVẬT PHẨM ĐƯỢC PHONG ẤN §e⇤
+      enchants:
+        LOOT_BONUS_BLOCKS: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+it_totem:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: TOTEM
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3§lTOTEM §2☪ §cCổ Đại §2☿§7locking§2☿
+      lore:
+      - ''
+      - §7 Dùng để phong ấn trang bị tay cầm.
+      - §e§l PHONG ẤN:§7 trang bị mang tên bạn, ko
+      - §7 thể /trade, giao dịch, nâng cấp, treo bán.
+      - §7 và ko thể bị nhặt bởi người khác.
+      - ''
+      - '§a§l CÁCH DÙNG§7: vào giao diện RPG -> phong ấn'
+      - §7 và nhớ cầm item muốn niêm phong trên tay.
+      - ''
+      - §e LOẠI VẬT PHẨM§a clickable
+it_drill:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: FLINT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lMũi §6♦§e§l khoan §2⇲
+      lore:
+      - ''
+      - §7 Đục 1 lỗ rỗng lên các trang bị yêu
+      - §7 thích. Lỗ khoan có thể khảm ngọc thạch.
+      - ''
+      - '§a§l ĐỘ HIẾM: §a☆☆☆☆☆☆☆☆☆§7☆'
+      - ''
+      - §a§l CÁCH DÙNG:§7 đến giao diện rèn. Cầm trang
+      - §7 tr.bị muốn đục trên tay và tiến hành đục.
+      - ''
+      - §eLOẠI VẬT PHẨM§a storage.
+it_expclass100:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §2Tinh hoa (§f100§2)
+      lore:
+      - ''
+      - §7 +100 điểm expclass vào nhân vật
+      - §7 main. /sb để xem chi tiết.
+      - ''
+      - §e LOẠI VẬT PHẨM §aclickable
+it_exp100:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: EXP_BOTTLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7Exp Vanilla (§3100§7)
+      lore:
+      - ''
+      - §7 +100 điểm exp vanilla vào nhân vật
+      - §7 main. /sb để xem chi tiết.
+      - ''
+      - §e LOẠI VẬT PHẨM §aclickable
+it_eggtm:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §6§lEggbreaker §2࿉ §ethợ mỏ vay
+      lore:
+      - ''
+      - §7 mở ra có cơ hội nhận được §6§lCÚP
+      - §6§l THỢ MỎ VAY§7 vĩnh viễn hoặc nguyên
+      - §7 liệu §ethẻ điểm danh.
+      - ''
+      - §eLOẠI VẬT PHẨM §aclickable
+      internal: H4sIAAAAAAAAAE2O326CMByFf1uyxJE9xm5JavnjuNjFYjYtsWUiA9o7KmUIrTMKKj7VHnFc7uYkJ9/5kmMBWPC0aXutP48/1U6rCdyTEp5nDsIvSgY2LsZwpfTtQFalXUw9HPi+9LDrWGCN0kEdu506PcKkU9euP6qTBQB3E3hIC90r+FVDiEReozIP9XYg/tiTDdIRaQ4zsk8HOSc+MSNfvvmrIfi39boi8zR3wlrs1700KVo5sVbLeLo1X2ea8Wu0IB5P1jdm3geGuUsT1tDm2xEZwexGnShLTbT4aLkRLb9tLzwTtWjohS0oophcWSMakbQuM3EbzcOgytHr+B7+AEM7zpUYAQAA
+it_socket1:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§61 §e§lRANDOM
+      lore:
+      - ''
+      - §f ⇱ §e§l thông tin §f ⇲
+      - §a This is §7thạch đá lv.{grade}
+      - §a Khảm lên§7 {typeitem},§8 công cụ
+      - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+      - ''
+      - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+      - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+      - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+      - ''
+      - §eLOẠI VẬT PHẨM§a clickable
+      internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkmG2yCLLoyk6ZAOCEUo7LgM4TKDTQu29Kl8RGfp4iy+c0mOCqDCy2FcOP88f7c9Zwo8kgZea9ziUjeZZrSWpVm4RJqLmaFZ6A01le04be2qoMrRiZ3nnl2eQZnZbV7O7KICwIMCT2nJFwa/bPVRcexQc/R5vRIsOTkgHpLh5JApXasPgomQ+e4d71f3X9eey8zmuel3xRQtlUjR3ow528V6Lb5+ArEd6T3luYh7mhC9EH4XeORGh9EqvGjN7+RKBTUDQyojiIpgCBMuFdn0ziVJf4iueUZvobcVZNLdNtps5Hv4AypJvv8YAQAA
+it_socket2:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§62 §e§lRANDOM
+      lore:
+      - ''
+      - §f ⇱ §e§l thông tin §f ⇲
+      - §a This is §7thạch đá lv.{grade}
+      - §a Khảm lên§7 {typeitem},§8 công cụ
+      - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+      - ''
+      - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+      - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+      - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+      - ''
+      - §eLOẠI VẬT PHẨM§a clickable
+      internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkmG2yCLLoyk6ZAOCEUo7LgM4TKDTQu29Kl8RGfp4iy+c0mOCqDCy2FcOP88f7c9Zwo8kgZea9ziUjeZZrSWpVm4RJqLmaFZ6A01le04be2qoMrRiZ3nnl2eQZnZbV7O7KICwIMCT2nJFwa/bPVRcexQc/R5vRIsOTkgHpLh5JApXasPgomQ+e4d71f3X9eey8zmuel3xRQtlUjR3ow528V6Lb5+ArEd6T3luYh7mhC9EH4XeORGh9EqvGjN7+RKBTUDQyojiIpgCBMuFdn0ziVJf4iueUZvobcVZNLdNtps5Hv4AypJvv8YAQAA
+it_socket3:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§63 §e§lRANDOM
+      lore:
+      - ''
+      - §f ⇱ §e§l thông tin §f ⇲
+      - §a This is §7thạch đá lv.{grade}
+      - §a Khảm lên§7 {typeitem},§8 công cụ
+      - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+      - ''
+      - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+      - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+      - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+      - ''
+      - §eLOẠI VẬT PHẨM§a clickable
+      internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkmG2yCLLoyk6ZAOCEUo7LgM4TKDTQu29Kl8RGfp4iy+c0mOCqDCy2FcOP88f7c9Zwo8kgZea9ziUjeZZrSWpVm4RJqLmaFZ6A01le04be2qoMrRiZ3nnl2eQZnZbV7O7KICwIMCT2nJFwa/bPVRcexQc/R5vRIsOTkgHpLh5JApXasPgomQ+e4d71f3X9eey8zmuel3xRQtlUjR3ow528V6Lb5+ArEd6T3luYh7mhC9EH4XeORGh9EqvGjN7+RKBTUDQyojiIpgCBMuFdn0ziVJf4iueUZvobcVZNLdNtps5Hv4AypJvv8YAQAA
+it_socket4:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§64 §e§lRANDOM
+      lore:
+      - ''
+      - §f ⇱ §e§l thông tin §f ⇲
+      - §a This is §7thạch đá lv.{grade}
+      - §a Khảm lên§7 {typeitem},§8 công cụ
+      - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+      - ''
+      - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+      - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+      - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+      - ''
+      - §eLOẠI VẬT PHẨM§a clickable
+      internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkmG2yCLLoyk6ZAOCEUo7LgM4TKDTQu29Kl8RGfp4iy+c0mOCqDCy2FcOP88f7c9Zwo8kgZea9ziUjeZZrSWpVm4RJqLmaFZ6A01le04be2qoMrRiZ3nnl2eQZnZbV7O7KICwIMCT2nJFwa/bPVRcexQc/R5vRIsOTkgHpLh5JApXasPgomQ+e4d71f3X9eey8zmuel3xRQtlUjR3ow528V6Lb5+ArEd6T3luYh7mhC9EH4XeORGh9EqvGjN7+RKBTUDQyojiIpgCBMuFdn0ziVJf4iueUZvobcVZNLdNtps5Hv4AypJvv8YAQAA
+it_socket5:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§65 §e§lRANDOM
+      lore:
+      - ''
+      - §f ⇱ §e§l thông tin §f ⇲
+      - §a This is §7thạch đá lv.{grade}
+      - §a Khảm lên§7 {typeitem},§8 công cụ
+      - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+      - ''
+      - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+      - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+      - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+      - ''
+      - §eLOẠI VẬT PHẨM§a clickable
+      internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkmG2yCLLoyk6ZAOCEUo7LgM4TKDTQu29Kl8RGfp4iy+c0mOCqDCy2FcOP88f7c9Zwo8kgZea9ziUjeZZrSWpVm4RJqLmaFZ6A01le04be2qoMrRiZ3nnl2eQZnZbV7O7KICwIMCT2nJFwa/bPVRcexQc/R5vRIsOTkgHpLh5JApXasPgomQ+e4d71f3X9eey8zmuel3xRQtlUjR3ow528V6Lb5+ArEd6T3luYh7mhC9EH4XeORGh9EqvGjN7+RKBTUDQyojiIpgCBMuFdn0ziVJf4iueUZvobcVZNLdNtps5Hv4AypJvv8YAQAA
+1k:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: REDSTONE_TORCH_ON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §eCây đuốc 0.043§2$
+      lore:
+      - ''
+      - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+      - §7đuốc triệu đổi ra money mệnh giá tương ứng
+      - §2 ●§7 Chiết khấu 0%
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+chestdiamond:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: LIGHT_BLUE_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §b§lRương kim cương
+      lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối kim cương'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      blockMaterial: LIGHT_BLUE_SHULKER_BOX
+chestemerald:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: LIME_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §2§lRương lục bảo
+      lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối lục bảo'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      blockMaterial: LIME_SHULKER_BOX
+chestgold:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: YELLOW_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §e§lRương vàng rồng
+      lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối vàng rồng'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      blockMaterial: YELLOW_SHULKER_BOX
+chestiron:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: WHITE_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §f§lRương sắt xịn
+      lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối sắt xịn'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      blockMaterial: WHITE_SHULKER_BOX
+chestobsidian:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: GRAY_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §d§lRương hắc diện thạch
+      lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối hắc diện thạch'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      blockMaterial: GRAY_SHULKER_BOX
+chestcoal:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: BLACK_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §8§lRương than đen
+      lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối than đen'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      blockMaterial: BLACK_SHULKER_BOX
+chestlapis:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: BLUE_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §9§lRương lưu li
+      lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối lưu li'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      blockMaterial: BLUE_SHULKER_BOX
+chestredstone:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: RED_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §c§lRương đá đỏ
+      lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối đá đỏ'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      blockMaterial: RED_SHULKER_BOX
+chestbone:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SILVER_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §7§lRương xương t-rex
+      lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối xương t-rex'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      blockMaterial: SILVER_SHULKER_BOX
+vk_dht:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOD_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bDao Hung Tàn §6☆☆☆§7☆☆☆☆☆☆☆
+      lore:
+      - §9Tàn bạo §8[§6IX§8]
+      - §7Tăng 12.5% STVL với mỗi cộng dồn Tàn
+      - §7Bạo.
+      - §9Dung nham §8[§6V§8]
+      - §7Thiêu đốt kẻ địch +3s với mỗi cộng
+      - §7Dung Nham.
+      - §9Kiên Định §8[§6C§8]
+      - §7Tăng độ chậm hỏng trang bị > x100 lần
+      - §7so với trang bị thông thường.
+      - §9Thợ săn tiền thưởng §8[§6I§8]
+      - §7ᴛăng rơi +(1-2) vật phẩm khi giết quái
+      - §7vanilla.
+      - ''
+      - '§7§0§1§r§7Tỉ lệ chính xác§0§1§r§7§f§l: §a+§0§2§r§a25.9%§0§2§r§f§l'
+      - '§7§0§1§r§7Xuyên giáp§0§1§r§7§f§l: §0§2§r§a8.3%§0§2§r§f§l'
+      enchants:
+        DAMAGE_ALL: 9
+        FIRE_ASPECT: 5
+        LOOT_BONUS_MOBS: 1
+        DURABILITY: 100
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_ddc:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOD_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Dao Địa Cực §6☆☆☆§7☆☆☆☆☆☆☆
+      lore:
+      - §9Tàn bạo §8[§6IX§8]
+      - §7Tăng 12.5% STVL với mỗi cộng dồn Tàn
+      - §7Bạo.
+      - §9Dung nham §8[§6V§8]
+      - §7Thiêu đốt kẻ địch +3s với mỗi cộng
+      - §7Dung Nham.
+      - §9Kiên Định §8[§6C§8]
+      - §7Tăng độ chậm hỏng trang bị > x100 lần
+      - §7so với trang bị thông thường.
+      - §9Thợ săn tiền thưởng §8[§6I§8]
+      - §7ᴛăng rơi +(1-2) vật phẩm khi giết quái
+      - §7vanilla.
+      - ''
+      - '§7§0§1§r§7Phạm vi khuếch tán§0§1§r§7§f§l: §0§2§r§a3.0§0§2§r§f§l'
+      - '§7§0§1§r§7Dame khuếch tán§0§1§r§7§f§l: §0§2§r§a12.5%§0§2§r§f§l'
+      enchants:
+        DAMAGE_ALL: 9
+        FIRE_ASPECT: 5
+        LOOT_BONUS_MOBS: 1
+        DURABILITY: 100
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_rifle:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOD_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cGươm Lửa Rifle §6☆☆☆§7☆☆☆☆☆☆☆
+      lore:
+      - §9Tàn bạo §8[§6IX§8]
+      - §7Tăng 12.5% STVL với mỗi cộng dồn Tàn
+      - §7Bạo.
+      - §9Dung nham §8[§6V§8]
+      - §7Thiêu đốt kẻ địch +3s với mỗi cộng
+      - §7Dung Nham.
+      - §9Kiên Định §8[§6C§8]
+      - §7Tăng độ chậm hỏng trang bị > x100 lần
+      - §7so với trang bị thông thường.
+      - §9Thợ săn tiền thưởng §8[§6I§8]
+      - §7ᴛăng rơi +(1-2) vật phẩm khi giết quái
+      - §7vanilla.
+      - ''
+      - '§7§0§1§r§7Tỉ lệ crits§0§1§r§7§f§l: §0§2§r§a8.8%§0§2§r§f§l'
+      - '§7§0§1§r§7Sát thương crits§0§1§r§7§f§l: §0§2§r§a0.75§7x§0§2§r§f§l'
+      enchants:
+        DAMAGE_ALL: 9
+        FIRE_ASPECT: 5
+        LOOT_BONUS_MOBS: 1
+        DURABILITY: 100
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_kiemgo:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOD_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bKiếm gỗ §6☆☆☆§7☆☆☆☆☆☆☆
+      lore:
+      - §9Tàn bạo §8[§6X§8]
+      - §7Tăng 12.5% STVL với mỗi cộng dồn Tàn
+      - §7Bạo.
+      - §9Dung nham §8[§6IV§8]
+      - §7Thiêu đốt kẻ địch +3s với mỗi cộng
+      - §7Dung Nham.
+      - §9Kiên Định §8[§6XCX§8]
+      - §7Tăng độ chậm hỏng trang bị > x80 lần
+      - §7so với trang bị thông thường.
+      - §9Thợ săn tiền thưởng §8[§6II§8]
+      - §7ᴛăng rơi +(1-2) vật phẩm khi giết quái
+      - §7vanilla.
+      - ''
+      - '§7§0§1§r§7Dame pve§0§1§r§7§f§l: §a+§0§2§r§a6.3%§0§2§r§f§l'
+      - '§7§0§1§r§7Dame pvp§0§1§r§7§f§l: §a+§0§2§r§a7.23%§0§2§r§f§l'
+      enchants:
+        DAMAGE_ALL: 10
+        FIRE_ASPECT: 4
+        LOOT_BONUS_MOBS: 2
+        DURABILITY: 80
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_hhd:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOD_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aHoa Hải Đường §6☆☆☆§7☆☆☆☆☆☆☆
+      lore:
+      - §9Tàn bạo §8[§6X§8]
+      - §7Tăng 12.5% STVL với mỗi cộng dồn Tàn
+      - §7Bạo.
+      - §9Dung nham §8[§6IV§8]
+      - §7Thiêu đốt kẻ địch +3s với mỗi cộng
+      - §7Dung Nham.
+      - §9Kiên Định §8[§6XCX§8]
+      - §7Tăng độ chậm hỏng trang bị > x80 lần
+      - §7so với trang bị thông thường.
+      - §9Thợ săn tiền thưởng §8[§6II§8]
+      - §7ᴛăng rơi +(1-2) vật phẩm khi giết quái
+      - §7vanilla.
+      - ''
+      - '§7§0§1§r§7Sát thương§0§1§r§7§f§l: §0§2§r§a0.84§0§2§r§f§l'
+      - '§7§0§1§r§7Tỉ lệ crits§0§1§r§7§f§l: §0§2§r§a7.8%§0§2§r§f§l'
+      enchants:
+        DAMAGE_ALL: 10
+        FIRE_ASPECT: 4
+        LOOT_BONUS_MOBS: 2
+        DURABILITY: 80
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_dino:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOD_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7Dino Wood Sword §6☆☆☆§7☆☆☆☆☆☆☆
+      lore:
+      - §9Tàn bạo §8[§6X§8]
+      - §7Tăng 12.5% STVL với mỗi cộng dồn Tàn
+      - §7Bạo.
+      - §9Dung nham §8[§6IV§8]
+      - §7Thiêu đốt kẻ địch +3s với mỗi cộng
+      - §7Dung Nham.
+      - §9Kiên Định §8[§6XCX§8]
+      - §7Tăng độ chậm hỏng trang bị > x80 lần
+      - §7so với trang bị thông thường.
+      - §9Thợ săn tiền thưởng §8[§6II§8]
+      - §7ᴛăng rơi +(1-2) vật phẩm khi giết quái
+      - §7vanilla.
+      - ''
+      - '§7§0§1§r§7Sát thương crits§0§1§r§7§f§l: §0§2§r§a0.71§7x§0§2§r§f§l'
+      - '§7§0§1§r§7Dame pve§0§1§r§7§f§l: §a+§0§2§r§a5.9%§0§2§r§f§l'
+      enchants:
+        DAMAGE_ALL: 10
+        FIRE_ASPECT: 4
+        LOOT_BONUS_MOBS: 2
+        DURABILITY: 80
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_sao:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOD_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dĐao§5/§6kiếm §5thuần vực §6☆☆☆§7☆☆☆☆☆☆☆
+      lore:
+      - §9Tàn bạo §8[§6XI§8]
+      - §7Tăng 12.5% STVL với mỗi cộng dồn Tàn
+      - §7Bạo.
+      - §9Dung nham §8[§6V§8]
+      - §7Thiêu đốt kẻ địch +3s với mỗi cộng
+      - §7Dung Nham.
+      - §9Kiên Định §8[§6X§8]
+      - §7Tăng độ chậm hỏng trang bị > x10 lần
+      - §7so với trang bị thông thường.
+      - §9Thợ săn tiền thưởng §8[§6II§8]
+      - §7ᴛăng rơi +(1-2) vật phẩm khi giết quái
+      - §7vanilla.
+      - ''
+      - '§7§0§1§r§7Dame pve§0§1§r§7§f§l: §a+§0§2§r§a7.7%§0§2§r§f§l'
+      - '§7§0§1§r§7Tỉ lệ chính xác§0§1§r§7§f§l: §a+§0§2§r§a10.5%§0§2§r§f§l'
+      enchants:
+        DAMAGE_ALL: 11
+        FIRE_ASPECT: 5
+        LOOT_BONUS_MOBS: 2
+        DURABILITY: 10
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_SW:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOD_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §4Kỵ sĩ Dragon SW §6☆☆☆§7☆☆☆☆☆☆☆
+      lore:
+      - §9Tàn bạo §8[§6XI§8]
+      - §7Tăng 12.5% STVL với mỗi cộng dồn Tàn
+      - §7Bạo.
+      - §9Dung nham §8[§6V§8]
+      - §7Thiêu đốt kẻ địch +3s với mỗi cộng
+      - §7Dung Nham.
+      - §9Kiên Định §8[§6X§8]
+      - §7Tăng độ chậm hỏng trang bị > x10 lần
+      - §7so với trang bị thông thường.
+      - §9Thợ săn tiền thưởng §8[§6II§8]
+      - §7ᴛăng rơi +(1-2) vật phẩm khi giết quái
+      - §7vanilla.
+      - ''
+      - '§7§0§1§r§7Tỉ lệ chính xác§0§1§r§7§f§l: §a+§0§2§r§a18.85%§0§2§r§f§l'
+      - '§7§0§1§r§7Sát thương§0§1§r§7§f§l: §0§2§r§a1.1§0§2§r§f§l'
+      enchants:
+        DAMAGE_ALL: 11
+        FIRE_ASPECT: 5
+        LOOT_BONUS_MOBS: 2
+        DURABILITY: 10
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_kkl:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOD_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §5Kiếm Khủng Long §6☆☆☆§7☆☆☆☆☆☆☆
+      lore:
+      - §9Tàn bạo §8[§6XI§8]
+      - §7Tăng 12.5% STVL với mỗi cộng dồn Tàn
+      - §7Bạo.
+      - §9Dung nham §8[§6V§8]
+      - §7Thiêu đốt kẻ địch +3s với mỗi cộng
+      - §7Dung Nham.
+      - §9Kiên Định §8[§6X§8]
+      - §7Tăng độ chậm hỏng trang bị > x10 lần
+      - §7so với trang bị thông thường.
+      - §9Thợ săn tiền thưởng §8[§6II§8]
+      - §7ᴛăng rơi +(1-2) vật phẩm khi giết quái
+      - §7vanilla.
+      - ''
+      - '§7§0§1§r§7Dame pvp§0§1§r§7§f§l: §a+§0§2§r§a8.2%§0§2§r§f§l'
+      - '§7§0§1§r§7Xuyên giáp§0§1§r§7§f§l: §0§2§r§a6.8%§0§2§r§f§l'
+      enchants:
+        DAMAGE_ALL: 11
+        FIRE_ASPECT: 5
+        LOOT_BONUS_MOBS: 2
+        DURABILITY: 10
+      ItemFlags:
+      - HIDE_ENCHANTS
+it_px:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §ePixel block §8[§e⛁§8]
+      lore:
+      - §7mua tại §e/shoppx
+      - ''
+      - §7 Dùng đổi ra các trang bị §f§lxịn§7 từ
+      - §7 khu vực trao đổi (§ewarp trade§7)
+      - ''
+      - '§e Giá trị: §2500 §e⛁'
+      - ''
+      - §eLOẠI VẬT PHẨM cho phép§a clickable
+      internal: H4sIAAAAAAAAAE2Py26CQBhG/zZpQkkfo1sSEIfLwkXTkDhEUBDBnx2XsYgz1CA0MM/VByzLLr+ccxafCqDC2/E2cn7ovy9XzhR4pjW8E5usHcMtNLt0Vtq6LC3Ncc1Ks2vLrnSntoqqUEFdojvrhyt7vIIysGkYe/ZQAeBJgZe04CODXzb7en5u9Prs82qm1rKTo873tL3btEvn8pNaVCx8+2HtZvefS4YiIxxNv8m7aCxFqu/MmLNtbFTi9IMCV0FCjX3mmXkWmWEWC5SekbeRDNpGhC0XmKS3MIlInuGEwiMo6waTLwPlSWLbtKHEKZShwCyQKJHQznAv0WazPIA/ZuRzBRwBAAA=
+vk_rbt:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8Rìu Bóng Tối §a[3☆]
+      lore:
+      - '乂§fThông tin:'
+      - §2 ●§6Tàn bạo:§e +8 điểm
+      - §2 ●§6Thợ săn undead:§e +3 điểm
+      - '§2 ●§6Cút za ngoài: §e+3 điểm'
+      - '§2 ●§6Kiên định: §e+50 điểm'
+      - ''
+      - '§2Thuộc tính boss §d§l(+):'
+      - '§7§0§1§r§7Sát thương§0§1§r§7§f§l: §0§2§r§a0.5§0§2§r§f§l'
+      - '§7§0§1§r§7Tỉ lệ crits§0§1§r§7§f§l: §0§2§r§a8.1%§0§2§r§f§l'
+      - ''
+      - '§8Bình luận(s):'
+      - §8[ẨnDanh]:§7Dame thì mạnh mà
+      - §7ᴛốc đánh chậm wa'.
+      enchants:
+        DAMAGE_ALL: 8
+        DAMAGE_UNDEAD: 3
+        KNOCKBACK: 3
+        DURABILITY: 50
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_riuda:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bRìu đá §a[3☆]
+      lore:
+      - '§2❖§fThông tin:'
+      - §2 ●§6Tàn bạo:§e +8 điểm.
+      - §2 ●§6Thợ săn undead:§e +3 điểm.
+      - §2 ●§6Cút za ngoài:§e +3 điểm.
+      - §2 ●§6Kiên định:§e +50 điểm.
+      - ''
+      - '§2Thuộc tính boss §d§l(+):'
+      - '§7§0§1§r§7Dame khuếch tán§0§1§r§7§f§l: §0§2§r§a10.5%§0§2§r§f§l'
+      - '§7§0§1§r§7Phạm vi khuếch tán§0§1§r§7§f§l: §0§2§r§a3.0§0§2§r§f§l'
+      - ''
+      - '§8Comments:'
+      - §8[Ẩndanh]:§7cút za ngoài là gì ??
+      - §8[Ẩndanh-reply]:§7đánh bật lùi á
+      enchants:
+        DAMAGE_ALL: 8
+        DAMAGE_UNDEAD: 3
+        KNOCKBACK: 3
+        DURABILITY: 50
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_rtc:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §eRìu tối cổ §8[§a3☆§8]
+      lore:
+      - '§2❖§fThông tin:'
+      - §2 ●§6Tàn bạo:§e +8 điểm.
+      - §2 ●§6Thợ săn undead:§e +3 điểm.
+      - §2 ●§6Cút za ngoài:§e +3 điểm.
+      - §2 ●§6Kiên định:§e +50 điểm.
+      - ''
+      - '§2Thuộc tính boss §d§l(+):'
+      - '§7§0§1§r§7Xuyên giáp§0§1§r§7§f§l: §0§2§r§a8.1%§0§2§r§f§l'
+      - '§7§0§1§r§7Tỉ lệ chính xác§0§1§r§7§f§l: §a+§0§2§r§a22.2%§0§2§r§f§l'
+      - ''
+      - '§8Comments:'
+      - §8[Ẩndanh]:§7mob undead là những
+      - §7con nào ad ??
+      enchants:
+        DAMAGE_ALL: 8
+        DAMAGE_UNDEAD: 3
+        KNOCKBACK: 3
+        DURABILITY: 50
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_rnn:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Rìu nguyên thủy §8[§a3☆§8]
+      lore:
+      - '§2❖§fThông tin:'
+      - §2 ●§6Tàn bạo:§e +9 điểm.
+      - §2 ●§6Thợ săn undead:§e +2 điểm.
+      - §2 ●§6Cút za ngoài:§e +2 điểm.
+      - §2 ●§6Kiên định:§e +25 điểm.
+      - ''
+      - '§2Thuộc tính boss §d§l(+):'
+      - '§7§0§1§r§7Dame pve§0§1§r§7§f§l: §a+§0§2§r§a5.9%§0§2§r§f§l'
+      - '§7§0§1§r§7Dame pvp§0§1§r§7§f§l: §a+§0§2§r§a10.8%§0§2§r§f§l'
+      - ''
+      - '§8Comments:'
+      - §8[Ẩndanh]:§7mob undead lên mạng
+      - §7search nhé bạn.
+      enchants:
+        DAMAGE_ALL: 9
+        DAMAGE_UNDEAD: 2
+        KNOCKBACK: 2
+        DURABILITY: 25
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_embrace:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Rìu bóng đêm§f/§6embrace §8[§a3☆§8]
+      lore:
+      - '§2❖§fThông tin:'
+      - §2 ●§6Tàn bạo:§e +9 điểm.
+      - §2 ●§6Thợ săn undead:§e +2 điểm.
+      - §2 ●§6Cút za ngoài:§e +2 điểm.
+      - §2 ●§6Kiên định:§e +25 điểm.
+      - ''
+      - '§2Thuộc tính boss §d§l(+):'
+      - '§7§0§1§r§7Dame pvp§0§1§r§7§f§l: §a+§0§2§r§a10.2%§0§2§r§f§l'
+      - '§7§0§1§r§7Xuyên giáp§0§1§r§7§f§l: §0§2§r§a7.66%§0§2§r§f§l'
+      - ''
+      - '§8Comments:'
+      - §8[Ẩndanh]:§7kiên định là độ bền
+      - §7nha bạn nhỏ.
+      enchants:
+        DAMAGE_ALL: 9
+        DAMAGE_UNDEAD: 2
+        KNOCKBACK: 2
+        DURABILITY: 25
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_darius:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cRìu darius §8[§a3☆§8]
+      lore:
+      - '§2❖§fThông tin:'
+      - §2 ●§6Tàn bạo:§e +9 điểm.
+      - §2 ●§6Thợ săn undead:§e +2 điểm.
+      - §2 ●§6Cút za ngoài:§e +2 điểm.
+      - §2 ●§6Kiên định:§e +25 điểm.
+      - ''
+      - '§2Thuộc tính boss §d§l(+):'
+      - '§7§0§1§r§7Sát thương§0§1§r§7§f§l: §0§2§r§a0.4§0§2§r§f§l'
+      - '§7§0§1§r§7Tỉ lệ crits§0§1§r§7§f§l: §0§2§r§a8.9%§0§2§r§f§l'
+      - ''
+      - '§8Comments:'
+      - §8[Ẩndanh]:§7tỉ lệ crit có cộng dồn
+      - §7với chance default nhân vật nhé
+      enchants:
+        DAMAGE_ALL: 9
+        DAMAGE_UNDEAD: 2
+        KNOCKBACK: 2
+        DURABILITY: 25
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_rcd:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §c§lRìu cổ đại §8[§a3☆§8]
+      lore:
+      - '§2❖§fThông tin:'
+      - §2 ●§6Tàn bạo:§e +10 điểm.
+      - §2 ●§6Thợ săn undead:§e +3 điểm.
+      - §2 ●§6Cút za ngoài:§e +2 điểm.
+      - §2 ●§6Kiên định:§e +10 điểm.
+      - ''
+      - '§2Thuộc tính boss §d§l(+):'
+      - '§7§0§1§r§7Tỉ lệ chính xác§0§1§r§7§f§l: §a+§0§2§r§a21.22%§0§2§r§f§l'
+      - '§7§0§1§r§7Dame pve§0§1§r§7§f§l: §a+§0§2§r§a7.9%§0§2§r§f§l'
+      - ''
+      - '§8Comments:'
+      - §8[Ẩndanh]:§7tỉ lệ chính xác để chống
+      - §7độ block của giáp nhé bạn
+      enchants:
+        DAMAGE_ALL: 10
+        DAMAGE_UNDEAD: 3
+        KNOCKBACK: 2
+        DURABILITY: 10
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_sscalar:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §5Rìu §6Sscalar §8[§a3☆§8]
+      lore:
+      - '§2❖§fThông tin:'
+      - §2 ●§6Tàn bạo:§e +10 điểm.
+      - §2 ●§6Thợ săn undead:§e +3 điểm.
+      - §2 ●§6Cút za ngoài:§e +2 điểm.
+      - §2 ●§6Kiên định:§e +10 điểm.
+      - ''
+      - '§2Thuộc tính boss §d§l(+):'
+      - '§7§0§1§r§7Sát thương§0§1§r§7§f§l: §0§2§r§a0.4§0§2§r§f§l'
+      - '§7§0§1§r§7Xuyên giáp§0§1§r§7§f§l: §0§2§r§a6.9%§0§2§r§f§l'
+      - ''
+      - '§8Comments:'
+      - §8[Ẩndanh]:§7Xuyên giáp = Dame cơ
+      - §7bản + (dame cơ bản * %XG)
+      enchants:
+        DAMAGE_ALL: 10
+        DAMAGE_UNDEAD: 3
+        KNOCKBACK: 2
+        DURABILITY: 10
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_rtp:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §9Rìu tìu phu §8[§a3☆§8]
+      lore:
+      - '§2❖§fThông tin:'
+      - §2 ●§6Tàn bạo:§e +10 điểm.
+      - §2 ●§6Thợ săn undead:§e +3 điểm.
+      - §2 ●§6Cút za ngoài:§e +2 điểm.
+      - §2 ●§6Kiên định:§e +10 điểm.
+      - ''
+      - '§2Thuộc tính boss §d§l(+):'
+      - '§7§0§1§r§7Tỉ lệ crits§0§1§r§7§f§l: §0§2§r§a9.2%§0§2§r§f§l'
+      - '§7§0§1§r§7Sát thương crits§0§1§r§7§f§l: §0§2§r§a0.8§7x§0§2§r§f§l'
+      - ''
+      - '§8Comments:'
+      - §8[Ẩndanh]:§7ST crit= dame cơ bản
+      - §7+ (dmg cơ bản * %Crit)
+      enchants:
+        DAMAGE_ALL: 10
+        DAMAGE_UNDEAD: 3
+        KNOCKBACK: 2
+        DURABILITY: 10
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_illegal:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §c乂Kiếm Đá Illegal §0[§64☆§0]
+      lore:
+      - '§e§l*§2Thông tin basic:'
+      - '§2 •§6Tàn bạo: §e+9 điểm.'
+      - '§2 •§6Thợ săn arthrop: §e+2 điểm.'
+      - '§2 •§6Dung nham: §e+4 điểm.'
+      - '§2 •§6Kiên định: §e+200 điểm.'
+      - ''
+      - '§e§l(+)§2 Th.tính boss chủ:'
+      - '§7§0§1§r§7Sát thương§0§1§r§7§f§l: §0§2§r§a1.0§0§2§r§f§l'
+      - '§7§0§1§r§7Tỉ lệ crits§0§1§r§7§f§l: §0§2§r§a12.3%§0§2§r§f§l'
+      enchants:
+        DAMAGE_ALL: 9
+        DAMAGE_ARTHROPODS: 2
+        FIRE_ASPECT: 4
+        DURABILITY: 200
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_kdcd:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e乂Kiếm đá cổ đại §0[§64☆§0]
+      lore:
+      - '§e§l*§2Thông tin basic:'
+      - '§2 •§6Tàn bạo: §e+9 điểm.'
+      - '§2 •§6Thợ săn arthrop: §e+2 điểm.'
+      - '§2 •§6Dung nham: §e+4 điểm.'
+      - '§2 •§6Kiên định: §e+200 điểm.'
+      - ''
+      - '§e§l(+)§2 Th.tính boss chủ:'
+      - '§7§0§1§r§7Tỉ lệ chính xác§0§1§r§7§f§l: §a+§0§2§r§a28.9%§0§2§r§f§l'
+      - '§7§0§1§r§7Xuyên giáp§0§1§r§7§f§l: §0§2§r§a8.9%§0§2§r§f§l'
+      enchants:
+        DAMAGE_ALL: 9
+        DAMAGE_ARTHROPODS: 2
+        FIRE_ASPECT: 4
+        DURABILITY: 200
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_kkl2:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3乂Kiếm khóc lóc §0[§64☆§0]
+      lore:
+      - '§e§l*§2Thông tin basic:'
+      - '§2 •§6Tàn bạo: §e+9 điểm.'
+      - '§2 •§6Thợ săn arthrop: §e+2 điểm.'
+      - '§2 •§6Dung nham: §e+4 điểm.'
+      - '§2 •§6Kiên định: §e+200 điểm.'
+      - ''
+      - '§e§l(+)§2 Th.tính boss chủ:'
+      - '§7§0§1§r§7Sát thương crits§0§1§r§7§f§l: §0§2§r§a1.0§7x§0§2§r§f§l'
+      - '§7§0§1§r§7Dame pve§0§1§r§7§f§l: §a+§0§2§r§a10.1%§0§2§r§f§l'
+      enchants:
+        DAMAGE_ALL: 9
+        DAMAGE_ARTHROPODS: 2
+        FIRE_ASPECT: 4
+        DURABILITY: 200
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_kg:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §f乂Kiếm §7giấy §0[§64☆§0]
+      lore:
+      - '§e§l*§2Thông tin basic:'
+      - '§2 •§6Tàn bạo: §e+10 điểm.'
+      - '§2 •§6Thợ săn arthrop: §e+1 điểm.'
+      - '§2 •§6Dung nham: §e+5 điểm.'
+      - '§2 •§6Kiên định: §e+100 điểm.'
+      - ''
+      - '§e§l(+)§2 Th.tính boss chủ:'
+      - '§7§0§1§r§7Sát thương§0§1§r§7§f§l: §0§2§r§a1.1§0§2§r§f§l'
+      - '§7§0§1§r§7Dame pvp§0§1§r§7§f§l: §a+§0§2§r§a12.6%§0§2§r§f§l'
+      enchants:
+        DAMAGE_ALL: 10
+        DAMAGE_ARTHROPODS: 1
+        FIRE_ASPECT: 5
+        DURABILITY: 100
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_cartoon:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §9乂Kiếm cartoon §0[§64☆§0]
+      lore:
+      - '§e§l*§2Thông tin basic:'
+      - '§2 •§6Tàn bạo: §e+11 điểm.'
+      - '§2 •§6Thợ săn arthrop: §e+2 điểm.'
+      - '§2 •§6Dung nham: §e+5 điểm.'
+      - '§2 •§6Kiên định: §e+50 điểm.'
+      - ''
+      - '§e§l(+)§2 Th.tính boss chủ:'
+      - '§7§0§1§r§7Sát thương§0§1§r§7§f§l: §0§2§r§a1.2§0§2§r§f§l'
+      - '§7§0§1§r§7Dame pvp§0§1§r§7§f§l: §a+§0§2§r§a11.9%§0§2§r§f§l'
+      enchants:
+        DAMAGE_ALL: 11
+        DAMAGE_ARTHROPODS: 2
+        FIRE_ASPECT: 5
+        DURABILITY: 50
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_gdq:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §d乂Gươm Diệt Quỷ §0[§64☆§0]
+      lore:
+      - '§e§l*§2Thông tin basic:'
+      - '§2 •§6Tàn bạo: §e+11 điểm.'
+      - '§2 •§6Thợ săn arthrop: §e+2 điểm.'
+      - '§2 •§6Dung nham: §e+5 điểm.'
+      - '§2 •§6Kiên định: §e+50 điểm.'
+      - ''
+      - '§e§l(+)§2 Th.tính boss chủ:'
+      - '§7§0§1§r§7Tỉ lệ chính xác§0§1§r§7§f§l: §a+§0§2§r§a29.9%§0§2§r§f§l'
+      - '§7§0§1§r§7Tỉ lệ crits§0§1§r§7§f§l: §0§2§r§a9.2%§0§2§r§f§l'
+      enchants:
+        DAMAGE_ALL: 11
+        DAMAGE_ARTHROPODS: 2
+        FIRE_ASPECT: 5
+        DURABILITY: 50
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_camille:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §5乂Quét kiếm Camille §0[§64☆§0]
+      lore:
+      - '§e§l*§2Thông tin basic:'
+      - '§2 •§6Tàn bạo: §e+10 điểm.'
+      - '§2 •§6Thợ săn arthrop: §e+1 điểm.'
+      - '§2 •§6Dung nham: §e+5 điểm.'
+      - '§2 •§6Kiên định: §e+100 điểm.'
+      - ''
+      - '§e§l(+)§2 Th.tính boss chủ:'
+      - '§7§0§1§r§7Tỉ lệ chính xác§0§1§r§7§f§l: §a+§0§2§r§a29.2%§0§2§r§f§l'
+      - '§7§0§1§r§7Sát thương crits§0§1§r§7§f§l: §0§2§r§a1.1§7x§0§2§r§f§l'
+      enchants:
+        DAMAGE_ALL: 10
+        DAMAGE_ARTHROPODS: 1
+        FIRE_ASPECT: 5
+        DURABILITY: 100
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_shoij:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §a乂Ngọn giáo ko shoji §0[§64☆§0]
+      lore:
+      - '§e§l*§2Thông tin basic:'
+      - '§2 •§6Tàn bạo: §e+10 điểm.'
+      - '§2 •§6Thợ săn arthrop: §e+1 điểm.'
+      - '§2 •§6Dung nham: §e+5 điểm.'
+      - '§2 •§6Kiên định: §e+100 điểm.'
+      - ''
+      - '§e§l(+)§2 Th.tính boss chủ:'
+      - '§7§0§1§r§7Dame khuếch tán§0§1§r§7§f§l: §0§2§r§a18.6%§0§2§r§f§l'
+      - '§7§0§1§r§7Phạm vi khuếch tán§0§1§r§7§f§l: §0§2§r§a4.2§0§2§r§f§l'
+      enchants:
+        DAMAGE_ALL: 10
+        DAMAGE_ARTHROPODS: 1
+        FIRE_ASPECT: 5
+        DURABILITY: 100
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_dragao:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §4乂Gươm Diệt Dragão §0[§64☆§0]
+      lore:
+      - '§e§l*§2Thông tin basic:'
+      - '§2 •§6Tàn bạo: §e+11 điểm.'
+      - '§2 •§6Thợ săn arthrop: §e+2 điểm.'
+      - '§2 •§6Dung nham: §e+5 điểm.'
+      - '§2 •§6Kiên định: §e+50 điểm.'
+      - ''
+      - '§e§l(+)§2 Th.tính boss chủ:'
+      - '§7§0§1§r§7Sát thương crits§0§1§r§7§f§l: §0§2§r§a1.15§7x§0§2§r§f§l'
+      - '§7§0§1§r§7Dame pve§0§1§r§7§f§l: §a+§0§2§r§a10.3%§0§2§r§f§l'
+      enchants:
+        DAMAGE_ALL: 11
+        DAMAGE_ARTHROPODS: 2
+        FIRE_ASPECT: 5
+        DURABILITY: 50
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_laylalay:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §7§lKiếm mv J97 §6LAYLALAY §f?? clgt
+      lore:
+      - §e§m-=§2Thông tin very basic:§e§m=-
+      - §2 •§6Tàn bạo:§e +12 điểm.
+      - §2 •§6Thợ săn undead:§e +4 điểm.
+      - §2 •§6Dung nham:§e +7 điểm.
+      - §2 •§6Kiên định:§e +200 điểm.
+      - ''
+      - '§e§m-=§2 Thuộc tính Boss chủ: §e§m=-'
+      - '§7§0§1§r§7Dame pvp§0§1§r§7§f§l: §a+§0§2§r§a15.8%§0§2§r§f§l'
+      - '§7§0§1§r§7Xuyên giáp§0§1§r§7§f§l: §0§2§r§a11.1%§0§2§r§f§l'
+      - ''
+      - '§e§m*§e Chiêu thức Boss chủ:'
+      - '§2§l§0§4§r§2§lHắc hỏa I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 12
+        DAMAGE_UNDEAD: 4
+        FIRE_ASPECT: 7
+        DURABILITY: 200
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+vk_vermouth:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §5§lKiếm bỏ túi Vermouth
+      lore:
+      - §e§m-=§2Thông tin very basic:§e§m=-
+      - §2 •§6Tàn bạo:§e +11 điểm.
+      - §2 •§6Thợ săn undead:§e +4 điểm.
+      - §2 •§6Dung nham:§e +6 điểm.
+      - §2 •§6Kiên định:§e +280 điểm.
+      - ''
+      - '§e§m-=§2 Thuộc tính Boss chủ: §e§m=-'
+      - '§7§0§1§r§7Xuyên giáp§0§1§r§7§f§l: §0§2§r§a10.8%§0§2§r§f§l'
+      - '§7§0§1§r§7Sát thương crits§0§1§r§7§f§l: §0§2§r§a1.4§7x§0§2§r§f§l'
+      - ''
+      - '§e§m*§e Chiêu thức Boss chủ:'
+      - '§2§l§0§4§r§2§lThôi miên I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 11
+        DAMAGE_UNDEAD: 4
+        FIRE_ASPECT: 6
+        DURABILITY: 280
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+vk_nqd:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §4Ngạ §cQuỷ §7乂 §4Đao
+      lore:
+      - §e§m-=§2Thông tin very basic:§e§m=-
+      - §2 •§6Tàn bạo:§e +11 điểm.
+      - §2 •§6Thợ săn undead:§e +4 điểm.
+      - §2 •§6Dung nham:§e +6 điểm.
+      - §2 •§6Kiên định:§e +280 điểm.
+      - ''
+      - '§e§m-=§2 Thuộc tính Boss chủ: §e§m=-'
+      - '§7§0§1§r§7Dame pve§0§1§r§7§f§l: §a+§0§2§r§a13.8%§0§2§r§f§l'
+      - '§7§0§1§r§7Dame pvp§0§1§r§7§f§l: §a+§0§2§r§a15.6%§0§2§r§f§l'
+      - ''
+      - '§e§m*§e Chiêu thức Boss chủ:'
+      - '§2§l§0§4§r§2§lNguyền rủa bóng đêm I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 11
+        DAMAGE_UNDEAD: 4
+        FIRE_ASPECT: 6
+        DURABILITY: 280
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+vk_trending:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §5Kiếm §dTOP 1 trending with love §n???
+      lore:
+      - §e§m-=§2Thông tin very basic:§e§m=-
+      - §2 •§6Tàn bạo:§e +12 điểm.
+      - §2 •§6Thợ săn undead:§e +4 điểm.
+      - §2 •§6Dung nham:§e +7 điểm.
+      - §2 •§6Kiên định:§e +200 điểm.
+      - ''
+      - '§e§m-=§2 Thuộc tính Boss chủ: §e§m=-'
+      - '§7§0§1§r§7Tỉ lệ chính xác§0§1§r§7§f§l: §a+§0§2§r§a31.8%§0§2§r§f§l'
+      - '§7§0§1§r§7Dame pve§0§1§r§7§f§l: §a+§0§2§r§a14.5%§0§2§r§f§l'
+      - ''
+      - '§e§m*§e Chiêu thức Boss chủ:'
+      - '§2§l§0§4§r§2§lHoa lửa I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 12
+        DAMAGE_UNDEAD: 4
+        FIRE_ASPECT: 7
+        DURABILITY: 200
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+vk_mtp:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3§lKiếm §0§l"Khuya Rồi Sao Còn" §f???
+      lore:
+      - §e§m-=§2Thông tin very basic:§e§m=-
+      - §2 •§6Tàn bạo:§e +12 điểm.
+      - §2 •§6Thợ săn undead:§e +4 điểm.
+      - §2 •§6Dung nham:§e +7 điểm.
+      - §2 •§6Kiên định:§e +200 điểm.
+      - ''
+      - '§e§m-=§2 Thuộc tính Boss chủ: §e§m=-'
+      - '§7§0§1§r§7Tỉ lệ chính xác§0§1§r§7§f§l: §a+§0§2§r§a31.2%§0§2§r§f§l'
+      - '§7§0§1§r§7Xuyên giáp§0§1§r§7§f§l: §0§2§r§a10.9%§0§2§r§f§l'
+      - ''
+      - '§e§m*§e Chiêu thức Boss chủ:'
+      - '§2§l§0§4§r§2§lTác động đen I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 12
+        DAMAGE_UNDEAD: 4
+        FIRE_ASPECT: 7
+        DURABILITY: 200
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+vk_nhtl:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Ngọa Hổ §fミ§9Tàn §bLong Đao
+      lore:
+      - §e§m-=§2Thông tin very basic:§e§m=-
+      - §2 •§6Tàn bạo:§e +11 điểm.
+      - §2 •§6Thợ săn undead:§e +4 điểm.
+      - §2 •§6Dung nham:§e +6 điểm.
+      - §2 •§6Kiên định:§e +280 điểm.
+      - ''
+      - '§e§m-=§2 Thuộc tính Boss chủ: §e§m=-'
+      - '§7§0§1§r§7Sát thương crits§0§1§r§7§f§l: §0§2§r§a1.4§7x§0§2§r§f§l'
+      - '§7§0§1§r§7Dame pve§0§1§r§7§f§l: §a+§0§2§r§a13.6%§0§2§r§f§l'
+      - ''
+      - '§e§m*§e Chiêu thức Boss chủ:'
+      - '§2§l§0§4§r§2§lNuốt chửng I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 11
+        DAMAGE_UNDEAD: 4
+        FIRE_ASPECT: 6
+        DURABILITY: 280
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+vk_clcc:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Sword §f§mBermen§3 CLCC
+      lore:
+      - §e§m-=§2Thông tin very basic:§e§m=-
+      - §2 •§6Tàn bạo:§e +10 điểm.
+      - §2 •§6Thợ săn undead:§e +3 điểm.
+      - §2 •§6Dung nham:§e +5 điểm.
+      - §2 •§6Kiên định:§e +350 điểm.
+      - ''
+      - '§e§m-=§2 Thuộc tính Boss chủ: §e§m=-'
+      - '§7§0§1§r§7Tỉ lệ crits§0§1§r§7§f§l: §0§2§r§a13.3%§0§2§r§f§l'
+      - '§7§0§1§r§7Xuyên giáp§0§1§r§7§f§l: §0§2§r§a10.5%§0§2§r§f§l'
+      - ''
+      - '§e§m*§e Chiêu thức Boss chủ:'
+      - '§2§l§0§4§r§2§lTia bọt biển I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 10
+        DAMAGE_UNDEAD: 3
+        FIRE_ASPECT: 5
+        DURABILITY: 350
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+vk_ksxx:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fKiếm Sắt Xịn Xò §5● §7Lò rèn
+      lore:
+      - §e§m-=§2Thông tin very basic:§e§m=-
+      - §2 •§6Tàn bạo:§e +10 điểm.
+      - §2 •§6Thợ săn undead:§e +3 điểm.
+      - §2 •§6Dung nham:§e +5 điểm.
+      - §2 •§6Kiên định:§e +350 điểm.
+      - ''
+      - '§e§m-=§2 Thuộc tính Boss chủ: §e§m=-'
+      - '§7§0§1§r§7Tỉ lệ crits§0§1§r§7§f§l: §0§2§r§a13.2%§0§2§r§f§l'
+      - '§7§0§1§r§7Sát thương crits§0§1§r§7§f§l: §0§2§r§a1.3§7x§0§2§r§f§l'
+      - ''
+      - '§e§m*§e Chiêu thức Boss chủ:'
+      - '§2§l§0§4§r§2§lHoang tưởng I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 10
+        DAMAGE_UNDEAD: 3
+        FIRE_ASPECT: 5
+        DURABILITY: 350
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+vk_kcn:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8[§6Kiếm Công Nghệ§8] §7v1.0
+      lore:
+      - §e§m-=§2Thông tin very basic:§e§m=-
+      - §2 •§6Tàn bạo:§e +10 điểm.
+      - §2 •§6Thợ săn undead:§e +3 điểm.
+      - §2 •§6Dung nham:§e +5 điểm.
+      - §2 •§6Kiên định:§e +350 điểm.
+      - ''
+      - '§e§m-=§2 Thuộc tính Boss chủ: §e§m=-'
+      - '§7§0§1§r§7Dame khuếch tán§0§1§r§7§f§l: §0§2§r§a19.0%§0§2§r§f§l'
+      - '§7§0§1§r§7Phạm vi khuếch tán§0§1§r§7§f§l: §0§2§r§a5.0§0§2§r§f§l'
+      - ''
+      - '§e§m*§e Chiêu thức Boss chủ:'
+      - '§2§l§0§4§r§2§lChém gió/chém bão I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 10
+        DAMAGE_UNDEAD: 3
+        FIRE_ASPECT: 5
+        DURABILITY: 350
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+vk_kdq2:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cKiếm Diệt Quỷ ss2 §6࿏
+      lore:
+      - '§e§l+§2 Thông Tin vũ khí: §e§l+'
+      - §2 §2 •§6Tàn Bạo:§e +11 điểm.
+      - §2 §2 •§6Thợ săn undead:§e +5 điểm.
+      - §2 §2 •§6Thợ săn arthrop:§e +6 điểm.
+      - §2 §2 •§6Dung nham:§e +6 điểm.
+      - §2 §2 •§6Kiên định:§e +300 điểm.
+      - ''
+      - '§e§l+§2 Thuộc tính Boss owns: §e§l+'
+      - '§7§0§1§r§7Sát thương crits§0§1§r§7§f§l: §0§2§r§a1.7§7x§0§2§r§f§l'
+      - '§7§0§1§r§7Tỉ lệ crits§0§1§r§7§f§l: §0§2§r§a15.1%§0§2§r§f§l'
+      - ''
+      - §e§l*§2 Kỹ năng BOSS sở hữu §e§l*
+      - '§2§l§0§4§r§2§lBánh xe lửa I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      - '§2§l§0§4§r§2§lMệt mỏi I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 11
+        DAMAGE_UNDEAD: 5
+        DAMAGE_ARTHROPODS: 6
+        FIRE_ASPECT: 6
+        LOOT_BONUS_MOBS: 3
+        DURABILITY: 300
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_kks:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §f༴§cKiếm Kỵ Sĩ§f༴
+      lore:
+      - '§e§l+§2 Thông Tin vũ khí: §e§l+'
+      - §2 §2 •§6Tàn Bạo:§e +11 điểm.
+      - §2 §2 •§6Thợ săn undead:§e +5 điểm.
+      - §2 §2 •§6Thợ săn arthrop:§e +6 điểm.
+      - §2 §2 •§6Dung nham:§e +6 điểm.
+      - §2 §2 •§6Kiên định:§e +300 điểm.
+      - ''
+      - '§e§l+§2 Thuộc tính Boss owns: §e§l+'
+      - '§7§0§1§r§7Dame khuếch tán§0§1§r§7§f§l: §0§2§r§a25.6%§0§2§r§f§l'
+      - '§7§0§1§r§7Phạm vi khuếch tán§0§1§r§7§f§l: §0§2§r§a6.0§0§2§r§f§l'
+      - ''
+      - §e§l*§2 Kỹ năng BOSS sở hữu §e§l*
+      - '§2§l§0§4§r§2§lHàn băng I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      - '§2§l§0§4§r§2§lVụ nổ quỷ I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 11
+        DAMAGE_UNDEAD: 5
+        DAMAGE_ARTHROPODS: 5
+        FIRE_ASPECT: 6
+        LOOT_BONUS_MOBS: 3
+        DURABILITY: 300
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_bphd:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §f༧§aBảo Pháp Hoa Đà§5༧
+      lore:
+      - '§e§l+§2 Thông Tin vũ khí: §e§l+'
+      - §2 §2 •§6Tàn Bạo:§e +11 điểm.
+      - §2 §2 •§6Thợ săn undead:§e +5 điểm.
+      - §2 §2 •§6Thợ săn arthrop:§e +6 điểm.
+      - §2 §2 •§6Dung nham:§e +6 điểm.
+      - §2 §2 •§6Kiên định:§e +300 điểm.
+      - ''
+      - '§e§l+§2 Thuộc tính Boss owns: §e§l+'
+      - '§7§0§1§r§7Dame pvp§0§1§r§7§f§l: §a+§0§2§r§a20.9%§0§2§r§f§l'
+      - '§7§0§1§r§7Dame pve§0§1§r§7§f§l: §a+§0§2§r§a19.6%§0§2§r§f§l'
+      - ''
+      - §e§l*§2 Kỹ năng BOSS sở hữu §e§l*
+      - '§2§l§0§4§r§2§lVết thương đâu I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      - '§2§l§0§4§r§2§lTruyền nhiễm độc I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 11
+        DAMAGE_UNDEAD: 5
+        DAMAGE_ARTHROPODS: 6
+        FIRE_ASPECT: 6
+        LOOT_BONUS_MOBS: 3
+        DURABILITY: 300
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_kks2:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §9༅§0Kỵ Sỹ Bóng Đêm ss2§9༄
+      lore:
+      - '§e§l+§2 Thông Tin vũ khí: §e§l+'
+      - §2 §2 •§6Tàn Bạo:§e +12 điểm.
+      - §2 §2 •§6Thợ săn undead:§e +6 điểm.
+      - §2 §2 •§6Thợ săn arthrop:§e +7 điểm.
+      - §2 §2 •§6Dung nham:§e +7 điểm.
+      - §2 §2 •§6Kiên định:§e +200 điểm.
+      - ''
+      - '§e§l+§2 Thuộc tính Boss owns: §e§l+'
+      - '§7§0§1§r§7Sát thương crits§0§1§r§7§f§l: §0§2§r§a1.8§7x§0§2§r§f§l'
+      - '§7§0§1§r§7Dame pvp§0§1§r§7§f§l: §a+§0§2§r§a18.6%§0§2§r§f§l'
+      - ''
+      - §e§l*§2 Kỹ năng BOSS sở hữu §e§l*
+      - '§2§l§0§4§r§2§lTuyệt thực I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      - '§2§l§0§4§r§2§lVết thương sâu I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 12
+        DAMAGE_UNDEAD: 6
+        DAMAGE_ARTHROPODS: 7
+        FIRE_ASPECT: 7
+        LOOT_BONUS_MOBS: 4
+        DURABILITY: 200
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_kaneki:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §f༺§4Đao diệt Ngạ Quỷ Kaneki §6乂
+      lore:
+      - '§e§l+§2 Thông Tin vũ khí: §e§l+'
+      - §2 §2 •§6Tàn Bạo:§e +12 điểm.
+      - §2 §2 •§6Thợ săn undead:§e +6 điểm.
+      - §2 §2 •§6Thợ săn arthrop:§e +7 điểm.
+      - §2 §2 •§6Dung nham:§e +7 điểm.
+      - §2 §2 •§6Kiên định:§e +200 điểm.
+      - ''
+      - '§e§l+§2 Thuộc tính Boss owns: §e§l+'
+      - '§7§0§1§r§7Xuyên giáp§0§1§r§7§f§l: §0§2§r§a15.6%§0§2§r§f§l'
+      - '§7§0§1§r§7Tỉ lệ chính xác§0§1§r§7§f§l: §a+§0§2§r§a35.6%§0§2§r§f§l'
+      - ''
+      - §e§l*§2 Kỹ năng BOSS sở hữu §e§l*
+      - '§2§l§0§4§r§2§lLốc xoáy I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      - '§2§l§0§4§r§2§lKiu quạnh I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 12
+        DAMAGE_UNDEAD: 6
+        DAMAGE_ARTHROPODS: 7
+        FIRE_ASPECT: 7
+        LOOT_BONUS_MOBS: 4
+        DURABILITY: 200
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_qctt:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §2§o⚚§2Quan công Trảm Thánh§f♆
+      lore:
+      - '§e§l+§2 Thông Tin vũ khí: §e§l+'
+      - §2 §2 •§6Tàn Bạo:§e +12 điểm.
+      - §2 §2 •§6Thợ săn undead:§e +6 điểm.
+      - §2 §2 •§6Thợ săn arthrop:§e +7 điểm.
+      - §2 §2 •§6Dung nham:§e +7 điểm.
+      - §2 §2 •§6Kiên định:§e +200 điểm.
+      - ''
+      - '§e§l+§2 Thuộc tính Boss owns: §e§l+'
+      - '§7§0§1§r§7Tỉ lệ chính xác§0§1§r§7§f§l: §a+§0§2§r§a36.2%§0§2§r§f§l'
+      - '§7§0§1§r§7Sát thương crits§0§1§r§7§f§l: §0§2§r§a1.77§7x§0§2§r§f§l'
+      - ''
+      - §e§l*§2 Kỹ năng BOSS sở hữu §e§l*
+      - '§2§l§0§4§r§2§lBão điện từ I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      - '§2§l§0§4§r§2§lChém gió/chém bão I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 12
+        DAMAGE_UNDEAD: 6
+        DAMAGE_ARTHROPODS: 7
+        FIRE_ASPECT: 7
+        LOOT_BONUS_MOBS: 4
+        DURABILITY: 200
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_tlcc:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §2§lThanh Long §f✾§2Chém Chuối
+      lore:
+      - '§e§l+§2 Thông Tin vũ khí: §e§l+'
+      - §2 §2 •§6Tàn Bạo:§e +13 điểm.
+      - §2 §2 •§6Thợ săn undead:§e +7 điểm.
+      - §2 §2 •§6Thợ săn arthrop:§e +8 điểm.
+      - §2 §2 •§6Dung nham:§e +8 điểm.
+      - §2 §2 •§6Kiên định:§e +500 điểm.
+      - ''
+      - '§e§l+§2 Thuộc tính Boss owns: §e§l+'
+      - '§7§0§1§r§7Sát thương crits§0§1§r§7§f§l: §0§2§r§a2.0§7x§0§2§r§f§l'
+      - '§7§0§1§r§7Dame pve§0§1§r§7§f§l: §a+§0§2§r§a18.8%§0§2§r§f§l'
+      - ''
+      - §e§l*§2 Kỹ năng BOSS sở hữu §e§l*
+      - '§2§l§0§4§r§2§lCực độc I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      - '§2§l§0§4§r§2§lHoang tưởng I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 13
+        DAMAGE_UNDEAD: 7
+        DAMAGE_ARTHROPODS: 8
+        FIRE_ASPECT: 8
+        LOOT_BONUS_MOBS: 5
+        DURABILITY: 500
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_dkvt:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§l++ §d§lĐao Kiếm §c§m❤❤§5 Vô Tình §e§l++
+      lore:
+      - '§e§l+§2 Thông Tin vũ khí: §e§l+'
+      - §2 §2 •§6Tàn Bạo:§e +13 điểm.
+      - §2 §2 •§6Thợ săn undead:§e +7 điểm.
+      - §2 §2 •§6Thợ săn arthrop:§e +8 điểm.
+      - §2 §2 •§6Dung nham:§e +8 điểm.
+      - §2 §2 •§6Kiên định:§e +500 điểm.
+      - ''
+      - '§e§l+§2 Thuộc tính Boss owns: §e§l+'
+      - '§7§0§1§r§7Sát thương§0§1§r§7§f§l: §0§2§r§a1.6§0§2§r§f§l'
+      - '§7§0§1§r§7Xuyên giáp§0§1§r§7§f§l: §0§2§r§a14.9%§0§2§r§f§l'
+      - ''
+      - §e§l*§2 Kỹ năng BOSS sở hữu §e§l*
+      - '§2§l§0§4§r§2§lLời nguyền ràng buộc I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      - '§2§l§0§4§r§2§lTia bọt biển I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 13
+        DAMAGE_UNDEAD: 7
+        DAMAGE_ARTHROPODS: 8
+        FIRE_ASPECT: 8
+        LOOT_BONUS_MOBS: 5
+        DURABILITY: 500
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_kdr:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6⇱⇲§4Kiếm Diệt Rồng §a✦§8(§cDragon§8)§a✦
+      lore:
+      - '§e§l+§2 Thông Tin vũ khí: §e§l+'
+      - §2 §2 •§6Tàn Bạo:§e +13 điểm.
+      - §2 §2 •§6Thợ săn undead:§e +7 điểm.
+      - §2 §2 •§6Thợ săn arthrop:§e +8 điểm.
+      - §2 §2 •§6Dung nham:§e +8 điểm.
+      - §2 §2 •§6Kiên định:§e +500 điểm.
+      - ''
+      - '§e§l+§2 Thuộc tính Boss owns: §e§l+'
+      - '§7§0§1§r§7Xuyên giáp§0§1§r§7§f§l: §0§2§r§a16.2%§0§2§r§f§l'
+      - '§7§0§1§r§7Dame pve§0§1§r§7§f§l: §a+§0§2§r§a20.9%§0§2§r§f§l'
+      - ''
+      - §e§l*§2 Kỹ năng BOSS sở hữu §e§l*
+      - '§2§l§0§4§r§2§lGiảm tốc II§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      - '§2§l§0§4§r§2§lHấp huyết I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 13
+        DAMAGE_UNDEAD: 7
+        DAMAGE_ARTHROPODS: 8
+        FIRE_ASPECT: 8
+        LOOT_BONUS_MOBS: 5
+        DURABILITY: 500
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_hgtp:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dHồng Gấm §e§l§k§m!!§6 Tiêu phu
+      lore:
+      - '§6♠♠ §2 Thông tin vũ khí: §6 ♠♠'
+      - §2 •§eTiều phu:§6 +5 điểm.
+      - §2 •§eTàn bạo:§6 +11 điểm.
+      - §2 •§eThợ săn Undead:§6 +7 điểm.
+      - §2 •§eThợ săn Arthrop:§6 +6 điểm.
+      - §2 •§eKiên định:§6 +200 điểm.
+      - ''
+      - '§6♢♢ §2 Th.tính Boss owns: §6♢♢'
+      - '§7§0§1§r§7Dame khuếch tán§0§1§r§7§f§l: §0§2§r§a23.6%§0§2§r§f§l'
+      - '§7§0§1§r§7Phạm vi khuếch tán§0§1§r§7§f§l: §0§2§r§a6.0§0§2§r§f§l'
+      - ''
+      - '§c♥♥ §2 Skill Boss owns: §c♥♥'
+      - '§2§l§0§4§r§2§lTia bọt biển I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      - '§2§l§0§4§r§2§lVụ nổ quỷ I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 11
+        DAMAGE_UNDEAD: 7
+        DAMAGE_ARTHROPODS: 6
+        DIG_SPEED: 5
+        DURABILITY: 200
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_tpbc:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Tiều Phu §7࿅§3 Bữa Củi
+      lore:
+      - §6♠♠ §2 Thông tin vũ khí §6 ♠♠
+      - §2 •§eTiều phu:§6 +5 điểm.
+      - §2 •§eTàn bạo:§6 +11 điểm.
+      - §2 •§eThợ săn Undead:§6 +7 điểm.
+      - §2 •§eThợ săn Arthrop:§6 +6 điểm.
+      - §2 •§eKiên định:§6 +200 điểm.
+      - ''
+      - '§6♢♢ §2 Th.tính Boss owns: §6♢♢'
+      - '§7§0§1§r§7Tỉ lệ crits§0§1§r§7§f§l: §0§2§r§a18.9%§0§2§r§f§l'
+      - '§7§0§1§r§7Dame pvp§0§1§r§7§f§l: §a+§0§2§r§a26.5%§0§2§r§f§l'
+      - ''
+      - '§c♥♥ §2 Skill Boss owns: §c♥♥'
+      - '§2§l§0§4§r§2§lThôi miên I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      - '§2§l§0§4§r§2§lHấp huyết I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 11
+        DAMAGE_UNDEAD: 7
+        DAMAGE_ARTHROPODS: 6
+        DIG_SPEED: 5
+        DURABILITY: 200
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_rpq:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Rìu §6§lPhát Quang§3;;
+      lore:
+      - §6♠♠ §2 Thông tin vũ khí §6 ♠♠
+      - §2 •§eTiều phu:§6 +5 điểm.
+      - §2 •§eTàn bạo:§6 +11 điểm.
+      - §2 •§eThợ săn Undead:§6 +7 điểm.
+      - §2 •§eThợ săn Arthrop:§6 +6 điểm.
+      - §2 •§eKiên định:§6 +200 điểm.
+      - ''
+      - '§6♢♢ §2 Th.tính Boss owns: §6♢♢'
+      - '§7§0§1§r§7Tỉ lệ crits§0§1§r§7§f§l: §0§2§r§a17.8%§0§2§r§f§l'
+      - '§7§0§1§r§7Dame pve§0§1§r§7§f§l: §a+§0§2§r§a24.6%§0§2§r§f§l'
+      - ''
+      - '§c♥♥ §2 Skill Boss owns: §c♥♥'
+      - '§2§l§0§4§r§2§lNguyền rủa bóng đêm I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      - '§2§l§0§4§r§2§lMệt mỏi I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 11
+        DAMAGE_UNDEAD: 7
+        DAMAGE_ARTHROPODS: 6
+        DIG_SPEED: 5
+        DURABILITY: 200
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_rqn:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bRìu Quảng Ngục§9༻
+      lore:
+      - §6♠♠ §2 Thông tin vũ khí §6 ♠♠
+      - §2 •§eTiều phu:§6 +5 điểm.
+      - §2 •§eTàn bạo:§6 +12 điểm.
+      - §2 •§eThợ săn Undead:§6 +8 điểm.
+      - §2 •§eThợ săn Arthrop:§6 +7 điểm.
+      - §2 •§eKiên định:§6 +300 điểm.
+      - ''
+      - '§6♢♢ §2 Th.tính Boss owns: §6♢♢'
+      - '§7§0§1§r§7Xuyên giáp§0§1§r§7§f§l: §0§2§r§a16.7%§0§2§r§f§l'
+      - '§7§0§1§r§7Dame pve§0§1§r§7§f§l: §a+§0§2§r§a21.5%§0§2§r§f§l'
+      - ''
+      - '§c♥♥ §2 Skill Boss owns: §c♥♥'
+      - '§2§l§0§4§r§2§lHắc hỏa I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      - '§2§l§0§4§r§2§lGiảm tốc III§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 12
+        DAMAGE_UNDEAD: 8
+        DAMAGE_ARTHROPODS: 7
+        DIG_SPEED: 5
+        DURABILITY: 300
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_mcx:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §2Máy Chém §c☠ §9Xọ
+      lore:
+      - §6♠♠ §2 Thông tin vũ khí §6 ♠♠
+      - §2 •§eTiều phu:§6 +5 điểm.
+      - §2 •§eTàn bạo:§6 +12 điểm.
+      - §2 •§eThợ săn Undead:§6 +8 điểm.
+      - §2 •§eThợ săn Arthrop:§6 +7 điểm.
+      - §2 •§eKiên định:§6 +300 điểm.
+      - ''
+      - '§6♢♢ §2 Th.tính Boss owns: §6♢♢'
+      - '§7§0§1§r§7Sát thương crits§0§1§r§7§f§l: §0§2§r§a1.8§7x§0§2§r§f§l'
+      - '§7§0§1§r§7Dame pve§0§1§r§7§f§l: §a+§0§2§r§a22.1%§0§2§r§f§l'
+      - ''
+      - '§c♥♥ §2 Skill Boss owns: §c♥♥'
+      - '§2§l§0§4§r§2§lTác động đen I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      - '§2§l§0§4§r§2§lLời nguyền ràng buộc I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 12
+        DAMAGE_UNDEAD: 8
+        DAMAGE_ARTHROPODS: 7
+        DIG_SPEED: 5
+        DURABILITY: 300
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_tlb:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §2Tàng §e♔ §cLong Búa
+      lore:
+      - §6♠♠ §2 Thông tin vũ khí §6 ♠♠
+      - §2 •§eTiều phu:§6 +5 điểm.
+      - §2 •§eTàn bạo:§6 +12 điểm.
+      - §2 •§eThợ săn Undead:§6 +8 điểm.
+      - §2 •§eThợ săn Arthrop:§6 +7 điểm.
+      - §2 •§eKiên định:§6 +300 điểm.
+      - ''
+      - '§6♢♢ §2 Th.tính Boss owns: §6♢♢'
+      - '§7§0§1§r§7Tỉ lệ chính xác§0§1§r§7§f§l: §a+§0§2§r§a42.6%§0§2§r§f§l'
+      - '§7§0§1§r§7Sát thương crits§0§1§r§7§f§l: §0§2§r§a1.8§7x§0§2§r§f§l'
+      - ''
+      - '§c♥♥ §2 Skill Boss owns: §c♥♥'
+      - '§2§l§0§4§r§2§lHoa lửa I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      - '§2§l§0§4§r§2§lCực độc I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 12
+        DAMAGE_UNDEAD: 8
+        DAMAGE_ARTHROPODS: 7
+        DIG_SPEED: 5
+        DURABILITY: 300
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_enhancer:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §eRìu Nông Dân §l⚘§6enhancer
+      lore:
+      - §6♠♠ §2 Thông tin vũ khí §6 ♠♠
+      - §2 •§eTiều phu:§6 +6 điểm.
+      - §2 •§eTàn bạo:§6 +13 điểm.
+      - §2 •§eThợ săn Undead:§6 +9 điểm.
+      - §2 •§eThợ săn Arthrop:§6 +8 điểm.
+      - §2 •§eKiên định:§6 +350 điểm.
+      - ''
+      - '§6♢♢ §2 Th.tính Boss owns: §6♢♢'
+      - '§7§0§1§r§7Sát thương§0§1§r§7§f§l: §0§2§r§a1.8§0§2§r§f§l'
+      - '§7§0§1§r§7Tỉ lệ chính xác§0§1§r§7§f§l: §a+§0§2§r§a45.6%§0§2§r§f§l'
+      - ''
+      - '§c♥♥ §2 Skill Boss owns: §c♥♥'
+      - '§2§l§0§4§r§2§lBánh xe lửa I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      - '§2§l§0§4§r§2§lBão điện từ I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 13
+        DAMAGE_UNDEAD: 9
+        DAMAGE_ARTHROPODS: 8
+        DIG_SPEED: 6
+        DURABILITY: 350
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_bct:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lBúa §6§o⚚ §eChiến Thần
+      lore:
+      - §6♠♠ §2 Thông tin vũ khí §6 ♠♠
+      - §2 •§eTiều phu:§6 +6 điểm.
+      - §2 •§eTàn bạo:§6 +13 điểm.
+      - §2 •§eThợ săn Undead:§6 +9 điểm.
+      - §2 •§eThợ săn Arthrop:§6 +8 điểm.
+      - §2 •§eKiên định:§6 +350 điểm.
+      - ''
+      - '§6♢♢ §2 Th.tính Boss owns: §6♢♢'
+      - '§7§0§1§r§7Tỉ lệ crits§0§1§r§7§f§l: §0§2§r§a20.0%§0§2§r§f§l'
+      - '§7§0§1§r§7Xuyên giáp§0§1§r§7§f§l: §0§2§r§a17.6%§0§2§r§f§l'
+      - ''
+      - '§c♥♥ §2 Skill Boss owns: §c♥♥'
+      - '§2§l§0§4§r§2§lHàn băng II§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      - '§2§l§0§4§r§2§lLốc xoáy I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 13
+        DAMAGE_UNDEAD: 9
+        DAMAGE_ARTHROPODS: 8
+        DIG_SPEED: 6
+        DURABILITY: 350
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_rdr:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §e§lRìu §3§m§o⚚§c Diệt Rồng §a✦✦(§2DRAGON§a)✦✦
+      lore:
+      - §6♠♠ §2 Thông tin vũ khí §6 ♠♠
+      - §2 •§eTiều phu:§6 +6 điểm.
+      - §2 •§eTàn bạo:§6 +13 điểm.
+      - §2 •§eThợ săn Undead:§6 +9 điểm.
+      - §2 •§eThợ săn Arthrop:§6 +8 điểm.
+      - §2 •§eKiên định:§6 +350 điểm.
+      - ''
+      - '§6♢♢ §2 Th.tính Boss owns: §6♢♢'
+      - '§7§0§1§r§7Sát thương crits§0§1§r§7§f§l: §0§2§r§a2.1§7x§0§2§r§f§l'
+      - '§7§0§1§r§7Xuyên giáp§0§1§r§7§f§l: §0§2§r§a17.8%§0§2§r§f§l'
+      - ''
+      - '§c♥♥ §2 Skill Boss owns: §c♥♥'
+      - '§2§l§0§4§r§2§lVết thương đâu I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      - '§2§l§0§4§r§2§lTuyệt thực I§0§4§r§2§l: §a§0§5§r§a100.0§0§5§r§a%'
+      enchants:
+        DAMAGE_ALL: 13
+        DAMAGE_UNDEAD: 9
+        DAMAGE_ARTHROPODS: 8
+        DIG_SPEED: 6
+        DURABILITY: 350
+      ItemFlags:
+      - HIDE_ENCHANTS
+it_qnt:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §f§2Chúc mừng bạn đã §eNạp lần đầu
+      lore:
+      - ''
+      - §2 §2 §2 ☘ §eBên trong §2☘
+      - ''
+      - §9-§f x1§6§l Cúp chiến thần
+      - §9-§f x1§e§l Thợ mỏ minion
+      - §9-§f x1 rương§2§l Emerald
+      - §9-§f x1 rương§b Diamond
+      - §9-§f x3 bản vẽ§b Diamond
+      - §9-§f x1 stand§b§l Crazy Diamond
+      - §9-§f x3 bản vẽ§b Diamond
+      - ''
+      - §eLOẠI VẬT PHẨM§a clickable
+      internal: H4sIAAAAAAAAAE2Py26CQBiF/zZpYkkfo1uSGRUqCxe94hAZCgLK7Lj8BIfBGoUWeK4+YFl2d76c7yyOBqDBw67ulPq8fJVHhTO4ZQU8mjmmVmHlemqRlb5EnBI1USdlkZEcKS2zlQbaNDrjpT3i9R5mLfZtd8GrBgA3M7iLU9Uh/OLgEHGoSHFwVD4wc+JwR5TH5PmJneIhe2Uma6Z+82xuB+ufa7Tp3lDJwqnEye+yJibbRaBwE9C8ib4TKapkLiSX/ihk8uPZUc+bQLlhPbpjXAubV3z8qLw3thS2OHp2MPnvlI/1KPaMJo0jE/ki+dzveRgZrvQNdqJW6a/X0wP4A8eJz0kcAQAA
+it_extender:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: WATCH
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §b§lPhụ kiện gia hạn §6extender
+      lore:
+      - ''
+      - §7 Dùng để gia hạn 1 vật phẩm có
+      - §7 thời hạn sử dụng.
+      - ''
+      - §e§l THỜI GIAN GIA HẠN THÊM:§7 1 ngày.
+      - ''
+      - §a§l CÁCH DÙNG:§7 kéo thả vào item cần
+      - §7 gia hạn (vô hiệu với item ko có timed)
+bp_netherit:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §8§lĐá netherit
+      lore:
+      - §dThu thập:§c mốc quà tích lũy §41m
+      - ''
+      - '§eĐánh giá: §a✫✫✫✫✫✫✫✫§7✫✫'
+      - ''
+      - §f Dùng để mở khóa bảo pháp (unique)
+      - §f tại giao diện unique §e(/unique)
+      - ''
+      - §6⇢⇢ Nhớ bỏ item vào túi§e§l E§6 khi unlock
+      - '§e⇢ Sau khi mở bảo pháp bạn phải gõ lệnh:'
+      - §e/uniques để kích hoạt nó mới nhận được
+      - §ethuộc tính riêng của nó.
+      internal: H4sIAAAAAAAAAE2PyW6DMBiE/1aqRFEfo1ckY9Yceoi6JEYxFEIJ5sZiEsBOIwJV4Ln6gOXY48x8M9KoACo87btRiM/+u24EV+CeVPCcmxauHcQ11+KGZpa1qxUIV1ptO2all65uY1cFdSldeD80/PoIysBvw9jzqwoAdwo8JLkYOfzyyUNZekJV6olyIvai4z0SAWkvDjknU/FKbCKXfLu2d9PqH2sN+cESzPBO2TkcC5mgnREJvo30Un79sPho0LdOz+SHpDO9+fNxprEn/fZ9CjbEYjhE7JC1fkxmuokav10vHsF07jDFmWQyEkwmMohDk8ZVs2wYdPJWdYpelgfwBzBudwkcAQAA
+vk_trash1:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aRìu §bThần Khí
+      lore:
+      - §r §f[§d۩§f] §aThông Tin §f[§d۩§f]
+      - §3☛ §2Hiệu quả §7( §f+3 §7)
+      - §3☛ §2Chậm hỏng §7( §f+3 §7)
+      - §3☛ §2Sắt bén §7( §f+1 §7)
+      - ''
+      - §r §f๑ §3Hổ trợ §f๑
+      - '§dBUFF: §7§0§3§r§7May mắn (§a☘§7) I§0§3§r§7'
+      enchants:
+        DAMAGE_ALL: 1
+        DIG_SPEED: 3
+        DURABILITY: 3
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_trash2:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aCúp §bThần Khí
+      lore:
+      - §r §f[§d۩§f] §aThông Tin §f[§d۩§f]
+      - §3☛ §2Hiệu quả §7( §f+2 §7)
+      - §3☛ §2Chậm hỏng §7( §f+1 §7)
+      - §3☛ §2Gia tài §7( §f+1 §7)
+      - '§f-> §6Tiến trình: §bThần khí §c+1'
+      enchants:
+        DIG_SPEED: 2
+        DURABILITY: 1
+        LOOT_BONUS_BLOCKS: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_trash3:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aCúp §bThần Khí §c+1
+      lore:
+      - §r §f[§d۩§f] §aThông Tin §f[§d۩§f]
+      - §3☛ §2Hiệu quả §7( §f+3 §7)
+      - §3☛ §2Chậm hỏng §7( §f+2 §7)
+      - §3☛ §2Gia tài §7( §f+2 §7)
+      - '§f-> §6Tiến trình: §bThần khí §c+2'
+      enchants:
+        DIG_SPEED: 3
+        DURABILITY: 2
+        LOOT_BONUS_BLOCKS: 2
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_trash4:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aCúp §bThần Khí §c+2
+      lore:
+      - §r §f[§d۩§f] §aThông Tin §f[§d۩§f]
+      - §3☛ §2Hiệu quả §7( §f+4 §7)
+      - §3☛ §2Chậm hỏng §7( §f+3 §7)
+      - §3☛ §2Gia tài §7( §f+3 §7)
+      - '§f-> §6Tiến trình: §bThần khí §c+3'
+      enchants:
+        DIG_SPEED: 4
+        DURABILITY: 3
+        LOOT_BONUS_BLOCKS: 3
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_trash5:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aCúp §bThần Khí §c+3
+      lore:
+      - §r §f[§d۩§f] §aThông Tin §f[§d۩§f]
+      - §3☛ §2Hiệu quả §7( §f+5 §7)
+      - §3☛ §2Chậm hỏng §7( §f+4 §7)
+      - §3☛ §2Gia tài §7( §f+4 §7)
+      - ''
+      - §r §f๑ §3Hổ trợ §f๑
+      - '§dBUFF: §7§0§3§r§7May mắn (§a☘§7) I§0§3§r§7'
+      - '§f-> §6Tiến trình: §bThần khí §c(Max)'
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 4
+        LOOT_BONUS_BLOCKS: 4
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_trash6:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aCúp §bThần Khí §c(Max)
+      lore:
+      - §r §f[§d۩§f] §aThông Tin §f[§d۩§f]
+      - §3☛ §2Hiệu quả §7( §f+6 §7)
+      - §3☛ §2Chậm hỏng §7( §f+5 §7)
+      - §3☛ §2Gia tài §7( §f+5 §7)
+      - ''
+      - §r §f๑ §3Hổ trợ §f๑
+      - '§dBUFF: §7§0§3§r§7Smpk (§6§l⚚§7) I§0§3§r§7'
+      - '§dBUFF: §7§0§3§r§7May mắn (§a☘§7) II§0§3§r§7'
+      - '§f-> §6Tiến trình: §7[§bHết§7]'
+      enchants:
+        DIG_SPEED: 6
+        DURABILITY: 5
+        LOOT_BONUS_BLOCKS: 5
+      ItemFlags:
+      - HIDE_ENCHANTS
+vk_sw:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: WOOD_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §4Kỵ sĩ Dragon SW §6☆☆☆§7☆☆☆☆☆☆☆
+      lore:
+      - §9Tàn bạo §8[§6XI§8]
+      - §7Tăng 12.5% STVL với mỗi cộng dồn Tàn
+      - §7Bạo.
+      - §9Dung nham §8[§6V§8]
+      - §7Thiêu đốt kẻ địch +3s với mỗi cộng
+      - §7Dung Nham.
+      - §9Kiên Định §8[§6X§8]
+      - §7Tăng độ chậm hỏng trang bị > x10 lần
+      - §7so với trang bị thông thường.
+      - §9Thợ săn tiền thưởng §8[§6II§8]
+      - §7ᴛăng rơi +(1-2) vật phẩm khi giết quái
+      - §7vanilla.
+      - ''
+      - '§7§0§1§r§7Tỉ lệ chính xác§0§1§r§7§f§l: §a+§0§2§r§a18.85%§0§2§r§f§l'
+      - '§7§0§1§r§7Sát thương§0§1§r§7§f§l: §0§2§r§a1.1§0§2§r§f§l'
+      enchants:
+        DAMAGE_ALL: 11
+        FIRE_ASPECT: 5
+        LOOT_BONUS_MOBS: 2
+        DURABILITY: 10
+      ItemFlags:
+      - HIDE_ENCHANTS
+bvd:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: PAINTING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §bBản vẽ §lDIAMOND
+      lore:
+      - ''
+      - §7 Dùng để tự động xây nhà, bạn chỉ
+      - §7 cần tìm chỗ trống và sử dụng nó
+      - ''
+      - §b§l VẬT LIỆU
+      - §7 - Diamond block §8(§71329§8)
+      - §b§l KÍCH THƯỚC
+      - §7 - Lập phương 11 §8(§7dài-rộng-cao 11§8)
+      - ''
+      - §b§l SỬ DỤNG
+      - §7 Tìm 1 khu đất trống dài rộng cao 11m
+      - §7 ko có vật cản xung quanh. Cầm b.v
+      - §7 click phải để xây dựng công trình.
+      - ''
+      - §eLOẠI VẬT PHẨM §aclickable
+bve:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: PAINTING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §2Bản vẽ §lEMERALD
+      lore:
+      - ''
+      - §7 Dùng để tự động xây nhà, bạn chỉ
+      - §7 cần tìm chỗ trống và sử dụng nó
+      - ''
+      - §2§l VẬT LIỆU
+      - §7 - Emerald block §8(§71329§8)
+      - §2§l KÍCH THƯỚC
+      - §7 - Lập phương 11 §8(§7dài-rộng-cao 11§8)
+      - ''
+      - §2§l SỬ DỤNG
+      - §7 Tìm 1 khu đất trống dài rộng cao 11m
+      - §7 ko có vật cản xung quanh. Cầm b.v
+      - §7 click phải để xây dựng công trình.
+      - ''
+      - §eLOẠI VẬT PHẨM §aclickable
+bvg:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: PAINTING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §eBản vẽ §lGOLD
+      lore:
+      - ''
+      - §7 Dùng để tự động xây nhà, bạn chỉ
+      - §7 cần tìm chỗ trống và sử dụng nó
+      - ''
+      - §e§l VẬT LIỆU
+      - §7 - Gold block §8(§71329§8)
+      - §e§l KÍCH THƯỚC
+      - §7 - Lập phương 11 §8(§7dài-rộng-cao 11§8)
+      - ''
+      - §e§l SỬ DỤNG
+      - §7 Tìm 1 khu đất trống dài rộng cao 11m
+      - §7 ko có vật cản xung quanh. Cầm b.v
+      - §7 click phải để xây dựng công trình.
+      - ''
+      - §eLOẠI VẬT PHẨM §aclickable
+bvi:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: PAINTING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §fBản vẽ §lIRON
+      lore:
+      - ''
+      - §7 Dùng để tự động xây nhà, bạn chỉ
+      - §7 cần tìm chỗ trống và sử dụng nó
+      - ''
+      - §f§l VẬT LIỆU
+      - §7 - Iron block §8(§71329§8)
+      - §f§l KÍCH THƯỚC
+      - §7 - Lập phương 11 §8(§7dài-rộng-cao 11§8)
+      - ''
+      - §f§l SỬ DỤNG
+      - §7 Tìm 1 khu đất trống dài rộng cao 11m
+      - §7 ko có vật cản xung quanh. Cầm b.v
+      - §7 click phải để xây dựng công trình.
+      - ''
+      - §eLOẠI VẬT PHẨM §aclickable
+bvo:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: PAINTING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §dBản vẽ §lOBSIDIAN
+      lore:
+      - ''
+      - §7 Dùng để tự động xây nhà, bạn chỉ
+      - §7 cần tìm chỗ trống và sử dụng nó
+      - ''
+      - §d§l VẬT LIỆU
+      - §7 - Obsidian block §8(§71329§8)
+      - §d§l KÍCH THƯỚC
+      - §7 - Lập phương 11 §8(§7dài-rộng-cao 11§8)
+      - ''
+      - §d§l SỬ DỤNG
+      - §7 Tìm 1 khu đất trống dài rộng cao 11m
+      - §7 ko có vật cản xung quanh. Cầm b.v
+      - §7 click phải để xây dựng công trình.
+      - ''
+      - §eLOẠI VẬT PHẨM §aclickable
+it_tinhhoa:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: INK_SACK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§lTinh hoa §8§lĐen
+      lore:
+      - ''
+      - §2●§7Đánh giá:§a ☆☆☆☆☆§7☆☆☆☆☆
+      - §a●§7 Vật phẩm dùng để cường hóa các tr.bị
+      - §7 khởi đầu. Chỉ sử dụng đc trong giao diện
+      - §7 cường hóa.
+      - ''
+      - §c§l[VẬT PHẨM BỊ ĐỘNG]
+it_switchkey:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: TRIPWIRE_HOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §5Chìa khóa §lphù thuỷ
+      lore:
+      - ''
+      - §7 Dùng mở rương báu vật của pháp sư
+      - §7 Sử dụng chìa khóa tại§a warp crates
+      - ''
+      - '§a§lThu thập:'
+      - §7 Hoạt động boss hoặc quái rơi đồ..
+      - ''
+      - §eLOẠI VẬT PHẨM§a storage
+      internal: H4sIAAAAAAAAAONiYOBgEHQuSqyqBBIlqcW6YIqBvSCjtCSjtJIBAA/8tZ0hAAAA

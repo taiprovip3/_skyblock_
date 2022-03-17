@@ -1,0 +1,179 @@
+#-----=====[ Main Data ]=====-----#
+
+#Max_Grade: Cấp cao nhất của kĩ năng
+#Base_Duration_Effect: Thời hạn của hiệu ứng của kĩ năng
+#Scale_Duration_Effect: Thời gian bổ sung cho mỗi cấp độ
+#Scale_Base_Bonus_Damage: Additional bonus damage per grade when ability is casted
+#Scale_Base_Percent_Damage: Phần trăm sát thương thêm (Dựa trên sát thương cơ bản) khi kĩ năng được dùng
+#Scale_Cast_Bonus_Damage: Sát thương thêm của các kĩ năng hiệu ứng (Như là sát thương khi nổ (explosion), Sát thương khi bị nguyền(spread))
+#Scale_Cast_Percent_Damage: Sát thương của các kĩ năng hiệu ứng dựa trên sát thương cơ bản
+
+#-----=====[ Attributes ]=====-----#
+
+#Flame: Đốt cháy kẻ thù [Cấp] [Thời gian]
+#Poison: Làm cho địch dính độc [Cấp] [Thời gian] [Sát thương cơ bản]
+#Wither: Làm cho địch bị nguyền rủa [Cấp] [Thời gian] [Sát thương cơ bản]
+#Lightning: Đánh sét xuống kẻ thù [Cấp] [Sát thương cơ bản]
+#Cannibalism: Ăn thịt kẻ thù [Cấp] [Sát thương cơ bản]
+#Vampirism: Hút máu kẻ thù [Cấp] [Sát thương cơ bản]
+#Freeze: Làm kẻ thù không di chuyễn được [Cấp] [Thời gian] [Sát thương cơ bản]
+#Roots: Làm cho kẻ thù bị kéo xuống đất [Cấp] [Thời gian] [Sát thương cơ bản]
+#Curse: Làm cho kẻ thù không thể hồi máu [Cấp] [Thời gian] [Sát thương cơ bản]
+#Slowness: Làm chậm kẻ thù [Cấp] [Thời gian] [Sát thương cơ bản]
+#Fatigue: Làm mệt kẻ thù [Cấp] [Thời gian] [Sát thương cơ bản]
+#Confuse: Làm kẻ thù chóng mặt [Cấp] [Thời gian] [Sát thương cơ bản]
+#Weakness: Suy yếu kẻ thù [Cấp] [Thời gian] [Sát thương cơ bản]
+#Blind: Làm mù kẻ thù [Cấp] [Thời gian] [Sát thương cơ bản]
+#Hungry: Làm đói kẻ thù [Cấp] [Thời gian] [Sát thương cơ bản]
+#Levitation: Tạo môi trường phản trọng lực cho kẻ thù [Cấp] [Thời gian] [Sát thương cơ bản] [V1.9 hay cao hơn]
+#Badluck: Làm kẻ thù gặp xui xẻo [Cấp] [Thời gian] [Sát thương cơ bản] [V1.9 hay cao hơn]
+#Harm: Sát thương kẻ thù [Cấp] [Thời gian] [Sát thương cơ bản]
+#Flame_Wheel: Bắn một vòng lửa và đốt cháy kẻ thù [Cấp] [Thời gian] [Sát thương cơ bản]
+#Air_Shock: Đẩy lùi và thổi kẻ thù đi [Cấp] [Sát thương cơ bản]
+#Dark_Flame: Đốt cháy kẻ thù với hắc hỏa(Không thể tắt) [Cấp] [Thời gian] [Sát thương cơ bản] [Sát thương]
+#Dark_Impact: Làm cho kẻ thù chóng mặt là đổi vị trí tương tác với game [Cấp] [Sát thương cơ bản]
+#Venom_Spread: Đầu độc kẻ thù và lan đến kẻ thù xung quanh [Cấp] [Thời gian] [Sát thương cơ bản] [Sát thương]
+#Venom_Blast: Tạo ra độc nổ... Hết tác dụng sẽ nổ *Boom* [Cấp] [Thời gian] [Sát thương cơ bản] [Sát thương]
+#Bubble_Deflector: Bắn ra các tia bong bóng, gây sát thương trên đường thẳng [Cấp] [Thời gian] [Sát thương cơ bản] [Sát thương]
+
+#-----=====[ Ability Configuration ]=====-----#
+
+Air_Shock:
+  Max_Grade: 10
+  Scale_Base_Additional_Damage: 0.5
+  Scale_Base_Percent_Damage: 5.0
+  
+Bad_Luck:
+  Max_Grade: 10
+  Base_Duration_Effect: 60
+  Scale_Duration_Effect: 30
+  
+Blind:
+  Max_Grade: 10
+  Base_Duration_Effect: 40
+  Scale_Duration_Effect: 20
+  
+Bubble_Deflector:
+  Max_Grade: 10
+  Base_Duration_Effect: 20
+  Scale_Duration_Effect: 18
+  Scale_Base_Bonus_Damage: 1.0
+  Scale_Base_Percent_Damage: 3.5
+  Scale_Cast_Bonus_Damage: 0.5
+  Scale_Cast_Percent_Damage: 5.0
+
+Cannibalism:
+  Max_Grade: 10
+  
+Confuse:
+  Max_Grade: 10
+  Base_Duration_Effect: 40
+  Scale_Duration_Effect: 20
+  
+Curse:
+  Max_Grade: 10
+  Base_Duration_Effect: 20
+  Scale_Duration_Effect: 10
+  Scale_Base_Bonus_Damage: 0.5
+  Scale_Base_Percent_Damage: 2.5
+  
+Dark_Flame:
+  Max_Grade: 10
+  Base_Duration_Effect: 50
+  Scale_Duration_Effect: 10
+  Scale_Cast_Percent_Damage: 5
+
+Dark_Impact:
+  Max_Grade: 10
+  Scale_Base_Bonus_Damage: 0.5
+  Scale_Base_Percent_Damage: 10
+
+Flame:
+  Max_Grade: 10
+  Base_Duration_Effect: 60
+  Scale_Duration_Effect: 24
+
+Flame_Wheel:
+  Max_Grade: 10
+  Base_Duration_Effect: 60
+  Scale_Duration_Effect: 15
+  Scale_Base_Bonus_Damage: 0.4
+  Scale_Base_Percent_Damage: 8
+
+Freeze:
+  Max_Grade: 10
+  Base_Duration_Effect: 30
+  Scale_Duration_Effect: 10
+  Scale_Base_Bonus_Damage: 0.2
+  Scale_Base_Percent_Damage: 4
+
+Harm:
+  Max_Grade: 10
+  Base_Duration_Effect: 10
+  Scale_Duration_Effect: 2
+
+Hungry:
+  Max_Grade: 10
+  Base_Duration_Effect: 40
+  Scale_Duration_Effect: 20
+
+Levitation:
+  Max_Grade: 10
+  Base_Duration_Effect: 30
+  Scale_Duration_Effect: 12
+
+Lightning:
+  Max_Grade: 10
+  Scale_Base_Bonus_Damage: 2
+  Scale_Base_Percent_Damage: 15
+
+Poison:
+  Max_Grade: 10
+  Base_Duration_Effect: 40
+  Scale_Duration_Effect: 20
+  
+Roots:
+  Max_Grade: 10
+  Base_Duration_Effect: 20
+  Scale_Duration_Effect: 10
+
+Slow:
+  Max_Grade: 10
+  Base_Duration_Effect: 40
+  Scale_Duration_Effect: 20
+  
+Tired:
+  Max_Grade: 10
+  Base_Duration_Effect: 40
+  Scale_Duration_Effect: 20
+  
+Vampirism:
+  Max_Grade: 10
+  
+Venom_Blast:
+  Max_Grade: 10
+  Base_Duration_Effect: 20
+  Scale_Duration_Effect: 5
+  Scale_Base_Bonus_Damage: 0
+  Scale_Base_Percent_Damage: 10
+  Scale_Cast_Bonus_Damage: 0.5
+  Scale_Cast_Percent_Damage: 10
+  
+Venom_Spread:
+  Max_Grade: 10
+  Base_Duration_Effect: 40
+  Scale_Duration_Effect: 10
+  Scale_Base_Bonus_Damage: 0
+  Scale_Base_Percent_Damage: 5
+  Scale_Cast_Bonus_Damage: 0
+  Scale_Cast_Percent_Damage: 5
+  
+Weak:
+  Max_Grade: 10
+  Base_Duration_Effect: 40
+  Scale_Duration_Effect: 20
+  
+Wither:
+  Max_Grade: 10
+  Base_Duration_Effect: 30
+  Scale_Duration_Effect: 15

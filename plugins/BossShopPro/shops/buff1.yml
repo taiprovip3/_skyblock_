@@ -1,0 +1,99 @@
+ShopName: buff1
+DisplayName: '&8Server &9()&8 Buff thuộc tính'
+Sound:
+  Shop:
+    Open: ENTITY_ITEM_PICKUP:1:1
+    ChangeShop: ENTITY_ITEM_PICKUP:1:1
+shop:
+  speed:
+    MenuItem:
+    - type:leather_boots
+    - name:&6&lThần Tốc
+    - 'lore2:&aHiệu quả:&7 cho hiệu ứng Tăng Tốc lv1 trong thời gian tối đa 15 minutes.'
+    - 'lore4:&aTrừng phạt:&7 khi bạn thoát máy chủ, chết'
+    - 'lore6:&7Click vào để sử dụng'
+    RewardType: opcommand
+    Reward:
+    - effect %player% 1 600
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&aBạn nhận được buff thần tốc 15m.'
+    ExtraPermission: ''
+    InventoryLocation: 1
+  haste:
+    MenuItem:
+    - type:285
+    - name:&6&lThợ Mỏ
+    - 'lore2:&aHiệu quả:&7 cho hiệu ứng Đào Nhanh lv1 trong thời gian tối đa 15 minutes.'
+    - 'lore4:&aTrừng phạt:&7 khi bạn thoát máy chủ, chết'
+    - 'lore6:&7Click vào để sử dụng'
+    RewardType: opcommand
+    Reward:
+    - effect %player% 3 600
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&aBạn nhận được buff thợ mỏ 15m.'
+    ExtraPermission: ''
+    InventoryLocation: 2
+  strength:
+    MenuItem:
+    - type:268
+    - name:&6&lSức Mạnh
+    - 'lore2:&aHiệu quả:&7 cho hiệu ứng Tăng Dame lv1 trong thời gian tối đa 15 minutes.'
+    - 'lore4:&aTrừng phạt:&7 khi bạn thoát máy chủ, chết'
+    - 'lore6:&7Click vào để sử dụng'
+    RewardType: opcommand
+    Reward:
+    - effect %player% 5 600
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&aBạn nhận được buff sức mạnh 15m.'
+    ExtraPermission: ''
+    InventoryLocation: 3
+  regeneration:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJlOGUwYjQ0ZDFlYzFhYTY2ODRjNTQxMTI4ODczOGM5M2E5OTdjZmViZDE1ZmI3NmJmODZhOWVlZGE3NTMifX19=
+    - name:&6&lThần Dược
+    - 'lore2:&aHiệu quả:&7 cho hiệu ứng Hồi Máu lv1 trong thời gian tối đa 15 minutes.'
+    - 'lore4:&aTrừng phạt:&7 khi bạn thoát máy chủ, chết'
+    - 'lore6:&7Click vào để sử dụng'
+    RewardType: opcommand
+    Reward:
+    - effect %player% 10 600
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&aBạn nhận được buff thần được 15m.'
+    ExtraPermission: ''
+    InventoryLocation: 4
+  fire:
+    MenuItem:
+    - type:377
+    - name:&6&lHỏa Thần
+    - 'lore2:&aHiệu quả:&7 cho hiệu ứng Kháng Lửa lv1 trong thời gian tối đa 15 minutes.'
+    - 'lore4:&aTrừng phạt:&7 khi bạn thoát máy chủ, chết'
+    - 'lore6:&7Click vào để sử dụng'
+    RewardType: opcommand
+    Reward:
+    - effect %player% 12 600
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&aBạn nhận được buff hỏa thần 15m.'
+    ExtraPermission: ''
+    InventoryLocation: 5
+  invisibility:
+    MenuItem:
+    - type:441
+    - name:&6&lNgụy Trang
+    - 'lore2:&aHiệu quả:&7 cho hiệu ứng Tàng Hình trong thời gian tối đa 15 minutes.'
+    - 'lore4:&aTrừng phạt:&7 khi bạn thoát máy chủ, chết'
+    - 'lore6:&aThông tin khác:&7 tàng hình nhưng vẫn packet (nếu bạn có mặc giáp, trang bị tay cầm chúng sẽ bị lộ)'
+    - 'lore8:&7Click vào để sử dụng'
+    RewardType: opcommand
+    Reward:
+    - effect %player% 14 600
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&aBạn nhận được buff ngụy trang 15m.'
+    ExtraPermission: ''
+    InventoryLocation: 6

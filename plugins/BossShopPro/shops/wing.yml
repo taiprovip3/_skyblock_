@@ -1,0 +1,349 @@
+ShopName: wing
+DisplayName: '&8Server&1 ♠&8 Cánh'
+Command: wing
+Sound:
+  Shop:
+    Open: ENTITY_PLAY_LEVELUP:1:1
+    ChangeShop: ENTITY_PLAY_LEVELUP:1:1
+shop:
+  1:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNiZGU0MzExMWY2OWE3ZmRhNmVjNmZhZjIyNjNjODI3OTYxZjM5MGQ3YzYxNjNlZDEyMzEwMzVkMWIwYjkifX19
+    - 'name:&6&lBẬC I &f Cánh tuyết &2ઉ'
+    - 'lore2:&e +2.800 &7điểm Sức mạnh'
+    - 'lore4:&eThu thập:&7 quà tăng cấp 30.'
+    - 'lore6:&eGiới thiệu:&7 Được xây dựng từ 1 thế giới digital, thực ảo (3D) mang sương băng lạnh buốt.'
+    - 'lore8:&aCLICKABLE&7 vào để mặc'
+    RewardType: command
+    Reward:
+    - gadgetsmenu equip cloak Frosty %player%
+    ExtraPermission: 'gadgetsmenu.cloaks.frosty'
+    InventoryLocation: 13
+  2:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - amount:2
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGJkZjU2NDhmNGU2ZTNiNTJjOWRhZGQ3YThiYmY1NWY0YWJhN2MxM2MyNWUzMWY0YzI3NTFkMjEzZGJkOWE2In19fQ===
+    - 'name:&6&lBẬC II &c Áo Choàng Lửa &2ઉ'
+    - 'lore2:&e +6.000 &7điểm Sức mạnh'
+    - 'lore4:&eThu thập:&7 tiến hóa từ đôi cánh I.'
+    - 'lore6:&eGiới thiệu:&7 Mang sức nóng từ lửa khoác sau lưng xua tan cái lạnh bắng giá mùa winter.'
+    - 'lore8:&aCLICKABLE&7 vào để mặc'
+    RewardType: command
+    Reward:
+    - gadgetsmenu equip cloak Superhero %player%
+    ExtraPermission: 'gadgetsmenu.cloaks.superhero'
+    InventoryLocation: 15
+  3:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - amount:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZkY2MwNjhmNjIwNmY5YjRjMmMzZDNjNjRjMDk1N2FjYjUxYjExZmNlNTEyYTZmNDk4NDgzNjg2OWYwIn19fQ===
+    - 'name:&6&lBẬC III &7 Cánh pháp Sư đại Tài &2ઉ'
+    - 'lore2:&e +15.000 &7điểm Sức mạnh'
+    - 'lore4:&eThu thập:&7 tiến hóa từ đôi cánh II.'
+    - 'lore6:&eGiới thiệu:&7 là của 1 vị phù thủy độc ác nhưng đại tài trong nghành y dược, phép thuật. Như 1 đôi cánh kỹ thuật số lẫn linh hồn wtich xung quanh'
+    - 'lore8:&aCLICKABLE&7 vào để mặc'
+    RewardType: command
+    Reward:
+    - gadgetsmenu equip cloak Mystical %player%
+    ExtraPermission: 'gadgetsmenu.cloaks.mystical'
+    InventoryLocation: 21
+  4:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - amount:4
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA3ZGFiMmNiZWJlYTUzOWI2NGQ1YWQyNDZmOWNjYzFmY2RhN2FhOTRiODhlNTlmYzI4Mjk4NTJmNDYwNzEifX19=
+    - 'name:&6&lBẬC IV &7 Cánh Kiva &2ઉ'
+    - 'lore2:&e +30.000 &7điểm Sức mạnh'
+    - 'lore4:&eThu thập:&7 tiến hóa từ đôi cánh III.'
+    - 'lore6:&eGiới thiệu:&7 mang hình dạng của dơi hút máu chổng ngược màu đen xám. Rực khói liên tục. Tuyên truyền đây là hậu thế thứ 2 sau đời I kiva quỷ.'
+    - 'lore8:&aCLICKABLE&7 vào để mặc'
+    RewardType: command
+    Reward:
+    - gadgetsmenu equip cloak Vampire_Wings %player%
+    ExtraPermission: 'gadgetsmenu.cloaks.vampirewings'
+    InventoryLocation: 31
+  5:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - amount:5
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIxZDYxOTI4NDJlMTkyODg3Y2I0YjMzNjI0NzVlYzdhYTlmZWEzY2JkMWMyMzMyMjhkNWU0Y2YzZmNkYWYzIn19fQ===
+    - 'name:&6&lBẬC V &3 Cánh Elsa nữ hoàng băng giá &2ઉ'
+    - 'lore2:&e +62.000 &7điểm Sức mạnh'
+    - 'lore4:&eThu thập:&7 tiến hóa từ đôi cánh IV.'
+    - 'lore6:&eGiới thiệu:&7 mang dấu &f&l✘&7 hình dạng như mộng ảo giúp bạn chịu lạnh cực tốt trong mùa. Cánh lấy từ bộ phim nữ hoàng băng giá 2013 của walt disney'
+    - 'lore8:&aCLICKABLE&7 vào để mặc'
+    RewardType: command
+    Reward:
+    - gadgetsmenu equip cloak Icewings %player%
+    ExtraPermission: 'gadgetsmenu.cloaks.icewings'
+    InventoryLocation: 33
+  6:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - amount:6
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODBmMjRkNmVhMjY1NDExZmMwZmRlNmIzYWJlNjgxZmYwMWEzM2QzOWU4NWQ3NGI5MzRmMWJjNWZlZTUifX19=
+    - 'name:&6&lBẬC VI &7 Cánh &4Hỏa diệm Vương &2ઉ'
+    - 'lore2:&e +128.000 &7điểm Sức mạnh'
+    - 'lore4:&eThu thập:&7 tiến hóa từ đôi cánh V.'
+    - 'lore6:&eGiới thiệu:&7 mang màu đỏ của dung nham bùng cháy phung trào, tinh luyện từ núi lửa Groudon.'
+    - 'lore8:&aCLICKABLE&7 vào để mặc'
+    RewardType: command
+    Reward:
+    - gadgetsmenu equip cloak Firewings %player%
+    ExtraPermission: 'gadgetsmenu.cloaks.firewings'
+    InventoryLocation: 25
+  back:
+    MenuItem:
+    - type:348
+    - name:&a&lQUAY LẠI &7menu
+    - 'lore2:&7Click vào để quay lại'
+    RewardType: shop
+    Reward: menu
+    InventoryLocation: 49
+  rs:
+    MenuItem:
+    - type:404
+    - name:&c&lTHÁO CÁNH
+    - 'lore2:&creset cánh đang mang (ẩn cánh) nếu nó gây lag hoặc làm giảm &aFPS&c của bạn. Xem &aFPS&c bằng ấn phím &aF3'
+    - 'lore4:&aCLICKABLE&7 vào để tắt cánh'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - gadgetsmenu reset cloaks
+    InventoryLocation: 50
+  newt:
+    MenuItem:
+    - type:145
+    - name:&2&lNÂNG CẤP&7 cánh
+    - 'lore2:&7Giao diện tiếp theo sẽ giúp bạn nâng &6&lBẬC&7 cánh lên tầm cao mới' 
+    - 'lore4:&aCLICKABLE&7 vào giao diện'
+    RewardType: shop
+    Reward: wings
+    InventoryLocation: 51
+  a:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 1
+  b:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 2
+  c:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 3
+  d:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 4
+  e:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 5
+  f:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 6
+  g:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 7
+  h:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 8
+  i:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 9
+  j:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 10
+  k:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 11
+  l:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 12
+  m:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 14
+  n:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 16
+  o:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 17
+  p:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 18
+  q:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 19
+  r:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 20
+  s:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 22
+  t:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 23
+  u:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 24
+  v:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 26
+  w:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 27
+  x:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 28
+  y:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 29
+  z:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 30
+  za:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 32
+  zb:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 34
+  zc:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 35
+  zd:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 36
+  ze:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 37
+  zf:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 38
+  zg:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 39
+  zh:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 40
+  zi:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 41
+  zj:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 42
+  zk:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 43
+  zl:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 44
+  zm:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 45
+  zn:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 46
+  zo:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 47
+  zp:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 48
+  zq:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 52
+  zr:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 53
+  as:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 54

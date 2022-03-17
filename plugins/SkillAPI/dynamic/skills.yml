@@ -1,0 +1,1629 @@
+loaded: 'true'
+attack: 
+  name: 'attack'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req-lvl: 0
+  needs-permission: 'false'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '0'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'NETHER_STAR'
+  icon-data: 0
+  desc:  []
+  components: 
+    Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'True'
+        cooldown: 'False'
+        target: 'False'
+        type: 'Both'
+        dmg-min: '2'
+        dmg-max: '999'
+        indicator: '2D'
+      children: 
+        Self-b: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            indicator: '2D'
+            group: 'enemy'
+            wall: 'false'
+            caster: 'false'
+          children: 
+            Mana-c: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                type: 'Mana'
+                min-value-base: '0'
+                min-value-scale: '0'
+                max-value-base: '11'
+                max-value-scale: '0'
+                indicator: '2D'
+              children: 
+                Damage-d: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Multiplier'
+                    value-base: '25'
+                    value-scale: '0'
+                    true: 'True'
+                    classifier: 'default'
+                    indicator: '2D'
+                  children:  {}
+                Message-e: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    message: '&cBạn đã hết mana, cố chiến đấu sẽ bị nội thương'
+                    indicator: '2D'
+                  children:  {}
+                Sound-f: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    sound: 'Entity Generic Swim'
+                    volume-base: '100'
+                    volume-scale: '0'
+                    pitch-base: '1'
+                    pitch-scale: '0'
+                    indicator: '2D'
+                  children:  {}
+                Launch-g: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    relative: 'Target'
+                    forward-base: '-2.5'
+                    forward-scale: '0'
+                    upward-base: '0'
+                    upward-scale: '0'
+                    right-base: '0'
+                    right-scale: '0'
+                    indicator: '2D'
+                  children:  {}
+            Mana-h: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Mana'
+                value-base: '-10'
+                value-scale: '0'
+                indicator: '2D'
+              children:  {}
+crazydiamond: 
+  name: 'crazydiamond'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req-lvl: 0
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '1'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'SKULL_ITEM'
+  icon-data: 1
+  icon-lore: 
+  - '&7Stand &b&lCrazyDiamond &7Lv{level}'
+  - '&f-100mana   -0⌛'
+  - ''
+  - '&7Đòn đánh chí mạng (dame to) tạo ra'
+  - '&7GaltingPunch gây &e20%*maxhp&7 các đv'
+  - '&7gần. Hiệu quả GaltingPunch giảm dần'
+  - '&7khi dame bạn càng lớn.'
+  - ''
+  - '&f&o"Nhấp trái" &7&ovào đây để mặc Unique'
+  desc:  []
+  components: 
+    Cast: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children:  {}
+crazydiamond2: 
+  name: 'crazydiamond2'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req: 'crazydiamond'
+  skill-req-lvl: 1
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '0'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '100'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'JACK_O_LANTERN'
+  icon-data: 0
+  desc:  []
+  components: 
+    Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'True'
+        cooldown: 'False'
+        target: 'False'
+        type: 'Melee'
+        dmg-min: '2'
+        dmg-max: '18'
+        indicator: '2D'
+      children: 
+        Cone-b: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            range-base: '6'
+            range-scale: '0'
+            angle-base: '90'
+            angle-scale: '0'
+            group: 'Enemy'
+            wall: 'False'
+            caster: 'False'
+            max-base: '6'
+            max-scale: '0'
+            indicator: '2D'
+          children: 
+            Damage-c: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Multiplier'
+                value-base: '20'
+                value-scale: '0'
+                true: 'False'
+                classifier: 'default'
+                indicator: '2D'
+              children:  {}
+            Particle Animation-d: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                steps: '1'
+                frequency: '0.05'
+                angle: '0'
+                start: '0'
+                duration-base: '0.5'
+                duration-scale: '0'
+                h-translation-base: '0'
+                h-translation-scale: '0'
+                v-translation-base: '0'
+                v-translation-scale: '0'
+                h-cycles: '1'
+                v-cycles: '1'
+                particle: 'Angry Villager'
+                arrangement: 'Sphere'
+                radius-base: '1'
+                radius-scale: '0'
+                particles-base: '20'
+                particles-scale: '0'
+                visible-radius: '25'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                speed: '1'
+                amount: '1'
+                forward: '0'
+                upward: '2'
+                right: '0'
+                indicator: '2D'
+              children:  {}
+            Sound-e: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                sound: 'Entity Vex Hurt'
+                volume-base: '100'
+                volume-scale: '0'
+                pitch-base: '1'
+                pitch-scale: '0'
+                indicator: '2D'
+              children:  {}
+crazydiamond3: 
+  name: 'crazydiamond3'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req: 'crazydiamond'
+  skill-req-lvl: 1
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '0'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '100'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'JACK_O_LANTERN'
+  icon-data: 0
+  desc:  []
+  components: 
+    Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'True'
+        cooldown: 'False'
+        target: 'False'
+        type: 'Melee'
+        dmg-min: '19'
+        dmg-max: '999'
+        indicator: '2D'
+      children: 
+        Cone-b: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            range-base: '5'
+            range-scale: '0'
+            angle-base: '90'
+            angle-scale: '0'
+            group: 'Enemy'
+            wall: 'False'
+            caster: 'False'
+            max-base: '5'
+            max-scale: '0'
+            indicator: '2D'
+          children: 
+            Damage-c: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Multiplier'
+                value-base: '10'
+                value-scale: '0'
+                true: 'False'
+                classifier: 'default'
+                indicator: '2D'
+              children:  {}
+            Particle Animation-d: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                steps: '1'
+                frequency: '0.05'
+                angle: '0'
+                start: '0'
+                duration-base: '0.5'
+                duration-scale: '0'
+                h-translation-base: '0'
+                h-translation-scale: '0'
+                v-translation-base: '0'
+                v-translation-scale: '0'
+                h-cycles: '1'
+                v-cycles: '1'
+                particle: 'Angry Villager'
+                arrangement: 'Sphere'
+                radius-base: '1'
+                radius-scale: '0'
+                particles-base: '20'
+                particles-scale: '0'
+                visible-radius: '25'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                speed: '1'
+                amount: '1'
+                forward: '0'
+                upward: '2'
+                right: '0'
+                indicator: '2D'
+              children:  {}
+            Sound-e: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                sound: 'Entity Vex Hurt'
+                volume-base: '100'
+                volume-scale: '0'
+                pitch-base: '1'
+                pitch-scale: '0'
+                indicator: '2D'
+              children:  {}
+crpIII: 
+  name: 'crpIII'
+  type: 'Dynamic'
+  max-level: '1'
+  skill-req-lvl: '0'
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '1'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'SKULL_ITEM'
+  icon-data: '4'
+  icon-lore: 
+  - '&7Stand &4&lĐỆ TAM CREEPER &7Lv{level}'
+  - '&f-0mana   -0⌛'
+  - ''
+  - '&7Không có nội tại, chỉ có th.tính'
+  - '&7Nếu ko mặc thuộc tính sẽ ko kích'
+  - '&7hoạt đâu nhé!'
+  - ''
+  - '&f&o"Nhấp trái" &7&ovào đây để mặc Mystic'
+  desc: ' []'
+  components: 
+    Cast: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children: ' {}'
+gcl: 
+  name: 'gcl'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req-lvl: 0
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '1'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'QUARTZ'
+  icon-data: 0
+  icon-lore: 
+  - '&3&lTHIẾT PHIẾN &8&l*&3 GIA CÁT LƯỢNG &7Lv{level}'
+  - '&f-10mana   -0⌛'
+  - ''
+  - '&e+1.3 DPS&7 (sát thương vật lý)'
+  - ''
+  - '&f&o"Nhấp trái" &7&ovào đây để mặc Unique'
+  desc:  []
+  components: 
+    Cast: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children:  {}
+gcl2: 
+  name: 'gcl2'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req: 'gcl'
+  skill-req-lvl: 1
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '0'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '10'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'JACK_O_LANTERN'
+  icon-data: 0
+  desc:  []
+  components: 
+    Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'True'
+        cooldown: 'False'
+        target: 'True'
+        type: 'Melee'
+        dmg-min: '2'
+        dmg-max: '999'
+        indicator: '2D'
+      children: 
+        Single-b: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            range-base: '4'
+            range-scale: '0'
+            tolerance-base: '4'
+            tolerance-scale: '0'
+            group: 'Enemy'
+            wall: 'False'
+            indicator: '2D'
+            caster: 'false'
+          children: 
+            Damage-c: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Damage'
+                value-base: '1.3'
+                value-scale: '0'
+                true: 'False'
+                classifier: 'default'
+                indicator: '2D'
+              children:  {}
+nauy: 
+  name: 'nauy'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req-lvl: 0
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '1'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'BOW'
+  icon-data: 0
+  icon-lore: 
+  - '&3&lSƯƠNG BĂNG NAUY &7Lv{level}'
+  - '&f-19mana   -0⌛'
+  - ''
+  - '&e+1.2 DPS&7 (sát thương vật lý)'
+  - ''
+  - '&f&o"Nhấp trái" &7&ovào đây để mặc Unique'
+  desc:  []
+  components: 
+    Cast: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children:  {}
+nauy2: 
+  name: 'nauy2'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req: 'nauy'
+  skill-req-lvl: 1
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '0'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '19'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&r'
+  icon: 'JACK_O_LANTERN'
+  icon-data: 0
+  desc:  []
+  components: 
+    Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'True'
+        cooldown: 'False'
+        target: 'True'
+        type: 'Melee'
+        dmg-min: '2'
+        dmg-max: '999'
+        indicator: '2D'
+      children: 
+        Single-b: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            range-base: '4'
+            range-scale: '0'
+            tolerance-base: '4'
+            tolerance-scale: '0'
+            group: 'Enemy'
+            wall: 'False'
+            indicator: '2D'
+            caster: 'false'
+          children: 
+            Damage-c: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Damage'
+                value-base: '1.2'
+                value-scale: '0'
+                true: 'False'
+                classifier: 'default'
+                indicator: '2D'
+              children:  {}
+netherit: 
+  name: 'netherit'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req-lvl: 0
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '1'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'DIAMOND_CHESTPLATE'
+  icon-data: 0
+  icon-lore: 
+  - '&6&lKHIÊN NGỤC netherit &7({level})'
+  - '&f-10mana   -0⌛'
+  - ''
+  - '&eKHẢ NĂNG:&f phản 15% sát thương'
+  - ''
+  - '&7Chịu đựng bất kì đòn tấn công nào từ'
+  - '&7mọi nguồn đều phản lại ST'
+  - ''
+  - '&e&o#(0) là chưa mặc, (1) là đã mặc'
+  - '&f&o"Nhấp trái" &7&ovào đây để mặc Unique'
+  desc:  []
+  components: 
+    Cast: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children:  {}
+netherit2: 
+  name: 'netherit2'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req: 'netherit'
+  skill-req-lvl: 1
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '0'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '10'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&r'
+  icon: 'JACK_O_LANTERN'
+  icon-data: 0
+  desc:  []
+  components: 
+    Took Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'True'
+        cooldown: 'False'
+        target: 'False'
+        type: 'Melee'
+        dmg-min: '1.2'
+        dmg-max: '999'
+        indicator: '2D'
+      children: 
+        Single-b: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            range-base: '4'
+            range-scale: '0'
+            tolerance-base: '4'
+            tolerance-scale: '0'
+            group: 'Enemy'
+            wall: 'False'
+            indicator: '2D'
+            caster: 'false'
+          children: 
+            Damage-c: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Damage'
+                value-base: '1.3'
+                value-scale: '0'
+                true: 'False'
+                classifier: 'default'
+                indicator: '2D'
+              children:  {}
+zenitsu: 
+  name: 'zenitsu'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req-lvl: 0
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '1'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'GOLD_SWORD'
+  icon-data: 0
+  icon-lore: 
+  - '&e&lLÔI KIẾM ZENITSU &7Lv{level}'
+  - '&f-30mana   -0⌛'
+  - ''
+  - '&7Trong chiến đấu các đòn ST vl'
+  - '&7hoặc kỹ năng gần gây ra, có &45.0%'
+  - '&7lệ giết chết đv ngay lập tức'
+  - ''
+  - '&f&o"Nhấp trái" &7&ovào đây để mặc unique'
+  desc:  []
+  components: 
+    Cast: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children:  {}
+zenitsu2: 
+  name: 'zenitsu2'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req: 'zenitsu'
+  skill-req-lvl: 1
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '0'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '30'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'JACK_O_LANTERN'
+  icon-data: 0
+  desc:  []
+  components: 
+    Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'True'
+        cooldown: 'False'
+        target: 'True'
+        type: 'Melee'
+        dmg-min: '2'
+        dmg-max: '999'
+        indicator: '2D'
+      children: 
+        Single-b: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            range-base: '4'
+            range-scale: '0'
+            tolerance-base: '4'
+            tolerance-scale: '0'
+            group: 'Enemy'
+            wall: 'False'
+            indicator: '2D'
+            caster: 'false'
+          children: 
+            Damage-c: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Damage'
+                value-base: '3.9'
+                value-scale: '0'
+                true: 'False'
+                classifier: 'default'
+                indicator: '2D'
+              children:  {}
+            Chance-d: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                chance-base: '5'
+                chance-scale: '0'
+                indicator: '2D'
+              children: 
+                Damage-e: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Damage'
+                    value-base: '999'
+                    value-scale: '0'
+                    true: 'False'
+                    classifier: 'default'
+                    indicator: '2D'
+                  children:  {}
+    Skill Damage-f: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'False'
+        cooldown: 'False'
+        target: 'True'
+        dmg-min: '1'
+        dmg-max: '999'
+        category: 
+        - 'default'
+        indicator: '2D'
+      children: 
+        Single-g: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            range-base: '4'
+            range-scale: '0'
+            tolerance-base: '4'
+            tolerance-scale: '0'
+            group: 'Enemy'
+            wall: 'False'
+            indicator: '2D'
+            caster: 'false'
+          children: 
+            Damage-h: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Damage'
+                value-base: '3.5'
+                value-scale: '0'
+                true: 'False'
+                classifier: 'default'
+                indicator: '2D'
+              children:  {}
+            Chance-i: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                chance-base: '2'
+                chance-scale: '0'
+                indicator: '2D'
+              children: 
+                Damage-j: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Damage'
+                    value-base: '999'
+                    value-scale: '0'
+                    true: 'False'
+                    classifier: 'default'
+                    indicator: '2D'
+                  children:  {}
+barebear: 
+  name: 'barebear'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req-lvl: 0
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '1'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'SHEARS'
+  icon-data: 0
+  icon-lore: 
+  - '&b&lVUỐT GẤU WE BARE BEAR &7Lv{level}'
+  - '&f-10mana   -0⌛'
+  - ''
+  - '&e+1.2 DPS&7 (sát thương vật lý)'
+  - ''
+  - '&f&o"Nhấp trái" &7&ovào đây để mặc Unique'
+  desc:  []
+  components: 
+    Cast: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children:  {}
+barebear2: 
+  name: 'barebear2'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req: 'barebear'
+  skill-req-lvl: 1
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '0'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '10'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'JACK_O_LANTERN'
+  icon-data: 0
+  desc:  []
+  components: 
+    Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'True'
+        cooldown: 'False'
+        target: 'True'
+        type: 'Melee'
+        dmg-min: '2'
+        dmg-max: '999'
+        indicator: '2D'
+      children: 
+        Single-b: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            range-base: '4'
+            range-scale: '0'
+            tolerance-base: '4'
+            tolerance-scale: '0'
+            group: 'Enemy'
+            wall: 'False'
+            indicator: '2D'
+            caster: 'false'
+          children: 
+            Damage-c: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Damage'
+                value-base: '1.2'
+                value-scale: '0'
+                true: 'False'
+                classifier: 'default'
+                indicator: '2D'
+              children:  {}
+copernicus2: 
+  name: 'copernicus2'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req: 'copernicus'
+  skill-req-lvl: 1
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '0'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'GHAST_TEAR'
+  icon-data: 0
+  desc:  []
+  components: 
+    Took Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'False'
+        cooldown: 'False'
+        target: 'True'
+        type: 'Melee'
+        dmg-min: '1.1'
+        dmg-max: '999'
+        indicator: '2D'
+      children: 
+        Heal-b: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            counts: 'True'
+            type: 'Health'
+            value-base: '2'
+            value-scale: '0'
+            indicator: '2D'
+          children:  {}
+        Single-c: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            range-base: '4'
+            range-scale: '0'
+            tolerance-base: '4'
+            tolerance-scale: '0'
+            group: 'Enemy'
+            wall: 'False'
+            indicator: '2D'
+            caster: 'false'
+          children: 
+            Damage-d: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Multiplier'
+                value-base: '1.3'
+                value-scale: '0'
+                true: 'False'
+                classifier: 'default'
+                indicator: '2D'
+              children:  {}
+naruto: 
+  name: 'naruto'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req-lvl: 0
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '1'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'INK_SACK'
+  icon-data: 1
+  icon-lore: 
+  - '&c&lDUÔI CỬU VĨ &7Lv{level}'
+  - '&f-10mana   -0⌛'
+  - ''
+  - '&e+1.3 DPS&7 (sát thương vật lý)'
+  - ''
+  - '&f&o"Nhấp trái" &7&ovào đây để mặc Unique'
+  desc:  []
+  components: 
+    Cast: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children:  {}
+naruto2: 
+  name: 'naruto2'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req: 'naruto'
+  skill-req-lvl: 1
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '0'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '10'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'JACK_O_LANTERN'
+  icon-data: 0
+  desc:  []
+  components: 
+    Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'True'
+        cooldown: 'False'
+        target: 'True'
+        type: 'Melee'
+        dmg-min: '2'
+        dmg-max: '999'
+        indicator: '2D'
+      children: 
+        Single-b: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            range-base: '4'
+            range-scale: '0'
+            tolerance-base: '4'
+            tolerance-scale: '0'
+            group: 'Enemy'
+            wall: 'False'
+            indicator: '2D'
+            caster: 'false'
+          children: 
+            Damage-c: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Damage'
+                value-base: '1.3'
+                value-scale: '0'
+                true: 'False'
+                classifier: 'default'
+                indicator: '2D'
+              children:  {}
+rhitta: 
+  name: 'rhitta'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req-lvl: 0
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '1'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'GOLD_AXE'
+  icon-data: 0
+  icon-lore: 
+  - '&e&lRÌU MẶT TRỜI RHITTA &7Lv{level}'
+  - '&f-10mana   -0⌛'
+  - ''
+  - '&e+1.3 DPS&7 (sát thương vật lý)'
+  - ''
+  - '&f&o"Nhấp trái" &7&ovào đây để mặc Unique'
+  desc:  []
+  components: 
+    Cast: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children:  {}
+rhitta2: 
+  name: 'rhitta2'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req: 'rhitta'
+  skill-req-lvl: 1
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '0'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '10'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'JACK_O_LANTERN'
+  icon-data: 0
+  desc:  []
+  components: 
+    Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'True'
+        cooldown: 'False'
+        target: 'True'
+        type: 'Melee'
+        dmg-min: '2'
+        dmg-max: '999'
+        indicator: '2D'
+      children: 
+        Single-b: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            range-base: '4'
+            range-scale: '0'
+            tolerance-base: '4'
+            tolerance-scale: '0'
+            group: 'Enemy'
+            wall: 'False'
+            indicator: '2D'
+            caster: 'false'
+          children: 
+            Damage-c: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Damage'
+                value-base: '1.3'
+                value-scale: '0'
+                true: 'False'
+                classifier: 'default'
+                indicator: '2D'
+              children:  {}
+thanos: 
+  name: 'thanos'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req-lvl: 0
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '1'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'RABBIT_FOOT'
+  icon-data: 0
+  icon-lore: 
+  - '&6&lGĂNG TAY VÔ CỰC &7Lv{level}'
+  - '&f-15mana   -0⌛'
+  - ''
+  - '&e+1.8 DPS&7 (sát thương vật lý)'
+  - ''
+  - '&f&o"Nhấp trái" &7&ovào đây để mặc Unique'
+  desc:  []
+  components: 
+    Cast: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children:  {}
+thanos2: 
+  name: 'thanos2'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req: 'thanos'
+  skill-req-lvl: 1
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '0'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '15'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'JACK_O_LANTERN'
+  icon-data: 0
+  desc:  []
+  components: 
+    Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'True'
+        cooldown: 'False'
+        target: 'True'
+        type: 'Melee'
+        dmg-min: '2'
+        dmg-max: '999'
+        indicator: '2D'
+      children: 
+        Single-b: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            range-base: '4'
+            range-scale: '0'
+            tolerance-base: '4'
+            tolerance-scale: '0'
+            group: 'Enemy'
+            wall: 'False'
+            indicator: '2D'
+            caster: 'false'
+          children: 
+            Damage-c: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Damage'
+                value-base: '1.8'
+                value-scale: '0'
+                true: 'False'
+                classifier: 'default'
+                indicator: '2D'
+              children:  {}
+trinity: 
+  name: 'trinity'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req-lvl: 0
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '1'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'DIAMOND_SWORD'
+  icon-data: 0
+  icon-lore: 
+  - '&e&lTAM HỢP KIẾM &7Lv{level}'
+  - '&f-10mana   -0⌛'
+  - ''
+  - '&e+1.3 DPS&7 (sát thương vật lý)'
+  - ''
+  - '&f&o"Nhấp trái" &7&ovào đây để mặc Unique'
+  desc:  []
+  components: 
+    Cast: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children:  {}
+trinity2: 
+  name: 'trinity2'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req: 'trinity'
+  skill-req-lvl: 1
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '0'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '10'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'JACK_O_LANTERN'
+  icon-data: 0
+  desc:  []
+  components: 
+    Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'True'
+        cooldown: 'False'
+        target: 'True'
+        type: 'Melee'
+        dmg-min: '2'
+        dmg-max: '999'
+        indicator: '2D'
+      children: 
+        Single-b: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            range-base: '4'
+            range-scale: '0'
+            tolerance-base: '4'
+            tolerance-scale: '0'
+            group: 'Enemy'
+            wall: 'False'
+            indicator: '2D'
+            caster: 'false'
+          children: 
+            Damage-c: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Damage'
+                value-base: '1.2'
+                value-scale: '0'
+                true: 'False'
+                classifier: 'default'
+                indicator: '2D'
+              children:  {}
+wukong: 
+  name: 'wukong'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req-lvl: 0
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '1'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'BLAZE_ROD'
+  icon-data: 0
+  icon-lore: 
+  - '&e&lGẬY WUKONG &7Lv{level}'
+  - '&f-10mana   -0⌛'
+  - ''
+  - '&e+1.4 DPS&7 (sát thương vật lý)'
+  - ''
+  - '&f&o"Nhấp trái" &7&ovào đây để mặc Unique'
+  desc:  []
+  components: 
+    Cast: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children:  {}
+wukong2: 
+  name: 'wukong2'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req: 'wukong'
+  skill-req-lvl: 1
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '0'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '10'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'JACK_O_LANTERN'
+  icon-data: 0
+  desc:  []
+  components: 
+    Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'True'
+        cooldown: 'False'
+        target: 'True'
+        type: 'Melee'
+        dmg-min: '2'
+        dmg-max: '999'
+        indicator: '2D'
+      children: 
+        Single-b: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            range-base: '4'
+            range-scale: '0'
+            tolerance-base: '4'
+            tolerance-scale: '0'
+            group: 'Enemy'
+            wall: 'False'
+            indicator: '2D'
+            caster: 'false'
+          children: 
+            Damage-c: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Damage'
+                value-base: '1.4'
+                value-scale: '0'
+                true: 'False'
+                classifier: 'default'
+                indicator: '2D'
+              children:  {}

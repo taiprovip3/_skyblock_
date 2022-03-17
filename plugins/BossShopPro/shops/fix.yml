@@ -1,0 +1,45 @@
+ShopName: fix
+DisplayName: '&8&lServer &a☘&8 Fixing'
+Command: suachua
+Sound:
+  Shop:
+    Open: ENTITY_PLAY_LEVELUP:1:1
+    ChangeShop: ENTITY_PLAY_LEVELUP:1:1
+shop:
+  1:
+    MenuItem:
+    - type:145
+    - name:&aSữa chữa tay cầm
+    - 'lore2:&2 Hồi phục lại 100% độ bền item'
+    - 'lore4:&2 1 vài trang bị cần full độ bền mới có thể nâng cấp, trao đổi.'
+    - 'lore6:&7 Giá fix: &e-500 ⛀'
+    - 'lore8:&aClickable&e vào đây'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - fix
+    PriceType: money
+    Price: 500
+    InventoryLocation: 12
+  2:
+    MenuItem:
+    - type:145:1
+    - name:&aSữa chữa full túi &e&lE
+    - 'lore2:&2 Hồi phục lại 100% độ bền toàn bộ item có trong&e inventory'
+    - 'lore4:&2 1 vài trang bị cần full độ bền mới có thể nâng cấp, trao đổi.'
+    - 'lore6:&7 Giá fix: &e-2500 ⛀'
+    - 'lore8:&aClickable&e vào đây'
+    RewardType: PLAYERCOMMANDOP
+    Reward:
+    - fix all
+    PriceType: money
+    Price: 2500
+    InventoryLocation: 13
+  back:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Y5NWQ3YzFiYmYzYWZhMjg1ZDhkOTY3NTdiYjU1NzIyNTlhM2FlODU0ZjUzODlkYzUzMjA3Njk5ZDk0ZmQ4In19fQ===
+    - name:&c&lQUAY LẠI
+    - 'lore1:&7ᴛrở lại menu'
+    RewardType: shop
+    Reward: menu
+    InventoryLocation: 27

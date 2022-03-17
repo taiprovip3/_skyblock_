@@ -1,0 +1,24 @@
+currentQuests:
+- the hunter
+currentStages:
+- 0
+quest-points: 1
+questData:
+  the hunter:
+    mobs-killed:
+    - Zombie
+    mobs-killed-amounts:
+    - 7
+completed-Quests:
+- dirt mining
+- code
+completedRedoableQuests:
+- dirt mining
+completedQuestTimes:
+- 1625412049795
+amountsCompletedQuests:
+- dirt mining
+amountsCompleted:
+- 1
+hasJournal: false
+lastKnownName: GiangPrime

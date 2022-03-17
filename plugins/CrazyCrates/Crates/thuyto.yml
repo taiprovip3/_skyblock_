@@ -1,0 +1,2305 @@
+Crate:
+  CrateType: Roulette
+  CrateName: §eRương báu vật §lTHỦY TỔ
+  Preview-Name: '§e§l§nBên trong chứa các báu vật:'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 25
+  OpeningBroadCast: true
+  BroadCast: '%Prefix%§6%Player% §eđã mở 1 chiếc hộp thần bí, phẩm chất §cThủy tổ'
+  Item: TRAPPED_CHEST
+  Glowing: false
+  Name: §7Rương báu vật§b§l THỦY TỔ
+  Lore:
+  - ''
+  - §6 Đây là rương báu vật ảo.
+  - §2 ♦ §7 Ẩn chứa vô cùng nhiều báu vật hiếm
+  - §2 ♦ §7 Cần có chìa khóa (key §b⚷§7) để mở rương
+  - ''
+  - §6» Ch.phải§e để mở
+  - §6» Ch.trái§e để xem quà.
+  - ''
+  - '&4Bạn có: &b&l%keys% &4⚷ vô hình'
+  Preview:
+    Toggle: true
+    ChestLines: 6
+    Glass:
+      Toggle: true
+      Item: STAINED_GLASS_PANE:7
+  PhysicalKey:
+    Name: :§c§lChìa Khóa§c Thủy Tổ §6* Hữu hình
+    Lore:
+    - ''
+    - §6Chức năng:§e mở khóa rưởng thủy tổ thần thoại titan
+    - ''
+    - §6Rương:§e đến khu crates để sử dụng key báu vật này..
+    - ''
+    - §6Thu thập:§e mua từ cửa hàng coins §e(⛀)§6.
+    Item: TRIPWIRE_HOOK
+    Glowing: false
+  Hologram:
+    Toggle: true
+    Height: 1.6
+    Message:
+    - '&eRương báu vật &f&lᴛʜủʏ ᴛổ&6⚖'
+    - ''
+    - '&a☘&7Ẩn chứa vô cùng nhiều báu vật'
+    - '&a☘&7Cần có key thủy tổ để mở'
+    - ''
+    - ''
+    - ''
+    - '&8[&c&l!&8]&6Chuột trái&7 để mở rương'
+    - '&8[&a&l!&8]&6Chuột phải&2 để review báu vật'
+  Prizes:
+    '1':
+      DisplayName: §f§lRương sắt xịn
+      DisplayItem: WHITE_SHULKER_BOX
+      DisplayAmount: 5
+      Lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối sắt xịn'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §f§lRương sắt xịn
+          lore:
+          - ''
+          - ' §e§l*§f Chứa bên trong 27st khối sắt xịn'
+          - ' §e§l*§f Cầm & click phải để dùng!'
+          - ''
+          - §cWARNING §e§l*
+          - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+          - ''
+          - §a[VẬT PHẨM CHỦ ĐỘNG]
+      Commands:
+        - 'voucher give %Player% chestiron 5'
+        - 'broadcast &a%Player% &fvừa quay được &ax5&f rương sắt từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '2':
+      DisplayName: §d§lRương hắc diện thạch
+      DisplayItem: GRAY_SHULKER_BOX
+      DisplayAmount: 5
+      Lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối hắc diện thạch'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §d§lRương hắc diện thạch
+          lore:
+          - ''
+          - ' §e§l*§f Chứa bên trong 27st khối hắc diện thạch'
+          - ' §e§l*§f Cầm & click phải để dùng!'
+          - ''
+          - §cWARNING §e§l*
+          - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+          - ''
+          - §a[VẬT PHẨM CHỦ ĐỘNG]
+      Commands:
+        - 'voucher give %Player% chestobsidian 5'
+        - 'broadcast &a%Player% &fvừa quay được &ax5&f rương hắc diện thạch từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '3':
+      DisplayName: §c§lRương đá đỏ
+      DisplayItem: RED_SHULKER_BOX
+      DisplayAmount: 5
+      Lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối đá đỏ'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §c§lRương đá đỏ
+          lore:
+          - ''
+          - ' §e§l*§f Chứa bên trong 27st khối đá đỏ'
+          - ' §e§l*§f Cầm & click phải để dùng!'
+          - ''
+          - §cWARNING §e§l*
+          - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+          - ''
+          - §a[VẬT PHẨM CHỦ ĐỘNG]
+      Commands:
+        - 'voucher give %Player% chestredstone 5'
+        - 'broadcast &a%Player% &fvừa quay được &ax5&f rương đá đỏ từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '4':
+      DisplayName: §8§lRương than đen
+      DisplayItem: BLACK_SHULKER_BOX
+      DisplayAmount: 5
+      Lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối than đen'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §8§lRương than đen
+          lore:
+          - ''
+          - ' §e§l*§f Chứa bên trong 27st khối than đen'
+          - ' §e§l*§f Cầm & click phải để dùng!'
+          - ''
+          - §cWARNING §e§l*
+          - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+          - ''
+          - §a[VẬT PHẨM CHỦ ĐỘNG]
+      Commands:
+        - 'voucher give %Player% chestcoal 5'
+        - 'broadcast &a%Player% &fvừa quay được &ax5&f rương than từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '5':
+      DisplayName: §e§lRương vàng rồng
+      DisplayItem: YELLOW_SHULKER_BOX
+      DisplayAmount: 5
+      Lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối vàng rồng'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§lRương vàng rồng
+          lore:
+          - ''
+          - ' §e§l*§f Chứa bên trong 27st khối vàng rồng'
+          - ' §e§l*§f Cầm & click phải để dùng!'
+          - ''
+          - §cWARNING §e§l*
+          - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+          - ''
+          - §a[VẬT PHẨM CHỦ ĐỘNG]
+      Commands:
+        - 'voucher give %Player% chestgold 5'
+        - 'broadcast &a%Player% &fvừa quay được &ax5&f rương vàng từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '6':
+      DisplayName: §2§lRương lục bảo
+      DisplayItem: LIME_SHULKER_BOX
+      DisplayAmount: 5
+      Lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối lục bảo'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §2§lRương lục bảo
+          lore:
+          - ''
+          - ' §e§l*§f Chứa bên trong 27st khối lục bảo'
+          - ' §e§l*§f Cầm & click phải để dùng!'
+          - ''
+          - §cWARNING §e§l*
+          - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+          - ''
+          - §a[VẬT PHẨM CHỦ ĐỘNG]
+      Commands:
+        - 'voucher give %Player% chestemerald 5'
+        - 'broadcast &a%Player% &fvừa quay được &ax5&f rương lục bảo từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '7':
+      DisplayName: §b§lRương kim cương
+      DisplayItem: LIGHT_BLUE_SHULKER_BOX
+      DisplayAmount: 5
+      Lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối kim cương'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §b§lRương kim cương
+          lore:
+          - ''
+          - ' §e§l*§f Chứa bên trong 27st khối kim cương'
+          - ' §e§l*§f Cầm & click phải để dùng!'
+          - ''
+          - §cWARNING §e§l*
+          - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+          - ''
+          - §a[VẬT PHẨM CHỦ ĐỘNG]
+      Commands:
+        - 'voucher give %Player% chestdiamond 5'
+        - 'broadcast &a%Player% &fvừa quay được &ax5&f rương kim cương từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '8':
+      DisplayName: §9§lRương lưu li
+      DisplayItem: BLUE_SHULKER_BOX
+      DisplayAmount: 5
+      Lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối lưu li'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9§lRương lưu li
+          lore:
+          - ''
+          - ' §e§l*§f Chứa bên trong 27st khối lưu li'
+          - ' §e§l*§f Cầm & click phải để dùng!'
+          - ''
+          - §cWARNING §e§l*
+          - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+          - ''
+          - §a[VẬT PHẨM CHỦ ĐỘNG]
+      Commands:
+        - 'voucher give %Player% chestlapis 5'
+        - 'broadcast &a%Player% &fvừa quay được &ax5&f rương lưu li từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '9':
+      DisplayName: §7§lRương xương t-rex
+      DisplayItem: SILVER_SHULKER_BOX
+      DisplayAmount: 5
+      Lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối xương t-rex'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §7§lRương xương t-rex
+          lore:
+          - ''
+          - ' §e§l*§f Chứa bên trong 27st khối xương t-rex'
+          - ' §e§l*§f Cầm & click phải để dùng!'
+          - ''
+          - §cWARNING §e§l*
+          - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+          - ''
+          - §a[VẬT PHẨM CHỦ ĐỘNG]
+      Commands:
+        - 'voucher give %Player% chestbone 5'
+        - 'broadcast &a%Player% &fvừa quay được &ax5&f rương xương từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '10':
+      DisplayName: §2Túi Hắc Diện Thạch Cấp §e§lSSS
+      DisplayItem: CHEST
+      DisplayAmount: 5
+      Lore:
+      - ''
+      - ' §a§l*§f Chứa bên trong 3500 hắc diện thạch'
+      - ' §a§l*§f Cầm trên tay & click chuột phải!'
+      - ''
+      - §a[Vật phẩm chủ động]
+      - ''
+      - '&e⇨&6Khả năng: &e75%'
+      MaxRange: 100
+      Chance: 75
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §2Túi Hắc Diện Thạch Cấp §e§lSSS
+          lore:
+          - ''
+          - ' §a§l*§f Chứa bên trong 3500 hắc diện thạch'
+          - ' §a§l*§f Cầm trên tay & click chuột phải!'
+          - ''
+          - §a[Vật phẩm chủ động]
+      Commands:
+        - 'voucher give %Player% sssobsidian 5'
+        - 'broadcast &a%Player% &fvừa quay được &ax5&f túi ᴀᴛᴍ kho &dObs&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '11':
+      DisplayName: §2Túi Kim Cương Cấp §e§lSSS
+      DisplayItem: CHEST
+      DisplayAmount: 5
+      Lore:
+      - ''
+      - ' §a§l*§f Chứa bên trong 3500 khối kim cương'
+      - ' §a§l*§f Cầm trên tay & click chuột phải!'
+      - ''
+      - §a[Vật phẩm chủ động]
+      - ''
+      - '&e⇨&6Khả năng: &e75%'
+      MaxRange: 100
+      Chance: 75
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §2Túi Kim Cương Cấp §e§lSSS
+          lore:
+          - ''
+          - ' §a§l*§f Chứa bên trong 3500 khối kim cương'
+          - ' §a§l*§f Cầm trên tay & click chuột phải!'
+          - ''
+          - §a[Vật phẩm chủ động]
+      Commands:
+        - 'voucher give %Player% sssdiamond 5'
+        - 'broadcast &a%Player% &fvừa quay được &ax5&f túi ᴀᴛᴍ kho &bDiamond&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '12':
+      DisplayName: §2Túi Lục Bảo Cấp §e§lSSS
+      DisplayItem: CHEST
+      DisplayAmount: 5
+      Lore:
+      - ''
+      - ' §a§l*§f Chứa bên trong 3500 khối lục bảo'
+      - ' §a§l*§f Cầm trên tay & click chuột phải!'
+      - ''
+      - §a[Vật phẩm chủ động]
+      - ''
+      - '&e⇨&6Khả năng: &e75%'
+      MaxRange: 100
+      Chance: 75
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §2Túi Lục Bảo Cấp §e§lSSS
+          lore:
+          - ''
+          - ' §a§l*§f Chứa bên trong 3500 khối lục bảo'
+          - ' §a§l*§f Cầm trên tay & click chuột phải!'
+          - ''
+          - §a[Vật phẩm chủ động]
+      Commands:
+        - 'voucher give %Player% sssemerald 5'
+        - 'broadcast &a%Player% &fvừa quay được &ax5&f túi ᴀᴛᴍ kho &2Emerald&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '13':
+      DisplayName: §2Túi Vàng Rồng Cấp §e§lSSS
+      DisplayItem: CHEST
+      DisplayAmount: 5
+      Lore:
+      - ''
+      - ' §a§l*§f Chứa bên trong 3500 khối vàng'
+      - ' §a§l*§f Cầm trên tay & click chuột phải!'
+      - ''
+      - §a[Vật phẩm chủ động]
+      - ''
+      - '&e⇨&6Khả năng: &e75%'
+      MaxRange: 100
+      Chance: 75
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: CHEST
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §2Túi Vàng Rồng Cấp §e§lSSS
+          lore:
+          - ''
+          - ' §a§l*§f Chứa bên trong 3500 khối vàng'
+          - ' §a§l*§f Cầm trên tay & click chuột phải!'
+          - ''
+          - §a[Vật phẩm chủ động]
+          blockMaterial: CHEST
+      Commands:
+        - 'voucher give %Player% sssgold 5'
+        - 'broadcast &a%Player% &fvừa quay được &ax5&f túi ᴀᴛᴍ kho &eGold&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '14':
+      DisplayName: §2Túi Sắt Cấp §e§lSSS
+      DisplayItem: CHEST
+      DisplayAmount: 5
+      Lore:
+      - ''
+      - ' §a§l*§f Chứa bên trong 3500 khối sắt'
+      - ' §a§l*§f Cầm trên tay & click chuột phải!'
+      - ''
+      - §a[Vật phẩm chủ động]
+      - ''
+      - '&e⇨&6Khả năng: &e75%'
+      MaxRange: 100
+      Chance: 75
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: TRAPPED_CHEST
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §2Túi Sắt Cấp §e§lSSS
+          lore:
+          - ''
+          - ' §a§l*§f Chứa bên trong 3500 khối sắt'
+          - ' §a§l*§f Cầm trên tay & click chuột phải!'
+          - ''
+          - §a[Vật phẩm chủ động]
+          blockMaterial: TRAPPED_CHEST
+      Commands:
+        - 'voucher give %Player% sssiron 5'
+        - 'broadcast &a%Player% &fvừa quay được &ax5&f túi ᴀᴛᴍ kho &f&lIron&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '19':
+      DisplayName: §c§lʙình máu
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - §7Bình máu thì để hồi máu chứ làm cái gì.
+      - §7Hồi máu dạng tức thì (4§c♥§7)/1 bình
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNkYzljMTlhOTgzOTk0NTljZmQyOTZlN2ExMjg4Mjk5NDI2NWMxNmFiNGNjMTRiMmI4MzIyYjIzZGYyNWEifX19='
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        damage: 3
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §c§lʙình máu
+          lore:
+          - ''
+          - §7Bình máu thì để hồi máu chứ làm cái gì.
+          - §7Hồi máu dạng tức thì (4§c♥§7)/1 bình
+          - ''
+          - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      Commands:
+        - 'mm i give %Player% it_hp1 64'
+        - 'broadcast &a%Player% &fvừa quay được &ax64&f lọ máu cấp tốc từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '20':
+      DisplayName: §c§lʙình máu §6§l+2
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - §7Bình máu thì để hồi máu chứ làm cái gì.
+      - §7Hồi máu dạng tức thì (8§c♥§7)/1 bình
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNkYzljMTlhOTgzOTk0NTljZmQyOTZlN2ExMjg4Mjk5NDI2NWMxNmFiNGNjMTRiMmI4MzIyYjIzZGYyNWEifX19='
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        damage: 3
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §c§lʙình máu §6§l+2
+          lore:
+          - ''
+          - §7Bình máu thì để hồi máu chứ làm cái gì.
+          - §7Hồi máu dạng tức thì (8§c♥§7)/1 bình
+          - ''
+          - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      Commands:
+        - 'mm i give %Player% it_hp2 64'
+        - 'broadcast &a%Player% &fvừa quay được &ax64&f lọ máu &eʟᴠ2&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '21':
+      DisplayName: §c§lʙình máu §6§l+3
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - §7Bình máu thì để hồi máu chứ làm cái gì.
+      - §7Hồi máu dạng tức thì (10§c♥§7)/1 bình
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNkYzljMTlhOTgzOTk0NTljZmQyOTZlN2ExMjg4Mjk5NDI2NWMxNmFiNGNjMTRiMmI4MzIyYjIzZGYyNWEifX19='
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        damage: 3
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §c§lʙình máu §6§l+3
+          lore:
+          - ''
+          - §7Bình máu thì để hồi máu chứ làm cái gì.
+          - §7Hồi máu dạng tức thì (10§c♥§7)/1 bình
+          - ''
+          - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      Commands:
+        - 'mm i give %Player% it_hp3 64'
+        - 'broadcast &a%Player% &fvừa quay được &ax64&f lọ máu &eʟᴠ3&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '22':
+      DisplayName: §c§lʙình máu §6§lmax
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - §7Bình máu thì để hồi máu chứ làm cái gì.
+      - §7Hồi máu dạng tức thì (14§c♥§7)/1 bình
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNkYzljMTlhOTgzOTk0NTljZmQyOTZlN2ExMjg4Mjk5NDI2NWMxNmFiNGNjMTRiMmI4MzIyYjIzZGYyNWEifX19='
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        damage: 3
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §c§lʙình máu §6§lmax
+          lore:
+          - ''
+          - §7Bình máu thì để hồi máu chứ làm cái gì.
+          - §7Hồi máu dạng tức thì (14§c♥§7)/1 bình
+          - ''
+          - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      Commands:
+        - 'mm i give %Player% it_hp4 64'
+        - 'broadcast &a%Player% &fvừa quay được &ax64&f lọ máu &eᴍᴀx&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '23':
+      DisplayName: §f§l§o❤ §6Kim SÁNG DƯỢC§7 pharmacity
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - §7 Hồi lại 100% máu (§c♥§7), 100% thức ăn.
+      - §7 Xóa bỏ tất cả buff, độc tố
+      - ''
+      - §e LOẠI VẬT PHẨM §aclickable
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODlmZmE5MjI0ZmYyZGUxMTBiZDZkMzg5NjllMGNlODU1NDhiNjc3MDdmZTI1YmU5ZGY5ODQ4NWIzMzlhMzcifX19='
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        damage: 3
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §f§l§o❤ §6Kim SÁNG DƯỢC§7 pharmacity
+          lore:
+          - ''
+          - §7 Hồi lại 100% máu (§c♥§7), 100% thức ăn.
+          - §7 Xóa bỏ tất cả buff, độc tố
+          - ''
+          - §e LOẠI VẬT PHẨM §aclickable
+      Commands:
+        - 'mm i give %Player% it_ksd 64'
+        - 'broadcast &a%Player% &fvừa quay được &ax64&f kim sáng dược từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '24':
+      DisplayName: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§61 §e§lRANDOM
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 2
+      Lore:
+      - ''
+      - §f ⇱ §e§l thông tin §f ⇲
+      - §a This is §7thạch đá lv.{grade}
+      - §a Khảm lên§7 {typeitem},§8 công cụ
+      - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+      - ''
+      - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+      - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+      - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+      - ''
+      - §eLOẠI VẬT PHẨM§a clickable
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkMzVlYmRiMTI1ZmJhNDIxMjk4ZDQyYzIwMmM3N2M3NWI0MmNjOTljOTQ5MzlmNjM3NjQwYWMxODFmIn19fQ==='
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§61 §e§lRANDOM
+          lore:
+          - ''
+          - §f ⇱ §e§l thông tin §f ⇲
+          - §a This is §7thạch đá lv.{grade}
+          - §a Khảm lên§7 {typeitem},§8 công cụ
+          - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+          - ''
+          - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+          - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+          - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+          - ''
+          - §eLOẠI VẬT PHẨM§a clickable
+          internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkmG2yCLLoyk6ZAOCEUo7LgM4TKDTQu29Kl8RGfp4iy+c0mOCqDCy2FcOP88f7c9Zwo8kgZea9ziUjeZZrSWpVm4RJqLmaFZ6A01le04be2qoMrRiZ3nnl2eQZnZbV7O7KICwIMCT2nJFwa/bPVRcexQc/R5vRIsOTkgHpLh5JApXasPgomQ+e4d71f3X9eey8zmuel3xRQtlUjR3ow528V6Lb5+ArEd6T3luYh7mhC9EH4XeORGh9EqvGjN7+RKBTUDQyojiIpgCBMuFdn0ziVJf4iueUZvobcVZNLdNtps5Hv4AypJvv8YAQAA
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được &ax2&f túi thạch đá ʟᴠ1 từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '25':
+      DisplayName: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§62 §e§lRANDOM
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 2
+      Lore:
+      - ''
+      - §f ⇱ §e§l thông tin §f ⇲
+      - §a This is §7thạch đá lv.{grade}
+      - §a Khảm lên§7 {typeitem},§8 công cụ
+      - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+      - ''
+      - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+      - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+      - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+      - ''
+      - §eLOẠI VẬT PHẨM§a clickable
+      - ''
+      - '&e⇨&6Khả năng: &e60%'
+      MaxRange: 100
+      Chance: 60
+      Firework: false
+      Glowing: false
+      Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkMzVlYmRiMTI1ZmJhNDIxMjk4ZDQyYzIwMmM3N2M3NWI0MmNjOTljOTQ5MzlmNjM3NjQwYWMxODFmIn19fQ==='
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§62 §e§lRANDOM
+          lore:
+          - ''
+          - §f ⇱ §e§l thông tin §f ⇲
+          - §a This is §7thạch đá lv.{grade}
+          - §a Khảm lên§7 {typeitem},§8 công cụ
+          - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+          - ''
+          - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+          - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+          - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+          - ''
+          - §eLOẠI VẬT PHẨM§a clickable
+          internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkmG2yCLLoyk6ZAOCEUo7LgM4TKDTQu29Kl8RGfp4iy+c0mOCqDCy2FcOP88f7c9Zwo8kgZea9ziUjeZZrSWpVm4RJqLmaFZ6A01le04be2qoMrRiZ3nnl2eQZnZbV7O7KICwIMCT2nJFwa/bPVRcexQc/R5vRIsOTkgHpLh5JApXasPgomQ+e4d71f3X9eey8zmuel3xRQtlUjR3ow528V6Lb5+ArEd6T3luYh7mhC9EH4XeORGh9EqvGjN7+RKBTUDQyojiIpgCBMuFdn0ziVJf4iueUZvobcVZNLdNtps5Hv4AypJvv8YAQAA
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được &ax2&f túi thạch đá ʟᴠ2 từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '26':
+      DisplayName: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§63 §e§lRANDOM
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 2
+      Lore:
+      - ''
+      - §f ⇱ §e§l thông tin §f ⇲
+      - §a This is §7thạch đá lv.{grade}
+      - §a Khảm lên§7 {typeitem},§8 công cụ
+      - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+      - ''
+      - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+      - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+      - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+      - ''
+      - §eLOẠI VẬT PHẨM§a clickable
+      - ''
+      - '&e⇨&6Khả năng: &e50%'
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkMzVlYmRiMTI1ZmJhNDIxMjk4ZDQyYzIwMmM3N2M3NWI0MmNjOTljOTQ5MzlmNjM3NjQwYWMxODFmIn19fQ==='
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§63 §e§lRANDOM
+          lore:
+          - ''
+          - §f ⇱ §e§l thông tin §f ⇲
+          - §a This is §7thạch đá lv.{grade}
+          - §a Khảm lên§7 {typeitem},§8 công cụ
+          - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+          - ''
+          - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+          - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+          - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+          - ''
+          - §eLOẠI VẬT PHẨM§a clickable
+          internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkmG2yCLLoyk6ZAOCEUo7LgM4TKDTQu29Kl8RGfp4iy+c0mOCqDCy2FcOP88f7c9Zwo8kgZea9ziUjeZZrSWpVm4RJqLmaFZ6A01le04be2qoMrRiZ3nnl2eQZnZbV7O7KICwIMCT2nJFwa/bPVRcexQc/R5vRIsOTkgHpLh5JApXasPgomQ+e4d71f3X9eey8zmuel3xRQtlUjR3ow528V6Lb5+ArEd6T3luYh7mhC9EH4XeORGh9EqvGjN7+RKBTUDQyojiIpgCBMuFdn0ziVJf4iueUZvobcVZNLdNtps5Hv4AypJvv8YAQAA
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được &ax2&f túi thạch đá ʟᴠ3 từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '27':
+      DisplayName: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§64 §e§lRANDOM
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 2
+      Lore:
+      - ''
+      - §f ⇱ §e§l thông tin §f ⇲
+      - §a This is §7thạch đá lv.{grade}
+      - §a Khảm lên§7 {typeitem},§8 công cụ
+      - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+      - ''
+      - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+      - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+      - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+      - ''
+      - §eLOẠI VẬT PHẨM§a clickable
+      - ''
+      - '&e⇨&6Khả năng: &e40%'
+      MaxRange: 100
+      Chance: 40
+      Firework: false
+      Glowing: false
+      Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkMzVlYmRiMTI1ZmJhNDIxMjk4ZDQyYzIwMmM3N2M3NWI0MmNjOTljOTQ5MzlmNjM3NjQwYWMxODFmIn19fQ==='
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§64 §e§lRANDOM
+          lore:
+          - ''
+          - §f ⇱ §e§l thông tin §f ⇲
+          - §a This is §7thạch đá lv.{grade}
+          - §a Khảm lên§7 {typeitem},§8 công cụ
+          - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+          - ''
+          - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+          - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+          - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+          - ''
+          - §eLOẠI VẬT PHẨM§a clickable
+          internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkmG2yCLLoyk6ZAOCEUo7LgM4TKDTQu29Kl8RGfp4iy+c0mOCqDCy2FcOP88f7c9Zwo8kgZea9ziUjeZZrSWpVm4RJqLmaFZ6A01le04be2qoMrRiZ3nnl2eQZnZbV7O7KICwIMCT2nJFwa/bPVRcexQc/R5vRIsOTkgHpLh5JApXasPgomQ+e4d71f3X9eey8zmuel3xRQtlUjR3ow528V6Lb5+ArEd6T3luYh7mhC9EH4XeORGh9EqvGjN7+RKBTUDQyojiIpgCBMuFdn0ziVJf4iueUZvobcVZNLdNtps5Hv4AypJvv8YAQAA
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được &ax2&f túi thạch đá ʟᴠ4 từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '28':
+      DisplayName: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§65 §e§lRANDOM
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 2
+      Lore:
+      - ''
+      - §f ⇱ §e§l thông tin §f ⇲
+      - §a This is §7thạch đá lv.{grade}
+      - §a Khảm lên§7 {typeitem},§8 công cụ
+      - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+      - ''
+      - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+      - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+      - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+      - ''
+      - §eLOẠI VẬT PHẨM§a clickable
+      - ''
+      - '&e⇨&6Khả năng: &e30%'
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Glowing: false
+      Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkMzVlYmRiMTI1ZmJhNDIxMjk4ZDQyYzIwMmM3N2M3NWI0MmNjOTljOTQ5MzlmNjM3NjQwYWMxODFmIn19fQ==='
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§65 §e§lRANDOM
+          lore:
+          - ''
+          - §f ⇱ §e§l thông tin §f ⇲
+          - §a This is §7thạch đá lv.{grade}
+          - §a Khảm lên§7 {typeitem},§8 công cụ
+          - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+          - ''
+          - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+          - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+          - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+          - ''
+          - §eLOẠI VẬT PHẨM§a clickable
+          internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkmG2yCLLoyk6ZAOCEUo7LgM4TKDTQu29Kl8RGfp4iy+c0mOCqDCy2FcOP88f7c9Zwo8kgZea9ziUjeZZrSWpVm4RJqLmaFZ6A01le04be2qoMrRiZ3nnl2eQZnZbV7O7KICwIMCT2nJFwa/bPVRcexQc/R5vRIsOTkgHpLh5JApXasPgomQ+e4d71f3X9eey8zmuel3xRQtlUjR3ow528V6Lb5+ArEd6T3luYh7mhC9EH4XeORGh9EqvGjN7+RKBTUDQyojiIpgCBMuFdn0ziVJf4iueUZvobcVZNLdNtps5Hv4AypJvv8YAQAA
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được &ax2&f túi thạch đá ʟᴠ5 từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '29':
+      DisplayName: §e✦ §3Hàn Băng §f§l§k||§3 Donate §e✦
+      DisplayItem: PACKED_ICE
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - :§e ☀Đánh giá:§6 [siêu phẩm]
+      - ''
+      - :§e ☀Công dụng:§7 trao đổi ra các mặt hàng siêu
+      - §7 phẩm tại khu donate.
+      - ''
+      - :§e Groupding:§7 vật phẩm đặt xuống đất sẽ mất
+      - §7 giá trị vĩnh viễn
+      - ''
+      - :§e ⇥ §6§lVẬT PHẨM ĐƯỢC PHONG ẤN §e⇤
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: PACKED_ICE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e✦ §3Hàn Băng §f§l§k||§3 Donate §e✦
+          lore:
+          - ''
+          - :§e ☀Đánh giá:§6 [siêu phẩm]
+          - ''
+          - :§e ☀Công dụng:§7 trao đổi ra các mặt hàng siêu
+          - §7 phẩm tại khu donate.
+          - ''
+          - :§e Groupding:§7 vật phẩm đặt xuống đất sẽ mất
+          - §7 giá trị vĩnh viễn
+          - ''
+          - :§e ⇥ §6§lVẬT PHẨM ĐƯỢC PHONG ẤN §e⇤
+          enchants:
+            LOOT_BONUS_BLOCKS: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được &ax1&f &3&lhàn băng ʟᴠ1&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '30':
+      DisplayName: §e✦✦ §b§lBăng Bắc Cực §e✦✦
+      DisplayItem: ICE
+      DisplayAmount: 1
+      Lore:
+      - §a§l LV2
+      - ''
+      - §e ☀Đánh giá:§6 [siêu phẩm]
+      - ''
+      - §e ☀Công dụng:§7 trao đổi ra các mặt hàng siêu
+      - §7phẩm tại khu donate.
+      - ''
+      - §e ☀Added:§7 Là sự tiến hóa mới từ hàn băng,
+      - §7băng này rơi từ mưa sao băng trên trời.
+      - ''
+      - §e ⇥ §6§lVẬT PHẨM ĐƯỢC PHONG ẤN §e⇤
+      - ''
+      - '&e⇨&6Khả năng: &e10%'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: ICE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e✦✦ §b§lBăng Bắc Cực §e✦✦
+          lore:
+          - §a§l LV2
+          - ''
+          - §e ☀Đánh giá:§6 [siêu phẩm]
+          - ''
+          - §e ☀Công dụng:§7 trao đổi ra các mặt hàng siêu
+          - §7phẩm tại khu donate.
+          - ''
+          - §e ☀Added:§7 Là sự tiến hóa mới từ hàn băng,
+          - §7băng này rơi từ mưa sao băng trên trời.
+          - ''
+          - §e ⇥ §6§lVẬT PHẨM ĐƯỢC PHONG ẤN §e⇤
+          enchants:
+            LOOT_BONUS_BLOCKS: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được &ax1&f &3&lbăng bắc cực ʟᴠ2&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '31':
+      DisplayName: §e§lPIXEL COINS §e(§7500§e)
+      DisplayItem: GOLD_INGOT
+      DisplayAmount: 5
+      Lore:
+      - ''
+      - §7 +5 điểm tiền tệ Pixel Coins vào
+      - §7 tài khoản để bạn sinh hoạt.
+      - ''
+      - §aCầm và CLICK-PHẢI để tiêu thụ
+      - ''
+      - '&e⇨&6Khả năng: &e65%'
+      MaxRange: 100
+      Chance: 65
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Commands:
+        - 'p give %Player% 500'
+        - 'broadcast &a%Player% &fvừa quay được 500 &e⛁&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '32':
+      DisplayName: §e§lPIXEL COINS §e(§71000§e)
+      DisplayItem: GOLD_INGOT
+      DisplayAmount: 10
+      Lore:
+      - ''
+      - §7 +5 điểm tiền tệ Pixel Coins vào
+      - §7 tài khoản để bạn sinh hoạt.
+      - ''
+      - §aCầm và CLICK-PHẢI để tiêu thụ
+      - ''
+      - '&e⇨&6Khả năng: &e50%'
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Commands:
+        - 'p give %Player% 1000'
+        - 'broadcast &a%Player% &fvừa quay được 1000 &e⛁&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '33':
+      DisplayName: §eBitcoin §l฿ §e(§7300§e)
+      DisplayItem: DOUBLE_PLANT
+      DisplayAmount: 3
+      Lore:
+      - ''
+      - §7 +5 điểm tiền tệ Bitcoin ฿ vào
+      - §7 tài khoản để bạn sinh hoạt.
+      - ''
+      - §aCầm và CLICK-PHẢI để tiêu thụ
+      - ''
+      - '&e⇨&6Khả năng: &e75%'
+      MaxRange: 100
+      Chance: 75
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Commands:
+        - 'dust add %Player% 300'
+        - 'broadcast &a%Player% &fvừa quay được 300 &e฿&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '34':
+      DisplayName: §eBitcoin §l฿ §e(§7700§e)
+      DisplayItem: DOUBLE_PLANT
+      DisplayAmount: 7
+      Lore:
+      - ''
+      - §7 +5 điểm tiền tệ Bitcoin ฿ vào
+      - §7 tài khoản để bạn sinh hoạt.
+      - ''
+      - §aCầm và CLICK-PHẢI để tiêu thụ
+      - ''
+      - '&e⇨&6Khả năng: &e13%'
+      MaxRange: 100
+      Chance: 13
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Commands:
+        - 'dust add %Player% 700'
+        - 'broadcast &a%Player% &fvừa quay được 700 &e฿&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '35':
+      DisplayName: '&eTáo vàng +0'
+      DisplayItem: GOLDEN_APPLE
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+        amount: 64
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được &ax64&f táo vàng từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '36':
+      DisplayName: '&eTáo vàng&6 enhancer'
+      DisplayItem: GOLDEN_APPLE:1
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+        damage: 1
+        amount: 64
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được &ax64&f táo vàng enhancer từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '37':
+      DisplayName: §2⇱§a§lĐá Cường Hóa§4⇱
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - '§7 Dùng để cường hóa tính năng RPG như:'
+      - §7 nâng bậc cánh, niên thú....
+      - ''
+      - §a§l SỬ DỤNG:§7 tích trữ đủ số lượng vào túi
+      - §e§l E§7 và đến giao diện RPG nâng cấp
+      - ''
+      - §e Groupding:§7 item mất giá trị khi đặt xuống
+      - §7 đất vì biến dạng §9§l(!)
+      - ''
+      - §eLOẠI VẬT PHẨM§a storage
+      - ''
+      - '&e⇨&6Khả năng: &e72%'
+      MaxRange: 100
+      Chance: 72
+      Firework: false
+      Glowing: false
+      Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzIyNDY3YzlkYWUzNWNhMzFjZGM1MmFkZTc0N2E4MmFkOWIzZjM3ODI2Yzk1ZTliYWFkNGFiZDdiOWViNmMifX19='
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §2⇱§a§lĐá Cường Hóa§4⇱
+          lore:
+          - ''
+          - '§7 Dùng để cường hóa tính năng RPG như:'
+          - §7 nâng bậc cánh, niên thú....
+          - ''
+          - §a§l SỬ DỤNG:§7 tích trữ đủ số lượng vào túi
+          - §e§l E§7 và đến giao diện RPG nâng cấp
+          - ''
+          - §e Groupding:§7 item mất giá trị khi đặt xuống
+          - §7 đất vì biến dạng §9§l(!)
+          - ''
+          - §eLOẠI VẬT PHẨM§a storage
+          internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkm4dKAsjUg7pAzaUgZmx2UIA0NtKBjhqXxEcefunHznS44KoMLTqZukfB8+ayG5Ave4guei3rpoW5pagRyubQzT1lwHVVqVWxuDFzYquKWCukpXPoyC3x5BGfn3OA38pgLAnQIPSS4nDj98DnSWNnqVBrKcsb32+KTLCLdXB1+SuXjFNu5Xvn+xD7P7b4vGnCKZWUHDLh9T0Sf6wTpKvj8aZX/+IgueiZdZ2SK7jJ4XQkkTLn7LdqER9n7H4lIn5tvmL0cUL6wNrcjDZrZ0BoulyKjfkZ0vmFeJiCaC9KGoU8Nd38MvJ+gW9hgBAAA=
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được &ax64&f đá cường hóa từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '38':
+      DisplayName: §8◁§2✦ §e§lĐá Rèn §2✦§8▷
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - §7 Dùng để rèn trang bị bằng nhiều tính
+      - '§7 như: tẩy luyện, rèn cúp, khảm unbreakble..'
+      - ''
+      - §a§l SỬ DỤNG:§7 tích trữ đủ số lượng vào túi
+      - §e§l E§7 và đến giao diện §eRÈN§7 nâng cấp
+      - ''
+      - §e Groupding:§7 item mất giá trị khi đặt xuống
+      - §7 đất vì biến dạng §9§l(!)
+      - ''
+      - §eLOẠI VẬT PHẨM§a storage§e and§a clickable
+      - ''
+      - '&e⇨&6Khả năng: &e72%'
+      MaxRange: 100
+      Chance: 72
+      Firework: false
+      Glowing: false
+      Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNkMzRjNzIxYjY1OTQwOTlhZmNmNDFhODJmNjQ4MTc2Yzk0YWIzMmRlOTRmZjMwZDExM2NkYmY4M2RjOGIifX19='
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §8◁§2✦ §e§lĐá Rèn §2✦§8▷
+          lore:
+          - ''
+          - §7 Dùng để rèn trang bị bằng nhiều tính
+          - '§7 như: tẩy luyện, rèn cúp, khảm unbreakble..'
+          - ''
+          - §a§l SỬ DỤNG:§7 tích trữ đủ số lượng vào túi
+          - §e§l E§7 và đến giao diện §eRÈN§7 nâng cấp
+          - ''
+          - §e Groupding:§7 item mất giá trị khi đặt xuống
+          - §7 đất vì biến dạng §9§l(!)
+          - ''
+          - §eLOẠI VẬT PHẨM§a storage§e and§a clickable
+          internal: H4sIAAAAAAAAAE2Oy06EMBhGf01MkPgYbkmg3MLSiDolQxEGgbLjUsKlHScMOMBT+YiydPnlnJN8MoAMT6dh5vxz/G46ziS4xzU8N2VdIxUVSmnYjmJYCCklMm3FYbXOLMcuNebIIO/RhY1Tx66PIE1smeaRXWUAuJPgISn4zOCXrZ6aZ61aZx6vVmztOz6pPMD9xcbnZC1fsYXFzg8v1nF1/rnmVKQmp7rX5udwLkWiHvWIs0OkVeLrh6Rk8LeoJxteaE+1IA5vQczbXBBB3Pc2cD1B+tDw4wrRbVBpijdfRDyII5H3/i133xYfkYEKavgo6oMP3DWZ5uzv4Q/i9l6ZGAEAAA==
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được &ax64&f đá rèn từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '39':
+      DisplayName: §6§lEggbreaker §2࿉ §ethợ mỏ vay
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 10
+      Lore:
+      - ''
+      - §7 mở ra có cơ hội nhận được §6§lCÚP
+      - §6§l THỢ MỎ VAY§7 vĩnh viễn hoặc nguyên
+      - §7 liệu §ethẻ điểm danh.
+      - ''
+      - §eLOẠI VẬT PHẨM §aclickable
+      - ''
+      - '&e⇨&6Khả năng: &e75%'
+      MaxRange: 100
+      Chance: 75
+      Firework: false
+      Glowing: false
+      Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0=='
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §6§lEggbreaker §2࿉ §ethợ mỏ vay
+          lore:
+          - ''
+          - §7 mở ra có cơ hội nhận được §6§lCÚP
+          - §6§l THỢ MỎ VAY§7 vĩnh viễn hoặc nguyên
+          - §7 liệu §ethẻ điểm danh.
+          - ''
+          - §eLOẠI VẬT PHẨM §aclickable
+          internal: H4sIAAAAAAAAAE2O326CMByFf1uyxJE9xm5JavnjuNjFYjYtsWUiA9o7KmUIrTMKKj7VHnFc7uYkJ9/5kmMBWPC0aXutP48/1U6rCdyTEp5nDsIvSgY2LsZwpfTtQFalXUw9HPi+9LDrWGCN0kEdu506PcKkU9euP6qTBQB3E3hIC90r+FVDiEReozIP9XYg/tiTDdIRaQ4zsk8HOSc+MSNfvvmrIfi39boi8zR3wlrs1700KVo5sVbLeLo1X2ea8Wu0IB5P1jdm3geGuUsT1tDm2xEZwexGnShLTbT4aLkRLb9tLzwTtWjohS0oophcWSMakbQuM3EbzcOgytHr+B7+AEM7zpUYAQAA
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được &ax10&f eggbreaker thợ mỏ từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '40':
+      DisplayName: §b§lPhụ kiện gia hạn §6extender
+      DisplayItem: WATCH
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - §7 Dùng để gia hạn 1 vật phẩm có
+      - §7 thời hạn sử dụng.
+      - ''
+      - §e§l THỜI GIAN GIA HẠN THÊM:§7 1 ngày.
+      - ''
+      - §a§l CÁCH DÙNG:§7 kéo thả vào item cần
+      - §7 gia hạn (vô hiệu với item ko có timed)
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: WATCH
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §b§lPhụ kiện gia hạn §6extender
+          lore:
+          - ''
+          - §7 Dùng để gia hạn 1 vật phẩm có
+          - §7 thời hạn sử dụng.
+          - ''
+          - §e§l THỜI GIAN GIA HẠN THÊM:§7 1 ngày.
+          - ''
+          - §a§l CÁCH DÙNG:§7 kéo thả vào item cần
+          - §7 gia hạn (vô hiệu với item ko có timed)
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được &ax64&f phụ kiện extender từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '41':
+      DisplayName: §e§lMũi §6♦§e§l khoan §2⇲
+      DisplayItem: FLINT
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §7 Đục 1 lỗ rỗng lên các trang bị yêu
+      - §7 thích. Lỗ khoan có thể khảm ngọc thạch.
+      - ''
+      - '§a§l ĐỘ HIẾM: §a☆☆☆☆☆☆☆☆☆§7☆'
+      - ''
+      - §a§l CÁCH DÙNG:§7 đến giao diện rèn. Cầm trang
+      - §7 tr.bị muốn đục trên tay và tiến hành đục.
+      - ''
+      - §eLOẠI VẬT PHẨM§a storage.
+      - ''
+      - '&e⇨&6Khả năng: &e11%'
+      MaxRange: 100
+      Chance: 11
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: FLINT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§lMũi §6♦§e§l khoan §2⇲
+          lore:
+          - ''
+          - §7 Đục 1 lỗ rỗng lên các trang bị yêu
+          - §7 thích. Lỗ khoan có thể khảm ngọc thạch.
+          - ''
+          - '§a§l ĐỘ HIẾM: §a☆☆☆☆☆☆☆☆☆§7☆'
+          - ''
+          - §a§l CÁCH DÙNG:§7 đến giao diện rèn. Cầm trang
+          - §7 tr.bị muốn đục trên tay và tiến hành đục.
+          - ''
+          - §eLOẠI VẬT PHẨM§a storage.
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được &ax1&f &e&lmũi khoan&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '42':
+      DisplayName: §f✵ §3§lĐèn Th§6§lám Hiểm §f✵
+      DisplayItem: BEACON
+      DisplayAmount: 2
+      Lore:
+      - ''
+      - §6Chức năng:§e đặt xuống đất và tạo buff
+      - ''
+      - §6Buff ?:§e lên mạng search "How To Use Beacon
+      - §eIn Minecraft".
+      - ''
+      - §6Mua tại:§e /cshop
+      - ''
+      - §e LOẠI VẬT PHẨM§a passive
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §f✵ §3§lĐèn Th§6§lám Hiểm §f✵
+          lore:
+          - ''
+          - §6Chức năng:§e đặt xuống đất và tạo buff
+          - ''
+          - §6Buff ?:§e lên mạng search "How To Use Beacon
+          - §eIn Minecraft".
+          - ''
+          - §6Mua tại:§e /cshop
+          - ''
+          - §e LOẠI VẬT PHẨM§a passive
+      Commands:
+        - 'mm i give %Player% it_beacon 2'
+        - 'broadcast &a%Player% &fvừa quay được &ax2&f đèn thám hiểm từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '43':
+      DisplayName: §2Tinh hoa (§f100§2)
+      DisplayItem: EXP_BOTTLE
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - §7 +100 điểm expclass vào nhân vật
+      - §7 main. /sb để xem chi tiết.
+      - ''
+      - §e LOẠI VẬT PHẨM §aclickable
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: AIR
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §2Tinh hoa (§f100§2)
+          lore:
+          - ''
+          - §7 +100 điểm expclass vào nhân vật
+          - §7 main. /sb để xem chi tiết.
+          - ''
+          - §e LOẠI VẬT PHẨM §aclickable
+      Commands:
+        - 'voucher give %Player% expclass100 64'
+        - 'broadcast &a%Player% &fvừa quay được &ax64&f bình tinh hoa từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '44':
+      DisplayName: :§c§lChìa Khóa§c Thủy Tổ §6* Hữu hình
+      DisplayItem: TRIPWIRE_HOOK
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §6Chức năng:§e mở khóa rưởng thủy tổ thần thoại titan
+      - ''
+      - §6Rương:§e đến khu crates để sử dụng key báu vật này..
+      - ''
+      - §6Thu thập:§e mua từ cửa hàng coins §e(⛀)§6.
+      - ''
+      - '&e⇨&6Khả năng: &e60%'
+      MaxRange: 100
+      Chance: 60
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: TRIPWIRE_HOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: :§c§lChìa Khóa§c Thủy Tổ §6* Hữu hình
+          lore:
+          - ''
+          - §6Chức năng:§e mở khóa rưởng thủy tổ thần thoại titan
+          - ''
+          - §6Rương:§e đến khu crates để sử dụng key báu vật này..
+          - ''
+          - §6Thu thập:§e mua từ cửa hàng coins §e(⛀)§6.
+          internal: H4sIAAAAAAAAAONiYOBgEHQuSqyqBBIlqcW6YIqBrSSjtLIknwEApEWmLiAAAAA=
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được &eHòa Vốn&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '45':
+      DisplayName: §eCây đuốc 43.478§2$
+      DisplayItem: REDSTONE_TORCH_ON
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+      - §7đuốc triệu đổi ra money mệnh giá tương ứng
+      - §2 ●§7 Chiết khấu 0%
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      - ''
+      - '&e⇨&6Khả năng: &e70%'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_TORCH_ON
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCây đuốc 43.478§2$
+          lore:
+          - ''
+          - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+          - §7đuốc triệu đổi ra money mệnh giá tương ứng
+          - §2 ●§7 Chiết khấu 0%
+          - ''
+          - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được sécbear &a43$&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '46':
+      DisplayName: §eCây đuốc 86.956§2$
+      DisplayItem: REDSTONE_TORCH_ON
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+      - §7đuốc triệu đổi ra money mệnh giá tương ứng
+      - §2 ●§7 Chiết khấu 0%
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      - ''
+      - '&e⇨&6Khả năng: &e67%'
+      MaxRange: 100
+      Chance: 67
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_TORCH_ON
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCây đuốc 86.956§2$
+          lore:
+          - ''
+          - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+          - §7đuốc triệu đổi ra money mệnh giá tương ứng
+          - §2 ●§7 Chiết khấu 0%
+          - ''
+          - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được sécbear &a86$&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '47':
+      DisplayName: §eCây đuốc 173.91§2$
+      DisplayItem: REDSTONE_TORCH_ON
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+      - §7đuốc triệu đổi ra money mệnh giá tương ứng
+      - §2 ●§7 Chiết khấu 0%
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      - ''
+      - '&e⇨&6Khả năng: &e64%'
+      MaxRange: 100
+      Chance: 64
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_TORCH_ON
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCây đuốc 173.91§2$
+          lore:
+          - ''
+          - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+          - §7đuốc triệu đổi ra money mệnh giá tương ứng
+          - §2 ●§7 Chiết khấu 0%
+          - ''
+          - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được sécbear &a173$&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '48':
+      DisplayName: §eCây đuốc 347.826§2$
+      DisplayItem: REDSTONE_TORCH_ON
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+      - §7đuốc triệu đổi ra money mệnh giá tương ứng
+      - §2 ●§7 Chiết khấu 0%
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      - ''
+      - '&e⇨&6Khả năng: &e61%'
+      MaxRange: 100
+      Chance: 61
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_TORCH_ON
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCây đuốc 347.826§2$
+          lore:
+          - ''
+          - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+          - §7đuốc triệu đổi ra money mệnh giá tương ứng
+          - §2 ●§7 Chiết khấu 0%
+          - ''
+          - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được sécbear &a347$&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '49':
+      DisplayName: §eCây đuốc 434.782§2$
+      DisplayItem: REDSTONE_TORCH_ON
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+      - §7đuốc triệu đổi ra money mệnh giá tương ứng
+      - §2 ●§7 Chiết khấu 0%
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      - ''
+      - '&e⇨&6Khả năng: &e58%'
+      MaxRange: 100
+      Chance: 58
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_TORCH_ON
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCây đuốc 434.782§2$
+          lore:
+          - ''
+          - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+          - §7đuốc triệu đổi ra money mệnh giá tương ứng
+          - §2 ●§7 Chiết khấu 0%
+          - ''
+          - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được sécbear &a434$&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '50':
+      DisplayName: §2☘ §eXẻng Builder§2☘§f ☾§aᴛối ᴛhượng§f☽
+      DisplayItem: DIAMOND_SPADE
+      DisplayAmount: 1
+      Lore:
+      - §6♦§7Click.phải để sử dụng. §f(§e9999§f)
+      - ''
+      - '&e⇨&6Khả năng: &e5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SPADE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §2☘ §eXẻng Builder§2☘§f ☾§aᴛối ᴛhượng§f☽
+          lore:
+          - §6♦§7Click.phải để sử dụng. §f(§e9999§f)
+          internal: H4sIAAAAAAAAAONiYOBgYCktzUxhUDExMTYyTTO21E1KNk/WNTE0Nte1NDI10zU0SDIxtzA3MzFOTGYAAJMYHoAxAAAA
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được &ax1&f &2xẻng builder&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '51':
+      DisplayName: §c§l§oTNT§f -§b§l§o PICKAXE
+      DisplayItem: DIAMOND_PICKAXE
+      DisplayAmount: 1
+      Lore:
+      - §c+ §bThe explosion break any block around
+      - §c+ §bNerver §fbreaking
+      - §7Explosive I
+      - §bUse all items of donate to break
+      - §bthere blocks have fortune make
+      - §bthe rich of !!!
+      - §4☾§6§lCENSORED §f⚘ §c§lPhong Ấn Vị Kỷ§4☽
+      - ''
+      - '&e⇨&6Khả năng: &e5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §c§l§oTNT§f -§b§l§o PICKAXE
+          lore:
+          - §c+ §bThe explosion break any block around
+          - §c+ §bNerver §fbreaking
+          - §7Explosive I
+          - §bUse all items of donate to break
+          - §bthere blocks have fortune make
+          - §bthe rich of !!!
+          - §4☾§6§lCENSORED §f⚘ §c§lPhong Ấn Vị Kỷ§4☽
+          enchants:
+            DIG_SPEED: 15
+            DURABILITY: 10000
+            LOOT_BONUS_BLOCKS: 10
+      Commands:
+        - 'broadcast &a%Player% &fvừa quay được &ax1&f &d&lcúp ᴛɴᴛ&f từ hộp &8[&a&lTHỦY TỔ&8]'
+#
+#*
+#**
+#***
+#****
+#*****
+#******
+    '52':
+      DisplayName: §f ෴§4§lPickaxe Tối Thượng§f෴ §7 (7days)
+      DisplayItem: 278
+      DisplayAmount: 1
+      Lore:
+      - §7Sức mạnh phá khối enchantment.level.35
+      - §7Độ bền trang bị enchantment.level.32767
+      - §7Gia tài ore enchantment.level.16
+      - ''
+      - §1♠§bSử dụng đạo cụ thần bí khai thác nguồn
+      - §btài nguyên vô hạn từ máy farm làm giàu
+      - §bcho island của bạn!!!
+      - ''
+      - '§2Nội tại bất biến§f࿏:'
+      - '§2 ♠§7 Nội tại: Obsidian tuổi tôm với cúp này'
+      - '§2 ♠§7 Nội tại: §2+100.0%§7 tốc độ ♿'
+      - §f【§4Trang bị không thể giao dịch§f】
+      - §f〖§2Vật phẩm được gia hạn§f〗
+      - '§2Thời hạn: 7 ngày'
+      - ''
+      - '&e⇨&6Khả năng: &e75%'
+      MaxRange: 100
+      Chance: 75
+      Firework: false
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §f ෴§4§lPickaxe Tối Thượng§f෴
+          lore:
+          - §7Sức mạnh phá khối enchantment.level.35
+          - §7Độ bền trang bị enchantment.level.32767
+          - §7Gia tài ore enchantment.level.16
+          - ''
+          - §1♠§bSử dụng đạo cụ thần bí khai thác nguồn
+          - §btài nguyên vô hạn từ máy farm làm giàu
+          - §bcho island của bạn!!!
+          - ''
+          - '§2Nội tại bất biến§f࿏:'
+          - '§2 ♠§7 Nội tại: Obsidian tuổi tôm với cây này'
+          - '§2 ♠§7 Nội tại: §2+100.0%§7 tốc độ ♿'
+          - §f【§4Trang bị không thể giao dịch§f】
+          - §f〖§2Vật phẩm được gia hạn§f〗
+          - '§2Thời hạn: 7 ngày'
+          enchants:
+            DIG_SPEED: 35
+            DURABILITY: 32767
+            LOOT_BONUS_BLOCKS: 16
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          internal: H4sIAAAAAAAAAH2NMQrCQBBFv0TCJpJG8BrWdhKwEYwWIQdYzagL7kzYTLyLHsA72Hg2N42lv3vweS8HMsxL1eCOg1IlrTs7Cn0OYJLANM12U0mvwGyVIBtxRzZy8fqkSEsvA+v6/Rj3NJjWN1EYbx1fLbcGxU+9t56wuBBTcKellzt5Yq07ojaKDx0Fq044dhE9f97AF0X5qVC1AAAA
+      Messages:
+      - §6♦§7Chúc mừng, bạn vừa nhận đc Tối thượng cúp (7days) x1
+      Commands:
+        - 'broadcast &a%Player% &6♦&7Chúc mừng, bạn vừa nhận đc Tối thượng cúp (7days) x1 từ hộp &8[&a&lTHỦY TỔ&8]'
+    '53':
+      DisplayName: §f ෴§4§lPickaxe Tối Thượng§f෴§7 (vĩnh viễn)
+      DisplayItem: 278
+      DisplayAmount: 1
+      Lore:
+      - §7Sức mạnh phá khối enchantment.level.35
+      - §7Độ bền trang bị enchantment.level.32767
+      - §7Gia tài ore enchantment.level.16
+      - ''
+      - §1♠§bSử dụng đạo cụ thần bí khai thác nguồn
+      - §btài nguyên vô hạn từ máy farm làm giàu
+      - §bcho island của bạn!!!
+      - ''
+      - '§2Nội tại bất biến§f࿏:'
+      - '§2 ♠§7 Nội tại: Obsidian tuổi tôm với cúp này'
+      - '§2 ♠§7 Nội tại: §2+100.0%§7 tốc độ ♿'
+      - §f【§4Trang bị không thể giao dịch§f】
+      - ''
+      - '&e⇨&6Khả năng: &e5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §f ෴§4§lPickaxe Tối Thượng§f෴
+          lore:
+          - §7Sức mạnh phá khối enchantment.level.35
+          - §7Độ bền trang bị enchantment.level.32767
+          - §7Gia tài ore enchantment.level.16
+          - ''
+          - §1♠§bSử dụng đạo cụ thần bí khai thác nguồn
+          - §btài nguyên vô hạn từ máy farm làm giàu
+          - §bcho island của bạn!!!
+          - ''
+          - '§2Nội tại bất biến§f࿏:'
+          - '§2 ♠§7 Nội tại: Obsidian tuổi tôm với cây này'
+          - '§2 ♠§7 Nội tại: §2+100.0%§7 tốc độ ♿'
+          - §f【§4Trang bị không thể giao dịch§f】
+          enchants:
+            DIG_SPEED: 35
+            DURABILITY: 32767
+            LOOT_BONUS_BLOCKS: 16
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          internal: H4sIAAAAAAAAAH2NMQrCQBBFv0TCJpJG8BrWdhKwEYwWIQdYzagL7kzYTLyLHsA72Hg2N42lv3vweS8HMsxL1eCOg1IlrTs7Cn0OYJLANM12U0mvwGyVIBtxRzZy8fqkSEsvA+v6/Rj3NJjWN1EYbx1fLbcGxU+9t56wuBBTcKellzt5Yq07ojaKDx0Fq044dhE9f97AF0X5qVC1AAAA
+      Commands:
+        - 'broadcast &a%Player% &6♦&7Chúc mừng, bạn vừa nhận đc Tối thượng cúp (&evĩnh viễn&7) x1 từ hộp &8[&a&lTHỦY TỔ&8]'

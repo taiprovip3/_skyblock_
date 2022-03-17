@@ -1,0 +1,83 @@
+ShopName: bxh
+DisplayName: '&cMáy Chủ&6♦&8 TOP BẢNG NHÃN✶'
+Command: top:bxh
+Sound:
+  Shop:
+    Open: ENTITY_WITHER_SPAWN:1:1
+    ChangeShop: ENTITY_WITHER_SPAWN:1:1
+shop:
+  1:
+    MenuItem:
+    - amount:5
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2U5ZmQxZmJhMTcxZDgxZjE5ZTliNjFlYWUyNzExYTc1YzIwYzY0MDE3MTQ2MDI4YTJlZjlkNjI4NzJlMWE2ZCJ9fX0==
+    - name:&a             &lᴛᴏᴘ ɪsʟᴀɴᴅ
+    - 'lore3:&aGiải thưởng &7 (5 Vương quốc đảo khổng lồ):'
+    - 'lore4:&2 No1. &7&n6000&e&l ⛁'
+    - 'lore5:&2  No2. &7&n5500&e&l ⛁'
+    - 'lore6:&2   No3. &7&n5000&e&l ⛁'
+    - 'lore7:&2    No4. &7&n4500&e&l ⛁'
+    - 'lore8:&2     No5. &7&n4000&e&l ⛁'
+    - 'lore11:&e▼ &7nhấp xem &e▼'
+    RewardType: PLAYERCOMMAND
+    Reward: 
+    - island top
+    InventoryLocation: 1
+  2:
+    MenuItem:
+    - amount:10
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2U5ZmQxZmJhMTcxZDgxZjE5ZTliNjFlYWUyNzExYTc1YzIwYzY0MDE3MTQ2MDI4YTJlZjlkNjI4NzJlMWE2ZCJ9fX0==
+    - name:&a&l       ᴛᴏᴘ ʙᴀʟᴀɴᴄᴇ
+    - 'lore3:&aGiải thưởng &7 (5 Tỷ phú Skyworld):'
+    - 'lore4:&2     No1. &7&n5000&e&l ⛁'
+    - 'lore5:&2    No2. &7&n4500&e&l ⛁'
+    - 'lore6:&2   No3. &7&n4000&e&l ⛁'
+    - 'lore7:&2  No4. &7&n3500&e&l ⛁'
+    - 'lore8:&2 No5. &7&n3000&e&l ⛁'
+    - 'lore11:&e▼ &7nhấp xem &e▼'
+    RewardType: PLAYERCOMMAND
+    Reward: 
+    - baltop
+    InventoryLocation: 2
+  3:
+    MenuItem:
+    - amount:5
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2U5ZmQxZmJhMTcxZDgxZjE5ZTliNjFlYWUyNzExYTc1YzIwYzY0MDE3MTQ2MDI4YTJlZjlkNjI4NzJlMWE2ZCJ9fX0==
+    - name:&a&l   ᴛᴏᴘ ʙᴇᴀᴜᴛɪғᴜʟ ɪsʟᴀɴᴅ
+    - 'lore3:&a【&75 Skyber Sở Hữu Đảo Đẹp Nhất&a】'
+    - 'lore4:&7         &e▼ &7nhấp xem &e▼'
+    - 'lore7:&aNo1. 3900&e&l⛁&a No2. 3600&e&l⛁ &aNo3. 3300&e&l⛁'
+    RewardType: command
+    Reward: 
+    - w %player% &cLoại top này sẽ được công bố sau mỗi sesson&e!!!
+    PriceType: NOTHING
+    Price: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 3
+  8:
+    MenuItem:
+    - amount:3
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2U5ZmQxZmJhMTcxZDgxZjE5ZTliNjFlYWUyNzExYTc1YzIwYzY0MDE3MTQ2MDI4YTJlZjlkNjI4NzJlMWE2ZCJ9fX0==
+    - name:&a&l   ᴛᴏᴘ ʟựᴄ ᴄʜɪếɴ
+    - 'lore3:&a【&73 kẻ mạnh nhất server&a】'
+    - 'lore4:&7         &e▼ &7nhấp xem &e▼'
+    - 'lore7:&aNo1. 5000&e&l⛁&a No2. 3800&e&l⛁ &aNo3. 3600&e&l⛁ &aNo4. 3400&e&l⛁ &aNo5. 3200&e&l⛁&7..vv'
+    RewardType: command
+    Reward: 
+    - msg %player% &6vào ngày &nend&6 đua top ấn &2&nTAB&6 người cao lực chiến &7(best BR)&6 nhất sẽ nhận được phần thưởng!
+    - bs close %player%
+    PriceType: NOTHING
+    Price: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 4
+  bak:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzMzYWEyNDkxNmM4ODY5NmVlNzFkYjdhYzhjZDMwNmFkNzMwOTZiNWI2ZmZkODY4ZTFjMzg0YjFkNjJjZmIzYyJ9fX0==
+    - name:&c&lQUAY LẠI
+    RewardType: shop
+    Reward: menu
+    InventoryLocation: 23

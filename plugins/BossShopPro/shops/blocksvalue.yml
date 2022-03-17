@@ -1,0 +1,93 @@
+ShopName: blocksvalue
+DisplayName: '&8Menu ⇥ Island ⇥ Giá trị khối'
+Sound:
+  Shop:
+    Open: ENTITY_PLAYER_LEVELUP:1:1
+    ChangeShop: ENTITY_PLAYER_LEVELUP:1:1
+shop:
+  1:
+    MenuItem:
+    - amount:30
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzAxNDYxOTczNjM0NTI1MTk2ZWNjNzU3NjkzYjE3MWFkYTRlZjI0YWE5MjgzNmY0MmVhMTFiZDc5YzNhNTAyZCJ9fX0=
+    - name:&bDiamond Block
+    - 'lore2:&7 +130 điểm'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 11
+  2:
+    MenuItem:
+    - amount:15
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWYxMjFmN2MxYWIxNTY3ZmYyMTk4M2ZmN2E5ZTU1YzQwYzBiODY1ZjA1MGQzN2U1ZDM1ZGVmYmFhIn19fQ==
+    - name:&2Emerald Block
+    - 'lore2:&7 +150 điểm'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 12
+  3:
+    MenuItem:
+    - amount:5
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZkMWNlNjk3ZTlkYmFhNGNjZjY0MjUxNmFhYTU5ODEzMzJkYWMxZDMzMWFmZWUyZWUzZGNjODllZmRlZGIifX19
+    - name:&eGold Block
+    - 'lore2:&7 +100 điểm'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 13
+  4:
+    MenuItem:
+    - amount:5
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmJhODQ1OTE0NWQ4M2ZmYzQ0YWQ1OGMzMjYwZTc0Y2E1YTBmNjM0YzdlZWI1OWExYWQzMjM0ODQ5YzkzM2MifX19
+    - name:&fIron Block
+    - 'lore2:&7 +90 điểm'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 14
+  5:
+    MenuItem:
+    - amount:4
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjFmYWIwMjI1ZTIwZTg0NThlOGI3NTM5OTcxMzM4OGQ5Mjk4NTZiNTUxYjAxNDkwODFkYmIwMTIxZTJhMTY2NCJ9fX0=
+    - name:&fQuartz Block
+    - 'lore2:&7 +40 điểm'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 15
+  6:
+    MenuItem:
+    - amount:3
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
+    - name:&8Coal Block
+    - 'lore2:&7 +80 điểm'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 16
+  7:
+    MenuItem:
+    - amount:3
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZmNDc2ODcxZWQyM2Y3OWU3YjlkNDk1NDg5ODg3ZTI0NGM2MTljNWUxOWU0MWNmOTViMjcxYTJlYmU3NSJ9fX0=
+    - name:&9Lapis Block
+    - 'lore2:&7 +80 điểm'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    InventoryLocation: 17
+  back:
+    MenuItem:
+    - type:SIGN
+    - enchantment:sharpness#1
+    - hideflags:hide_enchants
+    - name:&a
+    - 'lore1:&c&lQuay lại'
+    - 'lore2:&a'
+    RewardType: SHOP
+    Reward: menu
+    InventoryLocation: 23
+  faq:
+    MenuItem:
+    - type:397:3
+    - name:&a
+    InventoryLocation: 5

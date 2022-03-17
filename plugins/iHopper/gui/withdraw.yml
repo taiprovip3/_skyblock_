@@ -1,0 +1,176 @@
+# !~~~~~~~~~~~~~~~~~~~~~~~~~~~~~! #
+#   ĐIỀU CHỈNH GUI RÚT VẬT PHẨM   #
+# !~~~~~~~~~~~~~~~~~~~~~~~~~~~~~! #
+
+SETTINGS:
+  #Tên GUI:
+  name: '&a☘ &8&lRút khoáng sản&a ☘'
+  #Số dòng của GUI:
+  #Có sẵn: 1, 2, 3, 4, 5, 6.
+  rows: 6
+
+ITEMS:
+  #Các item chính:
+  Main:
+    # * LƯU Ý: Sử dụng tên các vật liệu như phần 'auto-save-materials' (file config.yml),
+    # nhưng phải viết hoa tất cả chữ cái (không sử dụng ID).
+    #Tại phần 'name' và 'lore' của các vật phẩm, có thể sử dụng các ký hiệu sau:
+    #  {material} - hiển thị tên đã định dạng của vật liệu.
+    #  {current} - số lượng vật liệu hiện có trong kho chứa.
+    COAL_BLOCK:
+      #Tên item:
+      #Để trống (hoặc đặt thành 'none') sẽ tự động lấy tên đã định dạng của vật liệu.
+      name: '{material}'
+      #Hiệu ứng phù phép:
+      glow: false
+      lore:
+      - '&2 &2 &2✧✧ &fAMOUNT &2✧✧'
+      - '&aBạn đang có: &e{current}&a khối'
+      #Ô chứa item:
+      slot: 23
+    LAPIS_BLOCK:
+      name: '&r{material}'
+      glow: false
+      lore:
+      - '&2 &2 &2✧✧ &fAMOUNT &2✧✧'
+      - '&aBạn đang có: &e{current}&a khối'
+      slot: 23
+    REDSTONE_BLOCK:
+      name: '&r{material}'
+      glow: false
+      lore:
+      - '&2 &2 &2✧✧ &fAMOUNT &2✧✧'
+      - '&aBạn đang có: &e{current}&a khối'
+      slot: 23
+    IRON_BLOCK:
+      name: '&r{material}'
+      glow: false
+      lore:
+      - '&2 &2 &2✧✧ &fAMOUNT &2✧✧'
+      - '&aBạn đang có: &e{current}&a khối'
+      slot: 23
+    GOLD_BLOCK:
+      name: '&r{material}'
+      glow: false
+      lore:
+      - '&2 &2 &2✧✧ &fAMOUNT &2✧✧'
+      - '&aBạn đang có: &e{current}&a khối'
+      slot: 23
+    DIAMOND_BLOCK:
+      name: '&r{material}'
+      glow: false
+      lore:
+      - '&2 &2 &2✧✧ &fAMOUNT &2✧✧'
+      - '&aBạn đang có: &e{current}&a khối'
+      slot: 23
+    EMERALD_BLOCK:
+      name: '&r{material}'
+      glow: false
+      lore:
+      - '&2 &2 &2✧✧ &fAMOUNT &2✧✧'
+      - '&aBạn đang có: &e{current}&a khối'
+      slot: 23
+    BONE_BLOCK:
+      name: '&r{material}'
+      glow: false
+      lore:
+      - '&2 &2 &2✧✧ &fAMOUNT &2✧✧'
+      - '&aBạn đang có: &e{current}&a khối'
+      slot: 23
+    QUARTZ_BLOCK:
+      name: '&r{material}'
+      glow: false
+      lore:
+      - '&f&m-------&b&m--------'
+      - '&e•&7Bạn đang có: &e{current}&e•'
+      - '&b&m-------&f&m--------'
+      slot: 23
+    OBSIDIAN:
+      name: '&r{material}'
+      glow: false
+      lore:
+      - '&2 &2 &2✧✧ &fAMOUNT &2✧✧'
+      - '&aBạn đang có: &e{current}&a khối'
+      slot: 23
+    STONE:
+      name: '&r{material}'
+      glow: false
+      lore:
+      - '&2 &2 &2✧✧ &fAMOUNT &2✧✧'
+      - '&aBạn đang có: &e{current}&a khối'
+      slot: 23
+  #Các item phụ:
+  Other:
+    WITHDRAW_1:
+      type: 'wool:1:13'
+      name: '&c&l► &b&lRÚT VẬT PHẨM &c&l◄'
+      glow: false
+      lore:
+      - ''
+      - '&8 » &7Số lượng rút: &ex1 &8«'
+      - ''
+      - '&8[&f!&8] &7NHẤP ĐỂ RÚT VẬT PHẨM &8[&f!&8]'
+      slot: 20
+    WITHDRAW_8:
+      type: 'wool:8:13'
+      name: '&c&l► &b&lRÚT VẬT PHẨM &c&l◄'
+      glow: false
+      lore:
+      - ''
+      - '&8 » &7Số lượng rút: &ex8 &8«'
+      - ''
+      - '&8[&f!&8] &7NHẤP ĐỂ RÚT VẬT PHẨM &8[&f!&8]'
+      slot: 21
+    WITHDRAW_32:
+      type: 'wool:32:13'
+      name: '&c&l► &b&lRÚT VẬT PHẨM &c&l◄'
+      glow: false
+      lore:
+      - ''
+      - '&8 » &7Số lượng rút: &ex32 &8«'
+      - ''
+      - '&8[&f!&8] &7NHẤP ĐỂ RÚT VẬT PHẨM &8[&f!&8]'
+      slot: 25
+    WITHDRAW_64:
+      type: 'wool:64:13'
+      name: '&c&l► &b&lRÚT VẬT PHẨM &c&l◄'
+      glow: false
+      lore:
+      - ''
+      - '&8 » &7Số lượng rút: &ex64 &8«'
+      - ''
+      - '&8[&f!&8] &7NHẤP ĐỂ RÚT VẬT PHẨM &8[&f!&8]'
+      slot: 26
+    WITHDRAW_OPTIONAL:
+      type: '351:1:10'
+      name: '&c&l► &b&lRÚT VẬT PHẨM &c&l◄'
+      glow: false
+      lore:
+      - ''
+      - '&8 » &7Số lượng rút: &etuỳ chọn &8«'
+      - ''
+      - '&8[&f!&8] &7NHẤP ĐỂ RÚT VẬT PHẨM &8[&f!&8]'
+      slot: 42
+    BACK:
+      type: '355:1:14'
+      name: '&c&l► &e&lQUAY LẠI &c&l◄'
+      glow: false
+      lore:
+      - ''
+      - '&8[&f!&8] &7NHẤP ĐỂ QUAY LẠI &8[&f!&8]'
+      slot: 40
+  Decorate:
+    '1':
+      #type: '<tên hoặc ID>:<số lượng>:<dữ liệu (data)>'
+      type: 'stained_glass_pane:1:15'
+      name: '&a'
+      #Hiệu ứng phù phép:
+      glow: false
+      lore: []
+      slots: [1, 3, 5, 7, 9, 45, 53, 51, 49, 47, 37]
+    '2':
+      type: 'stained_glass_pane:1:1'
+      name: '&a'
+      glow: false
+      lore: []
+      slots: [2, 4, 6, 8, 18, 54, 52, 50, 48, 46, 10]

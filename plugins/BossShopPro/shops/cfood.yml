@@ -1,0 +1,267 @@
+ShopName: cfood
+DisplayName: '&1&lGRASSMC&8 Food'
+Sound:
+  Shop:
+    Open: ENTITY_WITHER_SPAWN:1:1
+    ChangeShop: ENTITY_WITHER_SPAWN:1:1
+shop:
+  1xc:
+    MenuItem:
+    - type:260
+    - amount:64
+    - 'lore:&7(nhấp nhận)'
+    RewardType: command
+    Reward:
+    - give %player% 260 64
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&2Nhận food thành công&f☻'
+    ExtraPermission: ''
+    InventoryLocation: 1
+  cc2:
+    MenuItem:
+    - type:297
+    - amount:64
+    - 'lore:&7(nhấp nhận)'
+    RewardType: command
+    Reward:
+    - give %player% 297 64
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&2Nhận food thành công&f☻'
+    ExtraPermission: ''
+    InventoryLocation: 2
+  3vx:
+    MenuItem:
+    - type:320
+    - amount:64
+    - 'lore:&7(nhấp nhận)'
+    RewardType: command
+    Reward:
+    - give %player% 320 64
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&2Nhận food thành công&f☻'
+    ExtraPermission: ''
+    InventoryLocation: 3
+  3das:
+    MenuItem:
+    - type:322
+    - amount:8
+    - 'lore:&7(nhấp nhận)'
+    RewardType: command
+    Reward:
+    - give %player% 322 8
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&2Nhận food thành công&f☻'
+    ExtraPermission: ''
+    InventoryLocation: 4
+  3va:
+    MenuItem:
+    - type:322:1
+    - amount:4
+    - 'lore:&7(nhấp nhận)'
+    RewardType: command
+    Reward:
+    - give %player% 322:1 4
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&2Nhận food thành công&f☻'
+    ExtraPermission: ''
+    InventoryLocation: 5
+  vd3:
+    MenuItem:
+    - type:349
+    - amount:64
+    - 'lore:&7(nhấp nhận)'
+    RewardType: command
+    Reward:
+    - give %player% 349 64
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&2Nhận food thành công&f☻'
+    ExtraPermission: ''
+    InventoryLocation: 6
+  3av:
+    MenuItem:
+    - type:349:3
+    - amount:64
+    - 'lore:&7(nhấp nhận)'
+    RewardType: command
+    Reward:
+    - give %player% 349:3 64
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&2Nhận food thành công&f☻'
+    ExtraPermission: ''
+    InventoryLocation: 7
+  3ea:
+    MenuItem:
+    - type:350
+    - amount:64
+    - 'lore:&7(nhấp nhận)'
+    RewardType: command
+    Reward:
+    - give %player% 350 64
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&2Nhận food thành công&f☻'
+    ExtraPermission: ''
+    InventoryLocation: 8
+  3ae:
+    MenuItem:
+    - type:354
+    - amount:64
+    - 'lore:&7(nhấp nhận)'
+    RewardType: command
+    Reward:
+    - give %player% 354 64
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&2Nhận food thành công&f☻'
+    ExtraPermission: ''
+    InventoryLocation: 9
+  3as:
+    MenuItem:
+    - type:357
+    - amount:64
+    - 'lore:&7(nhấp nhận)'
+    RewardType: command
+    Reward:
+    - give %player% 357 64
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&2Nhận food thành công&f☻'
+    ExtraPermission: ''
+    InventoryLocation: 10
+  3cc:
+    MenuItem:
+    - type:360
+    - amount:64
+    - 'lore:&7(nhấp nhận)'
+    RewardType: command
+    Reward:
+    - give %player% 360 64
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&2Nhận food thành công&f☻'
+    ExtraPermission: ''
+    InventoryLocation: 11
+  bb3:
+    MenuItem:
+    - type:364
+    - amount:64
+    - 'lore:&7(nhấp nhận)'
+    RewardType: command
+    Reward:
+    - give %player% 364 64
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&2Nhận food thành công&f☻'
+    ExtraPermission: ''
+    InventoryLocation: 12
+  b3:
+    MenuItem:
+    - type:366
+    - amount:64
+    - 'lore:&7(nhấp nhận)'
+    RewardType: command
+    Reward:
+    - give %player% 366 64
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&2Nhận food thành công&f☻'
+    ExtraPermission: ''
+    InventoryLocation: 13
+  3b:
+    MenuItem:
+    - type:391
+    - amount:64
+    - 'lore:&7(nhấp nhận)'
+    RewardType: command
+    Reward:
+    - give %player% 391 64
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&2Nhận food thành công&f☻'
+    ExtraPermission: ''
+    InventoryLocation: 14
+  c3:
+    MenuItem:
+    - type:393
+    - amount:64
+    - 'lore:&7(nhấp nhận)'
+    RewardType: command
+    Reward:
+    - give %player% 393 64
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&2Nhận food thành công&f☻'
+    ExtraPermission: ''
+    InventoryLocation: 15
+  3c:
+    MenuItem:
+    - type:400
+    - amount:64
+    - 'lore:&7(nhấp nhận)'
+    RewardType: command
+    Reward:
+    - give %player% 400 64
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&2Nhận food thành công&f☻'
+    ExtraPermission: ''
+    InventoryLocation: 16
+  3s:
+    MenuItem:
+    - type:412
+    - amount:64
+    - 'lore:&7(nhấp nhận)'
+    RewardType: command
+    Reward:
+    - give %player% 412 64
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&2Nhận food thành công&f☻'
+    ExtraPermission: ''
+    InventoryLocation: 17
+  s3:
+    MenuItem:
+    - type:424
+    - amount:64
+    - 'lore:&7(nhấp nhận)'
+    RewardType: command
+    Reward:
+    - give %player% 424 64
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&2Nhận food thành công&f☻'
+    ExtraPermission: ''
+    InventoryLocation: 18
+  3a:
+    MenuItem:
+    - type:436
+    - amount:1
+    - 'lore:&7(nhấp nhận)'
+    RewardType: command
+    Reward:
+    - give %player% 436 1
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&2Nhận food thành công&f☻'
+    ExtraPermission: ''
+    InventoryLocation: 19
+  20:
+    MenuItem:
+    - type:413
+    - amount:1
+    - 'lore:&7(nhấp nhận)'
+    RewardType: command
+    Reward:
+    - give %player% 413 1
+    - bs close %player%
+    PriceType: NOTHING
+    Message: '&2Nhận food thành công&f☻'
+    ExtraPermission: ''
+    InventoryLocation: 20

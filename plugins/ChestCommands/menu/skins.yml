@@ -1,0 +1,72 @@
+menu-settings:
+  name: '&cMáy Chủ&6♦&8 Kho skins&a☘'
+  rows: 6
+  command: 'skins; trangphuc'
+sant:
+  COMMAND: 'op:skin santa'
+  NAME: '&7Trang phục &4santa ᴄlaus&6♠ᴍʏthic'
+  LORE:
+    - ''
+    - ' &fđêm giáng sinh mọi năm ông già noel'
+    - ' &fđều chui qua ống chymney để phát quà'
+    - ' &fcho các trẻ em ngoan trên world'
+    - ''
+    - '&2 Status: &7unlocked:'
+    - '&2 Br: &750.000&6⚓'
+    - ''
+    - '&2Mặc:&7 nhấp vào để mặc'
+  ID: '397:3'
+  SKULL-OWNER: 'santa'
+  KEEP-OPEN: true
+  VIEW-PERMISSION: 'minecraft.skins.santaclaus'
+  POSITION-X: 1
+  POSITION-Y: 1
+ass:
+  COMMAND: 'op:skin assassin'
+  NAME: '&4Trang phục Assassin &f【&4Huyền Thoại&f】'
+  LORE:
+    - ''
+    - ' &fKẻ giết người hàng loạt được thuê bởi bạn'
+    - ' &fVề đêm assassin là 1 người vô hình lướt'
+    - ' &ftrong bóng tối mọi kẻ địch đều là con mồi'
+    - ''
+    - '&2 Status: &7unlocked:'
+    - '&2 Br: &750.000&6⚓'
+    - ''
+    - '&2Mặc:&7 nhấp vào để mặc'
+  ID: '397:3'
+  SKULL-OWNER: 'assassin'
+  KEEP-OPEN: true
+  VIEW-PERMISSION: 'minecraft.skins.assassin'
+  POSITION-X: 2
+  POSITION-Y: 1
+ngaquy:
+  COMMAND: 'op:skin ghoul'
+  NAME: '&3Trang phục Ngạ Quỷ &f【&4Huyền Thoại&f】'
+  LORE:
+    - ''
+    - ' &fDùng chất dinh dưỡng có trong máu của người'
+    - ' &fuống để sống. Mang năng lực của 1 dị nhân'
+    - ' &fphải trải qua đấu tranh sinh tồn và chọn'
+    - ' &flọc tự nhiên của Dacuyn'
+    - ''
+    - '&2 Status: &7unlocked:'
+    - '&2 Br: &750.000&6⚓'
+    - ''
+    - '&2Mặc:&7 nhấp vào để mặc'
+  ID: '397:3'
+  SKULL-OWNER: 'ghoul'
+  KEEP-OPEN: true
+  VIEW-PERMISSION: 'minecraft.skin.ngaquy'
+  POSITION-X: 3
+  POSITION-Y: 1
+back:
+  COMMAND: 'console:bs open rpg {player}'
+  NAME: ''
+  LORE:
+    - '&cQuay lại trang trước'
+    - ''
+  ID: 123
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 6

@@ -1,0 +1,90 @@
+ShopName: buff2
+DisplayName: '&8Server &9()&8 Buff &e&l+&8 Lv2'
+Sound:
+  Shop:
+    Open: ENTITY_ITEM_PICKUP:1:1
+    ChangeShop: ENTITY_ITEM_PICKUP:1:1
+shop:
+  speed:
+    MenuItem:
+    - type:gold_boots
+    - name:&6&lThần Tốc 2
+    - 'lore2:&aHiệu quả:&7 cho hiệu ứng Tăng Tốc lv2 trong thời gian tối đa 20 minutes.'
+    - 'lore4:&aTrừng phạt:&7 khi bạn thoát máy chủ, chết'
+    - 'lore6:&7Click vào để sử dụng'
+    RewardType: opcommand
+    Reward:
+    - effect %player% 1 1200 1
+    - bs close %player%
+    Message: '&aBạn nhận được buff thần tốc 20m.'
+    InventoryLocation: 1
+  haste:
+    MenuItem:
+    - type:iron_pickaxe
+    - name:&6&lThợ Mỏ 2
+    - 'lore2:&aHiệu quả:&7 cho hiệu ứng Đào Nhanh lv2 trong thời gian tối đa 20 minutes.'
+    - 'lore4:&aTrừng phạt:&7 khi bạn thoát máy chủ, chết'
+    - 'lore6:&7Click vào để sử dụng'
+    RewardType: opcommand
+    Reward:
+    - effect %player% 3 1200 1
+    - bs close %player%
+    Message: '&aBạn nhận được buff thợ mỏ 20m.'
+    InventoryLocation: 2
+  strength:
+    MenuItem:
+    - type:gold_sword
+    - name:&6&lSức Mạnh 2
+    - 'lore2:&aHiệu quả:&7 cho hiệu ứng Tăng Dame lv2 trong thời gian tối đa 20 minutes.'
+    - 'lore4:&aTrừng phạt:&7 khi bạn thoát máy chủ, chết'
+    - 'lore6:&7Click vào để sử dụng'
+    RewardType: opcommand
+    Reward:
+    - effect %player% 5 1200 1
+    - bs close %player%
+    Message: '&aBạn nhận được buff sức mạnh 20m.'
+    InventoryLocation: 3
+  regeneration:
+    MenuItem:
+    - type:397:3
+    - amount:2
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJlOGUwYjQ0ZDFlYzFhYTY2ODRjNTQxMTI4ODczOGM5M2E5OTdjZmViZDE1ZmI3NmJmODZhOWVlZGE3NTMifX19=
+    - name:&6&lThần Dược 2
+    - 'lore2:&aHiệu quả:&7 cho hiệu ứng Hồi Máu lv2 trong thời gian tối đa 20 minutes.'
+    - 'lore4:&aTrừng phạt:&7 khi bạn thoát máy chủ, chết'
+    - 'lore6:&7Click vào để sử dụng'
+    RewardType: opcommand
+    Reward:
+    - effect %player% 10 1200 1
+    - bs close %player%
+    Message: '&aBạn nhận được buff thần được 20m.'
+    InventoryLocation: 4
+  fire:
+    MenuItem:
+    - type:377
+    - amount:2
+    - name:&6&lHỏa Thần 2
+    - 'lore2:&aHiệu quả:&7 cho hiệu ứng Kháng Lửa lv2 trong thời gian tối đa 20 minutes.'
+    - 'lore4:&aTrừng phạt:&7 khi bạn thoát máy chủ, chết'
+    - 'lore6:&7Click vào để sử dụng'
+    RewardType: opcommand
+    Reward:
+    - effect %player% 12 1200 1
+    - bs close %player%
+    Message: '&aBạn nhận được buff hỏa thần 20m.'
+    InventoryLocation: 5
+  invisibility:
+    MenuItem:
+    - type:441
+    - amount:2
+    - name:&6&lNgụy Trang 2
+    - 'lore2:&aHiệu quả:&7 cho hiệu ứng Tàng Hình trong thời gian tối đa 20 minutes.'
+    - 'lore4:&aTrừng phạt:&7 khi bạn thoát máy chủ, chết'
+    - 'lore6:&aThông tin khác:&7 tàng hình nhưng vẫn packet (nếu bạn có mặc giáp, trang bị tay cầm chúng sẽ bị lộ)'
+    - 'lore8:&7Click vào để sử dụng'
+    RewardType: opcommand
+    Reward:
+    - effect %player% 14 1200
+    - bs close %player%
+    Message: '&aBạn nhận được buff ngụy trang 20m.'
+    InventoryLocation: 6

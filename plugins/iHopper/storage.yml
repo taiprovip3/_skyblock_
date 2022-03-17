@@ -1,0 +1,65 @@
+# !~~~~~~~~~~~~~~~~~~~~~~~! #
+#   NƠI LƯU TRỮ THÔNG TIN   #
+# !~~~~~~~~~~~~~~~~~~~~~~~! #
+
+STORAGE:
+  taiproduaxe:
+    allows: none
+    OBSIDIAN: 0
+    COAL_BLOCK: 0
+    STONE: 29
+    GOLD_BLOCK: 0
+    BONE_BLOCK: 0
+    LAPIS_BLOCK: 0
+    IRON_BLOCK: 0
+    DIAMOND_BLOCK: 0
+    REDSTONE_BLOCK: 0
+    EMERALD_BLOCK: 0
+  phantantri:
+    allows: none
+    GOLD_BLOCK: 0
+    OBSIDIAN: 0
+    COAL_BLOCK: 0
+    STONE: 0
+    EMERALD_BLOCK: 0
+    REDSTONE_BLOCK: 0
+    LAPIS_BLOCK: 0
+    IRON_BLOCK: 0
+    BONE_BLOCK: 0
+    DIAMOND_BLOCK: 0
+  taiprovip3:
+    allows: none
+    LAPIS_BLOCK: 0
+    BONE_BLOCK: 0
+    OBSIDIAN: 0
+    IRON_BLOCK: 0
+    DIAMOND_BLOCK: 0
+    REDSTONE_BLOCK: 0
+    COAL_BLOCK: 0
+    EMERALD_BLOCK: 0
+    STONE: 0
+    GOLD_BLOCK: 0
+  jojo3:
+    allows: none
+    LAPIS_BLOCK: 0
+    BONE_BLOCK: 1
+    OBSIDIAN: 0
+    IRON_BLOCK: 2
+    DIAMOND_BLOCK: 2
+    REDSTONE_BLOCK: 1
+    COAL_BLOCK: 1
+    EMERALD_BLOCK: 1
+    STONE: 2
+    GOLD_BLOCK: 1
+  jojo6:
+    allows: none
+    GOLD_BLOCK: 1
+    BONE_BLOCK: 5
+    REDSTONE_BLOCK: 0
+    DIAMOND_BLOCK: 0
+    LAPIS_BLOCK: 0
+    IRON_BLOCK: 3
+    STONE: 3
+    EMERALD_BLOCK: 0
+    COAL_BLOCK: 2
+    OBSIDIAN: 1

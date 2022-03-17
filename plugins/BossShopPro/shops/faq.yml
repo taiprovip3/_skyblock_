@@ -1,0 +1,297 @@
+ShopName: faq
+DisplayName: '&cServer&6&l()&8Hướng Dẫn + FAQ'
+Command: help:huongdan:?:helps:faq
+Sound:
+  Shop:
+    Open: ENTITY_WITHER_SPAWN:1:1
+    ChangeShop: ENTITY_WITHER_SPAWN:1:1
+shop:
+  1:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjkyZWYzNWQ3MTcwY2E1NTVlN2RmODc5N2FmMDJlOWQ1MjkyZTkxNGVlMjU3OWFmOGYxNWFjNDg4N2IifX19=
+    - name:&a&lLỆNH SKYBLOCK
+    - 'lore1:&2/is&f tạo hòn đảo cho bạn'
+    - 'lore2:&2/is invite <name>&f mời người khác vào đảo'
+    - 'lore3:&2/is kick <name>&f trục xuất thành viên'
+    - 'lore4:&2/is lock&f khóađảo, trục xuất tham quan'
+    - 'lore5:&2/is reset&f,&2 /is confirm&f tái tạo lại đảo mới'
+    - 'lore6:&2/is value&f xem giá trị khối trên tay'
+    - 'lore7:&2/is team&f xem danh sách thành viên'
+    - 'lore8:&2/is makeleader <name>&f nhường đảo cho người khác'
+    - 'lore9:&2/is ban <name>&f cấm người chơi vào đảo'
+    - 'lore10:&2/is coop <name>&f cho người khác phá/đặt block trên đảo'
+    - 'lore11:&2/is cp&f mở giao diện chính skyblock'
+    - 'lore12:&2/is c&f làm nhiệm vụ skyblock'
+    - 'lore13:&2/is teamchat&f mở chat với thành viên trong island'
+    - 'lore14:&2/is warp <name>&f đến warp người khác'
+    - 'lore15:&2/is sethome&f lưu vị trên đảo'
+    - 'lore16:&2/is home&f đến vị trí đã lưu'
+    - 'lore17:&2/is leave&f thoát đảo đã được mời'
+    - 'lore18:&2/is level&f hiện cấp đảo'
+    - 'lore19:&2/is unban&f xóa cấm 1 người chơi đã cấm'
+    - 'lore20:&2/is top&f xem top đảo ＯpＳkyblock'
+    - 'lore21:&fCầm tấm sign ặt ra gõ &2[WELCOME]&f ể tạo &2/is warp'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 1
+  2:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTUxNjdmNDA0N2E2OGQyY2YxOGYxYzk4MDcwMWQ2Njk0ZGZiOGE5Y2I4NDYwZmJmNGMzY2VjMzM5NjdmNWNlIn19fQ===
+    - name:&e&lLỆNH GAMEPLAY
+    - 'lore1:&2/menu&f hiển thị giao diện chính'
+    - 'lore2:&2/vip&f mua chức vị & quyền lợi VIP'
+    - 'lore3:&2/spawn&f về đại sảnh nhanh'
+    - 'lore4:&2/warp&f hiển thị các khu op skyblock'
+    - 'lore5:&2/napthe&f nạp thẻ duy trì server &8(rất cám ơn nếu bạn donate)'
+    - 'lore6:&2/tpa <name>&f gữi yêu cầu dịch chuyển'
+    - 'lore7:&2/tpyes&f đồng ý dịch chuyển'
+    - 'lore8:&2/tpno&f từ chối dịch chuyển'
+    - 'lore9:&2/tptoggle&f tắt chức năng dịch chuyển'
+    - 'lore10:&2/ib hide&f tắt bảng thông tin'
+    - 'lore11:&2/ib show&f hiện lại bảng thông tin'
+    - 'lore12:&2/cshop&f mở nhanh cửa hàng donate'
+    - 'lore13:&2/baltop&f xem top money Ｓkyblock'
+    - 'lore14:&2/pay <name> <$>&f cho tiền người khác'
+    - 'lore15:&2/p pay <name> <$>&f cho points người khác'
+    - 'lore16:&2/ignore <name>&f tắt chat 1 người chơi'
+    - 'lore17:&2/skin <name>&f đổi trang phục'
+    - 'lore18:&2/blocks&f hiển thị số khối đã đào'
+    - 'lore19:&2/trash&f vứt rác vào thùng'
+    - 'lore20:&2/w <name>&f chat riêng với người khác'
+    - 'lore21:&2/r&f chat lại với người vừa nhắn tin'
+    - 'lore22:&2/sethome home&f sao lưu 1 vị trí'
+    - 'lore23:&2/home&f quay lại điểm sao lưu'
+    - 'lore24:&2/delhome&f xóa điểm sao lưu'
+    - 'lore25:&2/back&f quay lại chỗ vừa tử vong'
+    - 'lore26:&2/mail send&f gữi thư cho 1 người'
+    - 'lore27:&2/mail clear&f xóa hòm thư đã đọc'
+    - 'lore28:&2/ah&f mở phiên chợ minevn'
+    - 'lore29:&2/sell&f mở nhanh cửa hàng bán tài nguyên'
+    - 'lore30:&2/server&f chuyển sang chơi máy chủ khác'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 9
+  3:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FhYjI3Mjg0MGQ3OTBjMmVkMmJlNWM4NjAyODlmOTVkODhlMzE2YjY1YzQ1NmZmNmEzNTE4MGQyZTViZmY2In19fQ==
+    - name:&aOp Skyblock &7???
+    - 'lore1:&7Grassmc đã trải qua 10 giai đoạn skyblock cũ. Server được thành lập từ 2019. Đã được 2 năm thành tựu duy trì chạy server và tiếp tục phát triển'
+    - 'lore2:&7Op Skyblock mang tính cày cuốc cao và gia tăng hình thức đua top. Hứa hẹn liên tục ra mắt các phẩm vật donate và cập nhật các event mới cho bạn'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 5
+  4:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE2M2RhZmFjMWQ5MWE4YzkxZGI1NzZjYWFjNzg0MzM2NzkxYTZlMThkOGY3ZjYyNzc4ZmM0N2JmMTQ2YjYifX19
+    - name:&aCách chơi
+    - 'lore1:&e&l *&7 sử dụng classbook khi vừa vào game'
+    - 'lore2:&e&l *&7 Ghé quanh khu spawn nếu bạn lần đầu vào máy chủ'
+    - 'lore3:&e&l *&7 /island để mở giao diện chính skyblock'
+    - 'lore4:&e&l *&7 /is invite <tên> mời một người bạn vào hòn đảo'
+    - 'lore5:&e&l *&7 Cùng nhau xây đảo đua top dành No1'
+    - 'lore6:&e&l *&7 Có các event boss, đoạt bảo xảy ra mỗi h hãy tham gia để dành quà'
+    - 'lore7:&e&l *&7 /menu để tìm hiểu các tiện ích khi rảnh rỗi nhé'
+    - 'lore8:&e&l *&7 nếu bạn thấy iu thích server thì hãy /napthe'
+    InventoryLocation: 13
+  5:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE2M2RhZmFjMWQ5MWE4YzkxZGI1NzZjYWFjNzg0MzM2NzkxYTZlMThkOGY3ZjYyNzc4ZmM0N2JmMTQ2YjYifX19
+    - amount:2
+    - name:&aFAQ &7- &aFucking Asked Questions
+    - 'lore1:&e&l *&f CHƠI SAO:&7 /is tạo đảo rồi chơi như skyblock bình thường.'
+    - 'lore2:&e&l *&f CÓ TẶNG FREE POINT (COIN) KO?:&7 50-50.'
+    - 'lore3:&e&l *&f ADMIN LÀ THẰNG ÉO NÀO:&7 taiproduaxe ().'
+    - 'lore4:&e&l *&f CHO XIN XU or COIN or POINT ĐC KO?:&7 éo, tự cày!'
+    - 'lore5:&e&l *&f SERVER CÓ SÀI /KHO KO?:&7 yes.'
+    - 'lore6:&e&l *&f SERVER P2W?:&7 50-50 số tiền bạn pay vào cũng chính là cho bạn. Admin ko ăn 1 xu'
+    - 'lore7:&e&l *&f NHẬN & NHẬP CODE KIỂU GÌ?:&7 tham gia group fb &nɢʀᴀssᴍᴄ.ʀғ.ɢᴅ&7 và ghé thăm Website: &nɢʀᴀssᴍᴄ.ʀғ.ɢᴅ&7. Mọi thắc mắc & hướng dẫn đều ở đấy.'
+    - 'lore8:&e&l *&f SERVER CÓ CÚP GÌ MẠNH KO?:&7 có chơi là có cúp xịn.'
+    InventoryLocation: 15
+  back:
+    MenuItem:
+    - type:SIGN
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    - 'lore1:&cQuay lại'
+    - 'lore2:&a...'
+    RewardType: SHOP
+    Reward: menu
+    Message: '&8Thực đơn'
+    InventoryLocation: 23
+  aa:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 2
+  ab:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 3
+  ac:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 4
+  ad:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 6
+  ae:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 7
+  af:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 8
+  ba:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 10
+  bb:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 11
+  bc:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 12
+  be:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 14
+  bf:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 16
+  bg:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 17
+  bh:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 18
+  bj:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 19
+  bi:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 20
+  bk:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 21
+  bl:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 22
+  bm:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 24
+  bn:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 25
+  bo:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 26
+  bp:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 27

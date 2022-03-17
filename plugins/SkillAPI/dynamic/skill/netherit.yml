@@ -1,0 +1,42 @@
+netherit: 
+  name: 'netherit'
+  type: 'Dynamic'
+  max-level: 1
+  skill-req-lvl: 0
+  needs-permission: 'true'
+  attributes: 
+    level-base: '0'
+    level-scale: '0'
+    cost-base: '1'
+    cost-scale: '0'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - ''
+  msg: '&6'
+  icon: 'DIAMOND_CHESTPLATE'
+  icon-data: 0
+  icon-lore: 
+  - '&6&lKHIÊN NGỤC netherit &7({level})'
+  - '&f-10mana   -0⌛'
+  - ''
+  - '&eKHẢ NĂNG:&f phản 15% sát thương'
+  - ''
+  - '&7Chịu đựng bất kì đòn tấn công nào từ'
+  - '&7mọi nguồn đều phản lại ST'
+  - ''
+  - '&e&o#(0) là chưa mặc, (1) là đã mặc'
+  - '&f&o"Nhấp trái" &7&ovào đây để mặc Unique'
+  desc:  []
+  components: 
+    Cast: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children:  {}

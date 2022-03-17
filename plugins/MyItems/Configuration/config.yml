@@ -1,0 +1,314 @@
+#-----=====[ Configuration ]=====-----#
+
+Metrics_Message: false
+#Message console when connect metrics.
+
+Hook_Message: false
+#Message console when success hook with another plugin.
+
+Utility_Pattern: "[^a-zA-Z]"
+#Character allowed
+
+Effect_Range: 50
+#Max distance to play sound and particle effect
+
+List_Content: 5
+#Number of the item will be shown when listing the items.
+
+Total_Bar_Life: 16
+#Length of bar will be displayed
+
+Enable_Vanilla_Modifier: true
+#If false, vanilla damage will not working
+
+Enable_Vanilla_Formula_Armor: false 
+#If false, vanilla protection will not working
+
+Enable_CustomLore_Modifier: true    
+#Enable feature attribute from this plugin
+
+Enable_Flat_Damage: false
+#If true, disable complex calculation on event damage
+
+Enable_Balancing_System: true      
+#Damage will set to balance
+
+Enable_Balancing_MobDamage: true
+#Mob receive damage will set to balance based on vanilla
+
+Enable_Particle_Potion: true
+#Show default particle when using buff/ability that implements vanilla potion
+
+Enable_OffHand_Ability: true
+#if false, ability from offhand will not work
+
+Enable_Item_Broken: true
+#If true, item will break when lore durability reaches zero
+
+Enable_Buffs_Calculation: true
+#If true, buff grade will be calculated by the same type of all equipment slot
+
+Enable_Buffs_Hand: true
+#If true, buff on item hand will work
+
+Enable_Stats_Max_Health: true
+#If true, feature lore stats max health and the event will work 
+
+Defense_Affect_Entity_Explosion: true
+#If true, custom defense will affect to entity explosion damage
+
+Defense_Affect_Block_Explosion: true
+#If true, custom defense will affect to block explosion damage
+
+Defense_Affect_Custom: true
+#If true, custom defense will affect to custom damage by another plugin
+
+Defense_Affect_Contact: true
+#If true, custom defense will affect to contact damage
+
+Defense_Affect_Fall: true
+#If true, custom defense will affect to fall damage
+
+Defense_Affect_Falling_Block: true
+#If true, custom defense will affect to falling block damage
+
+Defense_Affect_Thorns: true
+#If true, custom defense will affect to thorns damage
+
+Custom_Critical: true              
+#Custom critical effect
+
+Critical_Attack: "Messages"
+#Available: Effect, Messages. (Only work when custom_Critical: true)
+#- Effect: Critical with particle and sound explosion
+#- Messages: Send message to attacker when critical is cast
+
+Custom_Mob_Modifier: true
+#If you're server using plugin that modify damage mob (Great Damage), enables this.
+#Enable this state to allow mob using custom items.
+#Note: If Mob Modifier is false, Custom Lore Stats defense from victims will not be affected, but buffs & ability still work,
+#~~~~~ this is to avoid overpowered armor for pure vanilla mob!.
+
+Interval: 100 
+#Passive effect interval in ticks, higher value will reduce lag but less accurate
+
+Max_Level_Value: 20        
+#Max level for item
+
+Modus_Value: 10
+#Normal damage value in your server
+
+                    #Ex. You want to create server with most of your weapon damage value range around 50,
+                    #so put the value in modus_Value to 50.  
+
+                    #This is very important because this value will towards a balanced server.
+                    #If you change too small or too high depends on your server, your server will be unbalanced
+                    #because this value used as formula damage for vanilla & custom modifier!
+
+                    #Formula: "Damage / (1+Math.log10(1+(10*defense/modus_Value))"
+                    #Balancing: "Damage * 10 / modus_Value"
+
+#-----=====[ Modifier ]=====-----#
+
+Scale_Damage_Vanilla: 1.0  
+#Damage from vanilla that will affect  
+
+Scale_Damage_Custom: 1.0  
+#Damage from custom stats
+
+Scale_Damage_Overall: 1.0  
+#Final damage
+
+Scale_Defense_Overall: 0.5 
+#Damage reduction based on defense
+
+Scale_Defense_Physic: 0.25
+#Scale defense being hit damage by non-entity
+
+Scale_OffHand_Value: 0.5  
+#Damage will added from offhand
+
+Scale_Absorb_Effect: 0.5  
+#Damage will transfer to absorb point. ex: 0.8 mean 20% damage to health and 80% to absorb point
+
+Scale_Stats_Up: 0.05      
+#Stats will increase every item is level up
+
+Scale_Mob_Damage_Receive: 1.0
+#Mobs damage receive
+
+Scale_Exp_OffHand: 0.5    
+#Exp will gain for OffHand scaled on base exp
+
+Scale_Exp_Armor: 0.2      
+#Exp will gain for Armor scaled on base exp
+
+#-----=====[ Format ]=====-----#
+
+Stats_Format: "&7<stats>&f&l: <value>"
+# PlaceHolder Stats_Format:
+  # <stats> = Key Stats
+  # <value> = Value Stats
+
+Stats_Exp_Format: "&7[&d<exp>&7/&d<up>&7]"
+# PlaceHolder Format Exp:
+  # <exp> = Current Exp
+  # <up> = Exp to level up
+
+Buffs_Format: "&DBUFF: &7<buff>"
+# PlaceHolder Buffs_Format:
+  # <buffs> = Key Buff
+
+Debuffs_Format: "&cDEBUFF:&f <debuff>"
+# PlaceHolder Debuffs_Format:
+  # <debuff> = Key Debuff
+
+Ability_Format: "&2&l<ability>: &a<chance>"
+# PlaceHolder Ability:
+  # <chance> = Chance to activate ability
+  # <ability> = Key ability
+
+Power_Format: "&6<click>&f&l: &7<type> &8&l[&c<cooldown> giây&8&l]"
+# PlaceHolder Power:
+  # <click> : Type of interact click
+  # <type> : Type key of power
+  # <cooldown> : Cooldown of power
+
+Element_Format: "&8[&6&lۣ•&8] &2&lNGUYÊN TỐ &7- &2<element>&7: <value>"
+# PlaceHolder Element_Format:
+  # <element> = Key Element
+  # <value> = Value Element
+
+Format_Socket: "&e[&6Trang bị đã được đục lỗ: &7<slot>&e]"
+# PlaceHolder Socket_Format:
+  # <slot> = Socket Slot
+
+#Note: All PlaceHolder must be placed because used for key searching value!
+
+#-----=====[ Code ]=====-----#
+
+Code_Tooltip: "&8&l[&4&l?&8&l]"
+Code_Bar: "&l■"
+Code_Bar_Life: "&4"
+Code_Bar_Empty: "&0"
+Code_Currency: "$"
+
+Positive_Value: "&a"
+Negative_Value: "&c"
+Range_Symbol: " &7➨ "
+Divider_Symbol: "&7/"
+Multiplier_Symbol: "&7x"
+
+#-----=====[ Exp Drops ]=====-----#
+
+Exp_Player: 3
+Exp_Mobs: 1
+
+#-----=====[ Click ]=====-----#
+
+Left_Click: "Chuột trái"
+Right_Click: "Chuột phải"
+Shift_Left_Click: "S-Chuột trái"
+Shift_Right_Click: "S-Chuột phải"
+
+#-----=====[ Slot Socket ]=====-----#
+
+Socket_Empty: "Rỗng"
+
+#-----=====[ Lore Stats ]=====-----#
+
+Attack_Aoe_Damage: "Dame khuếch tán"
+Attack_Aoe_Radius: "Phạm vi khuếch tán"
+Damage: "Sát thương"
+Penetration: "Xuyên giáp"
+PvP_Damage: "Dame pvp"
+PvE_Damage: "Dame pve"
+Defense: "Giáp"
+PvP_Defense: "Giáp pvp"
+PvE_Defense: "Giáp pve"
+Health: "Sinh lực"
+Critical_Chance: "Tỉ lệ crits"
+Critical_Damage: "Sát thương crits"
+Block_Amount: "Chặn dame"
+Block_Rate: "Tỉ lệ chặn dame"
+Hit_Rate: "Tỉ lệ chính xác"
+Dodge_Rate: "Tỉ lệ né tránh"
+Durability: "Độ bền"
+Level: "Thu thập hắc ám"
+
+#-----=====[ Buff ]=====-----#
+
+Strength: "Sức mạnh"
+Protection: "Giáp toàn phần"
+Vision: "Mắt cú"
+Jump: "Nhảy cao"
+Absorb: "Hấp thụ"
+Fire_Resist: "Kháng lửa thần kì"
+Invisibility: "Ngụy trang"
+Luck: "May mắn (&a☘&7)"
+Health_Boost: "Sinh lực cộng dồn"
+Regeneration: "Hồi phục &a♣"
+Saturation: "Bão hòa"
+Speed: "Tăng tốc thần kì"
+Water_Breathing: "Siêu hô hấp"
+Haste: "Smpk (&6&l⚚&7)"
+
+#-----=====[ Debuff ]=====-----#
+
+Debuff_Weak: "Suy yếu"
+Debuff_Slow: "Làm chậm"
+Debuff_Blind: "Gây mù"
+Debuff_Confuse: "Chóng mặt"
+Debuff_Starve: "Đói"
+Debuff_Toxic: "Nhiễm độc"
+Debuff_Fatigue: "Mệt mỏi"
+Debuff_Wither: "Khô héo"
+Debuff_Unluck: "Xui xẻo"
+
+#-----=====[ Ability Weapon ]=====-----#
+
+Flame: "Hoa lửa"
+Poison: "Cực độc"
+Wither: "Kiu quạnh"
+Lightning: "Bão điện từ"
+Cannibalism: "Nuốt chửng"
+Vampirism: "Hấp huyết"
+Freeze: "Hàn băng"
+Roots: "Lời nguyền ràng buộc"
+Curse: "Nguyền rủa bóng đêm"
+Slowness: "Giảm tốc"
+Fatigue: "Mệt mỏi"
+Nausea: "Chóng mặt"
+Weakness: "Vết thương sâu"
+Blind: "Hoang tưởng"
+Hungry: "Tuyệt thực"
+Levitation: "Lốc xoáy"
+Bad_Luck: "Xui xẻo"
+Harm: "Vết thương đau"
+Flame_Wheel: "Bánh xe lửa" 
+Air_Shock: "Chém gió/chém bão"
+Dark_Flame: "Hắc hỏa"
+Dark_Impact: "Tác động đen"
+Venom_Spread: "Truyền nhiễm độc"
+Venom_Blast: "Vụ nổ quỷ"
+Bubble_Deflector: "Tia bọt biển"
+
+#-----=====[ Projectile ]=====-----#
+
+Projectile_Arrow: "Tên"
+Projectile_SnowBall: "Cầu tuyết"
+Projectile_Egg: "Trứng"
+Projectile_Flame_Arrow: "Tên lửa"
+Projectile_Flame_Ball: "Cầu lửa"
+Projectile_Flame_Egg: "Trứng rán"
+Projectile_Small_Fireball: "Cầu lửa nhỏ"
+Projectile_Large_Fireball: "Cầu lửa lớn"
+Projectile_WitherSkull: "Đầu khô héo"
+
+#-----=====[ Special Power ]=====-----#
+
+Special_Blink: "Dịch chuyển cổ học"
+Special_Fissure: "Rạn nứt"
+Special_Ice_Spikes: "Chông băng"
+Special_Amaterasu: "Thiên chiếu"
+Special_Nero_Beam: "Tia nero"

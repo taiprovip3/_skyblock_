@@ -1,0 +1,79 @@
+
+# Please note: This plugin may contains bug that i'm not realize if there was a bug 
+# that was your job to find one and report that to me on my spigot page
+
+# Check out this link to see available Material for item
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# Note: This Material list is For the latest release of Spigot version
+# so some material maybe not work in older version [Example: BONE_BLOCK only work for 1.11]
+
+
+#====-----=====[ Vault GUI Config ]=====-----=====#
+
+default-name: "&8[&e&lBalo &a#{id}&8]"
+# default name of the vault
+# {id} would be replaced by the vault ID
+
+default-icon: "EMERALD"
+# You can use ID:Data Too
+ 
+max-vault: 36
+# You Can't Setting more than 54 Vault, Because this is limitation for this free version
+
+vault-size: 6
+# 6 Row is max size for chest
+
+default-owned: 0
+# how many vault should player owned without permission
+# to add more add permission morevault.vault.<amount> Example: morevault.vault.32 , so player have 32 vault
+
+gui-title: "&1Các túi balo bạn có:"
+# the title for command /mva vault
+
+gui-title-other: "{target} &eBalo"
+# the title for command /mva vault <player>
+
+gui-title-vault: "&1Đang mở balo"
+# the title for opening the vault
+
+gui-title-vault-other: "&1See Vault"
+# the title for inspect other vault
+
+gui-title-icon: "&5Chọn icon dễ thương"
+# the title for opening icon select
+
+gui-title-icon-other: "&5Icon đang sử dụng"
+# the title for inspect other icon select
+
+
+vault-lore:
+- "&7&m--------------------------"
+- ""
+- "&f© &e&lĐang chứa&f&l: &6{content}&e vật phẩm"
+- ""
+- "&e✎ &e&lCH.TRÁI &2để mở"
+- "&a✎ &e&lCH.GIỮA &2để đổi tên balo"
+- "&a✎ &e&lCH.PHẢI &2để đổi icon tùy thích"
+- ""
+- "&7&m--------------------------"
+
+
+#====-----=====[ Locale Config ]=====-----=====#
+messages:
+  specify-name:
+    - "&7You Are Editing Name Of Vault &a#{id}"
+    - "&7Please Enter New Name In Chat"
+  specify-name-other:
+    - "&7You Are Editing Name Of {target}'s Vault &a#{id}"
+    - "&7Type &ccancel &7to Cancel Editing"
+    - "&7Please Enter New Name In Chat"
+  done-name:
+    - "&eSuccessfully Change Vault &a#{id} &eName To &r{name}"
+  done-name-other:
+    - "&eSuccessfully Change {target}'s Vault &a#{id} &eName To &r{name}"
+  cancel-name:
+    - "&eEditing Name Canceled"
+  no-permission:
+    - "&cBạn cần lên rank /vip để mở balo này!"
+  reload-config:
+    - "&eConfig Successfully Reloaded"

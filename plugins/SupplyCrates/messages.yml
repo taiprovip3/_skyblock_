@@ -1,0 +1,46 @@
+PREFIX: '&8[&4ALERT&8]'
+INVALID-CMD: Command not found.
+NEED-SELECTION: '&aYou must have a &cWorldEdit &aselection to use this.'
+ADDED-SELECTION: '&aYou have added &e%amount%x &aSupplyCrate locations.'
+NO-PERMISSION: You don't have permission to use this command.
+EDIT-MODE-ON: '&dEdit mode enabled, Please place this block where you want Supply
+  Crates to spawn.'
+EDIT-MODE-OFF: '&aEdit mode disabled.'
+MUST-END-CURRENT: Please stop the current Supply Crate Event first.
+SOMEONE-EDITING: Someone is currently in editor mode.
+EMPTY-CRATES: No crates setup.
+NO-EVENT-RUNNING: No event is current running.
+ADD-CRATE: This is now a Supply Crate.
+REMOVE-CRATE: This Supply Crate is now destroyed.
+REMOVE-FAILED: You must be in editor mode.
+BC-CLAIM-CRATE: '&8» &7SKYBER &4%player%&7 đã nhặt đút vào túi 1 cái. Còn lại &4%left%&7
+  cái'
+BC-STARTED: '&7Sao chổi đã đáp xuống khu vực pvp. Tổng cộng: &e%left%&7 cái.'
+BC-STOPPED: '&cHOẠT ĐỘNG lụm thiên thạch hết.'
+TOO-EARLY-STOP: '&cPlease wait a few seconds before stopping an event.'
+RELOADING: Reloading Plugin...
+RELOAD-COMPLETE: Reload Complete. Took %ms%ms.
+AUTO-BC-ENABLED: true
+AUTO-BC: '&7THIÊN THẠCH sắp rơi xuống trái đất. Còn &4%remaining%&7 giây nữa!'
+AUTO-BC-WARM-TIMES:
+- 600
+- 300
+- 60
+- 30
+- 20
+- 10
+- 5
+- 4
+- 3
+- 2
+- 1
+NO-ITEM-IN-HAND: '&bYou do not have an item in your hand.'
+SUCCESS-ADD-ITEM: '&aYou added &b%item%&a to the list of items.'
+TIME-LEFT: '&aHòm tiếp tế sẽ xuất hiện sau &b%time%&a.'
+TIME-LEFT-ALREADY: '&aThere is &bcurrently &aa Supply Crate running.'
+DROP:
+  FORMAT: '  &7» &a%id%. &eSupply Crate &7at &a%x%&7, &a%y%&7, &a%z% &7in &a%world%&e.'
+  MESSAGE:
+  - '&7&m----------&8 [&bLocations&f: &ePage: &7(%page%&e/&7%max%)&8] &7&m----------&8'
+  - '%printLocations%'
+MESSAGES-VERSION: 6

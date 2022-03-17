@@ -1,0 +1,29 @@
+cot_truyen:
+  command: /cot_truyen
+  type: RUN_CONSOLE
+  runcmd:
+  - '/effect $player minecraft:blindness 20'
+  - '/effect $player minecraft:slowness 20 4'
+  - '$broadcasttext$'
+  - '$broadcasttext$&0[&eChỉ huy&0] &a&lHÃY NHÌN VÀO ĐÂY'
+  - '$delay$$broadcasttext$&0[&eChỉ huy StarWar&0] &a • Bạn là một TÂN BINH mới gia nhập vào tân thế giới skyworld.'
+  - '$delay$$broadcasttext$&0[&eChỉ huy StarWar&0] &a • Phải rèn luyện sức mạnh để đánh bại những con quái vật và những luyện sư giống chính bạn.'
+  - '$delay$$broadcasttext$&0[&eChỉ huy StarWar&0] &a • Để chính phục bầu trời vĩ đại skyworld đạt No.1 và lưu danh lịch sử.'
+  - '$delay$$broadcasttext$&0[&eChỉ huy StarWar&0] &a • Đó là một ước mơ xa vời và bạn phải bước đi cơ bản bằng "Chuỗi Nhiệm Vụ" đầu tiên.'
+  - '$delay$$broadcasttext$&0[&eChỉ huy StarWar&0] &a • Hãy theo dõi bảng thông tin bên phải màn hình. Mỗi quest hoàn thành bạn sẽ có phần thưởng là tinh hoa'
+  - '$delay$$broadcasttext$&0[&eChỉ huy StarWar&0] &a • Tinh hoa giúp bạn tăng cấp chỉ số nhân vật (mọi thuộc tính) giúp bạn mạnh mẽ vượt trội dần dần'
+  - '$delay$$broadcasttext$&0[&eChỉ huy StarWar&0] &aGIỜ NGƯƠI ĐÃ CÓ TRANG BỊ KHỞI ĐẦU, HÃY BẮT ĐẦU CUỘC HÀNH TRÌNH ĐI. CHÚC MAY MẮN!'
+  - '$broadcasttext$'
+  - '/kit starter $player'
+  - '/class forceprofess $player class'
+  - '/qa give $player quest1'
+  cost: 0
+  delaytimer: 3
+  delaytimer_format: SECONDS
+###Reload mycmd
+mra:
+  command: /mra
+  type: RUN_COMMAND
+  runcmd:
+  - '/mycmd-reload all'
+  permission-required: true

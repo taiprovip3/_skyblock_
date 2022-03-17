@@ -1,0 +1,581 @@
+ShopName: unique
+DisplayName: '&8Server&6෴&8 Bảo pháp'
+Command: baophap:unique
+Sound:
+  Shop:
+    Open: ENTITY_PLAY_LEVELUP:1:1
+    ChangeShop: ENTITY_PLAY_LEVELUP:1:1
+shop:
+  1:
+    MenuItem:
+    - type:bow
+    - name:&6&lBẢO PHÁP&7 Ná thần Nauy &2☽►
+    - 'lore2:&2Đánh giá:&a ☆☆☆&7☆☆☆☆☆☆☆'
+    - 'lore4:&2Thuộc tính:&7 +20.000 điểm Sức mạnh'
+    - 'lore6:&2Nội tại:&7 +1.2 sát thương &cDPS'
+    - 'lore8:&2Tiêu hao:&7 60 đá Bảo pháp Nauy'
+    - 'lore10:&eClickable&a vào để mở khóa Bảo Pháp này'
+    RewardType: command
+    Reward:
+    - class points %player% 1
+    - class exp %player% 20000
+    - mc give %player% 20000
+    - pex user %player% add skillapi.skill.nauy
+    - bc &e&l%player%&7 đã mở khóa unique &8[&3Nỏ Thần NAUY&8] &2☽►
+    - bb broadcast 20 &7(&2࿄࿄&7) &e&l%player%&7 đã mở khóa Bảo Pháp &8[&3Nỏ Thần NAUY&8] &2☽►
+    - 'w %player% &aBạn đã hoàn thành bước 1/2:'
+    - 'w %player% &a1. Mở khóa Bảo Pháp'
+    - 'w %player% &72. Kích hoạt Bảo Pháp.'
+    - 'w %player% &eGiờ hãy gõ lệnh: &a/uniques&e để kích hoạt Unique nhé &2&l✔'
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:60
+      - name:&3Đá Nauy &a◄&6&lBẢO PHÁP&a►
+      - 'lore2:&a ✩✩✩&8✩✩✩✩✩✩✩'
+      - 'lore4:&7 Thu thập đủ SL, mở khóa bảo pháp'
+      - 'lore5:&7 cho kỹ thăng và thuộc tính main +.'
+      - 'lore7:&a&l SỬ DỤNG:&7 đến giao diện /baophap'
+      - 'lore8:&7 hoặc cầm item và &aCLICK-PHẢI.'
+      - 'lore10:&e Grounding:&7 nếu đặt item xuống đất sẽ'
+      - 'lore11:&7 bị mất hình dáng và công hiệu &9&l(!)'
+      - 'lore13:&e LOẠI VẬT PHẨM&a clickable&e and&a storage'
+    InventoryLocation: 13
+  2:
+    MenuItem:
+    - type:406
+    - name:&6&lBẢO PHÁP&7 Quân sư GCL &9⚕
+    - 'lore2:&2Đánh giá:&a ☆☆☆&7☆☆☆☆☆☆☆'
+    - 'lore4:&2Thuộc tính:&7 +20.000 điểm Sức mạnh'
+    - 'lore6:&2Nội tại:&7 +1.3 sát thương &cDPS'
+    - 'lore8:&2Tiêu hao:&7 64 đá Bảo pháp GCL'
+    - 'lore10:&eClickable&a vào để mở khóa Bảo Pháp này'
+    RewardType: command
+    Reward:
+    - class points %player% 1
+    - class exp %player% 20000
+    - mc give %player% 20000
+    - pex user %player% add skillapi.skill.gcl
+    - bc &e&l%player%&7 đã mở khóa unique &8[&9Thiết Phiến Gia Cát Lượng&8] &9⚕
+    - bb broadcast 20 &7(&2࿄࿄&7) &e&l%player%&7 đã mở khóa Bảo Pháp &8[&9Thiết Phiến Gia Cát Lượng&8] &9⚕
+    - 'w %player% &aBạn đã hoàn thành bước 1/2:'
+    - 'w %player% &a1. Mở khóa Bảo Pháp'
+    - 'w %player% &72. Kích hoạt Bảo Pháp.'
+    - 'w %player% &eGiờ hãy gõ lệnh: &a/uniques&e để kích hoạt Unique nhé &2&l✔'
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:64
+      - name:&7Phiến giấy &eGCL &8◄&6&lBẢO PHÁP&8►
+      - 'lore2:&a ✩✩✩&8✩✩✩✩✩✩✩'
+      - 'lore4:&7 Thu thập đủ SL, mở khóa bảo pháp'
+      - 'lore5:&7 cho kỹ thăng và thuộc tính main +.'
+      - 'lore7:&a&l SỬ DỤNG:&7 đến giao diện /baophap'
+      - 'lore8:&7 hoặc cầm item và &aCLICK-PHẢI.'
+      - 'lore10:&e Grounding:&7 nếu đặt item xuống đất sẽ'
+      - 'lore11:&7 bị mất hình dáng và công hiệu &9&l(!)'
+      - 'lore13:&e LOẠI VẬT PHẨM&a clickable&e and&a storage'
+    InventoryLocation: 14
+  3:
+    MenuItem:
+    - type:276
+    - name:&6&lBẢO PHÁP&7 Tam Hợp Kiếm &e乂
+    - 'lore2:&2Đánh giá:&a ☆☆☆&7☆☆☆☆☆☆☆'
+    - 'lore4:&2Thuộc tính:&7 +20.000 điểm Sức mạnh'
+    - 'lore6:&2Nội tại:&7 +1.2 sát thương &cDPS'
+    - 'lore8:&2Tiêu hao:&7 100 đá Bảo pháp THK'
+    - 'lore10:&eClickable&a vào để mở khóa Bảo Pháp này'
+    RewardType: command
+    Reward:
+    - class points %player% 1
+    - class exp %player% 20000
+    - mc give %player% 20000
+    - pex user %player% add skillapi.skill.trinity
+    - bc &e&l%player%&7 đã mở khóa unique &8[&eTam &2Hợp &5Kiếm&8] &7乂
+    - bb broadcast 20 &7(&2࿄࿄&7) &e&l%player%&7 đã mở khóa Bảo Pháp &8[&eTam &2Hợp &5Kiếm&8] &7乂
+    - 'w %player% &aBạn đã hoàn thành bước 1/2:'
+    - 'w %player% &a1. Mở khóa Bảo Pháp'
+    - 'w %player% &72. Kích hoạt Bảo Pháp.'
+    - 'w %player% &eGiờ hãy gõ lệnh: &a/uniques&e để kích hoạt Unique nhé &2&l✔'
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:100
+      - name:&aĐá &eTam &9Hợp &8◄&6&lBẢO PHÁP&8►
+      - 'lore2:&a ✩✩✩&8✩✩✩✩✩✩✩'
+      - 'lore4:&7 Thu thập đủ SL, mở khóa bảo pháp'
+      - 'lore5:&7 cho kỹ thăng và thuộc tính main +.'
+      - 'lore7:&a&l SỬ DỤNG:&7 đến giao diện /baophap'
+      - 'lore8:&7 hoặc cầm item và &aCLICK-PHẢI.'
+      - 'lore10:&e Grounding:&7 nếu đặt item xuống đất sẽ'
+      - 'lore11:&7 bị mất hình dáng và công hiệu &9&l(!)'
+      - 'lore13:&e LOẠI VẬT PHẨM&a clickable&e and&a storage'
+    InventoryLocation: 15
+  4:
+    MenuItem:
+    - type:gold_axe
+    - name:&6&lBẢO PHÁP&7 Rìu mặt Trời Rhitta &e|☽
+    - 'lore2:&2Đánh giá:&a ☆☆☆&7☆☆☆☆☆☆☆'
+    - 'lore4:&2Thuộc tính:&7 +20.000 điểm Sức mạnh'
+    - 'lore6:&2Nội tại:&7 +1.3 sát thương &cDPS'
+    - 'lore8:&2Tiêu hao:&7 200 đá mặt trời'
+    - 'lore10:&eClickable&a vào để mở khóa Bảo Pháp này'
+    RewardType: command
+    Reward:
+    - class points %player% 1
+    - class exp %player% 20000
+    - mc give %player% 20000
+    - pex user %player% add skillapi.skill.rhitta
+    - bc &e&l%player%&7 đã mở khóa unique &8[&eRìu thánh Rhitta&8] &4|☽
+    - bb broadcast 20 &7(&2࿄࿄&7) &e&l%player%&7 đã mở khóa Bảo Pháp &8[&eRìu thánh Rhitta&8] &4|☽
+    - 'w %player% &aBạn đã hoàn thành bước 1/2:'
+    - 'w %player% &a1. Mở khóa Bảo Pháp'
+    - 'w %player% &72. Kích hoạt Bảo Pháp.'
+    - 'w %player% &eGiờ hãy gõ lệnh: &a/uniques&e để kích hoạt Unique nhé &2&l✔'
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:200
+      - name:&eĐá Mặt Trời &8◄&6&lBẢO PHÁP&8►
+      - 'lore2:&a ✩✩✩&8✩✩✩✩✩✩✩'
+      - 'lore4:&7 Thu thập đủ SL, mở khóa bảo pháp'
+      - 'lore5:&7 cho kỹ thăng và thuộc tính main +.'
+      - 'lore7:&a&l SỬ DỤNG:&7 đến giao diện /baophap'
+      - 'lore8:&7 hoặc cầm item và &aCLICK-PHẢI.'
+      - 'lore10:&e Grounding:&7 nếu đặt item xuống đất sẽ'
+      - 'lore11:&7 bị mất hình dáng và công hiệu &9&l(!)'
+      - 'lore13:&e LOẠI VẬT PHẨM&a clickable&e and&a storage'
+    InventoryLocation: 22
+  5:
+    MenuItem:
+    - type:shears
+    - name:&6&lBẢO PHÁP&7 Vuốt gấu We bare Bear &e〤
+    - 'lore2:&2Đánh giá:&a ☆☆☆&7☆☆☆☆☆☆☆'
+    - 'lore4:&2Thuộc tính:&7 +20.000 điểm Sức mạnh'
+    - 'lore6:&2Nội tại:&7 +1.2 sát thương &cDPS'
+    - 'lore8:&2Tiêu hao:&7 300 xương gấu bare bear'
+    - 'lore10:&eClickable&a vào để mở khóa Bảo Pháp này'
+    RewardType: command
+    Reward:
+    - class points %player% 1
+    - class exp %player% 20000
+    - mc give %player% 20000
+    - pex user %player% add skillapi.skill.barebear
+    - bc &e&l%player%&7 đã mở khóa unique &8[&6Vuốt Gấu Bare Bear&8] &c〤
+    - bb broadcast 20 &7(&2࿄࿄&7) &e&l%player%&7 đã mở khóa Bảo Pháp &8[&6Vuốt Gấu Bare Bear&8] &c〤
+    - 'w %player% &aBạn đã hoàn thành bước 1/2:'
+    - 'w %player% &a1. Mở khóa Bảo Pháp'
+    - 'w %player% &72. Kích hoạt Bảo Pháp.'
+    - 'w %player% &eGiờ hãy gõ lệnh: &a/uniques&e để kích hoạt Unique nhé &2&l✔'
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:300
+      - name:&fXương Gấu &8◄&6&lBẢO PHÁP&8►
+      - 'lore2:&a ✩✩✩&8✩✩✩✩✩✩✩'
+      - 'lore4:&7 Thu thập đủ SL, mở khóa bảo pháp'
+      - 'lore5:&7 cho kỹ thăng và thuộc tính main +.'
+      - 'lore7:&a&l SỬ DỤNG:&7 đến giao diện /baophap'
+      - 'lore8:&7 hoặc cầm item và &aCLICK-PHẢI.'
+      - 'lore10:&e Grounding:&7 nếu đặt item xuống đất sẽ'
+      - 'lore11:&7 bị mất hình dáng và công hiệu &9&l(!)'
+      - 'lore13:&e LOẠI VẬT PHẨM&a clickable&e and&a storage'
+    InventoryLocation: 23
+  6:
+    MenuItem:
+    - type:351:1
+    - name:&6&lBẢO PHÁP&7 Cữu vĩ Hồ &c❖
+    - 'lore2:&2Đánh giá:&a ☆☆☆&7☆☆☆☆☆☆☆'
+    - 'lore4:&2Thuộc tính:&7 +20.000 điểm Sức mạnh'
+    - 'lore6:&2Nội tại:&7 +1.3 sát thương &cDPS'
+    - 'lore8:&2Tiêu hao:&7 400 đá Bảo pháp Cửu vĩ'
+    - 'lore10:&eClickable&a vào để mở khóa Bảo Pháp này'
+    RewardType: command
+    Reward:
+    - class points %player% 1
+    - class exp %player% 20000
+    - mc give %player% 20000
+    - pex user %player% add skillapi.skill.naruto
+    - bc &e&l%player%&7 đã mở khóa unique &8[&cĐuôi Cữu Vĩ&8] &2❁
+    - bb broadcast 20 &7(&2࿄࿄&7) &e&l%player%&7 đã mở khóa Bảo Pháp &8[&cĐuôi Cữu Vĩ&8] &2❁
+    - 'w %player% &aBạn đã hoàn thành bước 1/2:'
+    - 'w %player% &a1. Mở khóa Bảo Pháp'
+    - 'w %player% &72. Kích hoạt Bảo Pháp.'
+    - 'w %player% &eGiờ hãy gõ lệnh: &a/uniques&e để kích hoạt Unique nhé &2&l✔'
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:400
+      - name:&cĐá Cữu Vĩ &8◄&6&lBẢO PHÁP&8►
+      - 'lore2:&a ✩✩✩&8✩✩✩✩✩✩✩'
+      - 'lore4:&7 Thu thập đủ SL, mở khóa bảo pháp'
+      - 'lore5:&7 cho kỹ thăng và thuộc tính main +.'
+      - 'lore7:&a&l SỬ DỤNG:&7 đến giao diện /baophap'
+      - 'lore8:&7 hoặc cầm item và &aCLICK-PHẢI.'
+      - 'lore10:&e Grounding:&7 nếu đặt item xuống đất sẽ'
+      - 'lore11:&7 bị mất hình dáng và công hiệu &9&l(!)'
+      - 'lore13:&e LOẠI VẬT PHẨM&a clickable&e and&a storage'
+    InventoryLocation: 24
+  7:
+    MenuItem:
+    - type:369
+    - name:&6&lBẢO PHÁP&7 Thần trượng Wukong &e⚚
+    - 'lore2:&2Đánh giá:&a ☆☆☆&7☆☆☆☆☆☆☆'
+    - 'lore4:&2Thuộc tính:&7 +21.000 điểm Sức mạnh'
+    - 'lore6:&2Nội tại:&7 +1.4 sát thương &cDPS'
+    - 'lore8:&2Tiêu hao:&7 500 đá Bảo pháp Monkey D'
+    - 'lore10:&eClickable&a vào để mở khóa Bảo Pháp này'
+    RewardType: command
+    Reward:
+    - class points %player% 1
+    - class exp %player% 21000
+    - mc give %player% 21000
+    - pex user %player% add skillapi.skill.wukong
+    - bc &e&l%player%&7 đã mở khóa unique &8[&cTrượng &2Wukong&8] &3⚚
+    - bb broadcast 20 &7(&2࿄࿄&7) &e&l%player%&7 đã mở khóa Bảo Pháp &8[&cTrượng &2Wukong&8] &3⚚
+    - 'w %player% &aBạn đã hoàn thành bước 1/2:'
+    - 'w %player% &a1. Mở khóa Bảo Pháp'
+    - 'w %player% &72. Kích hoạt Bảo Pháp.'
+    - 'w %player% &eGiờ hãy gõ lệnh: &a/uniques&e để kích hoạt Unique nhé &2&l✔'
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:500
+      - name:&7Đá &eMonkey &cD. &8◄&6&lBẢO PHÁP&8►
+      - 'lore2:&a ✩✩✩&8✩✩✩✩✩✩✩'
+      - 'lore4:&7 Thu thập đủ SL, mở khóa bảo pháp'
+      - 'lore5:&7 cho kỹ thăng và thuộc tính main +.'
+      - 'lore7:&a&l SỬ DỤNG:&7 đến giao diện /baophap'
+      - 'lore8:&7 hoặc cầm item và &aCLICK-PHẢI.'
+      - 'lore10:&e Grounding:&7 nếu đặt item xuống đất sẽ'
+      - 'lore11:&7 bị mất hình dáng và công hiệu &9&l(!)'
+      - 'lore13:&e LOẠI VẬT PHẨM&a clickable&e and&a storage'
+    InventoryLocation: 31
+  8:
+    MenuItem:
+    - type:414
+    - name:&6&lBẢO PHÁP&7 Găng tay VC &e⚜
+    - 'lore2:&a ✩✩✩✩&8✩✩✩✩✩✩'
+    - 'lore4:&2Thuộc tính:&7 +25.000 điểm Sức mạnh'
+    - 'lore6:&2Nội tại:&7 +1.8 sát thương &cDPS'
+    - 'lore8:&2Tiêu hao:&7 600 viên đá Vô cực'
+    - 'lore10:&eClickable&a vào để mở khóa Bảo Pháp này'
+    RewardType: command
+    Reward:
+    - class points %player% 1
+    - class exp %player% 25000
+    - mc give %player% 25000
+    - pex user %player% add skillapi.skill.thanos
+    - bc &e&l%player%&7 đã mở khóa unique &8[&3Găng tay Thanos&8] &2⚜
+    - bb broadcast 20 &7(&2࿄࿄&7) &e&l%player%&7 đã mở khóa Bảo Pháp &8[&3Găng tay Thanos&8] &2⚜
+    - 'w %player% &aBạn đã hoàn thành bước 1/2:'
+    - 'w %player% &a1. Mở khóa Bảo Pháp'
+    - 'w %player% &72. Kích hoạt Bảo Pháp.'
+    - 'w %player% &eGiờ hãy gõ lệnh: &a/uniques&e để kích hoạt Unique nhé &2&l✔'
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:600
+      - name:&7Viên Đá Vô Cực &e∞ &8◄&6&lBẢO PHÁP&8►
+      - 'lore2:&a ✩✩✩&8✩✩✩✩✩✩✩'
+      - 'lore4:&7 Thu thập đủ SL, mở khóa bảo pháp'
+      - 'lore5:&7 cho kỹ thăng và thuộc tính main +.'
+      - 'lore7:&a&l SỬ DỤNG:&7 đến giao diện /baophap'
+      - 'lore8:&7 hoặc cầm item và &aCLICK-PHẢI.'
+      - 'lore10:&e Grounding:&7 nếu đặt item xuống đất sẽ'
+      - 'lore11:&7 bị mất hình dáng và công hiệu &9&l(!)'
+      - 'lore13:&e LOẠI VẬT PHẨM&a clickable&e and&a storage'
+    InventoryLocation: 32
+  9:
+    MenuItem:
+    - type:283
+    - name:&6&lBẢO PHÁP&7 Kiếm điện Zenitsu &e⚒
+    - 'lore2:&a ✩✩✩✩✩&8✩✩✩✩✩'
+    - 'lore4:&2Thuộc tính:&7 +30.000 điểm Sức mạnh'
+    - 'lore6:&2Nội tại:&7 +2.1 sát thương &cDPS'
+    - 'lore8:&2Tiêu hao:&7 60 viên đá Xung kích'
+    - 'lore10:&eClickable&a vào để mở khóa Bảo Pháp này'
+    RewardType: command
+    Reward:
+    - class points %player% 1
+    - class exp %player% 30000
+    - mc give %player% 30000
+    - pex user %player% add skillapi.skill.zenitsu
+    - bc &e&l%player%&7 đã mở khóa unique &8[&eLôi Kiếm Zenitsu&8] &6⚒
+    - bb broadcast 20 &7(&2࿄࿄&7) &e&l%player%&7 đã mở khóa Bảo Pháp &8[&eLôi Kiếm Zenitsu&8] &6⚒
+    - 'w %player% &aBạn đã hoàn thành bước 1/2:'
+    - 'w %player% &a1. Mở khóa Bảo Pháp'
+    - 'w %player% &72. Kích hoạt Bảo Pháp.'
+    - 'w %player% &eGiờ hãy gõ lệnh: &a/uniques&e để kích hoạt Unique nhé &2&l✔'
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:60
+      - name:&7Đá Xung Kích&e⇲ &e∞ &8◄&6&lBẢO PHÁP&8►
+      - 'lore2:&a ✩✩✩&8✩✩✩✩✩✩✩'
+      - 'lore4:&7 Thu thập đủ SL, mở khóa bảo pháp'
+      - 'lore5:&7 cho kỹ thăng và thuộc tính main +.'
+      - 'lore7:&a&l SỬ DỤNG:&7 đến giao diện /baophap'
+      - 'lore8:&7 hoặc cầm item và &aCLICK-PHẢI.'
+      - 'lore10:&e Grounding:&7 nếu đặt item xuống đất sẽ'
+      - 'lore11:&7 bị mất hình dáng và công hiệu &9&l(!)'
+      - 'lore13:&e LOẠI VẬT PHẨM&a clickable&e and&a storage'
+    InventoryLocation: 33
+  10:
+    MenuItem:
+    - type:311
+    - name:&6&lBẢO PHÁP&7 Giáp netherit &e⚒
+    - 'lore2:&a ✩✩✩✩✩✩&8✩✩✩✩'
+    - 'lore4:&2Thuộc tính:&7 +35.000 điểm Sức mạnh'
+    - 'lore6:&2Nội tại:&7 +14.0% phản sát thương &cDPS'
+    - 'lore8:&2Tiêu hao:&7 10 viên đá netherit'
+    - 'lore10:&eClickable&a vào để mở khóa Bảo Pháp này'
+    RewardType: command
+    Reward:
+    - class points %player% 1
+    - class exp %player% 35000
+    - mc give %player% 35000
+    - pex user %player% add skillapi.skill.netherit
+    - bc &e&l%player%&7 đã mở khóa unique &7[&8&lGIÁP NGỤC netherit&7] &0⚒
+    - bb broadcast 20 &7(&2࿄࿄&7) &e&l%player%&7 đã mở khóa Bảo Pháp &7[&8&lGIÁP NGỤC netherit&7] &0⚒
+    - 'w %player% &aBạn đã hoàn thành bước 1/2:'
+    - 'w %player% &a1. Mở khóa Bảo Pháp'
+    - 'w %player% &72. Kích hoạt Bảo Pháp.'
+    - 'w %player% &eGiờ hãy gõ lệnh: &a/uniques&e để kích hoạt Unique nhé &2&l✔'
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:10
+      - name:&8&lĐá netherit
+      - 'lore1:&dThu thập:&c mốc quà tích lũy &41m'
+      - 'lore3:&eĐánh giá: &a✫✫✫✫✫✫✫✫&7✫✫'
+      - 'lore5:&f Dùng để mở khóa bảo pháp (unique)'
+      - 'lore6:&f tại giao diện unique &e(/unique)'
+      - 'lore8:&6⇢⇢ Nhớ bỏ item vào túi&e&l E&6 khi unlock'
+      - 'lore9:&e⇢ Sau khi mở bảo pháp bạn phải gõ lệnh:'
+      - 'lore10:&e/uniques để kích hoạt nó mới nhận được'
+      - 'lore11:&ethuộc tính riêng của nó.'
+    InventoryLocation: 34
+  back:
+    MenuItem:
+    - type:351:8
+    - name:&6&lQUAY LẠI
+    - 'lore2:&7Click vào để quay lại menu'
+    RewardType: shop
+    Reward: menu
+    InventoryLocation: 50
+  a:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 1
+  b:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 2
+  c:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 3
+  d:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 4
+  e:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 5
+  f:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 6
+  g:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 7
+  h:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 8
+  i:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 9
+  j:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 10
+  k:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 11
+  l:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 12
+  m:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 16
+  n:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 17
+  o:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 18
+  p:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 19
+  q:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 20
+  r:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 21
+  s:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 25
+  t:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 26
+  u:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 27
+  v:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 28
+  w:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 29
+  x:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 30
+  z:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 35
+  za:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 36
+  zb:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 37
+  zc:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 38
+  zd:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 39
+  ze:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 40
+  zf:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 41
+  zg:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 42
+  zh:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 43
+  zi:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 44
+  zj:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 45
+  zk:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 46
+  zl:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 47
+  zm:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 48
+  zn:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 49
+  zo:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 51
+  zp:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 52
+  zq:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 53
+  zr:
+    MenuItem:
+    - type:160:15
+    - name:&6
+    InventoryLocation: 54

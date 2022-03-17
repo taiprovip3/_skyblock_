@@ -1,0 +1,186 @@
+ShopName: vt
+DisplayName: '&8Server &c♲ &8ᴠậɴ ᴛɪêᴜ'
+Command: vt:vantieu
+Sound:
+  Shop:
+    Open: ENTITY_PLAYER_LEVELUP:1:1
+    ChangeShop: ENTITY_PLAYER_LEVELUP:1:1
+shop:
+  1:
+    MenuItem:
+    - 'name:&7'
+    - 'lore1:&bĐặc vụ ʙắc ᴄựᴄ'
+    - 'lore3:&bMô tả: &7chuyển dùm ICE địa cực đến Bắc Cực giao cho Gragas để nhận phần thưởng'
+    - 'lore5:&bPhần thưởng&f:'
+    - 'lore6:&7 &7 - 500 tinh hoa'
+    - 'lore7:&7 &7 - 10 exp'
+    - 'lore8:&7 &7 - 500 tiền &a&l$'
+    - 'lore10:&bTime dự kiến:&7 30p'
+    - 'lore12:&7 &7 (click nhậm tiêu)'
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTA3OWFiYmFmYjk4MWM3OTVhOWEyZjgyYmFiM2ZiZDlmMTY2YjhjMGRiZjlhMTc1MWQ3NjliZWFjNjY3YjYifX19
+    RewardType: playercommand
+    Reward:
+    - vto1
+    InventoryLocation: 4
+  2:
+    MenuItem:
+    - 'name:&7'
+    - 'lore1:&6sa ᴍạᴄ ᴄʜếᴛ ᴄʜóᴄ'
+    - 'lore3:&6Mô tả: &7chuyển thùng nước Aquaffin đến khu bán hoang mạc cho cao bồi Rango'
+    - 'lore5:&6Phần thưởng&f:'
+    - 'lore6:&7 &7 - 800 tinh hoa'
+    - 'lore7:&7 &7 - 20 exp'
+    - 'lore8:&7 &7 - 1000 tiền &a&l$'
+    - 'lore10:&6Time dự kiến:&7 1h'
+    - 'lore12:&6Điều kiện:&7 nhậm tiêu bắc cực'
+    - 'lore14:&7 &7 (click nhậm tiêu)'
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNlZDM0MjExZmVkNDAxMGE4Yzg1NzI0YTI3ZmE1ZmIyMDVkNjc2ODRiM2RhNTE3YjY4MjEyNzljNmI2NWQzZiJ9fX0=
+    RewardType: playercommand
+    Reward:
+    - vto2
+    ExtraPermission: 'minecraft.vt.vto2'
+    InventoryLocation: 5
+  3:
+    MenuItem:
+    - 'name:&7'
+    - 'lore1:&224h Tâm Chấn ở Vũ Hán'
+    - 'lore3:&2Mô tả: &7chuyển loại vắc-xin thử nghiệp đến cho các nhà sinh học Sar-nCov II'
+    - 'lore5:&2Phần thưởng&f:'
+    - 'lore6:&7 &7 - 1000 tinh hoa'
+    - 'lore7:&7 &7 - 30 exp'
+    - 'lore8:&7 &7 - 1500 tiền &a&l$'
+    - 'lore9:&7 &7 - 1 điểm nội năng'
+    - 'lore11:&2Time dự kiến:&7 2h'
+    - 'lore13:&2Điều kiện:&7 nhậm tiêu sa mạc'
+    - 'lore15:&7 &7 (click nhậm tiêu)'
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTA3OWFiYmFmYjk4MWM3OTVhOWEyZjgyYmFiM2ZiZDlmMTY2YjhjMGRiZjlhMTc1MWQ3NjliZWFjNjY3YjYifX19=
+    RewardType: playercommand
+    Reward:
+    - vto3
+    ExtraPermission: 'minecraft.vt.vto3'
+    InventoryLocation: 6
+  back:
+    MenuItem:
+    - 'name:&cBack&7 (quay lại)'
+    - type:399
+    RewardType: SHOP
+    Reward: menu
+    InventoryLocation: 23
+  dec1:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 1
+  dec2:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 2
+  dec3:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 3
+  dec4:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 7
+  dec5:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 8
+  dec6:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 9
+  dec7:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 10
+  dec8:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 11
+  dec9:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 12
+  dec10:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 13
+  dec11:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 14
+  dec12:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 15
+  dec13:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 16
+  dec14:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 17
+  dec15:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 18
+  dec16:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 19
+  dec17:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 20
+  dec18:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 21
+  dec19:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 22
+  dec20:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 24
+  dec21:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 25
+  dec22:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 26
+  dec23:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 27

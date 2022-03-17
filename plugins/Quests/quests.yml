@@ -1,0 +1,1680 @@
+# For non-English characters, this file MUST stay encoded in UTF-8
+quests:
+  custom100:
+    name: code
+    ask-message: §7nhập ra màn hình chữ §a"có" §7hoặc §a"yes"
+    finish-message: §a
+    stages:
+      ordered:
+        '1':
+          password-displays:
+          - '&aVui lòng nhập mã code ra màn hình (ko cần dấu /)'
+          password-phrases:
+          - grassmc.rf.gd.
+    rewards:
+      commands:
+      - kit code <player>
+      - mm i give <player> eggtm 1
+      - bc <player> &avừa nhận được code tối thượng.
+      details-override:
+      - §r §r §e+1.0 §atúi quà tối thượng
+      - §r §r §cNhiệm vụ này sẽ không bao giờ có thể nhận lại.
+  custom101:
+    name: dirt mining
+    ask-message: '&7nhập ra màn hình chữ &a"có" &7hoặc &a"yes"'
+    finish-message: '&a'
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+          - GRASS
+          break-block-amounts:
+          - 64
+          break-block-durability:
+          - 0
+    rewards:
+      quest-points: 1
+      commands:
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+      - ''
+      - §a⚊♓Tốt lắm. Hãy làm nhiệm vụ kế♓⚊
+      - ''
+    planner:
+      cooldown: 86400
+  custom102:
+    name: the hunter
+    ask-message: '&7nhập ra màn hình chữ &a"có" &7hoặc &a"yes"'
+    finish-message: '&a'
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - ZOMBIE
+          mob-amounts:
+          - 32
+    rewards:
+      quest-points: 1
+      commands:
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+      - ''
+      - §a⚊♓Tốt lắm. Hãy làm nhiệm vụ kế♓⚊
+      - ''
+    planner:
+      cooldown: 86400
+  custom103:
+    name: pastry chef
+    ask-message: '&7nhập ra màn hình chữ &a"có" &7hoặc &a"yes"'
+    finish-message: '&a'
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            type: CAKE
+            amount: 2
+          - ==: org.bukkit.inventory.ItemStack
+            type: BREAD
+            amount: 3
+    rewards:
+      quest-points: 1
+      commands:
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+      - ''
+      - §a⚊♓Tốt lắm. Hãy làm nhiệm vụ kế♓⚊
+      - ''
+    planner:
+      cooldown: 86400
+  custom104:
+    name: gone fishing
+    ask-message: '&7nhập ra màn hình chữ &a"có" &7hoặc &a"yes"'
+    finish-message: '&a'
+    stages:
+      ordered:
+        '1':
+          fish-to-catch: 2
+    rewards:
+      quest-points: 1
+      commands:
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+      - ''
+      - §a⚊♓Tốt lắm. Hãy làm nhiệm vụ kế♓⚊
+      - ''
+    planner:
+      cooldown: 86400
+  custom105:
+    name: killer clown
+    ask-message: '&7nhập ra màn hình chữ &a"có" &7hoặc &a"yes"'
+    finish-message: '&a'
+    stages:
+      ordered:
+        '1':
+          players-to-kill: 2
+    rewards:
+      quest-points: 1
+      commands:
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> it_extender 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+1.0 Phụ kiện gia hạn
+      - §r §r §6+200.0 tinh hoa
+      - ''
+      - §a⚊♓Tốt lắm. Hãy làm nhiệm vụ kế♓⚊
+      - ''
+    planner:
+      cooldown: 86400
+  custom106:
+    name: farmerzy
+    ask-message: '&7nhập ra màn hình chữ &a"có" &7hoặc &a"yes"'
+    finish-message: '&a'
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+          - MELON_BLOCK
+          break-block-amounts:
+          - 64
+          break-block-durability:
+          - 0
+    rewards:
+      quest-points: 1
+      commands:
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+      - ''
+      - §a⚊♓Tốt lắm. Hãy làm nhiệm vụ kế♓⚊
+      - ''
+    planner:
+      cooldown: 86400
+  custom107:
+    name: smelting cactus
+    ask-message: §7nhập ra màn hình chữ "có"
+    finish-message: §a
+    stages:
+      ordered:
+        '1':
+          items-to-smelt:
+          - ==: org.bukkit.inventory.ItemStack
+            type: INK_SACK
+            damage: 2
+            amount: 64
+    rewards:
+      quest-points: 1
+      commands:
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+      - ''
+      - §a⚊♓Tốt lắm. Hãy làm nhiệm vụ kế♓⚊
+      - ''
+    planner:
+      cooldown: 86400
+  custom108:
+    name: shaun the sheep
+    ask-message: '&7nhập ra màn hình chữ &a"có" &7hoặc &a"yes"'
+    finish-message: '&a'
+    stages:
+      ordered:
+        '1':
+          sheep-to-shear:
+          - WHITE
+          sheep-amounts:
+          - 8
+    rewards:
+      quest-points: 1
+      commands:
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+      - ''
+      - §a⚊♓Tốt lắm. Hãy làm nhiệm vụ kế♓⚊
+      - ''
+    planner:
+      cooldown: 86400
+  custom109:
+    name: kungpow
+    ask-message: '&7nhập ra màn hình chữ &a"có" &7hoặc &a"yes"'
+    finish-message: '&a'
+    stages:
+      ordered:
+        '1':
+          cows-to-milk: 10
+    rewards:
+      quest-points: 1
+      commands:
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+      - ''
+      - §a⚊♓Tốt lắm. Hãy làm nhiệm vụ kế♓⚊
+      - ''
+    planner:
+      cooldown: 86400
+  custom1:
+    name: quest1
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+          - LOG
+          break-block-amounts:
+          - 4
+          break-block-durability:
+          - 0
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh2
+      - qa give <player> quest2
+      - me &f<player> vừa hoàn thành thử thách &a[Wooden Taker]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom2:
+    name: quest2
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          place-block-names:
+          - STONE
+          place-block-amounts:
+          - 64
+          place-block-durability:
+          - 0
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh3
+      - qa give <player> quest3
+      - me &f<player> vừa hoàn thành thử thách &a[Stone COl]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom3:
+    name: quest3
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          place-block-names:
+          - COBBLESTONE
+          place-block-amounts:
+          - 8
+          place-block-durability:
+          - 0
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh4
+      - qa give <player> quest4
+      - me &f<player> vừa hoàn thành thử thách &a[Infinity Pool]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom4:
+    name: quest4
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            type: WOOD_PICKAXE
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh5
+      - qa give <player> quest5
+      - me &f<player> vừa hoàn thành thử thách &a[Let"s Mine]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom5:
+    name: quest5
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-smelt:
+          - ==: org.bukkit.inventory.ItemStack
+            type: GLASS
+            amount: 8
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh6
+      - qa give <player> quest6
+      - me &f<player> vừa hoàn thành thử thách &a[Get Burning]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom6:
+    name: quest6
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          enchantments:
+          - DigSpeed
+          enchantment-item-names:
+          - wood_pickaxe
+          enchantment-amounts:
+          - 1
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh7
+      - qa give <player> quest7
+      - me &f<player> vừa hoàn thành thử thách &a[Advanced Enchantment]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom7:
+    name: quest7
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            type: WHEAT
+            amount: 3
+          npc-delivery-ids:
+          - 7
+          delivery-messages:
+          - 'Triết học: lúa làm ra gạo!'
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh8
+      - qa give <player> quest8
+      - me &f<player> vừa hoàn thành thử thách &a[Deliver Man]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom8:
+    name: quest8
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 2
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh9
+      - qa give <player> quest9
+      - me &f<player> vừa hoàn thành thử thách &a[Get Stronger]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom9:
+    name: quest9
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            type: WOOD_SWORD
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh10
+      - qa give <player> quest10
+      - me &f<player> vừa hoàn thành thử thách &a[Repare for fight]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom10:
+    name: quest10
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-kill:
+          - 9
+          npc-kill-amounts:
+          - 1
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh11
+      - qa give <player> quest11
+      - me &f<player> vừa hoàn thành thử thách &a[Fighting Go]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom11:
+    name: quest11
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            type: STONE_SWORD
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh12
+      - qa give <player> quest12
+      - me &f<player> vừa hoàn thành thử thách &a[Advanced II]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom12:
+    name: quest12
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - ZOMBIE
+          mob-amounts:
+          - 1
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh13
+      - qa give <player> quest13
+      - me &f<player> vừa hoàn thành thử thách &a[Zombie Apocalypse]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom13:
+    name: quest13
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            type: FISHING_ROD
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh14
+      - qa give <player> quest14
+      - me &f<player> vừa hoàn thành thử thách &a[The Fizz ?]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom14:
+    name: quest14
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          fish-to-catch: 2
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh15
+      - qa give <player> quest15
+      - me &f<player> vừa hoàn thành thử thách &a[Gone Fishing]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom15:
+    name: quest15
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            type: BUCKET
+            amount: 3
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh16
+      - qa give <player> quest16
+      - me &f<player> vừa hoàn thành thử thách &a[Container]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom16:
+    name: quest16
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          cows-to-milk: 16
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh17
+      - qa give <player> quest17
+      - me &f<player> vừa hoàn thành thử thách &a[Vinamilk]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom17:
+    name: quest17
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            type: SHEARS
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh18
+      - qa give <player> quest18
+      - me &f<player> vừa hoàn thành thử thách &a[Nochym Firm]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom18:
+    name: quest18
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          sheep-to-shear:
+          - WHITE
+          sheep-amounts:
+          - 8
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh19
+      - qa give <player> quest19
+      - me &f<player> vừa hoàn thành thử thách &a[Gwen"s cloths]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom19:
+    name: quest19
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          locations-to-reach:
+          - pvp -59.0 16.0 11.0
+          reach-location-radii:
+          - 3
+          reach-location-names:
+          - attackontitan
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh20
+      - qa give <player> quest20
+      - me &f<player> vừa hoàn thành thử thách &a[Attack On Titan]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom20:
+    name: quest20
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          players-to-kill: 1
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh21
+      - qa give <player> quest21
+      - me &f<player> vừa hoàn thành thử thách &a[Assass"in]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom21:
+    name: quest21
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          password-displays:
+          - 'Tính nhẩm: ((6x8+(4-2))/10-3+(2x3)/3+16-20)/0 rồi nhập Đ.Á ra boxchat.
+            Ko cần / hay .'
+          password-phrases:
+          - '0'
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh22
+      - qa give <player> quest22
+      - me &f<player> vừa hoàn thành thử thách &a[Genius]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom22:
+    name: quest22
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          place-block-names:
+          - COAL_BLOCK
+          place-block-amounts:
+          - 64
+          place-block-durability:
+          - 0
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh23
+      - qa give <player> quest23
+      - me &f<player> vừa hoàn thành thử thách &a[Coal Miner]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom23:
+    name: quest23
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          place-block-names:
+          - OBSIDIAN
+          place-block-amounts:
+          - 14
+          place-block-durability:
+          - 0
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh24
+      - qa give <player> quest24
+      - me &f<player> vừa hoàn thành thử thách &a[Deep World]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom24:
+    name: quest24
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            type: TORCH
+            amount: 16
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh25
+      - qa give <player> quest25
+      - me &f<player> vừa hoàn thành thử thách &a[Torch Me]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom25:
+    name: quest25
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            type: FURNACE
+            amount: 32
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh26
+      - qa give <player> quest26
+      - me &f<player> vừa hoàn thành thử thách &a[The Warm]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom26:
+    name: quest26
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-smelt:
+          - ==: org.bukkit.inventory.ItemStack
+            type: COBBLESTONE
+            amount: 64
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh27
+      - qa give <player> quest27
+      - me &f<player> vừa hoàn thành thử thách &a[Smelting]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom27:
+    name: quest27
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          enchantments:
+          - DigSpeed
+          enchantment-item-names:
+          - diamond_axe
+          enchantment-amounts:
+          - 1
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh28
+      - qa give <player> quest28
+      - me &f<player> vừa hoàn thành thử thách &a[Wood Man]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom28:
+    name: quest28
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-deliver:
+          - ==: org.bukkit.inventory.ItemStack
+            type: LOG
+            damage: 2
+          npc-delivery-ids:
+          - 7
+          delivery-messages:
+          - 'Triết học Mac: gỗ là chất có thể gây cháy !'
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh29
+      - qa give <player> quest29
+      - me &f<player> vừa hoàn thành thử thách &a[Wood Man II]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom29:
+    name: quest29
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 8
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh30
+      - qa give <player> quest30
+      - me &f<player> vừa hoàn thành thử thách &a[Delicious]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom30:
+    name: quest30
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-kill:
+          - 80
+          npc-kill-amounts:
+          - 1
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh31
+      - qa give <player> quest31
+      - me &f<player> vừa hoàn thành thử thách &a[Comet]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom31:
+    name: quest31
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - WITHER_SKELETON
+          mob-amounts:
+          - 9
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh32
+      - qa give <player> quest32
+      - me &f<player> vừa hoàn thành thử thách &a[Black Secret]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom32:
+    name: quest32
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          fish-to-catch: 32
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh33
+      - qa give <player> quest33
+      - me &f<player> vừa hoàn thành thử thách &a[Daily Beach]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom33:
+    name: quest33
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          cows-to-milk: 27
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh34
+      - qa give <player> quest34
+      - me &f<player> vừa hoàn thành thử thách &a[Cow Taker]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom34:
+    name: quest34
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          sheep-to-shear:
+          - WHITE
+          sheep-amounts:
+          - 38
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh35
+      - qa give <player> quest35
+      - me &f<player> vừa hoàn thành thử thách &a[Nochym Employee]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom35:
+    name: quest35
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          players-to-kill: 5
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh36
+      - qa give <player> quest36
+      - me &f<player> vừa hoàn thành thử thách &a[Got Pen]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom36:
+    name: quest36
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          place-block-names:
+          - LAPIS_BLOCK
+          place-block-amounts:
+          - 64
+          place-block-durability:
+          - 0
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh37
+      - qa give <player> quest37
+      - me &f<player> vừa hoàn thành thử thách &a[Lapis Build up]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom37:
+    name: quest37
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          place-block-names:
+          - COAL_BLOCK
+          place-block-amounts:
+          - 64
+          place-block-durability:
+          - 0
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh38
+      - qa give <player> quest38
+      - me &f<player> vừa hoàn thành thử thách &a[Colosseum]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom38:
+    name: quest38
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            type: CHEST
+            amount: 64
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh39
+      - qa give <player> quest39
+      - me &f<player> vừa hoàn thành thử thách &a[Chest Making]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom39:
+    name: quest39
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            type: LADDER
+            amount: 64
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh40
+      - qa give <player> quest40
+      - me &f<player> vừa hoàn thành thử thách &a[Ladder Making]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom40:
+    name: quest40
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            type: FENCE
+            amount: 64
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh41
+      - qa give <player> quest41
+      - me &f<player> vừa hoàn thành thử thách &a[Fence Making]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom41:
+    name: quest41
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            type: BOAT
+            amount: 64
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh42
+      - qa give <player> quest42
+      - me &f<player> vừa hoàn thành thử thách &a[Boat Making]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom42:
+    name: quest42
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            type: WOOD_STEP
+            amount: 64
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh43
+      - qa give <player> quest43
+      - me &f<player> vừa hoàn thành thử thách &a[Villager Slab]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom43:
+    name: quest43
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            type: BRICK
+            amount: 64
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh44
+      - qa give <player> quest44
+      - me &f<player> vừa hoàn thành thử thách &a[BRICKY HEAD]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom44:
+    name: quest44
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            type: SIGN
+            amount: 64
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh45
+      - qa give <player> quest45
+      - me &f<player> vừa hoàn thành thử thách &a[Designer]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom45:
+    name: quest45
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            type: IRON_DOOR
+            amount: 64
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh46
+      - qa give <player> quest46
+      - me &f<player> vừa hoàn thành thử thách &a[Safety]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom46:
+    name: quest46
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            type: FLINT_AND_STEEL
+            amount: 64
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh47
+      - qa give <player> quest47
+      - me &f<player> vừa hoàn thành thử thách &a[Primitive Age]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom47:
+    name: quest47
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            type: BOW
+            amount: 64
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh48
+      - qa give <player> quest48
+      - me &f<player> vừa hoàn thành thử thách &a[We Hunt]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom48:
+    name: quest48
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            type: ARROW
+            amount: 64
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh49
+      - qa give <player> quest49
+      - me &f<player> vừa hoàn thành thử thách &a[All the World in One Arrow]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom49:
+    name: quest49
+    ask-message: §7
+    finish-message: §8[§aChỉ huy§8]§2 Chưa xong đâu, chuỗi nhiệm vụ đã tự cập nhật
+      mới, hãy tiếp tục hoàn thành nhé!
+    stages:
+      ordered:
+        '1':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            type: GLOWSTONE
+            amount: 64
+    rewards:
+      quest-points: 1
+      commands:
+      - pex user <player> group set tanbinh50
+      - qa give <player> quest50
+      - me &f<player> vừa hoàn thành thử thách &a[Bloom!]
+      - p give <player> 5
+      - class exp <player> 200
+      - mc give <player> 200
+      - mm i give <player> da_ren 2
+      - mm i give <player> da_cuonghoa 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa
+  custom50:
+    name: quest50
+    ask-message: §7
+    finish-message: §8[§aChỉ huy StarWar§8]§2 Xong rồi, chuỗi nhiệm vụ đã ko còn nữa. Giờ ngươi có thể tự do làm những điều mình muốn. Tặng ngươi gói quà TÂN BINH.
+    stages:
+      ordered:
+        '1':
+          mobs-to-tame:
+          - WOLF
+          mob-tame-amounts:
+          - 1
+    rewards:
+      quest-points: 1
+      commands:
+      - me &f<player> vừa hoàn thành thử thách cuối cùng &a[Best Friend Ever]
+      - w <player> &aBạn đã hoàn thành chuỗi nhiệm vụ tân binh. Nhận thưởng tân thủ. Chúc bạn chơi có một ngày chơ game vui vẽ!
+      - p give <player> 10
+      - class exp <player> 1000
+      - mc give <player> 1000
+      - mm i give <player> da_ren 10
+      - mm i give <player> da_cuonghoa 10
+      - mm i give <player> hopquatanbinh 1
+      details-override:
+      - §r §r §6+5.0 §⛁
+      - §r §r §6+2.0 Đá rèn
+      - §r §r §6+1.0 Đá cường hóa
+      - §r §r §6+200.0 tinh hoa

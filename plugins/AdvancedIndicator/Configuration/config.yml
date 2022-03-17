@@ -1,0 +1,165 @@
+Configuration:
+  General:
+    Version: 1.0
+    #Version of the config.
+    
+    Locale: "en"
+    #Locale language
+  
+  Metrics:
+    Message: true
+    #Send message to console when connect metrics.
+  
+  Hook:
+    Message: false
+    #Send message to console about dependencies information.
+    
+  Utility:    
+    Tooltip: "&8&l[&4&l?&8&l]"
+    #Character for text tooltip.
+    
+    Currency: "$"
+    #Symbol currency.
+    
+  Bar:
+    Length: 10
+    #Length of bar.
+    
+    Symbol: "&l■"
+    #Symbol of text bar.
+    
+    Fill: "&4"
+    #Color of filled bar.
+    Empty: "&0"
+    #Color of empty bar.
+      
+  Effect:
+    Range: 50
+    #Max distance for send packet particle and sound.
+    
+  List:
+    Content: 5
+    #Max of list content what will be displayed
+    
+  Priority:
+    Actionbar: 6
+    #Priority of actionbar*
+    
+    BossBar: 4
+    #Priority of bossbar 
+    
+  Indicator:
+    Enable_Instant: true
+    #Enable indicator when the event called by non-entity
+    
+    Enable_Caster: true
+    #Enable indicator when the event called by an entity
+    
+    Enable_Exp_Direct: false
+    #Enable direct exp gain 
+  
+    Enable_Hologram_Exp: false
+    #Enable exp indicator hologram
+  
+    Enable_Hologram_Heal: true
+    #Enable heal indicator hologram
+    
+    Enable_Hologram_Damage: true
+    #Enable damage indicator hologram
+    
+    Enable_BossBar_Check: true
+    #Enable check indicator bossbar
+    
+    Enable_BossBar_Exp: false
+    #Enable exp indicator bossbar
+    
+    Enable_BossBar_Heal: true
+    #Enable heal indicator bossbar
+    
+    Enable_BossBar_Damage: true
+    #Enable damage indicator bossbar
+    #-------
+    Enable_Actionbar_Check: false
+    #Enable check indicator actionbar
+    
+    Enable_Actionbar_Exp: false
+    #Enable exp indicator actionbar
+    
+    Enable_Actionbar_Heal: false
+    #Enable heal indicator actionbar
+    
+    Enable_Actionbar_Damage: false
+    #Enable damage indicator actionbar
+    
+    Allowed_Damage_Cause:
+    - "BLOCK_EXPLOSION"
+    - "CONTACT"
+    - "CUSTOM"
+    - "DRAGON_BREATH"
+    - "ENTITY_ATTACK"
+    - "ENTITY_EXPLOSION"
+    - "ENTITY_SWEEP_ATTACK"
+    - "LIGHTNING"
+    - "MAGIC"
+    - "PROJECTILE"
+    
+    Allowed_Regain_Reason:
+    - "CUSTOM"
+    - "EATING"
+    - "MAGIC"
+    - "MAGIC_REGEN"
+    
+    Hologram_Exp_Duration: 40
+    #Hologram exp duration in ticks
+    
+    Hologram_Exp_Velocity_X: 0.0
+    #Hologram exp max random velocity on x axis
+    
+    Hologram_Exp_Velocity_Y: 0.0
+    #Hologram exp base velocity on y axis
+    
+    Hologram_Exp_Velocity_Z: 0.0
+    #Hologram exp max random velocity on z axis
+    
+    Hologram_Exp_Acceleration_Y: 0.0
+    #Hologram exp acceleration on y axis
+    
+    Hologram_Health_Duration: 20
+    #Hologram health duration in ticks
+    
+    Hologram_Health_Velocity_X: 2.5
+    #Hologram health max random velocity on x axis
+
+    Hologram_Health_Velocity_Y: 4.0
+    #Hologram health base velocity on y axis
+    
+    Hologram_Health_Velocity_Z: 2.5
+    #Hologram health max random velocity on z axis
+    
+    Hologram_Health_Acceleration_Y: -0.5
+    #Hologram health acceleration on y axis
+    
+  BossBar:
+    Color_Exp: "Purple"
+    Color_Healthy: "Green"
+    Color_Injured: "Yellow"
+    Color_Dying: "Red"
+    #Available Colors:
+    #- Pink
+    #- Blue
+    #- Red
+    #- Green
+    #- Yellow
+    #- Purple
+    #- White
+    
+    SExp: "Notched_20"
+    Style_Healthy: "Notched_10"
+    Style_Injured: "Notched_10"
+    Style_Dying: "Notched_10"
+    #Available Styles:
+    #- Progress
+    #- Notched_6
+    #- Notched_10
+    #- Notched_12
+    #- Notched_20

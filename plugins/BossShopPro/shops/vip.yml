@@ -1,0 +1,388 @@
+ShopName: vip
+DisplayName: '&8&lServer &1&l⟣ &8&lVIP'
+Command: vip:rankup:ranks:ru:rank
+Sound:
+  Shop:
+    Open: ENTITY_ITEM_PICKUP:1:1
+    ChangeShop: ENTITY_ITEM_PICKUP:1:1
+shop:
+  1:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2M4MGZhMzUxZGRmZmYxZWIyYTVhNjZmMzYwNmY5YzFkNDBhMGM2NjUyMTQyODIxMzU4Mjc2YmIzZTgyNzkifX19=
+    - name:&eᴠɪᴘ
+    - 'lore1:&f&l:: &eᴠɪᴘ&7 kế thừa toàn bộ quyền hành từ &8☾&anông dân&8☽&7, nhận được các quyền lệnh riêng, gói quà tặng riêng và tự động chuyển vào túi sau khi mua. &fYêu cầu:&7 không'
+    - 'lore3:&f&nQuyền lợi:'
+    - 'lore4:&c ❣ &f/kit vip&7 nhận gói kit 1 lần.'
+    - 'lore5:&c ❣ &f/hat&7 đội mũ yêu thích.'
+    - 'lore6:&c ❣ &f/repair&7 sữa trang bị tay cầm free.'
+    - 'lore7:&c ❣ &f/ec&7 mở rương ender vĩnh viễn.'
+    - 'lore8:&c ❣ &fĐổi tên pet có màu.'
+    - 'lore9:&c ❣ &fTạo bảng REPAIR, sữa chữa free.'
+    - 'lore10:&c ❣ &f+5.0%&7 giá trị &e⛁&7 bán hàng cuốc triệu &2$'
+    - 'lore11:&c ❣ &f/balo1, /balo2&7 sở hữu 2 túi balo ảo'
+    - 'lore12:&c ❣ &fTăng giới hạn sỡ hữu thợ mỏ minion: &72'
+    - 'lore14:&f&nThời hạn vip:'
+    - 'lore15:&f Vĩnh viễn &7/&f vô hạn &7/&f vĩnh cữu &7/&f infinity &7/&f never endless'
+    - 'lore17:&f&nGói quà tặng:'
+    - 'lore18:&c ❣ &fDanh hiệu: &8☾&f&lᴠɪᴘ&8☽&7%player%&f⚒'
+    - 'lore19:&c ❣ &f+50,000⛁&7 tự chuyển vào túi.'
+    - 'lore20:&c ❣ &f+10.000 điểm tinh hoa&7 vào main'
+    - 'lore22:&fTiêu hao: &7500 &e&l⛁&7 (coins)'
+    - 'lore23:&7CLICK vào để mua.'
+    RewardType: COMMAND
+    Reward: 
+    - bc &2&l࿄࿄ &7%player% vừa trade -500&e&l⛁ &7(coins) trở thành &e&lᴠɪᴘ &7- &8☾&f&lᴠɪᴘ&8☽ &7mới. &aChúc mừng!
+    - bb broadcast 20 &e&l((࿄))&2 %player% vừa giao dịch -500&e&l⛁&2 trở thành &e&lVip - &f&lᴠɪᴘ&2 mới
+    - eco give %player% 50000
+    - class exp %player% 10000
+    - mc give %player% 10000
+    - pex user %player% group set vip
+    - bs close %player%
+    PriceType: POINTS
+    Price: 500
+    InventoryLocation: 12
+  2:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjU0MzRiYzU2ODU0N2ZlNmI5YjFhZWZkZmM1MzU5MmE3ZDExM2IzODhjNDg2OTM1NmQxOTZmMDIxN2Y1MiJ9fX0==
+    - name:&e&lᴠɪᴘ&e+
+    - 'lore1:&f&l:: &e&lᴠɪᴘ+&7 kế thừa toàn bộ quyền hành từ &eᴠɪᴘ&7, nhận được các quyền lệnh riêng, gói quà tặng riêng và tự động chuyển vào túi sau khi mua. &eYêu cầu:&7 cần mua rank ᴠɪᴘ'
+    - 'lore3:&e&nQuyền lợi:'
+    - 'lore4:&c ❣ &e/kit vip+&7 nhận gói kit 1 lần.'
+    - 'lore5:&c ❣ &e/feed&7 hồi đầy thanh thức ăn.'
+    - 'lore6:&c ❣ &e/repair all&7 sữa chữa toàn bộ đồ hư hỏng trong túi &e&lE.'
+    - 'lore7:&c ❣ &e/nick&7 đổi tên.'
+    - 'lore8:&c ❣ &eChat có màu trong Boxchat &a@ &b@ &6@ &4@'
+    - 'lore9:&c ❣ &e+8.0%&7 giá trị &e⛁&7 bán hàng cuốc triệu &e$'
+    - 'lore10:&c ❣ &e/balo3, /balo4&7 sở hữu thêm 2 túi balo ảo'
+    - 'lore11:&c ❣ &eTăng giới hạn sỡ hữu thợ mỏ minion: &73'
+    - 'lore13:&e&nThời hạn vip:'
+    - 'lore14:&e Vĩnh viễn &7/&e vô hạn &7/&e vĩnh cữu &7/&e infinity &7/&e never endless'
+    - 'lore16:&e&nGói quà tặng:'
+    - 'lore17:&c ❣ &eDanh hiệu: &8☾&e&lᴠɪᴘ+&8☽&7%player%&e⚒'
+    - 'lore18:&c ❣ &e+99,999⛁&7 tự chuyển vào túi.'
+    - 'lore19:&c ❣ &e+30.000 điểm tinh hoa&7 vào main'
+    - 'lore21:&eTiêu hao: &7800 &e&l⛁&7 (coins)'
+    - 'lore22:&7CLICK vào để mua.'
+    RewardType: COMMAND
+    Reward: 
+    - bc &2&l࿄࿄ &7%player% vừa trade -800&e&l⛁ &7(coins) trở thành &e&lᴠɪᴘ &7- &8☾&e&lᴠɪᴘ+&8☽ &7mới. &aChúc mừng!
+    - bb broadcast 20 &e&l((࿄))&2 %player% vừa giao dịch -800&e&l⛁&2 trở thành &e&lVip - ᴠɪᴘ+&2 mới
+    - eco give %player% 99999
+    - class exp %player% 30000
+    - mc give %player% 30000
+    - pex user %player% group set vip+
+    - bs close %player%
+    PriceType: POINTS
+    Price: 800
+    ExtraPermission: 'vip.ownrank.vip'
+    InventoryLocation: 13
+  3:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODUyMDRhNmI1NjYzMjIxMmEzMzBjODRkYjQ4NTdhZmU1YjExYWY2NTg0YzRjY2ZiMmNkYjBlOWYxMjM5ZiJ9fX0==
+    - name:&bᴍᴠᴘ
+    - 'lore1:&f&l:: &bᴍᴠᴘ&7 kế thừa toàn bộ quyền hành từ &e&lᴠɪᴘ&e+&7, nhận được các quyền lệnh riêng, gói quà tặng riêng và tự động chuyển vào túi sau khi mua. &3Yêu cầu:&7 cần mua rank ᴠɪᴘ+'
+    - 'lore3:&3&nQuyền lợi:'
+    - 'lore4:&c ❣ &3/kit mvp&7 nhận gói kit 1 lần.'
+    - 'lore5:&c ❣ &3/heal&7 hồi &3[100%]&7 máu + thanh thức ăn + xóa toán bộ hiệu ứng.'
+    - 'lore6:&c ❣ &3/recipe&7 xem công thức chế tạo 1 item.'
+    - 'lore7:&c ❣ &3/nick&7 đổi tên có màu &a@ &b@ &5@ &6@.'
+    - 'lore8:&c ❣ &3/me&7 chat đặc biệt (trong chatbox).'
+    - 'lore9:&c ❣ &3+11.0%&7 giá trị &3⛁&7 bán hàng cuốc triệu &3$'
+    - 'lore10:&c ❣ &3/balo5, /balo6&7 sở hữu thêm 2 túi balo ảo'
+    - 'lore11:&c ❣ &3Tăng giới hạn sỡ hữu thợ mỏ minion: &74'
+    - 'lore13:&3&nThời hạn vip:'
+    - 'lore14:&3 Vĩnh viễn &7/&3 vô hạn &7/&3 vĩnh cữu &7/&3 infinity &7/&3 never endless'
+    - 'lore16:&3&nGói quà tặng:'
+    - 'lore17:&c ❣ &3Danh hiệu: &8☾&3&lᴍᴠᴘ&8☽&7%player%&3⚒'
+    - 'lore18:&c ❣ &3+330,000⛁&7 tự chuyển vào túi.'
+    - 'lore19:&c ❣ &3+40.000 điểm tinh hoa&7 vào main'
+    - 'lore21:&3Tiêu hao: &71200 &e&l⛁&7 (coins)'
+    - 'lore22:&7CLICK vào để mua.'
+    RewardType: COMMAND
+    Reward: 
+    - bc &2&l࿄࿄ &7%player% vừa trade -1200&e&l⛁ &7(coins) trở thành &3&lᴠɪᴘ &7- &8☾&3&lᴍᴠᴘ&8☽ &7mới. &aChúc mừng!
+    - bb broadcast 20 &3&l((࿄))&2 %player% vừa giao dịch -1200&e&l⛁&2 trở thành &3&lVip - ᴍᴠᴘ&2 mới
+    - eco give %player% 330000
+    - class exp %player% 40000
+    - mc give %player% 40000
+    - pex user %player% group set mvp
+    - bs close %player%
+    PriceType: POINTS
+    Price: 1200
+    ExtraPermission: 'vip.ownrank.vip+'
+    InventoryLocation: 14
+  4:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDgwNGNlODE3NGY1OGUxYjMzMjE5MzhiM2M2Y2MxNzU3YWJhYmQwZWE1ZmNlZDA4Y2FiNGFmY2Y0NWY2YjUzIn19fQ===
+    - name:&3&lᴍᴠᴘ&b+
+    - 'lore1:&f&l:: &3&lᴍᴠᴘ&b+&7 kế thừa toàn bộ quyền hành từ &bᴍᴠᴘ&7, nhận được các quyền lệnh riêng, gói quà tặng riêng và tự động chuyển vào túi sau khi mua. &bYêu cầu:&7 cần mua rank ᴍᴠᴘ'
+    - 'lore3:&b&nQuyền lợi:'
+    - 'lore4:&c ❣ &b/kit mvp+&7 nhận gói kit 1 lần.'
+    - 'lore5:&c ❣ &bChat kí tự đặc biệt boxchat &m@&n@&k@&l@&o@.'
+    - 'lore6:&c ❣ &b/realname&7 xem tên thật kẻ /nick.'
+    - 'lore7:&c ❣ &b/nick&7 đổi tên có kí tự đặc biệt &m@&n@&k@&l@&o@.'
+    - 'lore8:&c ❣ &7Miễn nhiễm &b/ignore&7 từ người khác.'
+    - 'lore9:&c ❣ &b+15.0%&7 giá trị &b⛁&7 bán hàng cuốc triệu &b$'
+    - 'lore10:&c ❣ &b/balo7, /balo8&7 sở hữu thêm 2 túi balo ảo'
+    - 'lore11:&c ❣ &bTăng giới hạn sỡ hữu thợ mỏ minion: &75'
+    - 'lore13:&b&nThời hạn vip:'
+    - 'lore14:&b Vĩnh viễn &7/&b vô hạn &7/&b vĩnh cữu &7/&b infinity &7/&b never endless'
+    - 'lore16:&b&nGói quà tặng:'
+    - 'lore17:&c ❣ &bDanh hiệu: &8☾&b&lᴍᴠᴘ+&8☽&7%player%&b⚒'
+    - 'lore18:&c ❣ &b+500,000⛁&7 tự chuyển vào túi.'
+    - 'lore19:&c ❣ &b+45.000 điểm tinh hoa&7 vào main'
+    - 'lore21:&bTiêu hao: &72300 &e&l⛁&7 (coins)'
+    - 'lore22:&7CLICK vào để mua.'
+    RewardType: COMMAND
+    Reward: 
+    - bc &2&l࿄࿄ &7%player% vừa trade -2300&e&l⛁ &7(coins) trở thành &3&lᴠɪᴘ &7- &8☾&3&lᴍᴠᴘ+&8☽ &7mới. &aChúc mừng!
+    - bb broadcast 20 &e&l((࿄))&2 %player% vừa giao dịch -2300&e&l⛁&2 trở thành &b&lVip - ᴍᴠᴘ+&2 mới
+    - eco give %player% 500000
+    - class exp %player% 45000
+    - mc give %player% 45000
+    - pex user %player% group set quytoc
+    - bs close %player%
+    PriceType: POINTS
+    Price: 2300
+    ExtraPermission: 'vip.ownrank.mvp'
+    InventoryLocation: 15
+  5:
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ0NzcyZGM0ZGVmMjIyMTllZTZkODg5Y2NkYzJmOTIzMmVlMjNkMzU2ZGQ5ZTRhZGNlYTVmNzJjYzBjNjg5In19fQ===
+    - name:&5ᴛ&dʜ&4ᴇ&2-&4ᴋ&cɪ&3ɴ&bɢ
+    - 'lore1:&f&l:: &5ᴛ&dʜ&4ᴇ&2-&4ᴋ&cɪ&3ɴ&bɢ&7 kế thừa toàn bộ quyền hành từ &3&lᴍᴠᴘ&b+&7, nhận được các quyền lệnh riêng, gói quà tặng riêng và tự động chuyển vào túi sau khi mua. &cYêu cầu:&7 cần mua rank mvp+'
+    - 'lore3:&c&nQuyền lợi:'
+    - 'lore4:&c ❣ /kit king&7 nhận gói kit 1 lần.'
+    - 'lore5:&c ❣ /fly&7 bay như gamemode 1.'
+    - 'lore6:&c ❣ /invsee&7 xem trộm túi &c&lE&7 người khác.'
+    - 'lore7:&c ❣ Tạo bảng SIGN có màu &a@ &d@ &f@ &3@.'
+    - 'lore8:&c ❣ /sethome&7 vô hạn vị trí tùy thích.'
+    - 'lore9:&c ❣ +18.0%&7 giá trị &c⛁&7 bán hàng cuốc triệu &c$'
+    - 'lore10:&c ❣ /balo9, /balo10&7 sở hữu thêm 2 túi balo ảo'
+    - 'lore11:&c ❣ Tăng giới hạn sỡ hữu thợ mỏ minion: &74'
+    - 'lore13:&c&nThời hạn vip:'
+    - 'lore14:&c Vĩnh viễn &7/&c vô hạn &7/&c vĩnh cữu &7/&c infinity &7/&c never endless'
+    - 'lore16:&c&nGói quà tặng:'
+    - 'lore17:&c ❣ Danh hiệu: &8☾&c&lᴋɪɴɢ&8☽&7%player%&c⚒'
+    - 'lore18:&c ❣ +999,999⛁&7 tự chuyển vào túi.'
+    - 'lore19:&c ❣ +50.000 điểm tinh hoa&7 vào main'
+    - 'lore21:&cTiêu hao: &75000 &e&l⛁&7 (coins)'
+    - 'lore22:&7CLICK vào để mua.'
+    RewardType: COMMAND
+    Reward: 
+    - bc &2&l࿄࿄ &7%player% vừa trade -5000&e&l⛁ &7(coins) trở thành &3&lᴠɪᴘ &7- &8☾&3&lᴛʜᴇ-ᴋɪɴɢ&8☽ &7mới. &aChúc mừng!
+    - bb broadcast 20 &e&l((࿄))&2 %player% vừa giao dịch -5000&e&l⛁&2 trở thành &c&lVip - ᴛʜᴇ-ᴋɪɴɢ&2 mới
+    - eco give %player% 500000
+    - class exp %player% 50000
+    - mc give %player% 50000
+    - pex user %player% group set king
+    - bs close %player%
+    PriceType: POINTS
+    Price: 5000
+    ExtraPermission: 'vip.ownrank.mvp+'
+    InventoryLocation: 16
+  back:
+    MenuItem:
+    - type:351:8
+    - name:&a
+    - 'lore1:&cQuay lại'
+    - 'lore2::&a'
+    RewardType: SHOP
+    Reward: menu
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 23
+  aa:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    ###- enchantment:durability#3
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 1
+  ab:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    ###- enchantment:durability#3
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 2
+  ac:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    ###- enchantment:durability#3
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 3
+  ad:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    ###- enchantment:durability#3
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 4
+  ae:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    ###- enchantment:durability#3
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 5
+  af:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    ###- enchantment:durability#3
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 6
+  ag:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    ###- enchantment:durability#3
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 7
+  ah:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    ###- enchantment:durability#3
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 8
+  ai:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    ###- enchantment:durability#3
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 9
+  aj:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    ###- enchantment:durability#3
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 10
+  asj:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    ###- enchantment:durability#3
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 11
+  adj:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    ###- enchantment:durability#3
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 17
+  am:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    ###- enchantment:durability#3
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 18
+  an:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    ###- enchantment:durability#3
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 19
+  ao:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    ###- enchantment:durability#3
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 20
+  ap:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    ###- enchantment:durability#3
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 21
+  aq:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    ###- enchantment:durability#3
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 22
+  ar:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    ###- enchantment:durability#3
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 24
+  as:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    ###- enchantment:durability#3
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 25
+  at:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    ###- enchantment:durability#3
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 26
+  au:
+    MenuItem:
+    - type:160:15
+    - name:&a
+    ###- enchantment:durability#3
+    RewardType: NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 27

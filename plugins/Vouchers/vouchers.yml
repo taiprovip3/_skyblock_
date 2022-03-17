@@ -1,0 +1,732 @@
+Vouchers:
+  hopquatanbinh:
+    Item: 'SKULL_ITEM:3 1 name:&e&l*_&aHộp_Quà_Tân_Binh_&e&l* lore:&7From_&2⇥&7_ElonMusk/n&7To_&2⇥&7_you/n/n&2Độ_hiếm_&a☆☆/n&eLOẠI_VẬT_PHẨM_&aclickable'
+    Sound: 'entity_item_pickup'
+    Message: '&7'
+    Commands:
+      a:
+        Command: 'pex user %username% add gadgetsmenu.pets.babywolf'
+      b:
+        Command: 'pex user %username% add gadgetsmenu.cloaks.frosty'
+      c:
+        Command: 'gadgetsmenu equip cloak Frosty %username%'
+      d:
+        Command: 'gadgetsmenu equip pet Baby_Wolf %username%'
+      e:
+        Command: 'class exp %username% 5680'
+      f:
+        Command: 'whisper %username% &aBạn vừa mở khoá &c&l(1)&c Thần thú Lang Vưng&a và &9&l(2)&9 Cánh Tuyết&a bậc I giúp tăng sức mạnh vượt trội. Xin chứ mừng!'
+  cot_truyen:
+    Item: 'BOOK 1 name:&aCốt_truyện_ngắn_(20s) lore:&f•_Cầm_trên_tay_và_nhập_chuột-phải/n&f•_Điều_&5Magic&f_sẽ_xảy_ra!'
+    Sound: 'entity_item_pickup'
+    Message: '&7'
+    Commands:
+      a:
+        Command: 'mycmd-runas player %username% /cot_truyen'
+  bvd:
+    Item: 'PAINTING 1 name:&bBản_vẽ_&lDIAMOND lore:/n&7_Dùng_để_tự_động_xây_nhà,_bạn_chỉ/n&7_cần_tìm_chỗ_trống_và_sử_dụng_nó/n/n&b&l_VẬT_LIỆU/n&7_-_Diamond_block_&8(&71329&8)/n&b&l_KÍCH_THƯỚC/n&7_-_Lập_phương_11_&8(&7dài-rộng-cao_11&8)/n/n&b&l_SỬ_DỤNG/n&7_Tìm_1_khu_đất_trống_dài_rộng_cao_11m/n&7_ko_có_vật_cản_xung_quanh._Cầm_b.v/n&7_click_phải_để_xây_dựng_công_trình./n/n&eLOẠI_VẬT_PHẨM_&aclickable'
+    Sound: 'entity_item_pickup'
+    Message: 'Đừng bấm ESC hoặc thoát giao diện nếu chưa thao tác xong!'
+    Commands:
+      a:
+        Command: 'bs open bvdiamond %username%'
+  bve:
+    Item: 'PAINTING 1 name:&2Bản_vẽ_&lEMERALD lore:/n&7_Dùng_để_tự_động_xây_nhà,_bạn_chỉ/n&7_cần_tìm_chỗ_trống_và_sử_dụng_nó/n/n&2&l_VẬT_LIỆU/n&7_-_Emerald_block_&8(&71329&8)/n&2&l_KÍCH_THƯỚC/n&7_-_Lập_phương_11_&8(&7dài-rộng-cao_11&8)/n/n&2&l_SỬ_DỤNG/n&7_Tìm_1_khu_đất_trống_dài_rộng_cao_11m/n&7_ko_có_vật_cản_xung_quanh._Cầm_b.v/n&7_click_phải_để_xây_dựng_công_trình./n/n&eLOẠI_VẬT_PHẨM_&aclickable'
+    Sound: 'entity_item_pickup'
+    Message: 'Đừng bấm ESC hoặc thoát giao diện nếu chưa thao tác xong!'
+    Commands:
+      a:
+        Command: 'bs open bvemerald %username%'
+  bvg:
+    Item: 'PAINTING 1 name:&eBản_vẽ_&lGOLD lore:/n&7_Dùng_để_tự_động_xây_nhà,_bạn_chỉ/n&7_cần_tìm_chỗ_trống_và_sử_dụng_nó/n/n&e&l_VẬT_LIỆU/n&7_-_Gold_block_&8(&71329&8)/n&e&l_KÍCH_THƯỚC/n&7_-_Lập_phương_11_&8(&7dài-rộng-cao_11&8)/n/n&e&l_SỬ_DỤNG/n&7_Tìm_1_khu_đất_trống_dài_rộng_cao_11m/n&7_ko_có_vật_cản_xung_quanh._Cầm_b.v/n&7_click_phải_để_xây_dựng_công_trình./n/n&eLOẠI_VẬT_PHẨM_&aclickable'
+    Sound: 'entity_item_pickup'
+    Message: 'Đừng bấm ESC hoặc thoát giao diện nếu chưa thao tác xong!'
+    Commands:
+      a:
+        Command: 'bs open bvgold %username%'
+  bvi:
+    Item: 'PAINTING 1 name:&fBản_vẽ_&lIRON lore:/n&7_Dùng_để_tự_động_xây_nhà,_bạn_chỉ/n&7_cần_tìm_chỗ_trống_và_sử_dụng_nó/n/n&f&l_VẬT_LIỆU/n&7_-_Iron_block_&8(&71329&8)/n&f&l_KÍCH_THƯỚC/n&7_-_Lập_phương_11_&8(&7dài-rộng-cao_11&8)/n/n&f&l_SỬ_DỤNG/n&7_Tìm_1_khu_đất_trống_dài_rộng_cao_11m/n&7_ko_có_vật_cản_xung_quanh._Cầm_b.v/n&7_click_phải_để_xây_dựng_công_trình./n/n&eLOẠI_VẬT_PHẨM_&aclickable'
+    Sound: 'entity_item_pickup'
+    Message: 'Đừng bấm ESC hoặc thoát giao diện nếu chưa thao tác xong!'
+    Commands:
+      a:
+        Command: 'bs open bviron %username%'
+  bvo:
+    Item: 'PAINTING 1 name:&dBản_vẽ_&lOBSIDIAN lore:/n&7_Dùng_để_tự_động_xây_nhà,_bạn_chỉ/n&7_cần_tìm_chỗ_trống_và_sử_dụng_nó/n/n&d&l_VẬT_LIỆU/n&7_-_Obsidian_block_&8(&71329&8)/n&d&l_KÍCH_THƯỚC/n&7_-_Lập_phương_11_&8(&7dài-rộng-cao_11&8)/n/n&d&l_SỬ_DỤNG/n&7_Tìm_1_khu_đất_trống_dài_rộng_cao_11m/n&7_ko_có_vật_cản_xung_quanh._Cầm_b.v/n&7_click_phải_để_xây_dựng_công_trình./n/n&eLOẠI_VẬT_PHẨM_&aclickable'
+    Sound: 'entity_item_pickup'
+    Message: 'Đừng bấm ESC hoặc thoát giao diện nếu chưa thao tác xong!'
+    Commands:
+      a:
+        Command: 'bs open bvobsidian %username%'
+  kit_tadien:
+    Item: 'INK_SACK:8 1 name:&e⚖_&2Hộp_quà_&f&ltá_điền lore:/n&7_Đây_là_hộp_quà_vip_chỉ_mở_và_claim/n&7_được_1_lần_duy_nhất_trong_đời./n/n&eLOẠi_VẬt_PhẨm&a_Clickable.'
+    Sound: 'entity_item_pickup'
+    Commands:
+      a1:
+        Command: 'voucher give %username% expclass100 30'
+      a2:
+        Command: 'mm i give %username% rpg_daren 64'
+      a3:
+        Command: 'mm i give %username% rpg_dacuonghoa 64'
+      a4:
+        Command: 'voucher give %username% mn 64'
+      a5:
+        Command: 'voucher give %username% flytag 2'
+      a6:
+        Command: 'mm i give %username% it_eggtm 2'
+      a7:
+        Command: 'voucher give %username% bdiamond 1'
+      a8:
+        Command: 'voucher give %username% bemerald 1'
+      a9:
+        Command: 'voucher give %username% bgold 1'
+  kit_dienchu:
+    Item: 'INK_SACK:11 1 name:&e⚖_&2Hộp_quà_&e&lđiền_chủ lore:/n&7_Đây_là_hộp_quà_vip_chỉ_mở_và_claim/n&7_được_1_lần_duy_nhất_trong_đời./n/n&eLOẠi_VẬt_PhẨm&a_Clickable.'
+    Sound: 'entity_item_pickup'
+    Commands:
+      a1:
+        Command: 'voucher give %username% expclass100 40'
+      a2:
+        Command: 'mm i give %username% rpg_daren 64'
+      a3:
+        Command: 'mm i give %username% rpg_dacuonghoa 64'
+      a4:
+        Command: 'voucher give %username% mn 64'
+      a5:
+        Command: 'voucher give %username% flytag 4'
+      a6:
+        Command: 'mm i give %username% it_eggtm 4'
+      a7:
+        Command: 'voucher give %username% adiamond 1'
+      a8:
+        Command: 'voucher give %username% aemerald 1'
+      a9:
+        Command: 'voucher give %username% agold 1'
+  kit_diachu:
+    Item: 'INK_SACK:12 1 name:&e⚖_&2Hộp_quà_&3&lđịa_chủ lore:/n&7_Đây_là_hộp_quà_vip_chỉ_mở_và_claim/n&7_được_1_lần_duy_nhất_trong_đời./n/n&eLOẠi_VẬt_PhẨm&a_Clickable.'
+    Sound: 'entity_item_pickup'
+    Commands:
+      a1:
+        Command: 'voucher give %username% expclass100 50'
+      a2:
+        Command: 'mm i give %username% rpg_daren 64'
+      a3:
+        Command: 'mm i give %username% rpg_dacuonghoa 64'
+      a4:
+        Command: 'voucher give %username% mn 64'
+      a5:
+        Command: 'voucher give %username% flytag 6'
+      a6:
+        Command: 'mm i give %username% it_eggtm 6'
+      a7:
+        Command: 'voucher give %username% sdiamond 1'
+      a8:
+        Command: 'voucher give %username% semerald 1'
+      a9:
+        Command: 'voucher give %username% sgold 1'
+  kit_quytoc:
+    Item: 'INK_SACK:6 1 name:&e⚖_&2Hộp_quà_&b&lquý_tộc lore:/n&7_Đây_là_hộp_quà_vip_chỉ_mở_và_claim/n&7_được_1_lần_duy_nhất_trong_đời./n/n&eLOẠi_VẬt_PhẨm&a_Clickable.'
+    Sound: 'entity_item_pickup'
+    Commands:
+      a1:
+        Command: 'voucher give %username% expclass100 60'
+      a2:
+        Command: 'mm i give %username% rpg_daren 64'
+      a3:
+        Command: 'mm i give %username% rpg_dacuonghoa 64'
+      a4:
+        Command: 'voucher give %username% mn 64'
+      a5:
+        Command: 'voucher give %username% flytag 8'
+      a6:
+        Command: 'mm i give %username% it_eggtm 8'
+      a7:
+        Command: 'voucher give %username% ssdiamond 1'
+      a8:
+        Command: 'voucher give %username% ssemerald 1'
+      a9:
+        Command: 'voucher give %username% ssgold 1'
+  kit_tuban:
+    Item: 'INK_SACK:1 1 name:&e⚖_&2Hộp_quà_&c&ltư_bản lore:/n&7_Đây_là_hộp_quà_vip_chỉ_mở_và_claim/n&7_được_1_lần_duy_nhất_trong_đời./n/n&eLOẠi_VẬt_PhẨm&a_Clickable.'
+    Sound: 'entity_item_pickup'
+    Commands:
+      a1:
+        Command: 'voucher give %username% expclass100 64'
+      a2:
+        Command: 'mm i give %username% rpg_daren 64'
+      a3:
+        Command: 'mm i give %username% rpg_dacuonghoa 64'
+      a4:
+        Command: 'voucher give %username% mn 64'
+      a5:
+        Command: 'voucher give %username% flytag 10'
+      a6:
+        Command: 'mm i give %username% it_eggtm 10'
+      a7:
+        Command: 'voucher give %username% sssdiamond 1'
+      a8:
+        Command: 'voucher give %username% sssemerald 1'
+      a9:
+        Command: 'voucher give %username% sssgold 1'
+  qnt:
+    Item: 'SKULL_ITEM:3 1 name:&f&2Chúc_mừng_bạn_đã_&eNạp_lần_đầu lore:/n&2_&2_&2_☘_&eBên_trong_&2☘/n/n&9-&f_x1&6&l_Cúp_chiến_thần/n&9-&f_x1&e&l_Thợ_mỏ_minion/n&9-&f_x1_rương&2&l_Emerald/n&9-&f_x1_rương&b_Diamond/n&9-&f_x3_bản_vẽ&b_Diamond/n&9-&f_x1_stand&b&l_Crazy_Diamond/n&9-&f_x3_bản_vẽ&b_Diamond/n/n&eLOẠI_VẬT_PHẨM&a_clickable'
+    Sound: 'entity_item_pickup'
+    Commands:
+      a1:
+        Command: 'kit cupchienthan %username%'
+      a3:
+        Command: 'voucher give %username% chestdiamond 5'
+      a4:
+        Command: 'voucher give %username% chestemerald 5'
+      a5:
+        Command: 'voucher give %username% bvd 3'
+      a6:
+        Command: 'mm i give %username% stand_crazydiamond 1'
+  original:
+    Item: 'book 1 name:&fNguồn_Gốc_Sức_Mạnh_&a[Original] lore:&a*----------_&6Đọc_&a----------*/n/n&8●_&fBạn_là_kẻ_trắng_tay_khi_vừa_đặt_chân/n&fvào_nơi_này._Sử_dụng_quyển_sách_này_sẽ/n&fcho_bạn_1_nguồn_sức_mạnh_&_các_trang_bị/n&fmới._Rồi_dần_dần_bạn_sẽ_mạnh_lên_và_chinh/n&fphạt_những_kẻ_thua_cuộc!/n/n&2[VẬT_PHẨM_CHỦ_ĐỘNG]_&7->_Click_phải_dùng!'
+    Sound: 'entity_item_pickup'
+    Commands:
+      a1:
+        Command: 'kit starter %username%'
+      a2:
+        Command: 'class forceprofess %username% class'
+  eggtm:
+    Item: 'SKULL_ITEM:3 1 name:&6&lEggbreaker_&2࿉_&ethợ_mỏ_vay lore:/n&7_mở_ra_có_cơ_hội_nhận_được_&6&lCÚP/n&6&l_THỢ_MỎ_VAY&7_vĩnh_viễn_hoặc_nguyên/n&7_liệu_&ethẻ_điểm_danh./n/n&eLOẠI_VẬT_PHẨM_&aclickable'
+    Sound: 'entity_item_pickup'
+    Commands:
+      a:
+        Command: 'mycmd-runas player %username% /eggtm'
+  tamlinh:
+    Item: 'LINGERING_POTION 1 name:&2bình_TÂM_LINH lore:/n&7_+1_điểm_Tâm_Linh_vào_nhân_vật/n&7_Điểm_dùng_để_tăng_thuộc_tính_cho_main./n/n&aCầm_và_CLICK-PHẢI_để_tiêu_thụ'
+    Sound: 'entity_player_levelup'
+    Commands:
+      Give:
+        Command: 'class ap %username% 1'
+  px5:
+    Item: 'GOLD_INGOT 1 name:&e&lPIXEL_COINS_&e(&75&e) lore:/n&7_+5_điểm_tiền_tệ_Pixel_Coins_vào/n&7_tài_khoản_để_bạn_sinh_hoạt./n/n&aCầm_và_CLICK-PHẢI_để_tiêu_thụ'
+    Sound: 'entity_player_levelup'
+    Commands:
+      Give:
+        Command: 'p give %username% 5'
+  btc5:
+    Item: 'DOUBLE_PLANT 1 name:&eBitcoin_&l฿_&e(&75&e) lore:/n&7_+5_điểm_tiền_tệ_Bitcoin_฿_vào/n&7_tài_khoản_để_bạn_sinh_hoạt./n/n&aCầm_và_CLICK-PHẢI_để_tiêu_thụ'
+    Sound: 'entity_player_levelup'
+    Commands:
+      Give:
+        Command: 'dust add %username% 5'
+  money1k:
+    Item: 'PAPER 1 name:&2Tiền_&d1000_&e⛀ lore:/n&7_+1000_điểm_tiền_(&e⛀&7)_vào/n&7_tài_khoản_để_bạn_sinh_hoạt./n/n&aCầm_và_CLICK-PHẢI_để_tiêu_thụ'
+    Sound: 'entity_player_levelup'
+    Commands:
+      Give:
+        Command: 'eco give %username% 1000'
+  exp100:
+    Item: 'EXP_BOTTLE 1 name:&7Exp_Vanilla_(&3100&7) lore:/n&7_+100_điểm_exp_vanilla_vào_nhân_vật/n&7_main._/sb_để_xem_chi_tiết./n/n&e_LOẠI_VẬT_PHẨM_&aclickable'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'xp give %username% 100'
+  expclass100:
+    Item: 'EXP_BOTTLE 1 name:&2Tinh_hoa_(&f100&2) lore:/n&7_+100_điểm_expclass_vào_nhân_vật/n&7_main._/sb_để_xem_chi_tiết./n/n&e_LOẠI_VẬT_PHẨM_&aclickable'
+    Sound: 'entity_player_levelup'
+    Commands:
+      Give:
+        Command: 'class exp %username% 100'
+      Give2:
+        Command: 'mc give %username% 100'
+  noinang1:
+    Item: 'splash_potion 1 name:&6&lBình_&enội_năng_(&21&e) lore:/n&7_+1_điểm_nội_năng_vào_nhân_vật/n&7_Nội_năng_giúp_kích_hoạt_kỹ_năng./n/n&e_LOẠI_VẬT_PHẨM_&aclickable'
+    Sound: 'entity_player_levelup'
+    Commands:
+      Give:
+        Command: 'class points %username% 1'
+  buff1:
+    Item: 'RABBIT_FOOT 1 name:&2thuốc_BUFF_&8&llv1 lore:/n&7_Cho_phép_bạn_chọn_1_các_loại/n&7_buff_hiệu_quả_I_tùy_thích./n/n_&e&l*_&8&lLV1&7_hiệu_quả_10_phút./n&e_LOẠI_VẬT_PHẨM_&aclickable'
+    Message: 'Chọn buff..'
+    Sound: 'entity_sheep_shear'
+    Commands:
+      Give:
+        Command: 'bs open buff1 %username%'
+  buff2:
+    Item: 'SPECKLED_MELON 1 name:&2thuốc_BUFF_&8&llv2 lore:/n&7_Cho_phép_bạn_chọn_1_các_loại/n&7_buff_hiệu_quả_II_tùy_thích./n/n_&e&l*_&8&lLV2&7_hiệu_quả_20_phút./n&e_LOẠI_VẬT_PHẨM_&aclickable'
+    Message: 'Chọn buff..'
+    Sound: 'entity_sheep_shear'
+    Commands:
+      Give:
+        Command: 'bs open buff2 %username%'
+  buff3:
+    Item: 'GOLDEN_CARROT 1 name:&2thuốc_BUFF_&8&llv3 lore:/n&7_Cho_phép_bạn_chọn_1_các_loại/n&7_buff_hiệu_quả_III_tùy_thích./n/n_&e&l*_&8&lLV3&7_hiệu_quả_30_phút./n&e_LOẠI_VẬT_PHẨM_&aclickable'
+    Message: 'Chọn buff..'
+    Sound: 'entity_sheep_shear'
+    Commands:
+      Give:
+        Command: 'bs open buff3 %username%'
+  buff4:
+    Item: 'CAULDRON_ITEM 1 name:&2thuốc_BUFF_&8&lmaximum lore:/n&7_Cho_phép_bạn_chọn_1_các_loại/n&7_buff_hiệu_quả_IV_tùy_thích./n/n_&e&l*_&8&lLV4&7_hiệu_quả_40_phút./n&e_LOẠI_VẬT_PHẨM_&aclickable'
+    Message: 'Chọn buff..'
+    Sound: 'entity_sheep_shear'
+    Commands:
+      Give:
+        Command: 'bs open buff4 %username%'
+  mn:
+    Item: 'ink_sack:12 1 name:&b&lLọ_ᴍᴀɴᴀ_cấp_tốc lore:/n&7_Nhấp_&f&nRight-click&7_để_sử_dụng/n&7&l_+200&7ᴍɴ_tức_thì/n/n&eLOẠI_VẬT_PHẨM&a_clickable'
+    Sound: 'entity_sheep_shear'
+    Commands:
+      Give:
+        Command: 'class mana %username% 200'
+  hp:
+    Item: 'skull_item:3 1 name:&c&lʙình_máu lore:/n&7Bình_máu_thì_để_hồi_máu_chứ_làm_cái_gì./n&7Hồi_máu_dạng_tức_thì_(4&c♥&7)/1_bình/n/n&a&l{VẬT_PHẨM_CHỦ_ĐỘNG}'
+    Sound: 'entity_sheep_shear'
+    Commands:
+      Give:
+        Command: 'effect %username% 6 2'
+  hp2:
+    Item: 'skull_item:3 1 name:&c&lʙình_máu_&6&l+2 lore:/n&7Bình_máu_thì_để_hồi_máu_chứ_làm_cái_gì./n&7Hồi_máu_dạng_tức_thì_(8&c♥&7)/1_bình/n/n&a&l{VẬT_PHẨM_CHỦ_ĐỘNG}'
+    Sound: 'entity_sheep_shear'
+    Commands:
+      Give:
+        Command: 'effect %username% 6 4'
+  hp3:
+    Item: 'skull_item:3 1 name:&c&lʙình_máu_&6&l+3 lore:/n&7Bình_máu_thì_để_hồi_máu_chứ_làm_cái_gì./n&7Hồi_máu_dạng_tức_thì_(10&c♥&7)/1_bình/n/n&a&l{VẬT_PHẨM_CHỦ_ĐỘNG}'
+    Sound: 'entity_sheep_shear'
+    Commands:
+      Give:
+        Command: 'effect %username% 6 5'
+  hp4:
+    Item: 'skull_item:3 1 name:&c&lʙình_máu_&6&lmax lore:/n&7Bình_máu_thì_để_hồi_máu_chứ_làm_cái_gì./n&7Hồi_máu_dạng_tức_thì_(14&c♥&7)/1_bình/n/n&a&l{VẬT_PHẨM_CHỦ_ĐỘNG}'
+    Sound: 'entity_sheep_shear'
+    Commands:
+      Give:
+        Command: 'effect %username% 6 7'
+  flytag:
+    Item: 'NAME_TAG 1 name:&aThẻ_ℱly_&2☘_&8giới_hạn lore:/n&2&l_♡&7Cho_phép_bạn_&2/fly&7_vĩnh_viễn/n&2&l_♡&7Out_game_hết_hiệu_lực/n&2&l_Click_phải&2_để_dùng_item/n&a【&2Grassmc&a】_&2〖&aGrassmc&2〗'
+    Message: '&2Giờ bạn có thể /fly, outgame mất hiệu quả'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'pex user %username% timed add essentials.fly 86400'
+  newton:
+    Item: 'APPLE 1 name:&6ISSAC_Newton&7_vạn_vật_hấp_dẫn lore:/n&7_ăn_ló_đi_rồi_bạn_sẽ_thông_minh/n&7_lên_như_ông_ấy/n/n&7_Hồi_100%_thanh_thức_ăn/n/n&e_LOẠI_VẬT_PHẨM&a_clickable'
+    Sound: 'block_chest_locked'
+    Commands:
+      Give:
+        Command: 'feed %username%'
+  ksd:
+    Item: 'skull_item:3 1 name:&f&l&o❤_&6Kim_SÁNG_DƯỢC&7_pharmacity lore:/n&7_Hồi_lại_100%_máu_(&c♥&7),_100%_thức_ăn./n&7_Xóa_bỏ_tất_cả_buff,_độc_tố/n/n&e_LOẠI_VẬT_PHẨM_&aclickable'
+    Sound: 'block_chest_locked'
+    Commands:
+      Give:
+        Command: 'heal %username%'
+  cfood:
+    Item: 'chest 1 name:&6túi_&e&lFOOD&6_☕ lore:/n&7_Cho_phép_bạn_chọn_1_trong_tất_cả/n&7_món_ăn_yêu_thích_(&aFREE&7)./n/n&e_LOẠI_VẬT_PHẨM&a_clickable'
+    Sound: 'block_glass_break'
+    Commands:
+      Give:
+        Command: 'bs open cfood %username%'
+  fm:
+    Item: 'map 1 name:&6Bản_vẽ_&dMÁY_FARM_&6(4_block) lore:/n&7_Giúp_bạn_tự_build_1_cái_máy_farm/n&7_đơn_giản_trước_mặt/n/n&7_Nếu_quá_lười_biếng_xây_hãy_dùng_nó./n&7_Kích_thước,_hình_dáng_dựa_trên_admin_of_idea./n/n&e_LOẠI_VẬT_PHẨM&a_clickable'
+    Message: 'vừa sử dụng bản thiết kế Marmer Machine'
+    Sound: 'block_glass_break'
+    Commands:
+      Give:
+        Command: 'bs open farmermachine %username%'
+  Ddiamond:
+    Item: 'CHEST 1 name:&2Túi_Kim_Cương_Cấp_&e&lD lore:/n_&a&l*&f_Chứa_bên_trong_500_khối_kim_cương/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add diamond_block 500 %username%'
+  Cdiamond:
+    Item: 'CHEST 1 name:&2Túi_Kim_Cương_Cấp_&e&lC lore:/n_&a&l*&f_Chứa_bên_trong_1000_khối_kim_cương/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add diamond_block 1000 %username%'
+  Bdiamond:
+    Item: 'CHEST 1 name:&2Túi_Kim_Cương_Cấp_&e&lB lore:/n_&a&l*&f_Chứa_bên_trong_1500_khối_kim_cương/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add diamond_block 1500 %username%'
+  Adiamond:
+    Item: 'CHEST 1 name:&2Túi_Kim_Cương_Cấp_&e&lA lore:/n_&a&l*&f_Chứa_bên_trong_2000_khối_kim_cương/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add diamond_block 2000 %username%'
+  Sdiamond:
+    Item: 'CHEST 1 name:&2Túi_Kim_Cương_Cấp_&e&lS lore:/n_&a&l*&f_Chứa_bên_trong_2500_khối_kim_cương/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add diamond_block 2500 %username%'
+  SSdiamond:
+    Item: 'CHEST 1 name:&2Túi_Kim_Cương_Cấp_&e&lSS lore:/n_&a&l*&f_Chứa_bên_trong_3000_khối_kim_cương/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add diamond_block 3000 %username%'
+  SSSdiamond:
+    Item: 'CHEST 1 name:&2Túi_Kim_Cương_Cấp_&e&lSSS lore:/n_&a&l*&f_Chứa_bên_trong_3500_khối_kim_cương/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add diamond_block 3500 %username%'
+####
+  Demerald:
+    Item: 'TRAPPED_CHEST 1 name:&2Túi_Lục_Bảo_Cấp_&e&lD lore:/n_&a&l*&f_Chứa_bên_trong_500_khối_lục_bảo/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add emerald_block 500 %username%'
+  Cemerald:
+    Item: 'TRAPPED_CHEST 1 name:&2Túi_Lục_Bảo_Cấp_&e&lC lore:/n_&a&l*&f_Chứa_bên_trong_1000_khối_lục_bảo/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add emerald_block 1000 %username%'
+  Bemerald:
+    Item: 'TRAPPED_CHEST 1 name:&2Túi_Lục_Bảo_Cấp_&e&lB lore:/n_&a&l*&f_Chứa_bên_trong_1500_khối_lục_bảo/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add emerald_block 1500 %username%'
+  Aemerald:
+    Item: 'TRAPPED_CHEST 1 name:&2Túi_Lục_Bảo_Cấp_&e&lA lore:/n_&a&l*&f_Chứa_bên_trong_2000_khối_lục_bảo/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add emerald_block 2000 %username%'
+  Semerald:
+    Item: 'TRAPPED_CHEST 1 name:&2Túi_Lục_Bảo_Cấp_&e&lS lore:/n_&a&l*&f_Chứa_bên_trong_2500_khối_lục_bảo/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add emerald_block 2500 %username%'
+  SSemerald:
+    Item: 'TRAPPED_CHEST 1 name:&2Túi_Lục_Bảo_Cấp_&e&lSS lore:/n_&a&l*&f_Chứa_bên_trong_3000_khối_lục_bảo/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add emerald_block 3000 %username%'
+  SSSemerald:
+    Item: 'TRAPPED_CHEST 1 name:&2Túi_Lục_Bảo_Cấp_&e&lSSS lore:/n_&a&l*&f_Chứa_bên_trong_3500_khối_lục_bảo/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add emerald_block 3500 %username%'
+####
+  Dgold:
+    Item: 'CHEST 1 name:&2Túi_Vàng_Rồng_Cấp_&e&lD lore:/n_&a&l*&f_Chứa_bên_trong_500_khối_vàng/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add gold_block 500 %username%'
+  Cgold:
+    Item: 'CHEST 1 name:&2Túi_Vàng_Rồng_Cấp_&e&lC lore:/n_&a&l*&f_Chứa_bên_trong_1000_khối_vàng/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add gold_block 1000 %username%'
+  Bgold:
+    Item: 'CHEST 1 name:&2Túi_Vàng_Rồng_Cấp_&e&lB lore:/n_&a&l*&f_Chứa_bên_trong_1500_khối_vàng/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add gold_block 1500 %username%'
+  Agold:
+    Item: 'CHEST 1 name:&2Túi_Vàng_Rồng_Cấp_&e&lA lore:/n_&a&l*&f_Chứa_bên_trong_2000_khối_vàng/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add gold_block 2000 %username%'
+  Sgold:
+    Item: 'CHEST 1 name:&2Túi_Vàng_Rồng_Cấp_&e&lS lore:/n_&a&l*&f_Chứa_bên_trong_2500_khối_vàng/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add gold_block 2500 %username%'
+  SSgold:
+    Item: 'CHEST 1 name:&2Túi_Vàng_Rồng_Cấp_&e&lSS lore:/n_&a&l*&f_Chứa_bên_trong_3000_khối_vàng/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add gold_block 3000 %username%'
+  SSSgold:
+    Item: 'CHEST 1 name:&2Túi_Vàng_Rồng_Cấp_&e&lSSS lore:/n_&a&l*&f_Chứa_bên_trong_3500_khối_vàng/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add gold_block 3500 %username%'
+####
+  Diron:
+    Item: 'TRAPPED_CHEST 1 name:&2Túi_Sắt_Cấp_&e&lD lore:/n_&a&l*&f_Chứa_bên_trong_500_khối_sắt/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add iron_block 500 %username%'
+  Ciron:
+    Item: 'TRAPPED_CHEST 1 name:&2Túi_Sắt_Cấp_&e&lC lore:/n_&a&l*&f_Chứa_bên_trong_1000_khối_sắt/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add iron_block 1000 %username%'
+  Biron:
+    Item: 'TRAPPED_CHEST 1 name:&2Túi_Sắt_Cấp_&e&lB lore:/n_&a&l*&f_Chứa_bên_trong_1500_khối_sắt/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add iron_block 1500 %username%'
+  Airon:
+    Item: 'TRAPPED_CHEST 1 name:&2Túi_Sắt_Cấp_&e&lA lore:/n_&a&l*&f_Chứa_bên_trong_2000_khối_sắt/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add iron_block 2000 %username%'
+  Siron:
+    Item: 'TRAPPED_CHEST 1 name:&2Túi_Sắt_Cấp_&e&lS lore:/n_&a&l*&f_Chứa_bên_trong_2500_khối_sắt/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add iron_block 2500 %username%'
+  SSiron:
+    Item: 'TRAPPED_CHEST 1 name:&2Túi_Sắt_Cấp_&e&lSS lore:/n_&a&l*&f_Chứa_bên_trong_3000_khối_sắt/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add iron_block 3000 %username%'
+  SSSiron:
+    Item: 'TRAPPED_CHEST 1 name:&2Túi_Sắt_Cấp_&e&lSSS lore:/n_&a&l*&f_Chứa_bên_trong_3500_khối_sắt/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add iron_block 3500 %username%'
+####
+  Dobsidian:
+    Item: 'CHEST 1 name:&2Túi_Hắc_Diện_Thạch_Cấp_&e&lD lore:/n_&a&l*&f_Chứa_bên_trong_500_hắc_diện_thạch/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add obsidian 500 %username%'
+  Cobsidian:
+    Item: 'CHEST 1 name:&2Túi_Hắc_Diện_Thạch_Cấp_&e&lC lore:/n_&a&l*&f_Chứa_bên_trong_1000_hắc_diện_thạch/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add obsidian 1000 %username%'
+  Bobsidian:
+    Item: 'CHEST 1 name:&2Túi_Hắc_Diện_Thạch_Cấp_&e&lB lore:/n_&a&l*&f_Chứa_bên_trong_1500_hắc_diện_thạch/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add obsidian 1500 %username%'
+  Aobsidian:
+    Item: 'CHEST 1 name:&2Túi_Hắc_Diện_Thạch_Cấp_&e&lA lore:/n_&a&l*&f_Chứa_bên_trong_2000_hắc_diện_thạch/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add obsidian 2000 %username%'
+  Sobsidian:
+    Item: 'CHEST 1 name:&2Túi_Hắc_Diện_Thạch_Cấp_&e&lS lore:/n_&a&l*&f_Chứa_bên_trong_2500_hắc_diện_thạch/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add obsidian 2500 %username%'
+  SSobsidian:
+    Item: 'CHEST 1 name:&2Túi_Hắc_Diện_Thạch_Cấp_&e&lSS lore:/n_&a&l*&f_Chứa_bên_trong_3000_hắc_diện_thạch/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add obsidian 3000 %username%'
+  SSSobsidian:
+    Item: 'CHEST 1 name:&2Túi_Hắc_Diện_Thạch_Cấp_&e&lSSS lore:/n_&a&l*&f_Chứa_bên_trong_3500_hắc_diện_thạch/n_&a&l*&f_Cầm_trên_tay_&_click_chuột_phải!/n/n&a[Vật_phẩm_chủ_động]'
+    Sound: 'entity_item_pickup'
+    Commands:
+      Give:
+        Command: 'kho add obsidian 3500 %username%'
+###
+  chestdiamond:
+    Item: 'light_blue_shulker_box 1 name:&b&lRương_kim_cương lore:/n_&e&l*&f_Chứa_bên_trong_27st_khối_kim_cương/n_&e&l*&f_Cầm_&_click_phải_để_dùng!/n/n&cWARNING_&e&l*/n&7Khi_túi_E_đầy._Vật_phẩm_sẽ_rớt_xuống_đất/n/n&a[VẬT_PHẨM_CHỦ_ĐỘNG]'
+    Message: '&aBạn vừa claimed được 27st khối kim cương'
+    Sound: 'entity_firework_launch'
+    Commands:
+      Give1:
+        Command: 'give %username% 57 1728'
+  chestemerald:
+    Item: 'lime_shulker_box 1 name:&2&lRương_lục_bảo lore:/n_&e&l*&f_Chứa_bên_trong_27st_khối_lục_bảo/n_&e&l*&f_Cầm_&_click_phải_để_dùng!/n/n&cWARNING_&e&l*/n&7Khi_túi_E_đầy._Vật_phẩm_sẽ_rớt_xuống_đất/n/n&a[VẬT_PHẨM_CHỦ_ĐỘNG]'
+    Message: '&aBạn vừa claimed được 27st khối lục bảo'
+    Sound: 'entity_firework_launch'
+    Commands:
+      1:
+        Command: 'give %username% 133 1728'
+  chestgold:
+    Item: 'yellow_shulker_box 1 name:&e&lRương_vàng_rồng lore:/n_&e&l*&f_Chứa_bên_trong_27st_khối_vàng_rồng/n_&e&l*&f_Cầm_&_click_phải_để_dùng!/n/n&cWARNING_&e&l*/n&7Khi_túi_E_đầy._Vật_phẩm_sẽ_rớt_xuống_đất/n/n&a[VẬT_PHẨM_CHỦ_ĐỘNG]'
+    Message: '&aBạn vừa claimed được 27st khối vàng'
+    Sound: 'entity_firework_launch'
+    Commands:
+      1:
+        Command: 'give %username% 41 1728'
+  chestiron:
+    Item: 'white_shulker_box 1 name:&f&lRương_sắt_xịn lore:/n_&e&l*&f_Chứa_bên_trong_27st_khối_sắt_xịn/n_&e&l*&f_Cầm_&_click_phải_để_dùng!/n/n&cWARNING_&e&l*/n&7Khi_túi_E_đầy._Vật_phẩm_sẽ_rớt_xuống_đất/n/n&a[VẬT_PHẨM_CHỦ_ĐỘNG]'
+    Message: '&aBạn vừa claimed được 27st khối sắt'
+    Sound: 'entity_firework_launch'
+    Commands:
+      1:
+        Command: 'give %username% 42 1728'
+  chestobsidian:
+    Item: 'gray_shulker_box 1 name:&d&lRương_hắc_diện_thạch lore:/n_&e&l*&f_Chứa_bên_trong_27st_khối_hắc_diện_thạch/n_&e&l*&f_Cầm_&_click_phải_để_dùng!/n/n&cWARNING_&e&l*/n&7Khi_túi_E_đầy._Vật_phẩm_sẽ_rớt_xuống_đất/n/n&a[VẬT_PHẨM_CHỦ_ĐỘNG]'
+    Message: '&aBạn vừa claimed được 27st khối hắc diện thạch'
+    Sound: 'entity_firework_launch'
+    Commands:
+      1:
+        Command: 'give %username% 49 1728'
+  chestlapis:
+    Item: 'blue_shulker_box 1 name:&9&lRương_lưu_li lore:/n_&e&l*&f_Chứa_bên_trong_27st_khối_lưu_li/n_&e&l*&f_Cầm_&_click_phải_để_dùng!/n/n&cWARNING_&e&l*/n&7Khi_túi_E_đầy._Vật_phẩm_sẽ_rớt_xuống_đất/n/n&a[VẬT_PHẨM_CHỦ_ĐỘNG]'
+    Message: '&aBạn vừa claimed được 27st khối lưu li'
+    Sound: 'entity_firework_launch'
+    Commands:
+      1:
+        Command: 'give %username% 22 1728'
+  chestcoal:
+    Item: 'black_shulker_box 1 name:&8&lRương_than_đen lore:/n_&e&l*&f_Chứa_bên_trong_27st_khối_than_đen/n_&e&l*&f_Cầm_&_click_phải_để_dùng!/n/n&cWARNING_&e&l*/n&7Khi_túi_E_đầy._Vật_phẩm_sẽ_rớt_xuống_đất/n/n&a[VẬT_PHẨM_CHỦ_ĐỘNG]'
+    Message: '&aBạn vừa claimed được 27st khối than'
+    Sound: 'entity_firework_launch'
+    Commands:
+      1:
+        Command: 'give %username% 173 1728'
+  chestredstone:
+    Item: 'red_shulker_box 1 name:&c&lRương_đá_đỏ lore:/n_&e&l*&f_Chứa_bên_trong_27st_khối_đá_đỏ/n_&e&l*&f_Cầm_&_click_phải_để_dùng!/n/n&cWARNING_&e&l*/n&7Khi_túi_E_đầy._Vật_phẩm_sẽ_rớt_xuống_đất/n/n&a[VẬT_PHẨM_CHỦ_ĐỘNG]'
+    Message: '&aBạn vừa claimed được 27st khối đá đỏ'
+    Sound: 'entity_firework_launch'
+    Commands:
+      1:
+        Command: 'give %username% 152 1728'
+  chestbone:
+    Item: 'silver_shulker_box 1 name:&7&lRương_xương_t-rex lore:/n_&e&l*&f_Chứa_bên_trong_27st_khối_xương_t-rex/n_&e&l*&f_Cầm_&_click_phải_để_dùng!/n/n&cWARNING_&e&l*/n&7Khi_túi_E_đầy._Vật_phẩm_sẽ_rớt_xuống_đất/n/n&a[VẬT_PHẨM_CHỦ_ĐỘNG]'
+    Message: '&aBạn vừa claimed được 27st khối xương'
+    Sound: 'entity_firework_launch'
+    Commands:
+      1:
+        Command: 'give %username% 216 1728'
+###
+  viptag:
+    Item: 'NAME_TAG 1 name:&6Thẻ_trải_nghiệm_&e&lVIP lore:/n&f●_&7Cho_phép_bạn_thừa_hưởng_quyền_lợi_VIP:/n&f&lANGEL&7_trong_thời_gian_cố_định/nCỐ_ĐỊNH:/n&7tính_từ_thời_điểm_sử_dụng_đến_thời_điểm/nthoát_game!'
+    Sound: 'entity_item_pickup'
+    Commands:
+      1:
+        Command: 'pex user %username% timed add essentials.kits.angel 86400'
+      2:
+        Command: 'pex user %username% timed add ssentials.hat 86400'
+      3:
+        Command: 'pex user %username% timed add essentials.repair 86400'
+      4:
+        Command: 'pex user %username% timed add essentials.enderchest 86400'
+      5:
+        Command: 'pex user %username% timed add essentials.signs.create.repair 86400'
+      6:
+        Command: 'pex user %username% timed add sellstick.multiplier.1.05 86400'
+  1k:
+    Item: 'redstone_torch_on 1 name:&eCây_đuốc_0.043&2$ lore:/n&2_●&7_Dùng_như_1_tấm_séc._Số_đô_trên_cây/n&7đuốc_triệu_đổi_ra_money_mệnh_giá_tương_ứng/n&2_●&7_Chiết_khấu_0%/n/n&a&l{VẬT_PHẨM_CHỦ_ĐỘNG}'
+    Message: '&aBạn vừa claim đc 0.043$'
+    Sound: 'block_glass_break'
+    Commands:
+      Give:
+        Command: 'eco give %username% 1000'
+  3k:
+    Item: 'redstone_torch_on 1 name:&eCây_đuốc_0.13&2$ lore:/n&2_●&7_Dùng_như_1_tấm_séc._Số_đô_trên_cây/n&7đuốc_triệu_đổi_ra_money_mệnh_giá_tương_ứng/n&2_●&7_Chiết_khấu_0%/n/n&a&l{VẬT_PHẨM_CHỦ_ĐỘNG}'
+    Message: '&aBạn vừa claim đc 0.13$'
+    Sound: 'block_glass_break'
+    Commands:
+      Give:
+        Command: 'eco give %username% 3000'
+  5k:
+    Item: 'redstone_torch_on 1 name:&eCây_đuốc_0.21&2$ lore:/n&2_●&7_Dùng_như_1_tấm_séc._Số_đô_trên_cây/n&7đuốc_triệu_đổi_ra_money_mệnh_giá_tương_ứng/n&2_●&7_Chiết_khấu_0%/n/n&a&l{VẬT_PHẨM_CHỦ_ĐỘNG}'
+    Message: '&aBạn vừa claim đc 0.21$'
+    Sound: 'block_glass_break'
+    Commands:
+      Give:
+        Command: 'eco give %username% 5000'
+  7k:
+    Item: 'redstone_torch_on 1 name:&eCây_đuốc_0.3&2$ lore:/n&2_●&7_Dùng_như_1_tấm_séc._Số_đô_trên_cây/n&7đuốc_triệu_đổi_ra_money_mệnh_giá_tương_ứng/n&2_●&7_Chiết_khấu_0%/n/n&a&l{VẬT_PHẨM_CHỦ_ĐỘNG}'
+    Message: '&aBạn vừa claim đc 0.3$'
+    Sound: 'block_glass_break'
+    Commands:
+      Give:
+        Command: 'eco give %username% 7000'
+  9k:
+    Item: 'redstone_torch_on 1 name:&eCây_đuốc_0.391&2$ lore:/n&2_●&7_Dùng_như_1_tấm_séc._Số_đô_trên_cây/n&7đuốc_triệu_đổi_ra_money_mệnh_giá_tương_ứng/n&2_●&7_Chiết_khấu_0%/n/n&a&l{VẬT_PHẨM_CHỦ_ĐỘNG}'
+    Message: '&aBạn vừa claim đc 0.391$'
+    Sound: 'block_glass_break'
+    Commands:
+      Give:
+        Command: 'eco give %username% 9000'
+  20k:
+    Item: 'redstone_torch_on 1 name:&eCây_đuốc_0.869&2$ lore:/n&2_●&7_Dùng_như_1_tấm_séc._Số_đô_trên_cây/n&7đuốc_triệu_đổi_ra_money_mệnh_giá_tương_ứng/n&2_●&7_Chiết_khấu_0%/n/n&a&l{VẬT_PHẨM_CHỦ_ĐỘNG}'
+    Message: '&aBạn vừa claim đc 0.869$'
+    Sound: 'block_glass_break'
+    Commands:
+      Give:
+        Command: 'eco give %username% 20000'
+  50k:
+    Item: 'redstone_torch_on 1 name:&eCây_đuốc_2.173&2$ lore:/n&2_●&7_Dùng_như_1_tấm_séc._Số_đô_trên_cây/n&7đuốc_triệu_đổi_ra_money_mệnh_giá_tương_ứng/n&2_●&7_Chiết_khấu_0%/n/n&a&l{VẬT_PHẨM_CHỦ_ĐỘNG}'
+    Message: '&aBạn vừa claim đc 2.173$'
+    Sound: 'block_glass_break'
+    Commands:
+      Give:
+        Command: 'eco give %username% 50000'
+  100k:
+    Item: 'redstone_torch_on 1 name:&eCây_đuốc_4.347&2$ lore:/n&2_●&7_Dùng_như_1_tấm_séc._Số_đô_trên_cây/n&7đuốc_triệu_đổi_ra_money_mệnh_giá_tương_ứng/n&2_●&7_Chiết_khấu_0%/n/n&a&l{VẬT_PHẨM_CHỦ_ĐỘNG}'
+    Message: '&aBạn vừa claim đc 0.043$'
+    Sound: 'block_glass_break'
+    Commands:
+      Give:
+        Command: 'eco give %username% 100000'
+  200k:
+    Item: 'redstone_torch_on 1 name:&eCây_đuốc_8.695&2$ lore:/n&2_●&7_Dùng_như_1_tấm_séc._Số_đô_trên_cây/n&7đuốc_triệu_đổi_ra_money_mệnh_giá_tương_ứng/n&2_●&7_Chiết_khấu_0%/n/n&a&l{VẬT_PHẨM_CHỦ_ĐỘNG}'
+    Message: '&aBạn vừa claim đc 8.695$'
+    Sound: 'block_glass_break'
+    Commands:
+      Give:
+        Command: 'eco give %username% 200000'
+  500k:
+    Item: 'redstone_torch_on 1 name:&eCây_đuốc_21.739&2$ lore:/n&2_●&7_Dùng_như_1_tấm_séc._Số_đô_trên_cây/n&7đuốc_triệu_đổi_ra_money_mệnh_giá_tương_ứng/n&2_●&7_Chiết_khấu_0%/n/n&a&l{VẬT_PHẨM_CHỦ_ĐỘNG}'
+    Message: '&aBạn vừa claim đc 21.739$'
+    Sound: 'block_glass_break'
+    Commands:
+      Give:
+        Command: 'eco give %username% 500000'
+  1m:
+    Item: 'redstone_torch_on 1 name:&eCây_đuốc_43.478&2$ lore:/n&2_●&7_Dùng_như_1_tấm_séc._Số_đô_trên_cây/n&7đuốc_triệu_đổi_ra_money_mệnh_giá_tương_ứng/n&2_●&7_Chiết_khấu_0%/n/n&a&l{VẬT_PHẨM_CHỦ_ĐỘNG}'
+    Message: '&aBạn vừa claim đc 43.478$'
+    Sound: 'block_glass_break'
+    Commands:
+      Give:
+        Command: 'eco give %username% 1000000'
+  2m:
+    Item: 'redstone_torch_on 1 name:&eCây_đuốc_86.956&2$ lore:/n&2_●&7_Dùng_như_1_tấm_séc._Số_đô_trên_cây/n&7đuốc_triệu_đổi_ra_money_mệnh_giá_tương_ứng/n&2_●&7_Chiết_khấu_0%/n/n&a&l{VẬT_PHẨM_CHỦ_ĐỘNG}'
+    Message: '&aBạn vừa claim đc 86.956$'
+    Sound: 'block_glass_break'
+    Commands:
+      Give:
+        Command: 'eco give %username% 2000000'
+  4m:
+    Item: 'redstone_torch_on 1 name:&eCây_đuốc_173.91&2$ lore:/n&2_●&7_Dùng_như_1_tấm_séc._Số_đô_trên_cây/n&7đuốc_triệu_đổi_ra_money_mệnh_giá_tương_ứng/n&2_●&7_Chiết_khấu_0%/n/n&a&l{VẬT_PHẨM_CHỦ_ĐỘNG}'
+    Message: '&aBạn vừa claim đc 173.91$'
+    Sound: 'block_glass_break'
+    Commands:
+      Give:
+        Command: 'eco give %username% 4000000'
+  8m:
+    Item: 'redstone_torch_on 1 name:&eCây_đuốc_347.826&2$ lore:/n&2_●&7_Dùng_như_1_tấm_séc._Số_đô_trên_cây/n&7đuốc_triệu_đổi_ra_money_mệnh_giá_tương_ứng/n&2_●&7_Chiết_khấu_0%/n/n&a&l{VẬT_PHẨM_CHỦ_ĐỘNG}'
+    Message: '&aBạn vừa claim đc 347.826$'
+    Sound: 'block_glass_break'
+    Commands:
+      Give:
+        Command: 'eco give %username% 8000000'
+  10m:
+    Item: 'redstone_torch_on 1 name:&eCây_đuốc_434.782&2$ lore:/n&2_●&7_Dùng_như_1_tấm_séc._Số_đô_trên_cây/n&7đuốc_triệu_đổi_ra_money_mệnh_giá_tương_ứng/n&2_●&7_Chiết_khấu_0%/n/n&a&l{VẬT_PHẨM_CHỦ_ĐỘNG}'
+    Message: '&aBạn vừa claim đc 434.782$'
+    Sound: 'block_glass_break'
+    Commands:
+      Give:
+        Command: 'eco give %username% 10000000'

@@ -1,0 +1,196 @@
+# -------------------------------------
+# Configuration instruction link:
+#  https://github.com/xHexed/Oregen3/blob/master/src/main/resources/config.yml
+# Please click this link if you use the plugin the first time or updating
+# Notes:
+#  generator options:
+#    required options: options that MUST be provided, or else the plugin will throw errors
+#      random: list of blocks that will randomly be chosen upon generating ores
+#    optional options: options that are optionally provided, the generator will still work normally if missing
+#      permission: the permission it will use instead of the default provided one, defaults to oregen3.generator.<generator name> if missing
+#      sound: sound option that the block will cast if present
+#        name: name of the sound, defaults to BLOCK_FIRE_EXTINGUISH if missing
+#        volume: volume of the sound, defaults to 1 if missing
+#        pitch: pitch of the sound, defaults to 1 if missing
+#      world: world-related options
+#        blacklist: if the world list provided below are blacklist (non-whitelist), defaults to true if missing
+#        list: list of world that the generator are consider of, defaults to an empty list if missing
+#      sound: you can use the old enum sound, as long as it playable in your server version (ex: 1.8 sound names for 1.12 server)
+#  Available placeholder for messages:
+#  - noPermission: %perm%
+#  - noPlayer: %player%
+#  - noIslandOthers: %player%
+#  - messages:
+#     commands: %label% (First argument in command)
+#  You can use PlaceholderAPI or MVDWPlaceholderAPI placeholders
+#   in every messages (except some that requires a player but the message can't get the player's name)
+# -------------------------------------
+mode:
+  waterBlock: true
+  lavaBlock: false
+  waterLava: true
+  waterWater: false
+
+blocks:
+- FENCE
+- ACACIA_FENCE
+- BIRCH_FENCE
+- DARK_OAK_FENCE
+- IRON_FENCE
+
+#Will the plugin try to find a skyblock plugin to enable owner's permission feature?
+enableDependency: true
+defaultGenerator: default
+
+hooks:
+  skyblock:
+    #You can choose between owner, lowest and highest
+    getGeneratorMode: owner
+    #Only works on lowest and highest mode
+    ignoreOfflinePlayers: false
+  Vault:
+    #Will the plugin force to use async permission lookup? Change to true if you have problems using the non-async one
+    forceAsync: false
+    #Plugin list that store the permission data async (using database, ...), or you can list other plugins
+    pluginAsyncList:
+    - LuckPerms
+  BentoBox:
+    #This plugin will check for available gamemode by order. If which addon comes first then it will use that gamemode to check
+    # for player's island (who knows someone would use 2 gamemode at a time....)
+    #Since BentoBox lets you install many gamemodes, this check is required due to the fact this plugin only hooks into one
+    # gamemode (may be fixed later).
+    #If an invalid gamemode is found, the plugin will skip it.
+    gamemodePriorities:
+    - ASkyBlock
+    - AcidIsland
+    - BSkyBlock
+    - CaveBlock
+    - SkyGrid
+
+global:
+  listener:
+    #Will the plugin attempt to generate blocks asynchronously? Turn this on if you experiencing lag while generating blocks
+    asyncListener: false
+  generators:
+    world:
+      enabled: false
+      blacklist: true
+      list:
+      - world1
+      - world2
+    sound:
+      enabled: false
+      name: BLOCK_FIRE_EXTINGUISH
+      volume: 3
+      pitch: 2
+    #Set to 0 to disable
+    maxBlockPlacePerTick: 0
+
+generators:
+  default:
+    #Generator name that will be shown in placeholders
+    name: "My default"
+    random:
+      STONE: 15.0
+      DIAMOND_BLOCK: 10.5
+      EMERALD_BLOCK: 10.5
+      GOLD_BLOCK: 10.5
+      IRON_BLOCK: 10.5
+      COAL_BLOCK: 10.5
+      LAPIS_BLOCK: 10.5
+      REDSTONE_BLOCK: 10.5
+      BONE_BLOCK: 10.5
+      OBSIDIAN: 0.9
+      PRISMARINE: 0.1
+  vip:
+    name: "VIP generator"
+    permission: test.vip
+    priority: 2
+    level: 0
+    random:
+      STONE: 11.9
+      DIAMOND_BLOCK: 10.5
+      EMERALD_BLOCK: 10.5
+      GOLD_BLOCK: 17.5
+      IRON_BLOCK: 10.5
+      COAL_BLOCK: 9.5
+      LAPIS_BLOCK: 9.5
+      REDSTONE_BLOCK: 9.5
+      BONE_BLOCK: 9.5
+      OBSIDIAN: 1.0
+      PRISMARINE: 0.1
+    sound:
+      name: BLOCK_FIRE_EXTINGUISH
+      volume: 3
+      pitch: 2
+    world:
+      blacklist: true
+      list:
+      - world1
+  mvp:
+    permission: test.mvp
+    priority: 3
+    level: 0
+    random:
+      STONE: 11.9
+      DIAMOND_BLOCK: 10.5
+      EMERALD_BLOCK: 10.5
+      GOLD_BLOCK: 17.5
+      IRON_BLOCK: 10.5
+      COAL_BLOCK: 9.5
+      LAPIS_BLOCK: 9.5
+      REDSTONE_BLOCK: 9.5
+      BONE_BLOCK: 9.5
+      OBSIDIAN: 1.0
+      PRISMARINE: 0.1
+    sound:
+      name: BLOCK_FIRE_EXTINGUISH
+      volume: 3
+      pitch: 2
+    world:
+      blacklist: true
+      list:
+      - world1
+  king:
+    permission: test.king
+    priority: 4
+    level: 0
+    random:
+      STONE: 11.0
+      DIAMOND_BLOCK: 11.4
+      EMERALD_BLOCK: 17.5
+      GOLD_BLOCK: 10.5
+      IRON_BLOCK: 10.5
+      COAL_BLOCK: 9.5
+      LAPIS_BLOCK: 9.5
+      REDSTONE_BLOCK: 9.5
+      BONE_BLOCK: 9.5
+      OBSIDIAN: 1.0
+      PRISMARINE: 0.1
+    sound:
+      name: BLOCK_FIRE_EXTINGUISH
+      volume: 3
+      pitch: 2
+    world:
+      blacklist: true
+      list:
+      - world1
+
+messages:
+  prefix: '&f[&6Máy &efarm&f]'
+  commands:
+    help: "&6&o/%label% help &f» Open help pages"
+    reload: "&6&o/%label% reload &f» Reload config"
+    info: "&6&o/%label% info [player] &f» Getting ore spawning chance of the island you are standing on or the targeted player"
+    edit: "&6&o/%label% edit &f» Edit generators in-game (coming soon...)"
+  gui:
+    title: "&eTrữ lượng khoáng sản"
+    block:
+      lore:
+      - "&6Tỷ lệ: &e%chance%&6%"
+  noIsland: "&cBạn cần đứng trên hòn đảo (island) để thực hiện tao tác này."
+  noIslandOthers: "&c%player% bạn phải đứng trên hòn đảo để thực hiện thao tác này."
+  missingArgs: "&cMissing arguments"
+  noPermission: "&4Missing Permission: &c %perm%"
+  noPlayer: "&4Player %player% isn't exist or online"
+  notPlayer: "&4Only player can use this command"

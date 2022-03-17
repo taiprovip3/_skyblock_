@@ -1,0 +1,63 @@
+#Messages
+NoPermission: "&cBạn không có đủ quyền!"
+NoPermissionForSkin: "&cBạn không được phép sử dụng skin này" #Maybe put your buycraft / however the player gets skins :) - Placeholder %SKIN% can be used to get the skin identifier
+
+ErrorOccurred: "&cTrời ơi, một lỗi xảy ra. Thử lại!"
+
+#If they try placing the minion in a no build zone, or similar:
+CantPlaceMinionHere: "&cBạn không thể đặt minion ở đây!"
+
+#The message that appears if the minion was successfully placed, although the action that the minion does is blocked
+#(For example, placed next on the edge of spawn, and trying to get the minion to mine in spawn)
+MinionCannotPerformHere: "&cCác minion không thể thực hiện hành động của mình ở đây (là minion trong một khu vực phù hợp?)"
+
+#The message that appears when they click the 'rename' button in the UI
+RenameMessage: "&eNhập văn bản bạn muốn Tên Minions là! &cHủy bỏ&e cũng có thể được sử dụng để hủy bỏ lệnh này"
+RenameMessageCanceled: "&eCác minion sẽ không được đổi tên."
+RenameMessageSuccess: "&eBạn đã thay đổi thành công tên minions thành&f %NAME%" #%NAME% will get the minions display name
+
+MinionMustBeFullHealthToDestroy: "&cCác minion phải có đầy đủ sức khỏe để nhặt nó lên!"
+
+NotEnoughMoneyToHealMinion: "&CBạn không có $%MONEYNEEDED% để làm điều này!"
+HealSuccessful: "&CBạn đã chữa lành minion bằng cách %HEALAMOUNT% trái tim"
+HealNotNeeded: "&CSức khỏe Minion đã đầy! Không cần phải chữa lành nó!"
+VaultNotInstalled: "&CVault chưa được cài đặt, liên hệ với Quản trị viên hệ thống của bạn để kích hoạt vault!"
+
+NotEnoughMoneyToUpgradeMinion: "&cBạn không có đủ tiền để nâng cấp minion!" #%MONEYNEEDED% can be used as a placeholder
+MinionAlreadyMaxLevel: "&cCác minion không thể được nâng cấp nữa!"
+
+#rotation
+MinionRotatedMessage: "&aBạn đã xoay minion &e%DIRECTION%"
+
+#Link a chest messages
+LinkAChestMessage: "&aNhấp chuột phải vào rương để liên kết rương!"
+LinkAChestSuccess: "&aThành công! Chiếc rương này hiện được liên kết với minion!"
+LinkAChestUnattached: "&aRương Minion này đã được gỡ bỏ!"
+LinkAChestFail: "&cBạn đã không nhấp chuột phải đủ nhanh! Nếu bạn muốn gắn rương vào minion, vui lòng thử lại"
+LinkChestBroken: "&cBạn đã phá vỡ một rương liên kết với một minion!"
+
+UnknownCommand: "&cLệnh không xác định"
+
+#When /minions is entered - Placeholders %VERSION%
+HelpCommand:
+  - "&b&m---------------&r&e[ &e&lthợ mỏ Minion &a%VERSION% &e]&b&m---------------"
+  - "&8/&aminions about &7- &fHiển thị thông tin về plugin"
+  - "&8/&aminions give {online_player} {minion_type} {amount} &7- &fCung cấp minions cho người chơi đó"
+  - "&8/&aminions reload &7- &fTải lại tập tin cấu hình tuy nhiên đề xuất khởi động lại."
+  - "&8/&aminions storeother {online_player} &7- &fMở một cửa hàng cho người chơi khác."
+
+GivenMinion: "&aBạn đã được tặng một &b%TYPE% &aMinion!" #Placeholders, %AMOUNT% and %TYPE%
+
+MaxMinionAmount: "&cBạn không thể đặt Minions nữa như bạn đã có %MAXAMOUNTALLOWED%" #placeholder will return the max minions allowed for that user
+
+BreakMinionWithFullInventory: "&cĐã đầy! Minion đã bị rơi dưới đất!"
+
+MinionNameMaxLength: "&cTên minion này quá dài! Hãy thử một cái ngắn hơn!"
+
+MinionExpGiven: "&ABạn đã thu thập &e%EXP% EXP &atừ Minion này!"
+
+MinionStoreNotEnoughMoney: "&cBạn không có đủ tiền để mua Minion này!" #%MONEYNEEDED%,%MINIONTYPE% can be used as a placeholder
+MinionStorePurchase: "&cBạn đã mua %MINIONTYPE% Minion cho %MONEYNEEDED%!"
+
+#Placeholders, %RANGEPLACED%, %REQUIREDRANGE%
+MinionChestToFar: "&cBạn đã đặt điều này đến nay %RANGEPLACED% đi, khoảng cách tối đa là %REQUIREDRANGE%"

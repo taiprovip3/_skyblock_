@@ -1,0 +1,336 @@
+ShopName: island
+DisplayName: '&8Server&9 ()&8 IS control'
+Command: island:dao
+Sound:
+  Shop:
+    Open: ENTITY_ITEM_PICKUP:1:1
+    ChangeShop: ENTITY_ITEM_PICKUP:1:1
+shop:
+  1:
+    MenuItem:
+    - type:2
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - 'name:&a&lTạo đảo &7/&a&l về đảo'
+    - 'lore2:&aICON:&7 giúp bạn tự động tạo 1 hòn đảo riêng và đưa bạn đến hòn đảo sinh tồn đó'
+    - 'lore4:&aThông tin:&7 nếu bạn đã có đảo rồi thì ICON này sẽ đưa bạn về đảo đã claim'
+    - 'lore6:&7Click vào đây!'
+    RewardType: playercommand
+    Reward:
+    - is
+    InventoryLocation: 1
+  2:
+    MenuItem:
+    - type:bed
+    - 'name:&a&lSave chỗ đứng'
+    - 'lore2:&aICON:&7 lưu lại vị trí bạn đang đứng ở island. Khi sử dụng ICON về đảo thì bạn sẽ được ném đến điểm đã save này'
+    - 'lore4:&aThông tin:&7 chỉ có thể sử dụng ICON này khi bạn đang ở island, ở khu spawn bị vô hiệu.'
+    - 'lore6:&aThông tin khác:&7 các thành viên trong đảo cũng bị ảnh hưởng bởi điểm save này, và họ cũng có quyền thay đổi điểm save!'
+    - 'lore8:&7Click vào đây!'
+    RewardType: playercommand
+    Reward:
+    - is sethome
+    InventoryLocation: 3
+  3:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZkMWNlNjk3ZTlkYmFhNGNjZjY0MjUxNmFhYTU5ODEzMzJkYWMxZDMzMWFmZWUyZWUzZGNjODllZmRlZGIifX19=
+    - 'name:&a&lXem cấp đảo'
+    - 'lore2:&aICON:&7 xem cấp hiện tại tổng thể island của bạn là level bao nhiêu.'
+    - 'lore4:&aThông tin:&7 cấp đảo được tính dựa trên số block bạn xây dựng ở island và chỉ số điểm của từng khối.'
+    - 'lore6:&aThông tin khác:&7 cấp đảo càng cao sẽ được lên top 10 level đảo cao nhất.'
+    - 'lore8:&7Click vào đây!'
+    RewardType: playercommand
+    Reward:
+    - is level
+    InventoryLocation: 5
+  4:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI4ZmE3NmZiNGQ1NDU1MGQ3NTU1Yjc3NGIwYjI5NzE3M2Q3MDE0ZDBhMTM3MzhiMDM5MWQ0ZDQ4N2ExNzAifX19=
+    - 'name:&a&lTop đảo'
+    - 'lore2:&aICON:&7 xem 10 người cấp đảo cao nhất máy chủ skyblock.'
+    - 'lore4:&aThông tin:&7 bảng xếp hạng sẽ liên tục được cập nhật liên tục mỗi phút.'
+    - 'lore6:&aThông tin khác:&7 đua sau chưa chắc đã thua, quan trọng là sự hiểu biết về cách cày sáng tạo nhanh nhất.'
+    - 'lore8:&7Click vào đây!'
+    RewardType: playercommand
+    Reward:
+    - is top
+    InventoryLocation: 7
+  5:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTJmMWI2OTMyNmFkOTI2ZTNjNDk4Mjc1ZmEyOTJlYmVlNzZmNmVlYTgxM2IzYjcwY2YzOGJiNGIxYjAzY2I4In19fQ===
+    - 'name:&a&lDanh sách thành viên'
+    - 'lore2:&aICON:&7 xem các thành viên trong island.'
+    - 'lore4:&aThông tin:&7 thành viên được mời bởi chủ đảo (thành viên ko thể mời thành viên).'
+    - 'lore6:&7Click vào đây!'
+    RewardType: playercommand
+    Reward:
+    - is member
+    InventoryLocation: 9
+  6:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzM2ZmViZWNhN2M0ODhhNjY3MWRjMDcxNjU1ZGRlMmExYjY1YzNjY2IyMGI2ZThlYWY5YmZiMDhlNjRiODAifX19=
+    - 'name:&a&lTham quan đảo'
+    - 'lore2:&aICON:&7 tham quan các hòn đảo của những người chơi có đặt SIGN cho thăm quan.'
+    - 'lore4:&aThông tin:&7 bạn cũng có thể tạo 1 tấm SIGN để mở khu tham quan cho người khác tới.'
+    - 'lore6:&aThông tin khác:&7 đặt tấm biển ở island và gõ &a[WELCOME] &7để đăng ký đảo thăm quan island.'
+    - 'lore8:&7Click vào đây!'
+    RewardType: playercommand
+    Reward:
+    - is warps
+    InventoryLocation: 13
+  7:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzc5NWVkZWViNmI3ZWQ0MWMyNjhjZWZlYWZiZTk2MGI3YzQ5NTUwZGFlYjYzMWI1NjE1NmJmNWZlYjk4NDcifX19=
+    - 'name:&a&lHệ sinh thái'
+    - 'lore2:&aICON:&7 cho phép bạn thay đổi hệ sinh thái hòn đảo của bạn tùy thích.'
+    - 'lore4:&aThông tin:&7 hệ sinh thái giúp thay đổi màu đất, thời tiết, và loại cây trồng...'
+    - 'lore6:&aThông tin khác:&7 đặt tấm biển ở island và gõ &a[WELCOME] &7để đăng ký đảo thăm quan island.'
+    - 'lore8:&7Click vào đây!'
+    RewardType: playercommand
+    Reward:
+    - is biomes
+    InventoryLocation: 14
+  8:
+    MenuItem:
+    - type:404
+    - 'name:&a&lKhóa đảo'
+    - 'lore2:&aICON:&7 cấm tham quan bởi các visitor.'
+    - 'lore4:&aThông tin:&7 ko ai có thể vào đảo bạn ngoại trừ staff, admin, chủ đảo hoặc các thành viên'
+    - 'lore6:&aThông tin khác:&7 ngay khi khóa đảo các khách đang tham quan sẽ bị kick khỏi đảo ngay!'
+    - 'lore8:&7Click vào đây!'
+    RewardType: playercommand
+    Reward:
+    - is leave
+    - is confirm
+    InventoryLocation: 15
+  10:
+    MenuItem:
+    - type:386
+    - 'name:&a&lDanh sách đã ban'
+    - 'lore2:&aICON:&7 xem những người chơi bạn đã cấm ví dụ: ElonMusk, king5google, dxdiagbff123'
+    - 'lore4:&aThông tin:&7 ban người bạn ghét bằng cách /is ban <tên>'
+    - 'lore6:&aThông tin khác:&7 bạn ko thể ban admin, staff, thành viên trong đảo'
+    - 'lore8:&7Click vào đây!'
+    RewardType: playercommand
+    Reward:
+    - is banlist
+    InventoryLocation: 22
+  11:
+    MenuItem:
+    - type:340
+    - amount:2
+    - 'name:&a&lDanh sách đang coop'
+    - 'lore2:&aICON:&7 xem những người chơi bạn đang hợp tác: ElonMusk, king5google, dxdiagbff123'
+    - 'lore4:&aThông tin:&7 cho phép người lạ dùng chung island bằng cách /is coop <tên>'
+    - 'lore6:&aThông tin khác:&7 chỉ nên coop những người bạn thật sự tin tưởng &C&l(!)'
+    - 'lore8:&7Click vào đây!'
+    RewardType: playercommand
+    Reward:
+    - is listcoops
+    InventoryLocation: 23
+  12:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWYxMjFmN2MxYWIxNTY3ZmYyMTk4M2ZmN2E5ZTU1YzQwYzBiODY1ZjA1MGQzN2U1ZDM1ZGVmYmFhIn19fQ===
+    - 'name:&a&lĐiểm block'
+    - 'lore2:&aICON:&7 xem điểm (giá trị) của các khối nổi bật mà thường dùng để build đảo'
+    - 'lore4:&aThông tin:&7 đây là các khối mà nhiều người dùng nhất nên Ông Trùm khảo sát'
+    - 'lore6:&7Click vào đây!'
+    RewardType: playercommand
+    Reward: blocksvalues
+    InventoryLocation: 24
+  infoog3:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODExMmY4N2NlZTU3ODg5NGUyZDA3MjUzYWJiMTQ2NjI0N2NlZTQ4ZjE3MjdiYjlkMWVhYzUzZjhlMDU3MTAxMiJ9fX0==
+    - 'name:&a&lTỷ lệ Block farm'
+    - 'lore2:&aICON:&7 cho bạn biết được tỉ lệ % các block farm xuất ra khi farm.'
+    - 'lore4:&aThông tin:&7 bạn có thể nâng cấp máy farm cá nhân qua giao diện nâng cấp'
+    - 'lore6:&aThông tin khác:&7 máy farm nâng cấp ko dùng chung cho cả island.'
+    - 'lore8:&7Click vào đây!'
+    RewardType: playercommand
+    Reward:
+    - og3 info
+    InventoryLocation: 36
+  upgrais:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGYxN2E2YTlhZmFhN2IwN2U0MjE4ZmU1NTVmMjgyM2IwMjg0Y2Q2OWI0OWI2OWI5N2ZhZTY3ZWIyOTc2M2IifX19=
+    - 'name:&a&lNÂNG CẤP island'
+    - 'lore2:&aICON:&7 nâng cấp số lượng truy cập home của bạn.'
+    - 'lore4:&aThông tin:&7 điểm home chỉ tính riêng bạn'
+    - 'lore6:&aThông tin khác:&7 điểm home và slot island tính chung toàn đảo.'
+    - 'lore8:&7Click vào đây!'
+    RewardType: shop
+    Reward: nangcap
+    InventoryLocation: 32
+  back:
+    MenuItem:
+    - type:SIGN
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    - 'lore1:&c&lQuay lại'
+    - 'lore2:&a...'
+    RewardType: SHOP
+    Reward: menu
+    InventoryLocation: 28
+  a:
+    MenuItem:
+    - type:160:15
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 2
+  b:
+    MenuItem:
+    - type:160
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 4
+  c:
+    MenuItem:
+    - type:160
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 6
+  d:
+    MenuItem:
+    - type:160:15
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 8
+  e:
+    MenuItem:
+    - type:160:15
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 10
+  f:
+    MenuItem:
+    - type:160:15
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 11
+  g:
+    MenuItem:
+    - type:160
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 12
+  h:
+    MenuItem:
+    - type:160
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 16
+  i:
+    MenuItem:
+    - type:160:15
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 17
+  j:
+    MenuItem:
+    - type:160:15
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 18
+  k:
+    MenuItem:
+    - type:160:15
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 19
+  l:
+    MenuItem:
+    - type:160:15
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 20
+  m:
+    MenuItem:
+    - type:160
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 21
+  n:
+    MenuItem:
+    - type:160
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 25
+  o:
+    MenuItem:
+    - type:160:15
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 26
+  p:
+    MenuItem:
+    - type:160:15
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 27
+  q:
+    MenuItem:
+    - type:160:15
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 29
+  r:
+    MenuItem:
+    - type:160:15
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 30
+  s:
+    MenuItem:
+    - type:160
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 31
+  u:
+    MenuItem:
+    - type:160
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 33
+  v:
+    MenuItem:
+    - type:160:15
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 34
+  w:
+    MenuItem:
+    - type:160:15
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    InventoryLocation: 35

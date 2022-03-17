@@ -1,0 +1,104 @@
+# Config message for TpaClick
+# Version v1.3.0
+# Author: jklmao
+
+#
+# Messages
+#
+
+Player-only-command: '&cOnly players can use this command!'
+
+Insufficient-permission: '&cYou do not have sufficient permission!'
+
+Player-deny-tpa-message: '&cYêu cầu dịch chuyển đã bị từ chối.'
+
+Target-deny-tpa-message: '&cĐối phương đã từ chối dịch chuyển.'
+
+
+Target-teleportion-canceled: '&cDịch chuyển chấm dứt...'
+
+Player-got-accepted-tpa: '&bYêu cầu dịch chuyển đôi bên đã chấp thuận.'
+
+Player-countdown-until-tpa: '&eSẽ ném bạn đi sau 3s...'
+
+Player-no-pendingtpa-message: '&cYou do not have a pending request!'
+
+Target-accepted-tpa-request: '&bYêu cầu dịch chuyển đã được chấp thuận.'
+
+No-player-found: '&cNgười chơi éo tồn tại!'
+
+Player-teleporting-self: '&cBạn ko thể tự quay tay!'
+
+Player-already-requested: '&cĐã gửi lời dịch chuyển trước đó, hãy chờ..'
+
+Player-teleportation-request-expire: '&cYêu cầu dịch chuyển đã quá hạn.'
+
+Target-teleportation-request-expire: '&cYêu cầu dịch chuyển đã quá hạn.'
+
+Player-currently-teleporting: '&bĐang ném...'
+
+Target-currently-teleporting: '&bĐang ném...'
+
+# Seconds until tpa
+# Please use whole numbers
+
+Seconds-until-tpa: 3
+
+
+# Becareful in this part!
+# This is when a player uses not enough args
+# For example, when a player does '/tpa', it will say 'Usage: /tpa <player>'
+# So please fit the correct command under the correct message!
+# P.S '/tpohere' is also '/s' (essentials-type command).
+
+
+Tpa-usage: '&cGõ: /tpa <player>'
+
+Tpaccept-usage: '&cGõ: /tpaccept <player>'
+
+Tpdeny-usage: '&cGõ: /tpadeny <player>'
+
+Tpo-usage: '&cGõ: /tpo <player>'
+
+Tpohere-usage: '&cGõ: /tpohere <player> hoặc /s <player>' 
+
+
+#
+#                 Please Read!
+#
+# This section is when a player gets a tpa request
+# Since the code used is broken into many parts, there will be many messages.
+# Whatever you do to the "Click-to-x" messages, will be the same in the 'Tpa-message'
+# Be careful!
+
+
+#
+#                 Place Holders
+#
+# Use '%player%' for the player who sent the request.
+# Use '%accept%' for the 'Click-to-accept' message.
+# Use '%deny%' for the 'Click-to-deny' message.
+# Use '%target%' for the player who they wanted to teleport to, and for the 'Player-sent-request' message.
+# Use '%newline%' for a new line. 
+# Example: /tpa <player>, where <player> is '%target%'.
+
+
+Player-sent-request: '&eĐã gửi yêu cầu dịch chuyển đến &6%target%'
+
+Tpa-message: '&6%player% &emuốn dịch chuyển tới chổ bạn. %newline%&eClick %accept% &eđể đồng ý hoặc click %deny% &eđể từ chối.%newline%&e Thời gian lời yêu cầu là 120s .%newline% %newline% '
+
+
+Click-to-accept: '&a&l&n[Đồng Ý]&r'
+Click-to-deny: '&c&l&n[Từ Chối]&r'
+
+Hover-message-on-accept: '&aClick để chấp thuận'
+Hover-message-on-deny: '&cClick để từ chối'
+
+
+#~~~~~~~~~~~~~~~~~~#
+# More Coming Soon!#
+#~~~~~~~~~~~~~~~~~~#
+
+
+
+

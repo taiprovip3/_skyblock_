@@ -1,0 +1,9 @@
+# 
+#  PlayerUUID
+#    Minion,world,xpos,ypos,zpos,yaw,health,worldforchest,xpos,ypos,zpos,stats,level
+ConfigVersion: '4.59'
+Players:
+  686742f0-a951-3bfb-baaf-469af7de6647:
+  - Miner,ASkyBlock,397,118,401,270,0,ASkyBlock,395,119,403,442,1
+MinionUUIDs:
+  fb743320-992a-478c-9262-2717465000b0: ''

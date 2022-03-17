@@ -1,0 +1,1648 @@
+Crate:
+  CrateType: WHEEL
+  CrateName: '&fRương báu vật &lTITAN'
+  Preview-Name: '&eCác báu vật có thể rơi ra'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 21
+  OpeningBroadCast: true
+  BroadCast: '%Prefix%&e%Player% đã mở 1 chiếc hộp thần bí của &f&lTitan'
+  Item: CHEST
+  Glowing: false
+  Name: '&7Rương báu vật&f&l Titan'
+  Lore:
+  - ''
+  - '&6Đây là rương báu vật ảo.'
+  - '&a ♦&7 Ẩn chứa vô cùng nhiều báu vật hiếm'
+  - '&a ♦&7 Cần có chìa khóa (key &f⚷&7) để mở rương'
+  - ''
+  - §6» Ch.phải§e để mở
+  - §6» Ch.trái§e để xem quà.
+  Preview:
+    Toggle: true
+    ChestLines: 6
+    Glass:
+      Toggle: true
+      Item: STAINED_GLASS_PANE:7
+  PhysicalKey:
+    Name: '&fChìa khóa &ltitan'
+    Lore:
+    - ''
+    - '&7 Dùng mỏ rương báu vật của titan'
+    - '&7 Sử dụng chìa khóa tại&a warp crates'
+    - ''
+    - '&a&lThu thập:'
+    - '&7 farm đủ SL blockfarm tại is'
+    - ''
+    - '&ELOẠI VẬT PHẨM&a storage'
+    Item: TRIPWIRE_HOOK
+    Glowing: false
+  Hologram:
+    Toggle: true
+    Height: 1.6
+    Message:
+    - '&eRương báu vật &f&lᴛɪᴛᴀɴ&6⚖'
+    - ''
+    - '&a☘&7Ẩn chứa vô cùng nhiều báu vật'
+    - '&a☘&7Cần có key titan để mở'
+    - ''
+    - ''
+    - ''
+    - '&8[&c&l!&8]&6Chuột trái&7 để mở rương'
+    - '&8[&a&l!&8]&6Chuột phải&2 để review báu vật'
+  Prizes:
+    '1':
+      DisplayName: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§61 §e§lRANDOM
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §f ⇱ §e§l thông tin §f ⇲
+      - §a This is §7thạch đá lv.{grade}
+      - §a Khảm lên§7 {typeitem},§8 công cụ
+      - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+      - ''
+      - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+      - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+      - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+      - ''
+      - §eLOẠI VẬT PHẨM§a clickable
+      - ''
+      - '&a&lMay mắn: &f30&a/100'
+      MaxRange: 100
+      Chance: 30
+      Firework: true
+      Glowing: false
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkMzVlYmRiMTI1ZmJhNDIxMjk4ZDQyYzIwMmM3N2M3NWI0MmNjOTljOTQ5MzlmNjM3NjQwYWMxODFmIn19fQ===
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§61 §e§lRANDOM
+          lore:
+          - ''
+          - §f ⇱ §e§l thông tin §f ⇲
+          - §a This is §7thạch đá lv.{grade}
+          - §a Khảm lên§7 {typeitem},§8 công cụ
+          - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+          - ''
+          - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+          - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+          - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+          - ''
+          - §eLOẠI VẬT PHẨM§a clickable
+          internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkmG2yCLLoyk6ZAOCEUo7LgM4TKDTQu29Kl8RGfp4iy+c0mOCqDCy2FcOP88f7c9Zwo8kgZea9ziUjeZZrSWpVm4RJqLmaFZ6A01le04be2qoMrRiZ3nnl2eQZnZbV7O7KICwIMCT2nJFwa/bPVRcexQc/R5vRIsOTkgHpLh5JApXasPgomQ+e4d71f3X9eey8zmuel3xRQtlUjR3ow528V6Lb5+ArEd6T3luYh7mhC9EH4XeORGh9EqvGjN7+RKBTUDQyojiIpgCBMuFdn0ziVJf4iueUZvobcVZNLdNtps5Hv4AypJvv8YAQAA
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &atúi thạch đá random Lv1'
+    '2':
+      DisplayName: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§62 §e§lRANDOM
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §f ⇱ §e§l thông tin §f ⇲
+      - §a This is §7thạch đá lv.{grade}
+      - §a Khảm lên§7 {typeitem},§8 công cụ
+      - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+      - ''
+      - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+      - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+      - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+      - ''
+      - §eLOẠI VẬT PHẨM§a clickable
+      - ''
+      - '&a&lMay mắn: &f25&a/100'
+      MaxRange: 100
+      Chance: 25
+      Firework: true
+      Glowing: false
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkMzVlYmRiMTI1ZmJhNDIxMjk4ZDQyYzIwMmM3N2M3NWI0MmNjOTljOTQ5MzlmNjM3NjQwYWMxODFmIn19fQ===
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§62 §e§lRANDOM
+          lore:
+          - ''
+          - §f ⇱ §e§l thông tin §f ⇲
+          - §a This is §7thạch đá lv.{grade}
+          - §a Khảm lên§7 {typeitem},§8 công cụ
+          - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+          - ''
+          - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+          - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+          - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+          - ''
+          - §eLOẠI VẬT PHẨM§a clickable
+          internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkmG2yCLLoyk6ZAOCEUo7LgM4TKDTQu29Kl8RGfp4iy+c0mOCqDCy2FcOP88f7c9Zwo8kgZea9ziUjeZZrSWpVm4RJqLmaFZ6A01le04be2qoMrRiZ3nnl2eQZnZbV7O7KICwIMCT2nJFwa/bPVRcexQc/R5vRIsOTkgHpLh5JApXasPgomQ+e4d71f3X9eey8zmuel3xRQtlUjR3ow528V6Lb5+ArEd6T3luYh7mhC9EH4XeORGh9EqvGjN7+RKBTUDQyojiIpgCBMuFdn0ziVJf4iueUZvobcVZNLdNtps5Hv4AypJvv8YAQAA
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &atúi thạch đá random Lv2'
+    '3':
+      DisplayName: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§63 §e§lRANDOM
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §f ⇱ §e§l thông tin §f ⇲
+      - §a This is §7thạch đá lv.{grade}
+      - §a Khảm lên§7 {typeitem},§8 công cụ
+      - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+      - ''
+      - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+      - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+      - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+      - ''
+      - §eLOẠI VẬT PHẨM§a clickable
+      - ''
+      - '&a&lMay mắn: &f20&a/100'
+      MaxRange: 100
+      Chance: 20
+      Firework: true
+      Glowing: false
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkMzVlYmRiMTI1ZmJhNDIxMjk4ZDQyYzIwMmM3N2M3NWI0MmNjOTljOTQ5MzlmNjM3NjQwYWMxODFmIn19fQ===
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§63 §e§lRANDOM
+          lore:
+          - ''
+          - §f ⇱ §e§l thông tin §f ⇲
+          - §a This is §7thạch đá lv.{grade}
+          - §a Khảm lên§7 {typeitem},§8 công cụ
+          - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+          - ''
+          - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+          - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+          - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+          - ''
+          - §eLOẠI VẬT PHẨM§a clickable
+          internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkmG2yCLLoyk6ZAOCEUo7LgM4TKDTQu29Kl8RGfp4iy+c0mOCqDCy2FcOP88f7c9Zwo8kgZea9ziUjeZZrSWpVm4RJqLmaFZ6A01le04be2qoMrRiZ3nnl2eQZnZbV7O7KICwIMCT2nJFwa/bPVRcexQc/R5vRIsOTkgHpLh5JApXasPgomQ+e4d71f3X9eey8zmuel3xRQtlUjR3ow528V6Lb5+ArEd6T3luYh7mhC9EH4XeORGh9EqvGjN7+RKBTUDQyojiIpgCBMuFdn0ziVJf4iueUZvobcVZNLdNtps5Hv4AypJvv8YAQAA
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &atúi thạch đá random Lv3'
+    '4':
+      DisplayName: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§64 §e§lRANDOM
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §f ⇱ §e§l thông tin §f ⇲
+      - §a This is §7thạch đá lv.{grade}
+      - §a Khảm lên§7 {typeitem},§8 công cụ
+      - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+      - ''
+      - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+      - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+      - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+      - ''
+      - §eLOẠI VẬT PHẨM§a clickable
+      - ''
+      - '&a&lMay mắn: &f15&a/100'
+      MaxRange: 100
+      Chance: 15
+      Firework: true
+      Glowing: false
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkMzVlYmRiMTI1ZmJhNDIxMjk4ZDQyYzIwMmM3N2M3NWI0MmNjOTljOTQ5MzlmNjM3NjQwYWMxODFmIn19fQ===
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§64 §e§lRANDOM
+          lore:
+          - ''
+          - §f ⇱ §e§l thông tin §f ⇲
+          - §a This is §7thạch đá lv.{grade}
+          - §a Khảm lên§7 {typeitem},§8 công cụ
+          - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+          - ''
+          - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+          - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+          - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+          - ''
+          - §eLOẠI VẬT PHẨM§a clickable
+          internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkmG2yCLLoyk6ZAOCEUo7LgM4TKDTQu29Kl8RGfp4iy+c0mOCqDCy2FcOP88f7c9Zwo8kgZea9ziUjeZZrSWpVm4RJqLmaFZ6A01le04be2qoMrRiZ3nnl2eQZnZbV7O7KICwIMCT2nJFwa/bPVRcexQc/R5vRIsOTkgHpLh5JApXasPgomQ+e4d71f3X9eey8zmuel3xRQtlUjR3ow528V6Lb5+ArEd6T3luYh7mhC9EH4XeORGh9EqvGjN7+RKBTUDQyojiIpgCBMuFdn0ziVJf4iueUZvobcVZNLdNtps5Hv4AypJvv8YAQAA
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &atúi thạch đá random Lv4'
+    '5':
+      DisplayName: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§65 §e§lRANDOM
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §f ⇱ §e§l thông tin §f ⇲
+      - §a This is §7thạch đá lv.{grade}
+      - §a Khảm lên§7 {typeitem},§8 công cụ
+      - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+      - ''
+      - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+      - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+      - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+      - ''
+      - §eLOẠI VẬT PHẨM§a clickable
+      - ''
+      - '&a&lMay mắn: &f10&a/100'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Glowing: false
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFkMzVlYmRiMTI1ZmJhNDIxMjk4ZDQyYzIwMmM3N2M3NWI0MmNjOTljOTQ5MzlmNjM3NjQwYWMxODFmIn19fQ===
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §e§lTÚI §6Thạch đá - {gems} Ｌｖ§f.§65 §e§lRANDOM
+          lore:
+          - ''
+          - §f ⇱ §e§l thông tin §f ⇲
+          - §a This is §7thạch đá lv.{grade}
+          - §a Khảm lên§7 {typeitem},§8 công cụ
+          - '§a Tỉ lệ §7{successrate}%§a⇧ §7{failurerate}%§4⇩ '
+          - ''
+          - §f (( §2 hiệu quả §a/§2 cách dùng §f ))
+          - §f (§a༜§f) §2+{maxhealth}%§7 Sinh lực tối đa
+          - §aCÁCH DÙNG §ekéo thả thạch vào tr.bị
+          - ''
+          - §eLOẠI VẬT PHẨM§a clickable
+          internal: H4sIAAAAAAAAAE2Oy06DQBiFf01MkPgYbkmG2yCLLoyk6ZAOCEUo7LgM4TKDTQu29Kl8RGfp4iy+c0mOCqDCy2FcOP88f7c9Zwo8kgZea9ziUjeZZrSWpVm4RJqLmaFZ6A01le04be2qoMrRiZ3nnl2eQZnZbV7O7KICwIMCT2nJFwa/bPVRcexQc/R5vRIsOTkgHpLh5JApXasPgomQ+e4d71f3X9eey8zmuel3xRQtlUjR3ow528V6Lb5+ArEd6T3luYh7mhC9EH4XeORGh9EqvGjN7+RKBTUDQyojiIpgCBMuFdn0ziVJf4iueUZvobcVZNLdNtps5Hv4AypJvv8YAQAA
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &atúi thạch đá random Lv5'
+    '6':
+      DisplayName: '&eSách mềm mại'
+      DisplayItem: ENCHANTED_BOOK
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&a&lMay mắn: &f8&a/100'
+      MaxRange: 100
+      Chance: 8
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            SILK_TOUCH: 1
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aSách mềm mại'
+    '7':
+      DisplayName: '&eSách chân băng'
+      DisplayItem: ENCHANTED_BOOK
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&a&lMay mắn: &f8&a/100'
+      MaxRange: 100
+      Chance: 8
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            FROST_WALKER: 1
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aSách chân băng'
+    '8':
+      DisplayName: §b§lRương kim cương
+      DisplayItem: LIGHT_BLUE_SHULKER_BOX
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối kim cương'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      - ''
+      - '&a&lMay mắn: &f70&a/100'
+      MaxRange: 100
+      Chance: 70
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: LIGHT_BLUE_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §b§lRương kim cương
+          lore:
+          - ''
+          - ' §e§l*§f Chứa bên trong 27st khối kim cương'
+          - ' §e§l*§f Cầm & click phải để dùng!'
+          - ''
+          - §cWARNING §e§l*
+          - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+          - ''
+          - §a[VẬT PHẨM CHỦ ĐỘNG]
+          blockMaterial: LIGHT_BLUE_SHULKER_BOX
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aRương kim cương'
+    '9':
+      DisplayName: §2§lRương lục bảo
+      DisplayItem: LIME_SHULKER_BOX
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối lục bảo'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      - ''
+      - '&a&lMay mắn: &f70&a/100'
+      MaxRange: 100
+      Chance: 70
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: LIME_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §2§lRương lục bảo
+          lore:
+          - ''
+          - ' §e§l*§f Chứa bên trong 27st khối lục bảo'
+          - ' §e§l*§f Cầm & click phải để dùng!'
+          - ''
+          - §cWARNING §e§l*
+          - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+          - ''
+          - §a[VẬT PHẨM CHỦ ĐỘNG]
+          blockMaterial: LIME_SHULKER_BOX
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aRương lục bảo'
+    '10':
+      DisplayName: §e§lRương vàng rồng
+      DisplayItem: YELLOW_SHULKER_BOX
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối vàng'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      - ''
+      - '&a&lMay mắn: &f70&a/100'
+      MaxRange: 100
+      Chance: 70
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: YELLOW_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §e§lRương vàng rồng
+          lore:
+          - ''
+          - ' §e§l*§f Chứa bên trong 27st khối vàng rồng'
+          - ' §e§l*§f Cầm & click phải để dùng!'
+          - ''
+          - §cWARNING §e§l*
+          - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+          - ''
+          - §a[VẬT PHẨM CHỦ ĐỘNG]
+          blockMaterial: YELLOW_SHULKER_BOX
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aRương vàng rồng'
+    '11':
+      DisplayName: §f§lRương sắt xịn
+      DisplayItem: WHITE_SHULKER_BOX
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối sắt'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      - ''
+      - '&a&lMay mắn: &f70&a/100'
+      MaxRange: 100
+      Chance: 70
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: WHITE_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §f§lRương sắt xịn
+          lore:
+          - ''
+          - ' §e§l*§f Chứa bên trong 27st khối sắt xịn'
+          - ' §e§l*§f Cầm & click phải để dùng!'
+          - ''
+          - §cWARNING §e§l*
+          - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+          - ''
+          - §a[VẬT PHẨM CHỦ ĐỘNG]
+          blockMaterial: WHITE_SHULKER_BOX
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aRương sắt xịn'
+    '12':
+      DisplayName: §d§lRương hắc diện thạch
+      DisplayItem: GRAY_SHULKER_BOX
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối hắc diện thach'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      - ''
+      - '&a&lMay mắn: &f70&a/100'
+      MaxRange: 100
+      Chance: 70
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: GRAY_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §d§lRương hắc diện thạch
+          lore:
+          - ''
+          - ' §e§l*§f Chứa bên trong 27st khối hắc diện thạch'
+          - ' §e§l*§f Cầm & click phải để dùng!'
+          - ''
+          - §cWARNING §e§l*
+          - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+          - ''
+          - §a[VẬT PHẨM CHỦ ĐỘNG]
+          blockMaterial: GRAY_SHULKER_BOX
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aRương hắc diện thạch'
+    '13':
+      DisplayName: §8§lRương than đen
+      DisplayItem: BLACK_SHULKER_BOX
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối than'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      - ''
+      - '&a&lMay mắn: &f70&a/100'
+      MaxRange: 100
+      Chance: 70
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: BLACK_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §8§lRương than đen
+          lore:
+          - ''
+          - ' §e§l*§f Chứa bên trong 27st khối than đen'
+          - ' §e§l*§f Cầm & click phải để dùng!'
+          - ''
+          - §cWARNING §e§l*
+          - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+          - ''
+          - §a[VẬT PHẨM CHỦ ĐỘNG]
+          blockMaterial: BLACK_SHULKER_BOX
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aRương than đen'
+    '14':
+      DisplayName: §9§lRương lưu li
+      DisplayItem: BLUE_SHULKER_BOX
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối lưu li'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      - ''
+      - '&a&lMay mắn: &f70&a/100'
+      MaxRange: 100
+      Chance: 70
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: BLUE_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §9§lRương lưu li
+          lore:
+          - ''
+          - ' §e§l*§f Chứa bên trong 27st khối lưu li'
+          - ' §e§l*§f Cầm & click phải để dùng!'
+          - ''
+          - §cWARNING §e§l*
+          - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+          - ''
+          - §a[VẬT PHẨM CHỦ ĐỘNG]
+          blockMaterial: BLUE_SHULKER_BOX
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aRương lưu li'
+    '15':
+      DisplayName: §c§lRương đá đỏ
+      DisplayItem: RED_SHULKER_BOX
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối đá đỏ'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      - ''
+      - '&a&lMay mắn: &f70&a/100'
+      MaxRange: 100
+      Chance: 70
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: RED_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §c§lRương đá đỏ
+          lore:
+          - ''
+          - ' §e§l*§f Chứa bên trong 27st khối đá đỏ'
+          - ' §e§l*§f Cầm & click phải để dùng!'
+          - ''
+          - §cWARNING §e§l*
+          - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+          - ''
+          - §a[VẬT PHẨM CHỦ ĐỘNG]
+          blockMaterial: RED_SHULKER_BOX
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aRương đá đỏ'
+    '16':
+      DisplayName: §7§lRương xương t-rex
+      DisplayItem: SILVER_SHULKER_BOX
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - ' §e§l*§f Chứa bên trong 27st khối xương t-rex'
+      - ' §e§l*§f Cầm & click phải để dùng!'
+      - ''
+      - §cWARNING §e§l*
+      - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+      - ''
+      - §a[VẬT PHẨM CHỦ ĐỘNG]
+      - ''
+      - '&a&lMay mắn: &f70&a/100'
+      MaxRange: 100
+      Chance: 70
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SILVER_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §7§lRương xương t-rex
+          lore:
+          - ''
+          - ' §e§l*§f Chứa bên trong 27st khối xương t-rex'
+          - ' §e§l*§f Cầm & click phải để dùng!'
+          - ''
+          - §cWARNING §e§l*
+          - §7Khi túi E đầy. Vật phẩm sẽ rớt xuống đất
+          - ''
+          - §a[VẬT PHẨM CHỦ ĐỘNG]
+          blockMaterial: SILVER_SHULKER_BOX
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aRương xương'
+    '17':
+      DisplayName: §eCây đuốc 0.391§2$
+      DisplayItem: REDSTONE_TORCH_ON
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+      - §7đuốc triệu đổi ra money mệnh giá tương ứng
+      - §2 ●§7 Chiết khấu 0%
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      - ''
+      - '&a&lMay mắn: &f75&a/100'
+      MaxRange: 100
+      Chance: 75
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_TORCH_ON
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCây đuốc 0.391§2$
+          lore:
+          - ''
+          - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+          - §7đuốc triệu đổi ra money mệnh giá tương ứng
+          - §2 ●§7 Chiết khấu 0%
+          - ''
+          - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aSéc 0.391$'
+    '18':
+      DisplayName: §eCây đuốc 0.869§2$
+      DisplayItem: REDSTONE_TORCH_ON
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+      - §7đuốc triệu đổi ra money mệnh giá tương ứng
+      - §2 ●§7 Chiết khấu 0%
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      - ''
+      - '&a&lMay mắn: &f72&a/100'
+      MaxRange: 100
+      Chance: 72
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_TORCH_ON
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCây đuốc 0.869§2$
+          lore:
+          - ''
+          - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+          - §7đuốc triệu đổi ra money mệnh giá tương ứng
+          - §2 ●§7 Chiết khấu 0%
+          - ''
+          - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aSéc 0.869$'
+    '19':
+      DisplayName: §eCây đuốc 2.173§2$
+      DisplayItem: REDSTONE_TORCH_ON
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+      - §7đuốc triệu đổi ra money mệnh giá tương ứng
+      - §2 ●§7 Chiết khấu 0%
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      - ''
+      - '&a&lMay mắn: &f69&a/100'
+      MaxRange: 100
+      Chance: 69
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_TORCH_ON
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCây đuốc 2.173§2$
+          lore:
+          - ''
+          - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+          - §7đuốc triệu đổi ra money mệnh giá tương ứng
+          - §2 ●§7 Chiết khấu 0%
+          - ''
+          - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aSéc 2.173$'
+    '20':
+      DisplayName: §eCây đuốc 4.347§2$
+      DisplayItem: REDSTONE_TORCH_ON
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+      - §7đuốc triệu đổi ra money mệnh giá tương ứng
+      - §2 ●§7 Chiết khấu 0%
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      - ''
+      - '&a&lMay mắn: &f66&a/100'
+      MaxRange: 100
+      Chance: 66
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_TORCH_ON
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCây đuốc 4.347§2$
+          lore:
+          - ''
+          - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+          - §7đuốc triệu đổi ra money mệnh giá tương ứng
+          - §2 ●§7 Chiết khấu 0%
+          - ''
+          - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aSéc 4.347$'
+    '21':
+      DisplayName: §eCây đuốc 8.695§2$
+      DisplayItem: REDSTONE_TORCH_ON
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+      - §7đuốc triệu đổi ra money mệnh giá tương ứng
+      - §2 ●§7 Chiết khấu 0%
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      - ''
+      - '&a&lMay mắn: &f63&a/100'
+      MaxRange: 100
+      Chance: 63
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_TORCH_ON
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCây đuốc 8.695§2$
+          lore:
+          - ''
+          - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+          - §7đuốc triệu đổi ra money mệnh giá tương ứng
+          - §2 ●§7 Chiết khấu 0%
+          - ''
+          - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aSéc 8.695$'
+    '22':
+      DisplayName: §eCây đuốc 21.739§2$
+      DisplayItem: REDSTONE_TORCH_ON
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+      - §7đuốc triệu đổi ra money mệnh giá tương ứng
+      - §2 ●§7 Chiết khấu 0%
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      - ''
+      - '&a&lMay mắn: &f60&a/100'
+      MaxRange: 100
+      Chance: 60
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_TORCH_ON
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCây đuốc 21.739§2$
+          lore:
+          - ''
+          - §2 ●§7 Dùng như 1 tấm séc. Số đô trên cây
+          - §7đuốc triệu đổi ra money mệnh giá tương ứng
+          - §2 ●§7 Chiết khấu 0%
+          - ''
+          - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aSéc 21.739$'
+    '23':
+      DisplayName: §2Túi Kim Cương Cấp §e§lD
+      DisplayItem: CHEST
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - ' §a§l*§f Chứa bên trong 500 khối kim cương'
+      - ' §a§l*§f Cầm trên tay & click chuột phải!'
+      - ''
+      - §a[Vật phẩm chủ động]
+      - ''
+      - '&a&lMay mắn: &f72&a/100'
+      MaxRange: 100
+      Chance: 72
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: CHEST
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §2Túi Kim Cương Cấp §e§lD
+          lore:
+          - ''
+          - ' §a§l*§f Chứa bên trong 500 khối kim cương'
+          - ' §a§l*§f Cầm trên tay & click chuột phải!'
+          - ''
+          - §a[Vật phẩm chủ động]
+          blockMaterial: CHEST
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aTúi kim cương &e&lD'
+    '24':
+      DisplayName: §2Túi Lục Bảo Cấp §e§lD
+      DisplayItem: TRAPPED_CHEST
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - ' §a§l*§f Chứa bên trong 500 khối lục bảo'
+      - ' §a§l*§f Cầm trên tay & click chuột phải!'
+      - ''
+      - §a[Vật phẩm chủ động]
+      - ''
+      - '&a&lMay mắn: &f72&a/100'
+      MaxRange: 100
+      Chance: 72
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: TRAPPED_CHEST
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §2Túi Lục Bảo Cấp §e§lD
+          lore:
+          - ''
+          - ' §a§l*§f Chứa bên trong 500 khối lục bảo'
+          - ' §a§l*§f Cầm trên tay & click chuột phải!'
+          - ''
+          - §a[Vật phẩm chủ động]
+          blockMaterial: TRAPPED_CHEST
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aTúi lục bảo &e&lD'
+    '25':
+      DisplayName: §2Túi Vàng Rồng Cấp §e§lD
+      DisplayItem: CHEST
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - ' §a§l*§f Chứa bên trong 500 khối vàng'
+      - ' §a§l*§f Cầm trên tay & click chuột phải!'
+      - ''
+      - §a[Vật phẩm chủ động]
+      - ''
+      - '&a&lMay mắn: &f72&a/100'
+      MaxRange: 100
+      Chance: 72
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: CHEST
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §2Túi Vàng Rồng Cấp §e§lD
+          lore:
+          - ''
+          - ' §a§l*§f Chứa bên trong 500 khối vàng'
+          - ' §a§l*§f Cầm trên tay & click chuột phải!'
+          - ''
+          - §a[Vật phẩm chủ động]
+          blockMaterial: CHEST
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aTúi vàng &e&lD'
+    '26':
+      DisplayName: §2Túi Sắt Cấp §e§lD
+      DisplayItem: TRAPPED_CHEST
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - ' §a§l*§f Chứa bên trong 500 khối sắt'
+      - ' §a§l*§f Cầm trên tay & click chuột phải!'
+      - ''
+      - §a[Vật phẩm chủ động]
+      - ''
+      - '&a&lMay mắn: &f72&a/100'
+      MaxRange: 100
+      Chance: 72
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: TRAPPED_CHEST
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §2Túi Sắt Cấp §e§lD
+          lore:
+          - ''
+          - ' §a§l*§f Chứa bên trong 500 khối sắt'
+          - ' §a§l*§f Cầm trên tay & click chuột phải!'
+          - ''
+          - §a[Vật phẩm chủ động]
+          blockMaterial: TRAPPED_CHEST
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aTúi sắt &e&lD'
+    '27':
+      DisplayName: §2Túi Hắc Diện Thạch Cấp §e§lD
+      DisplayItem: CHEST
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - ' §a§l*§f Chứa bên trong 500 khối hắc diện thạch'
+      - ' §a§l*§f Cầm trên tay & click chuột phải!'
+      - ''
+      - §a[Vật phẩm chủ động]
+      - ''
+      - '&a&lMay mắn: &f72&a/100'
+      MaxRange: 100
+      Chance: 72
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: CHEST
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §2Túi Hắc Diện Thạch Cấp §e§lD
+          lore:
+          - ''
+          - ' §a§l*§f Chứa bên trong 500 hắc diện thạch'
+          - ' §a§l*§f Cầm trên tay & click chuột phải!'
+          - ''
+          - §a[Vật phẩm chủ động]
+          blockMaterial: CHEST
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aTúi hắc diện thạch &e&lD'
+    '28':
+      DisplayName: §fSpawn §cNgười gác cổng §3Trái
+      DisplayItem: MONSTER_EGG
+      DisplayAmount: 1
+      Lore:
+      - §8§oA Mythical Egg that can
+      - §8§obe used to resurrect a
+      - §8§odecorate2
+      - ''
+      - '&a&lMay mắn: &f20&a/100'
+      MaxRange: 100
+      Chance: 20
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: MONSTER_EGG
+        meta:
+          ==: ItemMeta
+          meta-type: SPAWN_EGG
+          display-name: §fSpawn §cNg??i G�c C?ng§3?
+          lore:
+          - §8§oA Mythical Egg that can
+          - §8§obe used to resurrect a
+          - §8§odecorate2
+          enchants:
+            DURABILITY: 10
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aTrứng người gác cổng (trái)'
+    '29':
+      DisplayName: §fSpawn §cNgười gác cổng §3Phải
+      DisplayItem: MONSTER_EGG
+      DisplayAmount: 1
+      Lore:
+      - §8§oA Mythical Egg that can
+      - §8§obe used to resurrect a
+      - §8§odecorate
+      - ''
+      - '&a&lMay mắn: &f20&a/100'
+      MaxRange: 100
+      Chance: 20
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: MONSTER_EGG
+        meta:
+          ==: ItemMeta
+          meta-type: SPAWN_EGG
+          display-name: §fSpawn §cNg??i G�c C?ng§3?
+          lore:
+          - §8§oA Mythical Egg that can
+          - §8§obe used to resurrect a
+          - §8§odecorate
+          enchants:
+            DURABILITY: 10
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aTrứng người gác cổng (phải)'
+    '30':
+      DisplayName: §e࿏§f§lCây Chorus§e࿏
+      DisplayItem: CHORUS_PLANT
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §2 •§e Đổi ra các vũ khí sát thủ tại
+      - §e khu trao đổi §7(warp trade).
+      - ''
+      - '§a§lSỬ DỤNG:'
+      - §2• §eCầm item này trên tay và§a clickable
+      - §2• §ehoặc bấm /warp trade đến nhanh khu
+      - ''
+      - '§e Đổi từ: §7phiếu bé ngoan'
+      - ''
+      - '&a&lMay mắn: &f35&a/100'
+      MaxRange: 100
+      Chance: 35
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: CHORUS_PLANT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e࿏§f§lCây Chorus§e࿏
+          lore:
+          - ''
+          - §2 •§e Đổi ra các vũ khí sát thủ tại
+          - §e khu trao đổi §7(warp trade).
+          - ''
+          - '§a§lSỬ DỤNG:'
+          - §2• §eCầm item này trên tay và§a clickable
+          - §2• §ehoặc bấm /warp trade đến nhanh khu
+          - ''
+          - '§e Đổi từ: §7phiếu bé ngoan'
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &aCây chorus'
+    '31':
+      DisplayName: §ePixel block §8[§e⛁§8]
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 1
+      Lore:
+      - §7mua tại §e/shoppx
+      - ''
+      - §7 Dùng đổi ra các trang bị §f§lxịn§7 từ
+      - §7 khu vực trao đổi (§ewarp trade§7)
+      - ''
+      - '§e Giá trị: §2500 §e⛁'
+      - ''
+      - §eLOẠI VẬT PHẨM cho phép§a clickable
+      - ''
+      - '&a&lMay mắn: &f05&a/100'
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: false
+      Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmY2MTI1OWE3ZWQ3NWRmYzE1ZjQzMjhmNjlmYTVkNTQ5ZWYxYmE5YzdhYTg1YzUzYjhjNzYxNzNmYWMzYzY5In19fQ==='
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §ePixel block §8[§e⛁§8]
+          lore:
+          - §7mua tại §e/shoppx
+          - ''
+          - §7 Dùng đổi ra các trang bị §f§lxịn§7 từ
+          - §7 khu vực trao đổi (§ewarp trade§7)
+          - ''
+          - '§e Giá trị: §2500 §e⛁'
+          - ''
+          - §eLOẠI VẬT PHẨM cho phép§a clickable
+          internal: H4sIAAAAAAAAAE2Py26CQBhG/zZpQkkfo1sSEIfLwkXTkDhEUBDBnx2XsYgz1CA0MM/VByzLLr+ccxafCqDC2/E2cn7ovy9XzhR4pjW8E5usHcMtNLt0Vtq6LC3Ncc1Ks2vLrnSntoqqUEFdojvrhyt7vIIysGkYe/ZQAeBJgZe04CODXzb7en5u9Prs82qm1rKTo873tL3btEvn8pNaVCx8+2HtZvefS4YiIxxNv8m7aCxFqu/MmLNtbFTi9IMCV0FCjX3mmXkWmWEWC5SekbeRDNpGhC0XmKS3MIlInuGEwiMo6waTLwPlSWLbtKHEKZShwCyQKJHQznAv0WazPIA/ZuRzBRwBAAA=
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &apixel block &e500⛁'
+    '32':
+      DisplayName: §c§lʙình máu
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - §7Bình máu thì để hồi máu chứ làm cái gì.
+      - §7Hồi máu dạng tức thì (4§c♥§7)/1 bình
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      - ''
+      - '&a&lMay mắn: &f70&a/100'
+      MaxRange: 100
+      Chance: 70
+      Firework: true
+      Glowing: false
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNkYzljMTlhOTgzOTk0NTljZmQyOTZlN2ExMjg4Mjk5NDI2NWMxNmFiNGNjMTRiMmI4MzIyYjIzZGYyNWEifX19=
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §c§lʙình máu
+          lore:
+          - ''
+          - §7Bình máu thì để hồi máu chứ làm cái gì.
+          - §7Hồi máu dạng tức thì (4§c♥§7)/1 bình
+          - ''
+          - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+          internal: H4sIAAAAAAAAAE3Oy06DQBgF4F8TEyQ+hluS4Q5Lo7UdUgZLR247CkO5DLWh0DA8lY8oS5cn53zJkQFkeDl2E+dfw0/VcCbBIy7hNVeRiwrDVQym2YphG47iOrqqlGVZOaalujnSZJBXdGXD2LDbM0gjm8dpYDcZAB4keIpyPjH4ZcJDWVKjMvF4IbC1ZnpEPMDt1caXSJzesYX7td+9WXvh/tuaYx6bPNW9OrscplMfob0ecrYL1aL/vpMt6dKFtz7ldUDPS0A7RChvs/4gAppxom1mvz0bftuZ5ANrJPZn0n82q1tN2Pg9NvwFi7TFS7ZNBYk3TZWo7voe/gCrB7ihGAEAAA==
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &ax64 bình máu'
+    '33':
+      DisplayName: §c§lʙình máu §6§l+2
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - §7Bình máu thì để hồi máu chứ làm cái gì.
+      - §7Hồi máu dạng tức thì (8§c♥§7)/1 bình
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      - ''
+      - '&a&lMay mắn: &f70&a/100'
+      MaxRange: 100
+      Chance: 70
+      Firework: true
+      Glowing: false
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNkYzljMTlhOTgzOTk0NTljZmQyOTZlN2ExMjg4Mjk5NDI2NWMxNmFiNGNjMTRiMmI4MzIyYjIzZGYyNWEifX19=
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §c§lʙình máu §6§l+2
+          lore:
+          - ''
+          - §7Bình máu thì để hồi máu chứ làm cái gì.
+          - §7Hồi máu dạng tức thì (8§c♥§7)/1 bình
+          - ''
+          - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+          internal: H4sIAAAAAAAAAE3Oy06DQBgF4F8TEyQ+hluS4Q5Lo7UdUgZLR247CkO5DLWh0DA8lY8oS5cn53zJkQFkeDl2E+dfw0/VcCbBIy7hNVeRiwrDVQym2YphG47iOrqqlGVZOaalujnSZJBXdGXD2LDbM0gjm8dpYDcZAB4keIpyPjH4ZcJDWVKjMvF4IbC1ZnpEPMDt1caXSJzesYX7td+9WXvh/tuaYx6bPNW9OrscplMfob0ecrYL1aL/vpMt6dKFtz7ldUDPS0A7RChvs/4gAppxom1mvz0bftuZ5ANrJPZn0n82q1tN2Pg9NvwFi7TFS7ZNBYk3TZWo7voe/gCrB7ihGAEAAA==
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &ax64 bình máu 2'
+    '34':
+      DisplayName: §c§lʙình máu §6§l+3
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - §7Bình máu thì để hồi máu chứ làm cái gì.
+      - §7Hồi máu dạng tức thì (10§c♥§7)/1 bình
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      - ''
+      - '&a&lMay mắn: &f70&a/100'
+      MaxRange: 100
+      Chance: 70
+      Firework: true
+      Glowing: false
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNkYzljMTlhOTgzOTk0NTljZmQyOTZlN2ExMjg4Mjk5NDI2NWMxNmFiNGNjMTRiMmI4MzIyYjIzZGYyNWEifX19=
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §c§lʙình máu §6§l+3
+          lore:
+          - ''
+          - §7Bình máu thì để hồi máu chứ làm cái gì.
+          - §7Hồi máu dạng tức thì (10§c♥§7)/1 bình
+          - ''
+          - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+          internal: H4sIAAAAAAAAAE3Oy06DQBgF4F8TEyQ+hluS4Q5Lo7UdUgZLR247CkO5DLWh0DA8lY8oS5cn53zJkQFkeDl2E+dfw0/VcCbBIy7hNVeRiwrDVQym2YphG47iOrqqlGVZOaalujnSZJBXdGXD2LDbM0gjm8dpYDcZAB4keIpyPjH4ZcJDWVKjMvF4IbC1ZnpEPMDt1caXSJzesYX7td+9WXvh/tuaYx6bPNW9OrscplMfob0ecrYL1aL/vpMt6dKFtz7ldUDPS0A7RChvs/4gAppxom1mvz0bftuZ5ANrJPZn0n82q1tN2Pg9NvwFi7TFS7ZNBYk3TZWo7voe/gCrB7ihGAEAAA==
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &ax64 bình máu 3'
+    '35':
+      DisplayName: §c§lʙình máu §6§lmax
+      DisplayItem: SKULL_ITEM:3
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - §7Bình máu thì để hồi máu chứ làm cái gì.
+      - §7Hồi máu dạng tức thì (14§c♥§7)/1 bình
+      - ''
+      - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+      - ''
+      - '&a&lMay mắn: &f70&a/100'
+      MaxRange: 100
+      Chance: 70
+      Firework: true
+      Glowing: false
+      Player: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNkYzljMTlhOTgzOTk0NTljZmQyOTZlN2ExMjg4Mjk5NDI2NWMxNmFiNGNjMTRiMmI4MzIyYjIzZGYyNWEifX19=
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 3
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: §c§lʙình máu §6§lmax
+          lore:
+          - ''
+          - §7Bình máu thì để hồi máu chứ làm cái gì.
+          - §7Hồi máu dạng tức thì (14§c♥§7)/1 bình
+          - ''
+          - §a§l{VẬT PHẨM CHỦ ĐỘNG}
+          internal: H4sIAAAAAAAAAE3Oy06DQBgF4F8TEyQ+hluS4Q5Lo7UdUgZLR247CkO5DLWh0DA8lY8oS5cn53zJkQFkeDl2E+dfw0/VcCbBIy7hNVeRiwrDVQym2YphG47iOrqqlGVZOaalujnSZJBXdGXD2LDbM0gjm8dpYDcZAB4keIpyPjH4ZcJDWVKjMvF4IbC1ZnpEPMDt1caXSJzesYX7td+9WXvh/tuaYx6bPNW9OrscplMfob0ecrYL1aL/vpMt6dKFtz7ldUDPS0A7RChvs/4gAppxom1mvz0bftuZ5ANrJPZn0n82q1tN2Pg9NvwFi7TFS7ZNBYk3TZWo7voe/gCrB7ihGAEAAA==
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &ax64 bình máu 4'
+    '36':
+      DisplayName: §b§lLọ ᴍᴀɴᴀ cấp tốc
+      DisplayItem: INK_SACK:12
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - §7 Nhấp §f§nRight-click§7 để sử dụng
+      - §7§l +200§7ᴍɴ tức thì
+      - ''
+      - §eLOẠI VẬT PHẨM§a clickable
+      - ''
+      - '&a&lMay mắn: &f65&a/100'
+      MaxRange: 100
+      Chance: 65
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 12
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §b§lLọ ᴍᴀɴᴀ cấp tốc
+          lore:
+          - ''
+          - §7 Nhấp §f§nRight-click§7 để sử dụng
+          - §7§l +200§7ᴍɴ tức thì
+          - ''
+          - §eLOẠI VẬT PHẨM§a clickable
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &asóc lọ mana cấp tốc'
+    '37':
+      DisplayName: §e§lPIXEL COINS §e(§75§e)
+      DisplayItem: GOLD_INGOT
+      DisplayAmount: 10
+      Lore:
+      - ''
+      - §7 +5 điểm tiền tệ Pixel Coins vào
+      - §7 tài khoản để bạn sinh hoạt.
+      - ''
+      - §aCầm và CLICK-PHẢI để tiêu thụ
+      - ''
+      - '&a&lMay mắn: &f50&a/100'
+      MaxRange: 100
+      Chance: 50
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: GOLD_INGOT
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§lPIXEL COINS §e(§75§e)
+          lore:
+          - ''
+          - §7 +5 điểm tiền tệ Pixel Coins vào
+          - §7 tài khoản để bạn sinh hoạt.
+          - ''
+          - §aCầm và CLICK-PHẢI để tiêu thụ
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &a50 &e⛁'
+    '38':
+      DisplayName: §e§lPIXEL COINS §e(§75§e)
+      DisplayItem: GOLD_INGOT
+      DisplayAmount: 20
+      Lore:
+      - ''
+      - §7 +5 điểm tiền tệ Pixel Coins vào
+      - §7 tài khoản để bạn sinh hoạt.
+      - ''
+      - §aCầm và CLICK-PHẢI để tiêu thụ
+      - ''
+      - '&a&lMay mắn: &f30&a/100'
+      MaxRange: 100
+      Chance: 30
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: GOLD_INGOT
+        amount: 20
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e§lPIXEL COINS §e(§75§e)
+          lore:
+          - ''
+          - §7 +5 điểm tiền tệ Pixel Coins vào
+          - §7 tài khoản để bạn sinh hoạt.
+          - ''
+          - §aCầm và CLICK-PHẢI để tiêu thụ
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &a100 &e⛁'
+    '39':
+      DisplayName: §2bình TÂM LINH
+      DisplayItem: LINGERING_POTION
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §7 +1 điểm Tâm Linh vào nhân vật
+      - §7 Điểm dùng để tăng thuộc tính cho main.
+      - ''
+      - §aCầm và CLICK-PHẢI để tiêu thụ
+      - ''
+      - '&a&lMay mắn: &f15&a/100'
+      MaxRange: 100
+      Chance: 15
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: LINGERING_POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §2bình TÂM LINH
+          lore:
+          - ''
+          - §7 +1 điểm Tâm Linh vào nhân vật
+          - §7 Điểm dùng để tăng thuộc tính cho main.
+          - ''
+          - §aCầm và CLICK-PHẢI để tiêu thụ
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &abình tâm linh'
+    '40':
+      DisplayName: §aThẻ ℱly §2☘ §8giới hạn
+      DisplayItem: NAME_TAG
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - §2§l ♡§7Cho phép bạn §2/fly§7 vĩnh viễn
+      - §2§l ♡§7Out game hết hiệu lực
+      - §2§l Click phải§2 để dùng item
+      - §a【§2Grassmc§a】 §2〖§agrassmc§2〗
+      - ''
+      - '&a&lMay mắn: &f30&a/100'
+      MaxRange: 100
+      Chance: 30
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: NAME_TAG
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aThẻ ℱly §2☘ §8giới hạn
+          lore:
+          - ''
+          - §2§l ♡§7Cho phép bạn §2/fly§7 vĩnh viễn
+          - §2§l ♡§7Out game hết hiệu lực
+          - §2§l Click phải§2 để dùng item
+          - §a【§2Grassmc§a】 §2〖§agrassmc§2〗
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &athẻ fly giới hạn'
+    '41':
+      DisplayName: '&eJuest Táo vàng'
+      DisplayItem: GOLDEN_APPLE
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - '&a&lMay mắn: &f75&a/100'
+      MaxRange: 100
+      Chance: 75
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+        amount: 64
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &atáo vàng'
+    '42':
+      DisplayName: '&eTáo vàng enhancer'
+      DisplayItem: GOLDEN_APPLE:1
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - '&a&lMay mắn: &f70&a/100'
+      MaxRange: 100
+      Chance: 70
+      Firework: true
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items: []
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+        damage: 1
+        amount: 64
+      Commands: []
+      Messages:
+      - '&a☘&e Xin chúc mừng. Bạn vừa claim được: &atáo vàng enhancer'

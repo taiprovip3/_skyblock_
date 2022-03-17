@@ -1,0 +1,227 @@
+menu-settings:
+  name: '&cMáy Chủ&6♦&8 Shop Pixelcoin☘'
+  rows: 3
+  command: 'shoppx; shoppc'
+a1:
+  POINTS: 500
+  COMMAND: 'console:mm i give {player} it_px 1'
+  NAME: '&eᴘɪxᴇʟ ʙʟᴏᴄᴋ &l⚄'
+  LORE:
+    - ''
+    - '&f一&7Dạng vật phẩm đổi từ điểm PixelCoin'
+    - '&f一&7Trao đổi ra các TR.Bị, VP tại &awarp trade'
+    - '&7Giá mua: &2500 &7pixelcoin (&e&l⛀&7)'
+    - ''
+    - '&fᴍô ᴛả:'
+    - '&7Vật phẩm được làm từ chất liệu vàng rồng nguyên'
+    - '&7chất, óng ánh, có giá trị cao trên thị trường'
+    - '&7bạn có thể giao dịch hoặc sell cho người khác.'
+    - ''
+    - '&7(nhấp mua)'
+  ID: '397:3'
+  SKULL-OWNER: 'MHF_CoconutG'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+a2:
+  POINTS: 50
+  COMMAND: 'console:voucher give {player} noinang1 1'
+  NAME: '&eBình nội năng &41đ'
+  LORE:
+    - ''
+    - '&f一&7Sử dụng nội năng để kích hoạt Stand user'
+    - '&7hoặc unique sau khi đã thức tỉnh/mở khóa chúng.'
+    - '&7Giá mua: &250 &7pixelcoin (&e&l⛀&7)'
+    - ''
+    - '&fᴍô ᴛả:'
+    - '&7Vật phẩm khá hiếm hoi trên thị trường, sử dụng'
+    - '&7chủ yếu bởi những người chơi lão luyện, lực chiến'
+    - '&7cao.'
+    - ''
+    - '&7(nhấp mua)'
+  ID: '384'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+a3:
+  POINTS: 50
+  COMMAND: 'console:socket load Rod Unlock {player} 1'
+  NAME: '&3༺&eThanh Gỡ Khóa&3༻'
+  LORE:
+    - ''
+    - '&7 Dùng để mở khóa lỗ thạch đã được đục'
+    - '&7 nhưng bị phong ấn do &c&lVẬN XUI&7.'
+    - ''
+    - '&7Mệnh giá: &250 &7Pixelcoin (&e&l⛀&7)'
+    - ''
+    - '&fᴍô ᴛả:'
+    - '&7Bạn có 1 trang bị đã đục lỗ thạch nhưng do'
+    - '&7vận xui nên lỗ thạch tuy được đục nhưng bị'
+    - '&7phong ấn. Hãy dùng thanh gỡ khóa này!'
+    - ''
+    - '&7(nhấp mua)'
+  ID: 369
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 1
+a4:
+  POINTS: 100
+  COMMAND: 'op:socket load rod remove'
+  NAME: '&3༺&6Thanh Gỡ Thạch&3༻'
+  LORE:
+    - ''
+    - '&f一&7Dạng vật phẩm đổi từ điểm RB'
+    - '&f一&7Dùng tách ngọc ra từ 1 trang bị'
+    - '&7đưa ngọc về dạng thạch trở về túi.'
+    - '&7Mệnh giá: &e100 &7Pixelcoin (&e&l⛀&7)'
+    - ''
+    - '&fᴍô ᴛả:'
+    - '&7Bạn có 1 trang bị mới mạnh hơn và muốn gắn'
+    - '&7thạch từ trang bị cũ vào. Thì &aTHANH GỠ THẠCH'
+    - '&7và bước trung gian cần thiết nhất!'
+    - ''
+    - '&7(nhấp mua)'
+  ID: 280
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+a5:
+  POINTS: 5
+  COMMAND: 'op:mm i get rpg_daren'
+  NAME: '&8◁&2✦ &e&lĐá Rèn &2✦&8▷'
+  LORE:
+    - ''
+    - '&7 Dùng để rèn trang bị bằng nhiều tính'
+    - '&7 như: tẩy luyện, rèn cúp, khảm unbreakble..'
+    - ''
+    - '&a&l SỬ DỤNG:&7 tích trữ đủ số lượng vào túi'
+    - '&e&l E&7 và đến giao diện &eRÈN&7 nâng cấp'
+    - ''
+    - '&e Groupding:&7 item mất giá trị khi đặt xuống'
+    - '&7 đất vì biến dạng &9&l(!)'
+    - ''
+    - '&eLOẠI VẬT PHẨM&a storage&e and&a clickable'
+    - ''
+    - '&7Mệnh giá: &e5.0 &7Pixelcoin (&e&l⛀&7)'
+    - '&7(nhấp mua)'
+  ID: '397:3'
+  SKULL-OWNER: 'MHF_CoconutB'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 1
+a6:
+  POINTS: 100
+  COMMAND: 'op:mm i get it_socket1'
+  NAME: '&e&lTÚI &6Thạch đá - {gems} Ｌｖ&f.&61 &e&lRANDOM'
+  LORE:
+    - ''
+    - ' &f ⇱ &e&l thông tin &f ⇲'
+    - '&a This is: &7thạch đá lv.{grade}'
+    - '&a Khảm lên:&7 {type_item},&8 công cụ'
+    - '&a Tỉ lệ: &7{success_rate}%&a⇧ &7{failure_rate}%&4⇩'
+    - ''
+    - ' &f (( &2 hiệu quả &a/&2 cách dùng &f ))'
+    - '&f (&a༜&f) &2+{max_health}%&7 Sinh lực tối đa'
+    - '&aCÁCH DÙNG: &ekéo thả thạch vào tr.bị'
+    - ''
+    - '&7Mệnh giá: &e100.0 &7Pixelcoin (&e&l⛀&7)'
+    - '&7(nhấp mua)'
+  ID: 388
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 2
+a7:
+  POINTS: 300
+  COMMAND: 'op:mm i get it_socket2'
+  NAME: '&e&lTÚI &6Thạch đá - {gems} Ｌｖ&f.&62 &e&lRANDOM'
+  LORE:
+    - ''
+    - ' &f ⇱ &e&l thông tin &f ⇲'
+    - '&a This is: &7thạch đá lv.{grade}'
+    - '&a Khảm lên:&7 {type_item},&8 công cụ'
+    - '&a Tỉ lệ: &7{success_rate}%&a⇧ &7{failure_rate}%&4⇩'
+    - ''
+    - ' &f (( &2 hiệu quả &a/&2 cách dùng &f ))'
+    - '&f (&a༜&f) &2+{max_health}%&7 Sinh lực tối đa'
+    - '&aCÁCH DÙNG: &ekéo thả thạch vào tr.bị'
+    - ''
+    - '&7Mệnh giá: &e300.0 &7Pixelcoin (&e&l⛀&7)'
+    - '&7(nhấp mua)'
+  ID: 388
+  AMOUNT: 2
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+a8:
+  POINTS: 500
+  COMMAND: 'op:mm i get it_socket3'
+  NAME: '&e&lTÚI &6Thạch đá - {gems} Ｌｖ&f.&63 &e&lRANDOM'
+  LORE:
+    - ''
+    - ' &f ⇱ &e&l thông tin &f ⇲'
+    - '&a This is: &7thạch đá lv.{grade}'
+    - '&a Khảm lên:&7 {type_item},&8 công cụ'
+    - '&a Tỉ lệ: &7{success_rate}%&a⇧ &7{failure_rate}%&4⇩'
+    - ''
+    - ' &f (( &2 hiệu quả &a/&2 cách dùng &f ))'
+    - '&f (&a༜&f) &2+{max_health}%&7 Sinh lực tối đa'
+    - '&aCÁCH DÙNG: &ekéo thả thạch vào tr.bị'
+    - ''
+    - '&7Mệnh giá: &e500.0 &7Pixelcoin (&e&l⛀&7)'
+    - '&7(nhấp mua)'
+  ID: 388
+  AMOUNT: 3
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+a9:
+  POINTS: 800
+  COMMAND: 'op:mm i get it_socket4'
+  NAME: '&e&lTÚI &6Thạch đá - {gems} Ｌｖ&f.&64 &e&lRANDOM'
+  LORE:
+    - ''
+    - ' &f ⇱ &e&l thông tin &f ⇲'
+    - '&a This is: &7thạch đá lv.{grade}'
+    - '&a Khảm lên:&7 {type_item},&8 công cụ'
+    - '&a Tỉ lệ: &7{success_rate}%&a⇧ &7{failure_rate}%&4⇩'
+    - ''
+    - ' &f (( &2 hiệu quả &a/&2 cách dùng &f ))'
+    - '&f (&a༜&f) &2+{max_health}%&7 Sinh lực tối đa'
+    - '&aCÁCH DÙNG: &ekéo thả thạch vào tr.bị'
+    - ''
+    - '&7Mệnh giá: &e800.0 &7Pixelcoin (&e&l⛀&7)'
+    - '&7(nhấp mua)'
+  ID: 388
+  AMOUNT: 4
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 2
+a10:
+  POINTS: 1500
+  COMMAND: 'op:mm i get it_socket5'
+  NAME: '&e&lTÚI &6Thạch đá - {gems} Ｌｖ&f.&65 &e&lRANDOM'
+  LORE:
+    - ''
+    - ' &f ⇱ &e&l thông tin &f ⇲'
+    - '&a This is: &7thạch đá lv.{grade}'
+    - '&a Khảm lên:&7 {type_item},&8 công cụ'
+    - '&a Tỉ lệ: &7{success_rate}%&a⇧ &7{failure_rate}%&4⇩'
+    - ''
+    - ' &f (( &2 hiệu quả &a/&2 cách dùng &f ))'
+    - '&f (&a༜&f) &2+{max_health}%&7 Sinh lực tối đa'
+    - '&aCÁCH DÙNG: &ekéo thả thạch vào tr.bị'
+    - ''
+    - '&7Mệnh giá: &e1500.0 &7Pixelcoin (&e&l⛀&7)'
+    - '&7(nhấp mua)'
+  ID: 388
+  AMOUNT: 5
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+1du:
+  COMMAND: 'console:bs open shop {player}'
+  NAME: '&c&lGo Back'
+  ID: '351:8'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 3

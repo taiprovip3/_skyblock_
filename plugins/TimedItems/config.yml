@@ -1,0 +1,46 @@
+#CHÚ Ý!! Bạn chỉ nên sửa những config dưới đây lúc mới cài plugin này
+#Vì khi sửa, những item cũ với dữ liệu ngày tháng cũ sẽ trở thành vĩnh viễn!
+#=========================
+
+#Kiểm tra tất cả lore hay chỉ kiểm tra dòng cuối
+#Nên bật tính năng này nếu bạn xài plugin can thiệp vào lore như soulbound hoặc khảm trang bị
+#Nếu tính năng này được bật, dòng static-line sẽ xuất hiện để xác định dòng dữ liệu ngày tháng
+check-all-lore: true
+
+#Định dạng ngày tháng, khuyến cáo nên để nguyên
+#Tham khảo thêm định dạng ngày tháng tại: https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
+date-format: dd-MM-yyyy HH:mm
+
+#=========================
+locale:
+ prefix: '&f&l[&e&lGRASSMC&f&l] '
+ expired: '&b&lVật phẩm %vp &b&lcủa bạn đã hết hạn sử dụng!'
+ static-line: '&f〖&2Vật phẩm được gia hạn&f〗'
+ unactivated: '&2Thời hạn: '
+ activated: '&eHết hạn: '
+ extend-lock: '&f〖&cKhông thể gia hạn&f〗'
+
+#Cho phép gia hạn bằng phụ kiện gia hạn?
+allow-extender: true
+#Cho phép cộng dồn ngày item cùng loại?
+allow-extends: true
+
+#=========================
+#Thông tin của phụ kiện gia hạn
+#Bạn có thể sửa lore hoặc thêm enchant tùy thích, miễn là giữ lại tên item như config dưới đây.
+extender:
+ name: '&b&lPhụ kiện gia hạn &6extender'
+ #Khuyến cáo nên để nguyên material
+ #Danh sách material: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+ material: WATCH
+ lores:
+ - ''
+ - '&7 Dùng để gia hạn 1 vật phẩm có'
+ - '&7 thời hạn sử dụng.'
+ - ''
+ - '&e&l THỜI GIAN GIA HẠN THÊM:&7 1 ngày.'
+ - ''
+ - '&a&l CÁCH DÙNG:&7 kéo thả vào item cần'
+ - '&7 gia hạn (vô hiệu với item ko có timed)'
+ #Số ngày để item trở thành vĩnh viễn, chỉnh thành 99999 nếu muốn bỏ chức năng này.
+ days-to-perm: 1000

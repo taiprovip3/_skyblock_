@@ -1,0 +1,79 @@
+ShopName: caves
+DisplayName: '&8Server &2☘&8 hang động'
+Sound:
+  Shop:
+    Open: ENTITY_PLAY_LEVELUP:1:1
+    ChangeShop: ENTITY_PLAY_LEVELUP:1:1
+shop:
+  1:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTYyMjQ5NDEzMTRiY2EyZWJiYjY2YjEwZmZkOTQ2ODBjYzk4YzM0MzVlZWI3MWEyMjhhMDhmZDQyYzI0ZGIifX19=
+    - name:&eHang động &7Thợ mỏ Ma
+    - 'lore1:&e(Điểm farm quái &6YẾU)'
+    - 'lore3:&2Máu:&7 22 &4♥&7/con'
+    - 'lore5:&2Rơi đồ: &7tinh hoa, đá rèn, đá cường hóa, exp'
+    - 'lore7:&aNhấp icon&e để vào cave'
+    RewardType: command
+    Reward:
+    - ewarp tmm %player%
+    InventoryLocation: 1
+  2:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWY5OGVmNThkZjJjYTg3MTE5MzQ5OGU3NjllNWFmYTJiZGRmNjY1ODBjNjJkNjFjMmYzYzY2NGQxNjY0YmYifX19=
+    - name:&eThuyền &7Kẻ cướp eme
+    - 'lore1:&e(Điểm farm quái &6THƯỜNG)'
+    - 'lore3:&2Máu:&7 23 &4♥&7/con'
+    - 'lore5:&2Rơi đồ: &7tinh hoa, đá rèn, đá cường hóa, exp'
+    - 'lore7:&aNhấp icon&e để vào cave'
+    RewardType: command
+    Reward:
+    - ewarp kecuop %player%
+    InventoryLocation: 2
+  3:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ===
+    - name:&eCổng &7Ghost Rider
+    - 'lore1:&e(Điểm farm quái &6 MẠNH)'
+    - 'lore3:&2Máu:&7 24 &4♥&7/con'
+    - 'lore5:&2Rơi đồ: &7tinh hoa, đá rèn, đá cường hóa, exp'
+    - 'lore7:&aNhấp icon&e để vào cave'
+    RewardType: command
+    Reward:
+    - ewarp ghostrider %player%
+    InventoryLocation: 3
+  4:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWEzNmI3NTMyZDM2MmIxNDZlZGQ4YTNlNWExNGFmODliMDkzOWIxNDhlODljMzE1ZjgzYzY3ZjQ4YzQzNTAifX19=
+    - name:&2Đồng cỏ xanh &7Hulk
+    - 'lore1:&e(Điểm farm quái &6RẤT MẠNH)'
+    - 'lore3:&2Máu:&7 26 &4♥&7/con'
+    - 'lore5:&2Rơi đồ: &7tinh hoa, đá rèn, đá cường hóa, exp'
+    - 'lore7:&aNhấp icon&e để vào cave'
+    RewardType: command
+    Reward:
+    - ewarp hulk %player%
+    InventoryLocation: 4
+  5:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZkNjIzZmZiNDdjNGU0ODc4ZGJiNjZiYTAxNzllNzdlMGZjYTE2Y2FmMjAxNTU0M2RiNDljNjRjZmRlMzYifX19=
+    - name:&2Đồng cỏ &7Black pather
+    - 'lore1:&e(Điểm farm quái &6CỰC ĐẠI)'
+    - 'lore3:&2Máu:&7 28 &4♥&7/con'
+    - 'lore5:&2Rơi đồ: &7tinh hoa, đá rèn, đá cường hóa, exp'
+    - 'lore7:&aNhấp icon&e để vào cave'
+    RewardType: command
+    Reward:
+    - ewarp blackpanther %player%
+    InventoryLocation: 5
+  bak:
+    MenuItem:
+    - type:351:8
+    - name:&c&lQUAY LẠI
+    RewardType: shop
+    Reward: warp
+    InventoryLocation: 9

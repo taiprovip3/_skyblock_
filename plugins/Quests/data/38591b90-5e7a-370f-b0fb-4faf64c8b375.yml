@@ -1,0 +1,23 @@
+currentQuests:
+- the hunter
+currentStages:
+- 0
+quest-points: 1
+questData:
+  the hunter:
+    mobs-killed:
+    - Zombie
+    mobs-killed-amounts:
+    - 5
+completed-Quests:
+- smelting cactus
+completedRedoableQuests:
+- smelting cactus
+completedQuestTimes:
+- 1625680784052
+amountsCompletedQuests:
+- smelting cactus
+amountsCompleted:
+- 1
+hasJournal: false
+lastKnownName: sonprovn248

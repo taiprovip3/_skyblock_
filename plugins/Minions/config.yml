@@ -1,0 +1,250 @@
+#############################################
+#                                           #
+#                  Minions                  #
+#             Created by Jet315             #
+#                                           #
+#############################################
+
+#The prefix that is shown before the plugin
+PluginsPrefix: "&8&lTHỢ MỎ &a☘ &8Minion&r "
+
+#Just whether you want Minions to only be picked up if they are on full health
+OnlyAllowMinionPickupIfFullHealth: false
+
+#The maximum allowed minion name length in characters(Can be anything really)
+MaxAllowedNameLength: 25
+
+#Would NOT suggest setting this to false
+#Setting this to false will mean data is stored using PlayerNames rather than UUIDs
+#By setting to false, it is assumed your server is cracked meaning the plugin will not contact mojang's servers for skins
+UseUUIDs: true
+
+#So if food is enabled for a minion, right-clicking a minion with food specified from this list will heal it by the set amount
+#Format: Material:data:amount
+FoodList:
+  - BREAD:0:2 #Will heal two hearts of a minion
+  - APPLE:0:2 #Will heal two hearts of a minion
+  - COOKED_BEEF:0:4
+  - COOKED_MUTTON:0:4
+  - PORK:0:4
+  - COOKED_CHICKEN:0:4
+  - GOLDEN_APPLE:0:10 #Gapple - 10 hearts
+  - GOLDEN_APPLE:1:20 #Super gapple - 20 hearts
+
+#Any disabled worlds?
+#DisabledWorlds: []
+DisabledWorlds:
+  - world_nether
+  - world_the_end
+
+#Any blocks you wish the minion not to destroy?
+#This list may not work for custom minions (developed by other developers)
+DisabledBlocks:
+  - BEDROCK
+  - CHEST
+  - DRAGON_EGG
+  - MOB_SPAWNER
+
+#Same as above, any entities you wish the minions not to kill?
+#Again may not work for custom made minions
+DisabledEntities:
+  - ENDER_DRAGON
+  - WITHER
+  - GHAST
+  - PLAYER
+  - ARMOR_STAND
+
+#Same as above, any materials you wish the item not to pickup
+DisabledItems: []
+
+#The maxmimum distance the player can place a minions chest from the minion iteself
+MaximumChestDistanceFromMininon: 30
+
+MaxMinionsAllowed:
+  - minions.place.default:1 #Specifiy the permission : number of minions allowed. Depending on what permission the user has will depend on how many the user can place. the permission minions.admin.bypasslimit can also be used for no limit
+  - minerminion.place.vip:2
+  - minerminion.place.vip+:3
+  - minerminion.place.mvp:4
+  - minerminion.place.mvp+:5
+  - minerminion.place.king:6
+#OR you can also do permissions per minion type
+#  - minions.place.<miniontype>:amount
+
+Minions:
+  Miner: #identifier (To customise control panel find Miner in controlpanel.yml)
+    Settings:
+      TicksPerAnimation: 4 #How often do you want the animation to update in ticks (20 = 1 second)
+      TicksPerAction: 100 #How often do you want the minion to mine the rock infront in ticks (20 = 1 second)
+      DefaultSkin: Miner #Want to change the default skin? Check the skins.yml file (You can modify the Miner skin, or create your own one!)
+    Health:
+      EnableHealth: true #Health for all Minions is 20, health goes down over time & is recovered by feeding a minion. When health gets to 0 the minion will stop
+      ActionPerHealth: 10 #The amount of actions (in this case block mines) the minion can do before dropping 1 health
+      RightClickWithFoodToFeed: true #Whether the people can right-click the minion with food to heal it
+      FeedWithMoney: true #Players will click a GUI option to feed with money
+      FeedWithMoneyCost: 1000000 #If the above is true & the GUI has a 'feedwithmoney' option, how much should it cost them to fully feed the minion?
+    DisplayItem: #
+      Item: SKULL_ITEM
+      Damage: 1 #For items that require additional data, put this here
+      Glow: true #Do you want the item to have the enchanted glow?
+      DisplayName: "&e&lTHỢ MỎ&2 ☫ &6miner" #Can use %STATS% for the blocks mined, and %LEVEL% for the level of the minion
+      Lore:
+        - " "
+        - "&7 Tự động farm blocks tài nguyên vào 1"
+        - "&7 vào rương chỉ định."
+        - " "
+        - "&a&l CÁCH DÙNG:"
+        - "&a ĐẶT&7 minion trước máy farm block và tạo"
+        - "&a LIÊN KẾT&7 đến 1 cái rương tùy thích."
+        - " "
+        - "&e&l ĐẶT:&7 bấm &eshift &7+ &echuột-phải&7 để đặt"
+        - "&e&l LIÊN KẾT:&e chuột phải&7 vào minion ->"
+        - "&e phải&7 vào rương mong muốn."
+        - " "
+        - "&2&l SETTINGS khác:&e Chuột phải vào Minion."
+        - " "#Can use %STATS% for the blocks mined, and %LEVEL% for the level of the minion
+        - "&eSố khối đã đào: &b%STATS%"
+        - "&eCấp: &b%LEVEL%"
+  Slayer:
+    Settings:
+      TicksPerAnimation: 4
+      TicksPerAction: 140
+      DefaultSkin: Slayer
+    Health:
+      EnableHealth: true
+      ActionPerHealth: 4
+      RightClickWithFoodToFeed: true
+      FeedWithMoney: true
+      FeedWithMoneyCost: 1000000
+    DisplayItem:
+      Item: NETHER_STAR
+      Damage: 0
+      Glow: true
+      DisplayName: "&eMinion &cGiết Mobs" #Can use %STATS% for the kills the minion has done, and %LEVEL% for the level of the minion
+      Lore:
+        - "&7Chuột phải vào Minion" #Can use %STATS% for the blocks mined, and %LEVEL% for the level of the minion
+        - "&7để đặt nó ! Sau khi đặt"
+        - "&7nó sẽ khai thác khối trước mặt."
+        - "&7Nhớ cho nó ăn!" #If you don't want minions to be fed, maybe delete this :)
+        - " "
+        - "&eQuái đã giết: &b%STATS%"
+        - "&eCấp: &b%LEVEL%"
+  Collector:
+    Settings:
+      TicksPerAnimation: 4
+      TicksPerAction: 100
+      DefaultSkin: Collector
+    Health:
+      EnableHealth: true
+      ActionPerHealth: 15
+      RightClickWithFoodToFeed: true
+      FeedWithMoney: true
+      FeedWithMoneyCost: 1000000
+    DisplayItem:
+      Item: NETHER_STAR
+      Damage: 0
+      Glow: true
+      DisplayName: "&eMinion &6Sưu Tầm" #Can use %STATS% for the kills the minion has done, and %LEVEL% for the level of the minion
+      Lore:
+        - "&7Chuột phải vào Minion" #Can use %STATS% for the blocks mined, and %LEVEL% for the level of the minion
+        - "&7để đặt nó ! Sau khi đặt"
+        - "&7nó sẽ khai thác khối trước mặt."
+        - "&7Nhớ cho nó ăn!" #If you don't want minions to be fed, maybe delete this :)
+        - " "
+        - "&eVật phẩm sưu tầm: &b%STATS%"
+        - "&eCấp: &b%LEVEL%"
+  Feeder:
+    Settings:
+      TicksPerAnimation: 4
+      TicksPerAction: 300
+      DefaultSkin: Feeder
+    Health:
+      EnableHealth: true
+      ActionPerHealth: 15
+      RightClickWithFoodToFeed: true
+      FeedWithMoney: true
+      FeedWithMoneyCost: 1000000
+    DisplayItem:
+      Item: NETHER_STAR
+      Damage: 0
+      Glow: true
+      DisplayName: "&eMinon &6Chữa Đói"
+      Lore:
+        - "&7Chuột phải vào Minion" #Can use %STATS% for the blocks mined, and %LEVEL% for the level of the minion
+        - "&7để đặt nó ! Sau khi đặt"
+        - "&7nó sẽ khai thác khối trước mặt."
+        - "&7Nhớ cho nó ăn!" #If you don't want minions to be fed, maybe delete this :)
+        - " "
+        - "&eChữa Đói: &b%STATS%"
+        - "&eCấp: &b%LEVEL%"
+  Lumberjack:
+    Settings:
+      TicksPerAnimation: 4
+      TicksPerAction: 200
+      DefaultSkin: Lumberjack
+    Health:
+      EnableHealth: true
+      ActionPerHealth: 10
+      RightClickWithFoodToFeed: true
+      FeedWithMoney: true
+      FeedWithMoneyCost: 1000000
+    DisplayItem:
+      Item: NETHER_STAR
+      Damage: 0
+      Glow: true
+      DisplayName: "&eMinion &5Chặt Gỗ"
+      Lore:
+        - "&7Chuột phải vào Minion" #Can use %STATS% for the blocks mined, and %LEVEL% for the level of the minion
+        - "&7để đặt nó ! Sau khi đặt"
+        - "&7nó sẽ khai thác khối trước mặt."
+        - "&7Nhớ cho nó ăn!" #If you don't want minions to be fed, maybe delete this :)
+        - " "
+        - "&eGỗ Đã Chặt: &b%STATS%"
+        - "&eCấp: &b%LEVEL%"
+  Farmer:
+    Settings:
+      TicksPerAnimation: 4
+      TicksPerAction: 60 #one complete harvest = 1 action
+      DefaultSkin: Farmer
+    Health:
+      EnableHealth: true
+      ActionPerHealth: 15
+      RightClickWithFoodToFeed: true
+      FeedWithMoney: true
+      FeedWithMoneyCost: 1000000
+    DisplayItem:
+      Item: NETHER_STAR
+      Damage: 0
+      Glow: true
+      DisplayName: "&eMinion &2Nông Dân"
+      Lore:
+        - "&7Chuột phải vào Minion" #Can use %STATS% for the blocks mined, and %LEVEL% for the level of the minion
+        - "&7để đặt nó ! Sau khi đặt"
+        - "&7nó sẽ khai thác khối trước mặt."
+        - "&7Nhớ cho nó ăn!" #If you don't want minions to be fed, maybe delete this :)
+        - " "
+        - "&eTổng thu hoạch: &b%STATS%"
+        - "&eCấp: &b%LEVEL%"
+  Fisher:
+    Settings:
+      TicksPerAnimation: 4
+      TicksPerAction: 60 #one attempt to catch a fish
+      DefaultSkin: Fisher
+    Health:
+      EnableHealth: true
+      ActionPerHealth: 20
+      RightClickWithFoodToFeed: true
+      FeedWithMoney: true
+      FeedWithMoneyCost: 1000000
+    DisplayItem:
+      Item: NETHER_STAR
+      Damage: 0
+      Glow: true
+      DisplayName: "&eMinion &bCâu Cá"
+      Lore:
+        - "&7Chuột phải vào Minion" #Can use %STATS% for the blocks mined, and %LEVEL% for the level of the minion
+        - "&7để đặt nó ! Sau khi đặt"
+        - "&7nó sẽ khai thác khối trước mặt."
+        - "&7Nhớ cho nó ăn!" #If you don't want minions to be fed, maybe delete this :)
+        - " "
+        - "&eCá đã câu: &b%STATS%"
+        - "&eCấp: &b%LEVEL%"

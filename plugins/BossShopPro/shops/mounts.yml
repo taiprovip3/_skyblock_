@@ -1,0 +1,558 @@
+ShopName: mounts
+DisplayName: '&8Server&2 ☘&8 Nâng cấp thú'
+Sound:
+  Shop:
+    Open: ENTITY_PLAY_LEVELUP:1:1
+    ChangeShop: ENTITY_PLAY_LEVELUP:1:1
+shop:
+  1:
+    MenuItem:
+    - amount:2
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQ1MjVhNTE2YTg3YTMxNTdlMTE2MzlhZWJiYzRjMmRmMmRiMTFkNTNjZWQ3NjgxMzQ0MzA0NmVkM2U1YiJ9fX0=
+    - name:&a&lBẬC II &7Ngựa Thor
+    - 'lore2:&a&l NGUYÊN LIỆU YÊU CẦU:'
+    - 'lore3:&7 -60 đá cường hóa (có trong túi &e&lE)'
+    - 'lore5:&a&l TỈ LỆ &asuccess/fail:'
+    - 'lore6:&7 99.0%&a ⇧'
+    - 'lore7:&7 1.0%&4 ⇩'
+    - 'lore9:&aCLICKABLE vào đây&7 để nâng cấp'
+    RewardType: command
+    Reward:
+    - class exp %player% 6100
+    - mobcoins give %player% 6100
+    - pex user %player% add gadgetsmenu.pets.babyskeletonhorse
+    - gadgetsmenu equip pet Baby_Skeleton_Horse %player%
+    - bc &7(&2&l⚝&7) &e&l%player% &7nâng cấp thành công &a&lNIÊN THÚ &7từ &e&lBẬC I &7⇥&e&l BẬC II&7. ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ ᴏɴ!
+    - bb broadcast 20 &8&l((&2࿄&8&l))&2 %player% nâng cấp thành công NIÊN THÚ đến (BẬC 2 - &c&lSỨ GIẢ THOR)
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:60
+      - 'name:&2⇱&a&lĐá Cường Hóa&4⇱'
+      - 'lore2:&7 Dùng để cường hóa tính năng RPG như:'
+      - 'lore3:&7 nâng bậc cánh, niên thú....'
+      - 'lore5:&a&l SỬ DỤNG:&7 tích trữ đủ số lượng vào túi'
+      - 'lore6:&e&l E&7 và đến giao diện RPG nâng cấp'
+      - 'lore8:&e Groupding:&7 item mất giá trị khi đặt xuống'
+      - 'lore9:&7 đất vì biến dạng &9&l(!)'
+      - 'lore11:&eLOẠI VẬT PHẨM&a storage'
+    ExtraPermission: 'gadgetsmenu.cloaks.frosty'
+    InventoryLocation: 10
+  2:
+    MenuItem:
+    - amount:3
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJhYmJhNTNkOWFiNDgxNDI0MTViNjUwYzA4ZTc5ZTQ1MmY1ZDA5ZTgwYzJmNTgzM2UzNTc0MmYwNmQ1NGM5In19fQ===
+    - name:&a&lBẬC III &7Mew Two
+    - 'lore2:&a&l NGUYÊN LIỆU YÊU CẦU:'
+    - 'lore3:&7 -120 đá cường hóa (có trong túi &e&lE)'
+    - 'lore5:&a&l TỈ LỆ &asuccess/fail:'
+    - 'lore6:&7 98.0%&a ⇧'
+    - 'lore7:&7 2.0%&4 ⇩'
+    - 'lore9:&aCLICKABLE vào đây&7 để nâng cấp'
+    RewardType: command
+    Reward:
+    - class exp %player% 15200
+    - mobcoins give %player% 15200
+    - pex user %player% add gadgetsmenu.pets.babysiamesecat
+    - gadgetsmenu equip pet Baby_Siamese_Cat %player%
+    - bc &7(&2&l⚝&7) &e&l%player% &7nâng cấp thành công &a&lNIÊN THÚ &7từ &e&lBẬC II &7⇥&e&l BẬC III&7. ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ ᴏɴ!
+    - bb broadcast 20 &8&l((&2࿄&8&l))&2 %player% nâng cấp thành công NIÊN THÚ đến (BẬC 3 - &5&lMEW TWO)
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:120
+      - 'name:&2⇱&a&lĐá Cường Hóa&4⇱'
+      - 'lore2:&7 Dùng để cường hóa tính năng RPG như:'
+      - 'lore3:&7 nâng bậc cánh, niên thú....'
+      - 'lore5:&a&l SỬ DỤNG:&7 tích trữ đủ số lượng vào túi'
+      - 'lore6:&e&l E&7 và đến giao diện RPG nâng cấp'
+      - 'lore8:&e Groupding:&7 item mất giá trị khi đặt xuống'
+      - 'lore9:&7 đất vì biến dạng &9&l(!)'
+      - 'lore11:&eLOẠI VẬT PHẨM&a storage'
+    ExtraPermission: 'gadgetsmenu.cloaks.frosty'
+    InventoryLocation: 11
+  3:
+    MenuItem:
+    - amount:4
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzk4MDc1NzZiMTI0NjUzOWJkYzJiNGY0YTM0MzhhYzQ0NjFlN2IzNDI0ZTU0YTU2MjM2MThjYjIzMzU0ZSJ9fX0==
+    - name:&a&lBẬC IV &7Killer Bunny
+    - 'lore2:&a&l NGUYÊN LIỆU YÊU CẦU:'
+    - 'lore3:&7 -240 đá cường hóa (có trong túi &e&lE)'
+    - 'lore5:&a&l TỈ LỆ &asuccess/fail:'
+    - 'lore6:&7 97.0%&a ⇧'
+    - 'lore7:&7 3.0%&4 ⇩'
+    - 'lore9:&aCLICKABLE vào đây&7 để nâng cấp'
+    RewardType: command
+    Reward:
+    - class exp %player% 30000
+    - mobcoins give %player% 30000
+    - pex user %player% add gadgetsmenu.pets.babywhiterabbit
+    - gadgetsmenu equip pet Baby_White_Rabbit %player%
+    - bc &7(&2&l⚝&7) &e&l%player% &7nâng cấp thành công &a&lNIÊN THÚ &7từ &e&lBẬC III &7⇥&e&l BẬC IV&7. ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ ᴏɴ!
+    - bb broadcast 20 &8&l((&2࿄&8&l))&2 %player% nâng cấp thành công NIÊN THÚ đến (BẬC 4 - &4&lKILLER BUNNY)
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:240
+      - 'name:&2⇱&a&lĐá Cường Hóa&4⇱'
+      - 'lore2:&7 Dùng để cường hóa tính năng RPG như:'
+      - 'lore3:&7 nâng bậc cánh, niên thú....'
+      - 'lore5:&a&l SỬ DỤNG:&7 tích trữ đủ số lượng vào túi'
+      - 'lore6:&e&l E&7 và đến giao diện RPG nâng cấp'
+      - 'lore8:&e Groupding:&7 item mất giá trị khi đặt xuống'
+      - 'lore9:&7 đất vì biến dạng &9&l(!)'
+      - 'lore11:&eLOẠI VẬT PHẨM&a storage'
+    ExtraPermission: 'gadgetsmenu.cloaks.frosty'
+    InventoryLocation: 12
+  4:
+    MenuItem:
+    - amount:5
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGZiNmMzYzA1MmNmNzg3ZDIzNmEyOTE1ZjgwNzJiNzdjNTQ3NDk3NzE1ZDFkMmY4Y2JjOWQyNDFkODhhIn19fQ===
+    - name:&a&lBẬC V &7Lạc Đà Tiên
+    - 'lore2:&a&l NGUYÊN LIỆU YÊU CẦU:'
+    - 'lore3:&7 -500 đá cường hóa (có trong túi &e&lE)'
+    - 'lore5:&a&l TỈ LỆ &asuccess/fail:'
+    - 'lore6:&7 96.0%&a ⇧'
+    - 'lore7:&7 4.0%&4 ⇩'
+    - 'lore9:&aCLICKABLE vào đây&7 để nâng cấp'
+    RewardType: command
+    Reward:
+    - class exp %player% 62000
+    - mobcoins give %player% 62000
+    - pex user %player% add gadgetsmenu.pets.babywhitellama
+    - gadgetsmenu equip pet Baby_White_Llama %player%
+    - bc &7(&2&l⚝&7) &e&l%player% &7nâng cấp thành công &a&lNIÊN THÚ &7từ &e&lBẬC IV &7⇥&e&l BẬC V&7. ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ ᴏɴ!
+    - bb broadcast 20 &8&l((&2࿄&8&l))&2 %player% nâng cấp thành công NIÊN THÚ đến (BẬC 5 - &f&lFAIRY LLAMA)
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:500
+      - 'name:&2⇱&a&lĐá Cường Hóa&4⇱'
+      - 'lore2:&7 Dùng để cường hóa tính năng RPG như:'
+      - 'lore3:&7 nâng bậc cánh, niên thú....'
+      - 'lore5:&a&l SỬ DỤNG:&7 tích trữ đủ số lượng vào túi'
+      - 'lore6:&e&l E&7 và đến giao diện RPG nâng cấp'
+      - 'lore8:&e Groupding:&7 item mất giá trị khi đặt xuống'
+      - 'lore9:&7 đất vì biến dạng &9&l(!)'
+      - 'lore11:&eLOẠI VẬT PHẨM&a storage'
+    ExtraPermission: 'gadgetsmenu.cloaks.frosty'
+    InventoryLocation: 19
+  5:
+    MenuItem:
+    - amount:6
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY4MTI5NjIzZmZkZTIyY2JjNTM0OTE1YWUzOGE1ZDYwZjMyZGFlZGJjNGZkNWQyYzMxMGZlYTUzN2VkIn19fQ===
+    - name:&a&lBẬC VI &7Kẻ Cắp Giáng Sinh
+    - 'lore2:&a&l NGUYÊN LIỆU YÊU CẦU:'
+    - 'lore3:&7 -1100 đá cường hóa (có trong túi &e&lE)'
+    - 'lore5:&a&l TỈ LỆ &asuccess/fail:'
+    - 'lore6:&7 95.0%&a ⇧'
+    - 'lore7:&7 5.0%&4 ⇩'
+    - 'lore9:&aCLICKABLE vào đây&7 để nâng cấp'
+    RewardType: command
+    Reward:
+    - class exp %player% 128000
+    - mobcoins give %player% 128000
+    - pex user %player% add gadgetsmenu.pets.snowman
+    - gadgetsmenu equip pet Snowman %player%
+    - bc &7(&2&l⚝&7) &e&l%player% &7nâng cấp thành công &a&lNIÊN THÚ &7từ &e&lBẬC V &7⇥&e&l BẬC VI&7. ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ ᴏɴ!
+    - bb broadcast 20 &8&l((&2࿄&8&l))&2 %player% nâng cấp thành công NIÊN THÚ đến (BẬC 6 - &7&lKẺ CẮP GIÁNG SINH)
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:1100
+      - 'name:&2⇱&a&lĐá Cường Hóa&4⇱'
+      - 'lore2:&7 Dùng để cường hóa tính năng RPG như:'
+      - 'lore3:&7 nâng bậc cánh, niên thú....'
+      - 'lore5:&a&l SỬ DỤNG:&7 tích trữ đủ số lượng vào túi'
+      - 'lore6:&e&l E&7 và đến giao diện RPG nâng cấp'
+      - 'lore8:&e Groupding:&7 item mất giá trị khi đặt xuống'
+      - 'lore9:&7 đất vì biến dạng &9&l(!)'
+      - 'lore11:&eLOẠI VẬT PHẨM&a storage'
+    ExtraPermission: 'gadgetsmenu.cloaks.frosty'
+    InventoryLocation: 20
+  6:
+    MenuItem:
+    - amount:7
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzljYWQ5MmQ0MzliMmE0MmQzNWU5MDllNmM1OWUzNzQ5YzE5OTZiNDk4NzMwZDdmMzkzYjA3NGRmNTI5MDc3In19fQ===
+    - name:&a&lBẬC VII &7Bọ Tiền Sử
+    - 'lore2:&a&l NGUYÊN LIỆU YÊU CẦU:'
+    - 'lore3:&7 -1500 đá cường hóa (có trong túi &e&lE)'
+    - 'lore5:&a&l TỈ LỆ &asuccess/fail:'
+    - 'lore6:&7 94.0%&a ⇧'
+    - 'lore7:&7 6.0%&4 ⇩'
+    - 'lore9:&aCLICKABLE vào đây&7 để nâng cấp'
+    RewardType: command
+    Reward:
+    - class exp %player% 245000
+    - mobcoins give %player% 245000
+    - pex user %player% add gadgetsmenu.pets.silverfish
+    - gadgetsmenu equip pet Silverfish %player%
+    - bc &7(&2&l⚝&7) &e&l%player% &7nâng cấp thành công &a&lNIÊN THÚ &7từ &e&lBẬC VI &7⇥&e&l BẬC VII&7. ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ ᴏɴ!
+    - bb broadcast 20 &8&l((&2࿄&8&l))&2 %player% nâng cấp thành công NIÊN THÚ đến (BẬC 7 - &2&lBỌ TIỀN SỬ)
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:1500
+      - 'name:&2⇱&a&lĐá Cường Hóa&4⇱'
+      - 'lore2:&7 Dùng để cường hóa tính năng RPG như:'
+      - 'lore3:&7 nâng bậc cánh, niên thú....'
+      - 'lore5:&a&l SỬ DỤNG:&7 tích trữ đủ số lượng vào túi'
+      - 'lore6:&e&l E&7 và đến giao diện RPG nâng cấp'
+      - 'lore8:&e Groupding:&7 item mất giá trị khi đặt xuống'
+      - 'lore9:&7 đất vì biến dạng &9&l(!)'
+      - 'lore11:&eLOẠI VẬT PHẨM&a storage'
+    ExtraPermission: 'gadgetsmenu.cloaks.frosty'
+    InventoryLocation: 21
+  7:
+    MenuItem:
+    - amount:8
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODlmYTFhMWJiMWI1NzlkNmQ0ZmZlNmEyNjY4ZDNlZjdiMjRjZjFhOTJjYzQzY2JkYWFhZjNiOTE0NzJlMyJ9fX0==
+    - name:&a&lBẬC VIII &7Parasite 2019
+    - 'lore2:&a&l NGUYÊN LIỆU YÊU CẦU:'
+    - 'lore3:&7 -1800 đá cường hóa (có trong túi &e&lE)'
+    - 'lore5:&a&l TỈ LỆ &asuccess/fail:'
+    - 'lore6:&7 93.0%&a ⇧'
+    - 'lore7:&7 7.0%&4 ⇩'
+    - 'lore9:&aCLICKABLE vào đây&7 để nâng cấp'
+    RewardType: command
+    Reward:
+    - class exp %player% 510000
+    - mobcoins give %player% 510000
+    - pex user %player% add gadgetsmenu.pets.endermite
+    - gadgetsmenu equip pet Endermite %player%
+    - bc &7(&2&l⚝&7) &e&l%player% &7nâng cấp thành công &a&lNIÊN THÚ &7từ &e&lBẬC VII &7⇥&e&l BẬC VIII&7. ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ ᴏɴ!
+    - bb broadcast 20 &8&l((&2࿄&8&l))&2 %player% nâng cấp thành công NIÊN THÚ đến (BẬC 8 - &a&lPARASITE 2019)
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:1800
+      - 'name:&2⇱&a&lĐá Cường Hóa&4⇱'
+      - 'lore2:&7 Dùng để cường hóa tính năng RPG như:'
+      - 'lore3:&7 nâng bậc cánh, niên thú....'
+      - 'lore5:&a&l SỬ DỤNG:&7 tích trữ đủ số lượng vào túi'
+      - 'lore6:&e&l E&7 và đến giao diện RPG nâng cấp'
+      - 'lore8:&e Groupding:&7 item mất giá trị khi đặt xuống'
+      - 'lore9:&7 đất vì biến dạng &9&l(!)'
+      - 'lore11:&eLOẠI VẬT PHẨM&a storage'
+    ExtraPermission: 'gadgetsmenu.cloaks.frosty'
+    InventoryLocation: 28
+  8:
+    MenuItem:
+    - amount:9
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzhhNTFjM2NlZmJkYjVmNDk2ZjQ2OTRjZjcyMmJiODQ1MzMwOTBmYmU5MmU5ZTMxODA0ZmQ2YTRiYjFmNiJ9fX0==
+    - name:&a&lBẬC IX &7Tội Đồ Golem
+    - 'lore2:&a&l NGUYÊN LIỆU YÊU CẦU:'
+    - 'lore3:&7 -2000 đá cường hóa (có trong túi &e&lE)'
+    - 'lore5:&a&l TỈ LỆ &asuccess/fail:'
+    - 'lore6:&7 92.0%&a ⇧'
+    - 'lore7:&7 8.0%&4 ⇩'
+    - 'lore9:&aCLICKABLE vào đây&7 để nâng cấp'
+    RewardType: command
+    Reward:
+    - class exp %player% 1000000
+    - mobcoins give %player% 1000000
+    - pex user %player% add gadgetsmenu.pets.golem
+    - gadgetsmenu equip pet Golem %player%
+    - bc &7(&2&l⚝&7) &e&l%player% &7nâng cấp thành công &a&lNIÊN THÚ &7từ &e&lBẬC VIII &7⇥&e&l BẬC IX&7. ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ ᴏɴ!
+    - bb broadcast 20 &8&l((&2࿄&8&l))&2 %player% nâng cấp thành công NIÊN THÚ đến (BẬC 9 - &c&lTỘI ĐỒ GOLEM)
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:2000
+      - 'name:&2⇱&a&lĐá Cường Hóa&4⇱'
+      - 'lore2:&7 Dùng để cường hóa tính năng RPG như:'
+      - 'lore3:&7 nâng bậc cánh, niên thú....'
+      - 'lore5:&a&l SỬ DỤNG:&7 tích trữ đủ số lượng vào túi'
+      - 'lore6:&e&l E&7 và đến giao diện RPG nâng cấp'
+      - 'lore8:&e Groupding:&7 item mất giá trị khi đặt xuống'
+      - 'lore9:&7 đất vì biến dạng &9&l(!)'
+      - 'lore11:&eLOẠI VẬT PHẨM&a storage'
+    ExtraPermission: 'gadgetsmenu.cloaks.frosty'
+    InventoryLocation: 29
+  9:
+    MenuItem:
+    - amount:10
+    - type:SKULL_ITEM:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM1MDk5NWNkNmY4ODY1MWMxN2Q5ZWJhOTM1NTg1NDg5NTY5ODM4ODZiNTY4YTEwOWRmOTMyZTBiODhjNWVhMSJ9fX0==
+    - name:&a&lBẬC X &7Gấu Điên
+    - 'lore2:&a&l NGUYÊN LIỆU YÊU CẦU:'
+    - 'lore3:&7 -2200 đá cường hóa (có trong túi &e&lE)'
+    - 'lore5:&a&l TỈ LỆ &asuccess/fail:'
+    - 'lore6:&7 91.0%&a ⇧'
+    - 'lore7:&7 9.0%&4 ⇩'
+    - 'lore9:&aCLICKABLE vào đây&7 để nâng cấp'
+    RewardType: command
+    Reward:
+    - class exp %player% 2000000
+    - mobcoins give %player% 2000000
+    - pex user %player% add gadgetsmenu.pets.polarbear
+    - gadgetsmenu equip pet Polar_Bear %player%
+    - bc &7(&2&l⚝&7) &e&l%player% &7nâng cấp thành công &a&lNIÊN THÚ &7từ &e&lBẬC IX &7⇥&e&l BẬC X&7. ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ ᴏɴ!
+    - bb broadcast 20 &8&l((&2࿄&8&l))&2 %player% nâng cấp thành công NIÊN THÚ đến (BẬC 10 - &3&lGẤU ĐIÊN)
+    - bs close %player%
+    PriceType: item
+    Price:
+    - - type:397:3
+      - amount:2200
+      - 'name:&2⇱&a&lĐá Cường Hóa&4⇱'
+      - 'lore2:&7 Dùng để cường hóa tính năng RPG như:'
+      - 'lore3:&7 nâng bậc cánh, niên thú....'
+      - 'lore5:&a&l SỬ DỤNG:&7 tích trữ đủ số lượng vào túi'
+      - 'lore6:&e&l E&7 và đến giao diện RPG nâng cấp'
+      - 'lore8:&e Groupding:&7 item mất giá trị khi đặt xuống'
+      - 'lore9:&7 đất vì biến dạng &9&l(!)'
+      - 'lore11:&eLOẠI VẬT PHẨM&a storage'
+    ExtraPermission: 'gadgetsmenu.cloaks.frosty'
+    InventoryLocation: 30
+  back:
+    MenuItem:
+    - type:SIGN
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&c&lQUAY LẠI
+    - 'lore2:&6Click vào quay lại'
+    RewardType: shop
+    Reward: mount
+    InventoryLocation: 33
+  tuto:
+    MenuItem:
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE2M2RhZmFjMWQ5MWE4YzkxZGI1NzZjYWFjNzg0MzM2NzkxYTZlMThkOGY3ZjYyNzc4ZmM0N2JmMTQ2YjYifX19
+    - name:&aĐây là gì?
+    - 'lore1:&f-&7 Đây là tính năng nâng cấp Cánh'
+    - 'lore2:&f-&7 Chỉ cần có Đá Cường Hóa trong túi &e&lE'
+    - 'lore3:&f-&7 Thu thập đá này tại các HĐ, event..'
+    - 'lore5:&f-&7 Nâng cấp lên bậc giúp nhân vật chính (main) tăng thuộc tính cá nhân (điểm sức mạnh)'
+    - 'lore6:&f-&7 Nâng cấp cũng có tỉ lệ thất bại. Hãy be ware of!'
+    InventoryLocation: 46
+  a:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 1
+  b:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 2
+  c:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 3
+  d:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 4
+  e:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 5
+  f:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 6
+  g:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 7
+  h:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 8
+  i:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 9
+  j:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 13
+  k:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 14
+  l:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 15
+  m:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 16
+  n:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 17
+  o:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 18
+  p:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 22
+  q:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 23
+  r:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 24
+  s:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 25
+  t:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 26
+  u:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 27
+  v:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 31
+  w:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 32
+  x:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 34
+  y:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 35
+  z:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 36
+  za:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 37
+  zb:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 38
+  zc:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 39
+  zd:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 40
+  ze:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 41
+  zf:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 42
+  zg:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 43
+  zh:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 44
+  zi:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 45
+  zj:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 47
+  zk:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 48
+  zl:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 49
+  zm:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 50
+  zn:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 51
+  zo:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 52
+  zp:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 53
+  zq:
+    MenuItem:
+    - type:160:15
+    - name:&c
+    InventoryLocation: 54

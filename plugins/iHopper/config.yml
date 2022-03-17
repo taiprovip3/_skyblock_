@@ -1,0 +1,68 @@
+# !~~~~~~~~~~~~~~~~~~~~~~~~~! #
+#   + MADE BY: [BengBeng] +   #
+#     + VERSION: v1.5.0 +     #
+# !~~~~~~~~~~~~~~~~~~~~~~~~~! #
+
+#Các vật liệu khi đào sẽ tự động rơi vào kho chứa:
+#Có thể sử dụng tên hoặc ID của vật liệu.
+auto-save-materials:
+- COAL_BLOCK
+- LAPIS_BLOCK
+- REDSTONE_BLOCK
+- IRON_BLOCK
+- GOLD_BLOCK
+- DIAMOND_BLOCK
+- EMERALD_BLOCK
+- BONE_BLOCK
+- OBSIDIAN
+- STONE
+
+#Giới hạn số lượng tối thiểu của từng vật liệu:
+min-amount: 0
+#Giới hạn số lượng tối đa của từng vật liệu:
+# * LƯU Ý: Giới hạn tối đa là: 9223372036854775807.
+max-amount: 99999
+
+#Định dạng tên cho các vật liệu:
+# * LƯU Ý: Sử dụng tên các vật liệu như phần 'auto-save-materials',
+# nhưng phải viết hoa tất cả chữ cái (không sử dụng ID).
+format-name:
+  COAL_BLOCK: '&8Khối Than'
+  LAPIS_BLOCK: '&9Khối Lưu Ly'
+  REDSTONE_BLOCK: '&cKhối Đá Đỏ'
+  IRON_BLOCK: '&fKhối Sắt'
+  GOLD_BLOCK: '&eKhối Vàng'
+  DIAMOND_BLOCK: '&bKhối Kim Cương'
+  EMERALD_BLOCK: '&2Khối Lục Bảo'
+  BONE_BLOCK: '&fKhối Xương'
+  OBSIDIAN: '&8&lHắc Diện Thạch'
+  STONE: '&7&lĐá'
+
+#Chức năng khác:
+#Tên của thuộc tính may mắn:
+luck-name: '&a&lMay mắn'
+#Dấu phân chia:
+separator: '&f: &e'
+#Cho phép kiểm tra công cụ thích hợp mới có thể thêm thuộc tính may mắn?
+#Tức chỉ cho phép công cụ là CÚP (Ví dụ: IRON_PICKAXE, DIAMOND_PICKAXE, ...)
+# * KHUYẾN NGHỊ: Nên bật tính năng này.
+check-valid-tools: true
+
+#Danh sách thế giới cho phép:
+allowed-worlds:
+- 'ASkyBlock'
+- 'world'
+
+#Các quyền lợi của plugin:
+#Có thể thay đổi trực tiếp tại đây.
+PERMISSIONS:
+  Admin: ihopper.admin
+  Help: ihopper.command.help
+  #Quyền lợi này được sử dụng chung với cả 'allows' và 'disallow'
+  Open: ihopper.command.open
+  Luck: ihopper.command.luck
+  Add: ihopper.command.add
+  Take: ihopper.command.take
+  Set: ihopper.command.set
+  Reset: ihopper.command.reset
+  Reload: ihopper.command.reload

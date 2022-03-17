@@ -1,0 +1,310 @@
+# 
+# +------------------------------------------------------+ #
+# |                       Notes                          | #
+# +------------------------------------------------------+ #
+locale: en
+ops-name-color: f
+nickname-prefix: ''
+max-nick-length: 25
+ignore-colors-in-max-nick-length: false
+hide-displayname-in-vanish: false
+change-displayname: true
+teleport-safety: true
+force-disable-teleport-safety: false
+teleport-cooldown: 0
+teleport-delay: 0
+teleport-invulnerability: 4
+teleport-to-center: true
+heal-cooldown: 60
+near-radius: 200
+permission-based-item-spawn: false
+spawnmob-limit: 10
+warn-on-smite: true
+drop-items-if-full: true
+notify-no-new-mail: false
+notify-player-of-mail-cooldown: 60
+socialspy-commands:
+- msg
+- w
+- r
+- mail
+- m
+- t
+- whisper
+- emsg
+- tell
+- er
+- reply
+- ereply
+- email
+- action
+- describe
+- eme
+- eaction
+- edescribe
+- etell
+- ewhisper
+- pm
+socialspy-listen-muted-players: true
+mute-commands:
+- f
+- kittycannon
+player-commands:
+- afk
+- afk.auto
+- back
+- back.ondeath
+- balance
+- balance.others
+- balancetop
+- build
+- chat.color
+- chat.format
+- chat.shout
+- chat.question
+- clearinventory
+- compass
+- depth
+- delhome
+- getpos
+- geoip.show
+- help
+- helpop
+- home
+- home.others
+- ignore
+- info
+- itemdb
+- kit
+- kits.tools
+- list
+- mail
+- mail.send
+- me
+- motd
+- msg
+- msg.color
+- nick
+- near
+- pay
+- ping
+- protect
+- r
+- rules
+- realname
+- seen
+- sell
+- sethome
+- setxmpp
+- signs.create.protection
+- signs.create.trade
+- signs.break.protection
+- signs.break.trade
+- signs.use.balance
+- signs.use.buy
+- signs.use.disposal
+- signs.use.enchant
+- signs.use.free
+- signs.use.gamemode
+- signs.use.heal
+- signs.use.info
+- signs.use.kit
+- signs.use.mail
+- signs.use.protection
+- signs.use.repair
+- signs.use.sell
+- signs.use.time
+- signs.use.trade
+- signs.use.warp
+- signs.use.weather
+- spawn
+- suicide
+- time
+- tpa
+- tpaccept
+- tpahere
+- tpdeny
+- warp
+- warp.list
+- world
+- worth
+- xmpp
+use-bukkit-permissions: true
+skip-used-one-time-kits-from-kit-list: false
+pastebin-createkit: false
+enabledSigns:
+- color
+- balance
+- buy
+- sell
+- trade
+- free
+- disposal
+- warp
+- kit
+- mail
+- enchant
+- gamemode
+- heal
+- info
+- spawnmob
+- repair
+- time
+- weather
+sign-use-per-second: 4
+allow-old-id-signs: false
+backup:
+  interval: 30
+per-warp-permission: true
+list:
+  Admins: owner admin
+debug: false
+remove-god-on-disconnect: false
+auto-afk: 3600
+auto-afk-kick: 3600
+freeze-afk-players: false
+disable-item-pickup-while-afk: false
+cancel-afk-on-interact: true
+cancel-afk-on-move: true
+sleep-ignores-afk-players: true
+afk-list-name: none
+death-messages: true
+allow-silent-join-quit: false
+custom-join-message: "&e{USERNAME} đã đăng nhập &2&l✔"
+custom-quit-message: "&4• &7{USERNAME} &8[&4✘&8]"
+world-teleport-permissions: false
+default-stack-size: -1
+oversized-stacksize: 64
+repair-enchanted: true
+unsafe-enchantments: true
+register-back-in-listener: false
+login-attack-delay: 5
+max-fly-speed: 0.8
+max-walk-speed: 0.8
+mails-per-minute: 1000
+max-tempban-time: -1
+last-message-reply-recipient: true
+last-message-reply-recipient-timeout: 180
+milk-bucket-easter-egg: true
+send-fly-enable-on-join: true
+world-time-permissions: false
+command-cooldown-persistence: true
+npcs-in-balance-ranking: false
+allow-bulk-buy-sell: true
+delay-motd: 3
+teleport-back-when-freed-from-jail: true
+tpa-accept-cancellation: 120
+allow-direct-hat: true
+allow-world-in-broadcastworld: true
+is-water-safe: false
+safe-usermap-names: true
+update-bed-at-daytime: true
+world-home-permissions: false
+sethome-multiple:
+  default: 1
+  vip: 2
+  staff: 3
+compass-towards-home-perm: false
+starting-balance: 0
+currency-symbol: $
+max-money: 999999999999999
+min-money: 0
+economy-log-enabled: false
+minimum-pay-amount: 1
+non-ess-in-help: true
+hide-permissionless-help: true
+chat:
+  radius: 0
+  format: '&2Cấp đảo &c[&2{ISLAND_LEVEL}&c]&2 <{DISPLAYNAME}> &r{MESSAGE}'
+protect:
+  prevent:
+    lava-flow: false
+    water-flow: false
+    water-bucket-flow: false
+    fire-spread: true
+    lava-fire-spread: true
+    flint-fire: false
+    lightning-fire-spread: true
+    portal-creation: false
+    tnt-explosion: false
+    tnt-playerdamage: false
+    tnt-minecart-explosion: false
+    tnt-minecart-playerdamage: false
+    fireball-explosion: false
+    fireball-fire: false
+    fireball-playerdamage: false
+    witherskull-explosion: false
+    witherskull-playerdamage: false
+    wither-spawnexplosion: false
+    wither-blockreplace: false
+    creeper-explosion: false
+    creeper-playerdamage: false
+    creeper-blockdamage: false
+    enderdragon-blockdamage: true
+    enderman-pickup: false
+    villager-death: false
+    entitytarget: false
+    spawn:
+      creeper: false
+      skeleton: false
+      spider: false
+      giant: false
+      zombie: false
+      slime: false
+      ghast: false
+      pig_zombie: false
+      enderman: false
+      cave_spider: false
+      silverfish: false
+      blaze: false
+      magma_cube: false
+      ender_dragon: false
+      pig: false
+      sheep: false
+      cow: false
+      chicken: false
+      squid: false
+      wolf: false
+      mushroom_cow: false
+      snowman: false
+      ocelot: false
+      iron_golem: false
+      villager: false
+      wither: false
+      bat: false
+      witch: false
+      horse: false
+  creeper:
+    max-height: -1
+  disable:
+    fall: false
+    pvp: false
+    drown: false
+    suffocate: false
+    lavadmg: true
+    projectiles: false
+    contactdmg: false
+    firedmg: false
+    lightning: false
+    wither: false
+    weather:
+      storm: true
+      thunder: false
+      lightning: false
+    build: true
+    use: true
+    warn-on-build-disallow: true
+  alert:
+    on-placement: LAVA,TNT,LAVA_BUCKET
+    on-use: LAVA_BUCKET
+  blacklist:
+    placement: LAVA,TNT,LAVA_BUCKET
+    usage: LAVA_BUCKET
+newbies:
+  announce-format: '&dWelcome &f({UNIQUE}) &d{DISPLAYNAME}&5 to ᴏᴘ sᴋʏʙʟᴏᴄᴋ&d v11'
+  spawnpoint: newbies
+  kit: tools
+respawn-listener-priority: high
+spawn-join-listener-priority: high
+respawn-at-home: false
+spawn-on-join: true

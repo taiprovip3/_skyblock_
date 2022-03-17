@@ -1,0 +1,161 @@
+# !~~~~~~~~~~~~~~~~~~~~~~~~~~~! #
+#   ĐIỀU CHỈNH KHO KHOÁNG SẢN   #
+# !~~~~~~~~~~~~~~~~~~~~~~~~~~~! #
+
+SETTINGS:
+  #Tên GUI:
+  name: '&a☘ &0&lTúi khoáng sản&a ☘'
+  #Số dòng của GUI:
+  #Có sẵn: 1, 2, 3, 4, 5, 6.
+  rows: 5
+# !~~~~~~~~~~~~~~~~~~~~~~~~~~~! #
+#   ĐIỀU CHỈNH KHO KHOÁNG SẢN   #
+# !~~~~~~~~~~~~~~~~~~~~~~~~~~~! #
+
+ITEMS:
+  #Các item chính:
+  Main:
+    # * LƯU Ý: Sử dụng tên các vật liệu như phần 'auto-save-materials' (file config.yml),
+    # nhưng phải viết hoa tất cả chữ cái (không sử dụng ID).
+    #Tại phần 'name' và 'lore' của các vật phẩm, có thể sử dụng các ký hiệu sau:
+    #  {material} - hiển thị tên đã định dạng của vật liệu.
+    #  {current} - số lượng vật liệu hiện có trong kho chứa.
+    COAL_BLOCK:
+      #Tên item:
+      #Để trống (hoặc đặt thành 'none') sẽ tự động lấy tên đã định dạng của vật liệu.
+      name: '{material}'
+      #Hiệu ứng phù phép:
+      glow: false
+      lore:
+      - '&8'
+      - '&c • Tồn kho: x{current}'
+      - '&8'
+      - '&2➳ &eNhấp vào để rút về túi &e&lE'
+      #Ô chứa item:
+      slot: 31
+    LAPIS_BLOCK:
+      name: '&r{material}'
+      glow: false
+      lore:
+      - '&8'
+      - '&7Đang có: &2{current}'
+      - '&8'
+      - '&2➳ &eNhấp vào để rút về túi &e&lE'
+      slot: 32
+    REDSTONE_BLOCK:
+      name: '&r{material}'
+      glow: false
+      lore:
+      - '&8'
+      - '&7Đang có: &2{current}'
+      - '&8'
+      - '&2➳ &eNhấp vào để rút về túi &e&lE'
+      slot: 22
+    IRON_BLOCK:
+      name: '&r{material}'
+      glow: false
+      lore:
+      - '&8'
+      - '&7Đang có: &2{current}'
+      - '&8'
+      - '&2➳ &eNhấp vào để rút về túi &e&lE'
+      slot: 23
+    GOLD_BLOCK:
+      name: '&r{material}'
+      glow: false
+      lore:
+      - '&8'
+      - '&7Đang có: &2{current}'
+      - '&8'
+      - '&2➳ &eNhấp vào để rút về túi &e&lE'
+      slot: 13
+    DIAMOND_BLOCK:
+      name: '&r{material}'
+      glow: false
+      lore:
+      - '&8'
+      - '&7Đang có: &2{current}'
+      - '&8'
+      - '&2➳ &eNhấp vào để rút về túi &e&lE'
+      slot: 14
+    EMERALD_BLOCK:
+      name: '&r{material}'
+      glow: false
+      lore:
+      - '&8'
+      - '&7Đang có: &2{current}'
+      - '&8'
+      - '&2➳ &eNhấp vào để rút về túi &e&lE'
+      slot: 15
+    BONE_BLOCK:
+      name: '&r{material}'
+      glow: false
+      lore:
+      - '&8'
+      - '&7Đang có: &2{current}'
+      - '&8'
+      - '&2➳ &eNhấp vào để rút về túi &e&lE'
+      slot: 24
+    OBSIDIAN:
+      name: '&r{material}'
+      glow: false
+      lore:
+      - '&8'
+      - '&7Đang có: &2{current}'
+      - '&8'
+      - '&2➳ &eNhấp vào để rút về túi &e&lE'
+      slot: 16
+    STONE:
+      name: '&r{material}'
+      glow: false
+      lore:
+      - '&8'
+      - '&7Đang có: &2{current}'
+      - '&8'
+      - '&2➳ &eNhấp vào để rút về túi &e&lE'
+      slot: 33
+  Decorate: 
+    '1':
+      #type: '<tên hoặc ID>:<số lượng>:<dữ liệu (data)>'
+      type: '351:1:13'
+      name: '&7Phân loại [I]'
+      glow: true
+      lore:
+      - '&5Block cực hiếm'
+      slots: [12]
+    '2':
+      type: '351:1:9'
+      name: '&7Phân loại [I]'
+      glow: true
+      lore:
+      - '&dBlock hiếm'
+      slots: [21]
+    '3':
+      type: '351:1:8'
+      name: '&7Phân loại [I]'
+      glow: true
+      lore:
+      - '&7Block thường'
+      slots: [30]
+    '4':
+      type: '321:1:0'
+      name: '&e&l(!)&6 Skyber Chú ý'
+      glow: false
+      lore:
+      - ''
+      - '&7 Khi farm block tài nguyên, khoán sản sẽ đi'
+      - '&7 vào túi này. Không rơi lẻ tẽ ra ngoài.'
+      - ''
+      - '&3-&f Bạn ko thể bug kho (100%)'
+      - ''
+      - '&3-&f Lệnh tắt mở kho tài nguyên: &e/k'
+      - ''
+      - '&3&f- Kho chứa được tối đa: &e99.999 block&f/mỗi lọai'
+      - ''  
+      - '&3&f- Chia sẽ cho bạn dùng kho:&e /sharekho [tên]'
+      - ''
+      - '&3&f- Không chia sẽ nữa: &e/unsharekho [tên]'
+      - ''
+      - '&3&f- Không chấp nhận các yêu cầu đòi tăng số'
+      - '&f kho chứa lên để afk lâu hơn. &c&l(!)'
+      slots: [45]   

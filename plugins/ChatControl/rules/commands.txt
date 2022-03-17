@@ -1,0 +1,137 @@
+# -------------------------------------------------------------------------------
+# This file manages rules in commands and includes rules from rules.txt.
+#
+# File by default contain examples that you can safely remove or change.
+#
+# For help, see notes in rules.txt file.
+# -------------------------------------------------------------------------------
+
+# Prevent /op command, but ignore other commands that start with /op, like /openinv
+match ^/home
+then warn &cOops! Có vẽ điều này không khả thi &8[&4✗&8]
+then deny
+
+match ^/pl
+then warn &cOops! Có vẽ điều này không khả thi &8[&4✗&8]
+then deny
+
+match ^/plugin
+then warn &cOops! Có vẽ điều này không khả thi &8[&4✗&8]
+then deny
+
+match ^/bukkit:pl
+then warn &cOops! Có vẽ điều này không khả thi &8[&4✗&8]
+then deny
+
+match ^/bukkit:plugins
+then warn &cOops! Có vẽ điều này không khả thi &8[&4✗&8]
+then deny
+
+match ^/bukkit:?
+then warn &cOops! Có vẽ điều này không khả thi &8[&4✗&8]
+then deny
+
+match ^/bukkit:helps
+then warn &cOops! Có vẽ điều này không khả thi &8[&4✗&8]
+then deny
+
+match ^/bukkit:help
+then warn &cOops! Có vẽ điều này không khả thi &8[&4✗&8]
+then deny
+
+######################_IHOPPER_###########################
+match ^/ihopper
+then warn &cOops! Chỉ có 1 lệnh duy nhất &e&l/kho
+then deny
+then console mycmd-runas player {player} /ouch
+
+match ^/ihopper:ihopper
+then warn &cOops! Chỉ có 1 lệnh duy nhất &e&l/kho
+then deny
+then console mycmd-runas player {player} /ouch
+
+match ^/hopper
+then warn &cOops! Chỉ có 1 lệnh duy nhất &e&l/kho
+then deny
+then console mycmd-runas player {player} /ouch
+
+match ^/ihopper:hopper
+then warn &cOops! Chỉ có 1 lệnh duy nhất &e&l/kho
+then deny
+then console mycmd-runas player {player} /ouch
+
+match ^/ih
+then warn &cOops! Chỉ có 1 lệnh duy nhất &e&l/kho
+then deny
+then console mycmd-runas player {player} /ouch
+
+match ^/ihopper:ih
+then warn &cOops! Chỉ có 1 lệnh duy nhất &e&l/kho
+then deny
+then console mycmd-runas player {player} /ouch
+
+match ^/kho withdraw
+then warn &cOops! Vui lòng rút tài nguyên qua &e&l/kho
+then deny
+then console mycmd-runas player {player} /ouch
+
+match ^/ihopper:kho
+then warn &cOops! Chỉ có 1 lệnh duy nhất &e&l/kho
+then deny
+then console mycmd-runas player {player} /ouch
+
+match ^/tuido
+then warn &cOops! Chỉ có 1 lệnh duy nhất &e&l/kho
+then deny
+then console mycmd-runas player {player} /ouch
+
+match ^/ihopper:tuido
+then warn &cOops! Chỉ có 1 lệnh duy nhất &e&l/kho
+then deny
+then console mycmd-runas player {player} /ouch
+
+####
+match ^/ihopper:ihopper withdraw
+then warn &cOops! Chỉ có 1 lệnh duy nhất &e&l/kho
+then deny
+then console mycmd-runas player {player} /ouch
+
+match ^/ihopper withdraw
+then warn &cOops! Chỉ có 1 lệnh duy nhất &e&l/kho
+then deny
+then console mycmd-runas player {player} /ouch
+
+match ^/ihopper:hopper withdraw
+then warn &cOops! Chỉ có 1 lệnh duy nhất &e&l/kho
+then deny
+then console mycmd-runas player {player} /ouch
+
+match ^/hopper withdraw
+then warn &cOops! Chỉ có 1 lệnh duy nhất &e&l/kho
+then deny
+then console mycmd-runas player {player} /ouch
+
+match ^/ihopper:ih withdraw
+then warn &cOops! Chỉ có 1 lệnh duy nhất &e&l/kho
+then deny
+then console mycmd-runas player {player} /ouch
+
+match ^/ih withdraw
+then warn &cOops! Chỉ có 1 lệnh duy nhất &e&l/kho
+then deny
+then console mycmd-runas player {player} /ouch
+
+match ^/ihopper:tuido withdraw
+then warn &cOops! Chỉ có 1 lệnh duy nhất &e&l/kho
+then deny
+then console mycmd-runas player {player} /ouch
+
+match ^/tuido withdraw
+then warn &cOops! Chỉ có 1 lệnh duy nhất &e&l/kho
+then deny
+then console mycmd-runas player {player} /ouch
+
+match ^/ihopper:kho withdraw
+then warn &cOops! Chỉ có 1 lệnh duy nhất &e&l/kho
+then deny
+then console mycmd-runas player {player} /ouch

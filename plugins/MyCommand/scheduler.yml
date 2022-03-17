@@ -1,0 +1,11 @@
+# 
+#  					BukkitDev Help page : http://dev.bukkit.org/server-mods/mycommand/    					#
+scheduler:
+  onl:
+    date: always
+    commands: 
+    - mm m kill bw
+    - title @a subtitle ["",{"text":"T\u1ecda \u0111\u1ed9:","color":"yellow"},{"text":" world,-425.5,64,41.5","color":"dark_green"}]
+    - title @a title ["",{"text":"Boss Th\u1ebf Gi\u1edbi","bold":true,"color":"dark_blue"},{"text":" has reborn","color":"gray"}]
+    - mm m spawn bw 1 world,-42.5,64,41.5
+    - bb broadcast 30 &cBoss world đã hồi sinh. Mau đến "Nhà máy Chất thải" để tham chiến!

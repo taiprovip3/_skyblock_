@@ -1,0 +1,855 @@
+[03:13:01] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[03:13:01] [Server thread/INFO]: Loading properties
+[03:13:01] [Server thread/INFO]: Default game type: SURVIVAL
+[03:13:02] [Server thread/INFO]: This server is running Paper version git-Paper-1618 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[03:13:02] [Server thread/INFO]: Debug logging is disabled
+[03:13:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:13:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:13:02] [Server thread/INFO]: Generating keypair
+[03:13:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:13:02] [Server thread/INFO]: Using epoll channel type
+[03:13:03] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[03:13:04] [Server thread/INFO]: [TheSieuToc] Loading TheSieuToc v2.0.3
+[03:13:04] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.9
+[03:13:04] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.7
+[03:13:04] [Server thread/INFO]: [CommandLog] Loading CommandLog v1.2
+[03:13:04] [Server thread/INFO]: [LuckyBlock] Loading LuckyBlock v1.1.1
+[03:13:04] [Server thread/INFO]: [InventoryPages] Loading InventoryPages v1.0.1
+[03:13:04] [Server thread/INFO]: [DiemDanh] Loading DiemDanh v1.0.1
+[03:13:04] [Server thread/INFO]: [LevelUP] Loading LevelUP v1.2
+[03:13:04] [Server thread/INFO]: [FunMeteors] Loading FunMeteors v1.0.0-BETA
+[03:13:04] [Server thread/INFO]: [CoinFlip] Loading CoinFlip vBETA 0.1
+[03:13:04] [Server thread/INFO]: [AnimaBossBar] Loading AnimaBossBar v4.3
+[03:13:04] [Server thread/INFO]: [DeathDropsAPI] Loading DeathDropsAPI v1.6
+[03:13:04] [Server thread/INFO]: [TreeGravity] Loading TreeGravity v1.12.3.8
+[03:13:04] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v3.0.1
+[03:13:05] [Server thread/INFO]: [ViaVersion] ViaVersion 3.0.1 is now loaded, injecting!
+[03:13:05] [pool-6-thread-1/INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 mappings...
+[03:13:05] [pool-6-thread-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[03:13:05] [pool-6-thread-3/INFO]: [ViaVersion] Loading 1.14.4 -> 1.15 mappings...
+[03:13:05] [pool-6-thread-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[03:13:05] [Server thread/INFO]: [MoreVault] Loading MoreVault v0.1.2
+[03:13:05] [Server thread/INFO]: [ClickTpa] Loading ClickTpa v1.1.0
+[03:13:05] [Server thread/INFO]: [ItemBox] Loading ItemBox v0.4.0
+[03:13:05] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
+[03:13:05] [Server thread/INFO]: [DisplayItem] Loading DisplayItem v1.2.4
+[03:13:05] [Server thread/INFO]: [FastCraft] Loading FastCraft v3.2.10
+[03:13:06] [Server thread/INFO]: [NoRain] Loading NoRain v1.3
+[03:13:06] [Server thread/INFO]: [Yottabyte-AntiCraft] Loading Yottabyte-AntiCraft v2.1.4
+[03:13:06] [Server thread/INFO]: [NBTEditor] Loading NBTEditor v3.0.1
+[03:13:06] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[03:13:06] [Server thread/INFO]: [AgarthaLib] Loading AgarthaLib v2.16.5
+[03:13:06] [Server thread/INFO]: [ChatControl] Loading ChatControl v5.8.7
+[03:13:06] [Server thread/INFO]: [CrackShot] Loading CrackShot v0.98.9
+[03:13:06] [Server thread/INFO]: [TimedItems] Loading TimedItems v2.6
+[03:13:06] [Server thread/INFO]: [AdvancedIndicator] Loading AdvancedIndicator v1.6.2
+[03:13:06] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.8.0
+[03:13:09] [pool-6-thread-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[03:13:13] [Server thread/INFO]: [MCCore] Loading MCCore v1.67
+[03:13:13] [Server thread/INFO]: [DeathMessagesPrime] Loading DeathMessagesPrime v1.16.3
+[03:13:13] [Server thread/INFO]: [NoCheatPlus] Loading NoCheatPlus v3.16.0-RC-sMD5NET-b1134
+[03:13:13] [Server thread/INFO]: [NoCheatPlus] onLoad: Early set up of static API, configuration, logging.
+[03:13:14] [Server thread/INFO]: [NoCheatPlus] Logging system initialized.
+[03:13:14] [Server thread/INFO]: [NoCheatPlus] Detected Minecraft version: 1.12.2
+[03:13:14] [Server thread/INFO]: [ItemTags] Loading ItemTags v1.5
+[03:13:14] [Server thread/INFO]: [Vouchers] Loading Vouchers v2.1.0
+[03:13:14] [Server thread/INFO]: [InteractiveBooks] Loading InteractiveBooks v1.5.2
+[03:13:14] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.5
+[03:13:14] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[03:13:14] [Server thread/INFO]: [SQLibrary] Loading SQLibrary v7.1
+[03:13:14] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[03:13:14] [Server thread/INFO]: [EZBlocks] Loading EZBlocks v1.5.0
+[03:13:14] [Server thread/INFO]: [ChatGames] Loading ChatGames v1.0
+[03:13:14] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.1
+[03:13:14] [Server thread/INFO]: [LemonMobCoins] Loading LemonMobCoins v1.4
+[03:13:14] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v2.1.5-SNAPSHOT
+[03:13:14] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[03:13:14] [Server thread/INFO]: [MyItems] Loading MyItems v6.4.3
+[03:13:14] [Server thread/INFO]: [SkillAPI] Loading SkillAPI v3.108
+[03:13:14] [Server thread/INFO]: [AuctionHouse] Loading AuctionHouse v2.1.7
+[03:13:14] [Server thread/INFO]: [ASkyBlock] Loading ASkyBlock v3.0.9.4
+[03:13:14] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.1.2
+[03:13:14] [Server thread/INFO]: [TopBalance] Loading TopBalance v1.3
+[03:13:14] [Server thread/INFO]: [LockedItems] Loading LockedItems v3.3
+[03:13:14] [Server thread/INFO]: [IslandBorder] Loading IslandBorder vBuild 3
+[03:13:14] [Server thread/INFO]: [PexTabCompleter] Loading PexTabCompleter v1.3.1
+[03:13:14] [Server thread/INFO]: [MyCommand] Loading MyCommand v5.6.0
+[03:13:14] [Server thread/INFO]: [CrazyEnchantments] Loading CrazyEnchantments v1.7.1.4
+[03:13:14] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.3
+[03:13:14] [Server thread/INFO]: [GadgetsMenu] Loading GadgetsMenu v4.3.30
+[03:13:14] [Server thread/INFO]: [BuildersWand] Loading BuildersWand v2.18.0
+[03:13:14] [Server thread/INFO]: [BuildMoney] Loading BuildMoney v3.7
+[03:13:14] [Server thread/INFO]: [iHopper] Loading iHopper v1.5.0
+[03:13:14] [Server thread/INFO]: [InfoBoardReborn] Loading InfoBoardReborn v2.0.6
+[03:13:14] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.22-SNAPSHOT (build 1487)
+[03:13:14] [Server thread/INFO]: [GTACops] Loading GTACops v1.0
+[03:13:14] [Server thread/INFO]: [TradeSystem] Loading TradeSystem v1.2.1
+[03:13:14] [Server thread/INFO]: [TimeIsMoney] Loading TimeIsMoney v1.9.6.16
+[03:13:14] [Server thread/INFO]: [Oregen3] Loading Oregen3 v1.6.0
+[03:13:14] [Server thread/INFO]: [Lottery] Loading Lottery v1.4.1
+[03:13:14] [Server thread/INFO]: [SellStick] Loading SellStick v1.12.3
+[03:13:14] [Server thread/INFO]: [CrazyCrates] Loading CrazyCrates v1.10-RELEASE
+[03:13:14] [Server thread/INFO]: [NoFlyZone] Loading NoFlyZone v2.0.0
+[03:13:14] [Server thread/INFO]: [CommandNPC] Loading CommandNPC v1.9.1
+[03:13:14] [Server thread/INFO]: [BlockParticles] Loading BlockParticles v1.11.1-RELEASE
+[03:13:14] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-beta2-b2453
+[03:13:14] [Server thread/INFO]: [WildStacker] Loading WildStacker v3.6.3
+[03:13:14] [Server thread/INFO]: [Minions] Loading Minions v4.59
+[03:13:14] [Server thread/INFO]: [ShopGUIPlus] Loading ShopGUIPlus v1.34.1
+[03:13:14] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5.0-b727
+[03:13:14] [Server thread/INFO]: [Shopkeepers] Loading Shopkeepers v2.2.2
+[03:13:14] [Server thread/INFO]: [MythicMobs] Loading MythicMobs v4.6.5-2800
+[03:13:14] [Server thread/INFO]: [SupplyCrates] Loading SupplyCrates v2.3-STABLE
+[03:13:14] [Server thread/INFO]: [Quests] Loading Quests v3.9.4-b${env.BUILD_NUMBER}
+[03:13:14] [Server thread/INFO]: [BossShopPro] Loading BossShopPro v1.9.8
+[03:13:14] [Server thread/INFO]: [MyPet] Loading MyPet v3.1
+[03:13:15] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] Error-Reporter ENABLED
+[03:13:16] [Server thread/INFO]: [GuiShopManager] Loading GuiShopManager v1.1.2
+[03:13:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:13:16] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.8.0
+[03:13:16] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[03:13:16] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[03:13:16] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[03:13:16] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[03:13:16] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[03:13:16] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[03:13:16] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[03:13:16] [Server thread/INFO]: [ASkyBlock] Enabling ASkyBlock v3.0.9.4
+[03:13:17] [Server thread/INFO]: [ASkyBlock] Loading entity limits
+[03:13:17] [Server thread/INFO]: [ASkyBlock] BAT will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] BLAZE will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] BOAT will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] BOAT will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] CAVE_SPIDER will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] CHICKEN will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] COW will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] CREEPER will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] DONKEY will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] ENDERMAN will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] HORSE will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] HUSK will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] IRON_GOLEM will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] LLAMA will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] MAGMA_CUBE will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] MULE will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] MUSHROOM_COW will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] OCELOT will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] PIG will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] PIG_ZOMBIE will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] POLAR_BEAR will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] RABBIT will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] RABBIT will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] SHEEP will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] SKELETON will be limited to 20
+[03:13:17] [Server thread/INFO]: [ASkyBlock] SKELETON_HORSE will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] SLIME will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] SNOWMAN will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] SPIDER will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] SQUID will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] STRAY will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] WITCH will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] WITHER will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] WITHER_SKELETON will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] WOLF will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] ZOMBIE will be limited to 20
+[03:13:17] [Server thread/INFO]: [ASkyBlock] ZOMBIE_HORSE will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] ZOMBIE_VILLAGER will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] MOB_SPAWNER will be limited to 10
+[03:13:17] [Server thread/INFO]: [ASkyBlock] HOPPER will be limited to 200
+[03:13:17] [Server thread/INFO]: [ASkyBlock] Loaded default island schematic.
+[03:13:17] [Server thread/INFO]: [ASkyBlock] Loaded default nether schematic.
+[03:13:17] [Server thread/INFO]: [ASkyBlock] Loading schematic Island cổ điển (island1.schematic) for all players, order 1
+[03:13:17] [Server thread/INFO]: [ASkyBlock] Loading schematic Island sa mạc (island2.schematic) for all players, order 2
+[03:13:17] [Server thread/INFO]: [ASkyBlock] Loading schematic Island băng giá (island3.schematic) for all players, order 3
+[03:13:17] [Server thread/INFO]: [ASkyBlock] Loading schematic NetherBlock Island (nether.schematic) for all players, order 0
+[03:13:17] [Server thread/INFO]: [ASkyBlock] Loading offline messages...
+[03:13:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:13:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:13:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:13:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:13:17] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[03:13:17] [Server thread/INFO]: Preparing level "world"
+[03:13:17] [Server thread/INFO]: -------- World Settings For [world] --------
+[03:13:17] [Server thread/INFO]: Mob Spawn Range: 4
+[03:13:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[03:13:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[03:13:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[03:13:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[03:13:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[03:13:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[03:13:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[03:13:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[03:13:17] [Server thread/INFO]: Vine Growth Modifier: 100%
+[03:13:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[03:13:17] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Mi 8 / Tiv false
+[03:13:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:13:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:13:17] [Server thread/INFO]: Random Lighting Updates: false
+[03:13:17] [Server thread/INFO]: Structure Info Saving: true
+[03:13:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[03:13:17] [Server thread/INFO]: Max TNT Explosions: 100
+[03:13:17] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[03:13:17] [Server thread/INFO]: Item Despawn Rate: 1200
+[03:13:17] [Server thread/INFO]: Item Merge Radius: 4.0
+[03:13:17] [Server thread/INFO]: View Distance: 5
+[03:13:17] [Server thread/INFO]: Arrow Despawn Rate: 300
+[03:13:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:13:17] [Server thread/INFO]: Experience Merge Radius: 6.0
+[03:13:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[03:13:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[03:13:18] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[03:13:18] [Server thread/INFO]: Mob Spawn Range: 4
+[03:13:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[03:13:18] [Server thread/INFO]: Cane Growth Modifier: 100%
+[03:13:18] [Server thread/INFO]: Melon Growth Modifier: 100%
+[03:13:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[03:13:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[03:13:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[03:13:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[03:13:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[03:13:18] [Server thread/INFO]: Vine Growth Modifier: 100%
+[03:13:18] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[03:13:18] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Mi 8 / Tiv false
+[03:13:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:13:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:13:18] [Server thread/INFO]: Random Lighting Updates: false
+[03:13:18] [Server thread/INFO]: Structure Info Saving: true
+[03:13:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[03:13:18] [Server thread/INFO]: Max TNT Explosions: 100
+[03:13:18] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[03:13:18] [Server thread/INFO]: Item Despawn Rate: 1200
+[03:13:18] [Server thread/INFO]: Item Merge Radius: 4.0
+[03:13:18] [Server thread/INFO]: View Distance: 5
+[03:13:18] [Server thread/INFO]: Arrow Despawn Rate: 300
+[03:13:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:13:18] [Server thread/INFO]: Experience Merge Radius: 6.0
+[03:13:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[03:13:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[03:13:18] [Server thread/INFO]: Preparing start region for level 0 (Seed: 27594263)
+[03:13:19] [Server thread/INFO]: Preparing spawn area: 25%
+[03:13:19] [Server thread/INFO]: Preparing start region for level 1 (Seed: 337730995822406971)
+[03:13:20] [Server thread/INFO]: [TheSieuToc] Enabling TheSieuToc v2.0.3
+[03:13:20] [Server thread/INFO]:   ________            _____ _               ______
+[03:13:20] [Server thread/INFO]:   /_  __/ /_  ___     / ___/(____  __  __   /_  ______  _____
+[03:13:20] [Server thread/INFO]:    / / / __ \/ _ \    \__ \/ / _ \/ / / /    / / / __ \/ ___/
+[03:13:20] [Server thread/INFO]:   / / / / / /  __/   ___/ / /  __/ /_/ /    / / / /_/ / /__
+[03:13:20] [Server thread/INFO]:  /_/ /_/ /_/\___/   /____/_/\___/\__._/    /_/  \____/\___/
+[03:13:20] [Server thread/INFO]:                | Version: 2.0.3 | Author: LXC |
+[03:13:20] [Server thread/INFO]:             | Copyright (c) 2018-2022 TheSieuToc |
+[03:13:20] [Server thread/INFO]: [TheSieuToc] Commands has been registered
+[03:13:20] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.9
+[03:13:20] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[03:13:20] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.7
+[03:13:20] [Server thread/INFO]: [CommandLog] Enabling CommandLog v1.2
+[03:13:20] [Server thread/INFO]: There are 6 commands in the ignore list
+[03:13:20] [Server thread/INFO]: [LuckyBlock] Enabling LuckyBlock v1.1.1
+[03:13:20] [Server thread/INFO]: [LuckyBlock] Plugin LuckyBlock was started!
+[03:13:20] [Server thread/INFO]: [LuckyBlock] Configuration file found! Loading config file.
+[03:13:20] [Server thread/INFO]: [InventoryPages] Enabling InventoryPages v1.0.1
+[03:13:20] [Server thread/INFO]: [InventoryPages] Registering events.
+[03:13:20] [Server thread/INFO]: [InventoryPages] Metrics enabled!
+[03:13:20] [Server thread/INFO]: [InventoryPages] Setting up items.
+[03:13:20] [Server thread/INFO]: [InventoryPages] Setting up commands.
+[03:13:20] [Server thread/INFO]: [InventoryPages] Setting up language.
+[03:13:20] [Server thread/INFO]: [InventoryPages] Setting up inventories.
+[03:13:20] [Server thread/INFO]: [InventoryPages] Setting up inventory saving.
+[03:13:20] [Server thread/INFO]: [InventoryPages] Plugin enabled!
+[03:13:20] [Server thread/INFO]: [DiemDanh] Enabling DiemDanh v1.0.1
+[03:13:20] [Server thread/INFO]: [LevelUP] Enabling LevelUP v1.2
+[03:13:20] [Server thread/INFO]: [FunMeteors] Enabling FunMeteors v1.0.0-BETA
+[03:13:20] [Server thread/INFO]: ===============================
+[03:13:20] [Server thread/INFO]: FunMeteors has been enabled
+[03:13:20] [Server thread/INFO]: Version: 1.0.0-BETA
+[03:13:20] [Server thread/INFO]: ===============================
+[03:13:20] [Server thread/INFO]: [CoinFlip] Enabling CoinFlip vBETA 0.1
+[03:13:20] [Server thread/INFO]: [AnimaBossBar] Enabling AnimaBossBar v4.3
+[03:13:20] [Server thread/INFO]: ------------------------------------------------------------------
+[03:13:20] [Server thread/INFO]:                                                                   
+[03:13:20] [Server thread/INFO]:       This BossBar Plugin is made by: Dutchwilco Version 4.3      
+[03:13:20] [Server thread/INFO]:                                                                   
+[03:13:20] [Server thread/INFO]: ------------------------------------------------------------------
+[03:13:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[03:13:20] [Server thread/INFO]: [DeathDropsAPI] Enabling DeathDropsAPI v1.6
+[03:13:20] [Server thread/INFO]: [DeathDropsAPI] Spigot v1_12_R1 detected.
+[03:13:20] [Server thread/INFO]: [TreeGravity] Enabling TreeGravity v1.12.3.8
+[03:13:20] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v3.0.1
+[03:13:20] [Server thread/INFO]: [MoreVault] Enabling MoreVault v0.1.2
+[03:13:21] [Server thread/INFO]: [ClickTpa] Enabling ClickTpa v1.1.0
+[03:13:21] [Server thread/INFO]: [ClickTpa] Loaded Successfully
+[03:13:21] [Server thread/INFO]: [ItemBox] Enabling ItemBox v0.4.0
+[03:13:21] [Server thread/INFO]: [ItemBox] Loaded dynamic box [default]
+[03:13:21] [Server thread/INFO]: [ItemBox]: Loaded 0 language statements
+[03:13:21] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
+[03:13:21] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[03:13:22] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[03:13:22] [Server thread/INFO]: [DisplayItem] Enabling DisplayItem v1.2.4
+[03:13:22] [Server thread/INFO]: [DisplayItem] Your server is running version v1_12_R1
+[03:13:22] [Server thread/INFO]: [DisplayItem] DisplayItem setup was successful!
+[03:13:22] [Server thread/INFO]: [FastCraft] Enabling FastCraft v3.2.10
+[03:13:22] [Server thread/INFO]: [NoRain] Enabling NoRain v1.3
+[03:13:22] [Server thread/INFO]: [Yottabyte-AntiCraft] Enabling Yottabyte-AntiCraft v2.1.4
+[03:13:22] [Server thread/INFO]: [com.wekylend.yottabyteanticraft.utilities.Utils] [1;92m[Yottabyte-AntiCraft] Loading Yottabyte-AntiCraft...
+[03:13:22] [Server thread/INFO]: [com.wekylend.yottabyteanticraft.utilities.Utils] [1;92m[Yottabyte-AntiCraft] Version Detected: 1.12
+[03:13:23] [Server thread/INFO]: [com.wekylend.yottabyteanticraft.utilities.Utils] [1;92m[Yottabyte-AntiCraft] Plugin started in 190ms.
+[03:13:23] [Server thread/INFO]: [com.wekylend.yottabyteanticraft.utilities.Utils] [1;92m[Yottabyte-AntiCraft] by Wekylend.
+[03:13:23] [Server thread/INFO]: [NBTEditor] Enabling NBTEditor v3.0.1
+[03:13:23] [Server thread/INFO]: [NBTEditor] NBTEditor has been enabled
+[03:13:23] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[03:13:23] [Server thread/INFO]: [ClearLag] Using version-adapter: LegacyVersionAdapter
+[03:13:23] [Server thread/INFO]: [ClearLag] Loading modules...
+[03:13:23] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[03:13:23] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[03:13:23] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[03:13:23] [Server thread/INFO]: [AgarthaLib] Enabling AgarthaLib v2.16.5
+[03:13:23] [Thread-13/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.12]...
+[03:13:23] [Thread-13/INFO]: [ClearLag] No updates found!
+[03:13:24] [Server thread/WARN]: [PlaceholderAPI] agarthalib is attempting to register placeholders via a PlaceholderHook class which is no longer supported!
+[03:13:24] [Server thread/INFO]: [ChatControl] Enabling ChatControl v5.8.7
+[03:13:24] [Server thread/INFO]: Hooked into: AuthMe (Country Variables)
+[03:13:24] [Server thread/INFO]: Hooked into: Essentials
+[03:13:24] [Server thread/INFO]: Hooked into: Multiverse-Core (World Alias)
+[03:13:24] [Server thread/INFO]: Hooked into: ProtocolLib (Packet Features)
+[03:13:24] [Server thread/INFO]: Hooked into: Vault
+[03:13:24] [Server thread/INFO]: Hooked into: PlaceholderAPI
+[03:13:24] [Server thread/INFO]: Starting checker listener with NORMAL priority
+[03:13:24] [Server thread/INFO]: Starting formatter listener with NORMAL priority
+[03:13:24] [Server thread/INFO]: [CrackShot] Enabling CrackShot v0.98.9
+[03:13:25] [Server thread/INFO]: [TimedItems] Enabling TimedItems v2.6
+[03:13:25] [Server thread/INFO]: [TimedItems] Spigot v1_12_R1 detected.
+[03:13:25] [Server thread/INFO]: [TimedItems] TimedItems v2.4 viet boi MasterClaus
+[03:13:25] [Server thread/INFO]: [TimedItems] Donate cho tac gia qua email themasterclaus@gmail.com neu plugin co ich.
+[03:13:25] [Server thread/INFO]: [AdvancedIndicator] Enabling AdvancedIndicator v1.6.2
+[03:13:25] [Server thread/WARN]: [PlaceholderAPI] advancedindicator is attempting to register placeholders via a PlaceholderHook class which is no longer supported!
+[03:13:25] [Server thread/INFO]: [MCCore] Enabling MCCore v1.67
+[03:13:25] [Server thread/INFO]: Server version: 11202
+[03:13:25] [Server thread/INFO]: Server version: 11202
+[03:13:25] [Thread-14/WARN]: java.io.IOException: Server returned HTTP response code: 403 for URL: https://ci.destroystokyo.com/job/Paper/lastSuccessfulBuild/buildNumber
+[03:13:25] [Thread-14/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1897)
+[03:13:25] [Thread-14/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1495)
+[03:13:25] [Thread-14/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[03:13:25] [Thread-14/WARN]: 	at java.net.URL.openStream(URL.java:1093)
+[03:13:25] [Thread-14/WARN]: 	at com.google.common.io.Resources$UrlByteSource.openStream(Resources.java:72)
+[03:13:25] [Thread-14/WARN]: 	at com.google.common.io.ByteSource$AsCharSource.openStream(ByteSource.java:456)
+[03:13:25] [Thread-14/WARN]: 	at com.google.common.io.CharSource.openBufferedStream(CharSource.java:107)
+[03:13:25] [Thread-14/WARN]: 	at org.bukkit.command.defaults.VersionCommand.getFromJenkins(VersionCommand.java:293)
+[03:13:25] [Thread-14/WARN]: 	at org.bukkit.command.defaults.VersionCommand.getDistance(VersionCommand.java:266)
+[03:13:25] [Thread-14/WARN]: 	at org.bukkit.command.defaults.VersionCommand.obtainVersion(VersionCommand.java:214)
+[03:13:25] [Thread-14/WARN]: 	at org.bukkit.command.defaults.VersionCommand.access$000(VersionCommand.java:37)
+[03:13:25] [Thread-14/WARN]: 	at org.bukkit.command.defaults.VersionCommand$1.run(VersionCommand.java:199)
+[03:13:25] [Thread-14/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[03:13:25] [Server thread/INFO]: [DeathMessagesPrime] Enabling DeathMessagesPrime v1.16.3
+[03:13:25] [Server thread/INFO]: [DeathMessagesPrime] Minecraft version is 1.12.2
+[03:13:25] [Server thread/INFO]: [NoCheatPlus] Enabling NoCheatPlus v3.16.0-RC-sMD5NET-b1134
+[03:13:25] [Server thread/INFO]: [NoCheatPlus] McAccess set to: 1.12-1.12.2 / Spigot-CB-1.12_R1
+[03:13:25] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+[03:13:25] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+[03:13:25] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+[03:13:25] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+[03:13:25] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.9 blocks.
+[03:13:25] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.10 blocks.
+[03:13:25] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.11 blocks.
+[03:13:25] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.12 blocks.
+[03:13:25] [Server thread/INFO]: [NoCheatPlus] Update block-info: WATER_LILY block shape patch for multi client protocol support around 1.7.x - 1.11.x.
+[03:13:25] [Server thread/INFO]: [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+[03:13:25] [Server thread/INFO]: [NoCheatPlus] Adding packet level hooks for ProtocolLib (MC 1.12.2)...
+[03:13:25] [Server thread/INFO]: [NoCheatPlus] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+[03:13:25] [Server thread/INFO]: [NoCheatPlus] Force disable FastHeal on Minecraft 1.9 and later.
+[03:13:25] [Server thread/INFO]: [NoCheatPlus] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+[03:13:25] [Server thread/INFO]: [ItemTags] Enabling ItemTags v1.5
+[03:13:25] [Server thread/INFO]: APPLE:&6APPLE 1
+[03:13:25] [Server thread/INFO]: [Vouchers] Enabling Vouchers v2.1.0
+[03:13:25] [Server thread/INFO]: [InteractiveBooks] Enabling InteractiveBooks v1.5.2
+[03:13:25] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_12_R1! Trying to find NMS support
+[03:13:25] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_12_R1' loaded!
+[03:13:25] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
+[03:13:26] [Server thread/INFO]: [InteractiveBooks] [ACF] Enabled Asynchronous Tab Completion Support!
+[03:13:26] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.5
+[03:13:26] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[03:13:26] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[03:13:26] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[03:13:26] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[03:13:26] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
+[03:13:26] [Thread-15/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[03:13:26] [Server thread/INFO]: [SQLibrary] Enabling SQLibrary v7.1
+[03:13:26] [Server thread/INFO]: SQLibrary loaded.
+[03:13:26] [Server thread/INFO]: [EZBlocks] Enabling EZBlocks v1.5.0
+[03:13:26] [Server thread/INFO]: [EZBlocks] Saving/loading via flatfile!
+[03:13:26] [Server thread/INFO]: [EZBlocks] BlockBreakEvent listener registered on HIGHEST
+[03:13:26] [Server thread/INFO]: [EZBlocks] Saving all players every 5 minutes
+[03:13:26] [Server thread/INFO]: [EZBlocks] 0 global rewards loaded!
+[03:13:26] [Server thread/INFO]: [EZBlocks] 1 interval rewards loaded!
+[03:13:26] [Server thread/INFO]: [EZBlocks] 0 global pickaxe rewards loaded!
+[03:13:26] [Server thread/INFO]: [EZBlocks] 0 interval pickaxe rewards loaded!
+[03:13:26] [Server thread/INFO]: [ChatGames] Enabling ChatGames v1.0
+[03:13:26] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.1
+[03:13:26] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[03:13:26] [Server thread/INFO]: [LemonMobCoins] Enabling LemonMobCoins v1.4
+[03:13:26] [Server thread/INFO]: [LemonMobCoins] Loading messages and config..
+[03:13:26] [Server thread/INFO]: [LemonMobCoins] Loaded config and messages!
+[03:13:26] [Server thread/INFO]: [LemonMobCoins] Loading data..
+[03:13:26] [Server thread/INFO]: [LemonMobCoins] Loaded data!
+[03:13:26] [Server thread/INFO]: [LemonMobCoins] Loading API..
+[03:13:26] [Server thread/INFO]: [LemonMobCoins] Loaded API!
+[03:13:26] [Server thread/INFO]: [LemonMobCoins] Loading listeners..
+[03:13:26] [Server thread/INFO]: [LemonMobCoins] Loaded listeners!
+[03:13:26] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v2.1.5-SNAPSHOT
+[03:13:26] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[03:13:26] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[03:13:26] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[03:13:26] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[03:13:26] [Server thread/INFO]: [WorldGuard] (world) All fire spread is disabled.
+[03:13:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[03:13:26] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[03:13:26] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[03:13:26] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[03:13:26] [Server thread/INFO]: [WorldGuard] (world_nether) All fire spread is disabled.
+[03:13:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[03:13:26] [Server thread/INFO]: [WorldGuard] Loading region data...
+[03:13:27] [Server thread/INFO]: [MyItems] Enabling MyItems v6.4.3
+[03:13:28] [Server thread/WARN]: [PlaceholderAPI] myitems is attempting to register placeholders via a PlaceholderHook class which is no longer supported!
+[03:13:28] [Server thread/INFO]: [SkillAPI] Enabling SkillAPI v3.108
+[03:13:28] [Server thread/INFO]: Registration complete
+[03:13:28] [Server thread/INFO]:  - 25 skills
+[03:13:28] [Server thread/INFO]:  - 1 classes
+[03:13:28] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v2.1.7
+[03:13:28] [Server thread/INFO]: [AuctionHouse] Found locale file en_us.json
+[03:13:28] [Server thread/WARN]: [AuctionHouse] [1;33mA backup of the database has been saved with .backup extension.[0m
+[03:13:28] [Server thread/INFO]: [AuctionHouse] Using NMS version v1_12_R1
+[03:13:28] [Server thread/INFO]: [AuctionHouse] Using en_us locale
+[03:13:28] [Server thread/INFO]: [AuctionHouse] Loaded 0 listings
+[03:13:28] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.1.2
+[03:13:28] [Server thread/INFO]: [ChestCommands] Hooked PlayerPoints
+[03:13:29] [Server thread/INFO]: [TopBalance] Enabling TopBalance v1.3
+[03:13:29] [Server thread/INFO]: [LockedItems] Enabling LockedItems v3.3
+[03:13:29] [Server thread/INFO]: [LockedItems] Spigot v1_12_R1 support.
+[03:13:29] [Server thread/INFO]: [IslandBorder] Enabling IslandBorder vBuild 3
+[03:13:29] [Server thread/INFO]: --------------------------
+[03:13:29] [Server thread/INFO]:    Island Border Build 3
+[03:13:29] [Server thread/INFO]:  
+[03:13:29] [Server thread/INFO]: Loading Island Border...
+[03:13:29] [Server thread/INFO]:  
+[03:13:29] [Server thread/INFO]: Running on: v1_12_R1
+[03:13:29] [Server thread/INFO]:  
+[03:13:29] [Server thread/INFO]: Scanning for SkyBlock plugin...
+[03:13:29] [Server thread/INFO]: ASkyBlock found!
+[03:13:29] [Server thread/INFO]:  
+[03:13:29] [Server thread/INFO]: Initializing Database...
+[03:13:29] [Server thread/INFO]: Database Type: Flat file
+[03:13:29] [Server thread/INFO]:  
+[03:13:29] [Server thread/INFO]: Loading accounts...
+[03:13:29] [Server thread/INFO]:  
+[03:13:29] [Server thread/INFO]: Loading files...
+[03:13:29] [Server thread/INFO]:  
+[03:13:29] [Server thread/INFO]: Loading commands...
+[03:13:29] [Server thread/INFO]:  
+[03:13:29] [Server thread/INFO]: Loading Border Scheduler...
+[03:13:29] [Server thread/INFO]:  
+[03:13:29] [Server thread/INFO]: PlaceholderAPI found, Placeholders Hooked!
+[03:13:29] [Server thread/INFO]:  
+[03:13:29] [Server thread/INFO]: MVdWPlaceholderAPI not found!
+[03:13:29] [Server thread/INFO]:  
+[03:13:30] [Server thread/INFO]: Update available: Yes
+[03:13:30] [Server thread/INFO]:   Latest version: Build 10
+[03:13:30] [Server thread/INFO]:   Your version: org.magenpurp.api.versionsupport.v1_12_r1.v1_12_R1@590e7c7f
+[03:13:30] [Server thread/INFO]:  
+[03:13:30] [Server thread/INFO]: Island Border loaded successfully!
+[03:13:30] [Server thread/INFO]: --------------------------
+[03:13:30] [Server thread/INFO]: [PexTabCompleter] Enabling PexTabCompleter v1.3.1
+[03:13:30] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.6.0
+[03:13:30] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-* MyCommand *-=-=-=-=-=-=-=-=-=-=-*
+[03:13:30] [Server thread/INFO]: | You are using an not fully supported server version. (v1_12_R1)
+[03:13:30] [Server thread/INFO]: | Vault  : Ok. Hooked on Vault 1.7.2-b107
+[03:13:30] [Server thread/INFO]: | Command file(s) found : 3
+[03:13:30] [Server thread/INFO]: | Config : Ready.
+[03:13:30] [Server thread/INFO]: [MyCmd] RIGHT_CLICK_INTERACTION Block set item is null, check config.yml
+[03:13:30] [Server thread/INFO]: [MyCmd] RIGHT_CLICK_INTERACTION Block set item is null, check config.yml
+[03:13:30] [Server thread/INFO]: [MyCmd] PHYSICAL_INTERACTION Block set item is null, check config.yml
+[03:13:30] [Server thread/INFO]: [MyCmd] PHYSICAL_INTERACTION Block set item is null, check config.yml
+[03:13:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: mycommand
+[03:13:30] [Server thread/INFO]: | PlaceholderAPI: Hooked, Ok.
+[03:13:30] [Server thread/INFO]: | Duplicated command found. dn2 in examples.yml
+[03:13:30] [Server thread/INFO]: | Duplicated command found. purgepickaxef in examples.yml
+[03:13:30] [Server thread/INFO]: | Custom commands loaded : 222
+[03:13:30] [Server thread/INFO]: | Version: 5.6.0
+[03:13:30] [Server thread/INFO]: | Author : emmerrei a.k.a Ivanpro
+[03:13:30] [Server thread/INFO]: | New update available : MyCommand v5.7.2
+[03:13:30] [Server thread/INFO]: [Mycmd] Scheduler Started!
+[03:13:30] [Server thread/INFO]: | 0 (custom) commands in cooldown added.
+[03:13:30] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
+[03:13:30] [Server thread/INFO]: [CrazyEnchantments] Enabling CrazyEnchantments v1.7.1.4
+[03:13:30] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.3
+[03:13:31] [Server thread/INFO]: [Essentials] Loaded 853 items from items.csv.
+[03:13:31] [Server thread/INFO]: [Essentials] Using locale en
+[03:13:31] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[03:13:31] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[03:13:31] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[03:13:31] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[03:13:31] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.3.30
+[03:13:31] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[03:13:31] [Server thread/INFO]: [GadgetsMenu]            GadgetsMenu 4.3.30 is loading...
+[03:13:31] [Server thread/INFO]: [GadgetsMenu]         [server: git-Paper-1618 (MC: 1.12.2)]
+[03:13:31] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
+[03:13:31] [Server thread/INFO]: [GadgetsMenu]              Date Modified: 22 March 2020
+[03:13:31] [Server thread/INFO]: [GadgetsMenu]                            
+[03:13:31] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_12_R1
+[03:13:31] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[03:13:36] [Server thread/INFO]: [GadgetsMenu] Connecting to MySQL database...
+[03:13:39] [Server thread/INFO]: [GadgetsMenu] Successfully connected to MySQL database!
+[03:13:39] [Server thread/INFO]: [GadgetsMenu] Enabled Mystery Vault individual hologram.
+[03:13:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: gadgetsmenu
+[03:13:39] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
+[03:13:39] [Server thread/INFO]: [BuildersWand] Enabling BuildersWand v2.18.0
+[03:13:39] [Server thread/INFO]: [BuildersWand] Looking for updates...
+[03:13:39] [Server thread/INFO]: [BuildersWand] There is a new update available.
+[03:13:39] [Server thread/INFO]: [BuildersWand] Current version 2.18.0
+[03:13:39] [Server thread/INFO]: [BuildersWand] Newest version 2.22.0
+[03:13:39] [Server thread/INFO]: [BuildersWand] Download the new version here: https://www.spigotmc.org/resources/51577
+[03:13:39] [Server thread/INFO]: [BuildMoney] Enabling BuildMoney v3.7
+[03:13:39] [Server thread/INFO]: [TreeGravity] TreeGravity has been enabled[CrackShot] Gun-mode activated. Boop![BuildMoney] Detected version: v1_12_R1
+[03:13:39] [Server thread/INFO]: [BuildMoney] BuildMoney 3.7 loaded successfully.
+[03:13:39] [Server thread/INFO]: [iHopper] Enabling iHopper v1.5.0
+[03:13:39] [Server thread/INFO]: [InfoBoardReborn] Enabling InfoBoardReborn v2.0.6
+[03:13:39] [Server thread/INFO]: [InfoBoardReborn] InfoBoardReborn has been enabled (V.2.0.6)
+[03:13:39] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.22-SNAPSHOT (build 1487)
+[03:13:40] [Server thread/INFO]: [GTACops] Enabling GTACops v1.0
+[03:13:40] [Server thread/INFO]: [TradeSystem] Enabling TradeSystem v1.2.1
+[03:13:40] [Server thread/INFO]:  
+[03:13:40] [Server thread/INFO]: __________________________________________________________
+[03:13:40] [Server thread/INFO]:  
+[03:13:40] [Server thread/INFO]:                        TradeSystem [1.2.1]
+[03:13:40] [Server thread/INFO]:  
+[03:13:40] [Server thread/INFO]: Status:
+[03:13:40] [Server thread/INFO]:  
+[03:13:40] [Server thread/INFO]: MC-Version: 1.12.2 (R0.1-SNAPSHOT, PAPER)
+[03:13:40] [Server thread/INFO]:  
+[03:13:40] [Server thread/INFO]:   > Loading sounds
+[03:13:40] [Server thread/INFO]:   > Loading blacklist
+[03:13:40] [Server thread/INFO]:     ...got 3 blocked item(s)
+[03:13:40] [Server thread/INFO]:   > Loading layouts
+[03:13:40] [Server thread/INFO]:     ...got 0 layout(s)
+[03:13:40] [Server thread/INFO]:  
+[03:13:40] [Server thread/INFO]: Finished (349ms)
+[03:13:40] [Server thread/INFO]:  
+[03:13:40] [Server thread/INFO]: __________________________________________________________
+[03:13:40] [Server thread/INFO]:  
+[03:13:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: tradesystem
+[03:13:40] [Server thread/INFO]: [TimeIsMoney] Enabling TimeIsMoney v1.9.6.16
+[03:13:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: tim
+[03:13:40] [Server thread/INFO]: [TimeIsMoney] Loaded 1 Payouts!
+[03:13:40] [Server thread/INFO]: Time is Money: Essentials found. Hook in it -> Will use Essentials's AFK feature if afk is enabled.
+[03:13:40] [Server thread/INFO]: Time is Money v1.9.6.16 started.
+[03:13:40] [Server thread/INFO]: [Oregen3] Enabling Oregen3 v1.6.0
+[03:13:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: oregen3
+[03:13:41] [Server thread/INFO]: -------------[Oregen3]-------------
+[03:13:41] [Server thread/INFO]: 
+[03:13:41] [Server thread/INFO]:    Plugin made by Banbeucmas, updated by xHexed
+[03:13:41] [Server thread/INFO]:    Version: 1.6.0
+[03:13:41] [Server thread/INFO]: 
+[03:13:41] [Server thread/INFO]: ------------------------------------
+[03:13:41] [Server thread/INFO]: [Lottery] Enabling Lottery v1.4.1
+[03:13:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: lottery
+[03:13:41] [Server thread/INFO]: [SellStick] Enabling SellStick v1.12.3
+[03:13:41] [Server thread/INFO]: [SellStick] Essentials was found
+[03:13:41] [Server thread/INFO]: Using prices.yml for prices
+[03:13:41] [Server thread/INFO]: [CrazyCrates] Enabling CrazyCrates v1.10-RELEASE
+[03:13:41] [Server thread/INFO]: [CrazyCrates] Loading the config.yml
+[03:13:41] [Server thread/INFO]: [CrazyCrates] Successfully loaded config.yml
+[03:13:41] [Server thread/INFO]: [CrazyCrates] Loading the Messages.yml
+[03:13:41] [Server thread/INFO]: [CrazyCrates] Successfully loaded Messages.yml
+[03:13:41] [Server thread/INFO]: [CrazyCrates] Loading the Locations.yml
+[03:13:41] [Server thread/INFO]: [CrazyCrates] Successfully loaded Locations.yml
+[03:13:41] [Server thread/INFO]: [CrazyCrates] Loading the data.yml
+[03:13:41] [Server thread/INFO]: [CrazyCrates] Successfully loaded data.yml
+[03:13:41] [Server thread/INFO]: [CrazyCrates] Loading custom files.
+[03:13:41] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/thuyto.yml.
+[03:13:41] [Server thread/ERROR]: [org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem] null
+java.util.zip.ZipException: invalid stored block lengths
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:164) ~[?:1.8.0_312]
+	at java.util.zip.GZIPInputStream.read(GZIPInputStream.java:117) ~[?:1.8.0_312]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[?:1.8.0_312]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265) ~[?:1.8.0_312]
+	at java.io.DataInputStream.readByte(DataInputStream.java:265) ~[?:1.8.0_312]
+	at net.minecraft.server.v1_12_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:77) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:54) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:23) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem.<init>(CraftMetaItem.java:536) ~[patched_1.12.2.jar:git-Paper-1618]
+	at sun.reflect.GeneratedConstructorAccessor61.newInstance(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_312]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_312]
+	at org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(CraftMetaItem.java:161) ~[patched_1.12.2.jar:git-Paper-1618]
+	at sun.reflect.GeneratedMethodAccessor29.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_312]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_312]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:79) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:119) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:197) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:35) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructSequenceStep2(BaseConstructor.java:373) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructSequence(BaseConstructor.java:357) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlSeq.construct(SafeConstructor.java:498) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:161) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:147) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:437) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:162) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:130) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:178) ~[patched_1.12.2.jar:git-Paper-1618]
+	at me.badbones69.crazycrates.api.FileManager$CustomFile.<init>(FileManager.java:424) ~[?:?]
+	at me.badbones69.crazycrates.api.FileManager.setup(FileManager.java:74) ~[?:?]
+	at me.badbones69.crazycrates.Main.onEnable(Main.java:65) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1618]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+[03:13:41] [Server thread/ERROR]: [org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem] null
+java.util.zip.ZipException: invalid stored block lengths
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:164) ~[?:1.8.0_312]
+	at java.util.zip.GZIPInputStream.read(GZIPInputStream.java:117) ~[?:1.8.0_312]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[?:1.8.0_312]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265) ~[?:1.8.0_312]
+	at java.io.DataInputStream.readByte(DataInputStream.java:265) ~[?:1.8.0_312]
+	at net.minecraft.server.v1_12_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:77) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:54) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:23) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem.<init>(CraftMetaItem.java:536) ~[patched_1.12.2.jar:git-Paper-1618]
+	at sun.reflect.GeneratedConstructorAccessor61.newInstance(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_312]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_312]
+	at org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(CraftMetaItem.java:161) ~[patched_1.12.2.jar:git-Paper-1618]
+	at sun.reflect.GeneratedMethodAccessor29.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_312]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_312]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:79) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:119) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:197) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:35) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructSequenceStep2(BaseConstructor.java:373) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructSequence(BaseConstructor.java:357) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlSeq.construct(SafeConstructor.java:498) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:161) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:147) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:437) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:162) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:130) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:178) ~[patched_1.12.2.jar:git-Paper-1618]
+	at me.badbones69.crazycrates.api.FileManager$CustomFile.<init>(FileManager.java:424) ~[?:?]
+	at me.badbones69.crazycrates.api.FileManager.setup(FileManager.java:74) ~[?:?]
+	at me.badbones69.crazycrates.Main.onEnable(Main.java:65) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1618]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+[03:13:41] [Server thread/ERROR]: [org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem] null
+java.util.zip.ZipException: invalid code lengths set
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:164) ~[?:1.8.0_312]
+	at java.util.zip.GZIPInputStream.read(GZIPInputStream.java:117) ~[?:1.8.0_312]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[?:1.8.0_312]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265) ~[?:1.8.0_312]
+	at java.io.DataInputStream.readByte(DataInputStream.java:265) ~[?:1.8.0_312]
+	at net.minecraft.server.v1_12_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:77) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:54) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:23) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem.<init>(CraftMetaItem.java:536) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaSkull.<init>(CraftMetaSkull.java:57) ~[patched_1.12.2.jar:git-Paper-1618]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_312]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_312]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_312]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_312]
+	at org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(CraftMetaItem.java:161) ~[patched_1.12.2.jar:git-Paper-1618]
+	at sun.reflect.GeneratedMethodAccessor29.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_312]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_312]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:79) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:119) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:197) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:35) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructSequenceStep2(BaseConstructor.java:373) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructSequence(BaseConstructor.java:357) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlSeq.construct(SafeConstructor.java:498) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:161) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:147) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:437) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:162) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:130) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:178) ~[patched_1.12.2.jar:git-Paper-1618]
+	at me.badbones69.crazycrates.api.FileManager$CustomFile.<init>(FileManager.java:424) ~[?:?]
+	at me.badbones69.crazycrates.api.FileManager.setup(FileManager.java:74) ~[?:?]
+	at me.badbones69.crazycrates.Main.onEnable(Main.java:65) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1618]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+[03:13:41] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/phuthuy.yml.
+[03:13:41] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/titan.yml.
+[03:13:41] [Server thread/INFO]: [CrazyCrates] Finished loading custom files.
+[03:13:41] [Server thread/INFO]: [CrazyCrates] Loading all crate information...
+[03:13:41] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_12_R1! Trying to find NMS support
+[03:13:41] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_12_R1' loaded!
+[03:13:41] [Server thread/INFO]: [CrazyCrates] All crate information has been loaded.
+[03:13:41] [Server thread/INFO]: [CrazyCrates] Loading all the physical crate locations.
+[03:13:41] [Server thread/INFO]: [CrazyCrates] All physical crate locations have been loaded.
+[03:13:41] [Server thread/INFO]: [CrazyCrates] Searching for schematics to load.
+[03:13:41] [Server thread/INFO]: [CrazyCrates] All schematics were found and loaded.
+[03:13:41] [Server thread/INFO]: [CrazyCrates] Cleaning up the data.yml file.
+[03:13:41] [Server thread/INFO]: [CrazyCrates] The data.yml file has been cleaned.
+[03:13:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: crazycrates
+[03:13:41] [Server thread/INFO]: [NoFlyZone] Enabling NoFlyZone v2.0.0
+[03:13:41] [Server thread/INFO]: [CommandNPC] Enabling CommandNPC v1.9.1
+[03:13:41] [Server thread/INFO]: [Grassmc.com] Vault compatible economy found! Economy support for CommandNPC has been enabled.
+[03:13:41] [Server thread/INFO]: [Grassmc.com] Initiating Database
+[03:13:41] [Server thread/INFO]: [Grassmc.com] Injecting command info into Citizens.
+[03:13:41] [Thread-19/INFO]: [Grassmc.com] Loading commands complete!
+[03:13:41] [Server thread/INFO]: [Grassmc.com] CommandNPC successfully loaded!
+[03:13:41] [Server thread/INFO]: [BlockParticles] Enabling BlockParticles v1.11.1-RELEASE
+[03:13:41] [Server thread/INFO]: [BlockParticles] Loading the config.yml
+[03:13:41] [Server thread/INFO]: [BlockParticles] Successfully loaded config.yml
+[03:13:41] [Server thread/INFO]: [BlockParticles] Loading the data.yml
+[03:13:41] [Server thread/INFO]: [BlockParticles] Successfully loaded data.yml
+[03:13:41] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-beta2-b2453
+[03:13:42] [Server thread/INFO]: [AuthMe] Connection arguments loaded, Hikari ConnectionPool ready!
+[03:13:42] [Server thread/WARN]: [Server thread] INFO fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource - AuthMeMYSQLPool - Starting...
+[03:13:44] [Server thread/WARN]: [Server thread] INFO fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource - AuthMeMYSQLPool - Start completed.
+[03:13:59] [Server thread/INFO]: [AuthMe] MySQL setup finished

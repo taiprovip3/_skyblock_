@@ -1,0 +1,15 @@
+currentQuests: none
+currentStages: none
+quest-points: 1
+completed-Quests:
+- dirt mining
+completedRedoableQuests:
+- dirt mining
+completedQuestTimes:
+- 1625752293949
+amountsCompletedQuests:
+- dirt mining
+amountsCompleted:
+- 1
+hasJournal: false
+lastKnownName: PT_Voz

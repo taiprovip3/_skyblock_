@@ -1,0 +1,189 @@
+'1':
+  location: world, 31.5, 101.200, 2.5
+  lines:
+  - '&6&lBạn đang ngụ cư tại máy chủ Skyblock 10.0'
+  - '&7'
+  - '&c❣&r Bắt đầu cuộc hành trình bằng'
+  - '&c❣&r câu lệnh duy nhất /island.'
+  - '&7'
+  - '&c❣&r Đua top vào sau chưa chắc đã thua'
+  - '&c❣&r dành quán quân bằng trình độ.'
+  - '&7'
+  - '&a&lGROUP SERVER:&r Grassmc.com'
+  - icon:grass:0 {ench:[{id:16,lvl:155}]}
+'2':
+  location: world, 25.100, 100.600, -1.500
+  lines:
+  - '&6✦&fCập nhật gần đây &a⇩&r:'
+  - 'Truy cập: &b&ngrassmc.rf.gd&f để xem'
+trade:
+  location: world, 67.5, 69.500, -57.5
+  lines:
+  - '&eKhu trao đổi'
+  - ''
+  - '&2►&7Đổi vật phẩm với các villager'
+  - '&7đẹp trai, thanh lịch, uy tín.'
+  - ''
+  - '&2►&7Hệ thống sử dụng công nghệ'
+  - '&2BLOCKCHAIN-2:&7 admin sẽ ko can'
+  - '&7thiệp vào bất cứ con npc nào.'
+  - ''
+  - '&7Bạn ko có quyền khiếu nại giảm'
+  - '&7giá vật giao dịch'
+  - icon:seeds:0 {ench:[{id:16,lvl:155}]}
+donate:
+  location: world, -50.5, 69.500, 78.5
+  lines:
+  - '&eKhu donate &7(BTC)'
+  - ''
+  - '&2►&7Đổi vật phẩm với các NPC'
+  - '&7đẹp trai, thanh lịch, uy tín.'
+  - ''
+  - '&2►&7Hệ thống sử dụng công nghệ'
+  - '&2BLOCKCHAIN-2:&7 admin sẽ ko can'
+  - '&7thiệp vào bất cứ con npc nào.'
+  - ''
+  - '&7Bạn ko có quyền khiếu nại giảm'
+  - '&7giá vật giao dịch'
+  - icon:emerald:0 {ench:[{id:16,lvl:155}]}
+enchant:
+  location: world, 35.5, 73, 88.5
+  lines:
+  - '&eKhu enchant'
+  - ''
+  - '&2►&7Phù phép gia tăng sức mạnh'
+  - '&7gốc của trang bị mong muốn'
+  - ''
+  - '&2►&cCần có:&7 lapis, exp'
+  - '&2&lADVANCED:&7 càng nhiều exp'
+  - '&7trang bị phù phép càng mạnh'
+  - icon:book_and_quill:0 {ench:[{id:16,lvl:155}]}
+pvp:
+  location: pvp, -53.5, 20.5, 11.5
+  lines:
+  - '&eKhu pvp &6乂'
+  - ''
+  - '&2►&7Chỗ phang nhau dành cho các'
+  - '&7bạn trẻ thích thể hiện trình độ.'
+  - ''
+  - '&2►&7Chỗ thiên thạch thường rơi xuống'
+  - '&2&lAWARD:&7 thiên thạch mạng theo châu'
+  - '&7báu vàng bạc từ vũ trụ đến skyworld'
+  - icon:fireball:0 {ench:[{id:16,lvl:155}]}
+fish:
+  location: world, 90.5, 72.00, -33.5
+  lines:
+  - '&eKhu câu cá'
+  - ''
+  - '&2►&fKhu vực có rất nhiều cá. Rãnh'
+  - '&ftới đây câu để ngắm thiên nhiên.'
+  - ''
+  - '&2►&fCá cắn câu nhanh hơn x4 lần thọng'
+  - '&fᴛhường. Câu được cái chén cũng tính'
+  - '&flà 1 lần câu cá!!!'
+  - icon:cooked_fish:0 {ench:[{id:16,lvl:155}]}
+crates:
+  location: world, 36.5, 69.0, -77.5
+  lines:
+  - '&eKhu quay báu vật'
+  - ''
+  - '&2►&7Chỗ quay báu vật & mở &aHQBA&7. Sử'
+  - '&7dụng chìa khóa để quay crates.'
+  - ''
+  - '&2►&lTYPES:&7Có 2 loại key crate là hữu'
+  - '&7hình và vô hình. Hữu hình dùng tại đây'
+  - '&7vô hình sử dụng quay tại &e/cc'
+  - icon:tripwire_hook:0 {ench:[{id:16,lvl:155}]}
+afk:
+  location: world, 26.5, 124.5, 106.5
+  lines:
+  - '&eKhu afk &7(treo máy cù quay)'
+  - ''
+  - '&2►&5Đang chơi game bị mẹ kêu thì'
+  - '&5nhảy vào cái pool này.'
+  - ''
+  - '&2►&lPOOL:&f +8exp/7-8s'
+  - '&5AFK sẽ ko bị kick khỏi máy chủ'
+  - icon:nether_star:0 {ench:[{id:16,lvl:155}]}
+mine:
+  location: world, -56.5, 76.500, -15.5
+  lines:
+  - '&eKhu test mine'
+  - ''
+  - '&2►&7Island ngộp quá thì ra đây treo'
+  - '&7farm (ko thể đặt thợ mỏ farm).'
+  - ''
+  - '&2►&lEFFICIENCY:&7 do rơi rãi và quét'
+  - '&7rác + ko có chest hứng. Hiệu quả tối'
+  - '&7đa khi farm ở đây (&e92/100&7)'
+  - icon:gold_ingot:0 {ench:[{id:16,lvl:155}]}
+bw:
+  location: world, -50.5, 68.00, 41.5
+  lines:
+  - '&eKhu boss &2&lᴛɢ'
+  - ''
+  - '&2►&7Đây là khu vực kín của nhà máy'
+  - '&7chát thải. Bossworld spawn phía trước'
+  - ''
+  - '&2►&lBOSS:&7 đánh boss rơi đồ, có đánh'
+  - '&7là có quà, ko tham gia thì ko có. Thưởng'
+  - '&7tham gia (&e2000⛀&7 và &e10 ⛁)'
+  - ''
+  - '&2►&lReborn:&7 1h'
+  - icon:skull_item:1
+topis:
+  location: world, -61.5, 115.0, -89.5
+  lines:
+  - '&f❖ &eGiải thưởng top &2&lISLAND'
+  - ''
+  - '&eNo.1: &76000 &e&l฿'
+  - '&e No.2: &75500 &e&l฿'
+  - '&e &e No.3: &75000 &e&l฿'
+  - '&e No.4: &74500 &e&l฿'
+  - '&eNo.5: &74000 &e&l฿'
+  - ''
+  - '&2&lEND:&7&o 03/08/2021 &2&lSESSION I'
+  - icon:grass:0 {ench:[{id:16,lvl:155}]}
+topbal:
+  location: world, -59.5, 115.0, -86.5
+  lines:
+  - '&f❖ &eGiải thưởng top &6&lMONEY'
+  - ''
+  - '&eNo.1: &75000 &e&l฿'
+  - '&e No.2: &74500 &e&l฿'
+  - '&e &e No.3: &74000 &e&l฿'
+  - '&e No.4: &73500 &e&l฿'
+  - '&eNo.5: &73000 &e&l฿'
+  - ''
+  - '&2&lEND:&7&o 03/08/2021 &2&lSESSION I'
+  - icon:double_plant:0 {ench:[{id:16,lvl:155}]}
+topbr:
+  location: world, -56.5, 115.0, -85.5
+  lines:
+  - '&f❖ &eGiải thưởng top &c&lLỰC CHIẾN'
+  - ''
+  - '&eNo.1: &75500 &e&l฿'
+  - '&e No.2: &75000 &e&l฿'
+  - '&e &e No.3: &74500 &e&l฿'
+  - '&e No.4: &74000 &e&l฿'
+  - '&eNo.5: &73500 &e&l฿'
+  - ''
+  - '&2&lEND:&7&o 03/08/2021 &2&lSESSION I'
+  - icon:chorus_fruit:0 {ench:[{id:16,lvl:155}]}
+topbea:
+  location: world, -53.5, 115.0, -82.5
+  lines:
+  - '&f❖ &2Giải thưởng top &d&lISLAND ĐẸP'
+  - ''
+  - '&eNo.1: &74000 &e&l฿'
+  - '&e No.2: &73500 &e&l฿'
+  - '&e &e No.3: &73000 &e&l฿'
+  - '&e No.4: &72500 &e&l฿'
+  - '&eNo.5: &72000 &e&l฿'
+  - ''
+  - '&2&lEND:&7&o 03/08/2021 &2&lSESSION I'
+  - icon:prismarine_crystals:0 {ench:[{id:16,lvl:155}]}
+trade2:
+  location: world, 80.5, 67.4, -34.5
+  lines:
+  - '&6SÁT THỦ&e về hưu chuyển sang bán đồ ám sát'

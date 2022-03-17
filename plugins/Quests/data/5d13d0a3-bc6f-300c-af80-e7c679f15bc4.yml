@@ -1,0 +1,16 @@
+currentQuests:
+- quest1
+currentStages:
+- 0
+quest-points: 0
+questData:
+  quest1:
+    blocks-broken-names:
+    - LOG
+    blocks-broken-amounts:
+    - 0
+    blocks-broken-durability:
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: jojo6

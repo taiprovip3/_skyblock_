@@ -1,0 +1,242 @@
+ShopName: cshop
+DisplayName: '&f>> &e&l⛁&8&l Coins Shop'
+Command: cshop:coinshop
+Sound:
+  Shop:
+    Open: ENTITY_PLAYER_LEVELUP:1:1
+    ChangeShop: ENTITY_PLAYER_LEVELUP:1:1
+shop:
+  1:
+    MenuItem:
+    - 'name:&6&lĐá Xung Kích'
+    - 'lore2:&6Chức năng:&e mở khóa khóa bảo pháp set Xung Kích'
+    - 'lore4:&6Bảo pháp:&e thu thập bảo pháp giúp tăng &l+&e và trở nên mạnh mẽ hơn'
+    - 'lore6:&6Tiêu hao: &e-10&l ⛁&7 (coins)'
+    - 'lore8:&7Click vào!'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQ1ZjQ3ZmViNGQ3NWNiMzMzOTE0YmZkYjk5OWE0ODljOWQwZTMyMGQ1NDhmMzEwNDE5YWQ3MzhkMWUyNGI5In19fQ===
+    RewardType: command
+    Reward:
+    - mm i give %player% bp_zenitsu 1
+    PriceType: POINTS
+    Price: 10
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 13
+  2:
+    MenuItem:
+    - 'name:&3&lĐèn Th&6&lám Hiểm'
+    - 'lore2:&6Chức năng:&e đặt xuống đất và tạo buff'
+    - 'lore4:&6Buff ?:&e lên mạng search "How To Use Beacon In Minecraft"'
+    - 'lore6:&6Tiêu hao: &e-200&l ⛁&7 (coins)'
+    - 'lore8:&7Click vào!'
+    - type:beacon
+    RewardType: command
+    Reward:
+    - mm i give %player% it_beacon 1
+    PriceType: POINTS
+    Price: 200
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 14
+  3:
+    MenuItem:
+    - 'name:&c&lChìa Khóa&c Thủy Tổ &6* Hữu hình'
+    - 'lore2:&6Chức năng:&e mở khóa rưởng thủy tổ thần thoại titan'
+    - 'lore4:&6Rương:&e đến khu crates để sử dụng key báu vật này..'
+    - 'lore6:&6Tiêu hao: &e-500&l ⛁&7 (coins)'
+    - 'lore8:&7Click vào!'
+    - type:131
+    RewardType: command
+    Reward:
+    - crates give p thuyto 1 %player%
+    PriceType: POINTS
+    Price: 500
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 15
+  4:
+    MenuItem:
+    - 'name:&c&lChìa Khóa&c Thủy Tổ &6* Vô hình'
+    - 'lore2:&6Chức năng:&e mở khóa rưởng thủy tổ thần thoại titan'
+    - 'lore4:&6Rương:&e đến khu crates để sử dụng key báu vật này..'
+    - 'lore6:&6Tiêu hao: &e-500&l ⛁&7 (coins)'
+    - 'lore8:&7Click vào!'
+    - type:131
+    RewardType: command
+    Reward:
+    - crates give v thuyto 1 %player%
+    PriceType: POINTS
+    Price: 500
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 22
+  5:
+    MenuItem:
+    - 'name:&6&lTrang phục NGŨ SẮC &e&l*&e Skin'
+    - 'lore2:&6Chức năng:&e thay đổi ngoại hình (skin) của bạn thành trang phục ngũ sắc do Ông Trùm tạo ra'
+    - 'lore4:&6Ngũ Sắc:&e +50.000 exp class vào nhân vật chính'
+    - 'lore6:&eNote: nếu skin ngũ sắc ko đẹp bạn có thể /skin để quay lại skin cũ vì thuộc tính skin đã nhận vĩnh viễn và skin là hàng trang trí.'
+    - 'lore8:&6Tiêu hao: &e-500&l ⛁&7 (coins)'
+    - 'lore10:&7Click vào!'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTgzNDVlZWMxYmNiMzQyNTg4MWVhOWVhNzE1N2IxMmYxYmQ3YzY0NjIzMGY4YjFjNWU1MzYyNzk0Y2Y4MzhhIn19fQ===
+    RewardType: playercommandop
+    Reward:
+    - class exp %player% 50000
+    - mc give %player% 50000
+    - skin rainbow
+    PriceType: POINTS
+    Price: 500
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 23
+  6:
+    MenuItem:
+    - 'name:&6&lTrang phục SANTA CLAUS &e&l*&e Skin'
+    - 'lore2:&6Chức năng:&e thay đổi ngoại hình (skin) của bạn thành trang phục ÔG.Noel do Ông Trùm tạo ra'
+    - 'lore4:&6Santa:&e +50.000 exp class vào nhân vật chính'
+    - 'lore6:&eNote: nếu skin santa ko đẹp bạn có thể /skin để quay lại skin cũ của bạn vì thuộc tính skin đã nhận vĩnh viễn và skin là hàng trang trí.'
+    - 'lore8:&6Tiêu hao: &e-500&l ⛁&7 (coins)'
+    - 'lore10:&7Click vào!'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmQ2MWNjYmZkY2RmODk0MWFkYWY3NmM2YzBlMDE4MmQyYzhiYmI1ZGMxOGYzNzQ4OTU2NTJiYzY2MWI2ZWQifX19=
+    RewardType: playercommandop
+    Reward:
+    - class exp %player% 50000
+    - mc give %player% 50000
+    - skin santa
+    PriceType: POINTS
+    Price: 500
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 24
+  7:
+    MenuItem:
+    - 'name:&6&lTrang phục BƯỚM ĐÊM &e&l*&e Skin'
+    - 'lore2:&6Chức năng:&e thay đổi ngoại hình (skin) của bạn thành trang phục ButterFree do Ông Trùm tạo ra'
+    - 'lore4:&6Santa:&e +50.000 exp class vào nhân vật chính'
+    - 'lore6:&eNote: nếu skin butter ko đẹp bạn có thể /skin để quay lại skin cũ của bạn vì butter skin chỉ là tưởng trưng.'
+    - 'lore8:&6Tiêu hao: &e-500&l ⛁&7 (coins)'
+    - 'lore10:&7Click vào!'
+    - type:397:3
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmQ2MWNjYmZkY2RmODk0MWFkYWY3NmM2YzBlMDE4MmQyYzhiYmI1ZGMxOGYzNzQ4OTU2NTJiYzY2MWI2ZWQifX19=
+    RewardType: playercommandop
+    Reward:
+    - class exp %player% 50000
+    - mc give %player% 50000
+    - skin butterfree
+    PriceType: POINTS
+    Price: 500
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 31
+  8:
+    MenuItem:
+    - 'name:&e✦ &3Hàn Băng &f&l&k||&3 Donate &e✦'
+    - 'lore2:&e ☀Đánh giá:&6 [siêu phẩm]'
+    - 'lore4:&e ☀Công dụng:&7 trao đổi ra các mặt hàng siêu phẩm tại khu donate'
+    - 'lore6:&e ☀Grounding:&7 vật phẩm nếu đặt xuống đất sẽ mất giá trị vĩnh viễn.'
+    - 'lore8:&e ⇥ &6&lVẬT PHẨM ĐƯỢC PHONG ẤN &e⇤'
+    - 'lore10:&6Tiêu hao: &e-500&l ⛁&7 (coins)'
+    - 'lore12:&7Click vào!'
+    - type:174
+    RewardType: command
+    Reward:
+    - mm i give %player% it_hanbang 1
+    PriceType: POINTS
+    Price: 500
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 32
+  9:
+    MenuItem:
+    - 'name:&e✦✦ &b&lBăng Bắc Cực &e✦✦'
+    - 'lore2:&e ☀Đánh giá:&6 [siêu phẩm]'
+    - 'lore4:&e ☀Công dụng:&7 trao đổi ra các mặt hàng siêu phẩm tại khu donate'
+    - 'lore6:&e ☀Added:&7 Là sự tiến hóa mới từ hàn băng, băng này rơi từ mưa sao băng trên trời'
+    - 'lore8:&e ⇥ &6&lVẬT PHẨM ĐƯỢC PHONG ẤN &e⇤'
+    - 'lore10:&6Tiêu hao: &e-1000&l ⛁&7 (coins)'
+    - 'lore12:&7Click vào!'
+    - type:ice
+    RewardType: command
+    Reward:
+    - mm i give %player% it_hanbang2 1
+    PriceType: POINTS
+    Price: 1000
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 33
+  back:
+    MenuItem:
+    - 'name:&c&lQuay lại'
+    - 'lore2:&6trở về menu chính'
+    - 'lore4:&7Click vào!'
+    - type:351:8
+    - enchantment:dig_speed#3
+    - hideflags:hide_enchants
+    RewardType: shop
+    Reward: menu
+    InventoryLocation: 48
+  next:
+    MenuItem:
+    - 'name:&aTrang kế #2'
+    - 'lore2:&7 Cửa hàng donate'
+    - 'lore4:&7Nhấp vào &f>>'
+    - type:351:10
+    - enchantment:dig_speed#3
+    - hideflags:hide_enchants
+    RewardType: shop
+    Reward: cshop2
+    InventoryLocation: 52
+  dec1:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 10
+  dec2:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 1
+  dec3:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 2
+  dec4:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 8
+  dec5:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 9
+  dec6:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 18
+  dec7:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 45
+  dec8:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 54
+  dec9:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 53
+  dec10:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 37
+  dec11:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 46
+  dec12:
+    MenuItem:
+    - 'name:&a'
+    - type:160:15
+    InventoryLocation: 47

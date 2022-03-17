@@ -1,0 +1,34 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 27.74.241.25
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1646573524685
+  login: 1646573178527
+  kits:
+    starter: 1646572462731
+    dangnhap: 1646572642231
+    tntpickaxe: 1646573292745
+money: '267.42'
+last-account-name: jojo6
+logoutlocation:
+  world: c3218837-ce7f-408a-ab46-09cf0edb54b2
+  world-name: ASkyBlock
+  x: 1.32720793793707
+  y: 119.0
+  z: 0.7747611156573166
+  yaw: -72.59945678710938
+  pitch: 7.499993324279785

@@ -1,0 +1,25 @@
+Locations:
+  '1':
+    Crate: titan
+    World: world
+    X: -69
+    Y: 60
+    Z: 36
+  '3':
+    Crate: thuyto
+    World: world
+    X: 39
+    Y: 66
+    Z: -84
+  '2':
+    Crate: titan
+    World: world
+    X: 36
+    Y: 66
+    Z: -84
+  '4':
+    Crate: phuthuy
+    World: world
+    X: 30
+    Y: 66
+    Z: -84

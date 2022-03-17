@@ -1,0 +1,156 @@
+ShopName: shopboom
+DisplayName: '&c༺Server&2☘&8Shop đạo cụ'
+Sound:
+  Shop:
+    Open: ENTITY_ELDER_GUARDIAN_CURSE:1:1
+    ChangeShop: ENTITY_ELDER_GUARDIAN_CURSE:1:1
+shop:
+  1:
+    MenuItem:
+    - type:433
+    - amount:2
+    - name:&eBom phân rã
+    - 'lore2:&2 Công dụng'
+    - 'lore3:&7Sau cú ném chuột phải 1.5s sau bom phân rã phân tách thành 10 hạt urani kích nổ gây 10.0% ST cho mỗi hạt. Càng gần trung tâm quả bom ST càng lớn và cộng dồn!'
+    - 'lore5:&eGiá: %price% &7(&a&l$&7)'
+    - 'lore6:&aCLICKABLE &evào để mua'
+    RewardType: command
+    Reward:
+    - shot give %player% cocopops 2
+    PriceType: money
+    Price: 50000
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 1
+  2:
+    MenuItem:
+    - type:433
+    - name:&6Bom hũy diệt
+    - 'lore2:&2+300-500%&7 Sát thương tối đa'
+    - 'lore3:&2+15.0m&7 Phạm vi ảnh hưởng'
+    - 'lore5:&2nội tại &f-&2 hủy diệt:&7sau cú ném chuột phải, 3s sau triệu hồi hàng chục tia tử hủy diệt gây 20.0% ST cho mỗi tia. Bản thân cũng chịu ST cùng nếu trong khu vực gần'
+    - 'lore7:&eGiá: %price% &7(&a&l$&7)'
+    - 'lore8:&aCLICKABLE &evào để mua'
+    RewardType: command
+    Reward:
+    - shot give %player% airstrike 1
+    PriceType: money
+    Price: 100000
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 1
+  3:
+    MenuItem:
+    - type:433
+    - amount:2
+    - name:&eBom kiến tạo
+    - 'lore2:&2+120.0%&7 Sát thương tối đa'
+    - 'lore3:&2+7.0m&7 Phạm vi ảnh hưởng'
+    - 'lore5:&2nội tại:&7sau cú ném chuột phải phóng ra 1 quả lựu đạn phát nổ sau 3s. ST gây ra lên cả bản thân'
+    - 'lore7:&eGiá: %price% &7(&a&l$&7)'
+    - 'lore8:&aCLICKABLE &evào để mua'
+    RewardType: command
+    Reward:
+    - shot give %player% grenade 2
+    PriceType: money
+    Price: 50000
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 2
+  4:
+    MenuItem:
+    - type:433
+    - name:&eBom choáng
+    - 'lore2:&2+0.0%&7 Sát thương tối đa'
+    - 'lore3:&2+6.0m&7 Phạm vi ảnh hưởng'
+    - 'lore5:&2nội tại:&7sau cú ném chuột phải phóng ra quả bom gây mù tạm thời các ngườ chơi trong phạm vi ghi trên. Đồng thời bản thân có thể bị ảnh hưởng nếu ném quá gần!'
+    - 'lore7:&eGiá: %price% &7(&a&l$&7)'
+    - 'lore8:&aCLICKABLE &evào để mua'
+    RewardType: command
+    Reward:
+    - shot give %player% flashbang 1
+    PriceType: money
+    Price: 100000
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 3
+  5:
+    MenuItem:
+    - type:343
+    - name:&3Thùng gangplank
+    - 'lore2:&fᴅᴍɢ:&7 100%|&fʙᴜʀɴ:&7 20%'
+    - 'lore4:&2kích hoạt:&f đánh vào thùng phi sẽ kíp nổ gây tối đa cho các đv gần nhất 50% đến 120% ST. Tại tâm vụ nổ đạt st tối đa và hất tung.'
+    - 'lore7:&eGiá: %price% &7(&a&l$&7)'
+    - 'lore8:&aCLICKABLE &evào để mua'
+    RewardType: command
+    Reward:
+    - shot give %player% toaster 1
+    PriceType: money
+    Price: 200000
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 4
+  6:
+    MenuItem:
+    - type:147
+    - amount:2
+    - name:&eKhoai Tây Cổ Đại&2 ☀
+    - 'lore2:&7&o↡Đặt xuống đất ☄Kẻ giẫm vào lập tức phát nổ gây (500%X sát thương)=(15♥) tối đa) ☨Và nhận thêm ST rơi từ cao ♒Bao gồm bản thân'
+    - 'lore4:&eGiá: %price% &7(&a&l$&7)'
+    - 'lore6:&aCLICKABLE &evào để mua'
+    RewardType: command
+    Reward:
+    - kit potatotrapx2 %player%
+    PriceType: money
+    Price: 999
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 5
+  7:
+    MenuItem:
+    - type:148
+    - amount:2
+    - name:&eBẫy Gấu✄
+    - 'lore2:&7&o⋆Đặt xuống đất⇩ ⋆Kẻ giẫm vào bị chảy máu (20%X sát thương) ⋆Kéo dài đến khi chết hoặc trị liệu! ⋆Bao gồm bản thân!'
+    - 'lore4:&eGiá: %price% &7(&a&l$&7)'
+    - 'lore6:&aCLICKABLE &evào để mua'
+    RewardType: command
+    Reward:
+    - kit beartrapx2 %player%
+    PriceType: money
+    Price: 999
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 6
+  8:
+    MenuItem:
+    - type:72
+    - amount:2
+    - name:&bBẫy Cá✁
+    - 'lore2:&7&o⋆Đặt xuống đất⇩ ≛Giẫm vào gây (20%X sát thương) kéo dài đến chết hoặc trị liệu ≛Càng gần trung tâm Fizz càng đau ⋆Bao gồm bản thân, đồng đội'
+    - 'lore4:&eGiá: %price% &7(&a&l$&7)'
+    - 'lore6:&aCLICKABLE &evào để mua'
+    RewardType: command
+    Reward:
+    - kit fishtrapx2 %player%
+    PriceType: money
+    Price: 999
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 7
+  9:
+    MenuItem:
+    - type:339
+    - name:&aBăng Trị Liệu&9 ☤
+    - 'lore2:&7&oChuột phải sử dụng xóa tất cả, hiệu ứng: chảy máu, bẫy, độc...Tái sử dụng: 50⌛'
+    - 'lore4:&9&l(!)&7 mua 1 lần sài vĩnh viễn.'
+    - 'lore4:&eGiá: %price% &7(&a&l$&7)'
+    - 'lore6:&aCLICKABLE &evào để mua'
+    RewardType: command
+    Reward:
+    - kit fishtrapx2 %player%
+    PriceType: money
+    Price: 99999
+    Message: '&eBạn vừa mua %amount% %itemname%&e với giá %price% &2[v]'
+    InventoryLocation: 8
+  back:
+    MenuItem:
+    - type:351:8
+    - name:&a
+    - 'lore1:&6&lQUAY LẠI'
+    - 'lore2:&a'
+    RewardType: SHOP
+    Reward: shop
+    InventoryLocation: 18

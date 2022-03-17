@@ -1,0 +1,18 @@
+Hooks:
+  UseWorldGuard: true
+  UseVault: true
+  UseASkyBlock: false
+  UseSkyBlockEarth: false
+  UseIslandWorld: false
+  UseTowny: false
+  UseAcidIsland: false
+  UseFactions: false
+  UseWildStacker: false
+  UseResidence: false
+  UsePlotSquared: false
+  UseLands: false
+  UseGriefPrevention: false
+  RedProtect: false
+  SuperiorSkyblock2: false
+  FabledSkyBlock: true
+  BentoBox: false

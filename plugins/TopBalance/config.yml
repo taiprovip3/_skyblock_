@@ -1,0 +1,92 @@
+Gui:
+  custom-item: true # For best performance, keep it true!!!!!
+  enabled: true # Set false to enable baltop in chat
+  title: "&aＴＯＰ 10 &2☘ &8đại gia tiền tệ"
+  size: 27
+  #
+  # Available placeholders
+  # - {name} (lore-name), {rank} (lore-name), {balance} - formatted (lore), {balance_raw} (lore)
+  #
+  items:
+    player-item:
+      name: "&a{name} &d#{rank}"
+      lore:
+        - ""
+        - "&7với số tiền: &e{balance} &l⛀"
+    close-menu:
+      slot: 8
+      material: "GLOWSTONE_DUST"
+      name: "&cĐÓNG GIAO DIỆN"
+      lore:
+        - ""
+        - "&a&oClickable&7&o vào đây để đóng."
+    player-not-found:
+      material: "BARRIER"
+      name: "&cCòn trống!"
+      lore:
+        - ""
+        - "&7&oCòn trống."
+    self-item:
+      slot: 0
+      material: "GHAST_TEAR" # Only works when custom-item enabled!! (same with Tops.#.material)
+      name: "&eChúc mừng &e&lbạn đã lọt TOP"
+      lore:
+        - ""
+        - "&7với số tiền: &e{balance} &l⛀"
+        - "&7hạng: &e{rank}"
+    fill:
+      enabled: true
+      material: "GRAY_STAINED_GLASS_PANE"
+
+Messages:
+  gui-opened:
+    status: true
+    message: "&aVừa mở danh sách vua tiền tệ cho bạn xem"
+  reloaded: "&aConfig reloaded!"
+  no-perm: "&cYou do not have enough permission for that!"
+
+  chat-baltop-header: "&8&m-----------------[&r &6&lBALTOP &8&m]-----------------"
+  chat-baltop-format: "&7#{rank}&8, &b{name} &7- &b{balance}"
+  chat-baltop-footer: "&8&m--------------------------------------------"
+
+Tops:
+  '1':
+    material: "EMERALD_BLOCK" # Only works when custom-item enabled
+    slot: 4
+    rank: 1
+  '2':
+    material: "DIAMOND_BLOCK"
+    slot: 12
+    rank: 2
+  '3':
+    material: "GOLD_BLOCK"
+    slot: 14
+    rank: 3
+  '4':
+    material: "IRON_BLOCK"
+    slot: 19
+    rank: 4
+  '5':
+    material: "COAL_BLOCK"
+    slot: 20
+    rank: 5
+  '6':
+    material: "EMERALD"
+    slot: 21
+    rank: 6
+  '7':
+    material: "DIAMOND"
+    slot: 22
+    rank: 7
+  '8':
+    material: "GOLD_INGOT"
+    slot: 23
+    rank: 8
+  '9':
+    material: "IRON_INGOT"
+    slot: 24
+    rank: 9
+  '10':
+    material: "COAL"
+    slot: 25
+    rank: 10

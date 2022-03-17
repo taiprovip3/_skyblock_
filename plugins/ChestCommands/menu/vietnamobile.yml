@@ -1,0 +1,145 @@
+menu-settings:
+  name: '&1&lGRASS&b&k|||&8Thẻ vinamobile'
+  rows: 1
+1:
+  COMMAND: 'napthe choose vinamobile 10000'
+  NAME: ''
+  LORE:
+    - '&r &r &r &r &r &r &r &r &r &r &r&aThẻ Vinamobile'
+    - '&r &r &r &r &r &r &r &r &r &r &r&7(10.000 vn₫)'
+    - ''
+    - '&a&m────────&f&m────────&a&m────────'
+    - ''
+    - '&r &r &r &r &r &r &r &6♦&achọn loại thẻ này&6♦'
+    - '&r &r &r &r &r &r &r&6♦&7(nạp sai ko mất thẻ)&6♦'
+    - ''
+    - '&a&m────────&f&m────────&a&m────────'
+    - ''
+    - '&r &r &r &r &r &r &r &r &r &r &r&7(nhấp chọn)'
+  ID: 378
+  POSITION-X: 1
+  POSITION-Y: 1
+2:
+  COMMAND: 'napthe choose vinamobile 20000'
+  NAME: ''
+  LORE:
+    - '&r &r &r &r &r &r &r &r &r &r &r&aThẻ Vinamobile'
+    - '&r &r &r &r &r &r &r &r &r &r &r&7(20.000 vn₫)'
+    - ''
+    - '&a&m────────&f&m────────&a&m────────'
+    - ''
+    - '&r &r &r &r &r &r &r &6♦&achọn loại thẻ này&6♦'
+    - '&r &r &r &r &r &r &r&6♦&7(nạp sai ko mất thẻ)&6♦'
+    - ''
+    - '&a&m────────&f&m────────&a&m────────'
+    - ''
+    - '&r &r &r &r &r &r &r &r &r &r &r&7(nhấp chọn)'
+  ID: 378
+  AMOUNT: 2
+  POSITION-X: 2
+  POSITION-Y: 1
+3:
+  COMMAND: 'napthe choose vinamobile 50000'
+  NAME: ''
+  LORE:
+    - '&r &r &r &r &r &r &r &r &r &r &r&aThẻ Vinamobile'
+    - '&r &r &r &r &r &r &r &r &r &r &r&7(50.000 vn₫)'
+    - ''
+    - '&a&m────────&f&m────────&a&m────────'
+    - ''
+    - '&r &r &r &r &r &r &r &6♦&achọn loại thẻ này&6♦'
+    - '&r &r &r &r &r &r &r&6♦&7(nạp sai ko mất thẻ)&6♦'
+    - ''
+    - '&a&m────────&f&m────────&a&m────────'
+    - ''
+    - '&r &r &r &r &r &r &r &r &r &r &r&7(nhấp chọn)'
+  ID: 378
+  AMOUNT: 5
+  POSITION-X: 3
+  POSITION-Y: 1
+4:
+  COMMAND: 'napthe choose vinamobile 100000'
+  NAME: ''
+  LORE:
+    - '&r &r &r &r &r &r &r &r &r &r &r&aThẻ Vinamobile'
+    - '&r &r &r &r &r &r &r &r &r &r&r&7(100.000 vn₫)'
+    - ''
+    - '&a&m────────&f&m────────&a&m────────'
+    - ''
+    - '&r &r &r &r &r &r &r &6♦&achọn loại thẻ này&6♦'
+    - '&r &r &r &r &r &r &r&6♦&7(nạp sai ko mất thẻ)&6♦'
+    - ''
+    - '&a&m────────&f&m────────&a&m────────'
+    - ''
+    - '&r &r &r &r &r &r &r &r &r &r &r&7(nhấp chọn)'
+  ID: 378
+  AMOUNT: 10
+  POSITION-X: 4
+  POSITION-Y: 1
+5:
+  COMMAND: 'napthe choose vinamobile 200000'
+  NAME: ''
+  LORE:
+    - '&r &r &r &r &r &r &r &r &r &r &r&aThẻ Vinamobile'
+    - '&r &r &r &r &r &r &r &r &r &r&r&7(200.000 vn₫)'
+    - ''
+    - '&a&m────────&f&m────────&a&m────────'
+    - ''
+    - '&r &r &r &r &r &r &r &6♦&achọn loại thẻ này&6♦'
+    - '&r &r &r &r &r &r &r&6♦&7(nạp sai ko mất thẻ)&6♦'
+    - ''
+    - '&a&m────────&f&m────────&a&m────────'
+    - ''
+    - '&r &r &r &r &r &r &r &r &r &r &r&7(nhấp chọn)'
+  ID: 378
+  AMOUNT: 20
+  POSITION-X: 5
+  POSITION-Y: 1
+6:
+  COMMAND: 'napthe choose vinamobile 500000'
+  NAME: ''
+  LORE:
+    - '&r &r &r &r &r &r &r &r &r &r &r&aThẻ Vinamobile'
+    - '&r &r &r &r &r &r &r &r &r &r&r&7(500.000 vn₫)'
+    - ''
+    - '&a&m────────&f&m────────&a&m────────'
+    - ''
+    - '&r &r &r &r &r &r &r &6♦&achọn loại thẻ này&6♦'
+    - '&r &r &r &r &r &r &r&6♦&7(nạp sai ko mất thẻ)&6♦'
+    - ''
+    - '&a&m────────&f&m────────&a&m────────'
+    - ''
+    - '&r &r &r &r &r &r &r &r &r &r &r&7(nhấp chọn)'
+  ID: 378
+  AMOUNT: 50
+  POSITION-X: 6
+  POSITION-Y: 1
+7:
+  COMMAND: 'napthe choose vinamobile 1000000'
+  NAME: ''
+  LORE:
+    - '&r &r &r &r &r &r &r &r &r &r &r&aThẻ Vinamobile'
+    - '&r &r &r &r &r &r &r &r &r &r&7(1.000.000 vn₫)'
+    - ''
+    - '&a&m────────&f&m────────&a&m────────'
+    - ''
+    - '&r &r &r &r &r &r &r &6♦&achọn loại thẻ này&6♦'
+    - '&r &r &r &r &r &r &r&6♦&7(nạp sai ko mất thẻ)&6♦'
+    - ''
+    - '&a&m────────&f&m────────&a&m────────'
+    - ''
+    - '&r &r &r &r &r &r &r &r &r &r &r&7(nhấp chọn)'
+  ID: 378
+  AMOUNT: 64
+  POSITION-X: 7
+  POSITION-Y: 1
+ack:
+  COMMAND: 'op:bs open napthe {player}'
+  NAME: ''
+  LORE:
+    - '&c&lQuay lại&7 (back)'
+    - ''
+  ID: 217
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1

@@ -1,0 +1,28 @@
+#This is NOT like the normal GUI System!!!! You can not add Items to this Inventory nor remove ones. 
+#You can only edit the items that already exist.
+#Please NEVER set a Slot value to anything above the last GUI row, otherwise the Skulls will overwrite them and errors may occur.
+GlobalTicketsInv:
+    Name: "&c【&8Các Players Đang Tham Gia&c】"
+    Skulls:
+        Name: "&e%player%"
+        Lore:
+        - "&2Jackpot: &7%ptickets%"
+    BackButton:
+        Item: glowstone_dust
+        Name: "&cBack"
+        InventoryToOpen: MainInventory
+        Slot: 53
+    PageIndex:
+        Item: name_tag
+        Name: "&9Trang Hiện Tại: &8%page%"
+        Slot: 49
+    NextPage:
+        Item: INK_SACK
+        ItemData: 10
+        Name: "&aTrang tiếp"
+        Slot: 51
+    PastPage:
+        Item: INK_SACK
+        ItemData: 8
+        Name: "&cTrang lùi"
+        Slot: 47

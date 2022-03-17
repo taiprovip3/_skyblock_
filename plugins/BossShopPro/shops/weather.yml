@@ -1,0 +1,69 @@
+ShopName: weather
+DisplayName: '&cMÁY CHỦ&6♦&8 Shop thời tiết☫'
+Command: thoitiet
+Sound:
+  Shop:
+    Open: ENTITY_ITEM_PICKUP:1:1
+    ChangeShop: ENTITY_ITEM_PICKUP:1:1
+shop:
+  1:
+    MenuItem:
+    - type:347
+    - name:&a
+    - 'lore1:&aTrời sáng&f☼'
+    - 'lore2:&f⇥ &7Lay chuyển từ ban đêm sang ban ngày'
+    - 'lore3:&f⇥ &7Chỉnh đến thời gian: 0h'
+    - 'lore4:&2-3 &e&l฿ &7(BTC)'
+    - 'lore5:&a'
+    RewardType: opcommand
+    Reward:
+    - time set day
+    PriceType: POINTS
+    Price: 10
+    ExtraPermission: ''
+    InventoryLocation: 1
+  2:
+    MenuItem:
+    - type:347
+    - amount:2
+    - name:&a
+    - 'lore1:&8&lTrời tối&7۞'
+    - 'lore2:&f⇥ &7Lay chuyển từ ban ngày sang ban đêm'
+    - 'lore3:&f⇥ &7Chỉnh đến thời gian: 12h khuya'
+    - 'lore4:&2-5 &e&l฿ &7(BTC)'
+    - 'lore5:&a'
+    RewardType: opcommand
+    Reward:
+    - time set night
+    PriceType: POINTS
+    Price: 5
+    ExtraPermission: ''
+    InventoryLocation: 2
+  3:
+    MenuItem:
+    - type:347
+    - amount:3
+    - name:&a
+    - 'lore1:&aThời tiết trong sạch&f&l❉'
+    - 'lore2:&f⇥ &7Lay chuyển từ ban đêm sang ban ngày'
+    - 'lore3:&f⇥ &7Chặn các cơn mưa hoặc bão tuyết'
+    - 'lore4:&2-2 &e&l฿ &7(BTC)'
+    - 'lore5:&a'
+    RewardType: opcommand
+    Reward:
+    - sun
+    PriceType: POINTS
+    Price: 2
+    ExtraPermission: ''
+    InventoryLocation: 3
+  back:
+    MenuItem:
+    - type:SIGN
+    - enchantment:dig_speed#1
+    - hideflags:hide_enchants
+    - name:&a
+    - 'lore1:&aQuay lại menu'
+    - 'lore2:&7 &7 &7 Click vào..'
+    RewardType: shop
+    Reward: menu
+    InventoryLocation: 18
