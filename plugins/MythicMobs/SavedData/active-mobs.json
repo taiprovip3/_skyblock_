@@ -1,5 +1,33 @@
 {
   "persistentMobs": {
+    "f02208e0-b0fb-4373-a7b7-ab94835f5b54": {
+      "aliveTime": 5101,
+      "uuid": "f02208e0-b0fb-4373-a7b7-ab94835f5b54",
+      "mobType": "bw",
+      "lastSeen": 1647486918590,
+      "spawnLocation": {
+        "world": {
+          "uuid": "7e03b946-e203-4bc3-9f47-39f77aa9145a",
+          "name": "world"
+        },
+        "x": -42.5,
+        "y": 64.0,
+        "z": 41.5,
+        "yaw": 0.0,
+        "pitch": 0.0
+      },
+      "level": 0,
+      "gcd": 0,
+      "faction": {},
+      "stance": "default",
+      "lastSignal": "",
+      "playerkills": 0,
+      "cooldowns": {},
+      "owner": {},
+      "variables": {
+        "entries": {}
+      }
+    },
     "b7677cf5-00ce-42bb-95b8-ddfb590d3993": {
       "aliveTime": 143,
       "uuid": "b7677cf5-00ce-42bb-95b8-ddfb590d3993",
@@ -61,34 +89,6 @@
       "uuid": "cfb2ecd1-173b-42b2-a5e6-69845009229c",
       "mobType": "bw",
       "lastSeen": 1646318590790,
-      "spawnLocation": {
-        "world": {
-          "uuid": "7e03b946-e203-4bc3-9f47-39f77aa9145a",
-          "name": "world"
-        },
-        "x": -42.5,
-        "y": 64.0,
-        "z": 41.5,
-        "yaw": 0.0,
-        "pitch": 0.0
-      },
-      "level": 0,
-      "gcd": 0,
-      "faction": {},
-      "stance": "default",
-      "lastSignal": "",
-      "playerkills": 0,
-      "cooldowns": {},
-      "owner": {},
-      "variables": {
-        "entries": {}
-      }
-    },
-    "3c0dc8d7-c19d-4249-8e56-f61c19ec1fe7": {
-      "aliveTime": 30301,
-      "uuid": "3c0dc8d7-c19d-4249-8e56-f61c19ec1fe7",
-      "mobType": "bw",
-      "lastSeen": 1647439660810,
       "spawnLocation": {
         "world": {
           "uuid": "7e03b946-e203-4bc3-9f47-39f77aa9145a",

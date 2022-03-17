@@ -853,3 +853,416 @@ java.util.zip.ZipException: invalid code lengths set
 [03:13:42] [Server thread/WARN]: [Server thread] INFO fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource - AuthMeMYSQLPool - Starting...
 [03:13:44] [Server thread/WARN]: [Server thread] INFO fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource - AuthMeMYSQLPool - Start completed.
 [03:13:59] [Server thread/INFO]: [AuthMe] MySQL setup finished
+[03:13:59] [Server thread/INFO]: [AuthMe] Hooked into PermissionsEx!
+[03:13:59] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[03:14:00] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[03:14:00] [Server thread/INFO]: [WildStacker] Enabling WildStacker v3.6.3
+[03:14:00] [Server thread/INFO]: [WildStacker] ******** ENABLE START ********
+[03:14:00] [Server thread/INFO]: [WildStacker] Loading configuration started...
+[03:14:01] [Server thread/INFO]: [WildStacker]  - Stacking drops is enabled
+[03:14:01] [Server thread/INFO]: [WildStacker]  - Stacking entities is enabled
+[03:14:01] [Server thread/INFO]: [WildStacker]  - Stacking spawners is enabled
+[03:14:01] [Server thread/INFO]: [WildStacker]  - Stacking barrels is enabled
+[03:14:01] [Server thread/INFO]: [WildStacker] Loading configuration done (Took 362ms)
+[03:14:01] [Server thread/INFO]: [WildStacker] Loading loot-tables started...
+[03:14:01] [Server thread/INFO]: [WildStacker] [vindicator.json] Couldn't load item with an invalid material WITHER_ROSE.
+[03:14:01] [Server thread/INFO]: [WildStacker] [vex.json] Couldn't load item with an invalid material WITHER_ROSE.
+[03:14:01] [Server thread/INFO]: [WildStacker] [illusioner.json] Couldn't load item with an invalid material WITHER_ROSE.
+[03:14:01] [Server thread/INFO]: [WildStacker] [shulker.json] Couldn't load item with an invalid material WITHER_ROSE.
+[03:14:01] [Server thread/INFO]: [WildStacker] [llama.json] Couldn't load item with an invalid material WITHER_ROSE.
+[03:14:01] [Server thread/INFO]: [WildStacker] [polar_bear_baby.json] Couldn't load item with an invalid material WITHER_ROSE.
+[03:14:01] [Server thread/INFO]: [WildStacker] [zombie_baby.json] Couldn't load item with an invalid material ZOMBIE_HEAD.
+[03:14:01] [Server thread/INFO]: [WildStacker] [parrot.json] Couldn't load item with an invalid material WITHER_ROSE.
+[03:14:01] [Server thread/INFO]: [WildStacker] Loading loot-tables done (Took 48ms)
+[03:14:01] [Server thread/INFO]: [WildStacker] Loading messages started...
+[03:14:01] [Server thread/INFO]: [WildStacker]  - Found 69 messages in lang.yml.
+[03:14:01] [Server thread/INFO]: [WildStacker] Loading messages done (Took 11ms)
+[03:14:02] [Server thread/INFO]: [WildStacker] 
+[03:14:02] [Server thread/INFO]: [WildStacker] A new version is available (v3.7.0)!
+[03:14:02] [Server thread/INFO]: [WildStacker] Version's description: "Support for 1.18.2, bug fixes and more!"
+[03:14:02] [Server thread/INFO]: [WildStacker] 
+[03:14:02] [Server thread/INFO]: [WildStacker] ******** ENABLE DONE ********
+[03:14:02] [Server thread/INFO]: [Minions] Enabling Minions v4.59
+[03:14:03] [Server thread/INFO]: [Minions] Initialising Plugin.. 
+[03:14:03] [Server thread/INFO]: [Minions] hooks.yml found, loading!
+[03:14:03] [Server thread/INFO]: [Minions] skins.yml found, loading!
+[03:14:04] [Server thread/INFO]: [Minions] config.yml found, loading!
+[03:14:04] [Server thread/INFO]: [Minions] messages.yml found, loading!
+[03:14:04] [Server thread/INFO]: [Minions] controlpanel.yml found, loading!
+[03:14:04] [Server thread/INFO]: [Minions] players.yml found, loading!
+[03:14:04] [Server thread/INFO]: [Minions] store.yml found, loading!
+[03:14:04] [Server thread/INFO]: [Minions] Loaded Minion: Miner Made by Jet315
+[03:14:04] [Server thread/INFO]: [Minions] Loaded Minion: Slayer Made by Jet315
+[03:14:04] [Server thread/INFO]: [Minions] Loaded Minion: Collector Made by Jet315
+[03:14:04] [Server thread/INFO]: [Minions] Loaded Minion: Feeder Made by Jet315
+[03:14:04] [Server thread/INFO]: [Minions] Loaded Minion: Lumberjack Made by Jet315
+[03:14:04] [Server thread/INFO]: [Minions] Loaded Minion: Farmer Made by Jet315
+[03:14:04] [Server thread/INFO]: [Minions] Loaded Minion: Fisher Made by Jet315
+[03:14:05] [Server thread/INFO]: [Minions] Initialising Complete in 2233ms
+[03:14:05] [Server thread/INFO]: [Minions] Cracked by Phoenix @ IFL.
+[03:14:06] [Server thread/INFO]: [ShopGUIPlus] Enabling ShopGUIPlus v1.34.1
+[03:14:06] [Server thread/WARN]: [ShopGUIPlus] Error occurred when loading sounds > SHOP_SWITCH_PAGE (config.yml), default sound loaded: No enum constant org.bukkit.Sound.ITEM_BOOK_PAGE_TURN
+[03:14:06] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5.0-b727
+[03:14:08] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[03:14:08] [Server thread/INFO]: Mob Spawn Range: 4
+[03:14:08] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[03:14:08] [Server thread/INFO]: Cane Growth Modifier: 100%
+[03:14:08] [Server thread/INFO]: Melon Growth Modifier: 100%
+[03:14:08] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[03:14:08] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[03:14:08] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[03:14:08] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[03:14:08] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[03:14:08] [Server thread/INFO]: Vine Growth Modifier: 100%
+[03:14:08] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[03:14:08] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Mi 8 / Tiv false
+[03:14:08] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:14:08] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:14:08] [Server thread/INFO]: Random Lighting Updates: false
+[03:14:08] [Server thread/INFO]: Structure Info Saving: true
+[03:14:08] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[03:14:08] [Server thread/INFO]: Max TNT Explosions: 100
+[03:14:08] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[03:14:08] [Server thread/INFO]: Item Despawn Rate: 1200
+[03:14:08] [Server thread/INFO]: Item Merge Radius: 4.0
+[03:14:08] [Server thread/INFO]: View Distance: 5
+[03:14:08] [Server thread/INFO]: Arrow Despawn Rate: 300
+[03:14:08] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:14:08] [Server thread/INFO]: Experience Merge Radius: 6.0
+[03:14:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[03:14:08] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[03:14:08] [Server thread/INFO]: Preparing start region for level 2 (Seed: 337730995822406971)
+[03:14:08] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[03:14:08] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[03:14:08] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[03:14:08] [Server thread/INFO]: [WorldGuard] (world_the_end) All fire spread is disabled.
+[03:14:08] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[03:14:09] [Server thread/INFO]: -------- World Settings For [ASkyBlock] --------
+[03:14:09] [Server thread/INFO]: Mob Spawn Range: 4
+[03:14:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[03:14:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[03:14:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[03:14:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[03:14:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[03:14:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[03:14:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[03:14:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[03:14:09] [Server thread/INFO]: Vine Growth Modifier: 100%
+[03:14:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[03:14:09] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Mi 8 / Tiv false
+[03:14:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:14:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:14:09] [Server thread/INFO]: Random Lighting Updates: false
+[03:14:09] [Server thread/INFO]: Structure Info Saving: true
+[03:14:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[03:14:09] [Server thread/INFO]: Max TNT Explosions: 100
+[03:14:09] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[03:14:09] [Server thread/INFO]: Item Despawn Rate: 1200
+[03:14:09] [Server thread/INFO]: Item Merge Radius: 4.0
+[03:14:09] [Server thread/INFO]: View Distance: 5
+[03:14:09] [Server thread/INFO]: Arrow Despawn Rate: 300
+[03:14:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:14:09] [Server thread/INFO]: Experience Merge Radius: 6.0
+[03:14:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[03:14:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[03:14:09] [Server thread/INFO]: Preparing start region for level 3 (Seed: 4465839251271001144)
+[03:14:09] [Server thread/INFO]: [WorldGuard] (ASkyBlock) TNT ignition is PERMITTED.
+[03:14:09] [Server thread/INFO]: [WorldGuard] (ASkyBlock) Lighters are PERMITTED.
+[03:14:09] [Server thread/INFO]: [WorldGuard] (ASkyBlock) Lava fire is blocked.
+[03:14:09] [Server thread/INFO]: [WorldGuard] (ASkyBlock) All fire spread is disabled.
+[03:14:09] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'ASkyBlock'
+[03:14:09] [Server thread/INFO]: -------- World Settings For [ASkyBlock_nether] --------
+[03:14:09] [Server thread/INFO]: Mob Spawn Range: 4
+[03:14:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[03:14:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[03:14:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[03:14:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[03:14:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[03:14:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[03:14:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[03:14:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[03:14:09] [Server thread/INFO]: Vine Growth Modifier: 100%
+[03:14:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[03:14:09] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Mi 8 / Tiv false
+[03:14:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:14:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:14:09] [Server thread/INFO]: Random Lighting Updates: false
+[03:14:09] [Server thread/INFO]: Structure Info Saving: true
+[03:14:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[03:14:09] [Server thread/INFO]: Max TNT Explosions: 100
+[03:14:09] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[03:14:09] [Server thread/INFO]: Item Despawn Rate: 1200
+[03:14:09] [Server thread/INFO]: Item Merge Radius: 4.0
+[03:14:09] [Server thread/INFO]: View Distance: 5
+[03:14:09] [Server thread/INFO]: Arrow Despawn Rate: 300
+[03:14:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:14:09] [Server thread/INFO]: Experience Merge Radius: 6.0
+[03:14:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[03:14:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[03:14:09] [Server thread/INFO]: Preparing start region for level 4 (Seed: -5457837770469113298)
+[03:14:10] [Server thread/INFO]: [WorldGuard] (ASkyBlock_nether) TNT ignition is PERMITTED.
+[03:14:10] [Server thread/INFO]: [WorldGuard] (ASkyBlock_nether) Lighters are PERMITTED.
+[03:14:10] [Server thread/INFO]: [WorldGuard] (ASkyBlock_nether) Lava fire is blocked.
+[03:14:10] [Server thread/INFO]: [WorldGuard] (ASkyBlock_nether) All fire spread is disabled.
+[03:14:10] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'ASkyBlock_nether'
+[03:14:10] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: nzstorm
+[03:14:10] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[03:14:10] [Server thread/INFO]: -------- World Settings For [pvp] --------
+[03:14:10] [Server thread/INFO]: Mob Spawn Range: 4
+[03:14:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[03:14:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[03:14:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[03:14:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[03:14:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[03:14:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[03:14:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[03:14:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[03:14:10] [Server thread/INFO]: Vine Growth Modifier: 100%
+[03:14:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[03:14:10] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Mi 8 / Tiv false
+[03:14:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:14:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:14:10] [Server thread/INFO]: Random Lighting Updates: false
+[03:14:10] [Server thread/INFO]: Structure Info Saving: true
+[03:14:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[03:14:10] [Server thread/INFO]: Max TNT Explosions: 100
+[03:14:10] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[03:14:10] [Server thread/INFO]: Item Despawn Rate: 1200
+[03:14:10] [Server thread/INFO]: Item Merge Radius: 4.0
+[03:14:10] [Server thread/INFO]: View Distance: 5
+[03:14:10] [Server thread/INFO]: Arrow Despawn Rate: 300
+[03:14:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:14:10] [Server thread/INFO]: Experience Merge Radius: 6.0
+[03:14:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[03:14:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[03:14:10] [Server thread/INFO]: Preparing start region for level 5 (Seed: -4746787681174857880)
+[03:14:10] [Server thread/INFO]: [WorldGuard] (pvp) TNT ignition is PERMITTED.
+[03:14:10] [Server thread/INFO]: [WorldGuard] (pvp) Lighters are PERMITTED.
+[03:14:10] [Server thread/INFO]: [WorldGuard] (pvp) Lava fire is blocked.
+[03:14:10] [Server thread/INFO]: [WorldGuard] (pvp) All fire spread is disabled.
+[03:14:10] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'pvp'
+[03:14:11] [Server thread/INFO]: [Multiverse-Core] 6 - World(s) loaded.
+[03:14:11] [Server thread/INFO]: [Multiverse-Core] Version 2.5.0-b727 (API v20) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[03:14:11] [Server thread/INFO]: [AuthMe] Hooked successfully into Multiverse-Core
+[03:14:11] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.2.2
+[03:14:11] [Server thread/INFO]: [Shopkeepers] Citizens found, enabling NPC shopkeepers.
+[03:14:12] [Server thread/INFO]: [Shopkeepers] Loading data of 40 shopkeepers..
+[03:14:12] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v4.6.5-2800
+[03:14:12] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Bukkit v1_12_R1 (Minecraft 1.12)...[0m
+[03:14:12] [Server thread/INFO]: [LumineUtils] (io.lumine.utils.) is bound to plugin MythicMobs - io.lumine.xikage.mythicmobs.MythicMobs
+[03:14:12] [Server thread/INFO]: [MythicMobs] MythicMobs NoCheatPlus Support has been enabled![0m
+[03:14:12] [Server thread/WARN]: [MythicMobs] ✗[33m Compatibility Error for '[4mPlaceholderAPI[0m[33m': [37mPlugin not found/incompatible version[0m[0m
+[03:14:12] [Server thread/INFO]: [MythicMobs] MythicMobs SkillAPI Support has been enabled![0m
+[03:14:12] [Server thread/INFO]: [MythicMobs] MythicMobs Vault Support has been enabled![0m
+[03:14:12] [Server thread/INFO]: [MythicMobs] MythicMobs WorldGuard Support has been enabled![0m
+[03:14:12] [Server thread/INFO]: [MythicMobs] [32m✓[37mLoaded 26 mobs.[0m
+[03:14:12] [Server thread/INFO]: [MythicMobs] [32m✓[37mLoaded 3 vanilla mob overrides.[0m
+[03:14:12] [Server thread/INFO]: [MythicMobs] [32m✓[37mLoaded 0 mob stacks.[0m
+[03:14:12] [Server thread/INFO]: [MythicMobs] [32m✓[37mLoaded 6 skills.[0m
+[03:14:12] [Server thread/INFO]: [MythicMobs] [32m✓[37mLoaded 2 random spawns.[0m
+[03:14:12] [Server thread/INFO]: [MythicMobs] [32m✓[37mLoaded 117 mythic items.[0m
+[03:14:12] [Server thread/INFO]: [MythicMobs] [32m✓[37mLoaded 2 drop tables.[0m
+[03:14:12] [Server thread/INFO]: [MythicMobs] [32m✓[37mLoaded 5 mob spawners.[0m
+[03:14:12] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.[0m
+[03:14:13] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics[0m
+[03:14:13] [Server thread/INFO]: [MythicMobs] [32m✓ MythicMobs v4.6.5 (build 2800) has been successfully loaded![0m[0m
+[03:14:13] [Server thread/INFO]: [SupplyCrates] Enabling SupplyCrates v2.3-STABLE
+[03:14:13] [Server thread/INFO]: [SupplyCrates] HolographicDisplaysAPI_v2 found, enabling Hologram support.
+[03:14:13] [Server thread/INFO]: [Quests] Enabling Quests v3.9.4-b${env.BUILD_NUMBER}
+[03:14:13] [Server thread/INFO]: [Quests] Loaded language vi-VN. Translations via Crowdin
+[03:14:13] [Server thread/INFO]: [Quests] Sucessfully linked Quests with Citizens 2.0.22-SNAPSHOT (build 1487)
+[03:14:13] [Server thread/INFO]: [BossShopPro] Enabling BossShopPro v1.9.8
+[03:14:13] [Server thread/INFO]: [BossShopPro] Loading data...
+[03:14:13] [Server thread/INFO]: [BossShopPro] Hooked into PlaceholderAPI.
+[03:14:14] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] Enabling MyPet v3.1
+[03:14:15] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] No Update available.
+[03:14:15] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] Custom entity registry found: net.citizensnpcs.nms.v1_12_R1.util.CustomEntityRegistry
+[03:14:15] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] Compat mode for v1_12_R1 loaded.
+[03:14:15] [Server thread/WARN]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] sweet_berries is not a valid 1.13 item ID! Please check your configs.
+[03:14:15] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] Exp calculation mode: MyPet
+[03:14:15] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] Loading WorldGroups...
+[03:14:15] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet]    added 'world' to 'default'
+[03:14:15] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet]    added 'world_nether' to 'default'
+[03:14:15] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet]    added 'world_the_end' to 'default'
+[03:14:15] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet]    added 'pvp' to 'default'
+[03:14:15] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet]    added 'ASkyBlock' to 'default'
+[03:14:15] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet]    added 'ASkyBlock_nether' to 'default'
+[03:14:16] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] Connect to SQLite database...
+[03:14:16] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] SQLite connection successful.
+[03:14:16] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] BossShopPro (1.9.8) hook activated.
+[03:14:16] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] Citizens (2.0.22-SNAPSHOT (build 1487)) hook activated.
+[03:14:16] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] MythicMobs (4.6.5-2800) hook activated.
+[03:14:16] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] NoCheatPlus (3.16.0-RC-sMD5NET-b1134) hook activated.
+[03:14:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: mypet
+[03:14:16] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] PlaceholderAPI (2.10.9) hook activated.
+[03:14:16] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] ProtocolLib (4.8.0) hook activated.
+[03:14:16] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] SkillAPI (3.108) hook activated.
+[03:14:16] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] Vault (1.7.2-b107) (Economy: EssentialsX Economy) (Permissions: PermissionsEx) hook activated.
+[03:14:16] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] WorldGuard (6.2.2-SNAPSHOT;8eeab68) hook activated.
+[03:14:16] [Server thread/INFO]: [de.Keyle.MyPet.MyPetPlugin] [MyPet] Version 3.10-b1542 ENABLED
+[03:14:16] [Server thread/INFO]: [GuiShopManager] Enabling GuiShopManager v1.1.2
+[03:14:16] [Server thread/INFO]: [BossShopPro] Enabling Addon GuiShopManager
+[03:14:18] [Server thread/INFO]: Done (60.758s)! For help, type "help" or "?"
+[03:14:18] [Server thread/INFO]: Starting GS4 status listener
+[03:14:18] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[03:14:18] [Server thread/INFO]: Timings Reset
+[03:14:18] [Server thread/INFO]: Trying to register generator with Multiverse 
+[03:14:18] [Server thread/INFO]: Multiverse already knows about 'ASkyBlock'!
+[03:14:18] [Server thread/INFO]: Success! Property generator was set to ASkyBlock
+[03:14:18] [Server thread/INFO]: Multiverse already knows about 'ASkyBlock_nether'!
+[03:14:18] [Server thread/INFO]: Success! Property generator was set to ASkyBlock
+[03:14:18] [Server thread/INFO]: [ASkyBlock] Silencing command feedback for Ops...
+[03:14:18] [Server thread/INFO]: Game rule sendCommandFeedback has been updated to false
+[03:14:18] [Server thread/INFO]: [ASkyBlock] If you do not want this, do /gamerule sendCommandFeedback true
+[03:14:18] [Server thread/INFO]: [ASkyBlock] Checking for new updates...
+[03:14:18] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2(340)
+[03:14:18] [Craft Scheduler Thread - 16/INFO]: [Essentials] Fetching version information...
+[03:14:18] [Craft Scheduler Thread - 13/INFO]: [TopBalance] Plugin is up to date, no update found.
+[03:14:18] [Craft Scheduler Thread - 13/INFO]: [TopBalance] Plugin enabled. Thank you for using.
+[03:14:18] [Craft Scheduler Thread - 17/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03:14:18] [Craft Scheduler Thread - 20/INFO]: [Vault] Checking for Updates ... 
+[03:14:18] [Craft Scheduler Thread - 18/INFO]: [Jackpot] There is a new Version of the Plugin: 1.4.5
+[03:14:18] [Craft Scheduler Thread - 17/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03:14:18] [Craft Scheduler Thread - 17/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03:14:18] [Craft Scheduler Thread - 15/INFO]: [GadgetsMenu] Checking for updates...
+[03:14:18] [Craft Scheduler Thread - 10/INFO]: [NoCheatPlus] Added hook: AllViolations(NCP) [1.0].
+[03:14:18] [Craft Scheduler Thread - 10/INFO]: [NoCheatPlus] Added hook: MyPet [1.1].
+[03:14:18] [Craft Scheduler Thread - 10/INFO]: [NoCheatPlus] Added hook: MyPet [1.1].
+[03:14:18] [Craft Scheduler Thread - 10/INFO]: [NoCheatPlus] Added hook: MyPet [1.1].
+[03:14:18] [Craft Scheduler Thread - 7/INFO]: There is a new version available for AnimaBossBar
+[03:14:18] [Craft Scheduler Thread - 7/INFO]: https://www.spigotmc.org/resources/bossbar-spigot-free-bossbar-plugin.59135/
+[03:14:18] [Craft Scheduler Thread - 15/INFO]: [GadgetsMenu] You have an old version of the plugin. You are using 4.3.30, available version 4.6.3.
+[03:14:18] [Craft Scheduler Thread - 17/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[03:14:18] [Server thread/INFO]: [NoCheatPlus] Post-enable running...
+[03:14:18] [Craft Scheduler Thread - 20/WARN]: [Vault] Stable Version: 1.7.3 is out! You are still running version: 1.7.2
+[03:14:18] [Craft Scheduler Thread - 20/WARN]: [Vault] Update at: https://dev.bukkit.org/projects/vault
+[03:14:19] [Craft Scheduler Thread - 16/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.19.4.
+[03:14:19] [Craft Scheduler Thread - 16/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
+[03:14:25] [Server thread/INFO]: [NoCheatPlus] Post-enable finished.
+[03:14:25] [Server thread/INFO]: [AuctionHouse] Registered Service Provider Essentials for Vault's Economy API
+[03:14:25] [Server thread/INFO]: [AuctionHouse] Registered Service Provider Vault for Vault's Chat API
+[03:14:25] [Server thread/INFO]: [ChestCommands] Found a new version: v4.0.3 (yours: v3.1.2)
+[03:14:25] [Server thread/INFO]: [ChestCommands] Download it on Bukkit Dev:
+[03:14:25] [Server thread/INFO]: [ChestCommands] dev.bukkit.org/bukkit-plugins/chest-commands
+[03:14:25] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.2-b107)!
+[03:14:25] [Server thread/INFO]: [InfoBoardReborn] Checking for updates...
+[03:14:25] [Server thread/WARN]: [InfoBoardReborn] Failed to check for updates, because: java.lang.NullPointerException
+[03:14:25] [Server thread/WARN]: java.lang.NullPointerException
+[03:14:25] [Server thread/WARN]: 	at com.infogroup.infoboard.utils.UpdateChecker.toReadable(UpdateChecker.java:83)
+[03:14:25] [Server thread/WARN]: 	at com.infogroup.infoboard.utils.UpdateChecker.checkHigher(UpdateChecker.java:28)
+[03:14:25] [Server thread/WARN]: 	at com.infogroup.infoboard.utils.UpdateChecker.checkUpdate(UpdateChecker.java:43)
+[03:14:25] [Server thread/WARN]: 	at com.infogroup.infoboard.Timers.lambda$start$6(Timers.java:156)
+[03:14:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+[03:14:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:423)
+[03:14:25] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:840)
+[03:14:25] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423)
+[03:14:25] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774)
+[03:14:25] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666)
+[03:14:25] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[03:14:25] [Server thread/INFO]: [WildStacker] Loading providers started...
+[03:14:25] [Server thread/INFO]: [WildStacker]  - Couldn't find any spawners providers, using default one.
+[03:14:25] [Server thread/INFO]: [WildStacker] Using Vault as an economy provider.
+[03:14:25] [Server thread/INFO]: [WildStacker] Found ShopGUIPlus - Hooked as SpawnerProvider!
+[03:14:25] [Server thread/INFO]: [WildStacker] Loading providers done (Took 96ms)
+[03:14:25] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[03:14:26] [Server thread/INFO]: [Citizens] Loaded 55 NPCs.
+[03:14:26] [Server thread/INFO]: [WildStacker] Starting to load entities...
+[03:14:26] [Server thread/INFO]: [WildStacker] Loading entities done! Took 8 ms.
+[03:14:26] [Server thread/INFO]: [WildStacker] Starting to load items...
+[03:14:26] [Server thread/INFO]: [WildStacker] Loading items done! Took 0 ms.
+[03:14:26] [Server thread/INFO]: [WildStacker] Starting to load spawners...
+[03:14:26] [Server thread/INFO]: [WildStacker] Loading spawners done! Took 6 ms.
+[03:14:26] [Server thread/INFO]: [WildStacker] Starting to load barrels...
+[03:14:26] [Server thread/INFO]: [WildStacker] Loading barrels done! Took 12 ms.
+[03:14:26] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.1) is available at:
+[03:14:26] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[03:14:26] [Server thread/INFO]: [ASkyBlock] Loading island grid...
+[03:14:26] [Server thread/INFO]: [ASkyBlock] Loading islands.yml
+[03:14:26] [Server thread/INFO]: [ASkyBlock] Loading warps...
+[03:14:26] [Server thread/INFO]: [ASkyBlock] Loading warp panel...
+[03:14:26] [Server thread/INFO]: [ASkyBlock] Loading Top Ten
+[03:14:26] [Server thread/INFO]: [ASkyBlock] All files loaded. Ready to play...
+[03:14:26] [Server thread/INFO]: [ASkyBlock] Metrics loaded.
+[03:14:26] [Server thread/INFO]: [ASkyBlock] No update available.
+[03:14:26] [Server thread/INFO]: [HolographicDisplays] Found a new version available: v3.0.0
+[03:14:26] [Server thread/INFO]: [HolographicDisplays] Download it on Bukkit Dev:
+[03:14:26] [Server thread/INFO]: [HolographicDisplays] dev.bukkit.org/projects/holographic-displays
+[03:14:26] [Server thread/WARN]: [ViaVersion] There is a newer version available: 4.2.1, you're on: 3.0.1
+[03:14:26] [Server thread/INFO]: [AuctionHouse] Found PlaceholderAPI plugin
+[03:14:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: auctionhouse
+[03:14:26] [Server thread/INFO]: [AuctionHouse] Registered PlaceholderAPI placeholders
+[03:14:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
+[03:14:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: playerpoints
+[03:14:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: lemonmobcoins
+[03:14:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[03:14:27] [Server thread/WARN]: [PAPI] [Javascript-Expansion] File: example.js for Javascript placeholder: example is empty
+[03:14:27] [Server thread/INFO]: [PAPI] [Javascript-Expansion] 0 script loaded!
+[03:14:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript
+[03:14:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: askyblock
+[03:14:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: skillapi
+[03:14:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic
+[03:14:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: Animations
+[03:14:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: quests
+[03:14:27] [Server thread/INFO]: 10 placeholder hooks successfully registered!
+[03:14:28] [Craft Scheduler Thread - 9/INFO]: [BossShopPro] Successfully hooked into Points plugin GadgetsMenu.
+[03:14:28] [Server thread/INFO]: [Quests] Loaded 60 Quest(s), 8 Action(s), 751 Phrase(s)
+[03:14:28] [Server thread/ERROR]: [Quests] Unable to load module from file: SkillAPIModule.jar
+[03:14:28] [Server thread/WARN]: java.lang.reflect.InvocationTargetException
+[03:14:28] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[03:14:28] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[03:14:28] [Server thread/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[03:14:28] [Server thread/WARN]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+[03:14:28] [Server thread/WARN]: 	at me.blackvein.quests.Quests.loadModule(Quests.java:622)
+[03:14:28] [Server thread/WARN]: 	at me.blackvein.quests.Quests.loadModules(Quests.java:556)
+[03:14:28] [Server thread/WARN]: 	at me.blackvein.quests.Quests$2.run(Quests.java:540)
+[03:14:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+[03:14:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:423)
+[03:14:28] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:840)
+[03:14:28] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423)
+[03:14:28] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774)
+[03:14:28] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666)
+[03:14:28] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[03:14:28] [Server thread/WARN]: Caused by: java.lang.NoSuchMethodError: com.sucy.skill.quests.ClassAttributeRequirement.addData(Ljava/lang/String;)V
+[03:14:28] [Server thread/WARN]: 	at com.sucy.skill.quests.ClassAttributeRequirement.<init>(ClassAttributeRequirement.java:28)
+[03:14:28] [Server thread/WARN]: 	... 14 more
+[03:14:28] [Craft Scheduler Thread - 8/INFO]: [TopBalance] Task started, updating..
+[03:14:28] [Server thread/INFO]: [WildStacker] #################################################################
+[03:14:28] [Server thread/INFO]: [WildStacker] ##                                                             ##
+[03:14:28] [Server thread/INFO]: [WildStacker] ## Seems like you're using ASkyBlock, but not the custom fork. ##
+[03:14:28] [Server thread/INFO]: [WildStacker] ##            <The custom fork supports WildStacker>           ##
+[03:14:28] [Server thread/INFO]: [WildStacker] ##           https://github.com/OmerBenGera/askyblock          ##
+[03:14:28] [Server thread/INFO]: [WildStacker] ##                                                             ##
+[03:14:28] [Server thread/INFO]: [WildStacker] #################################################################
+[03:14:29] [Craft Scheduler Thread - 8/INFO]: [TopBalance] Task is over, successfully updated top players. Took 489ms [ 5 player(s) ]
+[03:14:29] [Craft Scheduler Thread - 9/ERROR]: [BossShopPro] Mistake in Config: 'sharpness' is not a valid 'enchantment'. The name/id of the enchantment is not known.
+[03:14:29] [Server thread/INFO]: [Jackpot] Plugin successfully linked with vault!
+[03:14:30] [Craft Scheduler Thread - 9/WARN]: [BossShopPro] Mistake in Config: Itemdata of type 'customskull' with value 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==' can not be added to an item with material 'STAINED_GLASS_PANE'. Don't worry I'll automatically transform the material into 'SKULL_ITEM' with durability '3'.
+[03:14:30] [Craft Scheduler Thread - 20/INFO]: [MoreVault]  NMS Version v1_12_R1 Detected
+[03:14:30] [Craft Scheduler Thread - 20/INFO]: Setup Plugin Metrics Success !
+[03:14:30] [Craft Scheduler Thread - 20/INFO]: [MoreVault] MoreVault Has Been Activated !
+[03:14:30] [Craft Scheduler Thread - 20/INFO]: [MoreVault] #--------- Depedency Loaded ---------#
+[03:14:30] [Craft Scheduler Thread - 20/INFO]: [MoreVault]  Vault:
+[03:14:30] [Craft Scheduler Thread - 20/INFO]: [MoreVault]  - Permissions
+[03:14:30] [Craft Scheduler Thread - 20/INFO]: [MoreVault]  - Economy
+[03:14:30] [Craft Scheduler Thread - 20/INFO]: [MoreVault]  #--------- Depedency Loaded ---------#
+[03:14:32] [Craft Scheduler Thread - 9/ERROR]: [BossShopPro] Mistake in Config: Unable to read itemdata 'lore&7...:null
+[03:14:32] [Craft Scheduler Thread - 9/INFO]: [BossShopPro] Loaded 86 Shops!
+[03:14:32] [Craft Scheduler Thread - 9/INFO]: [BossShopPro] Vault found.
+[03:14:33] [Server thread/INFO]: [MyCommand] found an update for MyCommand. Type /mycommand for more infos.
+[03:15:03] [Server thread/WARN]: [Citizens] Task #547 for Citizens v2.0.22-SNAPSHOT (build 1487) generated an exception
+java.lang.IllegalArgumentException: GameProfile name (Arthurfr_) and skin name (_arthurfr_) do not match.
+	at net.citizensnpcs.npc.skin.Skin.setData(Skin.java:262) ~[?:?]
+	at net.citizensnpcs.npc.skin.Skin.access$600(Skin.java:32) ~[?:?]
+	at net.citizensnpcs.npc.skin.Skin$1.onResult(Skin.java:168) ~[?:?]
+	at net.citizensnpcs.npc.profile.ProfileRequest$1.run(ProfileRequest.java:120) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64) ~[patched_1.12.2.jar:git-Paper-1618]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:423) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:840) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1618]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1618]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+[03:15:18] [Server thread/INFO]: [Mycmd] Found : onl Date : always
+[03:15:18] [Server thread/INFO]: Mobs Killed: bw, 
+[03:15:18] [Server thread/INFO]: [MythicMobs] Spawned 1x bw!
+[03:15:18] [Server thread/INFO]: [Mycmd] Scheduler Update.

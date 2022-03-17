@@ -2034,3 +2034,10 @@
   with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
   can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
   automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 17-03 at 03:14:29 AM (Thu): 'Mistake in Config: ''sharpness'' is not a valid
+  ''enchantment''. The name/id of the enchantment is not known.'
+2022 17-03 at 03:14:30 AM (Thu): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxOGI5YTQzNmEyN2Y4MTNjMjg3ZWI2NzM3OWVmOGFkYmZkYzcwYWZhZjMwNGM0M2IxNjZjZTk4NmRkOCJ9fX0==''
+  can not be added to an item with material ''STAINED_GLASS_PANE''. Don''t worry I''ll
+  automatically transform the material into ''SKULL_ITEM'' with durability ''3''.'
+2022 17-03 at 03:14:31 AM (Thu): 'Mistake in Config: Unable to read itemdata ''lore&7...:null'
